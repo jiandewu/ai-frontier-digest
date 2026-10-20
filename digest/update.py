@@ -185,9 +185,9 @@ def main(argv=None) -> int:
     if api_key:
         summaries = summarize(new, api_key, args.model)
     else:
-        print("GEMINI_API_KEY is not set; storing items without Chinese summaries.")
-        summaries = {item["id"]: {"title_zh": item["title"], "summary_zh": "", "category": "行业动态",
-                                  "importance": "2"} for item in new}
+        # Keep items unseen so they are summarized once the key is configured.
+        print("GEMINI_API_KEY is not set; nothing stored.")
+        summaries = {}
     stored = store_items(data_dir, new, summaries, now)
     if stored:
         rebuild_pages(data_dir, digest_dir, {row["detected_et"][:10] for row in stored})
