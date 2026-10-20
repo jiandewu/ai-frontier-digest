@@ -19,4 +19,4 @@ AI 前沿技术、研究和应用的中文导读：来自研究者博客、实�
 - **实验室**：OpenAI、Google DeepMind、Google Research、Hugging Face
 - **社区**：Hacker News 首页 AI 相关讨论（200 分以上）、Hugging Face Daily Papers（30 赞以上）
 
-完整列表见 [`digest/sources.py`](digest/sources.py)，原始记录在 [`data/items/`](data/items)。中文摘要由 Gemini 根据标题和简介生成，可能有误，请以原文为准。
+完整列表见 [`digest/sources.py`](digest/sources.py)，原始记录在 [`data/items/`](data/items)。
