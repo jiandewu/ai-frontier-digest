@@ -10,7 +10,7 @@ import urllib.request
 
 GEMINI_ENDPOINT = "https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent"
 CATEGORIES = ("模型发布", "研究", "工程实践", "产品与应用", "行业动态", "政策与安全", "观点与访谈")
-BATCH_SIZE = 25
+BATCH_SIZE = 15
 
 SYSTEM_PROMPT = (
     "你是 AI 领域的资深中文编辑，读者是关注 AI 前沿技术和应用的研究者。"
@@ -47,7 +47,7 @@ def response_schema(ids: list[str]) -> dict:
     }
 
 
-def _post(url: str, payload: dict, api_key: str, attempts: int = 3) -> dict:
+def _post(url: str, payload: dict, api_key: str, attempts: int = 4) -> dict:
     data = json.dumps(payload).encode("utf-8")
     headers = {"Content-Type": "application/json", "x-goog-api-key": api_key}
     for attempt in range(attempts):
@@ -60,7 +60,7 @@ def _post(url: str, payload: dict, api_key: str, attempts: int = 3) -> dict:
         except (urllib.error.URLError, TimeoutError):  # read timeouts are not URLError
             if attempt == attempts - 1:
                 raise
-        time.sleep((2, 5, 10)[min(attempt, 2)])
+        time.sleep((5, 15, 30)[min(attempt, 2)])
     raise RuntimeError("unreachable")
 
 
@@ -76,14 +76,29 @@ def summarize_batch(items: list[dict], api_key: str, model: str) -> dict[str, di
             "responseJsonSchema": response_schema([item["id"] for item in items]),
         },
     }
-    body = _post(GEMINI_ENDPOINT.format(model=model), payload, api_key)
+    url = GEMINI_ENDPOINT.format(model=model)
+    try:
+        body = _post(url, payload, api_key)
+    except RuntimeError as exc:
+        if not str(exc).startswith("Gemini HTTP 400"):
+            raise
+        # Gemini sometimes rejects the enum-heavy schema; fall back to plain JSON mode.
+        # Ids and fields are still validated below.
+        del payload["generationConfig"]["responseJsonSchema"]
+        payload["contents"][0]["parts"][0]["text"] = (
+            "按 JSON 返回 {\"items\": [{\"id\", \"titleZh\", \"summaryZh\", \"category\", \"importance\"}]}，"
+            f"category 只能是 {'、'.join(CATEGORIES)}，importance 为 1-5 的整数。\n"
+            + payload["contents"][0]["parts"][0]["text"])
+        body = _post(url, payload, api_key)
     parts = body.get("candidates", [{}])[0].get("content", {}).get("parts", [])
     text = "".join(part.get("text", "") for part in parts if not part.get("thought"))
     if not text:
         raise RuntimeError(f"Gemini returned no text; finishReason={body.get('candidates', [{}])[0].get('finishReason')}")
-    result = {}
+    known, result = {item["id"] for item in items}, {}
     for entry in json.loads(text).get("items", []):
         importance = entry.get("importance")
+        if str(entry.get("id")) not in known:
+            continue
         result[str(entry.get("id"))] = {
             "title_zh": str(entry.get("titleZh", "")).strip(),
             "summary_zh": str(entry.get("summaryZh", "")).strip(),

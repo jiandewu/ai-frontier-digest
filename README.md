@@ -20,7 +20,7 @@ AI 前沿技术、研究和应用的中文导读：来自研究者博客、实�
 
 ## 来源
 
-- **研究者与作者**：Simon Willison、Andrej Karpathy、Lilian Weng、Sebastian Raschka（Ahead of AI）、Nathan Lambert（Interconnects）、Chip Huyen、Eugene Yan、Hamel Husain、Ethan Mollick（One Useful Thing）、Jack Clark（Import AI）、Dwarkesh Patel、Eric Topol（Ground Truths）
+- **研究者与作者**：Simon Willison、Andrej Karpathy、Lilian Weng、Sebastian Raschka（Ahead of AI）、Nathan Lambert（Interconnects）、Chip Huyen、Eugene Yan、Hamel Husain、Ethan Mollick（One Useful Thing）、Jack Clark（Import AI）、Dwarkesh Patel
 - **新闻汇总**：AINews、Latent Space、量子位、宝玉
 - **实验室**：OpenAI、Google DeepMind、Google Research、Hugging Face
 - **社区**：Hacker News 首页 AI 相关讨论（200 分以上）、Hugging Face Daily Papers（30 赞以上）

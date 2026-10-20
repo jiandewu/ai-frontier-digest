@@ -26,9 +26,9 @@ FEEDS = {
     "Eugene Yan": ("https://eugeneyan.com/rss/", "个人博客"),
     "Hamel Husain": ("https://hamel.dev/index.xml", "个人博客"),
     "One Useful Thing": ("https://www.oneusefulthing.org/feed", "个人博客"),
-    "Import AI": ("https://importai.substack.com/feed", "个人博客"),
+    # *.substack.com feeds return 403 to GitHub-hosted runners; use custom domains.
+    "Import AI": ("https://jack-clark.net/feed/", "个人博客"),
     "Dwarkesh Podcast": ("https://www.dwarkesh.com/feed", "个人博客"),
-    "Ground Truths": ("https://erictopol.substack.com/feed", "个人博客"),
     "AINews": ("https://news.smol.ai/rss.xml", "新闻汇总"),
     "Latent Space": ("https://www.latent.space/feed", "新闻汇总"),
     "量子位": ("https://www.qbitai.com/feed", "新闻汇总"),
