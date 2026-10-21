@@ -2,42 +2,25 @@
 
 from __future__ import annotations
 
+import csv
 import html
 import json
 import re
 import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta, timezone
 from email.utils import parsedate_to_datetime
+from pathlib import Path
 
 from .http import get
 
 
 USER_AGENT = "Mozilla/5.0 (compatible; ai-frontier-digest; +https://github.com/jiandewu/ai-frontier-digest)"
 
-# name -> (feed URL, group)
-FEEDS = {
-    "Simon Willison": ("https://simonwillison.net/atom/entries/", "个人博客"),
-    "Andrej Karpathy": ("https://karpathy.bearblog.dev/feed/", "个人博客"),
-    "Andrej Karpathy (blog)": ("https://karpathy.github.io/feed.xml", "个人博客"),
-    "Lilian Weng": ("https://lilianweng.github.io/index.xml", "个人博客"),
-    "Ahead of AI": ("https://magazine.sebastianraschka.com/feed", "个人博客"),
-    "Interconnects": ("https://www.interconnects.ai/feed", "个人博客"),
-    "Chip Huyen": ("https://huyenchip.com/feed.xml", "个人博客"),
-    "Eugene Yan": ("https://eugeneyan.com/rss/", "个人博客"),
-    "Hamel Husain": ("https://hamel.dev/index.xml", "个人博客"),
-    "One Useful Thing": ("https://www.oneusefulthing.org/feed", "个人博客"),
-    # *.substack.com feeds return 403 to GitHub-hosted runners; use custom domains.
-    "Import AI": ("https://jack-clark.net/feed/", "个人博客"),
-    "Dwarkesh Podcast": ("https://www.dwarkesh.com/feed", "个人博客"),
-    "AINews": ("https://news.smol.ai/rss.xml", "新闻汇总"),
-    "Latent Space": ("https://www.latent.space/feed", "新闻汇总"),
-    "量子位": ("https://www.qbitai.com/feed", "新闻汇总"),
-    "宝玉": ("https://baoyu.io/feed.xml", "新闻汇总"),
-    "OpenAI": ("https://openai.com/news/rss.xml", "实验室"),
-    "Google DeepMind": ("https://deepmind.google/blog/rss.xml", "实验室"),
-    "Google Research": ("https://research.google/blog/rss/", "实验室"),
-    "Hugging Face": ("https://huggingface.co/blog/feed.xml", "实验室"),
-}
+# Edit feeds.csv to add or remove feeds (name, group, url, optional note shown in the README).
+# Rows may share a name to merge several feeds into one source.
+# *.substack.com feeds return 403 to GitHub-hosted runners; use custom domains.
+# Sites without their own feed use https://github.com/alan-turing-institute/ai-rss-feeds.
+FEEDS_CSV = Path(__file__).resolve().parents[1] / "feeds.csv"
 MAX_PER_FEED = 10
 HN_URL = "https://hn.algolia.com/api/v1/search?tags=front_page&hitsPerPage=100"
 HN_MIN_POINTS = 200
@@ -46,7 +29,7 @@ HN_PATTERN = re.compile(
     r"Mistral|Grok|Copilot|transformers?|neural|diffusion|machine learning|deep learning|RAG|agentic|"
     r"AI agents?|inference|fine-?tuning|embeddings?|tokens?|reasoning models?)\b", re.IGNORECASE)
 HF_PAPERS_URL = "https://huggingface.co/api/daily_papers?date={date}&limit=100"
-HF_MIN_UPVOTES = 30
+HF_MIN_UPVOTES = 100
 ATOM = "{http://www.w3.org/2005/Atom}"
 
 
@@ -122,14 +105,19 @@ def parse_hf_papers(text: str) -> list[dict]:
     return items
 
 
+def load_feeds(path: Path = FEEDS_CSV) -> list[dict]:
+    with path.open(encoding="utf-8", newline="") as handle:
+        return [row for row in csv.DictReader(handle) if row["url"].strip()]
+
+
 def collect(now: datetime, log=print) -> list[dict]:
     headers = {"User-Agent": USER_AGENT}
     items = []
-    for name, (url, group) in FEEDS.items():
+    for feed in load_feeds():
         try:
-            fetched = parse_feed(get(url, headers), name.split(" (")[0], group)
+            fetched = parse_feed(get(feed["url"], headers), feed["name"], feed["group"])
         except Exception as exc:  # one broken feed must not stop the run
-            log(f"Feed failed: {name}: {type(exc).__name__}: {str(exc)[:200]}")
+            log(f"Feed failed: {feed['name']} ({feed['url']}): {type(exc).__name__}: {str(exc)[:200]}")
             continue
         fetched.sort(key=lambda item: item["published"] or now, reverse=True)
         items += fetched[:MAX_PER_FEED]

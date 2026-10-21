@@ -14,7 +14,7 @@ from datetime import datetime, timedelta
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
-from .sources import collect
+from .sources import HF_MIN_UPVOTES, HN_MIN_POINTS, collect, load_feeds
 from .summarize import summarize
 
 
@@ -22,7 +22,13 @@ NEW_YORK = ZoneInfo("America/New_York")
 ITEM_COLUMNS = ["id", "detected_et", "published_et", "source", "group", "title", "title_zh", "summary_zh",
                 "category", "importance", "score", "link"]
 LOOKBACK_DAYS = 3
-HIGHLIGHT_MIN_IMPORTANCE = 4
+# Pages show a short daily pick, not everything collected; the CSV keeps every summarized item.
+DAILY_PICKS = 10
+PICKS_PER_SOURCE = 2
+PICK_MIN_IMPORTANCE = 3
+# Long-form posts by individual researchers rank above news; the CSV keeps Gemini's raw rating.
+GROUP_BONUS = {"个人博客": 1}
+SOURCE_GROUP_TITLES = {"个人博客": "研究者与作者"}
 
 
 def item_id(link: str) -> str:
@@ -91,10 +97,29 @@ def _link(text: str, url: str) -> str:
     return f"[{_cell(text).replace('[', '(').replace(']', ')')}]({url.replace(' ', '%20').replace(')', '%29')})"
 
 
+def _importance(row: dict) -> int:
+    """Gemini's rating plus the group bonus; off-topic posts (below 3) get no bonus."""
+    base = int(row["importance"] or 0)
+    return min(5, base + GROUP_BONUS.get(row["group"], 0)) if base >= 3 else base
+
+
 def _rank(rows: list[dict]) -> list[dict]:
     """Most important first, newest first within the same importance."""
     newest = sorted(rows, key=lambda row: row["published_et"], reverse=True)
-    return sorted(newest, key=lambda row: -int(row["importance"] or 0))
+    return sorted(newest, key=lambda row: -_importance(row))
+
+
+def pick(rows: list[dict], limit: int = DAILY_PICKS) -> list[dict]:
+    """Top-ranked items, at most PICKS_PER_SOURCE from any one source so no feed floods the page."""
+    picks, per_source = [], Counter()
+    for row in _rank(rows):
+        if _importance(row) < PICK_MIN_IMPORTANCE or per_source[row["source"]] >= PICKS_PER_SOURCE:
+            continue
+        per_source[row["source"]] += 1
+        picks.append(row)
+        if len(picks) == limit:
+            break
+    return picks
 
 
 def _meta(row: dict) -> str:
@@ -105,24 +130,14 @@ def _meta(row: dict) -> str:
 
 
 def render_day(day: str, rows: list[dict]) -> str:
-    rows = _rank(rows)
-    highlights = [row for row in rows if int(row["importance"]) >= HIGHLIGHT_MIN_IMPORTANCE]
-    others = [row for row in rows if int(row["importance"]) < HIGHLIGHT_MIN_IMPORTANCE]
-    lines = [f"# AI 前沿 {day}", "", f"共 {len(rows)} 条，按重要度排序。时间为美东时间。", ""]
-    if highlights:
-        lines += ["## 重点", ""]
-        for row in highlights:
-            lines += [f"### {_link(row['title_zh'], row['link'])}", "", f"{'★' * int(row['importance'])} · {_meta(row)}", ""]
-            if row["summary_zh"]:
-                lines += [row["summary_zh"], ""]
-            if row["title_zh"] != row["title"]:
-                lines += [f"> {row['title']}", ""]
-    if others:
-        lines += ["## 其他", "", "| 重要度 | 标题 | 摘要 | 来源 |", "|---|---|---|---|"]
-        for row in others:
-            lines.append(f"| {'★' * int(row['importance'])} | {_link(row['title_zh'], row['link'])} | "
-                         f"{_cell(row['summary_zh'])} | {_cell(_meta(row))} |")
-        lines.append("")
+    picks = pick(rows)
+    lines = [f"# AI 前沿 {day}", "", f"从当天收集的 {len(rows)} 条中精选 {len(picks)} 条，按重要度排序。时间为美东时间。", ""]
+    for row in picks:
+        lines += [f"## {_link(row['title_zh'], row['link'])}", "", f"{'★' * _importance(row)} · {_meta(row)}", ""]
+        if row["summary_zh"]:
+            lines += [row["summary_zh"], ""]
+        if row["title_zh"] != row["title"]:
+            lines += [f"> {row['title']}", ""]
     return "\n".join(lines)
 
 
@@ -139,16 +154,27 @@ def render_readme_sections(data_dir: Path, digest_dir: Path) -> dict[str, str]:
     rows = load_items(data_dir)
     days = sorted({row["detected_et"][:10] for row in rows}, reverse=True)
     recent = [row for row in rows if row["detected_et"][:10] in days[:2]]
-    top = [row for row in _rank(recent) if int(row["importance"]) >= HIGHLIGHT_MIN_IMPORTANCE][:12]
     latest = ["| 重要度 | 标题 | 摘要 | 来源 |", "|---|---|---|---|"]
-    for row in top:
-        latest.append(f"| {'★' * int(row['importance'])} | {_link(row['title_zh'], row['link'])} | "
+    for row in pick(recent):
+        latest.append(f"| {'★' * _importance(row)} | {_link(row['title_zh'], row['link'])} | "
                       f"{_cell(row['summary_zh'])} | {_cell(row['source'])} |")
     archive = []
     for day in days[:14]:
-        count = sum(1 for row in rows if row["detected_et"][:10] == day)
-        archive.append(f"- [{day}]({digest_dir.as_posix()}/{day[:4]}/{day}.md)：{count} 条")
-    return {"latest": "\n".join(latest), "archive": "\n".join(archive)}
+        count = len(pick([row for row in rows if row["detected_et"][:10] == day]))
+        archive.append(f"- [{day}]({digest_dir.as_posix()}/{day[:4]}/{day}.md)：{count} 条精选")
+    return {"latest": "\n".join(latest), "archive": "\n".join(archive), "sources": render_sources(load_feeds())}
+
+
+def render_sources(feeds: list[dict]) -> str:
+    names: dict[str, list[str]] = {}
+    for feed in feeds:
+        label = f"{feed['name']}（{feed['note']}）" if feed.get("note") else feed["name"]
+        if label not in names.setdefault(feed["group"], []):
+            names[feed["group"]].append(label)
+    lines = [f"- **{SOURCE_GROUP_TITLES.get(group, group)}**：{'、'.join(labels)}" for group, labels in names.items()]
+    lines.append(f"- **社区**：Hacker News 首页 AI 相关讨论（{HN_MIN_POINTS} 分以上）、"
+                 f"Hugging Face Daily Papers（{HF_MIN_UPVOTES} 赞以上）")
+    return "\n".join(lines)
 
 
 def update_readme(path: Path, sections: dict[str, str]) -> None:

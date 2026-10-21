@@ -1,4 +1,5 @@
 import json
+from collections import Counter
 import sys
 import tempfile
 import unittest
@@ -7,9 +8,9 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
-from digest.sources import parse_feed, parse_hf_papers, parse_hn  # noqa: E402
-from digest.update import (NEW_YORK, commit_message, item_id, load_items, rebuild_pages,  # noqa: E402
-                           render_readme_sections, select_new, store_items, update_readme)
+from digest.sources import load_feeds, parse_feed, parse_hf_papers, parse_hn  # noqa: E402
+from digest.update import (NEW_YORK, _importance, commit_message, item_id, load_items, rebuild_pages,  # noqa: E402
+                           pick, render_readme_sections, render_sources, select_new, store_items, update_readme)
 
 
 NOW = datetime(2026, 10, 20, 16, 0, tzinfo=NEW_YORK)
@@ -48,8 +49,26 @@ class SourceTests(unittest.TestCase):
         self.assertEqual([item["link"] for item in items], ["https://x/1"])
         self.assertEqual(items[0]["score"], "900")
 
+    def test_feeds_csv_is_valid(self):
+        feeds = load_feeds()
+        self.assertTrue(feeds)
+        for feed in feeds:
+            self.assertTrue(feed["name"] and feed["group"] and feed["url"].startswith("https://"), feed)
+            self.assertNotIn(".substack.com", feed["url"])  # blocked on GitHub-hosted runners
+        urls = [feed["url"] for feed in feeds]
+        self.assertEqual(len(urls), len(set(urls)))
+
+    def test_render_sources_merges_names_and_notes(self):
+        feeds = [{"name": "A", "group": "个人博客", "url": "u1", "note": ""},
+                 {"name": "A", "group": "个人博客", "url": "u2", "note": ""},
+                 {"name": "B", "group": "个人博客", "url": "u3", "note": "Bob"},
+                 {"name": "Lab", "group": "实验室", "url": "u4", "note": ""}]
+        lines = render_sources(feeds).splitlines()
+        self.assertEqual(lines[:2], ["- **研究者与作者**：A、B（Bob）", "- **实验室**：Lab"])
+        self.assertTrue(lines[2].startswith("- **社区**"))
+
     def test_parse_hf_papers_threshold(self):
-        papers = [{"paper": {"id": "2610.1", "title": "Hot", "upvotes": 45, "ai_summary": "Sum",
+        papers = [{"paper": {"id": "2610.1", "title": "Hot", "upvotes": 145, "ai_summary": "Sum",
                              "submittedOnDailyAt": "2026-10-20T00:00:00.000Z"}},
                   {"paper": {"id": "2610.2", "title": "Cold", "upvotes": 3}}]
         items = parse_hf_papers(json.dumps(papers))
@@ -77,17 +96,30 @@ class UpdateTests(unittest.TestCase):
             rebuild_pages(data, digest, {"2026-10-20"})
             page = (digest / "2026" / "2026-10-20.md").read_text(encoding="utf-8")
             readme = Path(tmp) / "README.md"
-            readme.write_text("<!-- latest:start -->\nold\n<!-- latest:end -->\n<!-- archive:start -->\n<!-- archive:end -->\n",
+            readme.write_text("<!-- latest:start -->\nold\n<!-- latest:end -->\n<!-- archive:start -->\n<!-- archive:end -->\n"
+                              "<!-- sources:start -->\n<!-- sources:end -->\n",
                               encoding="utf-8")
             update_readme(readme, render_readme_sections(data, Path("digest")))
             text = readme.read_text(encoding="utf-8")
-        self.assertIn("### [重大发布 \\| 新模型](https://a)", page)
-        self.assertIn("## 其他", page)
-        self.assertLess(page.index("重大发布"), page.index("一般资讯"))
+        self.assertIn("## [重大发布 \\| 新模型](https://a)", page)
+        self.assertIn("从当天收集的 2 条中精选 1 条", page)
+        self.assertNotIn("一般资讯", page)  # below PICK_MIN_IMPORTANCE
         self.assertNotIn("old", text)
         self.assertIn("★★★★★", text)
         self.assertNotIn("一般资讯", text)
-        self.assertIn("- [2026-10-20](digest/2026/2026-10-20.md)：2 条", text)
+        self.assertIn("- [2026-10-20](digest/2026/2026-10-20.md)：1 条精选", text)
+
+    def test_blog_bonus(self):
+        rows = [{"group": "个人博客", "importance": "3"}, {"group": "个人博客", "importance": "5"},
+                {"group": "个人博客", "importance": "2"}, {"group": "新闻汇总", "importance": "3"}]
+        self.assertEqual([_importance(row) for row in rows], [4, 5, 2, 3])
+
+    def test_pick_caps_per_source_and_total(self):
+        rows = [{"source": source, "group": "实验室", "importance": "4", "published_et": f"2026-10-20 0{n}:00"}
+                for source in "ABCDEFG" for n in range(3)]
+        picks = pick(rows)
+        self.assertEqual(len(picks), 10)
+        self.assertLessEqual(max(Counter(row["source"] for row in picks).values()), 2)
 
     def test_commit_message(self):
         rows = [{"source": "OpenAI"}, {"source": "HF Daily Papers"}, {"source": "HF Daily Papers"}]

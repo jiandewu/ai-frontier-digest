@@ -1,0 +1,20 @@
+name: Check feeds
+
+on:
+  schedule:
+    # 每月 1 日检查一次；有失效或一年未更新的 feed 时 job 失败，GitHub 会发通知。
+    - cron: "17 13 1 * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v7
+
+      - name: Check feeds
+        run: python3 -m digest.check_feeds
