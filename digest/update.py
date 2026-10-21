@@ -72,7 +72,10 @@ def load_items(data_dir: Path) -> list[dict]:
 
 
 def select_new(fetched: list[dict], known_ids: set[str], now: datetime) -> list[dict]:
-    """Unseen items published within the lookback window; undated items are skipped."""
+    """Unseen items published within the lookback window; undated items are skipped.
+
+    Future dates (some feeds round to the end of the month) are treated as now.
+    """
     cutoff = now - timedelta(days=LOOKBACK_DAYS)
     new, seen = [], set(known_ids)
     for item in fetched:
@@ -80,7 +83,7 @@ def select_new(fetched: list[dict], known_ids: set[str], now: datetime) -> list[
         if identifier in seen or not item["published"] or item["published"] < cutoff:
             continue
         seen.add(identifier)
-        new.append({**item, "id": identifier})
+        new.append({**item, "id": identifier, "published": min(item["published"], now)})
     return new
 
 
@@ -268,6 +271,18 @@ def commit_message(stored: list[dict], explained: int = 0) -> str:
     return f"digest: {len(stored)} new item(s) ({detail}{', ...' if len(counts) > 5 else ''}){extra}"
 
 
+def write_summary(path: str, lines: list[str], stored: list[dict], problems: list[str]) -> None:
+    """Markdown run report for the GitHub Actions job summary."""
+    report = ["## Digest run", "", *[f"- {line}" for line in lines], ""]
+    if stored:
+        report += ["| 来源 | 新条目 |", "|---|---|"]
+        report += [f"| {source} | {n} |" for source, n in Counter(row["source"] for row in stored).most_common()]
+        report.append("")
+    report += ["### 问题", "", *([f"- {problem}" for problem in problems] or ["- 无"]), ""]
+    with open(path, "a", encoding="utf-8") as handle:
+        handle.write("\n".join(report))
+
+
 def main(argv=None) -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--data-dir", default="data")
@@ -278,19 +293,25 @@ def main(argv=None) -> int:
     args = parser.parse_args(argv)
 
     data_dir, digest_dir, now = Path(args.data_dir), Path(args.digest_dir), datetime.now(NEW_YORK)
-    fetched = collect(now)
+    problems = []
+
+    def log(message: str) -> None:
+        print(message)
+        problems.append(message)
+
+    fetched = collect(now, log)
     new = select_new(fetched, {row["id"] for row in load_items(data_dir)}, now)
     print(f"Fetched {len(fetched)} item(s); {len(new)} new.")
     api_key = os.environ.get("GEMINI_API_KEY", "")
     if api_key:
-        summaries = summarize(new, api_key, args.model)
+        summaries = summarize(new, api_key, args.model, log)
     else:
         # Keep items unseen so they are summarized once the key is configured.
         print("GEMINI_API_KEY is not set; nothing stored.")
         summaries = {}
     stored = store_items(data_dir, new, summaries, now)
-    grouped = bool(stored) and mark_events(data_dir, api_key, args.model)
-    explained = explain_picks(data_dir, api_key, args.model) if api_key else []
+    grouped = bool(stored) and mark_events(data_dir, api_key, args.model, log)
+    explained = explain_picks(data_dir, api_key, args.model, log) if api_key else []
     changed_days = {row["detected_et"][:10] for row in stored + explained}
     if grouped:
         changed_days |= set(_latest_days(load_items(data_dir)))
@@ -298,9 +319,12 @@ def main(argv=None) -> int:
         rebuild_pages(data_dir, digest_dir, changed_days)
     update_readme(Path(args.readme), render_readme_sections(data_dir, digest_dir))
     message = commit_message(stored, len(explained))
-    print(f"Stored {len(stored)} item(s); {len(new) - len(stored)} left for the next run; "
-          f"explained {len(explained)} pick(s).")
-    print(message)
+    lines = [f"Fetched {len(fetched)} item(s); {len(new)} new.",
+             f"Stored {len(stored)} item(s); {len(new) - len(stored)} left for the next run; "
+             f"explained {len(explained)} pick(s).", message]
+    print("\n".join(lines[1:]))
+    if os.environ.get("GITHUB_STEP_SUMMARY"):
+        write_summary(os.environ["GITHUB_STEP_SUMMARY"], lines, stored, problems)
     if args.message_file:
         Path(args.message_file).write_text(message + "\n", encoding="utf-8")
     return 0

@@ -85,6 +85,10 @@ class UpdateTests(unittest.TestCase):
         new = select_new(fetched, {item_id("https://b")}, NOW)
         self.assertEqual([item["link"] for item in new], ["https://a"])
 
+    def test_select_new_clamps_future_dates(self):
+        new = select_new([_item("https://future", hours_ago=-24 * 10)], set(), NOW)
+        self.assertEqual(new[0]["published"], NOW)
+
     def test_store_render_and_readme(self):
         items = select_new([_item("https://a", 3), _item("https://b", 2), _item("https://c", 1)], set(), NOW)
         summaries = {
