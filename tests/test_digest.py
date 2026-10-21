@@ -1,5 +1,6 @@
 import json
 from collections import Counter
+from unittest import mock
 import sys
 import tempfile
 import unittest
@@ -8,8 +9,9 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
+from digest.fulltext import extract_text  # noqa: E402
 from digest.sources import load_feeds, parse_feed, parse_hf_papers, parse_hn  # noqa: E402
-from digest.update import (NEW_YORK, _importance, commit_message, item_id, load_items, rebuild_pages,  # noqa: E402
+from digest.update import (NEW_YORK, _importance, commit_message, explain_picks, item_id, load_items, rebuild_pages,  # noqa: E402
                            pick, render_readme_sections, render_sources, select_new, store_items, update_readme)
 
 
@@ -121,9 +123,38 @@ class UpdateTests(unittest.TestCase):
         self.assertEqual(len(picks), 10)
         self.assertLessEqual(max(Counter(row["source"] for row in picks).values()), 2)
 
+    def test_extract_text_prefers_article(self):
+        page = ("<html><body><nav>Menu</nav><main>Repo chrome <article><p>Real &amp; long text.</p>"
+                "<script>x()</script></article></main></body></html>")
+        self.assertEqual(extract_text(page), "Real & long text.")
+
+    def test_explain_picks_stores_explanations_and_renders_them(self):
+        items = select_new([_item("https://a", 2), _item("https://b", 1)], set(), NOW)
+        summaries = {item["id"]: {"title_zh": f"标题{n}", "summary_zh": f"短摘要{n}", "category": "研究",
+                                  "importance": "4"} for n, item in enumerate(items)}
+        with tempfile.TemporaryDirectory() as tmp:
+            data, digest = Path(tmp) / "data", Path(tmp) / "digest"
+            store_items(data, items, summaries, NOW)
+            fake_text = {"https://a": "full text", "https://b": ""}  # b is unreadable
+            with mock.patch("digest.update.fetch_text", side_effect=fake_text.get), \
+                 mock.patch("digest.update.explain", side_effect=lambda readable, *_: {
+                     entry["id"]: "通俗解释" for entry in readable}) as explain_mock:
+                explained = explain_picks(data, "key", "model", log=lambda _: None)
+                self.assertEqual([row["link"] for row in explained], ["https://a"])
+                explain_picks(data, "key", "model", log=lambda _: None)  # a is not explained twice
+                self.assertEqual(explain_mock.call_args.args[0], [])
+            rows = {row["link"]: row for row in load_items(data)}
+            self.assertEqual((rows["https://a"]["explain_zh"], rows["https://b"]["explain_zh"]), ("通俗解释", ""))
+            rebuild_pages(data, digest, {"2026-10-20"})
+            page = (digest / "2026" / "2026-10-20.md").read_text(encoding="utf-8")
+        self.assertIn("通俗解释", page)
+        self.assertNotIn("短摘要0", page)
+        self.assertIn("短摘要1", page)
+
     def test_commit_message(self):
         rows = [{"source": "OpenAI"}, {"source": "HF Daily Papers"}, {"source": "HF Daily Papers"}]
         self.assertEqual(commit_message(rows), "digest: 3 new item(s) (HF Daily Papers ×2, OpenAI)")
+        self.assertEqual(commit_message([], 4), "digest: explain 4 pick(s)")
 
 
 if __name__ == "__main__":

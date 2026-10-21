@@ -15,12 +15,13 @@ from pathlib import Path
 from zoneinfo import ZoneInfo
 
 from .sources import HF_MIN_UPVOTES, HN_MIN_POINTS, collect, load_feeds
-from .summarize import summarize
+from .fulltext import fetch_text
+from .summarize import explain, summarize
 
 
 NEW_YORK = ZoneInfo("America/New_York")
 ITEM_COLUMNS = ["id", "detected_et", "published_et", "source", "group", "title", "title_zh", "summary_zh",
-                "category", "importance", "score", "link"]
+                "category", "importance", "score", "link", "explain_zh"]
 LOOKBACK_DAYS = 3
 # Pages show a short daily pick, not everything collected; the CSV keeps every summarized item.
 DAILY_PICKS = 10
@@ -65,6 +66,32 @@ def select_new(fetched: list[dict], known_ids: set[str], now: datetime) -> list[
         seen.add(identifier)
         new.append({**item, "id": identifier})
     return new
+
+
+def update_rows(data_dir: Path, updates: dict[str, dict]) -> None:
+    """Merge fields into stored rows by id, rewriting only the files that change."""
+    for path in sorted((data_dir / "items").rglob("*.csv")):
+        rows = _read_csv(path)
+        if any(row["id"] in updates for row in rows):
+            _write_csv(path, [{**row, **updates.get(row["id"], {})} for row in rows])
+
+
+def explain_picks(data_dir: Path, api_key: str, model: str, log=print) -> list[dict]:
+    """Add full-text explanations to the picks of the two latest days that lack one."""
+    rows = load_items(data_dir)
+    days = sorted({row["detected_et"][:10] for row in rows}, reverse=True)[:2]
+    candidates = [row for day in days for row in pick([row for row in rows if row["detected_et"][:10] == day])
+                  if not row.get("explain_zh")]
+    readable = []
+    for row in candidates:
+        text = fetch_text(row["link"])
+        if text:
+            readable.append({"id": row["id"], "title": row["title"], "text": text})
+        else:
+            log(f"No readable text: {row['link']}")
+    explanations = explain(readable, api_key, model, log)
+    update_rows(data_dir, {identifier: {"explain_zh": text} for identifier, text in explanations.items()})
+    return [row for row in candidates if row["id"] in explanations]
 
 
 def store_items(data_dir: Path, items: list[dict], summaries: dict[str, dict], now: datetime) -> list[dict]:
@@ -134,8 +161,8 @@ def render_day(day: str, rows: list[dict]) -> str:
     lines = [f"# AI 前沿 {day}", "", f"从当天收集的 {len(rows)} 条中精选 {len(picks)} 条，按重要度排序。时间为美东时间。", ""]
     for row in picks:
         lines += [f"## {_link(row['title_zh'], row['link'])}", "", f"{'★' * _importance(row)} · {_meta(row)}", ""]
-        if row["summary_zh"]:
-            lines += [row["summary_zh"], ""]
+        if row.get("explain_zh") or row["summary_zh"]:
+            lines += [row.get("explain_zh") or row["summary_zh"], ""]
         if row["title_zh"] != row["title"]:
             lines += [f"> {row['title']}", ""]
     return "\n".join(lines)
@@ -186,12 +213,13 @@ def update_readme(path: Path, sections: dict[str, str]) -> None:
     path.write_text(text, encoding="utf-8")
 
 
-def commit_message(stored: list[dict]) -> str:
+def commit_message(stored: list[dict], explained: int = 0) -> str:
     if not stored:
-        return "digest: refresh"
+        return f"digest: explain {explained} pick(s)" if explained else "digest: refresh"
     counts = Counter(row["source"] for row in stored)
     detail = ", ".join(f"{source} ×{n}" if n > 1 else source for source, n in counts.most_common(5))
-    return f"digest: {len(stored)} new item(s) ({detail}{', ...' if len(counts) > 5 else ''})"
+    extra = f"; explain {explained} pick(s)" if explained else ""
+    return f"digest: {len(stored)} new item(s) ({detail}{', ...' if len(counts) > 5 else ''}){extra}"
 
 
 def main(argv=None) -> int:
@@ -215,11 +243,14 @@ def main(argv=None) -> int:
         print("GEMINI_API_KEY is not set; nothing stored.")
         summaries = {}
     stored = store_items(data_dir, new, summaries, now)
-    if stored:
-        rebuild_pages(data_dir, digest_dir, {row["detected_et"][:10] for row in stored})
+    explained = explain_picks(data_dir, api_key, args.model) if api_key else []
+    changed_days = {row["detected_et"][:10] for row in stored + explained}
+    if changed_days:
+        rebuild_pages(data_dir, digest_dir, changed_days)
     update_readme(Path(args.readme), render_readme_sections(data_dir, digest_dir))
-    message = commit_message(stored)
-    print(f"Stored {len(stored)} item(s); {len(new) - len(stored)} left for the next run.")
+    message = commit_message(stored, len(explained))
+    print(f"Stored {len(stored)} item(s); {len(new) - len(stored)} left for the next run; "
+          f"explained {len(explained)} pick(s).")
     print(message)
     if args.message_file:
         Path(args.message_file).write_text(message + "\n", encoding="utf-8")
