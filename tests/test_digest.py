@@ -11,7 +11,8 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
 from digest.fulltext import extract_text  # noqa: E402
 from digest.sources import load_feeds, parse_feed, parse_hf_papers, parse_hn  # noqa: E402
-from digest.update import (NEW_YORK, _importance, commit_message, explain_picks, item_id, load_items, rebuild_pages,  # noqa: E402
+from digest.summarize import group_events  # noqa: E402
+from digest.update import (NEW_YORK, mark_events, _importance, commit_message, explain_picks, item_id, load_items, rebuild_pages,  # noqa: E402
                            pick, render_readme_sections, render_sources, select_new, store_items, update_readme)
 
 
@@ -117,7 +118,8 @@ class UpdateTests(unittest.TestCase):
         self.assertEqual([_importance(row) for row in rows], [4, 5, 2, 3])
 
     def test_pick_caps_per_source_and_total(self):
-        rows = [{"source": source, "group": "实验室", "importance": "4", "published_et": f"2026-10-20 0{n}:00"}
+        rows = [{"id": f"{source}{n}", "source": source, "group": "实验室", "importance": "4",
+                 "published_et": f"2026-10-20 0{n}:00"}
                 for source in "ABCDEFG" for n in range(3)]
         picks = pick(rows)
         self.assertEqual(len(picks), 10)
@@ -150,6 +152,34 @@ class UpdateTests(unittest.TestCase):
         self.assertIn("通俗解释", page)
         self.assertNotIn("短摘要0", page)
         self.assertIn("短摘要1", page)
+
+    def test_events_merge_coverage_and_dedupe_picks(self):
+        items = select_new([_item("https://lab/a", 3), _item("https://news/a", 2), _item("https://c", 1)], set(), NOW)
+        sources = ["Lab", "News", "Blog"]
+        items = [{**item, "source": source, "group": "实验室"} for item, source in zip(items, sources)]
+        summaries = {item["id"]: {"title_zh": item["link"], "summary_zh": "", "category": "研究", "importance": "3"}
+                     for item in items}
+        with tempfile.TemporaryDirectory() as tmp:
+            data, digest = Path(tmp) / "data", Path(tmp) / "digest"
+            store_items(data, items, summaries, NOW)
+            same = [items[0]["id"], items[1]["id"]]
+            with mock.patch("digest.update.group_events", return_value=[same]):
+                self.assertTrue(mark_events(data, "key", "model"))
+            rows = load_items(data)
+            picks = pick(rows)
+            rebuild_pages(data, digest, {"2026-10-20"})
+            page = (digest / "2026" / "2026-10-20.md").read_text(encoding="utf-8")
+        self.assertEqual([row["link"] for row in picks], ["https://lab/a", "https://c"])  # one per event
+        self.assertEqual([_importance(row) for row in picks], [4, 3])  # covered by two sources
+        self.assertIn("另见：[News](https://news/a)", page)
+
+    def test_group_events_validates_ids(self):
+        items = [{"id": i, "source": "S", "title_zh": "t", "summary_zh": "s"} for i in "abcd"]
+        reply = [{"ids": ["a", "b", "a"]}, {"ids": ["b", "c"]}, {"ids": ["d", "zz"]}]
+        with mock.patch("digest.summarize._generate", return_value=reply):
+            self.assertEqual(group_events(items, "key", "model"), [["a", "b"]])
+        with mock.patch("digest.summarize._generate", side_effect=RuntimeError("boom")):
+            self.assertIsNone(group_events(items, "key", "model", log=lambda _: None))
 
     def test_commit_message(self):
         rows = [{"source": "OpenAI"}, {"source": "HF Daily Papers"}, {"source": "HF Daily Papers"}]

@@ -163,3 +163,40 @@ def explain(items: list[dict], api_key: str, model: str, log=print) -> dict[str,
         return {}
     return {str(entry["id"]): str(entry.get("explainZh", "")).strip()
             for entry in entries if str(entry.get("id")) in ids and str(entry.get("explainZh", "")).strip()}
+
+
+EVENTS_PROMPT = (
+    "下面是一组 AI 资讯条目。找出报道同一件具体事件的条目（同一次模型或产品发布、同一篇论文、同一项公告），"
+    "每个事件一组。只返回包含两条及以上的组；主题相近但不是同一件事的不要合并。"
+)
+
+
+def group_events(items: list[dict], api_key: str, model: str, log=print) -> list[list[str]] | None:
+    """Groups of ids reporting the same event (each with 2+ ids, no id twice); None if Gemini failed."""
+    if len(items) < 2:
+        return []
+    ids = [item["id"] for item in items]
+    schema = {
+        "type": "object",
+        "properties": {"items": {"type": "array", "items": {
+            "type": "object",
+            "properties": {"ids": {"type": "array", "items": {"type": "string", "enum": ids}}},
+            "required": ["ids"], "additionalProperties": False}}},
+        "required": ["items"], "additionalProperties": False,
+    }
+    candidates = [{"id": item["id"], "source": item["source"], "title": item["title_zh"], "summary": item["summary_zh"]}
+                  for item in items]
+    try:
+        entries = _generate(EVENTS_PROMPT, json.dumps(candidates, ensure_ascii=False), schema,
+                            "按 JSON 返回 {\"items\": [{\"ids\": [...]}]}。", api_key, model)
+    except Exception as exc:
+        log(f"Gemini event grouping failed: {type(exc).__name__}: {str(exc)[:300]}")
+        return None
+    known, seen, groups = set(ids), set(), []
+    for entry in entries:
+        group = [str(identifier) for identifier in dict.fromkeys(entry.get("ids", []))
+                 if str(identifier) in known and str(identifier) not in seen]
+        if len(group) >= 2:
+            seen.update(group)
+            groups.append(group)
+    return groups

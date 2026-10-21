@@ -9,19 +9,19 @@ import argparse
 import csv
 import hashlib
 import os
-from collections import Counter
+from collections import Counter, defaultdict
 from datetime import datetime, timedelta
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
 from .sources import HF_MIN_UPVOTES, HN_MIN_POINTS, collect, load_feeds
 from .fulltext import fetch_text
-from .summarize import explain, summarize
+from .summarize import explain, group_events, summarize
 
 
 NEW_YORK = ZoneInfo("America/New_York")
 ITEM_COLUMNS = ["id", "detected_et", "published_et", "source", "group", "title", "title_zh", "summary_zh",
-                "category", "importance", "score", "link", "explain_zh"]
+                "category", "importance", "score", "link", "explain_zh", "event"]
 LOOKBACK_DAYS = 3
 # Pages show a short daily pick, not everything collected; the CSV keeps every summarized item.
 DAILY_PICKS = 10
@@ -29,6 +29,9 @@ PICKS_PER_SOURCE = 2
 PICK_MIN_IMPORTANCE = 3
 # Long-form posts by individual researchers rank above news; the CSV keeps Gemini's raw rating.
 GROUP_BONUS = {"个人博客": 1}
+# An event covered by two or more sources is hot: one more star, and only its best report is picked.
+COVERAGE_BONUS = 1
+EVENT_CANDIDATES = 60
 SOURCE_GROUP_TITLES = {"个人博客": "研究者与作者"}
 
 
@@ -52,7 +55,20 @@ def _write_csv(path: Path, rows: list[dict]) -> None:
 
 
 def load_items(data_dir: Path) -> list[dict]:
-    return [row for path in sorted((data_dir / "items").rglob("*.csv")) for row in _read_csv(path)]
+    """All stored rows; row["_also"] lists other sources' rows on the same event (not written back)."""
+    rows = [row for path in sorted((data_dir / "items").rglob("*.csv")) for row in _read_csv(path)]
+    events = defaultdict(list)
+    for row in rows:
+        if row.get("event"):
+            events[row["event"]].append(row)
+    for row in rows:
+        also, sources = [], {row["source"]}
+        for other in events.get(row.get("event") or "", []):
+            if other["source"] not in sources:
+                sources.add(other["source"])
+                also.append(other)
+        row["_also"] = also
+    return rows
 
 
 def select_new(fetched: list[dict], known_ids: set[str], now: datetime) -> list[dict]:
@@ -76,11 +92,30 @@ def update_rows(data_dir: Path, updates: dict[str, dict]) -> None:
             _write_csv(path, [{**row, **updates.get(row["id"], {})} for row in rows])
 
 
+def _latest_days(rows: list[dict], count: int = 2) -> list[str]:
+    return sorted({row["detected_et"][:10] for row in rows}, reverse=True)[:count]
+
+
+def mark_events(data_dir: Path, api_key: str, model: str, log=print) -> bool:
+    """Group the two latest days' candidates by event; False if Gemini failed and nothing changed."""
+    rows = load_items(data_dir)
+    days = _latest_days(rows)
+    candidates = [row for row in _rank([row for row in rows if row["detected_et"][:10] in days])
+                  if int(row["importance"] or 0) >= PICK_MIN_IMPORTANCE][:EVENT_CANDIDATES]
+    groups = group_events(candidates, api_key, model, log)
+    if groups is None:
+        return False
+    updates = {row["id"]: {"event": ""} for row in candidates}
+    for ids in groups:
+        updates.update({identifier: {"event": min(ids)} for identifier in ids})
+    update_rows(data_dir, updates)
+    return True
+
+
 def explain_picks(data_dir: Path, api_key: str, model: str, log=print) -> list[dict]:
     """Add full-text explanations to the picks of the two latest days that lack one."""
     rows = load_items(data_dir)
-    days = sorted({row["detected_et"][:10] for row in rows}, reverse=True)[:2]
-    candidates = [row for day in days for row in pick([row for row in rows if row["detected_et"][:10] == day])
+    candidates = [row for day in _latest_days(rows) for row in pick([row for row in rows if row["detected_et"][:10] == day])
                   if not row.get("explain_zh")]
     readable = []
     for row in candidates:
@@ -125,9 +160,11 @@ def _link(text: str, url: str) -> str:
 
 
 def _importance(row: dict) -> int:
-    """Gemini's rating plus the group bonus; off-topic posts (below 3) get no bonus."""
+    """Gemini's rating plus group and coverage bonuses; off-topic posts (below 3) get no bonus."""
     base = int(row["importance"] or 0)
-    return min(5, base + GROUP_BONUS.get(row["group"], 0)) if base >= 3 else base
+    if base < 3:
+        return base
+    return min(5, base + GROUP_BONUS.get(row["group"], 0) + (COVERAGE_BONUS if row.get("_also") else 0))
 
 
 def _rank(rows: list[dict]) -> list[dict]:
@@ -137,10 +174,17 @@ def _rank(rows: list[dict]) -> list[dict]:
 
 
 def pick(rows: list[dict], limit: int = DAILY_PICKS) -> list[dict]:
-    """Top-ranked items, at most PICKS_PER_SOURCE from any one source so no feed floods the page."""
+    """Top-ranked items, one per event and at most PICKS_PER_SOURCE from any one source.
+
+    An event is represented by its most important report, the earliest (usually the original) on ties.
+    """
+    best = {}
+    for row in sorted(rows, key=lambda row: (-_importance(row), row["published_et"])):
+        best.setdefault(row.get("event") or row["id"], row["id"])
     picks, per_source = [], Counter()
     for row in _rank(rows):
-        if _importance(row) < PICK_MIN_IMPORTANCE or per_source[row["source"]] >= PICKS_PER_SOURCE:
+        if (_importance(row) < PICK_MIN_IMPORTANCE or per_source[row["source"]] >= PICKS_PER_SOURCE
+                or best[row.get("event") or row["id"]] != row["id"]):
             continue
         per_source[row["source"]] += 1
         picks.append(row)
@@ -161,6 +205,8 @@ def render_day(day: str, rows: list[dict]) -> str:
     lines = [f"# AI 前沿 {day}", "", f"从当天收集的 {len(rows)} 条中精选 {len(picks)} 条，按重要度排序。时间为美东时间。", ""]
     for row in picks:
         lines += [f"## {_link(row['title_zh'], row['link'])}", "", f"{'★' * _importance(row)} · {_meta(row)}", ""]
+        if row.get("_also"):
+            lines += ["另见：" + "、".join(_link(other["source"], other["link"]) for other in row["_also"]), ""]
         if row.get("explain_zh") or row["summary_zh"]:
             lines += [row.get("explain_zh") or row["summary_zh"], ""]
         if row["title_zh"] != row["title"]:
@@ -243,8 +289,11 @@ def main(argv=None) -> int:
         print("GEMINI_API_KEY is not set; nothing stored.")
         summaries = {}
     stored = store_items(data_dir, new, summaries, now)
+    grouped = bool(stored) and mark_events(data_dir, api_key, args.model)
     explained = explain_picks(data_dir, api_key, args.model) if api_key else []
     changed_days = {row["detected_et"][:10] for row in stored + explained}
+    if grouped:
+        changed_days |= set(_latest_days(load_items(data_dir)))
     if changed_days:
         rebuild_pages(data_dir, digest_dir, changed_days)
     update_readme(Path(args.readme), render_readme_sections(data_dir, digest_dir))
