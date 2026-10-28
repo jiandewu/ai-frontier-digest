@@ -11,6 +11,8 @@ import hashlib
 import os
 from collections import Counter, defaultdict
 from datetime import datetime, timedelta
+from email.utils import format_datetime
+from xml.sax.saxutils import escape
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
@@ -33,6 +35,9 @@ GROUP_BONUS = {"个人博客": 1}
 COVERAGE_BONUS = 1
 EVENT_CANDIDATES = 60
 SOURCE_GROUP_TITLES = {"个人博客": "研究者与作者"}
+SITE_URL = "https://jiande.is-a.si/ai-frontier-digest/"
+# The README archive and the RSS feed both cover this many recent days.
+RECENT_DAYS = 14
 
 
 def item_id(link: str) -> str:
@@ -203,7 +208,11 @@ def _meta(row: dict) -> str:
     return f"{row['source']} · {row['category']} · {row['published_et']}{score}"
 
 
-def render_day(day: str, rows: list[dict]) -> str:
+def _day_link(day: str) -> str:
+    return f"[{day}](../{day[:4]}/{day}.md)"
+
+
+def render_day(day: str, rows: list[dict], prev_day: str = "", next_day: str = "") -> str:
     picks = pick(rows)
     lines = [f"# AI 前沿 {day}", "", f"从当天收集的 {len(rows)} 条中精选 {len(picks)} 条，按重要度排序。时间为美东时间。", ""]
     for row in picks:
@@ -214,16 +223,29 @@ def render_day(day: str, rows: list[dict]) -> str:
             lines += [row.get("explain_zh") or row["summary_zh"], ""]
         if row["title_zh"] != row["title"]:
             lines += [f"> {row['title']}", ""]
+    nav = [f"← {_day_link(prev_day)}" if prev_day else "", f"{_day_link(next_day)} →" if next_day else ""]
+    if any(nav):
+        lines += ["---", "", " · ".join(part for part in nav if part), ""]
     return "\n".join(lines)
 
 
 def rebuild_pages(data_dir: Path, digest_dir: Path, days: set[str]) -> None:
+    """Rebuild the given days and their neighbors, whose previous/next links may point at a new day."""
     rows = load_items(data_dir)
-    for day in days:
+    all_days = sorted({row["detected_et"][:10] for row in rows})
+    targets = set()
+    for i, day in enumerate(all_days):
+        if day in days:
+            targets.update(all_days[max(i - 1, 0):i + 2])
+    for i, day in enumerate(all_days):
+        if day not in targets:
+            continue
         day_rows = [row for row in rows if row["detected_et"][:10] == day]
+        prev_day = all_days[i - 1] if i > 0 else ""
+        next_day = all_days[i + 1] if i + 1 < len(all_days) else ""
         path = digest_dir / day[:4] / f"{day}.md"
         path.parent.mkdir(parents=True, exist_ok=True)
-        path.write_text(render_day(day, day_rows), encoding="utf-8")
+        path.write_text(render_day(day, day_rows, prev_day, next_day), encoding="utf-8")
 
 
 def render_readme_sections(data_dir: Path, digest_dir: Path) -> dict[str, str]:
@@ -235,10 +257,46 @@ def render_readme_sections(data_dir: Path, digest_dir: Path) -> dict[str, str]:
         latest.append(f"| {'★' * _importance(row)} | {_link(row['title_zh'], row['link'])} | "
                       f"{_cell(row['summary_zh'])} | {_cell(row['source'])} |")
     archive = []
-    for day in days[:14]:
+    for day in days[:RECENT_DAYS]:
         count = len(pick([row for row in rows if row["detected_et"][:10] == day]))
         archive.append(f"- [{day}]({digest_dir.as_posix()}/{day[:4]}/{day}.md)：{count} 条精选")
     return {"latest": "\n".join(latest), "archive": "\n".join(archive), "sources": render_sources(load_feeds())}
+
+
+def render_feed(data_dir: Path) -> str:
+    """RSS 2.0 of the recent daily picks, newest day first; no build time, so unchanged picks give an unchanged file."""
+    rows = load_items(data_dir)
+    days = sorted({row["detected_et"][:10] for row in rows}, reverse=True)[:RECENT_DAYS]
+    items = []
+    for day in days:
+        page = f"{SITE_URL}digest/{day[:4]}/{day}.html"
+        for row in pick([row for row in rows if row["detected_et"][:10] == day]):
+            published = datetime.strptime(row["published_et"], "%Y-%m-%d %H:%M").replace(tzinfo=NEW_YORK)
+            # The description is HTML, escaped once more to sit inside XML.
+            body = (f"<p>{escape(row.get('explain_zh') or row['summary_zh'])}</p>"
+                    f"<p>{'★' * _importance(row)} · {escape(row['source'])} · <a href=\"{page}\">{day} 精选</a></p>")
+            items.append("\n".join([
+                "<item>",
+                f"<title>{escape(row['title_zh'])}</title>",
+                f"<link>{escape(row['link'])}</link>",
+                f'<guid isPermaLink="false">{row["id"]}</guid>',
+                f"<pubDate>{format_datetime(published)}</pubDate>",
+                f"<description>{escape(body)}</description>",
+                "</item>",
+            ]))
+    return "\n".join([
+        '<?xml version="1.0" encoding="UTF-8"?>',
+        '<rss version="2.0">',
+        "<channel>",
+        "<title>AI 前沿导读</title>",
+        f"<link>{SITE_URL}</link>",
+        "<description>每天精选 10 条以内最值得一读的 AI 前沿进展，附中文科普解释。</description>",
+        "<language>zh-CN</language>",
+        *items,
+        "</channel>",
+        "</rss>",
+        "",
+    ])
 
 
 def render_sources(feeds: list[dict]) -> str:
@@ -289,6 +347,7 @@ def main(argv=None) -> int:
     parser.add_argument("--data-dir", default="data")
     parser.add_argument("--digest-dir", default="digest")
     parser.add_argument("--readme", default="README.md")
+    parser.add_argument("--feed", default="feed.xml")
     parser.add_argument("--model", default=os.environ.get("GEMINI_MODEL") or "gemini-3.8-flash")
     parser.add_argument("--message-file", default=os.environ.get("COMMIT_MESSAGE_FILE", ""))
     args = parser.parse_args(argv)
@@ -319,6 +378,7 @@ def main(argv=None) -> int:
     if changed_days:
         rebuild_pages(data_dir, digest_dir, changed_days)
     update_readme(Path(args.readme), render_readme_sections(data_dir, digest_dir))
+    Path(args.feed).write_text(render_feed(data_dir), encoding="utf-8")
     message = commit_message(stored, len(explained))
     lines = [f"Fetched {len(fetched)} item(s); {len(new)} new.",
              f"Stored {len(stored)} item(s); {len(new) - len(stored)} left for the next run; "

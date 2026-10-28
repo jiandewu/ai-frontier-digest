@@ -1,4 +1,5 @@
 import json
+import xml.etree.ElementTree as ET
 from collections import Counter
 from unittest import mock
 import sys
@@ -13,7 +14,8 @@ from digest.fulltext import extract_text  # noqa: E402
 from digest.sources import load_feeds, parse_feed, parse_hf_papers, parse_hn  # noqa: E402
 from digest.summarize import group_events  # noqa: E402
 from digest.update import (NEW_YORK, mark_events, _importance, commit_message, explain_picks, item_id, load_items, rebuild_pages,  # noqa: E402
-                           pick, render_readme_sections, render_sources, select_new, store_items, update_readme)
+                           pick, render_feed, render_readme_sections, render_sources, select_new, store_items,
+                           update_readme)
 
 
 NOW = datetime(2026, 10, 20, 16, 0, tzinfo=NEW_YORK)
@@ -116,6 +118,30 @@ class UpdateTests(unittest.TestCase):
         self.assertIn("★★★★★", text)
         self.assertNotIn("一般资讯", text)
         self.assertIn("- [2026-10-20](digest/2026/2026-10-20.md)：1 条精选", text)
+
+    def test_day_navigation_and_feed(self):
+        later = NOW + timedelta(days=1)
+        day1 = select_new([_item("https://a", 3)], set(), NOW)
+        day2 = select_new([_item("https://b & c", 3 - 24)], set(), later)
+        summary = {"title_zh": "新模型 <发布>", "summary_zh": "摘要", "category": "模型发布", "importance": "4"}
+        with tempfile.TemporaryDirectory() as tmp:
+            data, digest = Path(tmp) / "data", Path(tmp) / "digest"
+            store_items(data, day1, {day1[0]["id"]: summary}, NOW)
+            rebuild_pages(data, digest, {"2026-10-20"})
+            self.assertNotIn("→", (digest / "2026" / "2026-10-20.md").read_text(encoding="utf-8"))
+            store_items(data, day2, {day2[0]["id"]: summary}, later)
+            rebuild_pages(data, digest, {"2026-10-21"})  # the earlier page gains its next link
+            first = (digest / "2026" / "2026-10-20.md").read_text(encoding="utf-8")
+            second = (digest / "2026" / "2026-10-21.md").read_text(encoding="utf-8")
+            feed = render_feed(data)
+        self.assertIn("[2026-10-21](../2026/2026-10-21.md) →", first)
+        self.assertIn("← [2026-10-20](../2026/2026-10-20.md)", second)
+        root = ET.fromstring(feed)
+        items = root.findall("./channel/item")
+        self.assertEqual([item.findtext("link") for item in items], ["https://b & c", "https://a"])
+        self.assertEqual(items[0].findtext("title"), "新模型 <发布>")
+        self.assertIn('<a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-10-21.html">',
+                      items[0].findtext("description"))
 
     def test_blog_bonus(self):
         rows = [{"group": "个人博客", "importance": "3"}, {"group": "个人博客", "importance": "5"},

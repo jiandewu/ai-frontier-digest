@@ -7,12 +7,17 @@
 <meta name="description" content="{{ site.description }}">
 <link rel="stylesheet" href="/style.css">
 <link rel="stylesheet" href="{{ '/assets/digest.css' | relative_url }}">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ '/feed.xml' | relative_url }}">
 </head>
 <body>
 <header class="wrap topbar">
   <a href="/zh/">Jiande Wu</a>
   <nav>
     <a href="{{ '/' | relative_url }}">AI 前沿导读</a>
+    <a href="{{ '/feed.xml' | relative_url }}"><svg class="icon stroke" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 11a9 9 0 0 1 9 9"/><path d="M4 4a16 16 0 0 1 16 16"/><circle cx="5" cy="19" r="1"/></svg>RSS</a>
     <a href="/" lang="en"><svg class="icon stroke" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/></svg>English</a>
   </nav>
 </header>
@@ -24,5 +29,6 @@
 <footer class="wrap">
   <p>源码：<a href="https://github.com/jiandewu/ai-frontier-digest">GitHub</a></p>
 </footer>
+<script data-goatcounter="https://jiande.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
 </body>
 </html>

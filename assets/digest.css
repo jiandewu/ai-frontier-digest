@@ -1,11 +1,4 @@
-/* Builds on the main site's /style.css (colors, fonts, .wrap, footer). */
-
-.topbar {
-  display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px 18px;
-  padding-top: 20px; padding-bottom: 14px; border-bottom: 1px solid var(--line);
-  font-size: 0.95rem;
-}
-.topbar nav { display: flex; gap: 18px; }
+/* Builds on the main site's /style.css (colors, fonts, .wrap, .topbar, footer). */
 
 .content h1 { font-size: 1.7rem; margin: 28px 0 12px; }
 .content h2 {

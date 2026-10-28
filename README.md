@@ -2,6 +2,8 @@
 
 AI 前沿的中文科普导读：每天从研究者博客、实验室新闻、Hacker News 和 Hugging Face 热门论文中精选最值得一读的 10 条以内，每条附通俗的中文标题、摘要、类别和重要度（★1–5）。
 
+网页版：<https://jiande.is-a.si/ai-frontier-digest/>，订阅：[RSS](https://jiande.is-a.si/ai-frontier-digest/feed.xml)。
+
 ## 最新精选
 
 <!-- latest:start -->
