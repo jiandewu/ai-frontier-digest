@@ -5,6 +5,7 @@ AI 前沿的中文科普导读：每天从研究者博客、实验室新闻、Ha
 ## 最新精选
 
 <!-- latest:start -->
+
 | 重要度 | 标题 | 摘要 | 来源 |
 |---|---|---|---|
 | ★★★★★ | [Google DeepMind 发布 Genie 4：新一代实时超写实世界模拟器](https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/) | Google DeepMind 推出全新的世界模型 Genie 4，能够在实时交互模拟中呈现前所未有的超高逼真度。世界模型即能理解物理规律并预测环境变化的 AI 系统，该技术对于具身智能与交互式虚拟世界构建具有重大价值。 | Google DeepMind |
@@ -17,11 +18,13 @@ AI 前沿的中文科普导读：每天从研究者博客、实验室新闻、Ha
 | ★★★ | [Anthropic团队揭秘：如何用Claude打造Claude平台](https://latent.space/p/opus55/) | Anthropic工程团队分享了Claude平台的工程架构实践，重点阐述了如何将模型的推理“大脑”与执行工具的“双手”解耦以构建可靠的AI智能体。对理解企业级Agent系统架构设计很有启发。 | Latent Space |
 | ★★★ | [Google 提出睡眠机制框架：助力大语言模型在持续学习中保留旧知识](https://research.google/blog/the-sleep-framework-a-new-way-for-llms-to-retain-knowledge-in-continual-learning/) | Google Research 探索了一种名为睡眠机制的新框架，旨在解决大语言模型在持续吸收新知识时容易遗忘旧知识的问题。该机制借鉴生物大脑在睡眠中巩固记忆的原理，提升模型的终身学习能力。 | Google Research |
 | ★★★ | [大语言模型能否准确评估科研构想的新颖性？](https://huggingface.co/blog/allenai/novelty-bench) | 该研究探讨了大模型作为科研评审工具的可信度，专门测试其在识别研究 Idea 原创性与创新度方面的表现，对未来 AI 辅助科研和学术同行评议具有重要参考意义。 | Hugging Face |
+
 <!-- latest:end -->
 
 ## 每日汇总
 
 <!-- archive:start -->
+
 - [2026-10-28](digest/2026/2026-10-28.md)：10 条精选
 - [2026-10-27](digest/2026/2026-10-27.md)：4 条精选
 - [2026-10-26](digest/2026/2026-10-26.md)：10 条精选
@@ -31,15 +34,18 @@ AI 前沿的中文科普导读：每天从研究者博客、实验室新闻、Ha
 - [2026-10-22](digest/2026/2026-10-22.md)：5 条精选
 - [2026-10-21](digest/2026/2026-10-21.md)：10 条精选
 - [2026-10-20](digest/2026/2026-10-20.md)：10 条精选
+
 <!-- archive:end -->
 
 ## 来源
 
 <!-- sources:start -->
+
 - **研究者与作者**：Simon Willison、Andrej Karpathy、Lilian Weng、Ahead of AI（Sebastian Raschka）、Interconnects（Nathan Lambert）、Eugene Yan、Hamel Husain、One Useful Thing（Ethan Mollick）、Import AI（Jack Clark）、Dwarkesh Podcast（Dwarkesh Patel）、Jason Wei、arg min（Ben Recht）、AI as Normal Technology（Arvind Narayanan & Sayash Kapoor）、Sander Dieleman、Tim Dettmers、Phil Schmid、Vicki Boykis、Armin Ronacher、Understanding AI（Timothy B. Lee）
 - **新闻汇总**：Latent Space、量子位、宝玉
 - **实验室**：OpenAI、Google DeepMind、Google Research、Hugging Face、Thinking Machines、Anthropic、Mistral AI、xAI、AISI（UK AI Security Institute）
 - **社区**：Hacker News 首页 AI 相关讨论（200 分以上）、Hugging Face Daily Papers（100 赞以上）
+
 <!-- sources:end -->
 
 来源列表在 [`feeds.csv`](https://github.com/jiandewu/ai-frontier-digest/blob/main/feeds.csv)，增删一行即可；`python3 -m digest.check_feeds` 列出失效或长期未更新的 feed。原始记录在 [`data/items/`](https://github.com/jiandewu/ai-frontier-digest/tree/main/data/items)。

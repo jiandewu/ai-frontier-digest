@@ -258,7 +258,8 @@ def update_readme(path: Path, sections: dict[str, str]) -> None:
     for name, body in sections.items():
         start, end = f"<!-- {name}:start -->", f"<!-- {name}:end -->"
         head, rest = text.split(start, 1)
-        text = f"{head}{start}\n{body}\n{end}{rest.split(end, 1)[1]}"
+        # Blank lines keep kramdown (GitHub Pages) from folding a table under the comment into a paragraph.
+        text = f"{head}{start}\n\n{body}\n\n{end}{rest.split(end, 1)[1]}"
     path.write_text(text, encoding="utf-8")
 
 

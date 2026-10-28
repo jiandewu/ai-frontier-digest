@@ -112,6 +112,7 @@ class UpdateTests(unittest.TestCase):
         self.assertIn("从当天收集的 2 条中精选 1 条", page)
         self.assertNotIn("一般资讯", page)  # below PICK_MIN_IMPORTANCE
         self.assertNotIn("old", text)
+        self.assertIn("<!-- latest:start -->\n\n| 重要度 |", text)
         self.assertIn("★★★★★", text)
         self.assertNotIn("一般资讯", text)
         self.assertIn("- [2026-10-20](digest/2026/2026-10-20.md)：1 条精选", text)
