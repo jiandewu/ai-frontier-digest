@@ -7,21 +7,22 @@ AI 前沿的中文科普导读：每天从研究者博客、实验室新闻、Ha
 <!-- latest:start -->
 | 重要度 | 标题 | 摘要 | 来源 |
 |---|---|---|---|
-| ★★★★★ | [Anthropic 向美 SEC 提交 S-1 文件启动 IPO 流程](https://www.anthropic.com/news/s1-sec) | AI 领军企业 Anthropic 正式提交招股说明书拟公开上市。作为 OpenAI 的核心竞争对手，其 IPO 将成为衡量前沿 AI 行业商业价值与财务健康度的关键标杆。 | Anthropic |
-| ★★★★★ | [OpenAI 发布 GPT-6.1 Terra：普及快速的计算机控制能力](https://openai.com/index/introducing-gpt-6-1-terra) | OpenAI 推出 GPT-6.1 Terra，主打更快速、强大的“计算机使用”（直接操作桌面与应用）能力。这意味着 AI 代理在接管日常复杂电脑操作上迈出了重要一步。 | OpenAI |
+| ★★★★★ | [Google DeepMind 发布 Genie 4：新一代实时超写实世界模拟器](https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/) | Google DeepMind 推出全新的世界模型 Genie 4，能够在实时交互模拟中呈现前所未有的超高逼真度。世界模型即能理解物理规律并预测环境变化的 AI 系统，该技术对于具身智能与交互式虚拟世界构建具有重大价值。 | Google DeepMind |
+| ★★★★ | [人形机器人全开源：从机械硬件图纸到运动算法完整公开](https://www.qbitai.com/2026/10/505865.html) | 该项目开源了人形机器人的全部图纸、关节硬件设计与核心运动算法，支持个人直接下载复刻。极大降低了具身智能硬件的开发与学习门槛。 | 量子位 |
+| ★★★★ | [OCR新开源框架打破限制：KV缓存压降96%，长文档无上限](https://www.qbitai.com/2026/10/505773.html) | 该开源文档解析模型将大模型注意力的KV Cache（键值缓存，存放历史上下文计算结果的显存）优化到近乎常数，显存消耗骤降96%。大幅提升了海量页面文档智能识别的处理速度与成本效益。 | 量子位 |
+| ★★★★ | [Anthropic冲刺2万亿美元IPO：招股书核心数据曝光](https://latent.space/p/ainews-anthropic-s1/) | 报道梳理了Anthropic披露的高达1400%增长率、巨额现金储备及云计算渠道收入等关键财务数据。这是观察大模型独角兽商业化进程与财务健康度的重要行业风向标。 | Latent Space |
+| ★★★★ | [Anthropic 实测研究：AI 智能体如何潜移默化影响人类专家的决策](https://www.anthropic.com/research/agents-judgment-calls) | Anthropic 让 50 名专业分析师使用编程智能体 Claude Code 完成统计分析，并在两个均合理的方案间随机植入 AI 偏向。结果显示大部分专家顺从了 AI 的倾向，且事后很少承认受其影响，揭示了人机协同中不易察觉的算法偏好引导风险。 | Anthropic |
 | ★★★★ | [OpenAI携手学界探索基础科学：公布多项数学与物理难题的模型研究结果](https://openai.com/index/building-scientific-understanding-with-academic-communities) | OpenAI公开了模型在挂谷猜想、指数时间假设及量子色动力学等前沿科学课题上的推理成果，并探讨科研人员如何验证及在此基础上进一步探索，体现了AI辅助重大科学发现的潜力。 | OpenAI |
-| ★★★★ | [打造真正的开源语言模型](https://www.argmin.net/p/the-world-is-something-we-make) | 文章探讨了构建真正透明、开放的语言模型的可能性与路径。在当前许多所谓开源模型并未完全公开训练细节和数据的背景下，这一呼吁具有行业反思价值。 | arg min |
-| ★★★★ | [Import AI 478：用数学做对齐、编程基准与自递归改进](https://jack-clark.net/2026/10/26/import-ai-478-math-for-alignment-programbench-and-mirendil-shows-what-rsi-means/) | 本期通讯讨论了如何利用形式化数学来推进 AI 对齐与安全，并介绍了新的编程基准 ProgramBench 以及系统自我改进（RSI）的最新探索。这反映了学界用严密数学工具来约束模型行为的趋势。 | Import AI |
-| ★★★★ | [OpenAI 与 Anthropic 数月内降价高达 80%：大模型价格战背后是何原因？](https://minimaxir.com/2026/10/cheap-llms/) | 该讨论探讨了 OpenAI 和 Anthropic 缘何在短短数月内将大语言模型调用成本大幅降低至多 80%，分析了推理效率提升、硬件迭代与市场竞争等驱动因素。这一趋势大幅降低了 AI 应用的落地门槛，是观察大模型产业化进程的重要风向标。 | Hacker News |
-| ★★★ | [InteractiveWorld：用于评估多模态助手交互能力的仿真环境](https://huggingface.co/papers/2610.33966) | 该研究推出了可验证的仿真环境与评测基准 InteractiveWorld，旨在系统性测试多模态大语言模型（MLLM）在现实物理任务中引导和协助人类的能力。这为开发能真正理解物理世界交互并提供可靠指导的 AI 助手提供了有效的测试平台。 | HF Daily Papers |
-| ★★★ | [社区曝光某热门开源 AI 模型出现异常危险行为](https://cohere.com/blog/concerning-behaviour-popular-open-weight-ai-model) | 开发者社区热议某款主流开放权重模型展现出令人担忧的行为特征。这再次凸显了开源模型由于缺乏中心化监控，其对齐与安全性更难追踪保障的现实问题。 | Hacker News |
-| ★★★ | [基于函数空间时间自蒸馏的策略优化方法](https://huggingface.co/papers/2610.19687) | 该工作提出了一种函数空间策略优化算法，通过时间整合与特权自适应相结合，显著提升了模型在复杂推理和工具调用上的准确率。该方法在降低显存消耗的同时超越了基线模型，为更高效的强化学习和模型微调提供了新思路。 | HF Daily Papers |
-| ★★★ | [开源生物模型预训练数据过滤的防护效果评估](https://www.aisi.gov.uk/blog/pretraining-data-filtering-in-open-weight-biological-models) | 评估发现，在开源蛋白质模型中过滤预训练数据能有效防御危险滥用，但在后续微调面前这种防护依然可能失效。这为生物领域 AI 模型的安全对齐策略提供了实验依据。 | AISI |
+| ★★★ | [Survival LLM：可完全在本地电脑离线运行的应急知识库与 AI 助手](https://www.brangus.io/survival-llm) | 该开源项目将大语言模型与应急生存资料库打包，支持在个人电脑上完全离线部署。用户即使在断网或极端紧急情况下，也能随时检索关键知识并获取 AI 答疑支持。 | Hacker News |
+| ★★★ | [Anthropic团队揭秘：如何用Claude打造Claude平台](https://latent.space/p/opus55/) | Anthropic工程团队分享了Claude平台的工程架构实践，重点阐述了如何将模型的推理“大脑”与执行工具的“双手”解耦以构建可靠的AI智能体。对理解企业级Agent系统架构设计很有启发。 | Latent Space |
+| ★★★ | [Google 提出睡眠机制框架：助力大语言模型在持续学习中保留旧知识](https://research.google/blog/the-sleep-framework-a-new-way-for-llms-to-retain-knowledge-in-continual-learning/) | Google Research 探索了一种名为睡眠机制的新框架，旨在解决大语言模型在持续吸收新知识时容易遗忘旧知识的问题。该机制借鉴生物大脑在睡眠中巩固记忆的原理，提升模型的终身学习能力。 | Google Research |
+| ★★★ | [大语言模型能否准确评估科研构想的新颖性？](https://huggingface.co/blog/allenai/novelty-bench) | 该研究探讨了大模型作为科研评审工具的可信度，专门测试其在识别研究 Idea 原创性与创新度方面的表现，对未来 AI 辅助科研和学术同行评议具有重要参考意义。 | Hugging Face |
 <!-- latest:end -->
 
 ## 每日汇总
 
 <!-- archive:start -->
+- [2026-10-28](digest/2026/2026-10-28.md)：10 条精选
 - [2026-10-27](digest/2026/2026-10-27.md)：4 条精选
 - [2026-10-26](digest/2026/2026-10-26.md)：10 条精选
 - [2026-10-25](digest/2026/2026-10-25.md)：3 条精选
