@@ -42,4 +42,4 @@ AI 前沿的中文科普导读：每天从研究者博客、实验室新闻、Ha
 - **社区**：Hacker News 首页 AI 相关讨论（200 分以上）、Hugging Face Daily Papers（100 赞以上）
 <!-- sources:end -->
 
-来源列表在 [`feeds.csv`](feeds.csv)，增删一行即可；`python3 -m digest.check_feeds` 列出失效或长期未更新的 feed。原始记录在 [`data/items/`](data/items)。
+来源列表在 [`feeds.csv`](https://github.com/jiandewu/ai-frontier-digest/blob/main/feeds.csv)，增删一行即可；`python3 -m digest.check_feeds` 列出失效或长期未更新的 feed。原始记录在 [`data/items/`](https://github.com/jiandewu/ai-frontier-digest/tree/main/data/items)。
