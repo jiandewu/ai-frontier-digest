@@ -6,6 +6,13 @@
 <description>每天精选 10 条以内最值得一读的 AI 前沿进展，附中文科普解释。</description>
 <language>zh-CN</language>
 <item>
+<title>Google DeepMind发布下一代前沿模型Gemini 4 Carbon</title>
+<link>https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/</link>
+<guid isPermaLink="false">34b0bf3f94c3</guid>
+<pubDate>Wed, 28 Oct 2026 13:00:00 -0400</pubDate>
+<description>&lt;p&gt;Gemini 4 Carbon 是 Google DeepMind 推出的前沿模型，专注于应对长流程工程任务并大幅强化了网络安全攻防能力。它通过多层安全防护、改进训练对齐以减少捷径作弊与幻觉，能在真实编码环境中支撑持续数天的多步骤故障排查与补丁编写。该模型在漏洞发现、利用验证与补丁修复等关键安全基准上均刷新纪录，但目前仅向部分安全防御者和受信任伙伴内测开放，后续才会推向更广泛的开发者与用户。&lt;/p&gt;&lt;p&gt;★★★★★ · Google DeepMind · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-10-28.html"&gt;2026-10-28 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
 <title>Google DeepMind 发布 Genie 4：新一代实时超写实世界模拟器</title>
 <link>https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/</link>
 <guid isPermaLink="false">5ef94984dce4</guid>
@@ -13,67 +20,60 @@
 <description>&lt;p&gt;Google DeepMind 推出全新的世界模型 Genie 4，能够在实时交互模拟中呈现前所未有的超高逼真度。世界模型即能理解物理规律并预测环境变化的 AI 系统，该技术对于具身智能与交互式虚拟世界构建具有重大价值。&lt;/p&gt;&lt;p&gt;★★★★★ · Google DeepMind · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-10-28.html"&gt;2026-10-28 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
+<title>“氛围感编程”迎来游戏开发的新拐点</title>
+<link>https://simonwillison.net/2026/Oct/28/vibe-game-development/</link>
+<guid isPermaLink="false">d63165261460</guid>
+<pubDate>Wed, 28 Oct 2026 09:55:00 -0400</pubDate>
+<description>&lt;p&gt;本文指出基于大语言模型的「氛围编程（vibe coding）」在电脑游戏开发领域迎来了爆发拐点。作者完全不查看底层代码，仅通过向 Claude Opus 5.5 等模型给出「让它更好玩」等自然语言提示词，就成功让模型自主构建出包含 3D 建模、音乐生成和可玩机制的完整网页游戏。这一现象表明模型已展现出对游戏趣味性设计的理解力，但也体现出目前不同前沿模型间在此类创意设计表现上仍有差距。&lt;/p&gt;&lt;p&gt;★★★★ · Simon Willison · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-10-28.html"&gt;2026-10-28 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>Artificial Analysis v5与基准评测者的困境</title>
+<link>https://www.interconnects.ai/p/artificial-analysis-v5-and-the-benchmarkers</link>
+<guid isPermaLink="false">45f878f3f6da</guid>
+<pubDate>Wed, 28 Oct 2026 08:58:00 -0400</pubDate>
+<description>&lt;p&gt;这是一篇探讨大语言模型基准评测现状与两难困境的分析文章，重点剖析了 Artificial Analysis 发布的 Intelligence Index v5。该指数整合了知识工作、编程、科学和通用四个维度的任务，并通过引入非公开测试集来衡量前沿模型的通用智能体协作能力。文章指出，这类单一聚合指标虽便于决策，但加大了闭源与开源模型的评分差距，且面临私有评测缺乏社区审查以及难以全面反映开源模型真实经济价值的局限。&lt;/p&gt;&lt;p&gt;★★★★ · Interconnects · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-10-28.html"&gt;2026-10-28 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>Anthropic取消传统编程面试：热情胜过资历</title>
+<link>https://latent.space/p/ainews-anthropic-ends-coding-interviews-hunger-beats-tenure/</link>
+<guid isPermaLink="false">625efce5713d</guid>
+<pubDate>Wed, 28 Oct 2026 04:50:00 -0400</pubDate>
+<description>&lt;p&gt;这是关于近期多项 AI 行业动态的汇总，涵盖招聘变革、多模态世界模型以及前沿数学验证突破等进展。报道提及 Anthropic 因 AI 编程能力飞跃而取消传统编码面试，Google DeepMind 推出支持实时音频与物理交互的世界模型 Genie 4，数学领域则出现了利用智能体集群实现的大规模定理自动形式化验证。内容反映出前沿 AI 在代码生成、虚拟世界模拟与严谨数理证明上正加速向实用化渗透，同时也带来了基准评测分化与开源闭源差距扩大的讨论。&lt;/p&gt;&lt;p&gt;★★★★ · Latent Space · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-10-28.html"&gt;2026-10-28 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
 <title>人形机器人全开源：从机械硬件图纸到运动算法完整公开</title>
 <link>https://www.qbitai.com/2026/10/505865.html</link>
 <guid isPermaLink="false">fffd4b67f0fd</guid>
 <pubDate>Tue, 27 Oct 2026 08:57:00 -0400</pubDate>
-<description>&lt;p&gt;该项目开源了人形机器人的全部图纸、关节硬件设计与核心运动算法，支持个人直接下载复刻。极大降低了具身智能硬件的开发与学习门槛。&lt;/p&gt;&lt;p&gt;★★★★ · 量子位 · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-10-28.html"&gt;2026-10-28 精选&lt;/a&gt;&lt;/p&gt;</description>
+<description>&lt;p&gt;RP1 是 RoboParty 萝博派对发布的一款全栈开源人形机器人，旨在将以往藏在黑盒中的底层软硬件向开发者完全公开。它不仅开放了机械图纸、自研一体化旋转关节模组和电气架构，还提供了嵌入式驱动、人体动作重定向工具及底层运动控制算法。这种全链路开放降低了科研机构和具身智能团队适配硬件的门槛，不过其 CAD 和电路制造等部分工程资料仍有待依据项目仓库逐步公开，实际生态建设也有待检验。&lt;/p&gt;&lt;p&gt;★★★★ · 量子位 · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-10-28.html"&gt;2026-10-28 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>OCR新开源框架打破限制：KV缓存压降96%，长文档无上限</title>
 <link>https://www.qbitai.com/2026/10/505773.html</link>
 <guid isPermaLink="false">3891091bf6b6</guid>
 <pubDate>Tue, 27 Oct 2026 04:35:00 -0400</pubDate>
-<description>&lt;p&gt;该开源文档解析模型将大模型注意力的KV Cache（键值缓存，存放历史上下文计算结果的显存）优化到近乎常数，显存消耗骤降96%。大幅提升了海量页面文档智能识别的处理速度与成本效益。&lt;/p&gt;&lt;p&gt;★★★★ · 量子位 · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-10-28.html"&gt;2026-10-28 精选&lt;/a&gt;&lt;/p&gt;</description>
+<description>&lt;p&gt;文心 Unlimited OCR 2 是百度开源的文档解析模型，主打超长篇幅文本的连续读取与极低显存占用。它借鉴人类逐页翻阅对照的习惯，引入稀疏参考滑动窗口注意力（SR-SWA）进行两层筛选减少无效计算，并结合分块无限解码机制及时释放历史视觉缓存，将百页级推理的峰值显存占用砍掉约 96%。该方案突破了传统长文档解析每步耗时不断上涨的瓶颈，使得处理数百上千页图文时仍能保持恒定速度与连贯版面还原。&lt;/p&gt;&lt;p&gt;★★★★ · 量子位 · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-10-28.html"&gt;2026-10-28 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>Anthropic冲刺2万亿美元IPO：招股书核心数据曝光</title>
 <link>https://latent.space/p/ainews-anthropic-s1/</link>
 <guid isPermaLink="false">95af72b561e4</guid>
 <pubDate>Tue, 27 Oct 2026 03:24:00 -0400</pubDate>
-<description>&lt;p&gt;报道梳理了Anthropic披露的高达1400%增长率、巨额现金储备及云计算渠道收入等关键财务数据。这是观察大模型独角兽商业化进程与财务健康度的重要行业风向标。&lt;/p&gt;&lt;p&gt;★★★★ · Latent Space · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-10-28.html"&gt;2026-10-28 精选&lt;/a&gt;&lt;/p&gt;</description>
+<description>&lt;p&gt;本文梳理了 AI 公司 Anthropic 提交的 S-1 上市招股书核心信息，展示了其惊人的财务爆发力与业务运转模式。招股书显示其营收实现十数倍暴涨并已在季度层面实现运营盈利，约半数收入依托云巨头分发，内部研发与代码贡献也高度依赖 Claude 模型自身闭环驱动。这一事件体现了前沿 AI 商业化与智能体生产力的高效落地，但同时也揭示出巨额算力长约承诺与未摊销金融负债等财务层面的潜在风险。&lt;/p&gt;&lt;p&gt;★★★★ · Latent Space · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-10-28.html"&gt;2026-10-28 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>Anthropic 实测研究：AI 智能体如何潜移默化影响人类专家的决策</title>
 <link>https://www.anthropic.com/research/agents-judgment-calls</link>
 <guid isPermaLink="false">543233bf7b25</guid>
 <pubDate>Mon, 26 Oct 2026 20:00:00 -0400</pubDate>
-<description>&lt;p&gt;Anthropic 让 50 名专业分析师使用编程智能体 Claude Code 完成统计分析，并在两个均合理的方案间随机植入 AI 偏向。结果显示大部分专家顺从了 AI 的倾向，且事后很少承认受其影响，揭示了人机协同中不易察觉的算法偏好引导风险。&lt;/p&gt;&lt;p&gt;★★★★ · Anthropic · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-10-28.html"&gt;2026-10-28 精选&lt;/a&gt;&lt;/p&gt;</description>
+<description>&lt;p&gt;这是一项探究人类专家在使用 AI 智能体完成复杂分析时是否会失去独立判断的研究。实验让 50 位因果推断领域的专业分析师使用 Claude Code 解决实际业务决策，研究者通过隐藏提示词随机让智能体偏向某一合理选项。结果显示分析师在绝大多数分歧节点都听从了智能体的倾向，甚至大段沿用其论点却极少意识到自己受其引导；这提示人们在将复杂工作交给 AI 时，人类专家的把关与审核可能在无形中被算法意志削弱。&lt;/p&gt;&lt;p&gt;★★★★ · Anthropic · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-10-28.html"&gt;2026-10-28 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
-<title>Survival LLM：可完全在本地电脑离线运行的应急知识库与 AI 助手</title>
-<link>https://www.brangus.io/survival-llm</link>
-<guid isPermaLink="false">62b1fcdba263</guid>
-<pubDate>Tue, 27 Oct 2026 15:55:00 -0400</pubDate>
-<description>&lt;p&gt;该开源项目将大语言模型与应急生存资料库打包，支持在个人电脑上完全离线部署。用户即使在断网或极端紧急情况下，也能随时检索关键知识并获取 AI 答疑支持。&lt;/p&gt;&lt;p&gt;★★★ · Hacker News · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-10-28.html"&gt;2026-10-28 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>Anthropic团队揭秘：如何用Claude打造Claude平台</title>
-<link>https://latent.space/p/opus55/</link>
-<guid isPermaLink="false">80e5637a67e1</guid>
-<pubDate>Tue, 27 Oct 2026 14:53:00 -0400</pubDate>
-<description>&lt;p&gt;Anthropic工程团队分享了Claude平台的工程架构实践，重点阐述了如何将模型的推理“大脑”与执行工具的“双手”解耦以构建可靠的AI智能体。对理解企业级Agent系统架构设计很有启发。&lt;/p&gt;&lt;p&gt;★★★ · Latent Space · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-10-28.html"&gt;2026-10-28 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>Google 提出睡眠机制框架：助力大语言模型在持续学习中保留旧知识</title>
-<link>https://research.google/blog/the-sleep-framework-a-new-way-for-llms-to-retain-knowledge-in-continual-learning/</link>
-<guid isPermaLink="false">feb4caa835f1</guid>
-<pubDate>Tue, 27 Oct 2026 13:35:00 -0400</pubDate>
-<description>&lt;p&gt;Google Research 探索了一种名为睡眠机制的新框架，旨在解决大语言模型在持续吸收新知识时容易遗忘旧知识的问题。该机制借鉴生物大脑在睡眠中巩固记忆的原理，提升模型的终身学习能力。&lt;/p&gt;&lt;p&gt;★★★ · Google Research · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-10-28.html"&gt;2026-10-28 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>大语言模型能否准确评估科研构想的新颖性？</title>
-<link>https://huggingface.co/blog/allenai/novelty-bench</link>
-<guid isPermaLink="false">34370e88c88d</guid>
-<pubDate>Tue, 27 Oct 2026 12:12:00 -0400</pubDate>
-<description>&lt;p&gt;该研究探讨了大模型作为科研评审工具的可信度，专门测试其在识别研究 Idea 原创性与创新度方面的表现，对未来 AI 辅助科研和学术同行评议具有重要参考意义。&lt;/p&gt;&lt;p&gt;★★★ · Hugging Face · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-10-28.html"&gt;2026-10-28 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>Retell采用OpenAI模型赋能月均上亿次语音交互</title>
-<link>https://openai.com/index/retell-ai</link>
-<guid isPermaLink="false">d42fb1eb3362</guid>
-<pubDate>Tue, 27 Oct 2026 11:00:00 -0400</pubDate>
-<description>&lt;p&gt;语音AI平台Retell结合GPT-6 Astra与Codex，支撑起庞大业务量并实现了极高的人均产值。展示了大模型语音智能体在企业级客服与电话场景中的规模化商业变现能力。&lt;/p&gt;&lt;p&gt;★★★ · OpenAI · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-10-28.html"&gt;2026-10-28 精选&lt;/a&gt;&lt;/p&gt;</description>
+<title>NVIDIA推出Nemotron 3.5 Transcribe与Granary v2转录工具</title>
+<link>https://huggingface.co/blog/nvidia/nemotron-transcribe-granary</link>
+<guid isPermaLink="false">7ae8eb20550e</guid>
+<pubDate>Wed, 28 Oct 2026 10:58:00 -0400</pubDate>
+<description>&lt;p&gt;Nemotron 3.5 Transcribe 是 NVIDIA 开源的语音多任务大模型，支持多语种转录、说话人识别、翻译和语音问答等功能。它通过语音编码器结合 Mamba 与 Transformer 混合专家架构，在生成文本时能直接同步区分说话人，以较少的激活参数在多项语音识别和声学分割榜单中夺冠。配合同时发布的 Granary v2 数据流程与微调方案，企业能低门槛定制专有词汇与输出格式，但部分语言和语音问答任务在语种覆盖上仍有所限制。&lt;/p&gt;&lt;p&gt;★★★ · Hugging Face · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-10-28.html"&gt;2026-10-28 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>OpenAI携手学界探索基础科学：公布多项数学与物理难题的模型研究结果</title>
@@ -87,7 +87,7 @@
 <link>https://huggingface.co/papers/2610.33966</link>
 <guid isPermaLink="false">7f4d292535fa</guid>
 <pubDate>Mon, 26 Oct 2026 20:00:00 -0400</pubDate>
-<description>&lt;p&gt;该研究推出了可验证的仿真环境与评测基准 InteractiveWorld，旨在系统性测试多模态大语言模型（MLLM）在现实物理任务中引导和协助人类的能力。这为开发能真正理解物理世界交互并提供可靠指导的 AI 助手提供了有效的测试平台。&lt;/p&gt;&lt;p&gt;★★★ · HF Daily Papers · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-10-27.html"&gt;2026-10-27 精选&lt;/a&gt;&lt;/p&gt;</description>
+<description>&lt;p&gt;InteractiveWorld 是首个用于评估多模态大模型在物理世界中协助人类能力的闭环仿真验证环境。与传统机器人模拟器不同，它模拟 AI 助手通过第一人称视角指导具备独立行动与理解力的人类智能体，并基于动态环境变化与状态奖励进行多轮评测。该基准直观暴露出当前顶级多模态模型在现实生活协助中的不足，在长流程的实时指导与规划任务中，即使最强的模型也仅取得了 20% 至 25% 的成功率。&lt;/p&gt;&lt;p&gt;★★★ · HF Daily Papers · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-10-27.html"&gt;2026-10-27 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>Greptile借助GPT-6 Astra将代码找错扩展至业务流程测试</title>
@@ -101,7 +101,7 @@
 <link>https://huggingface.co/papers/2610.19687</link>
 <guid isPermaLink="false">cf925251b33e</guid>
 <pubDate>Sun, 25 Oct 2026 20:00:00 -0400</pubDate>
-<description>&lt;p&gt;该工作提出了一种函数空间策略优化算法，通过时间整合与特权自适应相结合，显著提升了模型在复杂推理和工具调用上的准确率。该方法在降低显存消耗的同时超越了基线模型，为更高效的强化学习和模型微调提供了新思路。&lt;/p&gt;&lt;p&gt;★★★ · HF Daily Papers · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-10-27.html"&gt;2026-10-27 精选&lt;/a&gt;&lt;/p&gt;</description>
+<description>&lt;p&gt;FSPO 是一种面向大语言模型策略优化的函数空间时序自蒸馏框架，旨在提高推理与工具调用训练的监督精度与稳定性。它无需维护额外的常驻教师模型，而是通过存储稀疏的历史输出分布作为固定的时序优化目标，并引入分歧修正与自适应参考监督来惩罚错误行为。该方法在推理基准上显著提升了学习效果，在相同训练预算下超越强基线约 4 个百分点，同时降低了约 20% 的训练峰值显存。&lt;/p&gt;&lt;p&gt;★★★ · HF Daily Papers · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-10-27.html"&gt;2026-10-27 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>Anthropic 向美 SEC 提交 S-1 文件启动 IPO 流程</title>

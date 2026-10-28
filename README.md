@@ -10,16 +10,16 @@ AI 前沿的中文科普导读：每天从研究者博客、实验室新闻、Ha
 
 | 重要度 | 标题 | 摘要 | 来源 |
 |---|---|---|---|
+| ★★★★★ | [Google DeepMind发布下一代前沿模型Gemini 4 Carbon](https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/) | Google DeepMind宣布推出其最新的旗舰前沿模型Gemini 4 Carbon，代表了头部实验室在通用多模态能力与推理性能上的最新突破探索。 | Google DeepMind |
 | ★★★★★ | [Google DeepMind 发布 Genie 4：新一代实时超写实世界模拟器](https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/) | Google DeepMind 推出全新的世界模型 Genie 4，能够在实时交互模拟中呈现前所未有的超高逼真度。世界模型即能理解物理规律并预测环境变化的 AI 系统，该技术对于具身智能与交互式虚拟世界构建具有重大价值。 | Google DeepMind |
+| ★★★★ | [“氛围感编程”迎来游戏开发的新拐点](https://simonwillison.net/2026/Oct/28/vibe-game-development/) | 作者认为继AI日常辅助写代码成为现实后，通过自然语言描述和直觉引导模型写代码（即vibe coding）来制作游戏的时代也迎来了突破性拐点。这展示了AI智能体在低门槛游戏原型设计与娱乐应用上的巨大潜力。 | Simon Willison |
+| ★★★★ | [Artificial Analysis v5与基准评测者的困境](https://www.interconnects.ai/p/artificial-analysis-v5-and-the-benchmarkers) | 本文回顾了当前AI基准测试行业的现状，探讨了现有评测体系存在的问题与缺失。评测基准对于衡量模型真实能力至关重要，但如何客观全面地反映AI表现仍是难题。 | Interconnects |
+| ★★★★ | [Anthropic取消传统编程面试：热情胜过资历](https://latent.space/p/ainews-anthropic-ends-coding-interviews-hunger-beats-tenure/) | 随着AI代码生成能力大幅跃升，Anthropic在招聘流程中调整了纯手写代码的考察方式，转向看重解决问题的渴望与综合能力，反映出大模型对程序员职业标准的深刻重塑。 | Latent Space |
 | ★★★★ | [人形机器人全开源：从机械硬件图纸到运动算法完整公开](https://www.qbitai.com/2026/10/505865.html) | 该项目开源了人形机器人的全部图纸、关节硬件设计与核心运动算法，支持个人直接下载复刻。极大降低了具身智能硬件的开发与学习门槛。 | 量子位 |
 | ★★★★ | [OCR新开源框架打破限制：KV缓存压降96%，长文档无上限](https://www.qbitai.com/2026/10/505773.html) | 该开源文档解析模型将大模型注意力的KV Cache（键值缓存，存放历史上下文计算结果的显存）优化到近乎常数，显存消耗骤降96%。大幅提升了海量页面文档智能识别的处理速度与成本效益。 | 量子位 |
 | ★★★★ | [Anthropic冲刺2万亿美元IPO：招股书核心数据曝光](https://latent.space/p/ainews-anthropic-s1/) | 报道梳理了Anthropic披露的高达1400%增长率、巨额现金储备及云计算渠道收入等关键财务数据。这是观察大模型独角兽商业化进程与财务健康度的重要行业风向标。 | Latent Space |
 | ★★★★ | [Anthropic 实测研究：AI 智能体如何潜移默化影响人类专家的决策](https://www.anthropic.com/research/agents-judgment-calls) | Anthropic 让 50 名专业分析师使用编程智能体 Claude Code 完成统计分析，并在两个均合理的方案间随机植入 AI 偏向。结果显示大部分专家顺从了 AI 的倾向，且事后很少承认受其影响，揭示了人机协同中不易察觉的算法偏好引导风险。 | Anthropic |
 | ★★★★ | [OpenAI携手学界探索基础科学：公布多项数学与物理难题的模型研究结果](https://openai.com/index/building-scientific-understanding-with-academic-communities) | OpenAI公开了模型在挂谷猜想、指数时间假设及量子色动力学等前沿科学课题上的推理成果，并探讨科研人员如何验证及在此基础上进一步探索，体现了AI辅助重大科学发现的潜力。 | OpenAI |
-| ★★★ | [Survival LLM：可完全在本地电脑离线运行的应急知识库与 AI 助手](https://www.brangus.io/survival-llm) | 该开源项目将大语言模型与应急生存资料库打包，支持在个人电脑上完全离线部署。用户即使在断网或极端紧急情况下，也能随时检索关键知识并获取 AI 答疑支持。 | Hacker News |
-| ★★★ | [Anthropic团队揭秘：如何用Claude打造Claude平台](https://latent.space/p/opus55/) | Anthropic工程团队分享了Claude平台的工程架构实践，重点阐述了如何将模型的推理“大脑”与执行工具的“双手”解耦以构建可靠的AI智能体。对理解企业级Agent系统架构设计很有启发。 | Latent Space |
-| ★★★ | [Google 提出睡眠机制框架：助力大语言模型在持续学习中保留旧知识](https://research.google/blog/the-sleep-framework-a-new-way-for-llms-to-retain-knowledge-in-continual-learning/) | Google Research 探索了一种名为睡眠机制的新框架，旨在解决大语言模型在持续吸收新知识时容易遗忘旧知识的问题。该机制借鉴生物大脑在睡眠中巩固记忆的原理，提升模型的终身学习能力。 | Google Research |
-| ★★★ | [大语言模型能否准确评估科研构想的新颖性？](https://huggingface.co/blog/allenai/novelty-bench) | 该研究探讨了大模型作为科研评审工具的可信度，专门测试其在识别研究 Idea 原创性与创新度方面的表现，对未来 AI 辅助科研和学术同行评议具有重要参考意义。 | Hugging Face |
 
 <!-- latest:end -->
 
