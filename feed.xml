@@ -6,6 +6,55 @@
 <description>每天精选 10 条以内最值得一读的 AI 前沿进展，附中文科普解释。</description>
 <language>zh-CN</language>
 <item>
+<title>Google 发布前沿模型 Gemini 4 Carbon，优先向网络安全防御者开放</title>
+<link>https://latent.space/p/ainews-gemini-4-carbon/</link>
+<guid isPermaLink="false">8266ea920e51</guid>
+<pubDate>Thu, 29 Oct 2026 01:55:00 -0400</pubDate>
+<description>&lt;p&gt;这是 Google DeepMind 发布的最新旗舰 AI 模型 Gemini 4 Carbon，重点面向网络安全与长程自主工程任务。它在 Artificial Analysis 智能指数等基准测试中登顶，支持 1M 上下文，并通过将作弊成功率压至 0% 以及大幅削减无依据断言来提升安全与对齐表现。它的亮点在于极高的长程自主排错与安全攻防修复能力，且 Token 消耗效率优于竞品；局限是访问权限初期受限，且在纯代码工程如 FrontierSWE 等部分指标上仍落后于其他顶级模型。&lt;/p&gt;&lt;p&gt;★★★★ · Latent Space · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-10-29.html"&gt;2026-10-29 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>Gemini 4 Carbon 评测表现亮眼，主打抗长时代码修复与防注入</title>
+<link>https://www.qbitai.com/2026/10/506227.html</link>
+<guid isPermaLink="false">2a3824a8bb57</guid>
+<pubDate>Wed, 28 Oct 2026 20:03:00 -0400</pubDate>
+<description>&lt;p&gt;这是报道 Google 推出新旗舰模型 Gemini 4 Carbon 的资讯，强调其在多项关键指标上超越了 Claude Opus 5.5。该模型通过强化长程自主规划和安全对齐训练，不仅能连续多日探索大型代码库修复隐蔽 Bug，还在网络安全各环节创下新高并实现了对提示词注入的全面抵御。它值得关注的是综合智能评分登顶、生成补丁质量大幅提升，以及首发 Token 半价带来的显著使用成本优势；不过目前该模型尚未全面公测，初期仅向特定网络安全人员开放。&lt;/p&gt;&lt;p&gt;★★★★ · 量子位 · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-10-29.html"&gt;2026-10-29 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>具身智能初创企业获 10 亿美元融资，估值达 200 亿美元</title>
+<link>https://www.qbitai.com/2026/10/506042.html</link>
+<guid isPermaLink="false">f8ba7008ee05</guid>
+<pubDate>Wed, 28 Oct 2026 04:55:00 -0400</pubDate>
+<description>&lt;p&gt;这是关于机器人基础模型初创公司 Physical Intelligence（PI）计划融资至少 10 亿美元、投后估值达约 200 亿美元的行业报道。该公司聚焦纯软件路线，通过研发能够将多模态感知转化为底层控制动作的视觉—语言—动作模型（VLA），打造可直接适配各类第三方硬件的通用机器人“大脑”。这反映出资本市场正争相下注物理世界通用基础模型，其优势在于跨设备、跨任务的组合泛化能力；但局限是物理环境容错率极低且落地成本极高，公司目前尚无商业化营收。&lt;/p&gt;&lt;p&gt;★★★★ · 量子位 · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-10-29.html"&gt;2026-10-29 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>开发者揭秘 Claude Code 后台通信机制：定期同步子 Agent 会话记录</title>
+<link>https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce</link>
+<guid isPermaLink="false">271134257c4a</guid>
+<pubDate>Wed, 28 Oct 2026 23:33:00 -0400</pubDate>
+<description>&lt;p&gt;这是一份针对编程工具 Claude Code 在后台频繁向大模型发送全量记录以更新简短状态行、造成严重 Token 浪费的问题诊断与修复指南。作者通过 Bun 的预加载机制（--preload）拦截特定定时器，在运行时精准屏蔽了生成状态摘要的 API 请求。它展示了如何用极轻量级的脚本阻止约 15%–20% 的无谓 Token 消耗与速率限制挤占；局限在于该方法基于源码特征文本匹配，目前仅在 Linux 经过测试，且一旦官方更新脚本逻辑便可能失效。&lt;/p&gt;&lt;p&gt;★★★ · Hacker News · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-10-29.html"&gt;2026-10-29 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>DTCA：面向扩散语言模型强化学习的去噪 Token 信用分配方法</title>
+<link>https://huggingface.co/papers/2610.35201</link>
+<guid isPermaLink="false">d2493f9c725f</guid>
+<pubDate>Wed, 28 Oct 2026 20:00:00 -0400</pubDate>
+<description>&lt;p&gt;这是针对扩散语言模型（DLM）在强化学习训练中信用分配难题所提出的一种名为 DTCA 的优化框架。该方法通过量化确认某个 Token 后对其余遮盖位置预测置信度的提升幅度，结合词性标注分组，计算出 Token 级别的贡献权重并校准学习信号。它成功解决了传统终局奖励无法向迭代去噪过程中具体 Token 提供精细指导的问题，在数学推理基准测试中显著提升了模型表现。&lt;/p&gt;&lt;p&gt;★★★ · HF Daily Papers · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-10-29.html"&gt;2026-10-29 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>Dayjob 评测基准：在 50 项专业税务任务中考验 AI Agent</title>
+<link>https://surgehq.ai/blog/dayjob-tax</link>
+<guid isPermaLink="false">97373eedda74</guid>
+<pubDate>Wed, 28 Oct 2026 11:46:00 -0400</pubDate>
+<description>&lt;p&gt;这是 Surge AI 推出的专业税务智能体评估基准 DAYJOB: Tax，专门测试 AI 代理在多达 50 个真实专业税务场景中的综合工作能力。测试涵盖个人申报、跨国税务和公司交易等八大领域，要求模型处理含有数百份各类文件的复杂工作区，并主动挖掘未在初始提示中指明的关键问题和冲突事实。该基准凸显了专业场景下全面严谨审视任务的难度，当前顶级模型如 Claude Sonnet 5.5 的通过率也仅有 10.8%，暴露出 AI 在处理开放性、高责任专业任务时的巨大局限。&lt;/p&gt;&lt;p&gt;★★★ · Hacker News · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-10-29.html"&gt;2026-10-29 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>Anthropic 拓展 AI for Science 计划，与全球 20 家科研机构合作</title>
+<link>https://www.anthropic.com/news/ai-for-science-expands-foundations-research-institutions</link>
+<guid isPermaLink="false">ad10900db6cd</guid>
+<pubDate>Tue, 27 Oct 2026 20:00:00 -0400</pubDate>
+<description>&lt;p&gt;这是 Anthropic 宣布将其“AI for Science”项目拓展至全球 20 家科研基金会、学术机构和前沿研究项目的举措。该计划通过向从事高影响力科学探索的研究人员直接提供免费的 Claude 算力额度，并联手开发通用标准工具（如让 AI 安全操作实验仪器的 MHS 规范）。此举旨在利用大语言模型辅助科学家进行假设生成、复杂数据分析和实验设计，并促进开源软件及共享科学数据集等公共产品的产出。&lt;/p&gt;&lt;p&gt;★★★ · Anthropic · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-10-29.html"&gt;2026-10-29 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
 <title>Google DeepMind发布下一代前沿模型Gemini 4 Carbon</title>
 <link>https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/</link>
 <guid isPermaLink="false">34b0bf3f94c3</guid>
