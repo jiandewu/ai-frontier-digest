@@ -48,6 +48,13 @@
 <description>&lt;p&gt;这是 Surge AI 推出的专业税务智能体评估基准 DAYJOB: Tax，专门测试 AI 代理在多达 50 个真实专业税务场景中的综合工作能力。测试涵盖个人申报、跨国税务和公司交易等八大领域，要求模型处理含有数百份各类文件的复杂工作区，并主动挖掘未在初始提示中指明的关键问题和冲突事实。该基准凸显了专业场景下全面严谨审视任务的难度，当前顶级模型如 Claude Sonnet 5.5 的通过率也仅有 10.8%，暴露出 AI 在处理开放性、高责任专业任务时的巨大局限。&lt;/p&gt;&lt;p&gt;★★★ · Hacker News · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-10-29.html"&gt;2026-10-29 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
+<title>无需调整模型权重：测试期记忆演化助力科学发现</title>
+<link>https://huggingface.co/papers/2610.32046</link>
+<guid isPermaLink="false">8ec671179897</guid>
+<pubDate>Tue, 27 Oct 2026 20:00:00 -0400</pubDate>
+<description>&lt;p&gt;该研究探讨了“测试期记忆演化”技术，通过在推理阶段动态更新外部记忆而不修改模型核心参数，在科学发现任务中展现出比传统测试期训练更高的高效性。&lt;/p&gt;&lt;p&gt;★★★ · HF Daily Papers · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-10-29.html"&gt;2026-10-29 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
 <title>Anthropic 拓展 AI for Science 计划，与全球 20 家科研机构合作</title>
 <link>https://www.anthropic.com/news/ai-for-science-expands-foundations-research-institutions</link>
 <guid isPermaLink="false">ad10900db6cd</guid>
