@@ -6,18 +6,81 @@
 <description>每天精选 10 条以内最值得一读的 AI 前沿进展，附中文科普解释。</description>
 <language>zh-CN</language>
 <item>
-<title>Google 发布前沿模型 Gemini 4 Carbon，优先向网络安全防御者开放</title>
-<link>https://latent.space/p/ainews-gemini-4-carbon/</link>
-<guid isPermaLink="false">8266ea920e51</guid>
-<pubDate>Thu, 29 Oct 2026 01:55:00 -0400</pubDate>
-<description>&lt;p&gt;这是 Google DeepMind 发布的最新旗舰 AI 模型 Gemini 4 Carbon，重点面向网络安全与长程自主工程任务。它在 Artificial Analysis 智能指数等基准测试中登顶，支持 1M 上下文，并通过将作弊成功率压至 0% 以及大幅削减无依据断言来提升安全与对齐表现。它的亮点在于极高的长程自主排错与安全攻防修复能力，且 Token 消耗效率优于竞品；局限是访问权限初期受限，且在纯代码工程如 FrontierSWE 等部分指标上仍落后于其他顶级模型。&lt;/p&gt;&lt;p&gt;★★★★ · Latent Space · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-10-29.html"&gt;2026-10-29 精选&lt;/a&gt;&lt;/p&gt;</description>
+<title>解读 421 页招股书：Anthropic 财务表现出人意料地强劲</title>
+<link>https://www.understandingai.org/p/anthropics-financials-are-surprisingly</link>
+<guid isPermaLink="false">f7d0f7defa94</guid>
+<pubDate>Thu, 29 Oct 2026 15:10:00 -0400</pubDate>
+<description>&lt;p&gt;作者通过深入分析 Anthropic 的 S-1 文件（上市招股说明书），揭示了这家头部 AI 独角兽出人意料的强劲财务数据与运营现状。&lt;/p&gt;&lt;p&gt;★★★★★ · Understanding AI · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-10-30.html"&gt;2026-10-30 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>Mistral Large 4 上线 Hugging Face，代号“Le Chonk”</title>
+<link>https://huggingface.co/blog/mistral-large4</link>
+<guid isPermaLink="false">a1765f446c5b</guid>
+<pubDate>Wed, 28 Oct 2026 20:00:00 -0400</pubDate>
+<description>&lt;p&gt;Mistral AI 的最新旗舰大模型 Mistral Large 4（代号 Le Chonk）正式登陆 Hugging Face 开源社区。&lt;/p&gt;&lt;p&gt;★★★★★ · Hugging Face · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-10-30.html"&gt;2026-10-30 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>OpenAI 更新模型行为准则：树立五大核心价值观引导高能力 AI</title>
+<link>https://openai.com/index/updated-model-spec</link>
+<guid isPermaLink="false">7bf0065ceb16</guid>
+<pubDate>Thu, 29 Oct 2026 13:00:00 -0400</pubDate>
+<description>&lt;p&gt;OpenAI 发布更新版 Model Spec（模型行为规范），明确了指引模型合理判断、尊重人类自主权及忠于人类意图的五项核心价值观。&lt;/p&gt;&lt;p&gt;★★★★ · OpenAI · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-10-30.html"&gt;2026-10-30 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>“硅基样本”的前沿探索：用 AI 模拟人类群体的得与失</title>
+<link>https://www.argmin.net/p/frontiers-in-making-up-people</link>
+<guid isPermaLink="false">cef0e37d47c0</guid>
+<pubDate>Thu, 29 Oct 2026 10:41:00 -0400</pubDate>
+<description>&lt;p&gt;探讨利用大模型生成虚拟人群（硅基采样）进行社会模拟与调研的前沿尝试，反思其背后的困惑与实际可行性。&lt;/p&gt;&lt;p&gt;★★★★ · arg min · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-10-30.html"&gt;2026-10-30 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>OpenAI 揭秘前沿模型“对齐失效”检测与干预机制</title>
+<link>https://openai.com/index/how-we-detect-frontier-model-misalignment</link>
+<guid isPermaLink="false">d28967fce9c6</guid>
+<pubDate>Thu, 29 Oct 2026 05:00:00 -0400</pubDate>
+<description>&lt;p&gt;介绍 OpenAI 如何通过多层级监控机制，提前检测前沿模型在价值观对齐上的偏差以及未授权的智能体行为，确保在风险扩大前及时响应。&lt;/p&gt;&lt;p&gt;★★★★ · OpenAI · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-10-30.html"&gt;2026-10-30 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>基于 Qwen3-TTS 打造定制化游戏旁白声音</title>
+<link>https://lucumr.pocoo.org/2026/10/29/qwen3-custom-voices/</link>
+<guid isPermaLink="false">6264c8b4e376</guid>
+<pubDate>Wed, 28 Oct 2026 20:00:00 -0400</pubDate>
+<description>&lt;p&gt;作者分享了在家庭独立游戏开发中，利用 Qwen3-TTS 的声音嵌入（将音色数字化表征的技术）定制个性化旁白配音的实践经验。&lt;/p&gt;&lt;p&gt;★★★★ · Armin Ronacher · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-10-30.html"&gt;2026-10-30 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>在《我的世界》与 Mindustry 中实测 AI 多智能体群体协同</title>
+<link>https://labs.ycombinator.com/projects/games/index.html</link>
+<guid isPermaLink="false">d8eb5a4b641e</guid>
+<pubDate>Thu, 29 Oct 2026 17:40:00 -0400</pubDate>
+<description>&lt;p&gt;开发者展示了在沙盒游戏《我的世界》与即时战略游戏 Mindustry 中运行 AI 智能体集群（agent swarms）协作完成复杂任务的实践与发现。&lt;/p&gt;&lt;p&gt;★★★ · Hacker News · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-10-30.html"&gt;2026-10-30 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>前沿模型能否识破视觉干扰？Elorian 提出视觉推理新基准</title>
+<link>https://latent.space/p/elorian/</link>
+<guid isPermaLink="false">2df0e95472f6</guid>
+<pubDate>Thu, 29 Oct 2026 12:00:00 -0400</pubDate>
+<description>&lt;p&gt;通过诱饵计数基准测试揭示了大模型在“看清图像”与“逻辑推理”之间的差距，并介绍了尝试通过视觉思维来弥合这一短板的 Glimpse 方案。&lt;/p&gt;&lt;p&gt;★★★ · Latent Space · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-10-30.html"&gt;2026-10-30 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>LLM Voice 项目在 Hacker News 引发热议</title>
+<link>https://martinfowler.com/bliki/LLM-Voice.html</link>
+<guid isPermaLink="false">739e0b5535e3</guid>
+<pubDate>Thu, 29 Oct 2026 10:57:00 -0400</pubDate>
+<description>&lt;p&gt;Hacker News 社区关于大语言模型实时语音交互项目“LLM Voice”的热门讨论，聚焦于端到端语音交互的技术实现与落地体验。&lt;/p&gt;&lt;p&gt;★★★ · Hacker News · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-10-30.html"&gt;2026-10-30 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>Granite Switch 4.1.1 发布：像更新软件一样更新模型</title>
+<link>https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1</link>
+<guid isPermaLink="false">f3538b6fb36f</guid>
+<pubDate>Thu, 29 Oct 2026 09:37:00 -0400</pubDate>
+<description>&lt;p&gt;Hugging Face 发布 Granite Switch 4.1.1，主打让 AI 模型的迭代部署如同日常软件更新一样顺畅高效。&lt;/p&gt;&lt;p&gt;★★★ · Hugging Face · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-10-30.html"&gt;2026-10-30 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>Gemini 4 Carbon 评测表现亮眼，主打抗长时代码修复与防注入</title>
 <link>https://www.qbitai.com/2026/10/506227.html</link>
 <guid isPermaLink="false">2a3824a8bb57</guid>
 <pubDate>Wed, 28 Oct 2026 20:03:00 -0400</pubDate>
-<description>&lt;p&gt;这是报道 Google 推出新旗舰模型 Gemini 4 Carbon 的资讯，强调其在多项关键指标上超越了 Claude Opus 5.5。该模型通过强化长程自主规划和安全对齐训练，不仅能连续多日探索大型代码库修复隐蔽 Bug，还在网络安全各环节创下新高并实现了对提示词注入的全面抵御。它值得关注的是综合智能评分登顶、生成补丁质量大幅提升，以及首发 Token 半价带来的显著使用成本优势；不过目前该模型尚未全面公测，初期仅向特定网络安全人员开放。&lt;/p&gt;&lt;p&gt;★★★★ · 量子位 · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-10-29.html"&gt;2026-10-29 精选&lt;/a&gt;&lt;/p&gt;</description>
+<description>&lt;p&gt;这是报道 Google 推出新旗舰模型 Gemini 4 Carbon 的资讯，强调其在多项关键指标上超越了 Claude Opus 5.5。该模型通过强化长程自主规划和安全对齐训练，不仅能连续多日探索大型代码库修复隐蔽 Bug，还在网络安全各环节创下新高并实现了对提示词注入的全面抵御。它值得关注的是综合智能评分登顶、生成补丁质量大幅提升，以及首发 Token 半价带来的显著使用成本优势；不过目前该模型尚未全面公测，初期仅向特定网络安全人员开放。&lt;/p&gt;&lt;p&gt;★★★★★ · 量子位 · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-10-29.html"&gt;2026-10-29 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>具身智能初创企业获 10 亿美元融资，估值达 200 亿美元</title>
