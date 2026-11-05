@@ -5,6 +5,11 @@ on:
     # 每天两次（UTC 11:17、17:17，即美东早上和中午）；当天已有就直接结束，第二次只在第一次失败时补做。
     - cron: "17 11,17 * * *"
   workflow_dispatch:
+    inputs:
+      redo:
+        description: "重写今天这篇的导读（同一篇文章）"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -29,7 +34,7 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GEMINI_MODEL: ${{ vars.GEMINI_MODEL }}
           COMMIT_MESSAGE_FILE: ${{ runner.temp }}/commit-message.txt
-        run: python3 -m digest.longread
+        run: python3 -m digest.longread ${{ inputs.redo && '--redo' || '' }}
 
       - name: Commit the pick
         env:

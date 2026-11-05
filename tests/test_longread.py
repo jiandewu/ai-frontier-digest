@@ -87,5 +87,28 @@ class LongReadTests(unittest.TestCase):
         collect.assert_not_called()
 
 
+class RedoTests(unittest.TestCase):
+    def test_redo_rewrites_the_same_article(self):
+        intro = {"titleZh": "新标题", "introZh": "新导读", "whyZh": "新理由"}
+        with tempfile.TemporaryDirectory() as tmp, \
+             mock.patch.dict("os.environ", {"GEMINI_API_KEY": "key"}), \
+             mock.patch("digest.longread.datetime") as fake_datetime, \
+             mock.patch("digest.longread.collect") as collect, \
+             mock.patch("digest.longread.fetch_text", return_value="y" * longread.MIN_CHARS), \
+             mock.patch("digest.longread._generate", return_value=[intro]):
+            fake_datetime.now.return_value = NOW
+            fake_datetime.strptime = datetime.strptime
+            out = Path(tmp)
+            (out / "index.md").write_text("<!-- latest:start -->\n<!-- latest:end -->\n<!-- archive:start -->\n"
+                                          "<!-- archive:end -->\n<!-- sources:start -->\n<!-- sources:end -->\n",
+                                          encoding="utf-8")
+            longread.save_picks(out / "data" / "picks.csv", [_row("2026-11-05", "旧标题"), _row("2026-11-04")])
+            longread.main(["--out", tmp, "--message-file", "", "--redo"])
+            rows = longread.load_picks(out / "data" / "picks.csv")
+        collect.assert_not_called()
+        self.assertEqual([(row["date"], row["title_zh"]) for row in rows], [("2026-11-05", "新标题"), ("2026-11-04", "标题")])
+        self.assertEqual((rows[0]["link"], rows[0]["published_et"]), ("https://x/2026-11-05", "2026-11-05"))
+
+
 if __name__ == "__main__":
     unittest.main()
