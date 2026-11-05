@@ -54,7 +54,14 @@ def _date(value: str):
 
 def parse_feed(text: str, source: str, group: str) -> list[dict]:
     """Parse RSS 2.0 or Atom into item dicts."""
-    root = ET.fromstring(text)
+    try:
+        root = ET.fromstring(text)
+    except ET.ParseError:
+        # Some sites rewrite the feed without truncating it, leaving old bytes after the closing tag.
+        end = re.search(r"</(rss|feed)\s*>", text)
+        if not end:
+            raise
+        root = ET.fromstring(text[:end.end()])
     items = []
     channel = root.find("channel")
     if channel is not None:

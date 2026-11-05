@@ -12,8 +12,9 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
 from digest.fulltext import extract_text  # noqa: E402
 from digest.sources import load_feeds, parse_feed, parse_hf_papers, parse_hn  # noqa: E402
-from digest.summarize import group_events  # noqa: E402
-from digest.update import (NEW_YORK, mark_events, _importance, commit_message, explain_picks, item_id, load_items, rebuild_pages,  # noqa: E402
+from digest import summarize  # noqa: E402
+from digest.summarize import Unavailable, group_events  # noqa: E402
+from digest.update import (NEW_YORK, archive_keys, rebuild_periods, week_of, is_pending, pending_items, resolve_pending, mark_events, _importance, commit_message, explain_picks, item_id, load_items, rebuild_pages,  # noqa: E402
                            pick, render_feed, render_readme_sections, render_sources, select_new, store_items,
                            update_readme)
 
@@ -43,6 +44,10 @@ class SourceTests(unittest.TestCase):
         atom = parse_feed(ATOM, "Blog", "个人博客")
         self.assertEqual(atom[0]["link"], "https://blog.example/p")
         self.assertEqual(atom[0]["published"], datetime(2026, 10, 19, 9, tzinfo=timezone.utc))
+
+    def test_parse_feed_ignores_bytes_after_root(self):
+        items = parse_feed(RSS + "stale tail</description></item></channel></rss>", "Lab", "实验室")
+        self.assertEqual(len(items), 1)
 
     def test_parse_hn_filters_points_and_topic(self):
         hits = {"hits": [
@@ -80,6 +85,42 @@ class SourceTests(unittest.TestCase):
         self.assertEqual([item["link"] for item in items], ["https://huggingface.co/papers/2610.1"])
 
 
+class SummarizeTests(unittest.TestCase):
+    def test_generate_falls_back_and_promotes_working_model(self):
+        answer = {"candidates": [{"content": {"parts": [{"text": '{"items": [{"id": "a"}]}'}]}}]}
+        calls = []
+
+        def fake_call(model, *args):
+            calls.append(model)
+            if model == "busy":
+                raise Unavailable("Gemini HTTP 503")
+            return answer
+
+        models = ["busy", "ok", "spare"]
+        with mock.patch("digest.summarize._call", side_effect=fake_call):
+            logged = []
+            self.assertEqual(summarize._generate("s", "u", {}, "h", "key", models, logged.append), [{"id": "a"}])
+            summarize._generate("s", "u", {}, "h", "key", models, logged.append)
+        self.assertEqual(len(logged), 1)
+        self.assertIn("fallback to ok", logged[0])
+        self.assertEqual(calls, ["busy", "ok", "ok"])
+        self.assertEqual(models, ["ok", "spare", "busy"])
+
+    def test_generate_reports_all_unavailable(self):
+        with mock.patch("digest.summarize._call", side_effect=Unavailable("Gemini HTTP 429")):
+            with self.assertRaisesRegex(RuntimeError, "All Gemini models unavailable"):
+                summarize._generate("s", "u", {}, "h", "key", ["a", "b"])
+
+    def test_post_does_not_retry_quota_errors(self):
+        error = summarize.urllib.error.HTTPError("u", 429, "quota", {}, None)
+        error.read = lambda: b"quota"
+        with mock.patch("digest.summarize.urllib.request.urlopen", side_effect=error) as urlopen, \
+             mock.patch("digest.summarize.time.sleep") as sleep:
+            with self.assertRaises(Unavailable):
+                summarize._post("https://gemini.example/m", {}, "key")
+        self.assertEqual((urlopen.call_count, sleep.call_count), (1, 0))
+
+
 class UpdateTests(unittest.TestCase):
     def test_select_new_skips_known_old_duplicate_and_undated(self):
         undated = {**_item("https://d"), "published": None}
@@ -96,12 +137,12 @@ class UpdateTests(unittest.TestCase):
         summaries = {
             items[0]["id"]: {"title_zh": "重大发布 | 新模型", "summary_zh": "摘要一", "category": "模型发布", "importance": "5"},
             items[1]["id"]: {"title_zh": "一般资讯", "summary_zh": "摘要二", "category": "行业动态", "importance": "2"},
-        }  # items[2] failed to summarize and must be retried later
+        }  # items[2] failed to summarize and is stored as pending
         with tempfile.TemporaryDirectory() as tmp:
             data, digest = Path(tmp) / "data", Path(tmp) / "digest"
             stored = store_items(data, items, summaries, NOW)
-            self.assertEqual(len(stored), 2)
-            self.assertEqual(len(load_items(data)), 2)
+            self.assertEqual([is_pending(row) for row in stored], [False, False, True])
+            self.assertEqual(len(load_items(data)), 3)
             rebuild_pages(data, digest, {"2026-10-20"})
             page = (digest / "2026" / "2026-10-20.md").read_text(encoding="utf-8")
             readme = Path(tmp) / "README.md"
@@ -212,10 +253,61 @@ class UpdateTests(unittest.TestCase):
         with mock.patch("digest.summarize._generate", side_effect=RuntimeError("boom")):
             self.assertIsNone(group_events(items, "key", "model", log=lambda _: None))
 
+    def test_pending_items_are_retried_then_published(self):
+        items = select_new([_item("https://a"), _item("https://b")], set(), NOW)
+        with tempfile.TemporaryDirectory() as tmp:
+            data, digest = Path(tmp) / "data", Path(tmp) / "digest"
+            store_items(data, items, {}, NOW)  # every Gemini model failed
+            self.assertEqual(pick(load_items(data)), [])
+            rebuild_pages(data, digest, {"2026-10-20"})
+            page = (digest / "2026" / "2026-10-20.md").read_text(encoding="utf-8")
+            self.assertIn("从当天收集的 0 条中精选 0 条", page)
+
+            later = NOW + timedelta(days=5)
+            pending = pending_items(data, later)
+            self.assertEqual({item["title"] for item in pending}, {"T https://a", "T https://b"})
+            summary = {"title_zh": "补上的标题", "summary_zh": "摘要", "category": "研究", "importance": "4"}
+            resolved = resolve_pending(data, {items[0]["id"]: summary})
+            self.assertEqual([row["link"] for row in resolved], ["https://a"])
+            rows = load_items(data)
+            self.assertEqual([row["link"] for row in pick(rows)], ["https://a"])
+            self.assertEqual({row["detected_et"][:10] for row in rows}, {"2026-10-20"})  # stays on its day
+            self.assertEqual(len(pending_items(data, later)), 1)
+            self.assertEqual(pending_items(data, NOW + timedelta(days=15)), [])  # gives up after PENDING_DAYS
+
+    def test_archive_keys_compress_by_age(self):
+        days = ["2026-11-05", "2026-10-30", "2026-10-29", "2026-10-20", "2026-09-20", "2025-08-01", "2024-12-31"]
+        self.assertEqual(archive_keys(days), ["2026-11-05", "2026-10-30", "2026-W44", "2026-W43", "2026-09", "2025", "2024"])
+        self.assertEqual(archive_keys([]), [])
+
+    def test_week_of_uses_iso_weeks(self):
+        self.assertEqual(week_of("2026-10-26"), "2026-W44")  # Monday
+        self.assertEqual(week_of("2026-11-01"), "2026-W44")  # Sunday
+        self.assertEqual(week_of("2027-01-01"), "2026-W53")  # ISO year differs near New Year
+
+    def test_rebuild_periods_writes_week_month_and_year(self):
+        items = select_new([_item("https://a", 2), _item("https://b", 1)], set(), NOW)
+        summaries = {item["id"]: {"title_zh": f"标题{n}", "summary_zh": "摘要", "category": "研究", "importance": "4"}
+                     for n, item in enumerate(items)}
+        with tempfile.TemporaryDirectory() as tmp:
+            data, digest = Path(tmp) / "data", Path(tmp) / "digest"
+            store_items(data, items, summaries, NOW)  # NOW is 2026-10-20, ISO week 2026-W43
+            rebuild_periods(data, digest)
+            week = (digest / "2026" / "2026-W43.md").read_text(encoding="utf-8")
+            month = (digest / "2026" / "2026-10.md").read_text(encoding="utf-8")
+            year = (digest / "2026" / "2026.md").read_text(encoding="utf-8")
+        self.assertIn("# AI 前沿 2026-W43（10-19 至 10-25）", week)
+        self.assertIn("标题0", week)
+        self.assertIn("每天：[10-20](../2026/2026-10-20.md)", week)
+        self.assertIn("- [2026-W43（10-19 至 10-25）](../2026/2026-W43.md)：2 条精选", month)
+        self.assertIn("- [2026-10](../2026/2026-10.md)：1 周", year)
+
     def test_commit_message(self):
         rows = [{"source": "OpenAI"}, {"source": "HF Daily Papers"}, {"source": "HF Daily Papers"}]
         self.assertEqual(commit_message(rows), "digest: 3 new item(s) (HF Daily Papers ×2, OpenAI)")
         self.assertEqual(commit_message([], 4), "digest: explain 4 pick(s)")
+        self.assertEqual(commit_message([], 0, 7), "digest: 7 pending")
+        self.assertEqual(commit_message(rows[:1], 0, 2), "digest: 1 new item(s) (OpenAI); 2 pending")
 
 
 if __name__ == "__main__":

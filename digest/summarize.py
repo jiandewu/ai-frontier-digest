@@ -10,7 +10,11 @@ import urllib.request
 
 GEMINI_ENDPOINT = "https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent"
 CATEGORIES = ("模型发布", "研究", "工程实践", "产品与应用", "行业动态", "政策与安全", "观点与访谈")
-BATCH_SIZE = 15
+BATCH_SIZE = 20  # gemini-3.6-flash took ~100 s for 15 items; keep a batch well under the 180 s timeout
+# Tried in order; a model that is overloaded, out of quota or timing out is skipped.
+# Override with the GEMINI_MODEL variable (comma-separated). Free tier, checked 2026-11-05:
+# gemini-3.7-flash and gemini-flash-latest return 429 at once, gemini-2.5-flash is retired for new users.
+DEFAULT_MODELS = ("gemini-3.8-flash", "gemini-3.6-flash", "gemini-3.1-flash-lite", "gemini-3.5-flash-lite")
 
 SYSTEM_PROMPT = (
     "你是 AI 科普编辑，读者对 AI 感兴趣、有理工科背景，但不一定是相关细分领域的专家。"
@@ -49,7 +53,11 @@ def response_schema(ids: list[str]) -> dict:
     }
 
 
-def _post(url: str, payload: dict, api_key: str, attempts: int = 4) -> dict:
+class Unavailable(RuntimeError):
+    """The model is overloaded, out of quota or timing out; another model may still work."""
+
+
+def _post(url: str, payload: dict, api_key: str, attempts: int = 2) -> dict:
     data = json.dumps(payload).encode("utf-8")
     headers = {"Content-Type": "application/json", "x-goog-api-key": api_key}
     for attempt in range(attempts):
@@ -57,26 +65,32 @@ def _post(url: str, payload: dict, api_key: str, attempts: int = 4) -> dict:
             with urllib.request.urlopen(urllib.request.Request(url, data=data, headers=headers), timeout=180) as response:
                 return json.loads(response.read())
         except urllib.error.HTTPError as exc:
-            if exc.code not in (429, 500, 502, 503, 504) or attempt == attempts - 1:
-                raise RuntimeError(f"Gemini HTTP {exc.code}: {exc.read().decode('utf-8', 'replace')[:300]}") from None
-        except (urllib.error.URLError, TimeoutError):  # read timeouts are not URLError
+            detail = f"Gemini HTTP {exc.code}: {exc.read().decode('utf-8', 'replace')[:300]}"
+            if exc.code == 429:  # free-tier quota: retrying only burns more of it
+                raise Unavailable(detail) from None
+            if exc.code not in (500, 502, 503, 504):
+                raise RuntimeError(detail) from None
             if attempt == attempts - 1:
-                raise
-        time.sleep((5, 15, 30)[min(attempt, 2)])
+                raise Unavailable(detail) from None
+        except (urllib.error.URLError, TimeoutError) as exc:  # read timeouts are not URLError
+            # A model that timed out once usually times out again; move on to the next one.
+            raise Unavailable(f"Gemini {type(exc).__name__}: {exc}") from None
+        time.sleep(15)
     raise RuntimeError("unreachable")
 
 
-def _generate(system: str, user: str, schema: dict, fallback_hint: str, api_key: str, model: str) -> list[dict]:
-    """Run one structured Gemini call and return its "items" list."""
+def _call(model: str, system: str, user: str, schema: dict, fallback_hint: str, api_key: str) -> dict:
     payload = {
         "system_instruction": {"parts": [{"text": system}]},
         "contents": [{"role": "user", "parts": [{"text": user}]}],
-        "generationConfig": {"maxOutputTokens": 16000, "responseMimeType": "application/json",
+        "generationConfig": {"maxOutputTokens": 32000, "responseMimeType": "application/json",
                              "responseJsonSchema": schema},
     }
     url = GEMINI_ENDPOINT.format(model=model)
     try:
-        body = _post(url, payload, api_key)
+        return _post(url, payload, api_key)
+    except Unavailable:
+        raise
     except RuntimeError as exc:
         if not str(exc).startswith("Gemini HTTP 400"):
             raise
@@ -84,12 +98,32 @@ def _generate(system: str, user: str, schema: dict, fallback_hint: str, api_key:
         # Callers still validate ids and fields.
         del payload["generationConfig"]["responseJsonSchema"]
         payload["contents"][0]["parts"][0]["text"] = f"{fallback_hint}\n{user}"
-        body = _post(url, payload, api_key)
-    parts = body.get("candidates", [{}])[0].get("content", {}).get("parts", [])
-    text = "".join(part.get("text", "") for part in parts if not part.get("thought"))
-    if not text:
-        raise RuntimeError(f"Gemini returned no text; finishReason={body.get('candidates', [{}])[0].get('finishReason')}")
-    return json.loads(text).get("items", [])
+        return _post(url, payload, api_key)
+
+
+def _generate(system: str, user: str, schema: dict, fallback_hint: str, api_key: str, models: list[str],
+              log=print) -> list[dict]:
+    """Run one structured Gemini call and return its "items" list, falling back through models.
+
+    The model that answers is moved to the front of `models`, so later calls in the run start with it.
+    """
+    errors = []
+    for index, model in enumerate(models):
+        try:
+            body = _call(model, system, user, schema, fallback_hint, api_key)
+        except Unavailable as exc:
+            errors.append(f"{model}: {str(exc)[:120]}")
+            continue
+        if index:
+            log(f"Gemini fallback to {model}; unavailable: {' | '.join(errors)}")
+            models[:] = models[index:] + models[:index]
+        parts = body.get("candidates", [{}])[0].get("content", {}).get("parts", [])
+        text = "".join(part.get("text", "") for part in parts if not part.get("thought"))
+        if not text:
+            raise RuntimeError(f"Gemini {model} returned no text; "
+                               f"finishReason={body.get('candidates', [{}])[0].get('finishReason')}")
+        return json.loads(text).get("items", [])
+    raise RuntimeError("All Gemini models unavailable: " + " | ".join(errors))
 
 
 def _importance(value) -> str:
@@ -100,13 +134,13 @@ def _importance(value) -> str:
     return str(number) if 1 <= number <= 5 else "2"
 
 
-def summarize_batch(items: list[dict], api_key: str, model: str) -> dict[str, dict]:
+def summarize_batch(items: list[dict], api_key: str, models: list[str], log=print) -> dict[str, dict]:
     candidates = [{"id": item["id"], "source": item["source"], "title": item["title"], "snippet": item["snippet"]}
                   for item in items]
     hint = ("按 JSON 返回 {\"items\": [{\"id\", \"titleZh\", \"summaryZh\", \"category\", \"importance\"}]}，"
             f"category 只能是 {'、'.join(CATEGORIES)}，importance 为 1-5 的整数。")
     entries = _generate(SYSTEM_PROMPT, json.dumps(candidates, ensure_ascii=False),
-                        response_schema([item["id"] for item in items]), hint, api_key, model)
+                        response_schema([item["id"] for item in items]), hint, api_key, models, log)
     known, result = {item["id"] for item in items}, {}
     for entry in entries:
         if str(entry.get("id")) not in known:
@@ -120,13 +154,13 @@ def summarize_batch(items: list[dict], api_key: str, model: str) -> dict[str, di
     return result
 
 
-def summarize(items: list[dict], api_key: str, model: str, log=print) -> dict[str, dict]:
+def summarize(items: list[dict], api_key: str, models: list[str], log=print) -> dict[str, dict]:
     """Summaries keyed by item id; items whose batch failed are left out so a later run retries them."""
     result = {}
     for start in range(0, len(items), BATCH_SIZE):
         batch = items[start:start + BATCH_SIZE]
         try:
-            result.update(summarize_batch(batch, api_key, model))
+            result.update(summarize_batch(batch, api_key, models, log))
         except Exception as exc:
             log(f"Gemini failed for {len(batch)} item(s): {type(exc).__name__}: {str(exc)[:300]}")
     return result
@@ -141,7 +175,7 @@ EXPLAIN_PROMPT = (
 )
 
 
-def explain(items: list[dict], api_key: str, model: str, log=print) -> dict[str, str]:
+def explain(items: list[dict], api_key: str, models: list[str], log=print) -> dict[str, str]:
     """Longer popular-science explanations from full text, keyed by item id; failures are left out."""
     if not items:
         return {}
@@ -157,7 +191,7 @@ def explain(items: list[dict], api_key: str, model: str, log=print) -> dict[str,
     candidates = [{"id": item["id"], "title": item["title"], "text": item["text"]} for item in items]
     try:
         entries = _generate(EXPLAIN_PROMPT, json.dumps(candidates, ensure_ascii=False), schema,
-                            "按 JSON 返回 {\"items\": [{\"id\", \"explainZh\"}]}。", api_key, model)
+                            "按 JSON 返回 {\"items\": [{\"id\", \"explainZh\"}]}。", api_key, models, log)
     except Exception as exc:
         log(f"Gemini explain failed for {len(items)} item(s): {type(exc).__name__}: {str(exc)[:300]}")
         return {}
@@ -171,7 +205,7 @@ EVENTS_PROMPT = (
 )
 
 
-def group_events(items: list[dict], api_key: str, model: str, log=print) -> list[list[str]] | None:
+def group_events(items: list[dict], api_key: str, models: list[str], log=print) -> list[list[str]] | None:
     """Groups of ids reporting the same event (each with 2+ ids, no id twice); None if Gemini failed."""
     if len(items) < 2:
         return []
@@ -188,7 +222,7 @@ def group_events(items: list[dict], api_key: str, model: str, log=print) -> list
                   for item in items]
     try:
         entries = _generate(EVENTS_PROMPT, json.dumps(candidates, ensure_ascii=False), schema,
-                            "按 JSON 返回 {\"items\": [{\"ids\": [...]}]}。", api_key, model)
+                            "按 JSON 返回 {\"items\": [{\"ids\": [...]}]}。", api_key, models, log)
     except Exception as exc:
         log(f"Gemini event grouping failed: {type(exc).__name__}: {str(exc)[:300]}")
         return None

@@ -24,6 +24,7 @@ jobs:
         run: python3 -m unittest discover -s tests
 
       - name: Collect and summarize new items
+        id: update
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GEMINI_MODEL: ${{ vars.GEMINI_MODEL }}
@@ -44,3 +45,9 @@ jobs:
           git commit --file "$COMMIT_MESSAGE_FILE"
           git pull --rebase origin main
           git push origin HEAD:main
+
+      - name: Fail if Gemini summarized nothing
+        if: steps.update.outputs.gemini_failed == 'true'
+        run: |
+          echo "::error::Gemini summarized none of the new or pending items; they were committed as pending."
+          exit 1

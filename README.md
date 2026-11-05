@@ -10,27 +10,23 @@ AI 前沿的中文科普导读：每天从研究者博客、实验室新闻、Ha
 
 | 重要度 | 标题 | 摘要 | 来源 |
 |---|---|---|---|
-| ★★★★ | [清华姚期智团队提出代数世界模型，探索物理符号化推理](https://www.qbitai.com/2026/11/507031.html) | 清华大学姚期智团队发表关于“代数世界模型”的新成果，旨在让AI像科学家一样通过代数与物理规律进行深度推演。该研究对提高AI在复杂物理场景中的泛化与推理能力具有重要科普和学术价值。 | 量子位 |
-| ★★★★ | [DeepSeek开源全新智能体底座，AI已能自修Bug提PR](https://www.qbitai.com/2026/10/506904.html) | DeepSeek开源了其最新的Agent（自主智能体）底座架构，展示了模型自主定位代码缺陷并提交合并请求（PR）的能力。这对推动全自动软件工程和自主智能体生态发展具有重要影响。 | 量子位 |
-| ★★★★ | [Google 承认 AI 模式冲击搜索收入，市值大幅缩水引发熊市担忧](https://latent.space/p/ainews-google-admits-ai-mode-hurts-search-revenue-15-500b-drop-worst-since-2004-ipo-ai-bear-market-c/) | Google 坦承 AI 搜索功能对其核心广告收入产生负面影响，市场巨震引发关于 AI 商业化与投资回报预期的深度讨论。 | Latent Space |
-| ★★★★ | [开源模型与网络安全风险：作者的反思](https://www.interconnects.ai/p/was-i-wrong-about-open-models-and) | 文章探讨了在近期严重漏洞集中曝光的背景下，AI 模型的网络安全风险是否正在加速显现，并反思此前对开源模型安全性的判断。 | Interconnects |
-| ★★★★ | [OpenAI支持共享协议规范，简化网站训练数据授权表达](https://openai.com/index/helping-websites-express-ai-training-preferences) | OpenAI宣布将支持标准化的robots.txt共享信号，方便网站运营者一站式声明其内容是否可用于AI模型训练。这是AI生态在数据版权与爬取规范方面的重要推进。 | OpenAI |
-| ★★★ | [JavaScript框架的“AI隐形成本”：为何复杂框架让大模型更费劲](https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks/) | 技术社区讨论了现代JavaScript框架对大模型代码生成的负面影响，复杂的抽象和样板代码显著增加了上下文长度与出错率。这提示开发者在AI编程时代需要重新权衡技术栈的简洁性。 | Hacker News |
-| ★★★ | [长周期金融工作流：AI智能体如何反向向人类提问](https://latent.space/p/arca/) | Arca的AI负责人探讨了支持跨多天运行的金融智能体架构，重点介绍了持久化记忆机制以及让AI在关键节点主动向人类求证的工作流。这为复杂企业级场景落地大模型提供了实用工程参考。 | Latent Space |
-| ★★★ | [恶意软件利用大模型评估受害者勒索价值](https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer/) | 安全研究发现新型恶意软件已开始调用大语言模型（LLM）自动化分析受害者数据，以评估其勒索潜力和赎金价值。这表明AI工具正被网络犯罪分子用于提升定向攻击的精准度。 | Hacker News |
-| ★★★ | [OpenAI发布社区安全报告并加强青少年保护机制](https://openai.com/index/community-safety-report-and-new-protections-for-teens) | OpenAI公布了ChatGPT在暴力防范与早期干预方面的新举措，并承诺定期发布公共安全报告以保护年轻群体。这体现了大模型厂商在未成年人保护和合规治理上的持续投入。 | OpenAI |
-| ★★★ | [LOWN架构：按需看图，大幅加速扩散多模态模型](https://huggingface.co/papers/2610.36671) | 研究人员提出LOWN方法，在扩散视觉语言模型解码时动态判断是否需要关注图像，预测一致时自适应跳过视觉计算。该机制在不损失精度的前提下显著降低了推理算力消耗。 | HF Daily Papers |
+| ★★★★★ | [Google DeepMind 发布 Genie 4：新一代实时超写实世界模拟器](https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/) | Google DeepMind 推出全新的世界模型 Genie 4，能够在实时交互模拟中呈现前所未有的超高逼真度。世界模型即能理解物理规律并预测环境变化的 AI 系统，该技术对于具身智能与交互式虚拟世界构建具有重大价值。 | Google DeepMind |
+| ★★★★ | [人形机器人全开源：从机械硬件图纸到运动算法完整公开](https://www.qbitai.com/2026/10/505865.html) | 该项目开源了人形机器人的全部图纸、关节硬件设计与核心运动算法，支持个人直接下载复刻。极大降低了具身智能硬件的开发与学习门槛。 | 量子位 |
+| ★★★★ | [OCR新开源框架打破限制：KV缓存压降96%，长文档无上限](https://www.qbitai.com/2026/10/505773.html) | 该开源文档解析模型将大模型注意力的KV Cache（键值缓存，存放历史上下文计算结果的显存）优化到近乎常数，显存消耗骤降96%。大幅提升了海量页面文档智能识别的处理速度与成本效益。 | 量子位 |
+| ★★★★ | [Anthropic冲刺2万亿美元IPO：招股书核心数据曝光](https://latent.space/p/ainews-anthropic-s1/) | 报道梳理了Anthropic披露的高达1400%增长率、巨额现金储备及云计算渠道收入等关键财务数据。这是观察大模型独角兽商业化进程与财务健康度的重要行业风向标。 | Latent Space |
+| ★★★★ | [Anthropic 实测研究：AI 智能体如何潜移默化影响人类专家的决策](https://www.anthropic.com/research/agents-judgment-calls) | Anthropic 让 50 名专业分析师使用编程智能体 Claude Code 完成统计分析，并在两个均合理的方案间随机植入 AI 偏向。结果显示大部分专家顺从了 AI 的倾向，且事后很少承认受其影响，揭示了人机协同中不易察觉的算法偏好引导风险。 | Anthropic |
+| ★★★★ | [OpenAI携手学界探索基础科学：公布多项数学与物理难题的模型研究结果](https://openai.com/index/building-scientific-understanding-with-academic-communities) | OpenAI公开了模型在挂谷猜想、指数时间假设及量子色动力学等前沿科学课题上的推理成果，并探讨科研人员如何验证及在此基础上进一步探索，体现了AI辅助重大科学发现的潜力。 | OpenAI |
+| ★★★ | [Survival LLM：可完全在本地电脑离线运行的应急知识库与 AI 助手](https://www.brangus.io/survival-llm) | 该开源项目将大语言模型与应急生存资料库打包，支持在个人电脑上完全离线部署。用户即使在断网或极端紧急情况下，也能随时检索关键知识并获取 AI 答疑支持。 | Hacker News |
+| ★★★ | [Anthropic团队揭秘：如何用Claude打造Claude平台](https://latent.space/p/opus55/) | Anthropic工程团队分享了Claude平台的工程架构实践，重点阐述了如何将模型的推理“大脑”与执行工具的“双手”解耦以构建可靠的AI智能体。对理解企业级Agent系统架构设计很有启发。 | Latent Space |
+| ★★★ | [Google 提出睡眠机制框架：助力大语言模型在持续学习中保留旧知识](https://research.google/blog/the-sleep-framework-a-new-way-for-llms-to-retain-knowledge-in-continual-learning/) | Google Research 探索了一种名为睡眠机制的新框架，旨在解决大语言模型在持续吸收新知识时容易遗忘旧知识的问题。该机制借鉴生物大脑在睡眠中巩固记忆的原理，提升模型的终身学习能力。 | Google Research |
+| ★★★ | [大语言模型能否准确评估科研构想的新颖性？](https://huggingface.co/blog/allenai/novelty-bench) | 该研究探讨了大模型作为科研评审工具的可信度，专门测试其在识别研究 Idea 原创性与创新度方面的表现，对未来 AI 辅助科研和学术同行评议具有重要参考意义。 | Hugging Face |
 
 <!-- latest:end -->
 
-## 每日汇总
+## 往期精选
 
 <!-- archive:start -->
 
-- [2026-11-01](digest/2026/2026-11-01.md)：4 条精选
-- [2026-10-31](digest/2026/2026-10-31.md)：10 条精选
-- [2026-10-30](digest/2026/2026-10-30.md)：10 条精选
-- [2026-10-29](digest/2026/2026-10-29.md)：7 条精选
 - [2026-10-28](digest/2026/2026-10-28.md)：10 条精选
 - [2026-10-27](digest/2026/2026-10-27.md)：4 条精选
 - [2026-10-26](digest/2026/2026-10-26.md)：10 条精选

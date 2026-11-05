@@ -10,7 +10,7 @@ import csv
 import hashlib
 import os
 from collections import Counter, defaultdict
-from datetime import datetime, timedelta
+from datetime import date, datetime, timedelta
 from email.utils import format_datetime
 from xml.sax.saxutils import escape
 from pathlib import Path
@@ -18,13 +18,15 @@ from zoneinfo import ZoneInfo
 
 from .sources import HF_MIN_UPVOTES, HN_MIN_POINTS, collect, load_feeds
 from .fulltext import fetch_text
-from .summarize import explain, group_events, summarize
+from .summarize import DEFAULT_MODELS, explain, group_events, summarize
 
 
 NEW_YORK = ZoneInfo("America/New_York")
 ITEM_COLUMNS = ["id", "detected_et", "published_et", "source", "group", "title", "title_zh", "summary_zh",
-                "category", "importance", "score", "link", "explain_zh", "event"]
+                "category", "importance", "score", "link", "explain_zh", "event", "snippet"]
 LOOKBACK_DAYS = 3
+# New items Gemini could not summarize are stored as pending (no importance) and retried for this long.
+PENDING_DAYS = 14
 # Pages show a short daily pick, not everything collected; the CSV keeps every summarized item.
 DAILY_PICKS = 10
 PICKS_PER_SOURCE = 2
@@ -36,8 +38,13 @@ COVERAGE_BONUS = 1
 EVENT_CANDIDATES = 60
 SOURCE_GROUP_TITLES = {"个人博客": "研究者与作者"}
 SITE_URL = "https://jiande.is-a.si/ai-frontier-digest/"
-# The README archive and the RSS feed both cover this many recent days.
+# The RSS feed covers this many recent days.
 RECENT_DAYS = 14
+# The README archive lists each day of the latest week, then ISO weeks, then months, then years,
+# by age in days from the latest day.
+ARCHIVE_DAY_AGE = 7
+ARCHIVE_WEEK_AGE = 35
+ARCHIVE_MONTH_AGE = 365
 
 
 def item_id(link: str) -> str:
@@ -104,13 +111,13 @@ def _latest_days(rows: list[dict], count: int = 2) -> list[str]:
     return sorted({row["detected_et"][:10] for row in rows}, reverse=True)[:count]
 
 
-def mark_events(data_dir: Path, api_key: str, model: str, log=print) -> bool:
+def mark_events(data_dir: Path, api_key: str, models: list[str], log=print) -> bool:
     """Group the two latest days' candidates by event; False if Gemini failed and nothing changed."""
     rows = load_items(data_dir)
     days = _latest_days(rows)
     candidates = [row for row in _rank([row for row in rows if row["detected_et"][:10] in days])
                   if int(row["importance"] or 0) >= PICK_MIN_IMPORTANCE][:EVENT_CANDIDATES]
-    groups = group_events(candidates, api_key, model, log)
+    groups = group_events(candidates, api_key, models, log)
     if groups is None:
         return False
     updates = {row["id"]: {"event": ""} for row in candidates}
@@ -120,7 +127,7 @@ def mark_events(data_dir: Path, api_key: str, model: str, log=print) -> bool:
     return True
 
 
-def explain_picks(data_dir: Path, api_key: str, model: str, log=print) -> list[dict]:
+def explain_picks(data_dir: Path, api_key: str, models: list[str], log=print) -> list[dict]:
     """Add full-text explanations to the picks of the two latest days that lack one."""
     rows = load_items(data_dir)
     candidates = [row for day in _latest_days(rows) for row in pick([row for row in rows if row["detected_et"][:10] == day])
@@ -132,24 +139,33 @@ def explain_picks(data_dir: Path, api_key: str, model: str, log=print) -> list[d
             readable.append({"id": row["id"], "title": row["title"], "text": text})
         else:
             log(f"No readable text: {row['link']}")
-    explanations = explain(readable, api_key, model, log)
+    explanations = explain(readable, api_key, models, log)
     update_rows(data_dir, {identifier: {"explain_zh": text} for identifier, text in explanations.items()})
     return [row for row in candidates if row["id"] in explanations]
 
 
+def is_pending(row: dict) -> bool:
+    """Stored but not yet summarized; pending rows are never picked."""
+    return not row["importance"]
+
+
+def _summary_fields(summary: dict, title: str) -> dict:
+    return {"title_zh": summary["title_zh"] or title, "summary_zh": summary["summary_zh"],
+            "category": summary["category"], "importance": summary["importance"]}
+
+
 def store_items(data_dir: Path, items: list[dict], summaries: dict[str, dict], now: datetime) -> list[dict]:
+    """Store every new item; those without a summary are stored as pending so a Gemini outage loses nothing."""
     stored = []
     for item in items:
         summary = summaries.get(item["id"])
-        if summary is None:
-            continue
         stored.append({
             "id": item["id"], "detected_et": now.strftime("%Y-%m-%d %H:%M"),
             "published_et": item["published"].astimezone(NEW_YORK).strftime("%Y-%m-%d %H:%M"),
             "source": item["source"], "group": item["group"], "title": item["title"],
-            "title_zh": summary["title_zh"] or item["title"], "summary_zh": summary["summary_zh"],
-            "category": summary["category"], "importance": summary["importance"],
-            "score": item["score"], "link": item["link"],
+            **(_summary_fields(summary, item["title"]) if summary
+               else dict.fromkeys(("title_zh", "summary_zh", "category", "importance"), "")),
+            "score": item["score"], "link": item["link"], "snippet": item["snippet"],
         })
     if stored:
         path = data_dir / "items" / now.strftime("%Y") / f"{now:%Y-%m}.csv"
@@ -157,6 +173,20 @@ def store_items(data_dir: Path, items: list[dict], summaries: dict[str, dict], n
         rows.sort(key=lambda row: (row["detected_et"], row["published_et"], row["id"]), reverse=True)
         _write_csv(path, rows)
     return stored
+
+
+def pending_items(data_dir: Path, now: datetime) -> list[dict]:
+    """Pending rows detected within PENDING_DAYS, in the shape summarize() expects."""
+    cutoff = (now - timedelta(days=PENDING_DAYS)).strftime("%Y-%m-%d %H:%M")
+    return [{"id": row["id"], "source": row["source"], "title": row["title"], "snippet": row.get("snippet", "")}
+            for row in load_items(data_dir) if is_pending(row) and row["detected_et"] >= cutoff]
+
+
+def resolve_pending(data_dir: Path, summaries: dict[str, dict]) -> list[dict]:
+    """Fill in the summaries of pending rows; they stay on the day they were detected."""
+    rows = [row for row in load_items(data_dir) if is_pending(row) and row["id"] in summaries]
+    update_rows(data_dir, {row["id"]: _summary_fields(summaries[row["id"]], row["title"]) for row in rows})
+    return rows
 
 
 def _cell(text: str) -> str:
@@ -212,9 +242,8 @@ def _day_link(day: str) -> str:
     return f"[{day}](../{day[:4]}/{day}.md)"
 
 
-def render_day(day: str, rows: list[dict], prev_day: str = "", next_day: str = "") -> str:
-    picks = pick(rows)
-    lines = [f"# AI 前沿 {day}", "", f"从当天收集的 {len(rows)} 条中精选 {len(picks)} 条，按重要度排序。时间为美东时间。", ""]
+def _render_picks(picks: list[dict]) -> list[str]:
+    lines = []
     for row in picks:
         lines += [f"## {_link(row['title_zh'], row['link'])}", "", f"{'★' * _importance(row)} · {_meta(row)}", ""]
         if row.get("_also"):
@@ -223,6 +252,109 @@ def render_day(day: str, rows: list[dict], prev_day: str = "", next_day: str = "
             lines += [row.get("explain_zh") or row["summary_zh"], ""]
         if row["title_zh"] != row["title"]:
             lines += [f"> {row['title']}", ""]
+    return lines
+
+
+def week_of(day: str) -> str:
+    """ISO week key such as 2026-W44 (Monday to Sunday; the ISO year can differ near New Year)."""
+    year, week, _ = date.fromisoformat(day).isocalendar()
+    return f"{year}-W{week:02d}"
+
+
+def _week_span(week: str) -> str:
+    monday = date.fromisocalendar(int(week[:4]), int(week[6:]), 1)
+    return f"{monday:%m-%d} 至 {monday + timedelta(days=6):%m-%d}"
+
+
+def _period_path(key: str) -> str:
+    """Page of a day (2026-10-28), ISO week (2026-W44), month (2026-10) or year (2026), under the digest dir."""
+    return f"{key[:4]}/{key}.md"
+
+
+def _period_link(key: str, label: str = "", base: str = "..") -> str:
+    return f"[{label or key}]({base}/{_period_path(key)})"
+
+
+def render_week(week: str, rows: list[dict], prev_week: str = "", next_week: str = "") -> str:
+    picks = pick(rows)
+    days = sorted({row["detected_et"][:10] for row in rows})
+    collected = sum(1 for row in rows if not is_pending(row))
+    lines = [f"# AI 前沿 {week}（{_week_span(week)}）", "",
+             f"本周 {len(days)} 天共收集 {collected} 条，精选 {len(picks)} 条，按重要度排序。时间为美东时间。", ""]
+    lines += _render_picks(picks)
+    lines += ["---", "", "每天：" + " · ".join(_period_link(day, day[5:]) for day in days), ""]
+    nav = [f"← {_period_link(prev_week)}" if prev_week else "", f"{_period_link(next_week)} →" if next_week else ""]
+    if any(nav):
+        lines += [" · ".join(part for part in nav if part), ""]
+    return "\n".join(lines)
+
+
+def render_month(month: str, week_counts: list[tuple[str, int]]) -> str:
+    lines = [f"# AI 前沿 {month}", "", "各周精选：", ""]
+    lines += [f"- {_period_link(week, f'{week}（{_week_span(week)}）')}：{count} 条精选" for week, count in week_counts]
+    lines += ["", f"全年：{_period_link(month[:4])}", ""]
+    return "\n".join(lines)
+
+
+def render_year(year: str, month_weeks: list[tuple[str, int]]) -> str:
+    lines = [f"# AI 前沿 {year}", ""]
+    lines += [f"- {_period_link(month)}：{weeks} 周" for month, weeks in month_weeks]
+    return "\n".join(lines + [""])
+
+
+def rebuild_periods(data_dir: Path, digest_dir: Path) -> None:
+    """Rewrite every week, month and year page; unchanged pages give unchanged files."""
+    rows = load_items(data_dir)
+    by_week = defaultdict(list)
+    for row in rows:
+        by_week[week_of(row["detected_et"][:10])].append(row)
+    weeks = sorted(by_week)
+    month_weeks = defaultdict(list)  # a week spanning two months is listed in both
+    for i, week in enumerate(weeks):
+        prev_week = weeks[i - 1] if i > 0 else ""
+        next_week = weeks[i + 1] if i + 1 < len(weeks) else ""
+        _write(digest_dir / _period_path(week), render_week(week, by_week[week], prev_week, next_week))
+        count = len(pick(by_week[week]))
+        for month in sorted({row["detected_et"][:7] for row in by_week[week]}):
+            month_weeks[month].append((week, count))
+    year_months = defaultdict(list)
+    for month, week_counts in sorted(month_weeks.items()):
+        _write(digest_dir / _period_path(month), render_month(month, sorted(week_counts, reverse=True)))
+        year_months[month[:4]].append((month, len(week_counts)))
+    for year, months in year_months.items():
+        _write(digest_dir / _period_path(year), render_year(year, sorted(months, reverse=True)))
+
+
+def _write(path: Path, text: str) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(text, encoding="utf-8")
+
+
+def archive_keys(days: list[str]) -> list[str]:
+    """README archive entries, newest first: days of the latest week, then weeks, months and years."""
+    if not days:
+        return []
+    latest, keys = date.fromisoformat(max(days)), []
+    for day in sorted(days, reverse=True):
+        age = (latest - date.fromisoformat(day)).days
+        if age < ARCHIVE_DAY_AGE:
+            key = day
+        elif age < ARCHIVE_WEEK_AGE:
+            key = week_of(day)
+        elif age < ARCHIVE_MONTH_AGE:
+            key = day[:7]
+        else:
+            key = day[:4]
+        if key not in keys:
+            keys.append(key)
+    return keys
+
+
+def render_day(day: str, rows: list[dict], prev_day: str = "", next_day: str = "") -> str:
+    picks = pick(rows)
+    collected = sum(1 for row in rows if not is_pending(row))
+    lines = [f"# AI 前沿 {day}", "", f"从当天收集的 {collected} 条中精选 {len(picks)} 条，按重要度排序。时间为美东时间。", ""]
+    lines += _render_picks(picks)
     nav = [f"← {_day_link(prev_day)}" if prev_day else "", f"{_day_link(next_day)} →" if next_day else ""]
     if any(nav):
         lines += ["---", "", " · ".join(part for part in nav if part), ""]
@@ -256,10 +388,16 @@ def render_readme_sections(data_dir: Path, digest_dir: Path) -> dict[str, str]:
     for row in pick(recent):
         latest.append(f"| {'★' * _importance(row)} | {_link(row['title_zh'], row['link'])} | "
                       f"{_cell(row['summary_zh'])} | {_cell(row['source'])} |")
-    archive = []
-    for day in days[:RECENT_DAYS]:
-        count = len(pick([row for row in rows if row["detected_et"][:10] == day]))
-        archive.append(f"- [{day}]({digest_dir.as_posix()}/{day[:4]}/{day}.md)：{count} 条精选")
+    archive, base = [], digest_dir.as_posix()
+    for key in archive_keys(days):
+        if "-W" in key:
+            count = len(pick([row for row in rows if week_of(row["detected_et"][:10]) == key]))
+            archive.append(f"- {_period_link(key, f'{key}（{_week_span(key)}）', base)}：{count} 条精选")
+        elif len(key) == 10:
+            count = len(pick([row for row in rows if row["detected_et"][:10] == key]))
+            archive.append(f"- {_period_link(key, base=base)}：{count} 条精选")
+        else:
+            archive.append(f"- {_period_link(key, base=base)}")
     return {"latest": "\n".join(latest), "archive": "\n".join(archive), "sources": render_sources(load_feeds())}
 
 
@@ -321,12 +459,14 @@ def update_readme(path: Path, sections: dict[str, str]) -> None:
     path.write_text(text, encoding="utf-8")
 
 
-def commit_message(stored: list[dict], explained: int = 0) -> str:
+def commit_message(stored: list[dict], explained: int = 0, pending: int = 0) -> str:
+    """stored: newly summarized rows; pending: rows still waiting for Gemini."""
+    extras = ([f"explain {explained} pick(s)"] if explained else []) + ([f"{pending} pending"] if pending else [])
     if not stored:
-        return f"digest: explain {explained} pick(s)" if explained else "digest: refresh"
+        return f"digest: {'; '.join(extras)}" if extras else "digest: refresh"
     counts = Counter(row["source"] for row in stored)
     detail = ", ".join(f"{source} ×{n}" if n > 1 else source for source, n in counts.most_common(5))
-    extra = f"; explain {explained} pick(s)" if explained else ""
+    extra = "".join(f"; {text}" for text in extras)
     return f"digest: {len(stored)} new item(s) ({detail}{', ...' if len(counts) > 5 else ''}){extra}"
 
 
@@ -348,11 +488,13 @@ def main(argv=None) -> int:
     parser.add_argument("--digest-dir", default="digest")
     parser.add_argument("--readme", default="README.md")
     parser.add_argument("--feed", default="feed.xml")
-    parser.add_argument("--model", default=os.environ.get("GEMINI_MODEL") or "gemini-3.8-flash")
+    parser.add_argument("--models", default=os.environ.get("GEMINI_MODEL") or ",".join(DEFAULT_MODELS),
+                        help="comma-separated Gemini models, tried in order")
     parser.add_argument("--message-file", default=os.environ.get("COMMIT_MESSAGE_FILE", ""))
     args = parser.parse_args(argv)
 
     data_dir, digest_dir, now = Path(args.data_dir), Path(args.digest_dir), datetime.now(NEW_YORK)
+    models = [model.strip() for model in args.models.split(",") if model.strip()]
     problems = []
 
     def log(message: str) -> None:
@@ -363,31 +505,43 @@ def main(argv=None) -> int:
     new = select_new(fetched, {row["id"] for row in load_items(data_dir)}, now)
     print(f"Fetched {len(fetched)} item(s); {len(new)} new.")
     api_key = os.environ.get("GEMINI_API_KEY", "")
+    pending = pending_items(data_dir, now)
+    if pending:
+        print(f"Retrying {len(pending)} pending item(s).")
     if api_key:
-        summaries = summarize(new, api_key, args.model, log)
+        summaries = summarize(pending + new, api_key, models, log)
     else:
-        # Keep items unseen so they are summarized once the key is configured.
-        print("GEMINI_API_KEY is not set; nothing stored.")
+        print("GEMINI_API_KEY is not set; new items are stored as pending.")
         summaries = {}
     stored = store_items(data_dir, new, summaries, now)
-    grouped = bool(stored) and mark_events(data_dir, api_key, args.model, log)
-    explained = explain_picks(data_dir, api_key, args.model, log) if api_key else []
-    changed_days = {row["detected_et"][:10] for row in stored + explained}
+    resolved = resolve_pending(data_dir, summaries)
+    summarized = [row for row in stored if not is_pending(row)] + resolved
+    still_pending = len(pending) - len(resolved) + sum(1 for row in stored if is_pending(row))
+    grouped = bool(summarized) and mark_events(data_dir, api_key, models, log)
+    explained = explain_picks(data_dir, api_key, models, log) if api_key else []
+    changed_days = {row["detected_et"][:10] for row in summarized + explained}
     if grouped:
         changed_days |= set(_latest_days(load_items(data_dir)))
     if changed_days:
         rebuild_pages(data_dir, digest_dir, changed_days)
+    rebuild_periods(data_dir, digest_dir)
     update_readme(Path(args.readme), render_readme_sections(data_dir, digest_dir))
     Path(args.feed).write_text(render_feed(data_dir), encoding="utf-8")
-    message = commit_message(stored, len(explained))
-    lines = [f"Fetched {len(fetched)} item(s); {len(new)} new.",
-             f"Stored {len(stored)} item(s); {len(new) - len(stored)} left for the next run; "
-             f"explained {len(explained)} pick(s).", message]
+    message = commit_message(summarized, len(explained), still_pending)
+    lines = [f"Fetched {len(fetched)} item(s); {len(new)} new; {len(pending)} pending from earlier runs.",
+             f"Summarized {len(summarized)} item(s) ({len(resolved)} of them pending before); "
+             f"{still_pending} still pending; explained {len(explained)} pick(s).", message]
     print("\n".join(lines[1:]))
     if os.environ.get("GITHUB_STEP_SUMMARY"):
-        write_summary(os.environ["GITHUB_STEP_SUMMARY"], lines, stored, problems)
+        write_summary(os.environ["GITHUB_STEP_SUMMARY"], lines, summarized, problems)
     if args.message_file:
         Path(args.message_file).write_text(message + "\n", encoding="utf-8")
+    if api_key and (pending or new) and not summaries:
+        # The workflow commits the pending rows first, then fails on this output so GitHub sends a notification.
+        print(f"Gemini summarized none of {len(pending) + len(new)} item(s); they are stored as pending.")
+        if os.environ.get("GITHUB_OUTPUT"):
+            with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8") as handle:
+                handle.write("gemini_failed=true\n")
     return 0
 
 
