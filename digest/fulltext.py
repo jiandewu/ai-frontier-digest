@@ -19,22 +19,22 @@ _BODY = re.compile(r"<body\b.*?</body\s*>", re.S | re.I)
 _HF_PAPER = re.compile(r"^https://huggingface\.co/papers/([^/?#]+)")
 
 
-def extract_text(page: str) -> str:
+def extract_text(page: str, limit: int = MAX_CHARS) -> str:
     """Text of the longest <article> block, else <main>, else <body>; tags stripped."""
     page = _DROP.sub(" ", re.sub(r"<!--.*?-->", " ", page, flags=re.S))
     blocks = _ARTICLE.findall(page) or _MAIN.findall(page) or _BODY.findall(page) or [page]
     text = html.unescape(re.sub(r"<[^>]+>", " ", max(blocks, key=len)))
-    return re.sub(r"\s+", " ", text).strip()[:MAX_CHARS]
+    return re.sub(r"\s+", " ", text).strip()[:limit]
 
 
-def fetch_text(url: str) -> str:
+def fetch_text(url: str, limit: int = MAX_CHARS) -> str:
     """Article text, or "" when the page cannot be read well enough to explain."""
     headers = {"User-Agent": USER_AGENT}
     paper = _HF_PAPER.match(url)
     try:
         if paper:  # the paper page is mostly embedded JSON; the API has the abstract
             return json.loads(get(f"https://huggingface.co/api/papers/{paper.group(1)}", headers)).get("summary", "")
-        text = extract_text(get(url, headers, timeout=20, attempts=2))
+        text = extract_text(get(url, headers, timeout=20, attempts=2), limit)
     except Exception:
         return ""
     return text if len(text) >= MIN_CHARS else ""

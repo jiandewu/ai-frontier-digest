@@ -1,6 +1,6 @@
 """Report each feed's latest post; exit 1 if any feed fails or has gone quiet.
 
-Run monthly in CI (or by hand) to decide which rows of feeds.csv or science/feeds.csv to drop or fix.
+Run monthly in CI (or by hand) to decide which rows of feeds.csv, science/feeds.csv or longread/feeds.csv to drop or fix.
 """
 
 from __future__ import annotations
@@ -10,6 +10,7 @@ from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timedelta, timezone
 
 from .http import get
+from .longread import FEEDS_CSV as LONGREAD_FEEDS
 from .profiles import PROFILES
 from .sources import USER_AGENT, load_feeds, parse_feed
 
@@ -34,7 +35,8 @@ def check(feed: dict, now: datetime) -> tuple[str, str]:
 
 def main() -> int:
     now = datetime.now(timezone.utc)
-    feeds = [feed for profile in PROFILES.values() for feed in load_feeds(profile.feeds_csv)]
+    feeds = [feed for path in [*(profile.feeds_csv for profile in PROFILES.values()), LONGREAD_FEEDS]
+             for feed in load_feeds(path)]
     with ThreadPoolExecutor(8) as pool:
         results = list(pool.map(lambda feed: check(feed, now), feeds))
     lines = ["| 状态 | 来源 | 详情 | feed |", "|---|---|---|---|"]
