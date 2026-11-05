@@ -6,6 +6,76 @@
 <description>每天精选 10 条以内最值得一读的 AI 前沿进展，附中文科普解释。</description>
 <language>zh-CN</language>
 <item>
+<title>GPT-Image-2.6 全量上线，支持直接生成 GIF 与矢量图 SVG</title>
+<link>https://www.qbitai.com/2026/11/507707.html</link>
+<guid isPermaLink="false">5279acc13e09</guid>
+<pubDate>Wed, 04 Nov 2026 20:59:00 -0500</pubDate>
+<description>&lt;p&gt;GPT-Image-2.6是OpenAI推出的图像生成模型，通过将“场景规划”与“像素渲染”解耦，允许开发者调节参数实现更快的生成速度（最快6秒）及更高的一致性。该模型通过序列帧（Sprite Sheet）技术原生支持GIF生成，并直接支持SVG矢量格式导出。这一更新提升了商业应用中的效率，但其处理复杂场景时仍依赖合理的参数配置。&lt;/p&gt;&lt;p&gt;★★★★★ · 量子位 · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-05.html"&gt;2026-11-05 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>AI自动化修复近千个Linux内核漏洞</title>
+<link>https://openai.com/index/a-thousand-fewer-paths-to-root</link>
+<guid isPermaLink="false">a4f4c423c542</guid>
+<pubDate>Wed, 04 Nov 2026 03:00:00 -0500</pubDate>
+<description>&lt;p&gt;OpenAI开发了一套自动化管道，成功发现、验证并修复了Linux内核中948个本地权限提升漏洞，展示了AI在软件安全领域的强大潜力。&lt;/p&gt;&lt;p&gt;★★★★★ · OpenAI · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-05.html"&gt;2026-11-05 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>AINews：“权重空间编程”引入神经网络权重读写功能</title>
+<link>https://latent.space/p/ainews-llms-can-read-write-neural-network-weights-weight-space-programming-cuts-autoresearch-out-of/</link>
+<guid isPermaLink="false">360a3a5d8e13</guid>
+<pubDate>Tue, 03 Nov 2026 00:35:00 -0500</pubDate>
+<description>&lt;p&gt;这是一项关于“权重空间编程”（Weight Space Programming）的研究进展，展示了高性能大模型能直接读取并编辑小型模型的神经网络权重。这意味着AI无需源码即可理解模型功能、修复Bug甚至从头生成网络权重。这一能力为递归自我改进（RSI）提供了新路径，但目前尚处于实验阶段，尚未在大规模复杂任务中验证其有效性。&lt;/p&gt;&lt;p&gt;★★★★★ · Latent Space · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-05.html"&gt;2026-11-05 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>百度开源文心 5.5 Flash Base，刷新同尺寸模型 SOTA 纪录</title>
+<link>https://www.qbitai.com/2026/11/507787.html</link>
+<guid isPermaLink="false">a29b2895a2f3</guid>
+<pubDate>Thu, 05 Nov 2026 02:15:00 -0500</pubDate>
+<description>&lt;p&gt;文心5.5 Flash Base是百度开源的混合专家（MoE）架构基座模型，旨在提升长上下文处理中的资源利用效率。它通过引入潜空间门控稀疏注意力（Latent-Gated Sparse Attention）和高效专家路由机制，在多项基准测试中表现出色。该模型的开源为开发者提供了更灵活的定制空间，有助于降低专业大模型的研发成本。&lt;/p&gt;&lt;p&gt;★★★★ · 量子位 · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-05.html"&gt;2026-11-05 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>比煤炭更不受欢迎：从数据中心全民公投看 AI 重构需求</title>
+<link>https://www.argmin.net/p/less-popular-than-coal</link>
+<guid isPermaLink="false">ecc8f412394b</guid>
+<pubDate>Wed, 04 Nov 2026 14:07:00 -0500</pubDate>
+<description>&lt;p&gt;本文探讨了美国公众近期对AI数据中心建设的广泛抵触情绪，指出民众对AI行业的负面观感与社会经济利益分配不均、行业不负责任的宣传及技术带来的就业焦虑密切相关。作者认为AI行业正面临严重的形象危机，急需通过集体行动推动行业变革，而非仅仅依赖技术进步来解决根本性的社会信任问题。&lt;/p&gt;&lt;p&gt;★★★★ · arg min · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-05.html"&gt;2026-11-05 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>Ripple-65B：编程智能体新模型</title>
+<link>https://www.ricursive.com/ripple</link>
+<guid isPermaLink="false">0f35e299c97c</guid>
+<pubDate>Wed, 04 Nov 2026 13:53:00 -0500</pubDate>
+<description>&lt;p&gt;Ripple-65B Preview是Ricursive Intelligence推出的一款开源编码模型，在TerminalBench基准测试中达到了美国开源模型领先水平。该模型通过优化训练流程和架构，在极低的研发成本下实现了高推理效率。其成功归功于精心设计的模型阶梯实验（Laddering）和高效的合成数据训练策略，为全栈AI研发提供了参考。&lt;/p&gt;&lt;p&gt;★★★★ · Hacker News · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-05.html"&gt;2026-11-05 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>AI正迫使企业偿还技术债务</title>
+<link>https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability</link>
+<guid isPermaLink="false">68c44263a0af</guid>
+<pubDate>Wed, 04 Nov 2026 06:52:00 -0500</pubDate>
+<description>&lt;p&gt;PHP2Shell漏洞揭示了AI时代下，人类过去40年积累的技术债务正加速被AI发掘。研究显示，利用AI工具能够高效识别并利用原本被视为“不严重”的程序崩溃类Bug，从而将其转化为严重的安全漏洞。这强调了防御方亟需提升预算、采用形式化验证工具（Formal Verification）来应对日益频繁的自动化攻击威胁。&lt;/p&gt;&lt;p&gt;★★★★ · Hacker News · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-05.html"&gt;2026-11-05 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>Claude助力揭示原核细胞中的Vault颗粒结构</title>
+<link>https://www.anthropic.com/research/investigating-vault-particles-with-claude</link>
+<guid isPermaLink="false">14329e9984c2</guid>
+<pubDate>Tue, 03 Nov 2026 19:00:00 -0500</pubDate>
+<description>&lt;p&gt;Anthropic的生物实验室利用Claude解析了原核生物中一种大型蛋白质结构——穹窿体（Vault particle），这是生物学研究中的一项重大进展。研究团队通过Claude辅助文献搜索、实验设计和数据处理，显著缩短了净化和建模的周期。该案例展示了AI作为“科研助手”在加速基础生物学发现和解析复杂分子结构中的巨大潜力。&lt;/p&gt;&lt;p&gt;★★★★ · Anthropic · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-05.html"&gt;2026-11-05 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>Google Antigravity：AI驱动的化学信息学</title>
+<link>https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/</link>
+<guid isPermaLink="false">adafdd4764cb</guid>
+<pubDate>Tue, 03 Nov 2026 12:01:00 -0500</pubDate>
+<description>&lt;p&gt;Google Antigravity模型通过化学信息学技能，帮助科研人员加速药物发现、化合物搜索及复杂分子结构设计。&lt;/p&gt;&lt;p&gt;★★★★ · Google DeepMind · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-05.html"&gt;2026-11-05 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>Wave Forcing：流式视频生成技术</title>
+<link>https://huggingface.co/papers/2611.00859</link>
+<guid isPermaLink="false">cc28470f0055</guid>
+<pubDate>Mon, 02 Nov 2026 19:00:00 -0500</pubDate>
+<description>&lt;p&gt;Wave Forcing (WF) 是一种旨在实现实时、长视频生成的系统架构，通过协同设计生成过程、训练方法与执行机制来提升效率。它利用分块因果注意力（chunk-wise causal attention）实现流式输出，并在多台GPU上分布交错去噪阶段，大幅提升了推理吞吐量。该方法相比传统方法能以更低的延迟保持高质量的长视频生成。&lt;/p&gt;&lt;p&gt;★★★★ · HF Daily Papers · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-05.html"&gt;2026-11-05 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
 <title>清华姚期智团队提出代数世界模型，探索物理符号化推理</title>
 <link>https://www.qbitai.com/2026/11/507031.html</link>
 <guid isPermaLink="false">96603222f1ad</guid>

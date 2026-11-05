@@ -10,16 +10,16 @@ AI 前沿的中文科普导读：每天从研究者博客、实验室新闻、Ha
 
 | 重要度 | 标题 | 摘要 | 来源 |
 |---|---|---|---|
-| ★★★★★ | [Google DeepMind 发布 Genie 4：新一代实时超写实世界模拟器](https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/) | Google DeepMind 推出全新的世界模型 Genie 4，能够在实时交互模拟中呈现前所未有的超高逼真度。世界模型即能理解物理规律并预测环境变化的 AI 系统，该技术对于具身智能与交互式虚拟世界构建具有重大价值。 | Google DeepMind |
-| ★★★★ | [人形机器人全开源：从机械硬件图纸到运动算法完整公开](https://www.qbitai.com/2026/10/505865.html) | 该项目开源了人形机器人的全部图纸、关节硬件设计与核心运动算法，支持个人直接下载复刻。极大降低了具身智能硬件的开发与学习门槛。 | 量子位 |
-| ★★★★ | [OCR新开源框架打破限制：KV缓存压降96%，长文档无上限](https://www.qbitai.com/2026/10/505773.html) | 该开源文档解析模型将大模型注意力的KV Cache（键值缓存，存放历史上下文计算结果的显存）优化到近乎常数，显存消耗骤降96%。大幅提升了海量页面文档智能识别的处理速度与成本效益。 | 量子位 |
-| ★★★★ | [Anthropic冲刺2万亿美元IPO：招股书核心数据曝光](https://latent.space/p/ainews-anthropic-s1/) | 报道梳理了Anthropic披露的高达1400%增长率、巨额现金储备及云计算渠道收入等关键财务数据。这是观察大模型独角兽商业化进程与财务健康度的重要行业风向标。 | Latent Space |
-| ★★★★ | [Anthropic 实测研究：AI 智能体如何潜移默化影响人类专家的决策](https://www.anthropic.com/research/agents-judgment-calls) | Anthropic 让 50 名专业分析师使用编程智能体 Claude Code 完成统计分析，并在两个均合理的方案间随机植入 AI 偏向。结果显示大部分专家顺从了 AI 的倾向，且事后很少承认受其影响，揭示了人机协同中不易察觉的算法偏好引导风险。 | Anthropic |
-| ★★★★ | [OpenAI携手学界探索基础科学：公布多项数学与物理难题的模型研究结果](https://openai.com/index/building-scientific-understanding-with-academic-communities) | OpenAI公开了模型在挂谷猜想、指数时间假设及量子色动力学等前沿科学课题上的推理成果，并探讨科研人员如何验证及在此基础上进一步探索，体现了AI辅助重大科学发现的潜力。 | OpenAI |
-| ★★★ | [Survival LLM：可完全在本地电脑离线运行的应急知识库与 AI 助手](https://www.brangus.io/survival-llm) | 该开源项目将大语言模型与应急生存资料库打包，支持在个人电脑上完全离线部署。用户即使在断网或极端紧急情况下，也能随时检索关键知识并获取 AI 答疑支持。 | Hacker News |
-| ★★★ | [Anthropic团队揭秘：如何用Claude打造Claude平台](https://latent.space/p/opus55/) | Anthropic工程团队分享了Claude平台的工程架构实践，重点阐述了如何将模型的推理“大脑”与执行工具的“双手”解耦以构建可靠的AI智能体。对理解企业级Agent系统架构设计很有启发。 | Latent Space |
-| ★★★ | [Google 提出睡眠机制框架：助力大语言模型在持续学习中保留旧知识](https://research.google/blog/the-sleep-framework-a-new-way-for-llms-to-retain-knowledge-in-continual-learning/) | Google Research 探索了一种名为睡眠机制的新框架，旨在解决大语言模型在持续吸收新知识时容易遗忘旧知识的问题。该机制借鉴生物大脑在睡眠中巩固记忆的原理，提升模型的终身学习能力。 | Google Research |
-| ★★★ | [大语言模型能否准确评估科研构想的新颖性？](https://huggingface.co/blog/allenai/novelty-bench) | 该研究探讨了大模型作为科研评审工具的可信度，专门测试其在识别研究 Idea 原创性与创新度方面的表现，对未来 AI 辅助科研和学术同行评议具有重要参考意义。 | Hugging Face |
+| ★★★★★ | [GPT-Image-2.6 全量上线，支持直接生成 GIF 与矢量图 SVG](https://www.qbitai.com/2026/11/507707.html) | GPT-Image-2.6 已全量开放，具备最快 6 秒出图的高效渲染能力，并新增直接输出动态图 GIF 和矢量格式 SVG 的功能。同时新的 6.2 Astra 模型也首次现身。 | 量子位 |
+| ★★★★★ | [AI自动化修复近千个Linux内核漏洞](https://openai.com/index/a-thousand-fewer-paths-to-root) | OpenAI开发了一套自动化管道，成功发现、验证并修复了Linux内核中948个本地权限提升漏洞，展示了AI在软件安全领域的强大潜力。 | OpenAI |
+| ★★★★★ | [AINews：“权重空间编程”引入神经网络权重读写功能](https://latent.space/p/ainews-llms-can-read-write-neural-network-weights-weight-space-programming-cuts-autoresearch-out-of/) | 介绍了大语言模型直接读写神经网络权重的“权重空间编程”概念，包含修改 Qwen 权重以减少推理死循环的实践，并提到了 DeepSeek 的超级智能体原型和 GDPx 评估基准。 | Latent Space |
+| ★★★★ | [百度开源文心 5.5 Flash Base，刷新同尺寸模型 SOTA 纪录](https://www.qbitai.com/2026/11/507787.html) | 百度正式开源最新基座模型文心 5.5 Flash Base，在多项基准测试中达到了同等参数尺寸下的 SOTA（当前最佳水平），为开发者提供了更高性能的开源底座。 | 量子位 |
+| ★★★★ | [比煤炭更不受欢迎：从数据中心全民公投看 AI 重构需求](https://www.argmin.net/p/less-popular-than-coal) | 文章围绕数据中心建设引发的公众公投争议展开，探讨了 AI 基础设施扩建带来的社会与环境阻力，并呼吁对 AI 发展模式进行重新思考与调整。 | arg min |
+| ★★★★ | [Ripple-65B：编程智能体新模型](https://www.ricursive.com/ripple) | 发布了 Ripple-65B 模型预览版，该模型在智能体代码编写任务中表现出色，且为开放权重（Open-weight，指模型参数对外公开可下载），是目前美国同类模型中的领先者。 | Hacker News |
+| ★★★★ | [AI正迫使企业偿还技术债务](https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability) | 讨论指出AI技术的快速发展正倒逼企业重新整理和优化积累了40年的遗留技术系统（技术债务）。 | Hacker News |
+| ★★★★ | [Claude助力揭示原核细胞中的Vault颗粒结构](https://www.anthropic.com/research/investigating-vault-particles-with-claude) | Anthropic利用Claude辅助生物学研究，首次解析了原核细胞中Vault颗粒的3D结构，展现AI在科研发现中的价值。 | Anthropic |
+| ★★★★ | [Google Antigravity：AI驱动的化学信息学](https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/) | Google Antigravity模型通过化学信息学技能，帮助科研人员加速药物发现、化合物搜索及复杂分子结构设计。 | Google DeepMind |
+| ★★★★ | [Wave Forcing：流式视频生成技术](https://huggingface.co/papers/2611.00859) | 提出了一种新的视频生成架构，通过优化生成与训练机制，实现了具备高一致性和自然动作的实时流式长视频生成。 | HF Daily Papers |
 
 <!-- latest:end -->
 
@@ -27,15 +27,12 @@ AI 前沿的中文科普导读：每天从研究者博客、实验室新闻、Ha
 
 <!-- archive:start -->
 
-- [2026-10-28](digest/2026/2026-10-28.md)：10 条精选
-- [2026-10-27](digest/2026/2026-10-27.md)：4 条精选
-- [2026-10-26](digest/2026/2026-10-26.md)：10 条精选
-- [2026-10-25](digest/2026/2026-10-25.md)：3 条精选
-- [2026-10-24](digest/2026/2026-10-24.md)：7 条精选
-- [2026-10-23](digest/2026/2026-10-23.md)：10 条精选
-- [2026-10-22](digest/2026/2026-10-22.md)：5 条精选
-- [2026-10-21](digest/2026/2026-10-21.md)：10 条精选
-- [2026-10-20](digest/2026/2026-10-20.md)：10 条精选
+- [2026-11-05](digest/2026/2026-11-05.md)：10 条精选
+- [2026-11-01](digest/2026/2026-11-01.md)：4 条精选
+- [2026-10-31](digest/2026/2026-10-31.md)：10 条精选
+- [2026-10-30](digest/2026/2026-10-30.md)：10 条精选
+- [2026-W44（10-26 至 11-01）](digest/2026/2026-W44.md)：10 条精选
+- [2026-W43（10-19 至 10-25）](digest/2026/2026-W43.md)：10 条精选
 
 <!-- archive:end -->
 
