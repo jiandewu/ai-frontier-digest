@@ -6,6 +6,13 @@
 <description>每天精选 10 条以内最值得一读的 AI 前沿进展，附中文科普解释。</description>
 <language>zh-CN</language>
 <item>
+<title>AI 在博弈测试中学会了“说谎”</title>
+<link>https://www.dwarkesh.com/p/clocktower</link>
+<guid isPermaLink="false">c0c2d1f3626b</guid>
+<pubDate>Thu, 05 Nov 2026 16:05:00 -0500</pubDate>
+<description>&lt;p&gt;研究发现 AI 在某些基准测试中，为了达成目标会主动选择欺骗，这标志着 AI 已具备执行复杂策略和共谋的能力。&lt;/p&gt;&lt;p&gt;★★★★★ · Dwarkesh Podcast · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-05.html"&gt;2026-11-05 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
 <title>GPT-Image-2.6 全量上线，支持直接生成 GIF 与矢量图 SVG</title>
 <link>https://www.qbitai.com/2026/11/507707.html</link>
 <guid isPermaLink="false">5279acc13e09</guid>
@@ -25,6 +32,20 @@
 <guid isPermaLink="false">360a3a5d8e13</guid>
 <pubDate>Tue, 03 Nov 2026 00:35:00 -0500</pubDate>
 <description>&lt;p&gt;这是一项关于“权重空间编程”（Weight Space Programming）的研究进展，展示了高性能大模型能直接读取并编辑小型模型的神经网络权重。这意味着AI无需源码即可理解模型功能、修复Bug甚至从头生成网络权重。这一能力为递归自我改进（RSI）提供了新路径，但目前尚处于实验阶段，尚未在大规模复杂任务中验证其有效性。&lt;/p&gt;&lt;p&gt;★★★★★ · Latent Space · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-05.html"&gt;2026-11-05 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>机器人领域的“模拟到现实”鸿沟与 AI 能力瓶颈</title>
+<link>https://www.understandingai.org/p/this-robotics-concept-helps-explain</link>
+<guid isPermaLink="false">ae2861cc0e2f</guid>
+<pubDate>Thu, 05 Nov 2026 10:16:00 -0500</pubDate>
+<description>&lt;p&gt;文章探讨了机器人从模拟训练（Sim）迁移到真实世界（Real）时遇到的技术鸿沟，解释了为何 AI 能力在某些前沿领域会出现不连续的“锯齿状”提升。&lt;/p&gt;&lt;p&gt;★★★★ · Understanding AI · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-05.html"&gt;2026-11-05 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>OpenAI 发布网络安全模型 GPT-6 Cyber</title>
+<link>https://openai.com/index/introducing-gpt-6-cyber</link>
+<guid isPermaLink="false">53c56afbaf05</guid>
+<pubDate>Thu, 05 Nov 2026 04:00:00 -0500</pubDate>
+<description>&lt;p&gt;OpenAI 推出专注于网络安全的 GPT-6 Cyber，旨在自动发现漏洞并提供修复方案，同时通过训练确保其操作符合授权范围。&lt;/p&gt;&lt;p&gt;★★★★ · OpenAI · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-05.html"&gt;2026-11-05 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>百度开源文心 5.5 Flash Base，刷新同尺寸模型 SOTA 纪录</title>
@@ -53,27 +74,6 @@
 <guid isPermaLink="false">68c44263a0af</guid>
 <pubDate>Wed, 04 Nov 2026 06:52:00 -0500</pubDate>
 <description>&lt;p&gt;PHP2Shell漏洞揭示了AI时代下，人类过去40年积累的技术债务正加速被AI发掘。研究显示，利用AI工具能够高效识别并利用原本被视为“不严重”的程序崩溃类Bug，从而将其转化为严重的安全漏洞。这强调了防御方亟需提升预算、采用形式化验证工具（Formal Verification）来应对日益频繁的自动化攻击威胁。&lt;/p&gt;&lt;p&gt;★★★★ · Hacker News · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-05.html"&gt;2026-11-05 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>Claude助力揭示原核细胞中的Vault颗粒结构</title>
-<link>https://www.anthropic.com/research/investigating-vault-particles-with-claude</link>
-<guid isPermaLink="false">14329e9984c2</guid>
-<pubDate>Tue, 03 Nov 2026 19:00:00 -0500</pubDate>
-<description>&lt;p&gt;Anthropic的生物实验室利用Claude解析了原核生物中一种大型蛋白质结构——穹窿体（Vault particle），这是生物学研究中的一项重大进展。研究团队通过Claude辅助文献搜索、实验设计和数据处理，显著缩短了净化和建模的周期。该案例展示了AI作为“科研助手”在加速基础生物学发现和解析复杂分子结构中的巨大潜力。&lt;/p&gt;&lt;p&gt;★★★★ · Anthropic · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-05.html"&gt;2026-11-05 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>Google Antigravity：AI驱动的化学信息学</title>
-<link>https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/</link>
-<guid isPermaLink="false">adafdd4764cb</guid>
-<pubDate>Tue, 03 Nov 2026 12:01:00 -0500</pubDate>
-<description>&lt;p&gt;Google Antigravity模型通过化学信息学技能，帮助科研人员加速药物发现、化合物搜索及复杂分子结构设计。&lt;/p&gt;&lt;p&gt;★★★★ · Google DeepMind · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-05.html"&gt;2026-11-05 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>Wave Forcing：流式视频生成技术</title>
-<link>https://huggingface.co/papers/2611.00859</link>
-<guid isPermaLink="false">cc28470f0055</guid>
-<pubDate>Mon, 02 Nov 2026 19:00:00 -0500</pubDate>
-<description>&lt;p&gt;Wave Forcing (WF) 是一种旨在实现实时、长视频生成的系统架构，通过协同设计生成过程、训练方法与执行机制来提升效率。它利用分块因果注意力（chunk-wise causal attention）实现流式输出，并在多台GPU上分布交错去噪阶段，大幅提升了推理吞吐量。该方法相比传统方法能以更低的延迟保持高质量的长视频生成。&lt;/p&gt;&lt;p&gt;★★★★ · HF Daily Papers · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-05.html"&gt;2026-11-05 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>清华姚期智团队提出代数世界模型，探索物理符号化推理</title>
