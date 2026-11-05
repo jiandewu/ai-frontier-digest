@@ -15,7 +15,9 @@ BATCH_SIZE = 20  # gemini-3.6-flash took ~100 s for 15 items; keep a batch well 
 # Tried in order; a model that is overloaded, out of quota or timing out is skipped.
 # Override with the GEMINI_MODEL variable (comma-separated). Free tier, checked 2026-11-05:
 # gemini-3.7-flash and gemini-flash-latest return 429 at once, gemini-2.5-flash is retired for new users.
-DEFAULT_MODELS = ("gemini-3.8-flash", "gemini-3.6-flash", "gemini-3.1-flash-lite", "gemini-3.5-flash-lite")
+# Flash-Lite goes first: the Flash quota of the shared Google project is kept for the market digest,
+# and Flash is only a last resort here.
+DEFAULT_MODELS = ("gemini-3.1-flash-lite", "gemini-3.5-flash-lite", "gemini-3.8-flash", "gemini-3.6-flash")
 
 def response_schema(ids: list[str]) -> dict:
     return {
