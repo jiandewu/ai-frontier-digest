@@ -1,4 +1,5 @@
-# GitHub Pages: README.md becomes the home page, digest/YYYY/*.md the daily pages.
+# GitHub Pages: README.md becomes the home page, digest/YYYY/*.md the daily pages;
+# the science digest lives under science/ (index.md, digest/YYYY/*.md).
 title: AI 前沿导读
 description: 每天精选 10 条以内最值得一读的 AI 前沿进展，附中文科普解释。
 lang: zh-CN
@@ -6,8 +7,16 @@ markdown: kramdown
 kramdown:
   input: GFM
 
+defaults:
+  - scope:
+      path: science
+    values:
+      section: science
+
 exclude:
   - data
+  - science/data
+  - science/feeds.csv
   - tests
   - feeds.csv
   - digest/__init__.py
@@ -15,6 +24,7 @@ exclude:
   - digest/check_feeds.py
   - digest/fulltext.py
   - digest/http.py
+  - digest/profiles.py
   - digest/sources.py
   - digest/summarize.py
   - digest/update.py

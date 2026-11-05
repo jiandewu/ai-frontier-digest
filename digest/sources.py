@@ -1,4 +1,4 @@
-"""Fetch items from blogs, lab news, Hacker News and Hugging Face Daily Papers."""
+"""Fetch items from the active profile's feeds, plus Hacker News and Hugging Face Daily Papers for AI."""
 
 from __future__ import annotations
 
@@ -12,11 +12,12 @@ from email.utils import parsedate_to_datetime
 from pathlib import Path
 
 from .http import get
+from .profiles import active
 
 
 USER_AGENT = "Mozilla/5.0 (compatible; ai-frontier-digest; +https://github.com/jiandewu/ai-frontier-digest)"
 
-# Edit feeds.csv to add or remove feeds (name, group, url, optional note shown in the README).
+# Edit feeds.csv (AI) or science/feeds.csv to add or remove feeds (name, group, url, optional note shown in the README).
 # Rows may share a name to merge several feeds into one source.
 # *.substack.com feeds return 403 to GitHub-hosted runners; use custom domains.
 # Sites without their own feed use https://github.com/alan-turing-institute/ai-rss-feeds.
@@ -120,7 +121,7 @@ def load_feeds(path: Path = FEEDS_CSV) -> list[dict]:
 def collect(now: datetime, log=print) -> list[dict]:
     headers = {"User-Agent": USER_AGENT}
     items = []
-    for feed in load_feeds():
+    for feed in load_feeds(active().feeds_csv):
         try:
             fetched = parse_feed(get(feed["url"], headers), feed["name"], feed["group"])
         except Exception as exc:  # one broken feed must not stop the run
@@ -128,6 +129,8 @@ def collect(now: datetime, log=print) -> list[dict]:
             continue
         fetched.sort(key=lambda item: item["published"] or now, reverse=True)
         items += fetched[:MAX_PER_FEED]
+    if not active().community:
+        return items
     try:
         items += parse_hn(get(HN_URL, headers))
     except Exception as exc:

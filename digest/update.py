@@ -16,6 +16,7 @@ from xml.sax.saxutils import escape
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
+from .profiles import PROFILES, activate, active
 from .sources import HF_MIN_UPVOTES, HN_MIN_POINTS, collect, load_feeds
 from .fulltext import fetch_text
 from .summarize import DEFAULT_MODELS, explain, group_events, summarize
@@ -27,17 +28,16 @@ ITEM_COLUMNS = ["id", "detected_et", "published_et", "source", "group", "title",
 LOOKBACK_DAYS = 3
 # New items Gemini could not summarize are stored as pending (no importance) and retried for this long.
 PENDING_DAYS = 14
-# Pages show a short daily pick, not everything collected; the CSV keeps every summarized item.
-DAILY_PICKS = 10
+# Pages show a short daily pick (the profile's daily_picks), not everything collected;
+# the CSV keeps every summarized item.
 PICKS_PER_SOURCE = 2
 PICK_MIN_IMPORTANCE = 3
-# Long-form posts by individual researchers rank above news; the CSV keeps Gemini's raw rating.
-GROUP_BONUS = {"个人博客": 1}
 # An event covered by two or more sources is hot: one more star, and only its best report is picked.
 COVERAGE_BONUS = 1
 EVENT_CANDIDATES = 60
-SOURCE_GROUP_TITLES = {"个人博客": "研究者与作者"}
-SITE_URL = "https://jiande.is-a.si/ai-frontier-digest/"
+# Picks are explained from full text only after this long, so items soon pushed out of the
+# picks by bigger news are not explained for nothing.
+EXPLAIN_DELAY = timedelta(hours=8)
 # The RSS feed covers this many recent days.
 RECENT_DAYS = 14
 # The README archive lists each day of the latest week, then ISO weeks, then months, then years,
@@ -127,11 +127,14 @@ def mark_events(data_dir: Path, api_key: str, models: list[str], log=print) -> b
     return True
 
 
-def explain_picks(data_dir: Path, api_key: str, models: list[str], log=print) -> list[dict]:
-    """Add full-text explanations to the picks of the two latest days that lack one."""
+def explain_picks(data_dir: Path, api_key: str, models: list[str], log=print,
+                  now: datetime | None = None) -> list[dict]:
+    """Add full-text explanations to the picks of the two latest days that lack one and were
+    detected at least EXPLAIN_DELAY ago."""
     rows = load_items(data_dir)
+    settled = ((now or datetime.now(NEW_YORK)) - EXPLAIN_DELAY).strftime("%Y-%m-%d %H:%M")
     candidates = [row for day in _latest_days(rows) for row in pick([row for row in rows if row["detected_et"][:10] == day])
-                  if not row.get("explain_zh")]
+                  if not row.get("explain_zh") and row["detected_et"] <= settled]
     readable = []
     for row in candidates:
         text = fetch_text(row["link"])
@@ -202,7 +205,7 @@ def _importance(row: dict) -> int:
     base = int(row["importance"] or 0)
     if base < 3:
         return base
-    return min(5, base + GROUP_BONUS.get(row["group"], 0) + (COVERAGE_BONUS if row.get("_also") else 0))
+    return min(5, base + active().group_bonus.get(row["group"], 0) + (COVERAGE_BONUS if row.get("_also") else 0))
 
 
 def _rank(rows: list[dict]) -> list[dict]:
@@ -211,11 +214,13 @@ def _rank(rows: list[dict]) -> list[dict]:
     return sorted(newest, key=lambda row: -_importance(row))
 
 
-def pick(rows: list[dict], limit: int = DAILY_PICKS) -> list[dict]:
-    """Top-ranked items, one per event and at most PICKS_PER_SOURCE from any one source.
+def pick(rows: list[dict], limit: int = 0) -> list[dict]:
+    """Top-ranked items (the profile's daily_picks unless limit is given), one per event and at most
+    PICKS_PER_SOURCE from any one source.
 
     An event is represented by its most important report, the earliest (usually the original) on ties.
     """
+    limit = limit or active().daily_picks
     best = {}
     for row in sorted(rows, key=lambda row: (-_importance(row), row["published_et"])):
         best.setdefault(row.get("event") or row["id"], row["id"])
@@ -279,7 +284,7 @@ def render_week(week: str, rows: list[dict], prev_week: str = "", next_week: str
     picks = pick(rows)
     days = sorted({row["detected_et"][:10] for row in rows})
     collected = sum(1 for row in rows if not is_pending(row))
-    lines = [f"# AI 前沿 {week}（{_week_span(week)}）", "",
+    lines = [f"# {active().heading} {week}（{_week_span(week)}）", "",
              f"本周 {len(days)} 天共收集 {collected} 条，精选 {len(picks)} 条，按重要度排序。时间为美东时间。", ""]
     lines += _render_picks(picks)
     lines += ["---", "", "每天：" + " · ".join(_period_link(day, day[5:]) for day in days), ""]
@@ -290,14 +295,14 @@ def render_week(week: str, rows: list[dict], prev_week: str = "", next_week: str
 
 
 def render_month(month: str, week_counts: list[tuple[str, int]]) -> str:
-    lines = [f"# AI 前沿 {month}", "", "各周精选：", ""]
+    lines = [f"# {active().heading} {month}", "", "各周精选：", ""]
     lines += [f"- {_period_link(week, f'{week}（{_week_span(week)}）')}：{count} 条精选" for week, count in week_counts]
     lines += ["", f"全年：{_period_link(month[:4])}", ""]
     return "\n".join(lines)
 
 
 def render_year(year: str, month_weeks: list[tuple[str, int]]) -> str:
-    lines = [f"# AI 前沿 {year}", ""]
+    lines = [f"# {active().heading} {year}", ""]
     lines += [f"- {_period_link(month)}：{weeks} 周" for month, weeks in month_weeks]
     return "\n".join(lines + [""])
 
@@ -353,7 +358,7 @@ def archive_keys(days: list[str]) -> list[str]:
 def render_day(day: str, rows: list[dict], prev_day: str = "", next_day: str = "") -> str:
     picks = pick(rows)
     collected = sum(1 for row in rows if not is_pending(row))
-    lines = [f"# AI 前沿 {day}", "", f"从当天收集的 {collected} 条中精选 {len(picks)} 条，按重要度排序。时间为美东时间。", ""]
+    lines = [f"# {active().heading} {day}", "", f"从当天收集的 {collected} 条中精选 {len(picks)} 条，按重要度排序。时间为美东时间。", ""]
     lines += _render_picks(picks)
     nav = [f"← {_day_link(prev_day)}" if prev_day else "", f"{_day_link(next_day)} →" if next_day else ""]
     if any(nav):
@@ -380,7 +385,7 @@ def rebuild_pages(data_dir: Path, digest_dir: Path, days: set[str]) -> None:
         path.write_text(render_day(day, day_rows, prev_day, next_day), encoding="utf-8")
 
 
-def render_readme_sections(data_dir: Path, digest_dir: Path) -> dict[str, str]:
+def render_readme_sections(data_dir: Path, digest_dir: Path, readme_dir: Path = Path(".")) -> dict[str, str]:
     rows = load_items(data_dir)
     days = sorted({row["detected_et"][:10] for row in rows}, reverse=True)
     recent = [row for row in rows if row["detected_et"][:10] in days[:2]]
@@ -388,7 +393,7 @@ def render_readme_sections(data_dir: Path, digest_dir: Path) -> dict[str, str]:
     for row in pick(recent):
         latest.append(f"| {'★' * _importance(row)} | {_link(row['title_zh'], row['link'])} | "
                       f"{_cell(row['summary_zh'])} | {_cell(row['source'])} |")
-    archive, base = [], digest_dir.as_posix()
+    archive, base = [], Path(os.path.relpath(digest_dir, readme_dir)).as_posix()
     for key in archive_keys(days):
         if "-W" in key:
             count = len(pick([row for row in rows if week_of(row["detected_et"][:10]) == key]))
@@ -398,16 +403,17 @@ def render_readme_sections(data_dir: Path, digest_dir: Path) -> dict[str, str]:
             archive.append(f"- {_period_link(key, base=base)}：{count} 条精选")
         else:
             archive.append(f"- {_period_link(key, base=base)}")
-    return {"latest": "\n".join(latest), "archive": "\n".join(archive), "sources": render_sources(load_feeds())}
+    return {"latest": "\n".join(latest), "archive": "\n".join(archive), "sources": render_sources(load_feeds(active().feeds_csv))}
 
 
 def render_feed(data_dir: Path) -> str:
     """RSS 2.0 of the recent daily picks, newest day first; no build time, so unchanged picks give an unchanged file."""
+    profile = active()
     rows = load_items(data_dir)
     days = sorted({row["detected_et"][:10] for row in rows}, reverse=True)[:RECENT_DAYS]
     items = []
     for day in days:
-        page = f"{SITE_URL}digest/{day[:4]}/{day}.html"
+        page = f"{profile.site_url}digest/{day[:4]}/{day}.html"
         for row in pick([row for row in rows if row["detected_et"][:10] == day]):
             published = datetime.strptime(row["published_et"], "%Y-%m-%d %H:%M").replace(tzinfo=NEW_YORK)
             # The description is HTML, escaped once more to sit inside XML.
@@ -426,9 +432,9 @@ def render_feed(data_dir: Path) -> str:
         '<?xml version="1.0" encoding="UTF-8"?>',
         '<rss version="2.0">',
         "<channel>",
-        "<title>AI 前沿导读</title>",
-        f"<link>{SITE_URL}</link>",
-        "<description>每天精选 10 条以内最值得一读的 AI 前沿进展，附中文科普解释。</description>",
+        f"<title>{profile.title}</title>",
+        f"<link>{profile.site_url}</link>",
+        f"<description>{profile.description}</description>",
         "<language>zh-CN</language>",
         *items,
         "</channel>",
@@ -443,9 +449,10 @@ def render_sources(feeds: list[dict]) -> str:
         label = f"{feed['name']}（{feed['note']}）" if feed.get("note") else feed["name"]
         if label not in names.setdefault(feed["group"], []):
             names[feed["group"]].append(label)
-    lines = [f"- **{SOURCE_GROUP_TITLES.get(group, group)}**：{'、'.join(labels)}" for group, labels in names.items()]
-    lines.append(f"- **社区**：Hacker News 首页 AI 相关讨论（{HN_MIN_POINTS} 分以上）、"
-                 f"Hugging Face Daily Papers（{HF_MIN_UPVOTES} 赞以上）")
+    lines = [f"- **{active().group_titles.get(group, group)}**：{'、'.join(labels)}" for group, labels in names.items()]
+    if active().community:
+        lines.append(f"- **社区**：Hacker News 首页 AI 相关讨论（{HN_MIN_POINTS} 分以上）、"
+                     f"Hugging Face Daily Papers（{HF_MIN_UPVOTES} 赞以上）")
     return "\n".join(lines)
 
 
@@ -461,13 +468,14 @@ def update_readme(path: Path, sections: dict[str, str]) -> None:
 
 def commit_message(stored: list[dict], explained: int = 0, pending: int = 0) -> str:
     """stored: newly summarized rows; pending: rows still waiting for Gemini."""
+    prefix = active().commit_prefix
     extras = ([f"explain {explained} pick(s)"] if explained else []) + ([f"{pending} pending"] if pending else [])
     if not stored:
-        return f"digest: {'; '.join(extras)}" if extras else "digest: refresh"
+        return f"{prefix}: {'; '.join(extras)}" if extras else f"{prefix}: refresh"
     counts = Counter(row["source"] for row in stored)
     detail = ", ".join(f"{source} ×{n}" if n > 1 else source for source, n in counts.most_common(5))
     extra = "".join(f"; {text}" for text in extras)
-    return f"digest: {len(stored)} new item(s) ({detail}{', ...' if len(counts) > 5 else ''}){extra}"
+    return f"{prefix}: {len(stored)} new item(s) ({detail}{', ...' if len(counts) > 5 else ''}){extra}"
 
 
 def write_summary(path: str, lines: list[str], stored: list[dict], problems: list[str]) -> None:
@@ -484,6 +492,7 @@ def write_summary(path: str, lines: list[str], stored: list[dict], problems: lis
 
 def main(argv=None) -> int:
     parser = argparse.ArgumentParser()
+    parser.add_argument("--profile", choices=sorted(PROFILES), default="ai")
     parser.add_argument("--data-dir", default="data")
     parser.add_argument("--digest-dir", default="digest")
     parser.add_argument("--readme", default="README.md")
@@ -492,6 +501,7 @@ def main(argv=None) -> int:
                         help="comma-separated Gemini models, tried in order")
     parser.add_argument("--message-file", default=os.environ.get("COMMIT_MESSAGE_FILE", ""))
     args = parser.parse_args(argv)
+    activate(args.profile)
 
     data_dir, digest_dir, now = Path(args.data_dir), Path(args.digest_dir), datetime.now(NEW_YORK)
     models = [model.strip() for model in args.models.split(",") if model.strip()]
@@ -517,15 +527,17 @@ def main(argv=None) -> int:
     resolved = resolve_pending(data_dir, summaries)
     summarized = [row for row in stored if not is_pending(row)] + resolved
     still_pending = len(pending) - len(resolved) + sum(1 for row in stored if is_pending(row))
-    grouped = bool(summarized) and mark_events(data_dir, api_key, models, log)
-    explained = explain_picks(data_dir, api_key, models, log) if api_key else []
+    # Low-rated items never become picks, so they cannot change the events of the picks.
+    pickable = any(int(row["importance"] or 0) >= PICK_MIN_IMPORTANCE for row in summarized)
+    grouped = pickable and mark_events(data_dir, api_key, models, log)
+    explained = explain_picks(data_dir, api_key, models, log, now) if api_key else []
     changed_days = {row["detected_et"][:10] for row in summarized + explained}
     if grouped:
         changed_days |= set(_latest_days(load_items(data_dir)))
     if changed_days:
         rebuild_pages(data_dir, digest_dir, changed_days)
     rebuild_periods(data_dir, digest_dir)
-    update_readme(Path(args.readme), render_readme_sections(data_dir, digest_dir))
+    update_readme(Path(args.readme), render_readme_sections(data_dir, digest_dir, Path(args.readme).parent))
     Path(args.feed).write_text(render_feed(data_dir), encoding="utf-8")
     message = commit_message(summarized, len(explained), still_pending)
     lines = [f"Fetched {len(fetched)} item(s); {len(new)} new; {len(pending)} pending from earlier runs.",

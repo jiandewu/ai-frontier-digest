@@ -1,0 +1,56 @@
+name: Science
+
+on:
+  schedule:
+    # 每天 3 次（UTC 2:53、10:53、18:53），与 AI 导读错开；科学新闻不像 AI 新闻那样赶时效。
+    - cron: "53 2,10,18 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  # Shared with the AI update so the two never push at the same time.
+  group: update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v7
+
+      - name: Run unit tests
+        run: python3 -m unittest discover -s tests
+
+      - name: Collect and summarize new items
+        id: update
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_MODEL: ${{ vars.GEMINI_MODEL }}
+          COMMIT_MESSAGE_FILE: ${{ runner.temp }}/commit-message.txt
+        run: >
+          python3 -m digest.update --profile science --data-dir science/data --digest-dir science/digest
+          --readme science/index.md --feed science/feed.xml
+
+      - name: Commit new items
+        env:
+          COMMIT_MESSAGE_FILE: ${{ runner.temp }}/commit-message.txt
+        run: |
+          git config user.name "jiandewu"
+          git config user.email "22378716+jiandewu@users.noreply.github.com"
+          git add science
+          if git diff --cached --quiet; then
+            echo "No new items."
+            exit 0
+          fi
+          git commit --file "$COMMIT_MESSAGE_FILE"
+          git pull --rebase origin main
+          git push origin HEAD:main
+
+      - name: Fail if Gemini summarized nothing
+        if: steps.update.outputs.gemini_failed == 'true'
+        run: |
+          echo "::error::Gemini summarized none of the new or pending items; they were committed as pending."
+          exit 1

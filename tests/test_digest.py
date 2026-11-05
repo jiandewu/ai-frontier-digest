@@ -10,11 +10,12 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
+from digest import profiles  # noqa: E402
 from digest.fulltext import extract_text  # noqa: E402
-from digest.sources import load_feeds, parse_feed, parse_hf_papers, parse_hn  # noqa: E402
+from digest.sources import collect, load_feeds, parse_feed, parse_hf_papers, parse_hn  # noqa: E402
 from digest import summarize  # noqa: E402
 from digest.summarize import Unavailable, group_events  # noqa: E402
-from digest.update import (NEW_YORK, archive_keys, rebuild_periods, week_of, is_pending, pending_items, resolve_pending, mark_events, _importance, commit_message, explain_picks, item_id, load_items, rebuild_pages,  # noqa: E402
+from digest.update import (NEW_YORK, main, archive_keys, rebuild_periods, week_of, is_pending, pending_items, resolve_pending, mark_events, _importance, commit_message, explain_picks, item_id, load_items, rebuild_pages,  # noqa: E402
                            pick, render_feed, render_readme_sections, render_sources, select_new, store_items,
                            update_readme)
 
@@ -225,6 +226,39 @@ class UpdateTests(unittest.TestCase):
         self.assertNotIn("短摘要0", page)
         self.assertIn("短摘要1", page)
 
+    def test_explain_picks_waits_for_picks_to_settle(self):
+        items = select_new([_item("https://a", 2)], set(), NOW)
+        summary = {"title_zh": "标题", "summary_zh": "摘要", "category": "研究", "importance": "4"}
+        with tempfile.TemporaryDirectory() as tmp:
+            data = Path(tmp) / "data"
+            store_items(data, items, {items[0]["id"]: summary}, NOW)
+            with mock.patch("digest.update.fetch_text", return_value="full text"), \
+                 mock.patch("digest.update.explain", side_effect=lambda readable, *_: {
+                     entry["id"]: "通俗解释" for entry in readable}):
+                self.assertEqual(explain_picks(data, "key", "model", lambda _: None, NOW + timedelta(hours=7)), [])
+                self.assertEqual(len(explain_picks(data, "key", "model", lambda _: None, NOW + timedelta(hours=8))), 1)
+
+    def test_main_groups_events_only_for_pickable_items(self):
+        low = {"title_zh": "资讯", "summary_zh": "摘要", "category": "行业动态", "importance": "2"}
+        for importance, expected in (("2", 0), ("3", 1)):
+            with tempfile.TemporaryDirectory() as tmp, \
+                 mock.patch.dict("os.environ", {"GEMINI_API_KEY": "key"}, clear=False), \
+                 mock.patch("digest.update.collect", return_value=[_item("https://new", 1)]), \
+                 mock.patch("digest.update.datetime") as fake_datetime, \
+                 mock.patch("digest.update.summarize", side_effect=lambda items, *_: {
+                     item["id"]: {**low, "importance": importance} for item in items}), \
+                 mock.patch("digest.update.mark_events", return_value=True) as events, \
+                 mock.patch("digest.update.explain_picks", return_value=[]):
+                fake_datetime.now.return_value = NOW
+                fake_datetime.strptime = datetime.strptime
+                root = Path(tmp)
+                (root / "README.md").write_text("<!-- latest:start -->\n<!-- latest:end -->\n<!-- archive:start -->\n"
+                                                "<!-- archive:end -->\n<!-- sources:start -->\n<!-- sources:end -->\n",
+                                                encoding="utf-8")
+                main(["--data-dir", str(root / "data"), "--digest-dir", str(root / "digest"),
+                      "--readme", str(root / "README.md"), "--feed", str(root / "feed.xml"), "--message-file", ""])
+                self.assertEqual(events.call_count, expected, importance)
+
     def test_events_merge_coverage_and_dedupe_picks(self):
         items = select_new([_item("https://lab/a", 3), _item("https://news/a", 2), _item("https://c", 1)], set(), NOW)
         sources = ["Lab", "News", "Blog"]
@@ -312,3 +346,66 @@ class UpdateTests(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class ScienceProfileTests(unittest.TestCase):
+    def setUp(self):
+        profiles.activate("science")
+        self.addCleanup(profiles.activate, "ai")
+
+    def test_science_feeds_csv_is_valid(self):
+        feeds = load_feeds(profiles.SCIENCE.feeds_csv)
+        self.assertTrue(feeds)
+        for feed in feeds:
+            self.assertTrue(feed["name"] and feed["group"] and feed["url"].startswith("https://"), feed)
+
+    def test_collect_skips_community_sources(self):
+        urls = []
+
+        def fake_get(url, headers, *args, **kwargs):
+            urls.append(url)
+            return RSS
+
+        with mock.patch("digest.sources.get", side_effect=fake_get):
+            items = collect(NOW, print)
+        self.assertEqual(len(urls), len(load_feeds(profiles.SCIENCE.feeds_csv)))
+        self.assertFalse(any("ycombinator" in url or "huggingface" in url for url in urls))
+        self.assertTrue(items)
+
+    def test_summarize_uses_science_prompt_and_categories(self):
+        seen = {}
+
+        def fake_generate(system, user, schema, hint, *args):
+            seen.update(system=system, schema=schema)
+            return [{"id": "x", "titleZh": "新发现", "summaryZh": "摘要", "category": "模型发布", "importance": 4}]
+
+        with mock.patch("digest.summarize._generate", side_effect=fake_generate):
+            result = summarize.summarize_batch([{"id": "x", "source": "Nature", "title": "T", "snippet": ""}],
+                                               "key", ["m"])
+        self.assertIn("科学科普编辑", seen["system"])
+        categories = seen["schema"]["properties"]["items"]["items"]["properties"]["category"]["enum"]
+        self.assertIn("天文与空间", categories)
+        self.assertEqual(result["x"]["category"], "其他")  # an AI category is not valid here
+
+    def test_pages_feed_readme_and_commit_use_science_settings(self):
+        items = select_new([_item(f"https://s/{i}", 1 + i) for i in range(10)], set(), NOW)
+        summaries = {item["id"]: {"title_zh": f"发现 {i}", "summary_zh": "摘要", "category": "物理", "importance": "4"}
+                     for i, item in enumerate(items)}
+        for item in items:
+            item["source"] = item["link"]  # distinct sources, so only the daily limit applies
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp) / "science"
+            data, digest = root / "data", root / "digest"
+            stored = store_items(data, items, summaries, NOW)
+            rebuild_pages(data, digest, {"2026-10-20"})
+            page = (digest / "2026" / "2026-10-20.md").read_text(encoding="utf-8")
+            sections = render_readme_sections(data, digest, root)
+            feed = ET.fromstring(render_feed(data))
+        self.assertTrue(page.startswith("# 科学前沿 2026-10-20"))
+        self.assertIn("从当天收集的 10 条中精选 8 条", page)
+        self.assertIn("- [2026-10-20](digest/2026/2026-10-20.md)：8 条精选", sections["archive"])
+        self.assertEqual(feed.findtext("./channel/title"), "科学前沿导读")
+        self.assertIn("https://jiande.is-a.si/ai-frontier-digest/science/digest/2026/2026-10-20.html",
+                      feed.find("./channel/item").findtext("description"))
+        self.assertNotIn("Hacker News", sections["sources"])
+        self.assertTrue(commit_message(stored).startswith("science: 10 new item(s)"))
