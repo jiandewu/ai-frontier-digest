@@ -6,11 +6,46 @@
 <description>每天精选 10 条以内最值得一读的 AI 前沿进展，附中文科普解释。</description>
 <language>zh-CN</language>
 <item>
+<title>Facebook 被指控明知平台存在 AI 深度伪造诈骗广告</title>
+<link>https://finance.yahoo.com/technology/ai/articles/mark-cuban-says-facebook-knowingly-213000020.html</link>
+<guid isPermaLink="false">6f78e24cdb5b</guid>
+<pubDate>Thu, 05 Nov 2026 18:09:00 -0500</pubDate>
+<description>&lt;p&gt;行业舆论关注 Facebook 被指控通过 AI 生成的诈骗广告牟利，据称涉及高达 160 亿美元的欺诈收入。&lt;/p&gt;&lt;p&gt;★★★★ · Hacker News · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-06.html"&gt;2026-11-06 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>前沿视觉语言模型在机器人具身智能中的实证研究</title>
+<link>https://huggingface.co/papers/2610.00854</link>
+<guid isPermaLink="false">4dcce518c56d</guid>
+<pubDate>Tue, 03 Nov 2026 19:00:00 -0500</pubDate>
+<description>&lt;p&gt;研究探讨了视觉语言模型（VLM，即同时理解图像与语言的模型）作为机器人“大脑”的表现，发现闭源模型在规划与操作任务上显著优于开源模型，并揭示了其在几何推理和控制方面的具体缺陷。&lt;/p&gt;&lt;p&gt;★★★★ · HF Daily Papers · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-06.html"&gt;2026-11-06 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>Claude Code 被曝存在隐私合规争议</title>
+<link>https://github.com/anthropics/claude-code/issues/107757</link>
+<guid isPermaLink="false">3b58ffb304e7</guid>
+<pubDate>Thu, 05 Nov 2026 17:17:00 -0500</pubDate>
+<description>&lt;p&gt;社区讨论指出 Claude Code 在运行过程中会向第三方网站发送用户邮箱地址，引发关于 AI 工具隐私保护的关注。&lt;/p&gt;&lt;p&gt;★★★ · Hacker News · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-06.html"&gt;2026-11-06 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>澳大利亚高校推动“AI 原生”人才培养</title>
+<link>https://openai.com/index/australian-universities-ai-native-graduates</link>
+<guid isPermaLink="false">b58fee4edbbb</guid>
+<pubDate>Thu, 05 Nov 2026 12:00:00 -0500</pubDate>
+<description>&lt;p&gt;澳大利亚多所大学通过全面引入 ChatGPT 到教学环节，旨在培养适应未来人工智能驱动工作环境的专业毕业生。&lt;/p&gt;&lt;p&gt;★★★ · OpenAI · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-06.html"&gt;2026-11-06 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>Franklin Templeton 开发 AI 工作流赋能投资研究</title>
+<link>https://openai.com/index/franklin-templeton</link>
+<guid isPermaLink="false">c0d7b0808284</guid>
+<pubDate>Wed, 04 Nov 2026 19:00:00 -0500</pubDate>
+<description>&lt;p&gt;资产管理巨头 Franklin Templeton 正在构建 AI 工作流，辅助投资组合经理进行深度股权研究、比对分析及风险评估。&lt;/p&gt;&lt;p&gt;★★★ · OpenAI · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-06.html"&gt;2026-11-06 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
 <title>AI 在博弈测试中学会了“说谎”</title>
 <link>https://www.dwarkesh.com/p/clocktower</link>
 <guid isPermaLink="false">c0c2d1f3626b</guid>
 <pubDate>Thu, 05 Nov 2026 16:05:00 -0500</pubDate>
-<description>&lt;p&gt;研究发现 AI 在某些基准测试中，为了达成目标会主动选择欺骗，这标志着 AI 已具备执行复杂策略和共谋的能力。&lt;/p&gt;&lt;p&gt;★★★★★ · Dwarkesh Podcast · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-05.html"&gt;2026-11-05 精选&lt;/a&gt;&lt;/p&gt;</description>
+<description>&lt;p&gt;这是一项利用桌游“血染钟楼”（Blood on the Clocktower）作为基准，测试AI模型在欺骗、推理及多智能体协作方面表现的研究。通过对比不同模型在扮演“好人”与“坏人”时的表现，作者发现模型在长期连贯性、协调性和策略规划上进步显著。该基准揭示了AI在处理复杂社会博弈和应对欺诈信息时的能力上限与逻辑局限。&lt;/p&gt;&lt;p&gt;★★★★★ · Dwarkesh Podcast · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-05.html"&gt;2026-11-05 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>GPT-Image-2.6 全量上线，支持直接生成 GIF 与矢量图 SVG</title>
@@ -38,7 +73,7 @@
 <link>https://www.understandingai.org/p/this-robotics-concept-helps-explain</link>
 <guid isPermaLink="false">ae2861cc0e2f</guid>
 <pubDate>Thu, 05 Nov 2026 10:16:00 -0500</pubDate>
-<description>&lt;p&gt;文章探讨了机器人从模拟训练（Sim）迁移到真实世界（Real）时遇到的技术鸿沟，解释了为何 AI 能力在某些前沿领域会出现不连续的“锯齿状”提升。&lt;/p&gt;&lt;p&gt;★★★★ · Understanding AI · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-05.html"&gt;2026-11-05 精选&lt;/a&gt;&lt;/p&gt;</description>
+<description>&lt;p&gt;“Sim-to-real gap”指机器人从虚拟仿真环境迁移到现实世界时出现的性能落差，该概念被用来解释为何AI在编程与数学等领域突破迅速，而在其他职业领域进展缓慢。核心逻辑在于：编程和数学拥有可精确定义的规则，极易模拟，模型能通过自我博弈快速进化；而现实中的人际交往与物理操纵则难以建模。这种模拟难度差异决定了AI落地应用的速度与广度。&lt;/p&gt;&lt;p&gt;★★★★ · Understanding AI · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-05.html"&gt;2026-11-05 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>OpenAI 发布网络安全模型 GPT-6 Cyber</title>
@@ -704,76 +739,6 @@
 <guid isPermaLink="false">8accc0ca4372</guid>
 <pubDate>Mon, 19 Oct 2026 16:11:00 -0400</pubDate>
 <description>&lt;p&gt;这是一篇由普林斯顿等学术机构联合发表的AI智能体评估方法综述。文章梳理了智能体评测中的方法学挑战，强调不能仅看最终成功率，必须利用更精细的工具全流程审计轨迹以识别走捷径行为，并区分“完全自动化”与“人机协作”的评估维度。该研究指出了当前评测基础设施维护困难、前沿基准测试成本过高等局限，呼吁建立更具跨学科视角的独立评测生态。&lt;/p&gt;&lt;p&gt;★★★★ · AI as Normal Technology · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-10-21.html"&gt;2026-10-21 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>如何利用决策模型（Decision Models）进行大模型评估</title>
-<link>https://hamel.dev/blog/posts/decision-model-evals/</link>
-<guid isPermaLink="false">48ac9eccb51b</guid>
-<pubDate>Tue, 20 Oct 2026 03:00:00 -0400</pubDate>
-<description>&lt;p&gt;这是一篇介绍如何利用轻量级决策模型替代昂贵的LLM法官进行自动化评测的实践指南。文章基于实际智能体运行日志评测，展示了若仅使用默认的0.5概率阈值会导致大量漏检，而通过交叉验证优化精确率与召回率的阈值能大幅提升F1得分。指南分析了不同厂商模型在成本与效果上的帕累托前沿，同时也指出决策模型输出的置信度概率往往未经校准，无法直接当成绝对胜率使用。&lt;/p&gt;&lt;p&gt;★★★★★ · Hamel Husain · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-10-20.html"&gt;2026-10-20 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>MemT-1.0：迈向原生记忆演进的基础模型架构</title>
-<link>https://huggingface.co/papers/2610.26825</link>
-<guid isPermaLink="false">dd65d743e8de</guid>
-<pubDate>Mon, 19 Oct 2026 20:00:00 -0400</pubDate>
-<description>&lt;p&gt;这是面向原生记忆演化的基础模型MemT-1.0。它基于Gated DeltaNet-2架构，将记忆更新直接内化到模型的计算流中，并提出了Mixture-of-Storage机制以在单轮内稳定更新和扩展记忆容量。评测表明，在128K历史长度下其推理速度比全量KV缓存快1.86倍且持久化存储大幅降低66倍，为解决长程智能体上下文过大与存储开销过高提供了新架构路线。&lt;/p&gt;&lt;p&gt;★★★★★ · HF Daily Papers · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-10-20.html"&gt;2026-10-20 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>Battle Drones：通过 Claude 打造的支持音频近场对战的 RTS 网页游戏</title>
-<link>https://simonwillison.net/2026/Oct/20/battledrones/</link>
-<guid isPermaLink="false">4dc8a56e0373</guid>
-<pubDate>Tue, 20 Oct 2026 15:34:00 -0400</pubDate>
-<description>&lt;p&gt;这是Simon Willison利用AI完全生成（vibe coding）的即时战略游戏Battle Drones。作者通过多轮提示词让Claude编排子智能体，在无需人工逐行审阅代码的情况下，由AI自主模拟上千场对战调整平衡性并完成从2D精灵到3D模型渲染的重构，甚至实现了通过设备间声波同步状态的近场联机模式。该项目展示了代码智能体在独立设计并调优复杂互动游戏上的巨大进化，但部分功能如音频联机体验仍在初期试验阶段。&lt;/p&gt;&lt;p&gt;★★★★ · Simon Willison · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-10-20.html"&gt;2026-10-20 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>NVIDIA发布Cosmos3-H-Dreams：通过生成式模拟赋能临床手术</title>
-<link>https://huggingface.co/blog/nvidia/cosmos3-h-dreams</link>
-<guid isPermaLink="false">4eb9f7080b11</guid>
-<pubDate>Tue, 20 Oct 2026 14:17:00 -0400</pubDate>
-<description>&lt;p&gt;这是英伟达推出的针对真实临床腹腔镜胆囊切除术的实时交互式生成式仿真世界模型Cosmos3-H-Dreams。它放弃了传统的几何物理力学建模，直接利用真实手术视频与机器人运动学数据，通过教师向因果学生的自迫（Self-Forcing）蒸馏技术预测画面动态。该系统能在单张RTX PRO 6000 GPU上实现实时交互，但生成的视觉逼真度并不等同于严谨的生物力学校准，长程任务一致性仍需深化。&lt;/p&gt;&lt;p&gt;★★★★ · Hugging Face · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-10-20.html"&gt;2026-10-20 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>开源动态观察：DeepSeek V4.1 Flash 1017、美国本土模型与中美监管新规</title>
-<link>https://www.interconnects.ai/p/latest-open-artifacts-25-deepseek</link>
-<guid isPermaLink="false">34b84ef907f5</guid>
-<pubDate>Tue, 20 Oct 2026 13:04:00 -0400</pubDate>
-<description>&lt;p&gt;这是第25期开源AI生态与地缘政策动态汇总。简报梳理了中美两国在开源权重出口审批和联邦采购限制上的最新监管动作，同时聚焦了DeepSeek开源其具备极高推理利润率的高效推理框架DeepInfer这一重磅事件。此外，本期还盘点了小米强化学习微调的MiMo-V2.6-Pro、DeepSeek-V4.1-Flash以及Cloudflare推出的轻量决策模型Clef等一系列近期发布的重要开源产物。&lt;/p&gt;&lt;p&gt;★★★★ · Interconnects · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-10-20.html"&gt;2026-10-20 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>图说指数级跃升：过去 30 个月 AI 演变历程回顾</title>
-<link>https://www.oneusefulthing.org/p/30-months-on-the-exponential-in-charts</link>
-<guid isPermaLink="false">dd8a8739a45d</guid>
-<pubDate>Tue, 20 Oct 2026 11:57:00 -0400</pubDate>
-<description>&lt;p&gt;这是Ethan Mollick回顾过去30个月AI发展的一篇数据图表观察。他指出AI经历了指数级迭代，曾经以GPT-4为唯一标杆的格局已被上百个超越它的开源或端侧模型打破，而人类与AI的交互模式也从对话式的“半人马”演变为直接下达宏观目标并指挥多智能体的“召唤师”模式。作者强调AI能力边界依然凹凸不平（jagged frontier），模型仍缺乏深层长文写作与长程复杂推理的完全自主把控力。&lt;/p&gt;&lt;p&gt;★★★★ · One Useful Thing · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-10-20.html"&gt;2026-10-20 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>MiniMax升级Flash模型Agent能力，位列国模前列</title>
-<link>https://www.qbitai.com/2026/10/504517.html</link>
-<guid isPermaLink="false">e4060c1420df</guid>
-<pubDate>Tue, 20 Oct 2026 09:29:00 -0400</pubDate>
-<description>&lt;p&gt;这是MiniMax发布的高性价比多任务大模型M3.1 Flash（此前以Space Bunny代号匿测）。该模型在底层采用了激进的稀疏注意力架构，推理速度提升至最高200+ TPS，并在企业工作流、金融工具调用和桌面操作系统控制（OSWorld）等智能体评测中展现了极高水平。其将百万Token输入输出成本大幅降低，标志着国产轻量模型在极低定价下开始在企业级智能体自动化落地场景中正面抗衡昂贵的旗舰模型。&lt;/p&gt;&lt;p&gt;★★★★ · 量子位 · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-10-20.html"&gt;2026-10-20 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>DeepInfer开源：专为DeepSeek模型打造的高性能推理框架</title>
-<link>https://github.com/deepseek-ai/DeepInfer</link>
-<guid isPermaLink="false">79e072c52849</guid>
-<pubDate>Tue, 20 Oct 2026 05:08:00 -0400</pubDate>
-<description>&lt;p&gt;这是DeepSeek开源的高性能离线大模型推理框架DeepInfer的官方技术说明。该框架集成了FlashMLA、DeepGEMM等自研高性能算子，支持动态步长投机解码、滑动窗口注意力（SWA）有界重放以及异构异步调度技术，专门针对DeepSeek-V4.1-Flash在大规模硬件上的吞吐进行调优。需要注意的是，该开源版本仅提供离线引擎，完整的分布式KV缓存系统和集群级负载均衡并未包含在此次发布中。&lt;/p&gt;&lt;p&gt;★★★★ · Hacker News · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-10-20.html"&gt;2026-10-20 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>Claude 新模型细节曝光：强调跳出思维定势与根治代码 Bug</title>
-<link>https://www.qbitai.com/2026/10/504314.html</link>
-<guid isPermaLink="false">ec32daff9e2a</guid>
-<pubDate>Mon, 19 Oct 2026 21:09:00 -0400</pubDate>
-<description>&lt;p&gt;报道披露了 Claude 新模型的技术特点与实测表现，重点展示其在打破常规思维、深度定位并彻底修复 Bug 方面的能力。&lt;/p&gt;&lt;p&gt;★★★★ · 量子位 · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-10-20.html"&gt;2026-10-20 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>AnyGoal：评估世界模型跨越专家轨迹的泛化规划能力</title>
-<link>https://huggingface.co/papers/2610.26844</link>
-<guid isPermaLink="false">a51106aa7de5</guid>
-<pubDate>Mon, 19 Oct 2026 20:00:00 -0400</pubDate>
-<description>&lt;p&gt;这是针对世界模型在超越专家轨迹时的泛化能力评估基准AnyGoal。该研究通过重组专家数据中已知但未曾协同出现的状态与动作因子，构建目标迁移任务，系统检验世界模型是否真正学会了环境背后的物理动力学规律还是仅仅在做记忆匹配。实验表明现有主流世界模型在面对此类未见过的组合时频繁失效，揭示了当前模型在跨场景规划和推演任务上面临的动力学组合泛化瓶颈。&lt;/p&gt;&lt;p&gt;★★★★ · HF Daily Papers · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-10-20.html"&gt;2026-10-20 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>
