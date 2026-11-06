@@ -10,12 +10,12 @@
 
 | 重要度 | 标题 | 摘要 | 来源 |
 |---|---|---|---|
+| ★★★★ | [电子配对不足以实现室温超导](https://phys.org/news/2026-11-paired-electron-pairing-room-temperature.html) | 科学家在《Science》发表研究指出，仅有电子配对（electron pairing）并不足以实现超导（superconductivity），理解这一机制对于开发室温超导体至关重要。 | Phys.org |
+| ★★★★ | [科学家发现1.15亿年前的恐龙血迹](https://www.sciencedaily.com/releases/2026/11/261105224542.htm) | 研究在1.15亿年前的恐龙骨骼中发现了化学确认的血液残留，挑战了生物大分子保存期限的传统认知，为研究恐龙生理机能提供了新视角。 | ScienceDaily |
 | ★★★★ | [联合国警告：全球变暖下的适应能力滞后](https://phys.org/news/2026-11-isnt-global.html) | 联合国环境规划署（UNEP）报告指出，随着全球升温超过1.5°C，资金投入不足和制度壁垒导致应对气候变化的适应措施进展缓慢。 | Phys.org |
-| ★★★★ | [工程学能解决“永久性化学物质”问题吗？](https://phys.org/news/2026-11-chemical-problem.html) | 科学家正探索利用环糊精聚合物等新技术手段，应对环境中的“永久性化学物质”（PFAS）污染挑战。 | Phys.org |
+| ★★★★ | [死星或能突破物理学著名质量极限](https://www.sciencedaily.com/releases/2026/11/261102202835.htm) | 计算机模拟显示，白矮星（white dwarf）在强大磁场作用下，其质量可能远超此前公认的物理极限，有助于解释超亮超新星的形成机制。 | ScienceDaily |
 | ★★★★ | [章鱼如何穿过狭小孔洞](https://www.sciencenews.org/article/octopuses-squeeze-escape-steps-video) | 研究人员分析了章鱼穿过细小孔洞时的动作序列，这些发现可能为软体机器人（soft robots）的形态设计提供灵感。 | Science News |
 | ★★★★ | [中国空间站创造超低温纪录](https://www.sciencenews.org/article/lowest-temperature-china-space-station) | 利用微重力环境，中国空间站内的原子冷却至约10万亿分之一开尔文，达到极低温度水平。 | Science News |
-| ★★★★ | [新型膜技术有望革新石油精炼工艺](https://www.sciencedaily.com/releases/2026/11/261103003207.htm) | 科学家开发出一种利用原油自身建立微孔通道的膜材料，可在室温下进行分离，有望大幅降低精炼过程的能耗与碳排放。 | ScienceDaily |
-| ★★★★ | [40万年前的化石牙齿揭示人类演化新联系](https://www.sciencedaily.com/releases/2026/11/261102202836.htm) | 对中国发现的Homo erectus（直立人）牙齿进行蛋白提取研究发现，这一古人类可能与Denisovans（丹尼索瓦人）存在杂交，挑战了单一演化路径的认识。 | ScienceDaily |
 | ★★★★ | [铀块分析揭示德国核计划失败原因](https://arstechnica.com/science/2026/11/uranium-cubes-reveal-why-the-german-nuclear-project-failed/) | 针对二战时期德国铀块的最新计算显示，海森堡（Heisenberg）当时严重低估了实现核连锁反应所需的材料量。 | Ars Technica |
 | ★★★★ | [NASA公布重返月球计划更新](https://www.nasa.gov/missions/artemis/nasa-shares-plans-to-accelerate-artemis-return-to-moon/) | NASA确认了Artemis项目的进度安排，计划在2028年实现人类重返月球表面。 | NASA |
 
@@ -25,7 +25,7 @@
 
 <!-- archive:start -->
 
-- [2026-11-06](digest/2026/2026-11-06.md)：4 条精选
+- [2026-11-06](digest/2026/2026-11-06.md)：7 条精选
 - [2026-11-05](digest/2026/2026-11-05.md)：8 条精选
 
 <!-- archive:end -->
