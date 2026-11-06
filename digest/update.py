@@ -407,9 +407,15 @@ def render_readme_sections(data_dir: Path, digest_dir: Path, readme_dir: Path = 
 
 
 def render_feed(data_dir: Path) -> str:
-    """RSS 2.0 of the recent daily picks, newest day first; no build time, so unchanged picks give an unchanged file."""
+    """RSS 2.0 of the recent daily picks, newest day first.
+
+    lastBuildDate is the newest detection time, not the run time, so a run with nothing new gives an unchanged file.
+    """
     profile = active()
     rows = load_items(data_dir)
+    newest = max((row["detected_et"] for row in rows), default="")
+    built = ([f"<lastBuildDate>{format_datetime(datetime.strptime(newest, '%Y-%m-%d %H:%M').replace(tzinfo=NEW_YORK))}"
+              "</lastBuildDate>"] if newest else [])
     days = sorted({row["detected_et"][:10] for row in rows}, reverse=True)[:RECENT_DAYS]
     items = []
     for day in days:
@@ -436,6 +442,7 @@ def render_feed(data_dir: Path) -> str:
         f"<link>{profile.site_url}</link>",
         f"<description>{profile.description}</description>",
         "<language>zh-CN</language>",
+        *built,
         *items,
         "</channel>",
         "</rss>",

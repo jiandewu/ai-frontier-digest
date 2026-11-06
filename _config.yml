@@ -32,6 +32,7 @@ exclude:
   - digest/fulltext.py
   - digest/http.py
   - digest/longread.py
+  - digest/numbers.py
   - digest/profiles.py
   - digest/sources.py
   - digest/summarize.py

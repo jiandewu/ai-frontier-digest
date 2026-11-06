@@ -4,6 +4,7 @@ from collections import Counter
 from unittest import mock
 import sys
 import tempfile
+from email.utils import parsedate_to_datetime
 import unittest
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
@@ -405,6 +406,9 @@ class ScienceProfileTests(unittest.TestCase):
         self.assertIn("从当天收集的 10 条中精选 8 条", page)
         self.assertIn("- [2026-10-20](digest/2026/2026-10-20.md)：8 条精选", sections["archive"])
         self.assertEqual(feed.findtext("./channel/title"), "科学前沿导读")
+        newest = max(row["detected_et"] for row in stored)
+        self.assertEqual(parsedate_to_datetime(feed.findtext("./channel/lastBuildDate")).strftime("%Y-%m-%d %H:%M"),
+                         newest)
         self.assertIn("https://jiande.is-a.si/ai-frontier-digest/science/digest/2026/2026-10-20.html",
                       feed.find("./channel/item").findtext("description"))
         self.assertNotIn("Hacker News", sections["sources"])
