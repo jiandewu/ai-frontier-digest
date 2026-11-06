@@ -1,0 +1,78 @@
+{
+ "tiles": [
+  {
+   "id": "SP500",
+   "name": "标普 500",
+   "unit": "",
+   "decimals": 0,
+   "change": "pct",
+   "date": "2026-11-04",
+   "value": 7688.62,
+   "previous": 7568.92,
+   "source": "https://fred.stlouisfed.org/series/SP500"
+  },
+  {
+   "id": "NASDAQCOM",
+   "name": "纳斯达克综合指数",
+   "unit": "",
+   "decimals": 0,
+   "change": "pct",
+   "date": "2026-11-05",
+   "value": 24315.0,
+   "previous": 25736.51,
+   "source": "https://fred.stlouisfed.org/series/NASDAQCOM"
+  },
+  {
+   "id": "CBBTCUSD",
+   "name": "比特币",
+   "unit": "$",
+   "decimals": 0,
+   "change": "pct",
+   "date": "2026-11-05",
+   "value": 76152.52,
+   "previous": 80420.06,
+   "source": "https://fred.stlouisfed.org/series/CBBTCUSD"
+  },
+  {
+   "id": "DEXCHUS",
+   "name": "美元兑人民币",
+   "unit": "",
+   "decimals": 4,
+   "change": "abs",
+   "date": "2026-10-30",
+   "value": 6.6538,
+   "previous": 6.6604,
+   "source": "https://fred.stlouisfed.org/series/DEXCHUS"
+  },
+  {
+   "id": "arxiv",
+   "name": "arXiv 新增 AI 论文",
+   "unit": "",
+   "decimals": 0,
+   "change": "abs",
+   "date": "2026-11-06",
+   "value": 389,
+   "previous": null,
+   "detail": "cs.AI 75 · cs.CL 62 · cs.CV 107 · cs.LG 145",
+   "source": "https://arxiv.org/list/cs.AI/new"
+  }
+ ],
+ "news": [
+  {
+   "section": "AI",
+   "number": "160 亿美元",
+   "label": "涉及的AI深度伪造诈骗收入",
+   "title": "Facebook 被指控明知平台存在 AI 深度伪造诈骗广告",
+   "link": "https://finance.yahoo.com/technology/ai/articles/mark-cuban-says-facebook-knowingly-213000020.html"
+  },
+  {
+   "section": "美股",
+   "number": "2.9万亿美元",
+   "label": "标普500单日蒸发的市值",
+   "title": "科技股创2020年以来最差单日表现，AI概念遭遇猛烈抛售",
+   "link": "https://jiande.is-a.si/us-market/news/2026/2026-11-05.html#news-1"
+  }
+ ],
+ "newsKey": "ai-3b58ffb304e7,ai-4dcce518c56d,ai-6f78e24cdb5b,ai-b58fee4edbbb,ai-c0d7b0808284,market-2026-11-05-1,market-2026-11-05-2,market-2026-11-05-3,market-2026-11-05-4,market-2026-11-05-5,science-2158d1ce9e52,science-90f990ef326b,science-b2a9c85dded5,science-e951f3c34189",
+ "updated": "2026-11-06T15:28:45+00:00"
+}
