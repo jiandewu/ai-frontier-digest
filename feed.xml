@@ -5,7 +5,14 @@
 <link>https://jiande.is-a.si/ai-frontier-digest/</link>
 <description>每天精选 10 条以内最值得一读的 AI 前沿进展，附中文科普解释。</description>
 <language>zh-CN</language>
-<lastBuildDate>Fri, 06 Nov 2026 10:34:00 -0500</lastBuildDate>
+<lastBuildDate>Fri, 06 Nov 2026 16:44:00 -0500</lastBuildDate>
+<item>
+<title>Google Gemini Omni 1.2 Flash 模型发布</title>
+<link>https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/</link>
+<guid isPermaLink="false">d7e9e3e89ee7</guid>
+<pubDate>Fri, 06 Nov 2026 08:35:00 -0500</pubDate>
+<description>&lt;p&gt;Google 发布的轻量级高效模型 Gemini Omni 1.2 Flash，因其卓越的处理速度和多模态交互能力引发社区广泛关注。&lt;/p&gt;&lt;p&gt;★★★★★ · Hacker News · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-06.html"&gt;2026-11-06 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
 <item>
 <title>预测的玄学：防御性预测及其局限</title>
 <link>https://www.argmin.net/p/the-unholy-methods-of-soothsayers</link>
@@ -63,18 +70,11 @@
 <description>&lt;p&gt;ToyBlocks 提供了一个受控的虚拟实验场，专门用于机器人学习算法的训练与效果评估。&lt;/p&gt;&lt;p&gt;★★★ · Hugging Face · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-06.html"&gt;2026-11-06 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
-<title>Claude Code 被曝存在隐私合规争议</title>
-<link>https://github.com/anthropics/claude-code/issues/107757</link>
-<guid isPermaLink="false">3b58ffb304e7</guid>
-<pubDate>Thu, 05 Nov 2026 17:17:00 -0500</pubDate>
-<description>&lt;p&gt;这是一个关于Anthropic开发工具Claude Code的隐私安全漏洞报告。该工具在进行网页搜索时，会未经许可将用户的邮箱地址写入HTTP请求的User-Agent头部，导致用户遭受垃圾邮件骚扰。厂商已通过内置插件封禁该行为，并建议用户及时更新软件。&lt;/p&gt;&lt;p&gt;★★★ · Hacker News · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-06.html"&gt;2026-11-06 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>澳大利亚高校推动“AI 原生”人才培养</title>
-<link>https://openai.com/index/australian-universities-ai-native-graduates</link>
-<guid isPermaLink="false">b58fee4edbbb</guid>
-<pubDate>Thu, 05 Nov 2026 12:00:00 -0500</pubDate>
-<description>&lt;p&gt;澳大利亚多所大学通过全面引入 ChatGPT 到教学环节，旨在培养适应未来人工智能驱动工作环境的专业毕业生。&lt;/p&gt;&lt;p&gt;★★★ · OpenAI · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-06.html"&gt;2026-11-06 精选&lt;/a&gt;&lt;/p&gt;</description>
+<title>OpenAI 携手 Hacktron 启动 AI 安全漏洞挖掘计划</title>
+<link>https://openai.com/index/partnering-with-hacktron</link>
+<guid isPermaLink="false">bc8f9eac1966</guid>
+<pubDate>Fri, 06 Nov 2026 03:00:00 -0500</pubDate>
+<description>&lt;p&gt;OpenAI 与安全平台 Hacktron 合作，旨在通过模拟攻击测试第三方服务连接，以增强前沿 AI 系统的防御能力。&lt;/p&gt;&lt;p&gt;★★★ · OpenAI · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-06.html"&gt;2026-11-06 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>AI 在博弈测试中学会了“说谎”</title>
@@ -82,13 +82,6 @@
 <guid isPermaLink="false">c0c2d1f3626b</guid>
 <pubDate>Thu, 05 Nov 2026 16:05:00 -0500</pubDate>
 <description>&lt;p&gt;这是一项利用桌游“血染钟楼”（Blood on the Clocktower）作为基准，测试AI模型在欺骗、推理及多智能体协作方面表现的研究。通过对比不同模型在扮演“好人”与“坏人”时的表现，作者发现模型在长期连贯性、协调性和策略规划上进步显著。该基准揭示了AI在处理复杂社会博弈和应对欺诈信息时的能力上限与逻辑局限。&lt;/p&gt;&lt;p&gt;★★★★★ · Dwarkesh Podcast · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-05.html"&gt;2026-11-05 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>GPT-Image-2.6 全量上线，支持直接生成 GIF 与矢量图 SVG</title>
-<link>https://www.qbitai.com/2026/11/507707.html</link>
-<guid isPermaLink="false">5279acc13e09</guid>
-<pubDate>Wed, 04 Nov 2026 20:59:00 -0500</pubDate>
-<description>&lt;p&gt;GPT-Image-2.6是OpenAI推出的图像生成模型，通过将“场景规划”与“像素渲染”解耦，允许开发者调节参数实现更快的生成速度（最快6秒）及更高的一致性。该模型通过序列帧（Sprite Sheet）技术原生支持GIF生成，并直接支持SVG矢量格式导出。这一更新提升了商业应用中的效率，但其处理复杂场景时仍依赖合理的参数配置。&lt;/p&gt;&lt;p&gt;★★★★★ · 量子位 · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-05.html"&gt;2026-11-05 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>AI自动化修复近千个Linux内核漏洞</title>
@@ -103,6 +96,13 @@
 <guid isPermaLink="false">360a3a5d8e13</guid>
 <pubDate>Tue, 03 Nov 2026 00:35:00 -0500</pubDate>
 <description>&lt;p&gt;这是一项关于“权重空间编程”（Weight Space Programming）的研究进展，展示了高性能大模型能直接读取并编辑小型模型的神经网络权重。这意味着AI无需源码即可理解模型功能、修复Bug甚至从头生成网络权重。这一能力为递归自我改进（RSI）提供了新路径，但目前尚处于实验阶段，尚未在大规模复杂任务中验证其有效性。&lt;/p&gt;&lt;p&gt;★★★★★ · Latent Space · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-05.html"&gt;2026-11-05 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>Google 发布更轻快的 Gemini Omni 1.2 Flash</title>
+<link>https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips/</link>
+<guid isPermaLink="false">003a6dd08e36</guid>
+<pubDate>Thu, 05 Nov 2026 12:05:00 -0500</pubDate>
+<description>&lt;p&gt;Gemini Omni 1.2 Flash 是谷歌推出的一款视频生成模型，支持生成最长 15 秒的视频片段。它通过引入多轮对话编辑功能，允许用户在不重新生成的情况下对视频细节进行微调，并显著提升了对参考图像、角色和品牌风格的一致性保持能力。该模型已在 Gemini API 和谷歌商业产品中全面上线，成本较前代降低了 30%，旨在帮助创作者更高效地大规模制作视频内容。&lt;/p&gt;&lt;p&gt;★★★★ · Google DeepMind · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-05.html"&gt;2026-11-05 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>机器人领域的“模拟到现实”鸿沟与 AI 能力瓶颈</title>
@@ -126,6 +126,13 @@
 <description>&lt;p&gt;文心5.5 Flash Base是百度开源的混合专家（MoE）架构基座模型，旨在提升长上下文处理中的资源利用效率。它通过引入潜空间门控稀疏注意力（Latent-Gated Sparse Attention）和高效专家路由机制，在多项基准测试中表现出色。该模型的开源为开发者提供了更灵活的定制空间，有助于降低专业大模型的研发成本。&lt;/p&gt;&lt;p&gt;★★★★ · 量子位 · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-05.html"&gt;2026-11-05 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
+<title>GPT-Image-2.6 全量上线，支持直接生成 GIF 与矢量图 SVG</title>
+<link>https://www.qbitai.com/2026/11/507707.html</link>
+<guid isPermaLink="false">5279acc13e09</guid>
+<pubDate>Wed, 04 Nov 2026 20:59:00 -0500</pubDate>
+<description>&lt;p&gt;GPT-Image-2.6是OpenAI推出的图像生成模型，通过将“场景规划”与“像素渲染”解耦，允许开发者调节参数实现更快的生成速度（最快6秒）及更高的一致性。该模型通过序列帧（Sprite Sheet）技术原生支持GIF生成，并直接支持SVG矢量格式导出。这一更新提升了商业应用中的效率，但其处理复杂场景时仍依赖合理的参数配置。&lt;/p&gt;&lt;p&gt;★★★★ · 量子位 · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-05.html"&gt;2026-11-05 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
 <title>比煤炭更不受欢迎：从数据中心全民公投看 AI 重构需求</title>
 <link>https://www.argmin.net/p/less-popular-than-coal</link>
 <guid isPermaLink="false">ecc8f412394b</guid>
@@ -138,13 +145,6 @@
 <guid isPermaLink="false">0f35e299c97c</guid>
 <pubDate>Wed, 04 Nov 2026 13:53:00 -0500</pubDate>
 <description>&lt;p&gt;Ripple-65B Preview是Ricursive Intelligence推出的一款开源编码模型，在TerminalBench基准测试中达到了美国开源模型领先水平。该模型通过优化训练流程和架构，在极低的研发成本下实现了高推理效率。其成功归功于精心设计的模型阶梯实验（Laddering）和高效的合成数据训练策略，为全栈AI研发提供了参考。&lt;/p&gt;&lt;p&gt;★★★★ · Hacker News · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-05.html"&gt;2026-11-05 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>AI正迫使企业偿还技术债务</title>
-<link>https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability</link>
-<guid isPermaLink="false">68c44263a0af</guid>
-<pubDate>Wed, 04 Nov 2026 06:52:00 -0500</pubDate>
-<description>&lt;p&gt;PHP2Shell漏洞揭示了AI时代下，人类过去40年积累的技术债务正加速被AI发掘。研究显示，利用AI工具能够高效识别并利用原本被视为“不严重”的程序崩溃类Bug，从而将其转化为严重的安全漏洞。这强调了防御方亟需提升预算、采用形式化验证工具（Formal Verification）来应对日益频繁的自动化攻击威胁。&lt;/p&gt;&lt;p&gt;★★★★ · Hacker News · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-05.html"&gt;2026-11-05 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>清华姚期智团队提出代数世界模型，探索物理符号化推理</title>
