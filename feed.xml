@@ -5,26 +5,69 @@
 <link>https://jiande.is-a.si/ai-frontier-digest/</link>
 <description>每天精选 10 条以内最值得一读的 AI 前沿进展，附中文科普解释。</description>
 <language>zh-CN</language>
+<lastBuildDate>Fri, 06 Nov 2026 10:34:00 -0500</lastBuildDate>
+<item>
+<title>预测的玄学：防御性预测及其局限</title>
+<link>https://www.argmin.net/p/the-unholy-methods-of-soothsayers</link>
+<guid isPermaLink="false">6de2145da625</guid>
+<pubDate>Fri, 06 Nov 2026 10:15:00 -0500</pubDate>
+<description>&lt;p&gt;文章探讨了防御性预测（Defensive Forecasting）技术，即通过特定算法应对预测中的偏差，揭示了模型在机械式预测背后的逻辑缺陷。&lt;/p&gt;&lt;p&gt;★★★★ · arg min · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-06.html"&gt;2026-11-06 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>Inkling 2 Small 模型发布：高效训练的新尝试</title>
+<link>https://latent.space/p/ainews-inkling-2-small-17a-594b-trained-in-68-hours-on-12t-tokens-beating-muse-spark/</link>
+<guid isPermaLink="false">47595e2862bb</guid>
+<pubDate>Fri, 06 Nov 2026 05:35:00 -0500</pubDate>
+<description>&lt;p&gt;Inkling 2 Small 在 68 小时内完成 12T（万亿）Token 的训练，性能超越 Muse Spark，展示了小参数量模型在短时间训练下的强大潜力。&lt;/p&gt;&lt;p&gt;★★★★ · Latent Space · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-06.html"&gt;2026-11-06 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>中国 AI 团队刷新 CyberGym 安全世界纪录</title>
+<link>https://www.qbitai.com/2026/11/508107.html</link>
+<guid isPermaLink="false">9916aee4f641</guid>
+<pubDate>Fri, 06 Nov 2026 00:01:00 -0500</pubDate>
+<description>&lt;p&gt;中国团队在被誉为“AI 安全世界杯”的 CyberGym 竞赛中以 99.4% 的准确率登顶，展示了国内 AI 安全技术水平。&lt;/p&gt;&lt;p&gt;★★★★ · 量子位 · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-06.html"&gt;2026-11-06 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>腾讯 Hy4 扩容，WorkBuddy 领跑开源智能体模型</title>
+<link>https://www.qbitai.com/2026/11/507967.html</link>
+<guid isPermaLink="false">275687e80fc7</guid>
+<pubDate>Thu, 05 Nov 2026 21:00:00 -0500</pubDate>
+<description>&lt;p&gt;因调用需求激增，腾讯对 Hy4 模型进行十倍扩容，其 WorkBuddy 在开源智能体模型能力中表现领先。&lt;/p&gt;&lt;p&gt;★★★★ · 量子位 · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-06.html"&gt;2026-11-06 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
 <item>
 <title>Facebook 被指控明知平台存在 AI 深度伪造诈骗广告</title>
 <link>https://finance.yahoo.com/technology/ai/articles/mark-cuban-says-facebook-knowingly-213000020.html</link>
 <guid isPermaLink="false">6f78e24cdb5b</guid>
 <pubDate>Thu, 05 Nov 2026 18:09:00 -0500</pubDate>
-<description>&lt;p&gt;行业舆论关注 Facebook 被指控通过 AI 生成的诈骗广告牟利，据称涉及高达 160 亿美元的欺诈收入。&lt;/p&gt;&lt;p&gt;★★★★ · Hacker News · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-06.html"&gt;2026-11-06 精选&lt;/a&gt;&lt;/p&gt;</description>
+<description>&lt;p&gt;这是一起关于Meta平台投放AI深度伪造（deepfake）诈骗广告的争议。据报道，Meta通过其自动化系统筛选广告，若账户被判定为诈骗的概率低于95%，便会允许其投放，这部分广告被指带来了巨大收入。此现象引发了对平台合规性及老年群体安全保护的广泛担忧。&lt;/p&gt;&lt;p&gt;★★★★ · Hacker News · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-06.html"&gt;2026-11-06 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>前沿视觉语言模型在机器人具身智能中的实证研究</title>
 <link>https://huggingface.co/papers/2610.00854</link>
 <guid isPermaLink="false">4dcce518c56d</guid>
 <pubDate>Tue, 03 Nov 2026 19:00:00 -0500</pubDate>
-<description>&lt;p&gt;研究探讨了视觉语言模型（VLM，即同时理解图像与语言的模型）作为机器人“大脑”的表现，发现闭源模型在规划与操作任务上显著优于开源模型，并揭示了其在几何推理和控制方面的具体缺陷。&lt;/p&gt;&lt;p&gt;★★★★ · HF Daily Papers · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-06.html"&gt;2026-11-06 精选&lt;/a&gt;&lt;/p&gt;</description>
+<description>&lt;p&gt;这是一项评估视觉语言模型（VLM）作为通用机器人代理能力的实验研究。研究团队构建了包含1000个案例的竞技场，从空间推理、任务规划到物体操作等维度测试了模型表现。结果显示，闭源模型在综合任务中表现更优，而目前的通用代理仍面临物体控制丢失或动作执行错误等挑战。&lt;/p&gt;&lt;p&gt;★★★★ · HF Daily Papers · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-06.html"&gt;2026-11-06 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>Fabian Theis：从绘制图谱到操控生物学</title>
+<link>https://latent.space/p/controlling-biology-fabian-theis-helmholtz-munich/</link>
+<guid isPermaLink="false">b18e8924e9aa</guid>
+<pubDate>Fri, 06 Nov 2026 10:10:00 -0500</pubDate>
+<description>&lt;p&gt;系统生物学家 Fabian Theis 探讨了如何利用 AI 从绘制复杂的生物数据图谱，迈向预测并最终实现对生物系统的精确操控。&lt;/p&gt;&lt;p&gt;★★★ · Latent Space · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-06.html"&gt;2026-11-06 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>ToyBlocks：机器人学习的受控模拟环境</title>
+<link>https://huggingface.co/blog/allenai/toyblocks</link>
+<guid isPermaLink="false">be1ba71e55b7</guid>
+<pubDate>Fri, 06 Nov 2026 09:00:00 -0500</pubDate>
+<description>&lt;p&gt;ToyBlocks 提供了一个受控的虚拟实验场，专门用于机器人学习算法的训练与效果评估。&lt;/p&gt;&lt;p&gt;★★★ · Hugging Face · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-06.html"&gt;2026-11-06 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>Claude Code 被曝存在隐私合规争议</title>
 <link>https://github.com/anthropics/claude-code/issues/107757</link>
 <guid isPermaLink="false">3b58ffb304e7</guid>
 <pubDate>Thu, 05 Nov 2026 17:17:00 -0500</pubDate>
-<description>&lt;p&gt;社区讨论指出 Claude Code 在运行过程中会向第三方网站发送用户邮箱地址，引发关于 AI 工具隐私保护的关注。&lt;/p&gt;&lt;p&gt;★★★ · Hacker News · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-06.html"&gt;2026-11-06 精选&lt;/a&gt;&lt;/p&gt;</description>
+<description>&lt;p&gt;这是一个关于Anthropic开发工具Claude Code的隐私安全漏洞报告。该工具在进行网页搜索时，会未经许可将用户的邮箱地址写入HTTP请求的User-Agent头部，导致用户遭受垃圾邮件骚扰。厂商已通过内置插件封禁该行为，并建议用户及时更新软件。&lt;/p&gt;&lt;p&gt;★★★ · Hacker News · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-06.html"&gt;2026-11-06 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>澳大利亚高校推动“AI 原生”人才培养</title>
@@ -32,13 +75,6 @@
 <guid isPermaLink="false">b58fee4edbbb</guid>
 <pubDate>Thu, 05 Nov 2026 12:00:00 -0500</pubDate>
 <description>&lt;p&gt;澳大利亚多所大学通过全面引入 ChatGPT 到教学环节，旨在培养适应未来人工智能驱动工作环境的专业毕业生。&lt;/p&gt;&lt;p&gt;★★★ · OpenAI · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-06.html"&gt;2026-11-06 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>Franklin Templeton 开发 AI 工作流赋能投资研究</title>
-<link>https://openai.com/index/franklin-templeton</link>
-<guid isPermaLink="false">c0d7b0808284</guid>
-<pubDate>Wed, 04 Nov 2026 19:00:00 -0500</pubDate>
-<description>&lt;p&gt;资产管理巨头 Franklin Templeton 正在构建 AI 工作流，辅助投资组合经理进行深度股权研究、比对分析及风险评估。&lt;/p&gt;&lt;p&gt;★★★ · OpenAI · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-06.html"&gt;2026-11-06 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>AI 在博弈测试中学会了“说谎”</title>

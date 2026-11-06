@@ -16,12 +16,12 @@ AI 前沿的中文科普导读：每天从研究者博客、实验室新闻、Ha
 | ★★★★★ | [GPT-Image-2.6 全量上线，支持直接生成 GIF 与矢量图 SVG](https://www.qbitai.com/2026/11/507707.html) | GPT-Image-2.6 已全量开放，具备最快 6 秒出图的高效渲染能力，并新增直接输出动态图 GIF 和矢量格式 SVG 的功能。同时新的 6.2 Astra 模型也首次现身。 | 量子位 |
 | ★★★★★ | [AI自动化修复近千个Linux内核漏洞](https://openai.com/index/a-thousand-fewer-paths-to-root) | OpenAI开发了一套自动化管道，成功发现、验证并修复了Linux内核中948个本地权限提升漏洞，展示了AI在软件安全领域的强大潜力。 | OpenAI |
 | ★★★★★ | [AINews：“权重空间编程”引入神经网络权重读写功能](https://latent.space/p/ainews-llms-can-read-write-neural-network-weights-weight-space-programming-cuts-autoresearch-out-of/) | 介绍了大语言模型直接读写神经网络权重的“权重空间编程”概念，包含修改 Qwen 权重以减少推理死循环的实践，并提到了 DeepSeek 的超级智能体原型和 GDPx 评估基准。 | Latent Space |
+| ★★★★ | [预测的玄学：防御性预测及其局限](https://www.argmin.net/p/the-unholy-methods-of-soothsayers) | 文章探讨了防御性预测（Defensive Forecasting）技术，即通过特定算法应对预测中的偏差，揭示了模型在机械式预测背后的逻辑缺陷。 | arg min |
+| ★★★★ | [Inkling 2 Small 模型发布：高效训练的新尝试](https://latent.space/p/ainews-inkling-2-small-17a-594b-trained-in-68-hours-on-12t-tokens-beating-muse-spark/) | Inkling 2 Small 在 68 小时内完成 12T（万亿）Token 的训练，性能超越 Muse Spark，展示了小参数量模型在短时间训练下的强大潜力。 | Latent Space |
+| ★★★★ | [中国 AI 团队刷新 CyberGym 安全世界纪录](https://www.qbitai.com/2026/11/508107.html) | 中国团队在被誉为“AI 安全世界杯”的 CyberGym 竞赛中以 99.4% 的准确率登顶，展示了国内 AI 安全技术水平。 | 量子位 |
 | ★★★★ | [Facebook 被指控明知平台存在 AI 深度伪造诈骗广告](https://finance.yahoo.com/technology/ai/articles/mark-cuban-says-facebook-knowingly-213000020.html) | 行业舆论关注 Facebook 被指控通过 AI 生成的诈骗广告牟利，据称涉及高达 160 亿美元的欺诈收入。 | Hacker News |
 | ★★★★ | [机器人领域的“模拟到现实”鸿沟与 AI 能力瓶颈](https://www.understandingai.org/p/this-robotics-concept-helps-explain) | 文章探讨了机器人从模拟训练（Sim）迁移到真实世界（Real）时遇到的技术鸿沟，解释了为何 AI 能力在某些前沿领域会出现不连续的“锯齿状”提升。 | Understanding AI |
 | ★★★★ | [OpenAI 发布网络安全模型 GPT-6 Cyber](https://openai.com/index/introducing-gpt-6-cyber) | OpenAI 推出专注于网络安全的 GPT-6 Cyber，旨在自动发现漏洞并提供修复方案，同时通过训练确保其操作符合授权范围。 | OpenAI |
-| ★★★★ | [百度开源文心 5.5 Flash Base，刷新同尺寸模型 SOTA 纪录](https://www.qbitai.com/2026/11/507787.html) | 百度正式开源最新基座模型文心 5.5 Flash Base，在多项基准测试中达到了同等参数尺寸下的 SOTA（当前最佳水平），为开发者提供了更高性能的开源底座。 | 量子位 |
-| ★★★★ | [比煤炭更不受欢迎：从数据中心全民公投看 AI 重构需求](https://www.argmin.net/p/less-popular-than-coal) | 文章围绕数据中心建设引发的公众公投争议展开，探讨了 AI 基础设施扩建带来的社会与环境阻力，并呼吁对 AI 发展模式进行重新思考与调整。 | arg min |
-| ★★★★ | [Ripple-65B：编程智能体新模型](https://www.ricursive.com/ripple) | 发布了 Ripple-65B 模型预览版，该模型在智能体代码编写任务中表现出色，且为开放权重（Open-weight，指模型参数对外公开可下载），是目前美国同类模型中的领先者。 | Hacker News |
 
 <!-- latest:end -->
 
@@ -29,7 +29,7 @@ AI 前沿的中文科普导读：每天从研究者博客、实验室新闻、Ha
 
 <!-- archive:start -->
 
-- [2026-11-06](digest/2026/2026-11-06.md)：5 条精选
+- [2026-11-06](digest/2026/2026-11-06.md)：10 条精选
 - [2026-11-05](digest/2026/2026-11-05.md)：10 条精选
 - [2026-11-01](digest/2026/2026-11-01.md)：4 条精选
 - [2026-10-31](digest/2026/2026-10-31.md)：10 条精选
