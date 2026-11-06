@@ -10,12 +10,14 @@
 
 | 重要度 | 标题 | 摘要 | 来源 |
 |---|---|---|---|
-| ★★★★★ | [NASA寻求方案延长Hubble太空望远镜寿命](https://www.sciencedaily.com/releases/2026/11/261104012254.htm) | 由于轨道高度逐渐降低，Hubble太空望远镜面临重返大气层损毁的风险。NASA目前正寻求私营航天公司的技术方案，旨在通过提升轨道或升级维护，延续这一传奇观测站的科学使命。 | ScienceDaily |
-| ★★★★ | [南极蓝鲸种群数量显著回升](https://phys.org/news/2026-11-antarctic-blue-whales-advance-road.html) | 经过50年的保护，南极蓝鲸种群数量从1973年捕鲸停止后的418头增长至约4018头，研究强调持续监管对物种恢复至关重要。 | Phys.org |
+| ★★★★ | [联合国警告：全球变暖下的适应能力滞后](https://phys.org/news/2026-11-isnt-global.html) | 联合国环境规划署（UNEP）报告指出，随着全球升温超过1.5°C，资金投入不足和制度壁垒导致应对气候变化的适应措施进展缓慢。 | Phys.org |
+| ★★★★ | [工程学能解决“永久性化学物质”问题吗？](https://phys.org/news/2026-11-chemical-problem.html) | 科学家正探索利用环糊精聚合物等新技术手段，应对环境中的“永久性化学物质”（PFAS）污染挑战。 | Phys.org |
+| ★★★★ | [章鱼如何穿过狭小孔洞](https://www.sciencenews.org/article/octopuses-squeeze-escape-steps-video) | 研究人员分析了章鱼穿过细小孔洞时的动作序列，这些发现可能为软体机器人（soft robots）的形态设计提供灵感。 | Science News |
+| ★★★★ | [中国空间站创造超低温纪录](https://www.sciencenews.org/article/lowest-temperature-china-space-station) | 利用微重力环境，中国空间站内的原子冷却至约10万亿分之一开尔文，达到极低温度水平。 | Science News |
 | ★★★★ | [新型膜技术有望革新石油精炼工艺](https://www.sciencedaily.com/releases/2026/11/261103003207.htm) | 科学家开发出一种利用原油自身建立微孔通道的膜材料，可在室温下进行分离，有望大幅降低精炼过程的能耗与碳排放。 | ScienceDaily |
-| ★★★ | [章鱼如何穿过极其狭窄的缝隙](https://phys.org/news/2026-11-octopuses-small-gaps.html) | 章鱼凭借身体的极高柔韧性，能通过改变形体像液体一样流过狭小缝隙，从而克服体型大小对其栖息范围的限制。 | Phys.org |
-| ★★★ | [NASA布局Ka波段卫星通信中继能力](https://www.nasa.gov/news-release/nasa-announces-ka-band-satellite-relay-awards-for-space-communications/) | NASA选中三家公司开发兼容现有航天任务的Ka波段空间中继方案，旨在无需改装航天器的情况下，通过端到端解决方案确保空间通信服务的连续性。 | NASA |
-| ★★★ | [NASA展示行星着陆自主导航技术](https://www.nasa.gov/centers-and-facilities/armstrong/nasa-navigation-experiment-shows-promise-for-planetary-landings/) | NASA成功测试了名为SPLICE的导航与控制载荷，该技术能辅助航天器在月球或其他行星表面寻找安全着陆点，实现自主降落。 | NASA |
+| ★★★★ | [40万年前的化石牙齿揭示人类演化新联系](https://www.sciencedaily.com/releases/2026/11/261102202836.htm) | 对中国发现的Homo erectus（直立人）牙齿进行蛋白提取研究发现，这一古人类可能与Denisovans（丹尼索瓦人）存在杂交，挑战了单一演化路径的认识。 | ScienceDaily |
+| ★★★★ | [铀块分析揭示德国核计划失败原因](https://arstechnica.com/science/2026/11/uranium-cubes-reveal-why-the-german-nuclear-project-failed/) | 针对二战时期德国铀块的最新计算显示，海森堡（Heisenberg）当时严重低估了实现核连锁反应所需的材料量。 | Ars Technica |
+| ★★★★ | [NASA公布重返月球计划更新](https://www.nasa.gov/missions/artemis/nasa-shares-plans-to-accelerate-artemis-return-to-moon/) | NASA确认了Artemis项目的进度安排，计划在2028年实现人类重返月球表面。 | NASA |
 
 <!-- latest:end -->
 
@@ -23,7 +25,8 @@
 
 <!-- archive:start -->
 
-- [2026-11-05](digest/2026/2026-11-05.md)：6 条精选
+- [2026-11-06](digest/2026/2026-11-06.md)：4 条精选
+- [2026-11-05](digest/2026/2026-11-05.md)：8 条精选
 
 <!-- archive:end -->
 
