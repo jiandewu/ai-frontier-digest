@@ -5,41 +5,76 @@
 <link>https://jiande.is-a.si/ai-frontier-digest/</link>
 <description>每天精选 10 条以内最值得一读的 AI 前沿进展，附中文科普解释。</description>
 <language>zh-CN</language>
-<lastBuildDate>Fri, 06 Nov 2026 16:44:00 -0500</lastBuildDate>
+<lastBuildDate>Sat, 07 Nov 2026 01:34:00 -0500</lastBuildDate>
 <item>
-<title>Google Gemini Omni 1.2 Flash 模型发布</title>
-<link>https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/</link>
-<guid isPermaLink="false">d7e9e3e89ee7</guid>
-<pubDate>Fri, 06 Nov 2026 08:35:00 -0500</pubDate>
-<description>&lt;p&gt;Google 发布的轻量级高效模型 Gemini Omni 1.2 Flash，因其卓越的处理速度和多模态交互能力引发社区广泛关注。&lt;/p&gt;&lt;p&gt;★★★★★ · Hacker News · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-06.html"&gt;2026-11-06 精选&lt;/a&gt;&lt;/p&gt;</description>
+<title>AI正显著加速AI自身的研究进展</title>
+<link>https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai</link>
+<guid isPermaLink="false">5072f0d6af00</guid>
+<pubDate>Fri, 06 Nov 2026 15:27:00 -0500</pubDate>
+<description>&lt;p&gt;社区讨论指出AI技术本身正在大幅提升科学研究的效率，形成了一种自我强化的科研加速循环，是当前值得关注的宏观趋势。&lt;/p&gt;&lt;p&gt;★★★★ · Hacker News · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-07.html"&gt;2026-11-07 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>揭秘AI代理的记忆构建：通过“做梦”优化学习</title>
+<link>https://www.anthropic.com/research/components-of-agent-memory</link>
+<guid isPermaLink="false">594105e3c519</guid>
+<pubDate>Thu, 05 Nov 2026 19:00:00 -0500</pubDate>
+<description>&lt;p&gt;介绍了Claude如何通过类似“做梦”的机制来筛选和整理记忆，以在未知未来任务中有效利用过往经验并自我纠错，这对提升AI代理的长期表现至关重要。&lt;/p&gt;&lt;p&gt;★★★★ · Anthropic · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-07.html"&gt;2026-11-07 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>Anthropic IPO与AI模型安全性简讯</title>
+<link>https://latent.space/p/ainews-anthropic-ipo-whither-now/</link>
+<guid isPermaLink="false">d62fbfe2fc04</guid>
+<pubDate>Fri, 06 Nov 2026 22:04:00 -0500</pubDate>
+<description>&lt;p&gt;讨论了Anthropic的IPO前景，并介绍了模型安全性的新进展，包括通过ARC Prize基准测试小型模型以及Thinking Machines研究如何发现早期模型检查点绕过安全护栏的问题。&lt;/p&gt;&lt;p&gt;★★★ · Latent Space · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-07.html"&gt;2026-11-07 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>SLA：通过持续预训练增强机器人空间感知能力</title>
+<link>https://huggingface.co/papers/2611.08373</link>
+<guid isPermaLink="false">e7b124c3848d</guid>
+<pubDate>Thu, 05 Nov 2026 19:00:00 -0500</pubDate>
+<description>&lt;p&gt;SLA模型通过将视觉-语言-动作（VLA）模型与3D感知模型对齐，并使用特殊的特征门控机制，提升了机器人在多样化环境中的空间理解与操作精度。&lt;/p&gt;&lt;p&gt;★★★ · HF Daily Papers · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-07.html"&gt;2026-11-07 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>Project EVE：Claude在大型多人在线游戏中的表现</title>
+<link>https://www.anthropic.com/research/project-eve-claude-plays-mmorpgs</link>
+<guid isPermaLink="false">0f35f4c9f4ac</guid>
+<pubDate>Thu, 05 Nov 2026 19:00:00 -0500</pubDate>
+<description>&lt;p&gt;Anthropic的Project EVE展示了Claude模型在MMORPG（大型多人在线角色扮演游戏）环境中的交互能力，标志着AI代理在复杂虚拟世界应用中的新尝试。&lt;/p&gt;&lt;p&gt;★★★ · Anthropic · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-07.html"&gt;2026-11-07 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>预测的玄学：防御性预测及其局限</title>
 <link>https://www.argmin.net/p/the-unholy-methods-of-soothsayers</link>
 <guid isPermaLink="false">6de2145da625</guid>
 <pubDate>Fri, 06 Nov 2026 10:15:00 -0500</pubDate>
-<description>&lt;p&gt;文章探讨了防御性预测（Defensive Forecasting）技术，即通过特定算法应对预测中的偏差，揭示了模型在机械式预测背后的逻辑缺陷。&lt;/p&gt;&lt;p&gt;★★★★ · arg min · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-06.html"&gt;2026-11-06 精选&lt;/a&gt;&lt;/p&gt;</description>
+<description>&lt;p&gt;Defensive Forecasting 是一种通过算法生成预测的方法，旨在使其预测结果在数学上与实际观测结果不可区分。它通过匹配预测与结果之间的统计矩（moment-matching）来实现，无需深入了解系统背后的物理机制。这种方法揭示了预测可以仅仅是对评估规则的“游戏”，提醒人们警惕那种看似精准但并无真实理解的机械化预测。&lt;/p&gt;&lt;p&gt;★★★★ · arg min · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-06.html"&gt;2026-11-06 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>Google Gemini Omni 1.2 Flash 模型发布</title>
+<link>https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/</link>
+<guid isPermaLink="false">d7e9e3e89ee7</guid>
+<pubDate>Fri, 06 Nov 2026 08:35:00 -0500</pubDate>
+<description>&lt;p&gt;Gemini Omni 1.2 Flash 是谷歌推出的一款更高效的视频生成模型，支持长达 15 秒的视频创作并大幅降低了成本。它通过引入多轮对话编辑功能和增强的参考一致性，使角色、物体和场景在视频中保持高度连贯。该模型目前已全面上线，适用于需要快速、高质量生成视频内容的商业和开发场景。&lt;/p&gt;&lt;p&gt;★★★★ · Hacker News · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-06.html"&gt;2026-11-06 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>Inkling 2 Small 模型发布：高效训练的新尝试</title>
 <link>https://latent.space/p/ainews-inkling-2-small-17a-594b-trained-in-68-hours-on-12t-tokens-beating-muse-spark/</link>
 <guid isPermaLink="false">47595e2862bb</guid>
 <pubDate>Fri, 06 Nov 2026 05:35:00 -0500</pubDate>
-<description>&lt;p&gt;Inkling 2 Small 在 68 小时内完成 12T（万亿）Token 的训练，性能超越 Muse Spark，展示了小参数量模型在短时间训练下的强大潜力。&lt;/p&gt;&lt;p&gt;★★★★ · Latent Space · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-06.html"&gt;2026-11-06 精选&lt;/a&gt;&lt;/p&gt;</description>
+<description>&lt;p&gt;Inkling 2 Small 是 Thinking Machines 公司推出的一款 594B 总参数的多模态 MoE 模型，在极短训练时间内实现了强大的性能。它采用 NVFP4 精度技术，在代码与逻辑推理基准测试中展现出与顶级模型竞争的潜力。该模型特别强调“可定制性”，旨在为开发者提供高效且灵活的推理能力。&lt;/p&gt;&lt;p&gt;★★★★ · Latent Space · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-06.html"&gt;2026-11-06 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>中国 AI 团队刷新 CyberGym 安全世界纪录</title>
 <link>https://www.qbitai.com/2026/11/508107.html</link>
 <guid isPermaLink="false">9916aee4f641</guid>
 <pubDate>Fri, 06 Nov 2026 00:01:00 -0500</pubDate>
-<description>&lt;p&gt;中国团队在被誉为“AI 安全世界杯”的 CyberGym 竞赛中以 99.4% 的准确率登顶，展示了国内 AI 安全技术水平。&lt;/p&gt;&lt;p&gt;★★★★ · 量子位 · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-06.html"&gt;2026-11-06 精选&lt;/a&gt;&lt;/p&gt;</description>
+<description>&lt;p&gt;“图龙锋”是 360 自研的 AI 安全攻防系统，在 CyberGym 榜单中以 99.4% 的漏洞复现成功率刷新世界纪录。它通过结合安全领域的专业大模型与智能体集群，模拟顶级安全专家的判断路径来自动化挖掘漏洞。该系统不仅能完成复杂任务，还具备从错误中自我进化的能力，将专家的经验规模化为可复现的技术流程。&lt;/p&gt;&lt;p&gt;★★★★ · 量子位 · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-06.html"&gt;2026-11-06 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>腾讯 Hy4 扩容，WorkBuddy 领跑开源智能体模型</title>
 <link>https://www.qbitai.com/2026/11/507967.html</link>
 <guid isPermaLink="false">275687e80fc7</guid>
 <pubDate>Thu, 05 Nov 2026 21:00:00 -0500</pubDate>
-<description>&lt;p&gt;因调用需求激增，腾讯对 Hy4 模型进行十倍扩容，其 WorkBuddy 在开源智能体模型能力中表现领先。&lt;/p&gt;&lt;p&gt;★★★★ · 量子位 · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-06.html"&gt;2026-11-06 精选&lt;/a&gt;&lt;/p&gt;</description>
+<description>&lt;p&gt;腾讯发布的混元 Hy4 大模型因其卓越的 Agent（智能体）能力受到国际高度关注，目前已成为开源模型在相关评测中的佼佼者。该模型在提升长程规划、工具调用和多模态理解的同时，显著优化了成本效益。由于调用需求激增，腾讯已对推理集群进行了十倍扩容，以满足开发者和用户的需求。&lt;/p&gt;&lt;p&gt;★★★★ · 量子位 · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-06.html"&gt;2026-11-06 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>Facebook 被指控明知平台存在 AI 深度伪造诈骗广告</title>
@@ -60,14 +95,14 @@
 <link>https://latent.space/p/controlling-biology-fabian-theis-helmholtz-munich/</link>
 <guid isPermaLink="false">b18e8924e9aa</guid>
 <pubDate>Fri, 06 Nov 2026 10:10:00 -0500</pubDate>
-<description>&lt;p&gt;系统生物学家 Fabian Theis 探讨了如何利用 AI 从绘制复杂的生物数据图谱，迈向预测并最终实现对生物系统的精确操控。&lt;/p&gt;&lt;p&gt;★★★ · Latent Space · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-06.html"&gt;2026-11-06 精选&lt;/a&gt;&lt;/p&gt;</description>
+<description>&lt;p&gt;Fabian Theis 教授的研究专注于利用算法理解多尺度、多模态的生物数据，致力于通过建立“虚拟细胞”（Virtual Cell）来模拟生命过程。针对现有大模型在 perturbation prediction（扰动预测）任务上表现不佳的局限，他提倡转向更大规模、更高精度的多尺度数据建模。这些工作对于推动生物科学的自动化实验和精准医疗具有重要意义。&lt;/p&gt;&lt;p&gt;★★★ · Latent Space · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-06.html"&gt;2026-11-06 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>ToyBlocks：机器人学习的受控模拟环境</title>
 <link>https://huggingface.co/blog/allenai/toyblocks</link>
 <guid isPermaLink="false">be1ba71e55b7</guid>
 <pubDate>Fri, 06 Nov 2026 09:00:00 -0500</pubDate>
-<description>&lt;p&gt;ToyBlocks 提供了一个受控的虚拟实验场，专门用于机器人学习算法的训练与效果评估。&lt;/p&gt;&lt;p&gt;★★★ · Hugging Face · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-06.html"&gt;2026-11-06 精选&lt;/a&gt;&lt;/p&gt;</description>
+<description>&lt;p&gt;ToyBlocks 是一个为机器人学习设计的 FoundationWorld 框架，通过在简单且可控的模拟环境中进行实验，帮助研究人员深入研究机器人推理与操作。它能够自动生成训练数据和评估任务，并支持通过对比不同实验参数来分析机器人模型的失败原因。这种方法旨在为机器人学提供类似生物学实验的受控环境，以探究模型如何随着数据增长而提升性能。&lt;/p&gt;&lt;p&gt;★★★ · Hugging Face · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-06.html"&gt;2026-11-06 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>OpenAI 携手 Hacktron 启动 AI 安全漏洞挖掘计划</title>
@@ -96,13 +131,6 @@
 <guid isPermaLink="false">360a3a5d8e13</guid>
 <pubDate>Tue, 03 Nov 2026 00:35:00 -0500</pubDate>
 <description>&lt;p&gt;这是一项关于“权重空间编程”（Weight Space Programming）的研究进展，展示了高性能大模型能直接读取并编辑小型模型的神经网络权重。这意味着AI无需源码即可理解模型功能、修复Bug甚至从头生成网络权重。这一能力为递归自我改进（RSI）提供了新路径，但目前尚处于实验阶段，尚未在大规模复杂任务中验证其有效性。&lt;/p&gt;&lt;p&gt;★★★★★ · Latent Space · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-05.html"&gt;2026-11-05 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>Google 发布更轻快的 Gemini Omni 1.2 Flash</title>
-<link>https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips/</link>
-<guid isPermaLink="false">003a6dd08e36</guid>
-<pubDate>Thu, 05 Nov 2026 12:05:00 -0500</pubDate>
-<description>&lt;p&gt;Gemini Omni 1.2 Flash 是谷歌推出的一款视频生成模型，支持生成最长 15 秒的视频片段。它通过引入多轮对话编辑功能，允许用户在不重新生成的情况下对视频细节进行微调，并显著提升了对参考图像、角色和品牌风格的一致性保持能力。该模型已在 Gemini API 和谷歌商业产品中全面上线，成本较前代降低了 30%，旨在帮助创作者更高效地大规模制作视频内容。&lt;/p&gt;&lt;p&gt;★★★★ · Google DeepMind · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-05.html"&gt;2026-11-05 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>机器人领域的“模拟到现实”鸿沟与 AI 能力瓶颈</title>
@@ -145,6 +173,13 @@
 <guid isPermaLink="false">0f35e299c97c</guid>
 <pubDate>Wed, 04 Nov 2026 13:53:00 -0500</pubDate>
 <description>&lt;p&gt;Ripple-65B Preview是Ricursive Intelligence推出的一款开源编码模型，在TerminalBench基准测试中达到了美国开源模型领先水平。该模型通过优化训练流程和架构，在极低的研发成本下实现了高推理效率。其成功归功于精心设计的模型阶梯实验（Laddering）和高效的合成数据训练策略，为全栈AI研发提供了参考。&lt;/p&gt;&lt;p&gt;★★★★ · Hacker News · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-05.html"&gt;2026-11-05 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>AI正迫使企业偿还技术债务</title>
+<link>https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability</link>
+<guid isPermaLink="false">68c44263a0af</guid>
+<pubDate>Wed, 04 Nov 2026 06:52:00 -0500</pubDate>
+<description>&lt;p&gt;PHP2Shell漏洞揭示了AI时代下，人类过去40年积累的技术债务正加速被AI发掘。研究显示，利用AI工具能够高效识别并利用原本被视为“不严重”的程序崩溃类Bug，从而将其转化为严重的安全漏洞。这强调了防御方亟需提升预算、采用形式化验证工具（Formal Verification）来应对日益频繁的自动化攻击威胁。&lt;/p&gt;&lt;p&gt;★★★★ · Hacker News · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-05.html"&gt;2026-11-05 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>清华姚期智团队提出代数世界模型，探索物理符号化推理</title>
@@ -705,76 +740,6 @@
 <guid isPermaLink="false">9201054eeb4c</guid>
 <pubDate>Tue, 20 Oct 2026 20:00:00 -0400</pubDate>
 <description>&lt;p&gt;网络安全巨头Cloudflare采用OpenAI Daybreak工具主动调查系统漏洞并生成修复补丁方案供工程师审查，同时结合Codex加速代码编写。这展示了AI在实际网络安全工程闭环中降本增效的成熟应用。&lt;/p&gt;&lt;p&gt;★★★ · OpenAI · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-10-22.html"&gt;2026-10-22 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>AI不会像人们预想的那样完全替代放射科医生</title>
-<link>https://www.jasonwei.net/blog/ai-will-not-automate-radiologists-like-you-think</link>
-<guid isPermaLink="false">824256841dbb</guid>
-<pubDate>Mon, 19 Oct 2026 15:23:00 -0400</pubDate>
-<description>&lt;p&gt;这是一篇探讨AI为何不会在短期内取代放射科医生的分析文章。作者指出医学影像诊断任务高度复杂且长尾罕见病数据稀缺，更重要的是，技术普及带来的单位成本暴跌会触发杰文斯悖论（Jevons paradox），即超低成本会激发激增的预防性筛查需求。因此，医生短期内将把AI作为分诊与辅助工具，整体工作岗位需求依然旺盛，但技术落地仍受限于医疗监管和数据隐私。&lt;/p&gt;&lt;p&gt;★★★★★ · Jason Wei · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-10-21.html"&gt;2026-10-21 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>OpenAI 模型及 Codex 工作流上线 Google Cloud</title>
-<link>https://openai.com/index/openai-models-google-cloud</link>
-<guid isPermaLink="false">61f4d0141ff3</guid>
-<pubDate>Wed, 21 Oct 2026 08:00:00 -0400</pubDate>
-<description>&lt;p&gt;OpenAI 与 Google Cloud 达成合作，将其前沿模型与 Codex 工作流引入 Gemini Model Garden 及云市场。&lt;/p&gt;&lt;p&gt;★★★★ · OpenAI · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-10-21.html"&gt;2026-10-21 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>清华系团队将可辨识隐变量世界模型落地机器人</title>
-<link>https://www.qbitai.com/2026/10/504653.html</link>
-<guid isPermaLink="false">3d52dbe02aa2</guid>
-<pubDate>Wed, 21 Oct 2026 03:15:00 -0400</pubDate>
-<description>&lt;p&gt;这是清华系具身智能公司千诀科技发布的预测式世界模型Polibrain。它放弃了计算开销极大的未来像素级画面生成，转而在隐变量空间中预测物理状态变化，并通过多项式表征和因果记忆技术过滤无关环境细节以学习可迁移规律。其最大亮点在于实现了“大脑与身体分离”，使一套物理理解模型能够适配四足、人形及轮式等多种机器人，但跨企业间的数据共享壁垒仍是其落地的挑战。&lt;/p&gt;&lt;p&gt;★★★★ · 量子位 · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-10-21.html"&gt;2026-10-21 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>OpenAI发起全球响应计划，应对智能体挖掘的安全漏洞</title>
-<link>https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities</link>
-<guid isPermaLink="false">d3f519557f32</guid>
-<pubDate>Wed, 21 Oct 2026 03:00:00 -0400</pubDate>
-<description>&lt;p&gt;启动Patch the Planet计划，联合安全研究员与开源维护者，共同协调应对AI智能体自主发现的关键软件漏洞。&lt;/p&gt;&lt;p&gt;★★★★ · OpenAI · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-10-21.html"&gt;2026-10-21 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>DeepSeek 开源推理系统 DeepInfer：单集群日处理 155T tokens</title>
-<link>https://www.latent.space/p/ainews-deepseek-deepinfer-open-source</link>
-<guid isPermaLink="false">7dadac6a0582</guid>
-<pubDate>Wed, 21 Oct 2026 02:54:00 -0400</pubDate>
-<description>&lt;p&gt;这是关于DeepSeek将其内部生产级大模型推理框架DeepInfer开源的报道。该框架基于vLLM深度定制，通过拆分视觉编码、输入计算（prefill）与逐字解码（decode）阶段，并结合共享存储上的KV缓存与专家并行动态负载均衡来实现高吞吐。尽管其宣称具备高吞吐量与极高利润率，但文章指出这严重依赖高达96%的缓存命中率，且完整的KV缓存管理与服务编排代码尚未完全开源。&lt;/p&gt;&lt;p&gt;★★★★ · Latent Space · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-10-21.html"&gt;2026-10-21 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>Ropedia W0：融合人类经验的跨本体移动操作世界模型</title>
-<link>https://huggingface.co/papers/2610.26855</link>
-<guid isPermaLink="false">5f646ad387af</guid>
-<pubDate>Tue, 20 Oct 2026 20:00:00 -0400</pubDate>
-<description>&lt;p&gt;这是首个跨人类与多形态机器人的第一人称移动操作世界基石模型Ropedia W0。该研究构建了超万小时的跨本体数据集，通过相机位姿统一表示移动轨迹，利用投影骨骼统一表示操作动作，并借助蒸馏技术实现了支持VR交互的实时长程推演。该模型在多个跨本体基准上刷新了SOTA，证明了利用人类第一人称视角的经验预训练能够有效提升机器人的决策与规划能力。&lt;/p&gt;&lt;p&gt;★★★★ · HF Daily Papers · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-10-21.html"&gt;2026-10-21 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>Matrix-Game 4.0：利用视频生成模型驱动实时可玩游戏世界</title>
-<link>https://huggingface.co/papers/2610.27999</link>
-<guid isPermaLink="false">5854192850a6</guid>
-<pubDate>Tue, 20 Oct 2026 20:00:00 -0400</pubDate>
-<description>&lt;p&gt;Matrix-Game 4.0 是一个结合轻量级游戏引擎与视频生成模型构建的实时可玩游戏世界系统。它将逻辑执行与画面生成分离，由引擎维护状态并运行低模几何代理（low-poly proxies），再通过自回归视频模型与少步数去噪技术将其即时渲染为高画质视频。该系统在单张 RTX 5090 显卡上达成了 480p 60FPS 与 112ms 的低按键延迟，成功解决了以往纯视频生成模型缺乏持久世界状态和无法低延迟交互的难题。&lt;/p&gt;&lt;p&gt;★★★★ · HF Daily Papers · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-10-21.html"&gt;2026-10-21 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>Anthropic展示Claude模型设计抗蝎神经毒素的微型蛋白</title>
-<link>https://www.anthropic.com/research/claude-scorpion-toxin-binder-design</link>
-<guid isPermaLink="false">c021c28354e5</guid>
-<pubDate>Mon, 19 Oct 2026 20:00:00 -0400</pubDate>
-<description>&lt;p&gt;这是Anthropic使用研究版Claude自主设计抗蝎毒微型蛋白结合剂（minibinder）的实验案例。在人工简短提示引导下，Claude历时64小时生成了超30万种候选设计并挑选了测试方案，实验室合成与测试结果显示有17种设计成功结合了目标蝎毒神经毒素。该成果展示了AI在被忽视的热带病领域大幅缩减先导分子发现周期的潜力，但这些结合剂能否在体内中和毒性并成药仍待验证。&lt;/p&gt;&lt;p&gt;★★★★ · Anthropic · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-10-21.html"&gt;2026-10-21 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>Mistral AI 推出 Voxtral 3：支持听、想、说、行的一体化语音智能体</title>
-<link>https://mistral.ai/news/voxtral-3/</link>
-<guid isPermaLink="false">afe5d96a9d46</guid>
-<pubDate>Mon, 19 Oct 2026 20:00:00 -0400</pubDate>
-<description>&lt;p&gt;这是Mistral推出的全链路端到端实时语音智能体套件Voxtral 3。它将多语言语音识别模型、具有情感自适应的语音合成模型以及SDK整合在统一流式管线中，原生支持多轮对话、打断检测和业务工具调用（tool calling）。该系统既提供欧洲本地托管API，也支持企业私有化部署以保障数据主权，但在极低延迟和专业领域术语纠偏上仍高度依赖提示词偏置技术。&lt;/p&gt;&lt;p&gt;★★★★ · Mistral AI · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-10-21.html"&gt;2026-10-21 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>新论文解读：AI智能体评测的新兴趋势与生态</title>
-<link>https://www.normaltech.ai/p/new-paper-emerging-trends-in-ai-agent</link>
-<guid isPermaLink="false">8accc0ca4372</guid>
-<pubDate>Mon, 19 Oct 2026 16:11:00 -0400</pubDate>
-<description>&lt;p&gt;这是一篇由普林斯顿等学术机构联合发表的AI智能体评估方法综述。文章梳理了智能体评测中的方法学挑战，强调不能仅看最终成功率，必须利用更精细的工具全流程审计轨迹以识别走捷径行为，并区分“完全自动化”与“人机协作”的评估维度。该研究指出了当前评测基础设施维护困难、前沿基准测试成本过高等局限，呼吁建立更具跨学科视角的独立评测生态。&lt;/p&gt;&lt;p&gt;★★★★ · AI as Normal Technology · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-10-21.html"&gt;2026-10-21 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>
