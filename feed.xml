@@ -5,13 +5,13 @@
 <link>https://jiande.is-a.si/ai-frontier-digest/</link>
 <description>每天精选 10 条以内最值得一读的 AI 前沿进展，附中文科普解释。</description>
 <language>zh-CN</language>
-<lastBuildDate>Sat, 07 Nov 2026 10:07:00 -0500</lastBuildDate>
+<lastBuildDate>Sat, 07 Nov 2026 18:56:00 -0500</lastBuildDate>
 <item>
 <title>Jeff Dean与李飞飞关于AI发展的深度对谈</title>
 <link>https://www.qbitai.com/2026/11/508196.html</link>
 <guid isPermaLink="false">9a05312ed9a5</guid>
 <pubDate>Fri, 06 Nov 2026 22:23:00 -0500</pubDate>
-<description>&lt;p&gt;两位AI领域的顶级专家针对AI缩放推理（RSI）等前沿话题展开讨论，强调推理能力的发展存在物理与逻辑瓶颈，而非无限加速。&lt;/p&gt;&lt;p&gt;★★★★ · 量子位 · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-07.html"&gt;2026-11-07 精选&lt;/a&gt;&lt;/p&gt;</description>
+<description>&lt;p&gt;这是谷歌前高管Jeff Dean创办的AI公司Discovery Loop，旨在通过自动化实验循环提升研发效率。该系统通过AI智能体自动提出、实施并评估科学与工程实验，让少数专家能引导大量Agent协同工作。这一方案重点解决如何缩短迭代周期以实现生产力飞跃，但Jeff Dean也指出，物理计算和数据分析存在客观的时间开销，AI研发无法实现无限加速。&lt;/p&gt;&lt;p&gt;★★★★ · 量子位 · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-07.html"&gt;2026-11-07 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>AI正显著加速AI自身的研究进展</title>
@@ -25,7 +25,7 @@
 <link>https://www.qbitai.com/2026/11/508184.html</link>
 <guid isPermaLink="false">91ea69619084</guid>
 <pubDate>Fri, 06 Nov 2026 10:21:00 -0500</pubDate>
-<description>&lt;p&gt;Anthropic内部模型展示了强大的研发效能，能将实验时间缩短80%，在研发进度上展现出显著的技术领先优势。&lt;/p&gt;&lt;p&gt;★★★★ · 量子位 · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-07.html"&gt;2026-11-07 精选&lt;/a&gt;&lt;/p&gt;</description>
+<description>&lt;p&gt;这是Anthropic公司通过内部模型（Model 4）展现出的研发加速成果，其综合能力已超越已公开的Opus 5.5。这主要得益于AI作为研究助手，将实验准备时间缩短了80%，使研究人员能同时测试更多方案。虽然这种技术进步显著提升了研发速度，但也引发了关于模型能力演进失控及安全性边界的讨论。&lt;/p&gt;&lt;p&gt;★★★★ · 量子位 · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-07.html"&gt;2026-11-07 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>揭秘AI代理的记忆构建：通过“做梦”优化学习</title>
@@ -33,6 +33,13 @@
 <guid isPermaLink="false">594105e3c519</guid>
 <pubDate>Thu, 05 Nov 2026 19:00:00 -0500</pubDate>
 <description>&lt;p&gt;本文探讨了如何为AI智能体设计记忆系统，使其能从经验中学习并在不同任务中保留知识。通过模仿生物大脑的“睡眠”机制，智能体可以在闲暇时间进行“做梦”——即反思操作日志、修正错误并提取关键规则。这种记忆构建方法提升了模型处理长期复杂任务的能力，不仅能存储信息，还能学会判断哪些信息值得保存。&lt;/p&gt;&lt;p&gt;★★★★ · Anthropic · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-07.html"&gt;2026-11-07 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>Microsoft Research 关闭 AI Frontiers 部门</title>
+<link>https://hunch.net/?p=13764006</link>
+<guid isPermaLink="false">1eeaf5457cb1</guid>
+<pubDate>Sat, 07 Nov 2026 13:02:00 -0500</pubDate>
+<description>&lt;p&gt;Microsoft 旗下的前沿 AI 研究团队 AI Frontiers 宣告裁撤。这一变动引发了业界对大厂如何平衡长期基础研究与短期产品落地目标的广泛讨论。&lt;/p&gt;&lt;p&gt;★★★ · Hacker News · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-07.html"&gt;2026-11-07 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>Anthropic IPO与AI模型安全性简讯</title>
