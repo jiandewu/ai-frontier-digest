@@ -59,20 +59,27 @@
  ],
  "news": [
   {
+   "section": "AI",
+   "number": "80%",
+   "label": "Anthropic内部模型缩短的实验时间比例",
+   "title": "Anthropic三大内部模型曝光，科研效率大幅提升",
+   "link": "https://www.qbitai.com/2026/11/508184.html"
+  },
+  {
    "section": "科学",
-   "number": "1.15亿年前",
-   "label": "发现恐龙血迹的化石年代",
-   "title": "科学家发现1.15亿年前的恐龙血迹",
-   "link": "https://www.sciencedaily.com/releases/2026/11/261105224542.htm"
+   "number": "267亿年",
+   "label": "基于CCC+TL模型测算的宇宙年龄",
+   "title": "宇宙学新理论挑战暗物质与暗能量存在",
+   "link": "https://phys.org/news/2026-11-theory-older-universe-dark-energy.html"
   },
   {
    "section": "美股",
-   "number": "11%",
-   "label": "AMD当日股价涨幅",
-   "title": "Stock Market Today, Nov. 6: AMD Surges 11% on Record Quarterly Revenue and Stronger Growth Outlook",
-   "link": "https://jiande.is-a.si/us-market/news/2026/2026-11-06.html#news-2"
+   "number": "16%",
+   "label": "CoreWeave债券收益率突破的数值",
+   "title": "The AI ‘credit card’ is getting costlier as CoreWeave bond yield tops 16%",
+   "link": "https://jiande.is-a.si/us-market/news/2026/2026-11-06.html#news-4"
   }
  ],
- "newsKey": "ai-0f35f4c9f4ac,ai-5072f0d6af00,ai-594105e3c519,ai-d62fbfe2fc04,ai-e7b124c3848d,market-2026-11-06-1,market-2026-11-06-2,market-2026-11-06-3,market-2026-11-06-4,market-2026-11-06-5,science-05e22a46de43,science-225ab5981c9d,science-3177463853cb,science-3255a35e8610,science-9c41a513889c,science-b2a9c85dded5,science-d20e7c29006e,science-effdb9c4e032",
- "updated": "2026-11-07T07:28:42+00:00"
+ "newsKey": "ai-0f35f4c9f4ac,ai-5072f0d6af00,ai-594105e3c519,ai-91ea69619084,ai-9a05312ed9a5,ai-d62fbfe2fc04,ai-e7b124c3848d,market-2026-11-06-1,market-2026-11-06-2,market-2026-11-06-3,market-2026-11-06-4,market-2026-11-06-5,science-03feb9b7e494,science-186947cb61d4,science-467bfcc0f8ca,science-bb76bbd34ed9,science-e23cb596fd16,science-f6a76a717d92",
+ "updated": "2026-11-07T18:08:50+00:00"
 }
