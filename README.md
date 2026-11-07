@@ -12,12 +12,12 @@ AI 前沿的中文科普导读：每天从研究者博客、实验室新闻、Ha
 
 | 重要度 | 标题 | 摘要 | 来源 |
 |---|---|---|---|
+| ★★★★ | [Jeff Dean与李飞飞关于AI发展的深度对谈](https://www.qbitai.com/2026/11/508196.html) | 两位AI领域的顶级专家针对AI缩放推理（RSI）等前沿话题展开讨论，强调推理能力的发展存在物理与逻辑瓶颈，而非无限加速。 | 量子位 |
 | ★★★★ | [AI正显著加速AI自身的研究进展](https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai) | 社区讨论指出AI技术本身正在大幅提升科学研究的效率，形成了一种自我强化的科研加速循环，是当前值得关注的宏观趋势。 | Hacker News |
+| ★★★★ | [Anthropic三大内部模型曝光，科研效率大幅提升](https://www.qbitai.com/2026/11/508184.html) | Anthropic内部模型展示了强大的研发效能，能将实验时间缩短80%，在研发进度上展现出显著的技术领先优势。 | 量子位 |
 | ★★★★ | [预测的玄学：防御性预测及其局限](https://www.argmin.net/p/the-unholy-methods-of-soothsayers) | 文章探讨了防御性预测（Defensive Forecasting）技术，即通过特定算法应对预测中的偏差，揭示了模型在机械式预测背后的逻辑缺陷。 | arg min |
 | ★★★★ | [Google Gemini Omni 1.2 Flash 模型发布](https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/) | Google 发布的轻量级高效模型 Gemini Omni 1.2 Flash，因其卓越的处理速度和多模态交互能力引发社区广泛关注。 | Hacker News |
 | ★★★★ | [Inkling 2 Small 模型发布：高效训练的新尝试](https://latent.space/p/ainews-inkling-2-small-17a-594b-trained-in-68-hours-on-12t-tokens-beating-muse-spark/) | Inkling 2 Small 在 68 小时内完成 12T（万亿）Token 的训练，性能超越 Muse Spark，展示了小参数量模型在短时间训练下的强大潜力。 | Latent Space |
-| ★★★★ | [中国 AI 团队刷新 CyberGym 安全世界纪录](https://www.qbitai.com/2026/11/508107.html) | 中国团队在被誉为“AI 安全世界杯”的 CyberGym 竞赛中以 99.4% 的准确率登顶，展示了国内 AI 安全技术水平。 | 量子位 |
-| ★★★★ | [腾讯 Hy4 扩容，WorkBuddy 领跑开源智能体模型](https://www.qbitai.com/2026/11/507967.html) | 因调用需求激增，腾讯对 Hy4 模型进行十倍扩容，其 WorkBuddy 在开源智能体模型能力中表现领先。 | 量子位 |
 | ★★★★ | [揭秘AI代理的记忆构建：通过“做梦”优化学习](https://www.anthropic.com/research/components-of-agent-memory) | 介绍了Claude如何通过类似“做梦”的机制来筛选和整理记忆，以在未知未来任务中有效利用过往经验并自我纠错，这对提升AI代理的长期表现至关重要。 | Anthropic |
 | ★★★★ | [前沿视觉语言模型在机器人具身智能中的实证研究](https://huggingface.co/papers/2610.00854) | 研究探讨了视觉语言模型（VLM，即同时理解图像与语言的模型）作为机器人“大脑”的表现，发现闭源模型在规划与操作任务上显著优于开源模型，并揭示了其在几何推理和控制方面的具体缺陷。 | HF Daily Papers |
 | ★★★ | [Anthropic IPO与AI模型安全性简讯](https://latent.space/p/ainews-anthropic-ipo-whither-now/) | 讨论了Anthropic的IPO前景，并介绍了模型安全性的新进展，包括通过ARC Prize基准测试小型模型以及Thinking Machines研究如何发现早期模型检查点绕过安全护栏的问题。 | Latent Space |
@@ -29,7 +29,7 @@ AI 前沿的中文科普导读：每天从研究者博客、实验室新闻、Ha
 
 <!-- archive:start -->
 
-- [2026-11-07](digest/2026/2026-11-07.md)：5 条精选
+- [2026-11-07](digest/2026/2026-11-07.md)：7 条精选
 - [2026-11-06](digest/2026/2026-11-06.md)：10 条精选
 - [2026-11-05](digest/2026/2026-11-05.md)：10 条精选
 - [2026-11-01](digest/2026/2026-11-01.md)：4 条精选
