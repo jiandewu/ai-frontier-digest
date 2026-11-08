@@ -13,13 +13,13 @@ AI 前沿的中文科普导读：每天从研究者博客、实验室新闻、Ha
 | 重要度 | 标题 | 摘要 | 来源 |
 |---|---|---|---|
 | ★★★★ | [Claude Code 的“不再询问”功能导致千余 GitHub 公开代码库泄露密码](https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again) | Anthropic 推出的编程辅助工具 Claude Code 在默认设置下，会将含有敏感信息的本地文件上传至 GitHub，造成了大规模的凭据泄露风险。 | Hacker News |
+| ★★★★ | [OpenAI新一轮110亿美元融资到账，规模不及原计划一半](https://www.qbitai.com/2026/11/508344.html) | OpenAI最新一笔百亿级融资最终落定，但实际筹集金额不到原计划的一半，显示出硅谷投资者对AI烧钱大潮的态度正变得谨慎。 | 量子位 |
 | ★★★★ | [Jeff Dean与李飞飞关于AI发展的深度对谈](https://www.qbitai.com/2026/11/508196.html) | 两位AI领域的顶级专家针对AI缩放推理（RSI）等前沿话题展开讨论，强调推理能力的发展存在物理与逻辑瓶颈，而非无限加速。 | 量子位 |
 | ★★★★ | [AI正显著加速AI自身的研究进展](https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai) | 社区讨论指出AI技术本身正在大幅提升科学研究的效率，形成了一种自我强化的科研加速循环，是当前值得关注的宏观趋势。 | Hacker News |
-| ★★★★ | [Anthropic三大内部模型曝光，科研效率大幅提升](https://www.qbitai.com/2026/11/508184.html) | Anthropic内部模型展示了强大的研发效能，能将实验时间缩短80%，在研发进度上展现出显著的技术领先优势。 | 量子位 |
 | ★★★★ | [揭秘AI代理的记忆构建：通过“做梦”优化学习](https://www.anthropic.com/research/components-of-agent-memory) | 介绍了Claude如何通过类似“做梦”的机制来筛选和整理记忆，以在未知未来任务中有效利用过往经验并自我纠错，这对提升AI代理的长期表现至关重要。 | Anthropic |
 | ★★★ | [Anthropic IPO与AI模型安全性简讯](https://latent.space/p/ainews-anthropic-ipo-whither-now/) | 讨论了Anthropic的IPO前景，并介绍了模型安全性的新进展，包括通过ARC Prize基准测试小型模型以及Thinking Machines研究如何发现早期模型检查点绕过安全护栏的问题。 | Latent Space |
+| ★★★ | [从自主智能体迈向认知共生体：增强人类智能的新方向](https://huggingface.co/papers/2611.05376) | 探讨物理AI如何通过长期的认知共生（指AI与人类长期协作并弥补认知差距）来增强人类智能，并强调安全治理的重要性。 | HF Daily Papers |
 | ★★★ | [VFlash：利用闪电原语解码实现快速精准的视觉规划](https://huggingface.co/papers/2611.08449) | 针对机器人和自动驾驶领域，研究者提出了 VFlash 方法，通过优化视觉规划中坐标点的生成方式，解决了传统模型生成空间轨迹时速度慢、成本高的问题。 | HF Daily Papers |
-| ★★★ | [SLA：通过持续预训练增强机器人空间感知能力](https://huggingface.co/papers/2611.08373) | SLA模型通过将视觉-语言-动作（VLA）模型与3D感知模型对齐，并使用特殊的特征门控机制，提升了机器人在多样化环境中的空间理解与操作精度。 | HF Daily Papers |
 | ★★★ | [Project EVE：Claude在大型多人在线游戏中的表现](https://www.anthropic.com/research/project-eve-claude-plays-mmorpgs) | Anthropic的Project EVE展示了Claude模型在MMORPG（大型多人在线角色扮演游戏）环境中的交互能力，标志着AI代理在复杂虚拟世界应用中的新尝试。 | Anthropic |
 
 <!-- latest:end -->
@@ -28,7 +28,7 @@ AI 前沿的中文科普导读：每天从研究者博客、实验室新闻、Ha
 
 <!-- archive:start -->
 
-- [2026-11-08](digest/2026/2026-11-08.md)：2 条精选
+- [2026-11-08](digest/2026/2026-11-08.md)：5 条精选
 - [2026-11-07](digest/2026/2026-11-07.md)：8 条精选
 - [2026-11-06](digest/2026/2026-11-06.md)：10 条精选
 - [2026-11-05](digest/2026/2026-11-05.md)：10 条精选

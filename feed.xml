@@ -5,7 +5,7 @@
 <link>https://jiande.is-a.si/ai-frontier-digest/</link>
 <description>每天精选 10 条以内最值得一读的 AI 前沿进展，附中文科普解释。</description>
 <language>zh-CN</language>
-<lastBuildDate>Sun, 08 Nov 2026 01:41:00 -0500</lastBuildDate>
+<lastBuildDate>Sun, 08 Nov 2026 10:34:00 -0500</lastBuildDate>
 <item>
 <title>Claude Code 的“不再询问”功能导致千余 GitHub 公开代码库泄露密码</title>
 <link>https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again</link>
@@ -14,11 +14,32 @@
 <description>&lt;p&gt;Anthropic 推出的编程辅助工具 Claude Code 在默认设置下，会将含有敏感信息的本地文件上传至 GitHub，造成了大规模的凭据泄露风险。&lt;/p&gt;&lt;p&gt;★★★★ · Hacker News · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-08.html"&gt;2026-11-08 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
+<title>OpenAI新一轮110亿美元融资到账，规模不及原计划一半</title>
+<link>https://www.qbitai.com/2026/11/508344.html</link>
+<guid isPermaLink="false">8d9ec9ed0332</guid>
+<pubDate>Sat, 07 Nov 2026 03:11:00 -0500</pubDate>
+<description>&lt;p&gt;OpenAI最新一笔百亿级融资最终落定，但实际筹集金额不到原计划的一半，显示出硅谷投资者对AI烧钱大潮的态度正变得谨慎。&lt;/p&gt;&lt;p&gt;★★★★ · 量子位 · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-08.html"&gt;2026-11-08 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>资本正在撤离“世界模型”</title>
+<link>https://www.qbitai.com/2026/11/508466.html</link>
+<guid isPermaLink="false">e4a9449a7dd7</guid>
+<pubDate>Sat, 07 Nov 2026 23:09:00 -0500</pubDate>
+<description>&lt;p&gt;曾经备受追捧的世界模型（指能够理解并模拟物理世界规律的AI模型）近期遭遇资本退潮，表明行业投资趋于理性。&lt;/p&gt;&lt;p&gt;★★★ · 量子位 · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-08.html"&gt;2026-11-08 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>从自主智能体迈向认知共生体：增强人类智能的新方向</title>
+<link>https://huggingface.co/papers/2611.05376</link>
+<guid isPermaLink="false">874635804694</guid>
+<pubDate>Thu, 05 Nov 2026 19:00:00 -0500</pubDate>
+<description>&lt;p&gt;探讨物理AI如何通过长期的认知共生（指AI与人类长期协作并弥补认知差距）来增强人类智能，并强调安全治理的重要性。&lt;/p&gt;&lt;p&gt;★★★ · HF Daily Papers · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-08.html"&gt;2026-11-08 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
 <title>VFlash：利用闪电原语解码实现快速精准的视觉规划</title>
 <link>https://huggingface.co/papers/2611.08449</link>
 <guid isPermaLink="false">608e1d97ab46</guid>
 <pubDate>Thu, 05 Nov 2026 19:00:00 -0500</pubDate>
-<description>&lt;p&gt;针对机器人和自动驾驶领域，研究者提出了 VFlash 方法，通过优化视觉规划中坐标点的生成方式，解决了传统模型生成空间轨迹时速度慢、成本高的问题。&lt;/p&gt;&lt;p&gt;★★★ · HF Daily Papers · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-08.html"&gt;2026-11-08 精选&lt;/a&gt;&lt;/p&gt;</description>
+<description>&lt;p&gt;VFlash 是一种用于机器人和自动驾驶等物理 AI 任务的视觉规划方法，能快速生成点、边界框和轨迹等空间目标。它利用轻量级 drafter（起草器）通过单次前向传播共同预测整个图元（primitive）的坐标，并直接接受结构有效的预测结果。它在减少预测误差的同时，将 3D 点运动预测的生成速度提升了约 25 倍，且在多个任务套件中提高了平均成功率。&lt;/p&gt;&lt;p&gt;★★★ · HF Daily Papers · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-08.html"&gt;2026-11-08 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>Jeff Dean与李飞飞关于AI发展的深度对谈</title>
@@ -53,7 +74,7 @@
 <link>https://hunch.net/?p=13764006</link>
 <guid isPermaLink="false">1eeaf5457cb1</guid>
 <pubDate>Sat, 07 Nov 2026 13:02:00 -0500</pubDate>
-<description>&lt;p&gt;Microsoft 旗下的前沿 AI 研究团队 AI Frontiers 宣告裁撤。这一变动引发了业界对大厂如何平衡长期基础研究与短期产品落地目标的广泛讨论。&lt;/p&gt;&lt;p&gt;★★★ · Hacker News · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-07.html"&gt;2026-11-07 精选&lt;/a&gt;&lt;/p&gt;</description>
+<description>&lt;p&gt;本文讲述了微软研究院（MSR）AI Frontiers（AIF）子组织的成立、运作及其最终解散的经过。AIF 曾专注于构建智能体、开源框架及探索递归等前沿研究，但随后被重组并入更倾向于“纯规模扩张”的 Microsoft AI。作者指出，新领导层完全聚焦于规模而非研究的理念与 AIF 不相容，最终导致核心团队成员集体离职。该事件凸显了工业界在追求大模型规模化与持续基础研究投入之间的张力与冲突。&lt;/p&gt;&lt;p&gt;★★★ · Hacker News · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-07.html"&gt;2026-11-07 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>Anthropic IPO与AI模型安全性简讯</title>
