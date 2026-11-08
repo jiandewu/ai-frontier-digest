@@ -59,20 +59,27 @@
  ],
  "news": [
   {
+   "section": "AI",
+   "number": "25倍",
+   "label": "3D点运动预测的生成速度提升幅度",
+   "title": "VFlash：利用闪电原语解码实现快速精准的视觉规划",
+   "link": "https://huggingface.co/papers/2611.08449"
+  },
+  {
    "section": "科学",
-   "number": "4公里",
-   "label": "月球南极De Gerlache-Kocher山脉高度",
-   "title": "月球南极的地貌特征：De Gerlache-Kocher山块",
-   "link": "https://science.nasa.gov/image-article/apod-2026-november-7-de-gerlache-kocher-massif/"
+   "number": "57项",
+   "label": "用于分析睡眠障碍对大脑影响的研究数量",
+   "title": "常见睡眠障碍可能导致大脑结构性改变",
+   "link": "https://www.sciencedaily.com/releases/2026/11/261104012303.htm"
   },
   {
    "section": "美股",
    "number": "77%",
-   "label": "美联储12月加息的押注概率",
+   "label": "市场对美联储12月加息的押注概率",
    "title": "强劲非农数据点燃加息预期，美联储12月加息概率飙升至77%",
    "link": "https://jiande.is-a.si/us-market/news/2026/2026-11-07.html#news-2"
   }
  ],
- "newsKey": "ai-5186d80b7eef,ai-608e1d97ab46,market-2026-11-07-1,market-2026-11-07-2,market-2026-11-07-3,market-2026-11-07-4,market-2026-11-07-5,science-03feb9b7e494,science-186947cb61d4,science-467bfcc0f8ca,science-c2f87da81744,science-e23cb596fd16,science-eaa70898e7c2,science-f6a76a717d92",
- "updated": "2026-11-08T07:39:11+00:00"
+ "newsKey": "ai-5186d80b7eef,ai-608e1d97ab46,ai-874635804694,ai-8d9ec9ed0332,ai-e4a9449a7dd7,market-2026-11-07-1,market-2026-11-07-2,market-2026-11-07-3,market-2026-11-07-4,market-2026-11-07-5,science-2154305b5600,science-414b97ddee29,science-48ce3ec68381,science-97ef9b7e609b,science-bd171fbe60e7,science-cd5eca77b80f",
+ "updated": "2026-11-08T18:25:41+00:00"
 }
