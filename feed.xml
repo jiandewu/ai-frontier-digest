@@ -5,7 +5,21 @@
 <link>https://jiande.is-a.si/ai-frontier-digest/</link>
 <description>每天精选 10 条以内最值得一读的 AI 前沿进展，附中文科普解释。</description>
 <language>zh-CN</language>
-<lastBuildDate>Sat, 07 Nov 2026 18:56:00 -0500</lastBuildDate>
+<lastBuildDate>Sun, 08 Nov 2026 01:41:00 -0500</lastBuildDate>
+<item>
+<title>Claude Code 的“不再询问”功能导致千余 GitHub 公开代码库泄露密码</title>
+<link>https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again</link>
+<guid isPermaLink="false">5186d80b7eef</guid>
+<pubDate>Sat, 07 Nov 2026 15:45:00 -0500</pubDate>
+<description>&lt;p&gt;Anthropic 推出的编程辅助工具 Claude Code 在默认设置下，会将含有敏感信息的本地文件上传至 GitHub，造成了大规模的凭据泄露风险。&lt;/p&gt;&lt;p&gt;★★★★ · Hacker News · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-08.html"&gt;2026-11-08 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>VFlash：利用闪电原语解码实现快速精准的视觉规划</title>
+<link>https://huggingface.co/papers/2611.08449</link>
+<guid isPermaLink="false">608e1d97ab46</guid>
+<pubDate>Thu, 05 Nov 2026 19:00:00 -0500</pubDate>
+<description>&lt;p&gt;针对机器人和自动驾驶领域，研究者提出了 VFlash 方法，通过优化视觉规划中坐标点的生成方式，解决了传统模型生成空间轨迹时速度慢、成本高的问题。&lt;/p&gt;&lt;p&gt;★★★ · HF Daily Papers · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-08.html"&gt;2026-11-08 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
 <item>
 <title>Jeff Dean与李飞飞关于AI发展的深度对谈</title>
 <link>https://www.qbitai.com/2026/11/508196.html</link>
@@ -726,41 +740,6 @@
 <guid isPermaLink="false">298c8de07d18</guid>
 <pubDate>Fri, 23 Oct 2026 13:00:00 -0400</pubDate>
 <description>&lt;p&gt;OpenAI 详细介绍了如何通过多租户架构、全局缓存及 Azure Cosmos DB 扩展 Habitat 存储系统，实现 ChatGPT 读取速度提升 12 倍的工程实践经验。&lt;/p&gt;&lt;p&gt;★★★ · OpenAI · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-10-23.html"&gt;2026-10-23 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>OpenAI利用AI发现波及全球70%网站的PHP核心漏洞</title>
-<link>https://www.latent.space/p/ainews-openais-patch-the-planet-program</link>
-<guid isPermaLink="false">4e2ec0dca813</guid>
-<pubDate>Thu, 22 Oct 2026 03:42:00 -0400</pubDate>
-<description>&lt;p&gt;这是关于安全研究人员借助前沿 AI 模型发现 PHP 核心引擎高危漏洞 PHP2Shell（CVE-2026-109618 等）的安全事件。研究者分别借助 GPT-5.6 Sol 与 Gemini 4 Argon 等工具，分析了 PHP 在处理内存溢出和致命错误时的底层缺陷，成功验证了针对主流 CMS 系统的无需认证远程代码执行。该事件促成了长达两个月的生态多方协同修补与预警，展现了 AI 在系统级开源软件安全审计中的深厚潜力，但也暴露了漏洞信息提前泄露与紧急处置面临的协调挑战。&lt;/p&gt;&lt;p&gt;★★★★★ · Latent Space · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-10-22.html"&gt;2026-10-22 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>特斯拉利润大幅下滑，马斯克仍看好FSD入华前景</title>
-<link>https://www.qbitai.com/2026/10/504841.html</link>
-<guid isPermaLink="false">19942e3e5417</guid>
-<pubDate>Thu, 22 Oct 2026 03:14:00 -0400</pubDate>
-<description>&lt;p&gt;这是特斯拉最新三季度财报与战略动态，显示其汽车毛利率有所回升，但因 AI 与研发支出暴增 69% 导致营业利润腰斩。特斯拉正加速自动驾驶商业化，全球 FSD 活跃付费用户达 174 万，并计划推出整合车队数据与语音偏好的 AI 地图导航系统，同时推动 Robotaxi 试运营与擎天柱机器人早期生产。此举反映了特斯拉全力押注 AI 软件与硬件生态转型的策略，但面临着中国市场高阶智驾激烈竞争下软件付费意愿不确定，以及人形机器人训练极度缺乏现实世界数据等挑战。&lt;/p&gt;&lt;p&gt;★★★ · 量子位 · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-10-22.html"&gt;2026-10-22 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>中国电信开源星辰意图理解模型Xing4.0-29B-Intent</title>
-<link>https://www.qbitai.com/2026/10/504832.html</link>
-<guid isPermaLink="false">855e956ab3ec</guid>
-<pubDate>Thu, 22 Oct 2026 03:11:00 -0400</pubDate>
-<description>&lt;p&gt;这是中电信人工智能科技有限公司开源的 29B 意图理解专用模型 Xing4.0-29B-Intent，并配套开放了 275 万条微调语料。该模型采用统一模式驱动语义解析框架（USP），跳过通用大模型的长篇推理，直接将用户的一句话快速解析为包含意图分类与参数提取的标准化 JSON 格式。在客服转接和终端语音等收敛场景中，它具备百毫秒级低延迟、调用成本低且不易出现格式幻觉的优势，不过其评测表现仅针对特定测试集，在开放多变场景下的泛化仍需结合实际业务验证。&lt;/p&gt;&lt;p&gt;★★★ · 量子位 · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-10-22.html"&gt;2026-10-22 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>SpatialScout基准：视觉语言智能体能否自主进行3D建图？</title>
-<link>https://huggingface.co/papers/2610.26659</link>
-<guid isPermaLink="false">b13df1ce33e7</guid>
-<pubDate>Wed, 21 Oct 2026 20:00:00 -0400</pubDate>
-<description>&lt;p&gt;SpatialScout 是一个用于评估视觉语言模型（VLM）智能体主动探索并构建室内三维物体级地图能力的基准测试。测试包含 80 个场景和 3140 个目标，要求智能体在有限操作预算内自主移动相机视角，估计目标物体在统一坐标系中的三维中心位置。实验显示顶级模型 Claude Opus 5.5 的平均重合得分仅为 41.71%，高精度重合占比极低，表明现有 AI 智能体在从粗略场景理解迈向精确度量建图之间仍有巨大差距。&lt;/p&gt;&lt;p&gt;★★★ · HF Daily Papers · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-10-22.html"&gt;2026-10-22 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>Cloudflare携手OpenAI将漏洞排查与防御流程自动化</title>
-<link>https://openai.com/index/cloudflare-cyber</link>
-<guid isPermaLink="false">9201054eeb4c</guid>
-<pubDate>Tue, 20 Oct 2026 20:00:00 -0400</pubDate>
-<description>&lt;p&gt;网络安全巨头Cloudflare采用OpenAI Daybreak工具主动调查系统漏洞并生成修复补丁方案供工程师审查，同时结合Codex加速代码编写。这展示了AI在实际网络安全工程闭环中降本增效的成熟应用。&lt;/p&gt;&lt;p&gt;★★★ · OpenAI · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-10-22.html"&gt;2026-10-22 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>
