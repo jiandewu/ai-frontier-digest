@@ -39,9 +39,9 @@
    "unit": "",
    "decimals": 4,
    "change": "abs",
-   "date": "2026-10-30",
-   "value": 6.6538,
-   "previous": 6.6604,
+   "date": "2026-11-06",
+   "value": 6.676,
+   "previous": 6.668,
    "source": "https://fred.stlouisfed.org/series/DEXCHUS"
   },
   {
@@ -59,13 +59,6 @@
  ],
  "news": [
   {
-   "section": "科学",
-   "number": "104起",
-   "label": "在“龙”星系中观测到的恒星增亮事件数量",
-   "title": "JWST在“龙”星系观测到百余起恒星增亮事件",
-   "link": "https://phys.org/news/2026-11-jwst-tracks-magnified-stellar-events.html"
-  },
-  {
    "section": "美股",
    "number": "20%",
    "label": "Uber第三季度总订单量同比增速",
@@ -73,6 +66,6 @@
    "link": "https://jiande.is-a.si/us-market/news/2026/2026-11-08.html#news-5"
   }
  ],
- "newsKey": "ai-45fb196cb1bb,ai-6b30b3347296,ai-6ee1dee33e4b,market-2026-11-08-1,market-2026-11-08-2,market-2026-11-08-3,market-2026-11-08-4,market-2026-11-08-5,science-1a522a271b76,science-414b97ddee29,science-4c8417bb19ef,science-97ef9b7e609b,science-bd171fbe60e7,science-cd5eca77b80f",
- "updated": "2026-11-09T08:19:14+00:00"
+ "newsKey": "ai-08f9983ae92b,ai-45fb196cb1bb,ai-6b30b3347296,ai-6ee1dee33e4b,ai-8433ae49482a,ai-c03a28271fc2,ai-ed83e268f6e8,market-2026-11-08-1,market-2026-11-08-2,market-2026-11-08-3,market-2026-11-08-4,market-2026-11-08-5,science-114ce276524a,science-44bef865b1e4,science-44e27d6d745a,science-8a0bc9b8854d,science-8c872d3ad6f0,science-cdaccc15501b,science-e3f239032e5a,science-fe00b55b7450",
+ "updated": "2026-11-09T23:04:21+00:00"
 }
