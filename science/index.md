@@ -10,13 +10,14 @@
 
 | 重要度 | 标题 | 摘要 | 来源 |
 |---|---|---|---|
-| ★★★★ | [海洋“雪”的固碳作用](https://www.sciencedaily.com/releases/2026/11/261105224558.htm) | 研究发现海洋中“海洋雪”（marine snow，指海洋中不断沉降的有机碎屑）的粘性会影响其抵抗细菌分解的能力，高粘性颗粒能输送多出六倍的碳进入深海，这对调节地球气候意义重大。 | ScienceDaily |
+| ★★★★★ | [NASA推进月球基地建设相关项目](https://www.nasa.gov/news-release/nasa-awards-moon-base-transportation-technology-science-projects/) | NASA宣布了一系列投资，旨在通过商业机器人送货、核动力月球车（nuclear-powered rover）PROMISE及基础设施建设，实现月球的长期驻留。 | NASA |
+| ★★★★ | [ESCAPADE双探测器完成地球飞掠，启程前往火星](https://science.nasa.gov/science-research/heliophysics/nasas-escapade-completes-powered-earth-flybys-now-en-route-to-mars/) | NASA的ESCAPADE火星探测任务已成功完成地球引力助推，预计将于2027年9月抵达火星。 | NASA |
+| ★★★★ | [司美格鲁肽或可逆转慢性肾病](https://www.sciencenews.org/article/semaglutide-chronic-kidney-disease) | 研究显示，司美格鲁肽（Semaglutide）可通过修复血管、抑制炎症及改善肾功能，为慢性肾病治疗提供新可能。 | Science News |
+| ★★★★ | [室温下的量子突破：光同时呈现固体与液体的特性](https://www.sciencedaily.com/releases/2026/11/261105224536.htm) | 科学家观测到一种罕见的量子态（quantum state），使光在室温下既具备晶体结构，又能实现无摩擦流动。这一发现有望推动光子计算和传感技术的革新。 | ScienceDaily |
+| ★★★★ | [橡子产量可预警莱姆病风险](https://www.sciencedaily.com/releases/2026/11/261106174518.htm) | 研究发现橡子（acorn）产量与两年后的蜱虫数量激增密切相关，且小鼠在传播莱姆病（Lyme disease）中的作用远比鹿群更为关键。 | ScienceDaily |
 | ★★★★ | [日本沿海发现史前地震遗迹](https://phys.org/news/2026-11-radiocarbon-analysis-uncovers-hidden-earthquakes.html) | 东京大学利用放射性碳定年法（radiocarbon analysis）分析日本熊野海沉积物，发现了南海海槽历史上未被记录的“隐形”大地震证据，有助于提升防灾预警能力。 | Phys.org |
-| ★★★★ | [新型CAR-T细胞疗法根除小鼠脑肿瘤](https://www.sciencedaily.com/releases/2026/11/261104084009.htm) | 加州大学旧金山分校开发了一种仅在脑部环境激活的B-SYNC CAR-T细胞疗法，在小鼠实验中成功清除了致死性的儿童弥漫性中线胶质瘤（DMG）。 | ScienceDaily |
 | ★★★★ | [JWST在“龙”星系观测到百余起恒星增亮事件](https://phys.org/news/2026-11-jwst-tracks-magnified-stellar-events.html) | 借助詹姆斯·韦伯空间望远镜（JWST），天文学家在65亿光年外的“龙”星系中发现了104起恒星增亮事件。这些事件揭示了遥远星系的恒星组成，并为研究暗物质（dark matter）提供了线索。 | Phys.org |
-| ★★★★ | [NASA推进月球基地建设相关项目](https://www.nasa.gov/news-release/nasa-awards-moon-base-transportation-technology-science-projects/) | NASA宣布了一系列投资，旨在通过商业机器人送货、核动力月球车（nuclear-powered rover）PROMISE及基础设施建设，实现月球的长期驻留。 | NASA |
-| ★★★ | [2026年臭氧层空洞监测情况](https://science.nasa.gov/earth/earth-observatory/ozone-hole-reaches-its-2026-maximum/) | 监测数据显示，2026年的臭氧层空洞面积位列48年观测史中的第七大，但其深度相对以往的严重程度有所减弱。 | NASA |
-| ★★★ | [物理学家通过分析电子噪声破解超导体谜题](https://arstechnica.com/science/2026/11/physicists-listened-to-electrical-noise-to-crack-a-superconductor-mystery/) | 研究人员通过监测电子的电噪声（electronic noise）来判断电子是否形成了配对，这一发现有助于深入理解超导（superconductivity，即电阻消失的物理现象）机理。 | Ars Technica |
+| ★★★ | [五角大楼考虑在月球轨道部署卫星群](https://arstechnica.com/space/2026/11/us-military-notionally-interested-in-satellite-constellation-around-moon/) | 美国国防部正在评估在环月空间部署军事卫星网络的计划，以加强地月空间能力。 | Ars Technica |
 
 <!-- latest:end -->
 
@@ -24,7 +25,7 @@
 
 <!-- archive:start -->
 
-- [2026-11-09](digest/2026/2026-11-09.md)：5 条精选
+- [2026-11-09](digest/2026/2026-11-09.md)：8 条精选
 - [2026-11-08](digest/2026/2026-11-08.md)：6 条精选
 - [2026-11-07](digest/2026/2026-11-07.md)：6 条精选
 - [2026-11-06](digest/2026/2026-11-06.md)：8 条精选
