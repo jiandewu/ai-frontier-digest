@@ -28,9 +28,9 @@
    "unit": "$",
    "decimals": 0,
    "change": "pct",
-   "date": "2026-11-07",
-   "value": 75695.61,
-   "previous": 75860.14,
+   "date": "2026-11-08",
+   "value": 75239.55,
+   "previous": 75695.61,
    "source": "https://fred.stlouisfed.org/series/CBBTCUSD"
   },
   {
@@ -50,36 +50,29 @@
    "unit": "",
    "decimals": 0,
    "change": "abs",
-   "date": "2026-11-06",
-   "value": 389,
-   "previous": null,
-   "detail": "cs.AI 75 · cs.CL 62 · cs.CV 107 · cs.LG 145",
+   "date": "2026-11-09",
+   "value": 349,
+   "previous": 389,
+   "detail": "cs.AI 94 · cs.CL 41 · cs.CV 93 · cs.LG 121",
    "source": "https://arxiv.org/list/cs.AI/new"
   }
  ],
  "news": [
   {
-   "section": "AI",
-   "number": "25倍",
-   "label": "3D点运动预测的生成速度提升幅度",
-   "title": "VFlash：利用闪电原语解码实现快速精准的视觉规划",
-   "link": "https://huggingface.co/papers/2611.08449"
-  },
-  {
    "section": "科学",
-   "number": "57项",
-   "label": "用于分析睡眠障碍对大脑影响的研究数量",
-   "title": "常见睡眠障碍可能导致大脑结构性改变",
-   "link": "https://www.sciencedaily.com/releases/2026/11/261104012303.htm"
+   "number": "104起",
+   "label": "在“龙”星系中观测到的恒星增亮事件数量",
+   "title": "JWST在“龙”星系观测到百余起恒星增亮事件",
+   "link": "https://phys.org/news/2026-11-jwst-tracks-magnified-stellar-events.html"
   },
   {
    "section": "美股",
-   "number": "77%",
-   "label": "市场对美联储12月加息的押注概率",
-   "title": "强劲非农数据点燃加息预期，美联储12月加息概率飙升至77%",
-   "link": "https://jiande.is-a.si/us-market/news/2026/2026-11-07.html#news-2"
+   "number": "20%",
+   "label": "Uber第三季度总订单量同比增速",
+   "title": "Uber公布第三季度财报 订单量持续高增但出行增速放缓",
+   "link": "https://jiande.is-a.si/us-market/news/2026/2026-11-08.html#news-5"
   }
  ],
- "newsKey": "ai-5186d80b7eef,ai-608e1d97ab46,ai-874635804694,ai-8d9ec9ed0332,ai-e4a9449a7dd7,market-2026-11-07-1,market-2026-11-07-2,market-2026-11-07-3,market-2026-11-07-4,market-2026-11-07-5,science-2154305b5600,science-414b97ddee29,science-48ce3ec68381,science-97ef9b7e609b,science-bd171fbe60e7,science-cd5eca77b80f",
- "updated": "2026-11-08T18:25:41+00:00"
+ "newsKey": "ai-45fb196cb1bb,ai-6b30b3347296,ai-6ee1dee33e4b,market-2026-11-08-1,market-2026-11-08-2,market-2026-11-08-3,market-2026-11-08-4,market-2026-11-08-5,science-1a522a271b76,science-414b97ddee29,science-4c8417bb19ef,science-97ef9b7e609b,science-bd171fbe60e7,science-cd5eca77b80f",
+ "updated": "2026-11-09T08:19:14+00:00"
 }
