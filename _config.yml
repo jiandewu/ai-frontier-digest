@@ -1,6 +1,6 @@
 # GitHub Pages: README.md becomes the home page, digest/YYYY/*.md the daily pages;
 # the science digest lives under science/ (index.md, digest/YYYY/*.md), the daily long read
-# under longread/ (index.md, YYYY/*.md).
+# under longread/ (index.md, YYYY/*.md), podcast introductions under podcast/ (index.md, YYYY/*.md).
 title: AI 前沿导读
 description: 每天精选 10 条以内最值得一读的 AI 前沿进展，附中文科普解释。
 lang: zh-CN
@@ -17,6 +17,10 @@ defaults:
       path: longread
     values:
       section: longread
+  - scope:
+      path: podcast
+    values:
+      section: podcast
 
 exclude:
   - data
@@ -24,6 +28,8 @@ exclude:
   - science/feeds.csv
   - longread/data
   - longread/feeds.csv
+  - podcast/data
+  - podcast/feeds.csv
   - tests
   - feeds.csv
   - digest/__init__.py
@@ -33,6 +39,7 @@ exclude:
   - digest/http.py
   - digest/longread.py
   - digest/numbers.py
+  - digest/podcast.py
   - digest/profiles.py
   - digest/sources.py
   - digest/summarize.py

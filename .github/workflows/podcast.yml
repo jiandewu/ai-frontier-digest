@@ -1,0 +1,47 @@
+name: Podcast
+
+on:
+  schedule:
+    # 每天两次（UTC 12:47、22:47，即美东早上和傍晚）；每次最多写 2 期新节目。
+    - cron: "47 12,22 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  # Shared with the digests so they never push at the same time.
+  group: update
+  cancel-in-progress: false
+
+jobs:
+  podcast:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v7
+
+      - name: Run unit tests
+        run: python3 -m unittest discover -s tests
+
+      - name: Introduce new episodes
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_MODEL: ${{ vars.GEMINI_MODEL }}
+          COMMIT_MESSAGE_FILE: ${{ runner.temp }}/commit-message.txt
+        run: python3 -m digest.podcast
+
+      - name: Commit the episodes
+        env:
+          COMMIT_MESSAGE_FILE: ${{ runner.temp }}/commit-message.txt
+        run: |
+          git config user.name "jiandewu"
+          git config user.email "22378716+jiandewu@users.noreply.github.com"
+          git add podcast
+          if git diff --cached --quiet; then
+            echo "Nothing new."
+            exit 0
+          fi
+          git commit --file "$COMMIT_MESSAGE_FILE"
+          git pull --rebase origin main
+          git push origin HEAD:main

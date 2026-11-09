@@ -4,7 +4,7 @@ AI 前沿的中文科普导读：每天从研究者博客、实验室新闻、Ha
 
 网页版：<https://jiande.is-a.si/ai-frontier-digest/>，订阅：[RSS](https://jiande.is-a.si/ai-frontier-digest/feed.xml)。
 
-姊妹版：[科学前沿导读](science/index.md)，每天精选 8 条以内的科学新发现。
+姊妹版：[科学前沿导读](science/index.md)，每天精选 8 条以内的科学新发现；[每日长文](longread/index.md)，每天一篇值得读原文的英文长文，附中文导读；[播客导读](podcast/index.md)，英文播客的中文导读。
 
 ## 最新精选
 

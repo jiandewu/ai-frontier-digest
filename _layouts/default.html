@@ -6,6 +6,10 @@
   {%- assign section_title = "每日长文" -%}
   {%- assign section_root = "/longread/" -%}
   {%- assign section_description = "每天一篇值得读原文的英文长文，附中文导读。" -%}
+{%- elsif page.section == "podcast" -%}
+  {%- assign section_title = "播客导读" -%}
+  {%- assign section_root = "/podcast/" -%}
+  {%- assign section_description = "英文播客的中文导读：嘉宾是谁、聊了什么、值不值得听。" -%}
 {%- else -%}
   {%- assign section_title = site.title -%}
   {%- assign section_root = "/" -%}
@@ -32,6 +36,7 @@
     <a href="{{ '/science/' | relative_url }}">科学前沿导读</a>
     <a href="{{ '/' | relative_url }}">AI 前沿导读</a>
     <a href="{{ '/longread/' | relative_url }}">每日长文</a>
+    <a href="{{ '/podcast/' | relative_url }}">播客导读</a>
     <a href="{{ section_root | append: 'feed.xml' | relative_url }}"><svg class="icon stroke" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 11a9 9 0 0 1 9 9"/><path d="M4 4a16 16 0 0 1 16 16"/><circle cx="5" cy="19" r="1"/></svg>RSS</a>
     <a href="/" lang="en"><svg class="icon stroke" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/></svg>English</a>
   </nav>
