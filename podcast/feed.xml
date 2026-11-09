@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+<channel>
+<title>播客导读</title>
+<link>https://jiande.is-a.si/ai-frontier-digest/podcast/</link>
+<description>英文播客的中文导读：嘉宾是谁、聊了什么、值不值得听。</description>
+<language>zh-CN</language>
+<lastBuildDate>Mon, 09 Nov 2026 16:25:00 -0500</lastBuildDate>
+<item>
+<title>AI 也能搞“卧底”：用《血染钟楼》测试大模型的社交欺诈与策略推理</title>
+<link>https://jiande.is-a.si/ai-frontier-digest/podcast/2026/2026-11-05-c0c2d1f3.html</link>
+<guid isPermaLink="false">podcast-c0c2d1f3626b</guid>
+<pubDate>Mon, 09 Nov 2026 16:25:00 -0500</pubDate>
+<description>&lt;p&gt;在这期节目中，播客主利用社交推理游戏《血染钟楼》（Blood on the Clocktower）作为基准测试（benchmark），评估了不同 AI 模型在多智能体交互中的表现。该游戏机制复杂，涉及好人阵营寻找恶魔，以及恶魔阵营通过撒谎、误导和团队协作隐匿身份。主持人花费大量 API 额度，让各模型进行数以百计的对局，观察它们如何在动态对抗中进行长远规划、策略性欺诈以及逻辑推理。
+
+节目展示了 AI 的显著进步：相比早期模型，GPT-6 Astra 等前沿模型在策略一致性和多智能体协调上表现出跨越式提升。主持人详细剖析了几个精彩案例，例如 AI 如何通过自我牺牲来博取信任，或是如何通过反逻辑拆解对方的“真相”。主持人发现，OpenAI 的模型在扮演好人时表现更优，它们不再盲目接受证据，而是能更全面地审视信息，识别出对方的干扰。此外，节目还分享了一个有趣的发现：大模型不仅能玩游戏，甚至能通过自我迭代，利用自身能力优化游戏的程序逻辑环境。主持人的结论是，这种涉及欺诈和复杂协作的基准测试，能比标准测试更清晰地捕捉到模型在深度战略推理上的真实水准。&lt;/p&gt;&lt;p&gt;Dwarkesh Podcast · 2026-11-05 · &lt;a href="https://www.dwarkesh.com/p/clocktower"&gt;收听原节目&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>中西部AI峰会：大组织的AI落地与信任边界</title>
+<link>https://jiande.is-a.si/ai-frontier-digest/podcast/2026/2026-11-05-ed7bed4a.html</link>
+<guid isPermaLink="false">podcast-ed7bed4ad263</guid>
+<pubDate>Mon, 09 Nov 2026 16:25:00 -0500</pubDate>
+<description>&lt;p&gt;本期节目是“中西部AI峰会”（Midwest AI Summit）系列的第二部分，邀请了来自三个不同领域的实践者，深入探讨了在企业中应用AI的务实策略。Don Barger（International Mission Board创新与AI总监）分享了其组织如何通过制定明确的“AI宪章”，预先划定AI的适用边界——如明确拒绝将AI用于心理辅导或替代人类进行精神关怀（Soul Care），即使在技术上可行，也要坚持以人为本。Mark Lay（Noblis CIO）则从首席信息官的视角，提出了管理AI的四个核心决策维度，包括任务委派的风险平衡、不可转让的责任归属、数据所有权，以及对技术债的审慎评估。Darren Taillie（AeroCore Technologies数据分析经理）则分享了具体的落地案例，展示了如何通过视觉模型（Vision Model）校验飞机发动机清洗作业的工单，以及利用Agent（智能体）连接数据库，彻底打破了传统アナログ（模拟）工业与数字化决策之间的壁垒。嘉宾们强调，AI落地的关键不在于盲目追求技术前沿，而在于建立信任机制，确保AI能够真正赋能业务，而非替代人的核心价值。&lt;/p&gt;&lt;p&gt;Practical AI · 2026-11-05 · 约 48 分钟 · &lt;a href="https://share.transistor.fm/s/1b301bdc"&gt;收听原节目&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+</channel>
+</rss>
