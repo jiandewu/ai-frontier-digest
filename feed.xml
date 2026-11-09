@@ -5,27 +5,55 @@
 <link>https://jiande.is-a.si/ai-frontier-digest/</link>
 <description>每天精选 10 条以内最值得一读的 AI 前沿进展，附中文科普解释。</description>
 <language>zh-CN</language>
-<lastBuildDate>Mon, 09 Nov 2026 02:09:00 -0500</lastBuildDate>
+<lastBuildDate>Mon, 09 Nov 2026 14:05:00 -0500</lastBuildDate>
+<item>
+<title>Import AI简报：科学发现与智能体肢体进展</title>
+<link>https://jack-clark.net/2026/11/09/import-ai-480-self-sustaining-space-economies-ai-for-science-progress-and-meta-builds-perfect-hands-for-a-superintelligence/</link>
+<guid isPermaLink="false">08f9983ae92b</guid>
+<pubDate>Mon, 09 Nov 2026 08:31:00 -0500</pubDate>
+<description>&lt;p&gt;本期重点关注AI在科学领域的突破（如量子猜想证明）以及Meta研发的超仿真机器人手部技术，展现了AI在跨学科科研与物理实体交互方面的潜力。&lt;/p&gt;&lt;p&gt;★★★★ · Import AI · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-09.html"&gt;2026-11-09 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>汽车行业L3自动驾驶热潮退却</title>
+<link>https://www.qbitai.com/2026/11/508629.html</link>
+<guid isPermaLink="false">c03a28271fc2</guid>
+<pubDate>Mon, 09 Nov 2026 02:02:00 -0500</pubDate>
+<description>&lt;p&gt;奔驰、宝马等巨头纷纷放缓或放弃L3级自动驾驶研发，反映出当前自动驾驶技术在复杂环境落地时面临的巨大现实门槛。&lt;/p&gt;&lt;p&gt;★★★★ · 量子位 · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-09.html"&gt;2026-11-09 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
 <item>
 <title>AI 自动生成的 PR 说明文档可能过于详尽</title>
 <link>https://simonwillison.net/2026/Nov/9/details-summary/</link>
 <guid isPermaLink="false">6ee1dee33e4b</guid>
 <pubDate>Sun, 08 Nov 2026 23:25:00 -0500</pubDate>
-<description>&lt;p&gt;随着 Claude Code 等 AI 代理编写的代码合并请求（PR）说明文档变得过于精确和冗长，作者讨论了如何通过折叠等方式管理这些信息，以避免过度干扰开发者对核心代码逻辑的审查。&lt;/p&gt;&lt;p&gt;★★★★ · Simon Willison · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-09.html"&gt;2026-11-09 精选&lt;/a&gt;&lt;/p&gt;</description>
+<description>&lt;p&gt;这是针对AI生成过长代码拉取请求（PR）描述的格式处理建议。通过在GitHub Markdown中使用HTML的&amp;lt;details&amp;gt;&amp;lt;summary&amp;gt;标签，将AI自动生成的冗长解释折叠，仅保留人工撰写的关键摘要，从而提升代码审查的可读性。这有助于在保持AI输出完整性的前提下，降低人工审核时的认知负担。&lt;/p&gt;&lt;p&gt;★★★★ · Simon Willison · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-09.html"&gt;2026-11-09 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>当 AI 代写作业成为常态：斯坦福的教学改革</title>
 <link>https://latent.space/p/one_million_ai_engineer_special_how_stanford_teaches_ai-native_engineering_mihail_eric_monaco/</link>
 <guid isPermaLink="false">6b30b3347296</guid>
 <pubDate>Sun, 08 Nov 2026 16:23:00 -0500</pubDate>
-<description>&lt;p&gt;这篇访谈详细介绍了 CS146S 课程如何应对 AI 带来的挑战，通过引入开源代码库维护实践，让学生在面对复杂真实工程环境时掌握 AI 协作技巧。&lt;/p&gt;&lt;p&gt;★★★★ · Latent Space · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-09.html"&gt;2026-11-09 精选&lt;/a&gt;&lt;/p&gt;</description>
+<description>&lt;p&gt;这是斯坦福大学CS146S课程关于“AI原生工程”教学模式的探讨。该课程让学生在真实代码库中与开源维护者互动，通过实操理解AI coding agents（编程智能体）在软件开发生命周期中的作用和局限。这反映了软件工程教育正从传统的代码编写向模型协作与工作流管理转型。&lt;/p&gt;&lt;p&gt;★★★★ · Latent Space · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-09.html"&gt;2026-11-09 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>Handshake AI：前沿实验室如何获取高质量数据</title>
+<link>https://latent.space/p/handshake/</link>
+<guid isPermaLink="false">8433ae49482a</guid>
+<pubDate>Mon, 09 Nov 2026 12:15:00 -0500</pubDate>
+<description>&lt;p&gt;深入解析了Handshake AI如何为生物、金融等领域的顶尖实验室提供高度定制化的训练数据，强调了数据质量在AI前沿竞争中的关键地位。&lt;/p&gt;&lt;p&gt;★★★ · Latent Space · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-09.html"&gt;2026-11-09 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>AI对高等教育的冲击与挑战</title>
+<link>https://www.qbitai.com/2026/11/508706.html</link>
+<guid isPermaLink="false">ed83e268f6e8</guid>
+<pubDate>Mon, 09 Nov 2026 03:57:00 -0500</pubDate>
+<description>&lt;p&gt;讨论了包括教授在内的学术界广泛使用大模型工具的现状，揭示了传统计算机科学教育在AI时代面临的生存困境。&lt;/p&gt;&lt;p&gt;★★★ · 量子位 · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-09.html"&gt;2026-11-09 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>如何应对“AI 大脑疲劳”</title>
 <link>https://sergeykuhne.com/blog/fighting-ai-brain-fry</link>
 <guid isPermaLink="false">45fb196cb1bb</guid>
 <pubDate>Sun, 08 Nov 2026 14:37:00 -0500</pubDate>
-<description>&lt;p&gt;探讨开发者在频繁使用 AI 工具辅助工作后产生的认知疲劳现象，分享了如何保持专注并避免过度依赖 AI 的个人心得与方法。&lt;/p&gt;&lt;p&gt;★★★ · Hacker News · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-09.html"&gt;2026-11-09 精选&lt;/a&gt;&lt;/p&gt;</description>
+<description>&lt;p&gt;这是一套针对AI多任务并发导致“认知过载”的工作流程优化方案。通过将任务队列、状态记录和代码逻辑全部集成在Git仓库中，利用脚本将需人工决策的事项汇总到统一的“所有者收件箱”，强迫自己实现单线程的任务处理。该方法的核心在于通过关闭上下文来清空大脑缓存，避免因频繁切换线程而丧失焦点。&lt;/p&gt;&lt;p&gt;★★★ · Hacker News · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-09.html"&gt;2026-11-09 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>无需 GPU，在 64GB 内存上运行超大模型</title>
