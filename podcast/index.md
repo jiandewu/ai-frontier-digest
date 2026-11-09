@@ -22,6 +22,18 @@ Practical AI · 2026-11-05 · 约 48 分钟 · Abundant Intelligence at the Midw
 
 本期节目是“中西部AI峰会”（Midwest AI Summit）系列的第二部分，邀请了来自三个不同领域的实践者，深入探讨了在企业中应用AI的务实策略。Don Barger（International Mission Board创新与AI总监）分享了其组织如何通过制定明确的“AI宪章”，预先划定AI的适用边界——如明确拒绝将AI用于心理辅导或替代人类进行精神关怀（Soul Care），即使在技术上可行，也要坚持以人为本。Mark Lay（Noblis CIO）则从首席信息官的视角，提出了管理AI的四个核心决策维度，包括任务委派的风险平衡、不可转让的责任归属、数据所有权，以及对技术债的审慎评估。Darren Taillie（AeroCore Technologies数据分析经理）则分享了具体的落地案例，展示了如何通过视觉模型（Vision Model）校验飞机发动机清洗作业的工单，以及利用Agent（智能体）连接数据库，彻底打破了传统アナログ（模拟）工业与数字化决策之间的壁垒。嘉宾们强调，AI落地的关键不在于盲目追求技术前沿，而在于建立信任机制，确保AI能够真正赋能业务，而非替代人的核心价值。
 
+### [罗伯特·卡罗谈权力与塑造时代的意志：50年传记写作的复盘](2026/2026-10-30-69cf72c5.md)
+
+Dwarkesh Podcast · 2026-10-30 · What Robert Caro learned about power after studying it for 50 years
+
+在这期播客中，知名作家Robert Caro与主持人Dwarkesh Patel探讨了他长达半个世纪的传记创作生涯，重点回顾了对Robert Moses和Lyndon Johnson这两位美国历史重量级人物的研究。Caro指出，这些人物虽在道德上存在极大争议（甚至表现出极端的冷酷与权力欲望），但他们身上体现了一种“无论如何也要达成目标”的意志力，正是这种特质让他们能够在极其复杂的政治与社会环境中推动大规模工程和政策改革。节目中，Caro分享了他在采访中挖掘“不可言说”真相的技巧，探讨了他在《The Power Broker》中对Moses由理想主义者变为独裁权势者的观察，以及Johnson如何在贫困中磨练出的政治手腕。此外，Caro还揭示了自己如何通过“单句归纳法”来维持漫长创作过程的逻辑连贯，并提到了即便大量史料在定稿时被删减，这些珍贵的原始访谈记录仍被保存于New-York Historical Society以供后世研究。他强调了孤独对深度思考的意义，这种长期的专注不仅是他工作的基石，也是深入理解这些历史人物内心世界——包括他们成长的时代背景与孤独感——的关键。
+
+### [从Robert Moses到Lyndon Johnson：透视政治权力的运作逻辑](2026/2026-10-29-ad9d884c.md)
+
+Dwarkesh Podcast · 2026-10-29 · What I learned about power from LBJ and Robert Moses
+
+本期节目由Dwarkesh Patel主持，他以Robert Caro撰写的史诗级政治传记为切入点，深度剖析了权力是如何被积累、巩固并施加影响的。Robert Caro用了长达半个世纪的时间记录了两位美国政坛巨擘：一个是被称为“纽约规划师”的Robert Moses，另一个是美国国会史上权势最大的参议院多数党领袖Lyndon Johnson。节目不仅回顾了Moses如何通过法律漏洞和精妙的债券机制，在不经选举的情况下控制纽约数十年的城市建设；还探讨了Johnson如何重塑参议院规则，将原本“无实权”的多数党领袖职位变为仅次于总统的权力核心。嘉宾认为，权力不仅是实现目标的工具，也是一种容易让人上瘾的“毒药”。通过这些深刻的案例，节目向读者展示了如何识别并掌控决策的杠杆——无论是通过利益捆绑、信息垄断还是议程设置，展现了政治博弈中极高超的专业技巧与运作手段。
+
 <!-- latest:end -->
 
 ## 往期
