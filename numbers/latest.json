@@ -6,9 +6,9 @@
    "unit": "",
    "decimals": 0,
    "change": "pct",
-   "date": "2026-11-05",
-   "value": 7353.73,
-   "previous": 7688.62,
+   "date": "2026-11-09",
+   "value": 7549.94,
+   "previous": 7376.86,
    "source": "https://fred.stlouisfed.org/series/SP500"
   },
   {
@@ -62,7 +62,7 @@
    "decimals": 0,
    "change": "pct",
    "date": "2026-11-10",
-   "value": 4057.8,
+   "value": 4040.4,
    "previous": 4114.5,
    "detail": "COMEX 黄金期货（GC=F），美元/盎司",
    "source": "https://finance.yahoo.com/quote/GC=F/"
@@ -73,9 +73,9 @@
    "unit": "",
    "decimals": 0,
    "change": "pct",
-   "date": "2026-11-10",
-   "value": 3663.72,
-   "previous": 3660.79,
+   "date": "2026-11-09",
+   "value": 3660.79,
+   "previous": 3649.18,
    "detail": "上证综合指数（000001.SS）",
    "source": "https://finance.yahoo.com/quote/000001.SS/"
   },
@@ -94,20 +94,13 @@
  ],
  "news": [
   {
-   "section": "科学",
-   "number": "第49次",
-   "label": "好奇号火星钻探任务次数",
-   "title": "好奇号完成火星第49次钻探任务",
-   "link": "https://science.nasa.gov/blog/curiosity-blog-sols-5050-5055-its-nazca-our-49th-drill-hole/"
-  },
-  {
    "section": "美股",
    "number": "1,132",
-   "label": "道琼斯指数上涨的点数",
+   "label": "道琼斯指数的上涨点数",
    "title": "Dow Jones Soars 1,132 Points As Amazon, Tesla Rally, But Nvidia Dives; CPI Inflation Report Next",
    "link": "https://jiande.is-a.si/us-market/news/2026/2026-11-09.html#news-1"
   }
  ],
- "newsKey": "ai-01a8528fa117,ai-3872694bbd4e,ai-518485f63290,ai-62d6b023e1f9,ai-f8c1a7370c13,market-2026-11-09-1,market-2026-11-09-2,market-2026-11-09-3,market-2026-11-09-4,market-2026-11-09-5,science-1ab72461c1f3,science-56f6e49f3bc1,science-7a85f92df402,science-7d496ae0df48,science-aa5ff3ce791b,science-c6a60dd82ba7,science-ce05b40d58c4,science-e109ed741d26",
- "updated": "2026-11-10T15:29:06+00:00"
+ "newsKey": "ai-01a8528fa117,ai-3872694bbd4e,ai-518485f63290,ai-62d6b023e1f9,ai-f8c1a7370c13,market-2026-11-09-1,market-2026-11-09-2,market-2026-11-09-3,market-2026-11-09-4,market-2026-11-09-5,science-0dad6b31f409,science-342af331abff,science-60422406ee2a,science-62386a82406c,science-7a85f92df402,science-aa5ff3ce791b,science-be197ae20f97,science-e109ed741d26",
+ "updated": "2026-11-10T20:30:57+00:00"
 }
