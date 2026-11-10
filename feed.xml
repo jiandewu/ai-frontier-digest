@@ -5,7 +5,21 @@
 <link>https://jiande.is-a.si/ai-frontier-digest/</link>
 <description>每天精选 10 条以内最值得一读的 AI 前沿进展，附中文科普解释。</description>
 <language>zh-CN</language>
-<lastBuildDate>Mon, 09 Nov 2026 14:05:00 -0500</lastBuildDate>
+<lastBuildDate>Mon, 09 Nov 2026 21:54:00 -0500</lastBuildDate>
+<item>
+<title>Anthropic 发布 Claude Fable 5.2 与 Claude Mythos 5.2</title>
+<link>https://www.anthropic.com/news/claude-fable-and-mythos-5-2</link>
+<guid isPermaLink="false">61fb41a2c00b</guid>
+<pubDate>Sun, 08 Nov 2026 19:00:00 -0500</pubDate>
+<description>&lt;p&gt;Anthropic 推出了两款高性能模型，旨在处理编程、金融与科学研究等高难度专业任务，代表了当前 AI 模型的领先水平。&lt;/p&gt;&lt;p&gt;★★★★★ · Anthropic · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-09.html"&gt;2026-11-09 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>关于 Fable 5.2 与“锯齿状”通用人工智能的探讨</title>
+<link>https://www.oneusefulthing.org/p/fable-52-and-jagged-agi</link>
+<guid isPermaLink="false">98d5b7ce1047</guid>
+<pubDate>Mon, 09 Nov 2026 14:04:00 -0500</pubDate>
+<description>&lt;p&gt;文章讨论了 AI 模型能力呈现出“锯齿状”（Jagged）的特点，即在某些专业领域表现卓越的同时，在其他领域可能存在短板。&lt;/p&gt;&lt;p&gt;★★★★ · One Useful Thing · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-09.html"&gt;2026-11-09 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
 <item>
 <title>Import AI简报：科学发现与智能体肢体进展</title>
 <link>https://jack-clark.net/2026/11/09/import-ai-480-self-sustaining-space-economies-ai-for-science-progress-and-meta-builds-perfect-hands-for-a-superintelligence/</link>
@@ -35,6 +49,13 @@
 <description>&lt;p&gt;这是斯坦福大学CS146S课程关于“AI原生工程”教学模式的探讨。该课程让学生在真实代码库中与开源维护者互动，通过实操理解AI coding agents（编程智能体）在软件开发生命周期中的作用和局限。这反映了软件工程教育正从传统的代码编写向模型协作与工作流管理转型。&lt;/p&gt;&lt;p&gt;★★★★ · Latent Space · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-09.html"&gt;2026-11-09 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
+<title>关于 Google Gemini 处理私人数据流程的讨论</title>
+<link>https://github.com/thisisme6598/gemini_files/</link>
+<guid isPermaLink="false">1b18e8c9acf7</guid>
+<pubDate>Mon, 09 Nov 2026 13:24:00 -0500</pubDate>
+<description>&lt;p&gt;社区针对 Google Gemini 可能将用户的私人云盘文件和邮件路由给人类评估员进行标注的流程提出了隐私关注。&lt;/p&gt;&lt;p&gt;★★★ · Hacker News · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-09.html"&gt;2026-11-09 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
 <title>Handshake AI：前沿实验室如何获取高质量数据</title>
 <link>https://latent.space/p/handshake/</link>
 <guid isPermaLink="false">8433ae49482a</guid>
@@ -42,18 +63,18 @@
 <description>&lt;p&gt;深入解析了Handshake AI如何为生物、金融等领域的顶尖实验室提供高度定制化的训练数据，强调了数据质量在AI前沿竞争中的关键地位。&lt;/p&gt;&lt;p&gt;★★★ · Latent Space · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-09.html"&gt;2026-11-09 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
+<title>OpenAI 推出 Control Room 安全监测系统</title>
+<link>https://openai.com/index/control-room</link>
+<guid isPermaLink="false">f37b680abcf7</guid>
+<pubDate>Mon, 09 Nov 2026 08:00:00 -0500</pubDate>
+<description>&lt;p&gt;OpenAI 开发了一套核心系统用于监控大规模研发基础设施中的模型运行情况，并在识别到安全风险时能快速终止相关任务。&lt;/p&gt;&lt;p&gt;★★★ · OpenAI · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-09.html"&gt;2026-11-09 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
 <title>AI对高等教育的冲击与挑战</title>
 <link>https://www.qbitai.com/2026/11/508706.html</link>
 <guid isPermaLink="false">ed83e268f6e8</guid>
 <pubDate>Mon, 09 Nov 2026 03:57:00 -0500</pubDate>
 <description>&lt;p&gt;讨论了包括教授在内的学术界广泛使用大模型工具的现状，揭示了传统计算机科学教育在AI时代面临的生存困境。&lt;/p&gt;&lt;p&gt;★★★ · 量子位 · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-09.html"&gt;2026-11-09 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>如何应对“AI 大脑疲劳”</title>
-<link>https://sergeykuhne.com/blog/fighting-ai-brain-fry</link>
-<guid isPermaLink="false">45fb196cb1bb</guid>
-<pubDate>Sun, 08 Nov 2026 14:37:00 -0500</pubDate>
-<description>&lt;p&gt;这是一套针对AI多任务并发导致“认知过载”的工作流程优化方案。通过将任务队列、状态记录和代码逻辑全部集成在Git仓库中，利用脚本将需人工决策的事项汇总到统一的“所有者收件箱”，强迫自己实现单线程的任务处理。该方法的核心在于通过关闭上下文来清空大脑缓存，避免因频繁切换线程而丧失焦点。&lt;/p&gt;&lt;p&gt;★★★ · Hacker News · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-09.html"&gt;2026-11-09 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>无需 GPU，在 64GB 内存上运行超大模型</title>
