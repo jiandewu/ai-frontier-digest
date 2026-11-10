@@ -46,6 +46,7 @@ Dwarkesh Podcast · 2026-10-29 · What I learned about power from LBJ and Robert
 
 <!-- archive:start -->
 
+- 2026-10-22：[AI时代的漏洞挖掘与攻防博弈](2026/2026-10-22-f046c698.md)（Practical AI）
 - 2026-10-22：[2045年的计算机芯片会是什么样？对话 Intel 技术领导层](2026/2026-10-22-fff294f4.md)（Dwarkesh Podcast）
 
 <!-- archive:end -->

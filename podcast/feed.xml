@@ -5,7 +5,7 @@
 <link>https://jiande.is-a.si/ai-frontier-digest/podcast/</link>
 <description>英文播客的中文导读：嘉宾是谁、聊了什么、值不值得听。</description>
 <language>zh-CN</language>
-<lastBuildDate>Mon, 09 Nov 2026 23:21:00 -0500</lastBuildDate>
+<lastBuildDate>Tue, 10 Nov 2026 15:01:00 -0500</lastBuildDate>
 <item>
 <title>AI 也能搞“卧底”：用《血染钟楼》测试大模型的社交欺诈与策略推理</title>
 <link>https://jiande.is-a.si/ai-frontier-digest/podcast/2026/2026-11-05-c0c2d1f3.html</link>
@@ -42,6 +42,13 @@
 <guid isPermaLink="false">podcast-ad9d884cc236</guid>
 <pubDate>Mon, 09 Nov 2026 16:26:00 -0500</pubDate>
 <description>&lt;p&gt;本期节目由Dwarkesh Patel主持，他以Robert Caro撰写的史诗级政治传记为切入点，深度剖析了权力是如何被积累、巩固并施加影响的。Robert Caro用了长达半个世纪的时间记录了两位美国政坛巨擘：一个是被称为“纽约规划师”的Robert Moses，另一个是美国国会史上权势最大的参议院多数党领袖Lyndon Johnson。节目不仅回顾了Moses如何通过法律漏洞和精妙的债券机制，在不经选举的情况下控制纽约数十年的城市建设；还探讨了Johnson如何重塑参议院规则，将原本“无实权”的多数党领袖职位变为仅次于总统的权力核心。嘉宾认为，权力不仅是实现目标的工具，也是一种容易让人上瘾的“毒药”。通过这些深刻的案例，节目向读者展示了如何识别并掌控决策的杠杆——无论是通过利益捆绑、信息垄断还是议程设置，展现了政治博弈中极高超的专业技巧与运作手段。&lt;/p&gt;&lt;p&gt;Dwarkesh Podcast · 2026-10-29 · &lt;a href="https://www.dwarkesh.com/p/lessons-in-power"&gt;收听原节目&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>AI时代的漏洞挖掘与攻防博弈</title>
+<link>https://jiande.is-a.si/ai-frontier-digest/podcast/2026/2026-10-22-f046c698.html</link>
+<guid isPermaLink="false">podcast-f046c69816ab</guid>
+<pubDate>Tue, 10 Nov 2026 15:01:00 -0500</pubDate>
+<description>&lt;p&gt;本期节目邀请了VulnerCheck的漏洞开发总监Spencer McIntyre，深入探讨了人工智能在网络安全攻防领域的应用现状。Spencer解释了“漏洞”（Vulnerability）与“利用”（Exploit）的区别，并指出虽然大语言模型（LLM）在识别代码漏洞方面表现出色，但在评估漏洞的实际“攻击效用”（Attacker Utility）和构建复杂利用程序方面，仍存在明显的局限性。针对目前市场上充斥着大量由AI生成、甚至无法实际运行的假“概念验证”（POC, Proof of Concept），他分析了其对安全防御带来的干扰，并提出行业目前正面临POC质量下滑的转折点。节目中，嘉宾还分享了其团队如何通过内部框架Go Exploit结合AI来加速漏洞分析，并讨论了研究人员在面对西方 proprietary（私有）模型强制安全护栏（Guardrails）与使用开源模型进行深度研究之间的权衡。Spencer认为，AI虽能显著加快防御者在漏洞修复上的响应速度，压缩攻击者的“获利窗口”，但未来法律如何界定由AI辅助的攻击行为责任，将是行业关注的下一个核心议题。&lt;/p&gt;&lt;p&gt;Practical AI · 2026-10-22 · 约 45 分钟 · &lt;a href="https://share.transistor.fm/s/9a42098b"&gt;收听原节目&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>2045年的计算机芯片会是什么样？对话 Intel 技术领导层</title>
