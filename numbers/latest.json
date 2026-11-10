@@ -17,9 +17,9 @@
    "unit": "",
    "decimals": 0,
    "change": "pct",
-   "date": "2026-11-06",
-   "value": 24579.42,
-   "previous": 24315.0,
+   "date": "2026-11-09",
+   "value": 25253.14,
+   "previous": 24579.42,
    "source": "https://fred.stlouisfed.org/series/NASDAQCOM"
   },
   {
@@ -28,9 +28,9 @@
    "unit": "$",
    "decimals": 0,
    "change": "pct",
-   "date": "2026-11-08",
-   "value": 75239.55,
-   "previous": 75695.61,
+   "date": "2026-11-09",
+   "value": 75090.89,
+   "previous": 75239.55,
    "source": "https://fred.stlouisfed.org/series/CBBTCUSD"
   },
   {
@@ -50,22 +50,36 @@
    "unit": "",
    "decimals": 0,
    "change": "abs",
-   "date": "2026-11-09",
-   "value": 349,
-   "previous": 389,
-   "detail": "cs.AI 94 · cs.CL 41 · cs.CV 93 · cs.LG 121",
+   "date": "2026-11-10",
+   "value": 838,
+   "previous": 349,
+   "detail": "cs.AI 166 · cs.CL 127 · cs.CV 250 · cs.LG 295",
    "source": "https://arxiv.org/list/cs.AI/new"
   }
  ],
  "news": [
   {
+   "section": "AI",
+   "number": "5.2",
+   "label": "Claude Fable/Mythos版本号",
+   "title": "Anthropic 发布 Claude Fable 5.2 与 Claude Mythos 5.2",
+   "link": "https://www.anthropic.com/news/claude-fable-and-mythos-5-2"
+  },
+  {
+   "section": "科学",
+   "number": "2027年9月",
+   "label": "ESCAPADE探测器预计抵达火星时间",
+   "title": "ESCAPADE双探测器完成地球飞掠，启程前往火星",
+   "link": "https://science.nasa.gov/science-research/heliophysics/nasas-escapade-completes-powered-earth-flybys-now-en-route-to-mars/"
+  },
+  {
    "section": "美股",
-   "number": "20%",
-   "label": "Uber第三季度总订单量同比增速",
-   "title": "Uber公布第三季度财报 订单量持续高增但出行增速放缓",
-   "link": "https://jiande.is-a.si/us-market/news/2026/2026-11-08.html#news-5"
+   "number": "1,132",
+   "label": "道琼斯指数上涨点数",
+   "title": "Dow Jones Soars 1,132 Points As Amazon, Tesla Rally, But Nvidia Dives; CPI Inflation Report Next",
+   "link": "https://jiande.is-a.si/us-market/news/2026/2026-11-09.html#news-1"
   }
  ],
- "newsKey": "ai-08f9983ae92b,ai-45fb196cb1bb,ai-6b30b3347296,ai-6ee1dee33e4b,ai-8433ae49482a,ai-c03a28271fc2,ai-ed83e268f6e8,market-2026-11-08-1,market-2026-11-08-2,market-2026-11-08-3,market-2026-11-08-4,market-2026-11-08-5,science-114ce276524a,science-44bef865b1e4,science-44e27d6d745a,science-8a0bc9b8854d,science-8c872d3ad6f0,science-cdaccc15501b,science-e3f239032e5a,science-fe00b55b7450",
- "updated": "2026-11-09T23:04:21+00:00"
+ "newsKey": "ai-08f9983ae92b,ai-1b18e8c9acf7,ai-61fb41a2c00b,ai-6b30b3347296,ai-6ee1dee33e4b,ai-8433ae49482a,ai-98d5b7ce1047,ai-c03a28271fc2,ai-ed83e268f6e8,ai-f37b680abcf7,market-2026-11-09-1,market-2026-11-09-2,market-2026-11-09-3,market-2026-11-09-4,market-2026-11-09-5,science-114ce276524a,science-44bef865b1e4,science-44e27d6d745a,science-8a0bc9b8854d,science-8c872d3ad6f0,science-cdaccc15501b,science-e3f239032e5a,science-fe00b55b7450",
+ "updated": "2026-11-10T08:37:34+00:00"
 }
