@@ -12,12 +12,12 @@
 |---|---|---|---|
 | ★★★★★ | [2026年全球化石燃料排放量下降并非全因绿色能源](https://www.sciencenews.org/article/fossil-fuel-emissions-down-2026-gas) | 尽管全球碳排放量小幅下降，但分析指出这更多是受伊朗战争引发的气体价格波动影响，而非能源转型的直接结果。 | Science News |
 | ★★★★★ | [CERN观测到百亿分之一概率的粒子衰变](https://www.sciencedaily.com/releases/2026/11/261108233047.htm) | 欧洲核子研究中心（CERN）经过40年研究，终于证实了一种极罕见的粒子衰变现象，这对探索超越现有物理标准模型的新粒子与新作用力具有重要意义。 | ScienceDaily |
-| ★★★★ | [北极冰芯揭示了历史性工业污染的痕迹](https://www.sciencenews.org/article/toxic-secrets-hiding-arctic-ice-harm) | 科学家通过分析北极冰芯，追踪到了源自蒙大拿州早期采矿和冶炼活动产生的砷、铅等重金属污染，这些污染物随大气环流沉降在极地。 | Science News |
+| ★★★★ | [太阳表面的微型漩涡或解开日冕高温之谜](https://phys.org/news/2026-11-tiny-solar-whirlpools-secret-sun.html) | 最新研究认为，太阳表面数以百万计的微小漩涡可能是驱动太阳日冕层温度远高于表面的能量来源。 | Phys.org |
+| ★★★★ | [利用月球尘埃打印建筑砖块](https://phys.org/news/2026-11-simulated-moon-lego-blocks-settlements.html) | 阿肯色大学研究表明，月球表面的风化层物质可以进行3D打印，制作成类似乐高积木的构件，从而减少从地球运输建材的需求。 | Phys.org |
+| ★★★★ | [引力波探测器有望发现系外行星](https://science.nasa.gov/missions/lisa/gravitational-waves-can-reveal-new-worlds/) | NASA科学家指出，正在研发的LISA引力波探测器不仅能观测时空波动，还有望协助人类识别银河系内独特的系外行星群体。 | NASA |
+| ★★★★ | [脑机接口助力失语者发声](https://www.sciencenews.org/article/talk-less-lose-voice-deep-end-podcast) | 神经科技正致力于恢复语言障碍者的自然发声能力，这项快速发展的技术有望改变患者的生活。 | Science News |
 | ★★★★ | [阿尔茨海默病可能存在脑外预警信号](https://www.sciencedaily.com/releases/2026/11/261108233103.htm) | 一项基于人类细胞的实验室小型研究发现，与遗传性阿尔茨海默病相关的基因突变可能在脑部病变前，先破坏神经与肌肉的连接，这或许能解释部分患者早期平衡与步态协调出现的问题。 | ScienceDaily |
 | ★★★★ | [ESCAPADE双探测器完成地球飞掠，启程前往火星](https://science.nasa.gov/science-research/heliophysics/nasas-escapade-completes-powered-earth-flybys-now-en-route-to-mars/) | NASA的ESCAPADE火星探测任务已成功完成地球引力助推，预计将于2027年9月抵达火星。 | NASA |
-| ★★★★ | [日本沿海发现史前地震遗迹](https://phys.org/news/2026-11-radiocarbon-analysis-uncovers-hidden-earthquakes.html) | 东京大学利用放射性碳定年法（radiocarbon analysis）分析日本熊野海沉积物，发现了南海海槽历史上未被记录的“隐形”大地震证据，有助于提升防灾预警能力。 | Phys.org |
-| ★★★ | [改进金属有机框架材料的成型工艺](https://phys.org/news/2026-11-metalorganic-frameworks-easier-electronic-devices.html) | 金属有机框架（Metal–organic frameworks, MOFs）是一种由金属离子和有机分子构成的多孔材料，科研人员正在优化其结构设计，以便将其应用于电子设备中。 | Phys.org |
-| ★★★ | [好奇号完成火星第49次钻探任务](https://science.nasa.gov/blog/curiosity-blog-sols-5050-5055-its-nazca-our-49th-drill-hole/) | 火星车在“Nazca”地点完成了第49次钻探，科研团队正在分析岩石中发现的盘状内含物是否为矿物晶体。 | NASA |
 
 <!-- latest:end -->
 
