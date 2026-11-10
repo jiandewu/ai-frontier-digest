@@ -5,7 +5,7 @@
 <link>https://jiande.is-a.si/ai-frontier-digest/podcast/</link>
 <description>英文播客的中文导读：嘉宾是谁、聊了什么、值不值得听。</description>
 <language>zh-CN</language>
-<lastBuildDate>Mon, 09 Nov 2026 16:26:00 -0500</lastBuildDate>
+<lastBuildDate>Mon, 09 Nov 2026 23:21:00 -0500</lastBuildDate>
 <item>
 <title>AI 也能搞“卧底”：用《血染钟楼》测试大模型的社交欺诈与策略推理</title>
 <link>https://jiande.is-a.si/ai-frontier-digest/podcast/2026/2026-11-05-c0c2d1f3.html</link>
@@ -30,11 +30,25 @@
 <description>&lt;p&gt;在这期播客中，知名作家Robert Caro与主持人Dwarkesh Patel探讨了他长达半个世纪的传记创作生涯，重点回顾了对Robert Moses和Lyndon Johnson这两位美国历史重量级人物的研究。Caro指出，这些人物虽在道德上存在极大争议（甚至表现出极端的冷酷与权力欲望），但他们身上体现了一种“无论如何也要达成目标”的意志力，正是这种特质让他们能够在极其复杂的政治与社会环境中推动大规模工程和政策改革。节目中，Caro分享了他在采访中挖掘“不可言说”真相的技巧，探讨了他在《The Power Broker》中对Moses由理想主义者变为独裁权势者的观察，以及Johnson如何在贫困中磨练出的政治手腕。此外，Caro还揭示了自己如何通过“单句归纳法”来维持漫长创作过程的逻辑连贯，并提到了即便大量史料在定稿时被删减，这些珍贵的原始访谈记录仍被保存于New-York Historical Society以供后世研究。他强调了孤独对深度思考的意义，这种长期的专注不仅是他工作的基石，也是深入理解这些历史人物内心世界——包括他们成长的时代背景与孤独感——的关键。&lt;/p&gt;&lt;p&gt;Dwarkesh Podcast · 2026-10-30 · &lt;a href="https://www.dwarkesh.com/p/robert-caro"&gt;收听原节目&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
+<title>中西部人工智能峰会上的实用智能：工作流、蓝领采用与软件开发模式</title>
+<link>https://jiande.is-a.si/ai-frontier-digest/podcast/2026/2026-10-29-0a7d4dd6.html</link>
+<guid isPermaLink="false">podcast-0a7d4dd62c31</guid>
+<pubDate>Mon, 09 Nov 2026 23:21:00 -0500</pubDate>
+<description>&lt;p&gt;本期节目精选了中西部人工智能峰会（Midwest AI Summit）上多位嘉宾的精彩发言。首先，Moyer Group AI 负责人 Heidi Porter 探讨了如何打造耐用的、经得起生产考验的增强型工作流。她指出，AI 项目常常在Demo阶段搁浅，原因往往在于让大语言模型（LLM）承载了过多本不该由其承担的角色（例如作为数据库或自查纠错）。她结合橡胶软管生产线、Syngenta 种子公司以及斯坦福医疗（Stanford Health Care）的手术协同管理导航仪等案例，强调要为每个任务选择最简单的机制，并利用数据地面化（Grounding）、运行时护栏（Guardrails）和评估（Evals）来确保效果。接着，Focus 的高级软件工程师 Kevin Solorio 分享了如何让蓝领工人参与并接纳 AI 工具。他认为，不能“为”用户（特别是技术采纳较慢的蓝领群体）建工具，而应该“和”他们一起建，通过设定共同目标、利用反馈数据飞轮（Data Flywheel）以及建立信任来推动真实应用。最后，SEP 的创新总监 Chris Shinkle 和高级 AI工程师 Andrew Dunlap 探讨了软件开发团队如何适应 AI。他们提出，AI 不会修复有缺陷的团队，只会将其放大。团队需要根据代币预算（Token Budget）、组织就绪度、领域知识和代码可验证性等六项约束，在不同的人机协作模式（从个体代理编码到完全自动化的“暗厂”）中找到最适合自己的契合点，并遵循共享基础设施、 deliberate 迭代等五大原则。&lt;/p&gt;&lt;p&gt;Practical AI · 2026-10-29 · 约 54 分钟 · &lt;a href="https://share.transistor.fm/s/37a0c3e9"&gt;收听原节目&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
 <title>从Robert Moses到Lyndon Johnson：透视政治权力的运作逻辑</title>
 <link>https://jiande.is-a.si/ai-frontier-digest/podcast/2026/2026-10-29-ad9d884c.html</link>
 <guid isPermaLink="false">podcast-ad9d884cc236</guid>
 <pubDate>Mon, 09 Nov 2026 16:26:00 -0500</pubDate>
 <description>&lt;p&gt;本期节目由Dwarkesh Patel主持，他以Robert Caro撰写的史诗级政治传记为切入点，深度剖析了权力是如何被积累、巩固并施加影响的。Robert Caro用了长达半个世纪的时间记录了两位美国政坛巨擘：一个是被称为“纽约规划师”的Robert Moses，另一个是美国国会史上权势最大的参议院多数党领袖Lyndon Johnson。节目不仅回顾了Moses如何通过法律漏洞和精妙的债券机制，在不经选举的情况下控制纽约数十年的城市建设；还探讨了Johnson如何重塑参议院规则，将原本“无实权”的多数党领袖职位变为仅次于总统的权力核心。嘉宾认为，权力不仅是实现目标的工具，也是一种容易让人上瘾的“毒药”。通过这些深刻的案例，节目向读者展示了如何识别并掌控决策的杠杆——无论是通过利益捆绑、信息垄断还是议程设置，展现了政治博弈中极高超的专业技巧与运作手段。&lt;/p&gt;&lt;p&gt;Dwarkesh Podcast · 2026-10-29 · &lt;a href="https://www.dwarkesh.com/p/lessons-in-power"&gt;收听原节目&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>2045年的计算机芯片会是什么样？对话 Intel 技术领导层</title>
+<link>https://jiande.is-a.si/ai-frontier-digest/podcast/2026/2026-10-22-fff294f4.html</link>
+<guid isPermaLink="false">podcast-fff294f4b81d</guid>
+<pubDate>Mon, 09 Nov 2026 23:21:00 -0500</pubDate>
+<description>&lt;p&gt;在这期节目中，主持人 Dwarkesh Patel 实地探访了 Intel 的先进晶圆厂（fab），并与 Intel 工艺开发负责人 Chris Auth、研发负责人 Jack Kavalieros 以及首席技术官（CTO）Pushkar Ranade 深入交流，探讨了未来半导体技术的演进方向以及半导体行业如何应对来自 AI 的巨大需求冲击。嘉宾们分享了 Intel 在推进新制程节点（如 18A 和 14A）时的经验教训，解释了从平面晶体管（planar transistor）、FinFET 到环绕栅极晶体管（gate-all-around）的架构演变，并探讨了 High-NA EUV 光刻机、背面供电（backside power）、钌（ruthenium）互连线、三维堆叠（如 CFET）以及芯片间混合键合（hybrid bonding）等前沿技术。节目还讨论了晶圆厂产能扩张的瓶颈、设备工具供应的限制，以及 Intel 作为代工厂（foundry）在向外部客户提供 PDK（工艺设计套件）时的挑战。Pushkar Ranade 认为，当前整个行业正面临前所未有的算力需求冲击，如果供应链不集体大幅增产，全球晶圆产能短期内很难实现数倍增长。&lt;/p&gt;&lt;p&gt;Dwarkesh Podcast · 2026-10-22 · &lt;a href="https://www.dwarkesh.com/p/intel-tour"&gt;收听原节目&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>

@@ -28,6 +28,12 @@ Dwarkesh Podcast · 2026-10-30 · What Robert Caro learned about power after stu
 
 在这期播客中，知名作家Robert Caro与主持人Dwarkesh Patel探讨了他长达半个世纪的传记创作生涯，重点回顾了对Robert Moses和Lyndon Johnson这两位美国历史重量级人物的研究。Caro指出，这些人物虽在道德上存在极大争议（甚至表现出极端的冷酷与权力欲望），但他们身上体现了一种“无论如何也要达成目标”的意志力，正是这种特质让他们能够在极其复杂的政治与社会环境中推动大规模工程和政策改革。节目中，Caro分享了他在采访中挖掘“不可言说”真相的技巧，探讨了他在《The Power Broker》中对Moses由理想主义者变为独裁权势者的观察，以及Johnson如何在贫困中磨练出的政治手腕。此外，Caro还揭示了自己如何通过“单句归纳法”来维持漫长创作过程的逻辑连贯，并提到了即便大量史料在定稿时被删减，这些珍贵的原始访谈记录仍被保存于New-York Historical Society以供后世研究。他强调了孤独对深度思考的意义，这种长期的专注不仅是他工作的基石，也是深入理解这些历史人物内心世界——包括他们成长的时代背景与孤独感——的关键。
 
+### [中西部人工智能峰会上的实用智能：工作流、蓝领采用与软件开发模式](2026/2026-10-29-0a7d4dd6.md)
+
+Practical AI · 2026-10-29 · 约 54 分钟 · Abundant Intelligence at the Midwest AI Summit
+
+本期节目精选了中西部人工智能峰会（Midwest AI Summit）上多位嘉宾的精彩发言。首先，Moyer Group AI 负责人 Heidi Porter 探讨了如何打造耐用的、经得起生产考验的增强型工作流。她指出，AI 项目常常在Demo阶段搁浅，原因往往在于让大语言模型（LLM）承载了过多本不该由其承担的角色（例如作为数据库或自查纠错）。她结合橡胶软管生产线、Syngenta 种子公司以及斯坦福医疗（Stanford Health Care）的手术协同管理导航仪等案例，强调要为每个任务选择最简单的机制，并利用数据地面化（Grounding）、运行时护栏（Guardrails）和评估（Evals）来确保效果。接着，Focus 的高级软件工程师 Kevin Solorio 分享了如何让蓝领工人参与并接纳 AI 工具。他认为，不能“为”用户（特别是技术采纳较慢的蓝领群体）建工具，而应该“和”他们一起建，通过设定共同目标、利用反馈数据飞轮（Data Flywheel）以及建立信任来推动真实应用。最后，SEP 的创新总监 Chris Shinkle 和高级 AI工程师 Andrew Dunlap 探讨了软件开发团队如何适应 AI。他们提出，AI 不会修复有缺陷的团队，只会将其放大。团队需要根据代币预算（Token Budget）、组织就绪度、领域知识和代码可验证性等六项约束，在不同的人机协作模式（从个体代理编码到完全自动化的“暗厂”）中找到最适合自己的契合点，并遵循共享基础设施、 deliberate 迭代等五大原则。
+
 ### [从Robert Moses到Lyndon Johnson：透视政治权力的运作逻辑](2026/2026-10-29-ad9d884c.md)
 
 Dwarkesh Podcast · 2026-10-29 · What I learned about power from LBJ and Robert Moses
@@ -40,7 +46,7 @@ Dwarkesh Podcast · 2026-10-29 · What I learned about power from LBJ and Robert
 
 <!-- archive:start -->
 
-（暂无）
+- 2026-10-22：[2045年的计算机芯片会是什么样？对话 Intel 技术领导层](2026/2026-10-22-fff294f4.md)（Dwarkesh Podcast）
 
 <!-- archive:end -->
 
