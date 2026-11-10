@@ -47,6 +47,15 @@ class NumbersTests(unittest.TestCase):
         self.assertEqual((tile["date"], tile["value"], tile["previous"]), ("2026-11-04", 7688.62, 7568.92))
         self.assertIsNone(numbers.fred_tile("SP500", "observation_date,SP500\n2026-11-05,.\n"))
 
+    def test_yahoo_tile_skips_missing_closes(self):
+        chart = {"chart": {"result": [{"meta": {"exchangeTimezoneName": "America/New_York"},
+                                        "timestamp": [1794114000, 1794200400, 1794286800],
+                                        "indicators": {"quote": [{"close": [4074.9, 4114.5, None]}]}}]}}
+        tile = numbers.yahoo_tile("gold", json.dumps(chart))
+        self.assertEqual((tile["date"], tile["value"], tile["previous"]), ("2026-11-09", 4114.5, 4074.9))
+        chart["chart"]["result"][0]["indicators"]["quote"][0]["close"] = [None, None, None]
+        self.assertIsNone(numbers.yahoo_tile("gold", json.dumps(chart)))
+
     def test_arxiv_listing_and_previous_day(self):
         self.assertEqual(numbers.parse_listing(LISTING), ("2026-11-06", 75))
         self.assertIsNone(numbers.parse_listing("<html>maintenance</html>"))

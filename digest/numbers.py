@@ -1,6 +1,8 @@
 """A few numbers for the Chinese home page: finance and arXiv tiles, plus one number from each digest.
 
-Writes numbers/latest.json. Tiles come from FRED and the arXiv new-submission listings; the news
+Writes numbers/latest.json. Tiles come from FRED, Yahoo Finance (gold, which FRED no longer carries, and
+the Shanghai index)
+and the arXiv new-submission listings; the news
 numbers are picked by Gemini from today's AI, science and US market items, and each one must appear
 verbatim in the text it was picked from. A source that fails keeps its previous value, and the file is
 rewritten only when something in it changed.
@@ -18,6 +20,7 @@ import os
 import re
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
+from zoneinfo import ZoneInfo
 
 from . import profiles
 from .http import get
@@ -32,6 +35,15 @@ FRED_TILES = {
     "NASDAQCOM": ("纳斯达克综合指数", "", 0, "pct"),
     "CBBTCUSD": ("比特币", "$", 0, "pct"),
     "DEXCHUS": ("美元兑人民币", "", 4, "abs"),
+    "GASREGW": ("美国汽油均价", "$", 2, "abs"),
+}
+YAHOO_CHART = "https://query1.finance.yahoo.com/v8/finance/chart/{symbol}?range=1mo&interval=1d"
+YAHOO_PAGE = "https://finance.yahoo.com/quote/{symbol}/"
+# tile id -> (Yahoo symbol, name, unit prefix, decimals, how the change is shown, detail);
+# the newest daily bar may be the session in progress.
+YAHOO_TILES = {
+    "gold": ("GC=F", "黄金", "$", 0, "pct", "COMEX 黄金期货（GC=F），美元/盎司"),
+    "sse": ("000001.SS", "上证指数", "", 0, "pct", "上证综合指数（000001.SS）"),
 }
 ARXIV_LIST = "https://arxiv.org/list/{category}/new"
 ARXIV_CATEGORIES = ("cs.AI", "cs.CL", "cs.CV", "cs.LG")
@@ -68,6 +80,20 @@ def fred_tile(series: str, csv_text: str) -> dict | None:
     return {"id": series, "name": name, "unit": unit, "decimals": decimals, "change": change,
             "date": rows[-1][0], "value": rows[-1][1], "previous": rows[-2][1] if len(rows) > 1 else None,
             "source": f"https://fred.stlouisfed.org/series/{series}"}
+
+
+def yahoo_tile(tile_id: str, chart_json: str) -> dict | None:
+    symbol, name, unit, decimals, change, detail = YAHOO_TILES[tile_id]
+    result = json.loads(chart_json)["chart"]["result"][0]
+    zone = ZoneInfo(result["meta"].get("exchangeTimezoneName") or "America/New_York")
+    closes = result["indicators"]["quote"][0]["close"]
+    rows = [(datetime.fromtimestamp(ts, zone).strftime("%Y-%m-%d"), round(close, 2))
+            for ts, close in zip(result.get("timestamp") or [], closes) if close is not None]
+    if not rows:
+        return None
+    return {"id": tile_id, "name": name, "unit": unit, "decimals": decimals, "change": change,
+            "date": rows[-1][0], "value": rows[-1][1], "previous": rows[-2][1] if len(rows) > 1 else None,
+            "detail": detail, "source": YAHOO_PAGE.format(symbol=symbol)}
 
 
 def parse_listing(html: str) -> tuple[str, int] | None:
@@ -178,6 +204,15 @@ def build(old: dict, fetch=None, api_key: str = "", models: list[str] | None = N
             log(f"FRED {series} failed: {exc}")
             tile = None
         tile = tile or old_tiles.get(series)
+        if tile:
+            tiles.append(tile)
+    for tile_id, (symbol, *_) in YAHOO_TILES.items():
+        try:
+            tile = yahoo_tile(tile_id, fetch(YAHOO_CHART.format(symbol=symbol)))
+        except Exception as exc:
+            log(f"Yahoo {symbol} failed: {exc}")
+            tile = None
+        tile = tile or old_tiles.get(tile_id)
         if tile:
             tiles.append(tile)
     listings = {}
