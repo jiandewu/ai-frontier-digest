@@ -5,34 +5,34 @@
 <link>https://jiande.is-a.si/ai-frontier-digest/science/</link>
 <description>每天精选 8 条以内最值得一读的科学新发现，附中文科普解释。</description>
 <language>zh-CN</language>
-<lastBuildDate>Tue, 10 Nov 2026 13:19:00 -0500</lastBuildDate>
+<lastBuildDate>Tue, 10 Nov 2026 18:46:00 -0500</lastBuildDate>
 <item>
 <title>2026年全球化石燃料排放量下降并非全因绿色能源</title>
 <link>https://www.sciencenews.org/article/fossil-fuel-emissions-down-2026-gas</link>
 <guid isPermaLink="false">7a85f92df402</guid>
 <pubDate>Mon, 09 Nov 2026 20:00:00 -0500</pubDate>
-<description>&lt;p&gt;尽管全球碳排放量小幅下降，但分析指出这更多是受伊朗战争引发的气体价格波动影响，而非能源转型的直接结果。&lt;/p&gt;&lt;p&gt;★★★★★ · Science News · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/science/digest/2026/2026-11-10.html"&gt;2026-11-10 精选&lt;/a&gt;&lt;/p&gt;</description>
+<description>&lt;p&gt;研究人员发现2026年全球化石燃料二氧化碳排放量预计将下降0.4%，但这主要归因于战争引发的能源冲击，而非绿色能源转型的直接贡献。研究通过分析电动汽车存量及风能、太阳能数据进行建模，并利用生成式人工智能模型辅助处理数据。这表明现有的能源转型速度尚不足以维持排放持续下降，全球减排仍需进一步加速。&lt;/p&gt;&lt;p&gt;★★★★★ · Science News · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/science/digest/2026/2026-11-10.html"&gt;2026-11-10 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>CERN观测到百亿分之一概率的粒子衰变</title>
 <link>https://www.sciencedaily.com/releases/2026/11/261108233047.htm</link>
 <guid isPermaLink="false">aa5ff3ce791b</guid>
 <pubDate>Mon, 09 Nov 2026 19:42:00 -0500</pubDate>
-<description>&lt;p&gt;欧洲核子研究中心（CERN）经过40年研究，终于证实了一种极罕见的粒子衰变现象，这对探索超越现有物理标准模型的新粒子与新作用力具有重要意义。&lt;/p&gt;&lt;p&gt;★★★★★ · ScienceDaily · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/science/digest/2026/2026-11-10.html"&gt;2026-11-10 精选&lt;/a&gt;&lt;/p&gt;</description>
+<description>&lt;p&gt;CERN的LHCb实验团队发现了发生概率约为百亿分之一的粒子衰变过程，即B d介子衰变为一对μ子（muons）。研究者通过对LHCb探测器进行重大升级，并结合机器学习技术从海量背景噪音中识别该稀有信号，最终获得了3.2个标准差的统计证据。该发现有助于科研人员在现有加速器无法触及的能量尺度下，探寻是否存在超出标准模型（Standard Model）的新粒子或相互作用。&lt;/p&gt;&lt;p&gt;★★★★★ · ScienceDaily · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/science/digest/2026/2026-11-10.html"&gt;2026-11-10 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
-<title>太阳表面的微型漩涡或解开日冕高温之谜</title>
-<link>https://phys.org/news/2026-11-tiny-solar-whirlpools-secret-sun.html</link>
-<guid isPermaLink="false">62386a82406c</guid>
-<pubDate>Tue, 10 Nov 2026 12:40:00 -0500</pubDate>
-<description>&lt;p&gt;最新研究认为，太阳表面数以百万计的微小漩涡可能是驱动太阳日冕层温度远高于表面的能量来源。&lt;/p&gt;&lt;p&gt;★★★★ · Phys.org · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/science/digest/2026/2026-11-10.html"&gt;2026-11-10 精选&lt;/a&gt;&lt;/p&gt;</description>
+<title>显微成像技术实现深层组织高分辨观测</title>
+<link>https://phys.org/news/2026-11-microscopy-sharpens-images-fivefold-sacrificing.html</link>
+<guid isPermaLink="false">318186727001</guid>
+<pubDate>Tue, 10 Nov 2026 18:20:00 -0500</pubDate>
+<description>&lt;p&gt;一种新的显微成像方法成功突破了生物成像的瓶颈，能在保留穿透深度的同时，将活体组织成像的清晰度提升五倍，解析出小于100纳米的细节。&lt;/p&gt;&lt;p&gt;★★★★ · Phys.org · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/science/digest/2026/2026-11-10.html"&gt;2026-11-10 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
-<title>利用月球尘埃打印建筑砖块</title>
-<link>https://phys.org/news/2026-11-simulated-moon-lego-blocks-settlements.html</link>
-<guid isPermaLink="false">60422406ee2a</guid>
-<pubDate>Tue, 10 Nov 2026 12:40:00 -0500</pubDate>
-<description>&lt;p&gt;阿肯色大学研究表明，月球表面的风化层物质可以进行3D打印，制作成类似乐高积木的构件，从而减少从地球运输建材的需求。&lt;/p&gt;&lt;p&gt;★★★★ · Phys.org · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/science/digest/2026/2026-11-10.html"&gt;2026-11-10 精选&lt;/a&gt;&lt;/p&gt;</description>
+<title>深海沉积物揭示南极冰盖消融历史</title>
+<link>https://phys.org/news/2026-11-seafloor-clay-reveals-ice-loss.html</link>
+<guid isPermaLink="false">b3f99ab87c3a</guid>
+<pubDate>Tue, 10 Nov 2026 17:40:00 -0500</pubDate>
+<description>&lt;p&gt;对海底沉积物（seafloor clay）的分析表明，在过去80万年间的自然温暖期，西南极的关键冰流曾发生过剧烈的倒退和崩塌，这对预测冰川未来变化具有参考价值。&lt;/p&gt;&lt;p&gt;★★★★ · Phys.org · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/science/digest/2026/2026-11-10.html"&gt;2026-11-10 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>引力波探测器有望发现系外行星</title>
@@ -53,14 +53,14 @@
 <link>https://www.sciencedaily.com/releases/2026/11/261108233103.htm</link>
 <guid isPermaLink="false">e109ed741d26</guid>
 <pubDate>Mon, 09 Nov 2026 20:47:00 -0500</pubDate>
-<description>&lt;p&gt;一项基于人类细胞的实验室小型研究发现，与遗传性阿尔茨海默病相关的基因突变可能在脑部病变前，先破坏神经与肌肉的连接，这或许能解释部分患者早期平衡与步态协调出现的问题。&lt;/p&gt;&lt;p&gt;★★★★ · ScienceDaily · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/science/digest/2026/2026-11-10.html"&gt;2026-11-10 精选&lt;/a&gt;&lt;/p&gt;</description>
+<description>&lt;p&gt;研究发现阿尔茨海默病（Alzheimer’s disease）的早期病理信号可能始于大脑之外。科学家使用基于人体细胞构建的“芯片上的人体（human-on-a-chip）”模型，观察到与家族性阿尔茨海默病相关的基因突变可在没有大脑或脊髓参与的情况下，直接干扰运动神经元与肌肉间的连接。这一发现解释了为何部分患者会在记忆力衰退前出现平衡与步态问题，并提示针对该病的治疗可能需要关注外周神经系统。&lt;/p&gt;&lt;p&gt;★★★★ · ScienceDaily · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/science/digest/2026/2026-11-10.html"&gt;2026-11-10 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
-<title>生命起源的“泡沫”假说</title>
-<link>https://www.quantamagazine.org/the-case-for-a-bubble-at-lifes-start-20261110/</link>
-<guid isPermaLink="false">342af331abff</guid>
-<pubDate>Tue, 10 Nov 2026 10:08:00 -0500</pubDate>
-<description>&lt;p&gt;脂质（lipid）形成膜的理论认为，细胞膜的自我封闭特性为早期化学反应提供了聚集场所，是生命诞生的关键步骤。&lt;/p&gt;&lt;p&gt;★★★ · Quanta Magazine · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/science/digest/2026/2026-11-10.html"&gt;2026-11-10 精选&lt;/a&gt;&lt;/p&gt;</description>
+<title>AI作为数学“预言家”的影响</title>
+<link>https://arstechnica.com/science/2026/11/what-happens-to-mathematics-when-ai-becames-an-oracle/</link>
+<guid isPermaLink="false">2dcde4b66566</guid>
+<pubDate>Tue, 10 Nov 2026 15:30:00 -0500</pubDate>
+<description>&lt;p&gt;数学家Steven Strogatz在新作中探讨了当人工智能（AI）成为一种能够生成数学结论的“预言家”时，数学这门学科将发生怎样的根本性转变。&lt;/p&gt;&lt;p&gt;★★★ · Ars Technica · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/science/digest/2026/2026-11-10.html"&gt;2026-11-10 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>ESCAPADE双探测器完成地球飞掠，启程前往火星</title>

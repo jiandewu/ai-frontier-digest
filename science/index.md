@@ -12,8 +12,8 @@
 |---|---|---|---|
 | ★★★★★ | [2026年全球化石燃料排放量下降并非全因绿色能源](https://www.sciencenews.org/article/fossil-fuel-emissions-down-2026-gas) | 尽管全球碳排放量小幅下降，但分析指出这更多是受伊朗战争引发的气体价格波动影响，而非能源转型的直接结果。 | Science News |
 | ★★★★★ | [CERN观测到百亿分之一概率的粒子衰变](https://www.sciencedaily.com/releases/2026/11/261108233047.htm) | 欧洲核子研究中心（CERN）经过40年研究，终于证实了一种极罕见的粒子衰变现象，这对探索超越现有物理标准模型的新粒子与新作用力具有重要意义。 | ScienceDaily |
-| ★★★★ | [太阳表面的微型漩涡或解开日冕高温之谜](https://phys.org/news/2026-11-tiny-solar-whirlpools-secret-sun.html) | 最新研究认为，太阳表面数以百万计的微小漩涡可能是驱动太阳日冕层温度远高于表面的能量来源。 | Phys.org |
-| ★★★★ | [利用月球尘埃打印建筑砖块](https://phys.org/news/2026-11-simulated-moon-lego-blocks-settlements.html) | 阿肯色大学研究表明，月球表面的风化层物质可以进行3D打印，制作成类似乐高积木的构件，从而减少从地球运输建材的需求。 | Phys.org |
+| ★★★★ | [显微成像技术实现深层组织高分辨观测](https://phys.org/news/2026-11-microscopy-sharpens-images-fivefold-sacrificing.html) | 一种新的显微成像方法成功突破了生物成像的瓶颈，能在保留穿透深度的同时，将活体组织成像的清晰度提升五倍，解析出小于100纳米的细节。 | Phys.org |
+| ★★★★ | [深海沉积物揭示南极冰盖消融历史](https://phys.org/news/2026-11-seafloor-clay-reveals-ice-loss.html) | 对海底沉积物（seafloor clay）的分析表明，在过去80万年间的自然温暖期，西南极的关键冰流曾发生过剧烈的倒退和崩塌，这对预测冰川未来变化具有参考价值。 | Phys.org |
 | ★★★★ | [引力波探测器有望发现系外行星](https://science.nasa.gov/missions/lisa/gravitational-waves-can-reveal-new-worlds/) | NASA科学家指出，正在研发的LISA引力波探测器不仅能观测时空波动，还有望协助人类识别银河系内独特的系外行星群体。 | NASA |
 | ★★★★ | [脑机接口助力失语者发声](https://www.sciencenews.org/article/talk-less-lose-voice-deep-end-podcast) | 神经科技正致力于恢复语言障碍者的自然发声能力，这项快速发展的技术有望改变患者的生活。 | Science News |
 | ★★★★ | [阿尔茨海默病可能存在脑外预警信号](https://www.sciencedaily.com/releases/2026/11/261108233103.htm) | 一项基于人类细胞的实验室小型研究发现，与遗传性阿尔茨海默病相关的基因突变可能在脑部病变前，先破坏神经与肌肉的连接，这或许能解释部分患者早期平衡与步态协调出现的问题。 | ScienceDaily |
