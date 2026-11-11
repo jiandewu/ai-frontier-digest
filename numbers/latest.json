@@ -62,7 +62,7 @@
    "decimals": 0,
    "change": "pct",
    "date": "2026-11-11",
-   "value": 4068.3,
+   "value": 3990.8,
    "previous": 4030.2,
    "detail": "COMEX 黄金期货（GC=F），美元/盎司",
    "source": "https://finance.yahoo.com/quote/GC=F/"
@@ -73,9 +73,9 @@
    "unit": "",
    "decimals": 0,
    "change": "pct",
-   "date": "2026-11-11",
-   "value": 3680.64,
-   "previous": 3663.72,
+   "date": "2026-11-10",
+   "value": 3663.72,
+   "previous": 3660.79,
    "detail": "上证综合指数（000001.SS）",
    "source": "https://finance.yahoo.com/quote/000001.SS/"
   },
@@ -94,13 +94,27 @@
  ],
  "news": [
   {
+   "section": "AI",
+   "number": "30亿美元",
+   "label": "Mercor平台的年化收入",
+   "title": "Mercor完成7.5亿美元D轮融资，估值达200亿美元",
+   "link": "https://latent.space/p/ainews-mercor-750m-series-d-at-20b-valuation-3b-run-rate/"
+  },
+  {
+   "section": "科学",
+   "number": "1.5万种",
+   "label": "受海平面上升威胁的陆生脊椎动物种类",
+   "title": "海平面上升或威胁全球1.5万种陆生脊椎动物",
+   "link": "https://phys.org/news/2026-11-vertebrate-species-habitat-sea.html"
+  },
+  {
    "section": "美股",
    "number": "133亿美元",
-   "label": "好市多宣布派发的特别股息现金分红总额",
+   "label": "好市多派发特别股息的现金分红总规模",
    "title": "好市多宣布派发30美元特别股息，总额达133亿美元",
    "link": "https://jiande.is-a.si/us-market/news/2026/2026-11-10.html#news-5"
   }
  ],
- "newsKey": "ai-1ff74ee2cb10,ai-4e3e5904c85a,ai-5b9f69191577,ai-ae3c6c28ceab,ai-b22522d14a17,ai-d46e4b8dae91,ai-f574bb1b184a,market-2026-11-10-1,market-2026-11-10-2,market-2026-11-10-3,market-2026-11-10-4,market-2026-11-10-5,science-0dad6b31f409,science-2dcde4b66566,science-318186727001,science-7a85f92df402,science-aa5ff3ce791b,science-b3f99ab87c3a,science-be197ae20f97,science-e109ed741d26",
- "updated": "2026-11-11T07:57:14+00:00"
+ "newsKey": "ai-1ff74ee2cb10,ai-3b853809595d,ai-4e3e5904c85a,ai-77d255b4e9ac,ai-b22522d14a17,ai-d46e4b8dae91,ai-e3c1f6650544,ai-e879c6fc35d4,ai-f18c0fa24109,ai-f574bb1b184a,market-2026-11-10-1,market-2026-11-10-2,market-2026-11-10-3,market-2026-11-10-4,market-2026-11-10-5,science-03ca1f273645,science-1c7173c61705,science-1d24de69dbb6,science-47691686072f,science-7288076ed044,science-906ad43a07f7,science-f25da697c27d",
+ "updated": "2026-11-11T20:16:52+00:00"
 }
