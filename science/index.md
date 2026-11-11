@@ -10,14 +10,14 @@
 
 | 重要度 | 标题 | 摘要 | 来源 |
 |---|---|---|---|
+| ★★★★★ | [引力波探测器有望发现系外行星](https://science.nasa.gov/missions/lisa/gravitational-waves-can-reveal-new-worlds/) | NASA科学家指出，正在研发的LISA引力波探测器不仅能观测时空波动，还有望协助人类识别银河系内独特的系外行星群体。 | NASA |
+| ★★★★★ | [NASA 模拟火星任务成员结束封闭测试](https://www.sciencedaily.com/releases/2026/11/261109205406.htm) | 四名志愿者完成了为期一年的模拟火星生存任务，其在封闭环境下进行的资源管理与实验数据将为人类未来的深空探测提供重要参考。 | ScienceDaily |
 | ★★★★★ | [2026年全球化石燃料排放量下降并非全因绿色能源](https://www.sciencenews.org/article/fossil-fuel-emissions-down-2026-gas) | 尽管全球碳排放量小幅下降，但分析指出这更多是受伊朗战争引发的气体价格波动影响，而非能源转型的直接结果。 | Science News |
 | ★★★★★ | [CERN观测到百亿分之一概率的粒子衰变](https://www.sciencedaily.com/releases/2026/11/261108233047.htm) | 欧洲核子研究中心（CERN）经过40年研究，终于证实了一种极罕见的粒子衰变现象，这对探索超越现有物理标准模型的新粒子与新作用力具有重要意义。 | ScienceDaily |
+| ★★★★ | [极早期致密类星体对等形成之谜](https://phys.org/news/2026-11-earliest-compact-quasar-pair-poses.html) | 科学家在宇宙大爆炸后仅9亿年发现了最古老的类星体（quasar）对，其巨大的质量超出了现有黑洞生长理论的解释范围。 | Phys.org |
 | ★★★★ | [显微成像技术实现深层组织高分辨观测](https://phys.org/news/2026-11-microscopy-sharpens-images-fivefold-sacrificing.html) | 一种新的显微成像方法成功突破了生物成像的瓶颈，能在保留穿透深度的同时，将活体组织成像的清晰度提升五倍，解析出小于100纳米的细节。 | Phys.org |
-| ★★★★ | [深海沉积物揭示南极冰盖消融历史](https://phys.org/news/2026-11-seafloor-clay-reveals-ice-loss.html) | 对海底沉积物（seafloor clay）的分析表明，在过去80万年间的自然温暖期，西南极的关键冰流曾发生过剧烈的倒退和崩塌，这对预测冰川未来变化具有参考价值。 | Phys.org |
-| ★★★★ | [引力波探测器有望发现系外行星](https://science.nasa.gov/missions/lisa/gravitational-waves-can-reveal-new-worlds/) | NASA科学家指出，正在研发的LISA引力波探测器不仅能观测时空波动，还有望协助人类识别银河系内独特的系外行星群体。 | NASA |
 | ★★★★ | [脑机接口助力失语者发声](https://www.sciencenews.org/article/talk-less-lose-voice-deep-end-podcast) | 神经科技正致力于恢复语言障碍者的自然发声能力，这项快速发展的技术有望改变患者的生活。 | Science News |
-| ★★★★ | [阿尔茨海默病可能存在脑外预警信号](https://www.sciencedaily.com/releases/2026/11/261108233103.htm) | 一项基于人类细胞的实验室小型研究发现，与遗传性阿尔茨海默病相关的基因突变可能在脑部病变前，先破坏神经与肌肉的连接，这或许能解释部分患者早期平衡与步态协调出现的问题。 | ScienceDaily |
-| ★★★★ | [ESCAPADE双探测器完成地球飞掠，启程前往火星](https://science.nasa.gov/science-research/heliophysics/nasas-escapade-completes-powered-earth-flybys-now-en-route-to-mars/) | NASA的ESCAPADE火星探测任务已成功完成地球引力助推，预计将于2027年9月抵达火星。 | NASA |
+| ★★★ | [AI作为数学“预言家”的影响](https://arstechnica.com/science/2026/11/what-happens-to-mathematics-when-ai-becames-an-oracle/) | 数学家Steven Strogatz在新作中探讨了当人工智能（AI）成为一种能够生成数学结论的“预言家”时，数学这门学科将发生怎样的根本性转变。 | Ars Technica |
 
 <!-- latest:end -->
 
@@ -25,6 +25,7 @@
 
 <!-- archive:start -->
 
+- [2026-11-11](digest/2026/2026-11-11.md)：4 条精选
 - [2026-11-10](digest/2026/2026-11-10.md)：8 条精选
 - [2026-11-09](digest/2026/2026-11-09.md)：8 条精选
 - [2026-11-08](digest/2026/2026-11-08.md)：6 条精选
