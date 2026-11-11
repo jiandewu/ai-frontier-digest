@@ -6,9 +6,9 @@
    "unit": "",
    "decimals": 0,
    "change": "pct",
-   "date": "2026-11-09",
-   "value": 7549.94,
-   "previous": 7376.86,
+   "date": "2026-11-10",
+   "value": 7520.93,
+   "previous": 7549.94,
    "source": "https://fred.stlouisfed.org/series/SP500"
   },
   {
@@ -17,9 +17,9 @@
    "unit": "",
    "decimals": 0,
    "change": "pct",
-   "date": "2026-11-09",
-   "value": 25253.14,
-   "previous": 24579.42,
+   "date": "2026-11-10",
+   "value": 25065.87,
+   "previous": 25253.14,
    "source": "https://fred.stlouisfed.org/series/NASDAQCOM"
   },
   {
@@ -28,9 +28,9 @@
    "unit": "$",
    "decimals": 0,
    "change": "pct",
-   "date": "2026-11-09",
-   "value": 75090.89,
-   "previous": 75239.55,
+   "date": "2026-11-10",
+   "value": 73302.84,
+   "previous": 75090.89,
    "source": "https://fred.stlouisfed.org/series/CBBTCUSD"
   },
   {
@@ -61,9 +61,9 @@
    "unit": "$",
    "decimals": 0,
    "change": "pct",
-   "date": "2026-11-10",
-   "value": 4040.4,
-   "previous": 4114.5,
+   "date": "2026-11-11",
+   "value": 4068.3,
+   "previous": 4030.2,
    "detail": "COMEX 黄金期货（GC=F），美元/盎司",
    "source": "https://finance.yahoo.com/quote/GC=F/"
   },
@@ -73,9 +73,9 @@
    "unit": "",
    "decimals": 0,
    "change": "pct",
-   "date": "2026-11-09",
-   "value": 3660.79,
-   "previous": 3649.18,
+   "date": "2026-11-11",
+   "value": 3680.64,
+   "previous": 3663.72,
    "detail": "上证综合指数（000001.SS）",
    "source": "https://finance.yahoo.com/quote/000001.SS/"
   },
@@ -85,22 +85,22 @@
    "unit": "",
    "decimals": 0,
    "change": "abs",
-   "date": "2026-11-10",
-   "value": 838,
-   "previous": 349,
-   "detail": "cs.AI 166 · cs.CL 127 · cs.CV 250 · cs.LG 295",
+   "date": "2026-11-11",
+   "value": 419,
+   "previous": 838,
+   "detail": "cs.AI 105 · cs.CL 63 · cs.CV 117 · cs.LG 134",
    "source": "https://arxiv.org/list/cs.AI/new"
   }
  ],
  "news": [
   {
    "section": "美股",
-   "number": "1,132",
-   "label": "道琼斯指数的上涨点数",
-   "title": "Dow Jones Soars 1,132 Points As Amazon, Tesla Rally, But Nvidia Dives; CPI Inflation Report Next",
-   "link": "https://jiande.is-a.si/us-market/news/2026/2026-11-09.html#news-1"
+   "number": "133亿美元",
+   "label": "好市多宣布派发的特别股息现金分红总额",
+   "title": "好市多宣布派发30美元特别股息，总额达133亿美元",
+   "link": "https://jiande.is-a.si/us-market/news/2026/2026-11-10.html#news-5"
   }
  ],
- "newsKey": "ai-01a8528fa117,ai-3872694bbd4e,ai-518485f63290,ai-62d6b023e1f9,ai-f8c1a7370c13,market-2026-11-09-1,market-2026-11-09-2,market-2026-11-09-3,market-2026-11-09-4,market-2026-11-09-5,science-0dad6b31f409,science-342af331abff,science-60422406ee2a,science-62386a82406c,science-7a85f92df402,science-aa5ff3ce791b,science-be197ae20f97,science-e109ed741d26",
- "updated": "2026-11-10T20:30:57+00:00"
+ "newsKey": "ai-1ff74ee2cb10,ai-4e3e5904c85a,ai-5b9f69191577,ai-ae3c6c28ceab,ai-b22522d14a17,ai-d46e4b8dae91,ai-f574bb1b184a,market-2026-11-10-1,market-2026-11-10-2,market-2026-11-10-3,market-2026-11-10-4,market-2026-11-10-5,science-0dad6b31f409,science-2dcde4b66566,science-318186727001,science-7a85f92df402,science-aa5ff3ce791b,science-b3f99ab87c3a,science-be197ae20f97,science-e109ed741d26",
+ "updated": "2026-11-11T07:57:14+00:00"
 }
