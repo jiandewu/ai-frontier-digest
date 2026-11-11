@@ -5,7 +5,56 @@
 <link>https://jiande.is-a.si/ai-frontier-digest/</link>
 <description>每天精选 10 条以内最值得一读的 AI 前沿进展，附中文科普解释。</description>
 <language>zh-CN</language>
-<lastBuildDate>Tue, 10 Nov 2026 16:56:00 -0500</lastBuildDate>
+<lastBuildDate>Wed, 11 Nov 2026 02:05:00 -0500</lastBuildDate>
+<item>
+<title>英伟达机器人开源进展与行业信心</title>
+<link>https://www.qbitai.com/2026/11/509032.html</link>
+<guid isPermaLink="false">f574bb1b184a</guid>
+<pubDate>Tue, 10 Nov 2026 05:35:00 -0500</pubDate>
+<description>&lt;p&gt;随着英伟达开源机器人项目及 Fable 5.2 发布，Jim Fan 认为 AI 机器人领域正处于快速发展期，而非市场寒冬。&lt;/p&gt;&lt;p&gt;★★★★ · 量子位 · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-11.html"&gt;2026-11-11 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>端侧轻量级智能代理 BotPsy</title>
+<link>https://huggingface.co/blog/qvac/botpsy</link>
+<guid isPermaLink="false">b22522d14a17</guid>
+<pubDate>Wed, 11 Nov 2026 00:01:00 -0500</pubDate>
+<description>&lt;p&gt;研究人员开发了 BotPsy，这是一个参数量不到十亿的轻量化代理模型，能够在本地设备上运行，为用户提供智能助手功能。&lt;/p&gt;&lt;p&gt;★★★ · Hugging Face · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-11.html"&gt;2026-11-11 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>OpenAI 演示 AI 代码辅助新范式</title>
+<link>https://latent.space/p/codex-work/</link>
+<guid isPermaLink="false">d46e4b8dae91</guid>
+<pubDate>Tue, 10 Nov 2026 23:49:00 -0500</pubDate>
+<description>&lt;p&gt;OpenAI 在 AI Engineer Code Summit 上展示了通过语音控制 Codex 代码模型、云端协作及智能化辅助开发的新工作流，为软件工程带来变革。&lt;/p&gt;&lt;p&gt;★★★ · Latent Space · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-11.html"&gt;2026-11-11 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>L4级无人驾驶拖拉机实地应用</title>
+<link>https://www.qbitai.com/2026/11/509052.html</link>
+<guid isPermaLink="false">5b9f69191577</guid>
+<pubDate>Tue, 10 Nov 2026 22:43:00 -0500</pubDate>
+<description>&lt;p&gt;丘沃智能开物™系统实现L4级（高度自动化，无需人工干预）无人拖拉机在新疆农田的深翻作业，标志着自动驾驶技术在农业场景的规模化应用。&lt;/p&gt;&lt;p&gt;★★★ · 量子位 · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-11.html"&gt;2026-11-11 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>跟踪 Anthropic 披露的 AI 安全漏洞</title>
+<link>https://www.vulncheck.com/blog/anthropic-glasswing-november-update</link>
+<guid isPermaLink="false">ae3c6c28ceab</guid>
+<pubDate>Tue, 10 Nov 2026 17:17:00 -0500</pubDate>
+<description>&lt;p&gt;讨论针对 Anthropic 所发现的 AI 模型安全漏洞及防御机制的相关技术细节与行业反馈。&lt;/p&gt;&lt;p&gt;★★★ · Hacker News · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-11.html"&gt;2026-11-11 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>新加坡航空利用 OpenAI 技术优化服务</title>
+<link>https://openai.com/index/singapore-airlines-travel-work</link>
+<guid isPermaLink="false">4e3e5904c85a</guid>
+<pubDate>Tue, 10 Nov 2026 03:00:00 -0500</pubDate>
+<description>&lt;p&gt;新加坡航空通过整合 OpenAI 模型与 API，显著提升了客服机器人 Kris 的用户满意度，并优化了内部工作效率。&lt;/p&gt;&lt;p&gt;★★★ · OpenAI · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-11.html"&gt;2026-11-11 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>Cogent 携手 OpenAI 构建企业网络安全防线</title>
+<link>https://openai.com/index/cogent-security</link>
+<guid isPermaLink="false">1ff74ee2cb10</guid>
+<pubDate>Mon, 09 Nov 2026 19:00:00 -0500</pubDate>
+<description>&lt;p&gt;Cogent 结合 OpenAI 的大模型能力与企业数据，部署了自动化代理（Agent）来主动修复系统漏洞，强化企业网络安全防御。&lt;/p&gt;&lt;p&gt;★★★ · OpenAI · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-11.html"&gt;2026-11-11 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
 <item>
 <title>Anthropic发布Claude Fable 5.2，重夺大模型榜首</title>
 <link>https://latent.space/p/ainews-fable-5-2-retakes-world-1-llm-spot-as-ant-ipo-roadshow-begins/</link>
@@ -18,21 +67,21 @@
 <link>https://www.anthropic.com/news/roadshow-launch</link>
 <guid isPermaLink="false">85a32fe1244f</guid>
 <pubDate>Mon, 09 Nov 2026 19:00:00 -0500</pubDate>
-<description>&lt;p&gt;人工智能公司 Anthropic 正式启动其首次公开募股（IPO）的路演程序。&lt;/p&gt;&lt;p&gt;★★★★★ · Anthropic · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-10.html"&gt;2026-11-10 精选&lt;/a&gt;&lt;/p&gt;</description>
+<description>&lt;p&gt;Anthropic 正计划通过首次公开募股（IPO）将其 A 类普通股在纳斯达克上市，股票代码拟定为“ANT”。公司预计发行 8.25 亿股，价格区间在每股 70 至 78 美元之间。此次募资旨在推进其 AI 业务，但该注册声明目前尚未生效，处于合规审核阶段。&lt;/p&gt;&lt;p&gt;★★★★★ · Anthropic · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-10.html"&gt;2026-11-10 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>STABL 实验室成立：关注 AI 的社会转型与瓶颈</title>
 <link>https://www.normaltech.ai/p/the-missing-quadrant-in-responses</link>
 <guid isPermaLink="false">72a4eecaea05</guid>
 <pubDate>Tue, 10 Nov 2026 13:37:00 -0500</pubDate>
-<description>&lt;p&gt;新成立的 STABL 实验室旨在弥补当前 AI 响应中缺失的维度，研究 AI 带来的社会结构性变革与技术瓶颈。&lt;/p&gt;&lt;p&gt;★★★★ · AI as Normal Technology · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-10.html"&gt;2026-11-10 精选&lt;/a&gt;&lt;/p&gt;</description>
+<description>&lt;p&gt;STABL 是一个新成立的非营利研究机构，旨在通过填补 AI 前沿能力与社会落地实践之间的空白，研究 AI 技术如何实现社会变革。他们认为，社会转型不仅取决于 AI 本身，还严重受限于既有组织架构和制度的阻碍，即所谓的“瓶颈”（Bottlenecks）。通过对递归自我改进（RSI）等课题进行实证研究，他们希望能引导社会在利用 AI 潜力与应对制度性挑战之间取得平衡。&lt;/p&gt;&lt;p&gt;★★★★ · AI as Normal Technology · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-10.html"&gt;2026-11-10 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>Gemini 4 Carbon 版本发布</title>
 <link>https://deepmind.google/blog/gemini-4-carbon-is-now-available/</link>
 <guid isPermaLink="false">fc6b6a56df7b</guid>
 <pubDate>Tue, 10 Nov 2026 11:03:00 -0500</pubDate>
-<description>&lt;p&gt;Google DeepMind 推出了 Gemini 系列的最新型号 Gemini 4 Carbon。&lt;/p&gt;&lt;p&gt;★★★★ · Google DeepMind · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-10.html"&gt;2026-11-10 精选&lt;/a&gt;&lt;/p&gt;</description>
+<description>&lt;p&gt;Google DeepMind 推出了最新前沿模型 Gemini 4 Carbon，专为处理复杂的代码调试、多步智能体工作流及科学探索而设计。该模型通过更深层次的推理与更长的验证循环，在保持成本效率的同时，实现了更强的多模态处理能力。用户现可通过 Google AI Studio 或相关企业平台访问，并配合新增的 /swarm 功能实现多智能体协作。&lt;/p&gt;&lt;p&gt;★★★★ · Google DeepMind · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-10.html"&gt;2026-11-10 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>Google DeepMind发布AlphaProof Code，助力软件形式化验证</title>
@@ -60,14 +109,14 @@
 <link>https://latent.space/p/resend/</link>
 <guid isPermaLink="false">2ec4f6ad3a8d</guid>
 <pubDate>Tue, 10 Nov 2026 15:05:00 -0500</pubDate>
-<description>&lt;p&gt;探讨了在智能体（Agent）驱动的开发环境中，如何优化文档以适配如 Claude Code 等工具的自主调用需求。&lt;/p&gt;&lt;p&gt;★★★ · Latent Space · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-10.html"&gt;2026-11-10 精选&lt;/a&gt;&lt;/p&gt;</description>
+<description>&lt;p&gt;本期节目探讨了“AI 体验优化”（AEO）的概念，即如何让 AI 智能体在开发辅助过程中更倾向于选择特定的工具或服务。Resend 首席执行官 Zeno Rocha 分享了他们如何通过构建便于智能体读取的文档、工具及模型上下文接口（MCP），使 AI 在代码实现时更容易推荐其平台。这反映了在 AI 驱动开发的时代，开发者工具的设计逻辑正从“面向人类”转向“同时面向机器”。&lt;/p&gt;&lt;p&gt;★★★ · Latent Space · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-10.html"&gt;2026-11-10 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>警惕 AI 生成代码带来的脆弱性</title>
 <link>https://evanxmerz.com/post/ai-usage-generates-a-fragile-codebase/</link>
 <guid isPermaLink="false">534e23320d33</guid>
 <pubDate>Tue, 10 Nov 2026 05:25:00 -0500</pubDate>
-<description>&lt;p&gt;针对 AI 辅助编程引发的讨论，指出过度依赖自动生成代码可能导致软件架构变得脆弱且难以维护。&lt;/p&gt;&lt;p&gt;★★★ · Hacker News · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-10.html"&gt;2026-11-10 精选&lt;/a&gt;&lt;/p&gt;</description>
+<description>&lt;p&gt;作者指出，过度依赖 AI 生成代码会导致软件项目出现技术债堆积、测试覆盖不足及逻辑复杂化等“代码库脆弱”问题。由于 AI 难以理解长期的维护需求和复杂的系统架构，且人类开发者逐渐丧失对代码库的深入掌控，这往往导致线上故障频发且修复难度增加。文章强调，高质量的 SaaS 产品仍需保持“人机协作”的比例，以确保代码的可维护性与用户体验。&lt;/p&gt;&lt;p&gt;★★★ · Hacker News · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-10.html"&gt;2026-11-10 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>ChatGPT 推出企业管理功能</title>
@@ -768,27 +817,6 @@
 <guid isPermaLink="false">5d83afc7dc65</guid>
 <pubDate>Sun, 25 Oct 2026 20:00:00 -0400</pubDate>
 <description>&lt;p&gt;这是一篇将“世界模型”作为统一视角来系统梳理视频基础模型与视频世界模型发展的学术综述。该文将视频视作潜在动态世界的有损投影，把现有研究提炼为读（推断属性）、写（合成视频）、共享（统一理解与生成机制）和交互（基于动作预测世界演变）四大操作。这篇综述关注视频技术从单纯的单段画面感知逼真度，转向具有物理和因果有效性的持续世界状态与下游交互决策，指明了通向可靠环境模拟的关键挑战。&lt;/p&gt;&lt;p&gt;★★★ · HF Daily Papers · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-10-26.html"&gt;2026-10-26 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>十年前的经典CNN在皮肤癌诊断上超越前沿大语言模型</title>
-<link>https://lynchlab.net/llm-skin-cancer</link>
-<guid isPermaLink="false">1dc75a32fc6a</guid>
-<pubDate>Sun, 25 Oct 2026 13:15:00 -0400</pubDate>
-<description>&lt;p&gt;这是一项对比十年前经典卷积神经网络（CNN）与前沿多模态大语言模型（LLM）在皮肤癌诊断能力的测试。作者基于公开的 Inception v3 模型，使用约 6.8 万张皮肤科图像在单张 GPU 上微调了二十分钟，并用 200 个经活检确认的病变病例（含临床和皮肤镜照片）让其与 GPT-6 Astra、Claude Fable 5.1 进行诊断对比。结果显示 CNN 的首选诊断准确率达到 62%，明显高于两款 LLM 的约 42%，证明小巧、专用的旧架构在专业图像任务上仍能超越通用大模型；但作者也指出该测试仅包含 200 个较复杂的活检样本且 LLM 仅运行单次，CNN 在默认阈值下漏诊恶性黑色素瘤的比例仍偏高。&lt;/p&gt;&lt;p&gt;★★★★ · Hacker News · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-10-25.html"&gt;2026-10-25 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>Interconnects 播客：解读 Kimi K3.1 Pro、网络新现实与 Muse 模型</title>
-<link>https://www.interconnects.ai/p/podcast-kimi-k31-pro-the-new-cyber</link>
-<guid isPermaLink="false">cb0e6541c41d</guid>
-<pubDate>Sun, 25 Oct 2026 07:49:00 -0400</pubDate>
-<description>&lt;p&gt;这是一期探讨近期 AI 行业动态与技术权衡的播客，重点讨论了新发布的 Kimi K3.1 Pro 模型、AI 与网络安全及行业招聘等话题。主讲人分析指出，该模型在 Artificial Analysis 等基准测试上取得领先高分，但部分原因在于其强化学习（RL）更偏向确定性利用而非广泛探索，因此在需要深度探索的长程任务（如 ProgramBench）上表现参差。值得关注的是，尽管其基准测试得分极高，但在社区中却引发了争议，这与涉嫌未披露的付费推广营销、以及对于 3 万亿参数大模型在实际编程与探索任务中性价比的质疑密切相关。&lt;/p&gt;&lt;p&gt;★★★★ · Interconnects · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-10-25.html"&gt;2026-10-25 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>芯片厂商 Cerebras 成功部署万亿参数级 AI 模型</title>
-<link>https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras</link>
-<guid isPermaLink="false">2325af3360e0</guid>
-<pubDate>Sat, 24 Oct 2026 21:33:00 -0400</pubDate>
-<description>&lt;p&gt;这是 Cerebras 介绍如何在其晶圆级芯片 WSE-3T 上部署万亿级参数大模型的架构方案，并以约 3 万亿参数的开源模型 Kimi K3 作为具体范例。其核心方法是将模型参数进行 4-bit 量化，利用单片 44GB 的片上静态存储（SRAM）按层分配在 59 张晶圆上，权重常驻芯片，晶圆间通过流水线传递中间激活值（Activation），并结合微批处理与非阻塞流水线来高效并发处理多请求。该方案展示了超大模型摆脱传统显卡架构限制并实现每秒数千 token 的可能，但其并发上限严格受限于片上 SRAM 留给键值缓存（KV cache）的空间大小。&lt;/p&gt;&lt;p&gt;★★★★ · Hacker News · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-10-25.html"&gt;2026-10-25 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>
