@@ -5,7 +5,14 @@
 <link>https://jiande.is-a.si/ai-frontier-digest/</link>
 <description>每天精选 10 条以内最值得一读的 AI 前沿进展，附中文科普解释。</description>
 <language>zh-CN</language>
-<lastBuildDate>Wed, 11 Nov 2026 11:35:00 -0500</lastBuildDate>
+<lastBuildDate>Wed, 11 Nov 2026 18:01:00 -0500</lastBuildDate>
+<item>
+<title>AI 时代的职场逻辑转变：从能力本位到关系本位</title>
+<link>https://www.jasonwei.net/blog/the-fall-of-what-you-can-do-and-the-rise-of-who-you-know</link>
+<guid isPermaLink="false">8a21ccdab039</guid>
+<pubDate>Wed, 11 Nov 2026 16:35:00 -0500</pubDate>
+<description>&lt;p&gt;作者反思了 AI 领域的发展趋势，指出在当前环境下，个人建立的行业人脉（who you know）对职业发展的影响力正在超越单纯的硬技能（what you can do）。&lt;/p&gt;&lt;p&gt;★★★★ · Jason Wei · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-11.html"&gt;2026-11-11 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
 <item>
 <title>Google DeepMind发布AlphaGenome 2</title>
 <link>https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/</link>
@@ -14,11 +21,11 @@
 <description>&lt;p&gt;该模型通过解读DNA序列如何影响人类细胞及疾病，助力生物医学研究，展现了AI在生命科学领域的深度应用。&lt;/p&gt;&lt;p&gt;★★★★ · Google DeepMind · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-11.html"&gt;2026-11-11 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
-<title>AI智能体团队72小时发现失落玛雅金字塔</title>
-<link>https://pietromiotti.com/latest/maya-site/?maya</link>
-<guid isPermaLink="false">e3c1f6650544</guid>
+<title>AI 代理助力考古：成功发现未记载的玛雅遗址</title>
+<link>https://pietromiotti.com/latest/maya-site</link>
+<guid isPermaLink="false">8d8bc38f54a7</guid>
 <pubDate>Wed, 11 Nov 2026 07:05:00 -0500</pubDate>
-<description>&lt;p&gt;谷歌工程师利用48个AI Agent（智能体，即具备自主行动能力的AI程序）协作分析NASA激光雷达数据，高效完成了人类难以处理的地质探测任务。&lt;/p&gt;&lt;p&gt;★★★★ · Hacker News · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-11.html"&gt;2026-11-11 精选&lt;/a&gt;&lt;/p&gt;</description>
+<description>&lt;p&gt;开发者利用 AI 代理（AI agents，能自主执行复杂任务的程序）分析地理数据，成功定位了此前未被发现的玛雅文明遗址，展现了 AI 在科研探索中的巨大潜力。&lt;/p&gt;&lt;p&gt;★★★★ · Hacker News · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-11.html"&gt;2026-11-11 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>苹果计划发布本地AI模型运行工具</title>
@@ -33,6 +40,13 @@
 <guid isPermaLink="false">f574bb1b184a</guid>
 <pubDate>Tue, 10 Nov 2026 05:35:00 -0500</pubDate>
 <description>&lt;p&gt;GR00T 2 是英伟达推出的一款用于机器人的世界动作模型，旨在预测物理世界的变化及对应的操作动作。它通过融合海量人类第一视角视频、手持设备演示及机器人遥操作数据进行预训练，并结合跨本体适配技术，让不同形态的机器人能共享技能。该模型及其配套的开发工具链显著降低了复杂任务的学习难度，在机器人泛化与灵巧性方面具有重要意义。&lt;/p&gt;&lt;p&gt;★★★★ · 量子位 · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-11.html"&gt;2026-11-11 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>利用可穿戴设备进行个性化心肾代谢风险评估</title>
+<link>https://research.google/blog/using-wearables-to-enable-cardiovascular-kidney-metabolic-ckm-risk-profiling-for-personalized-coaching/</link>
+<guid isPermaLink="false">40b346949510</guid>
+<pubDate>Wed, 11 Nov 2026 14:54:00 -0500</pubDate>
+<description>&lt;p&gt;Google Research 利用可穿戴设备采集的数据，构建了个性化的心肾代谢综合征（CKM）风险分析方案，旨在为用户提供更精准的健康建议。&lt;/p&gt;&lt;p&gt;★★★ · Google Research · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-11.html"&gt;2026-11-11 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>Mercor完成7.5亿美元D轮融资，估值达200亿美元</title>
@@ -61,20 +75,6 @@
 <guid isPermaLink="false">d46e4b8dae91</guid>
 <pubDate>Tue, 10 Nov 2026 23:49:00 -0500</pubDate>
 <description>&lt;p&gt;Codex 是 OpenAI 提供的云端软件工程代理，旨在协助开发者实现代码编写及任务管理。该系统近期更新了云环境架构，支持在隔离实例中并行运行多任务，并通过语音指令作为控制接口，让开发者能更灵活地跨设备协同工作。尽管目前云端切换流程仍存在上手门槛，但其正在整合的个人代理功能为自动化编程提供了新的工作模式。&lt;/p&gt;&lt;p&gt;★★★ · Latent Space · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-11.html"&gt;2026-11-11 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>新加坡航空利用 OpenAI 技术优化服务</title>
-<link>https://openai.com/index/singapore-airlines-travel-work</link>
-<guid isPermaLink="false">4e3e5904c85a</guid>
-<pubDate>Tue, 10 Nov 2026 03:00:00 -0500</pubDate>
-<description>&lt;p&gt;新加坡航空通过整合 OpenAI 模型与 API，显著提升了客服机器人 Kris 的用户满意度，并优化了内部工作效率。&lt;/p&gt;&lt;p&gt;★★★ · OpenAI · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-11.html"&gt;2026-11-11 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>Cogent 携手 OpenAI 构建企业网络安全防线</title>
-<link>https://openai.com/index/cogent-security</link>
-<guid isPermaLink="false">1ff74ee2cb10</guid>
-<pubDate>Mon, 09 Nov 2026 19:00:00 -0500</pubDate>
-<description>&lt;p&gt;Cogent 结合 OpenAI 的大模型能力与企业数据，部署了自动化代理（Agent）来主动修复系统漏洞，强化企业网络安全防御。&lt;/p&gt;&lt;p&gt;★★★ · OpenAI · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-11.html"&gt;2026-11-11 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>Anthropic发布Claude Fable 5.2，重夺大模型榜首</title>
