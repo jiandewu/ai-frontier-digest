@@ -14,14 +14,14 @@ AI 前沿的中文科普导读：每天从研究者博客、实验室新闻、Ha
 |---|---|---|---|
 | ★★★★★ | [Anthropic发布Claude Fable 5.2，重夺大模型榜首](https://latent.space/p/ainews-fable-5-2-retakes-world-1-llm-spot-as-ant-ipo-roadshow-begins/) | 随着Anthropic启动IPO，其最新模型Claude Fable 5.2与Mythos 5.2发布。该模型在性能上重新占据领先地位，引发了业界关于推理成本与价值的讨论。 | Latent Space |
 | ★★★★★ | [Anthropic 启动 IPO 路演](https://www.anthropic.com/news/roadshow-launch) | 人工智能公司 Anthropic 正式启动其首次公开募股（IPO）的路演程序。 | Anthropic |
+| ★★★★ | [Google DeepMind发布AlphaGenome 2](https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/) | 该模型通过解读DNA序列如何影响人类细胞及疾病，助力生物医学研究，展现了AI在生命科学领域的深度应用。 | Google DeepMind |
+| ★★★★ | [AI智能体团队72小时发现失落玛雅金字塔](https://pietromiotti.com/latest/maya-site/?maya) | 谷歌工程师利用48个AI Agent（智能体，即具备自主行动能力的AI程序）协作分析NASA激光雷达数据，高效完成了人类难以处理的地质探测任务。 | Hacker News |
+| ★★★★ | [苹果计划发布本地AI模型运行工具](https://9to5mac.com/2026/11/10/apple-has-new-mac-app-coming-to-make-running-local-ai-models-easy/) | 苹果正开发一款新的Mac应用，旨在简化本地运行AI模型的流程，让用户无需联网即可在个人电脑上便捷地使用大模型。 | Hacker News |
 | ★★★★ | [STABL 实验室成立：关注 AI 的社会转型与瓶颈](https://www.normaltech.ai/p/the-missing-quadrant-in-responses) | 新成立的 STABL 实验室旨在弥补当前 AI 响应中缺失的维度，研究 AI 带来的社会结构性变革与技术瓶颈。 | AI as Normal Technology |
 | ★★★★ | [Gemini 4 Carbon 版本发布](https://deepmind.google/blog/gemini-4-carbon-is-now-available/) | Google DeepMind 推出了 Gemini 系列的最新型号 Gemini 4 Carbon。 | Google DeepMind |
-| ★★★★ | [Google DeepMind发布AlphaProof Code，助力软件形式化验证](https://deepmind.google/blog/introducing-alphaproof-code/) | AlphaProof Code利用AI智能体成功自动验证了Signal加密协议，展示了AI在复杂代码安全验证领域的巨大潜力。 | Google DeepMind |
 | ★★★★ | [蚂蚁灵波开源LingBot-Touch：触觉基础模型推动机器人交互](https://www.qbitai.com/2026/11/508996.html) | 蚂蚁灵波科技发布LingBot-Touch，旨在通过人工智能赋予机器人触觉感知能力，实现从“一脑多机”向更精细触觉操作的进阶。 | 量子位 |
 | ★★★★ | [防范AI被“投毒”，大学生项目展示反向攻击技术](https://www.qbitai.com/2026/11/508787.html) | 中大学生通过反向工程展示了如何利用对抗攻击使AI消耗巨大算力资源（导致账单激增）及产生误判，引发对AI安全的重视。 | 量子位 |
-| ★★★ | [端侧轻量级智能代理 BotPsy](https://huggingface.co/blog/qvac/botpsy) | 研究人员开发了 BotPsy，这是一个参数量不到十亿的轻量化代理模型，能够在本地设备上运行，为用户提供智能助手功能。 | Hugging Face |
-| ★★★ | [OpenAI 演示 AI 代码辅助新范式](https://latent.space/p/codex-work/) | OpenAI 在 AI Engineer Code Summit 上展示了通过语音控制 Codex 代码模型、云端协作及智能化辅助开发的新工作流，为软件工程带来变革。 | Latent Space |
-| ★★★ | [跟踪 Anthropic 披露的 AI 安全漏洞](https://www.vulncheck.com/blog/anthropic-glasswing-november-update) | 讨论针对 Anthropic 所发现的 AI 模型安全漏洞及防御机制的相关技术细节与行业反馈。 | Hacker News |
+| ★★★ | [Mercor完成7.5亿美元D轮融资，估值达200亿美元](https://latent.space/p/ainews-mercor-750m-series-d-at-20b-valuation-3b-run-rate/) | AI驱动的招聘与人才平台Mercor获得巨额融资，其年化收入已达30亿美元，显示出AI在人力资源领域的高商业价值。 | Latent Space |
 
 <!-- latest:end -->
 
@@ -29,7 +29,7 @@ AI 前沿的中文科普导读：每天从研究者博客、实验室新闻、Ha
 
 <!-- archive:start -->
 
-- [2026-11-11](digest/2026/2026-11-11.md)：7 条精选
+- [2026-11-11](digest/2026/2026-11-11.md)：10 条精选
 - [2026-11-10](digest/2026/2026-11-10.md)：10 条精选
 - [2026-11-09](digest/2026/2026-11-09.md)：10 条精选
 - [2026-11-08](digest/2026/2026-11-08.md)：6 条精选
