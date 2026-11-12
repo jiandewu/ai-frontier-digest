@@ -6,9 +6,9 @@
    "unit": "",
    "decimals": 0,
    "change": "pct",
-   "date": "2026-11-10",
-   "value": 7520.93,
-   "previous": 7549.94,
+   "date": "2026-11-11",
+   "value": 7619.38,
+   "previous": 7520.93,
    "source": "https://fred.stlouisfed.org/series/SP500"
   },
   {
@@ -62,7 +62,7 @@
    "decimals": 0,
    "change": "pct",
    "date": "2026-11-12",
-   "value": 3955.6,
+   "value": 3883.7,
    "previous": 4000.5,
    "detail": "COMEX 黄金期货（GC=F），美元/盎司",
    "source": "https://finance.yahoo.com/quote/GC=F/"
@@ -73,9 +73,9 @@
    "unit": "",
    "decimals": 0,
    "change": "pct",
-   "date": "2026-11-12",
-   "value": 3655.83,
-   "previous": 3680.64,
+   "date": "2026-11-11",
+   "value": 3680.64,
+   "previous": 3663.72,
    "detail": "上证综合指数（000001.SS）",
    "source": "https://finance.yahoo.com/quote/000001.SS/"
   },
@@ -94,20 +94,27 @@
  ],
  "news": [
   {
+   "section": "AI",
+   "number": "200万美元",
+   "label": "OpenAI资助AI与儿童安全研究的金额",
+   "title": "OpenAI资助AI与儿童安全研究",
+   "link": "https://openai.com/index/children-first-declaration"
+  },
+  {
    "section": "科学",
-   "number": "40英里",
-   "label": "野生动物体内检出微塑料的采样距离范围",
-   "title": "偏远地区野生动物体内检出微塑料",
-   "link": "https://phys.org/news/2026-11-microplastics-wild-mammals-blood-miles.html"
+   "number": "450个",
+   "label": "科学家发现的新伽马射线源数量",
+   "title": "Fermi数据揭示伽马射线能谱空白区",
+   "link": "https://phys.org/news/2026-11-view-gamma-ray-gap-years.html"
   },
   {
    "section": "美股",
    "number": "0.4%",
-   "label": "10月份消费者价格指数的涨幅",
+   "label": "10月份美国消费者价格指数的涨幅",
    "title": "Consumer prices rose 0.4% in October, more than expected, complicating Fed's inflation fight",
    "link": "https://jiande.is-a.si/us-market/news/2026/2026-11-11.html#news-2"
   }
  ],
- "newsKey": "ai-645f1651bd53,ai-adb66fa1efb1,ai-cce714811b51,market-2026-11-11-1,market-2026-11-11-2,market-2026-11-11-3,market-2026-11-11-4,market-2026-11-11-5,science-0b64196756ba,science-0c26b050aa14,science-1c7173c61705,science-1d24de69dbb6,science-47691686072f,science-7288076ed044,science-906ad43a07f7,science-f25da697c27d",
- "updated": "2026-11-12T08:35:58+00:00"
+ "newsKey": "ai-0990939c7d6e,ai-123cc8899327,ai-645f1651bd53,ai-adb66fa1efb1,ai-b06379671ede,ai-baf44ce1f39f,ai-cce714811b51,ai-e189580829f8,market-2026-11-11-1,market-2026-11-11-2,market-2026-11-11-3,market-2026-11-11-4,market-2026-11-11-5,science-6157bd2c8ae0,science-6786df56423f,science-9ec53114f601,science-a79560825366,science-cdf20097dd4e,science-dbcb0d7f9ec6,science-e208d0b84893,science-fe42213f6dd9",
+ "updated": "2026-11-12T20:59:13+00:00"
 }
