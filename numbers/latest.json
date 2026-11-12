@@ -17,9 +17,9 @@
    "unit": "",
    "decimals": 0,
    "change": "pct",
-   "date": "2026-11-10",
-   "value": 25065.87,
-   "previous": 25253.14,
+   "date": "2026-11-11",
+   "value": 25466.19,
+   "previous": 25065.87,
    "source": "https://fred.stlouisfed.org/series/NASDAQCOM"
   },
   {
@@ -28,9 +28,9 @@
    "unit": "$",
    "decimals": 0,
    "change": "pct",
-   "date": "2026-11-10",
-   "value": 73302.84,
-   "previous": 75090.89,
+   "date": "2026-11-11",
+   "value": 73777.1,
+   "previous": 73302.84,
    "source": "https://fred.stlouisfed.org/series/CBBTCUSD"
   },
   {
@@ -61,9 +61,9 @@
    "unit": "$",
    "decimals": 0,
    "change": "pct",
-   "date": "2026-11-11",
-   "value": 3990.8,
-   "previous": 4030.2,
+   "date": "2026-11-12",
+   "value": 3955.6,
+   "previous": 4000.5,
    "detail": "COMEX 黄金期货（GC=F），美元/盎司",
    "source": "https://finance.yahoo.com/quote/GC=F/"
   },
@@ -73,9 +73,9 @@
    "unit": "",
    "decimals": 0,
    "change": "pct",
-   "date": "2026-11-10",
-   "value": 3663.72,
-   "previous": 3660.79,
+   "date": "2026-11-12",
+   "value": 3655.83,
+   "previous": 3680.64,
    "detail": "上证综合指数（000001.SS）",
    "source": "https://finance.yahoo.com/quote/000001.SS/"
   },
@@ -94,27 +94,20 @@
  ],
  "news": [
   {
-   "section": "AI",
-   "number": "30亿美元",
-   "label": "Mercor平台的年化收入",
-   "title": "Mercor完成7.5亿美元D轮融资，估值达200亿美元",
-   "link": "https://latent.space/p/ainews-mercor-750m-series-d-at-20b-valuation-3b-run-rate/"
-  },
-  {
    "section": "科学",
-   "number": "1.5万种",
-   "label": "受海平面上升威胁的陆生脊椎动物种类",
-   "title": "海平面上升或威胁全球1.5万种陆生脊椎动物",
-   "link": "https://phys.org/news/2026-11-vertebrate-species-habitat-sea.html"
+   "number": "40英里",
+   "label": "野生动物体内检出微塑料的采样距离范围",
+   "title": "偏远地区野生动物体内检出微塑料",
+   "link": "https://phys.org/news/2026-11-microplastics-wild-mammals-blood-miles.html"
   },
   {
    "section": "美股",
-   "number": "133亿美元",
-   "label": "好市多派发特别股息的现金分红总规模",
-   "title": "好市多宣布派发30美元特别股息，总额达133亿美元",
-   "link": "https://jiande.is-a.si/us-market/news/2026/2026-11-10.html#news-5"
+   "number": "0.4%",
+   "label": "10月份消费者价格指数的涨幅",
+   "title": "Consumer prices rose 0.4% in October, more than expected, complicating Fed's inflation fight",
+   "link": "https://jiande.is-a.si/us-market/news/2026/2026-11-11.html#news-2"
   }
  ],
- "newsKey": "ai-1ff74ee2cb10,ai-3b853809595d,ai-4e3e5904c85a,ai-77d255b4e9ac,ai-b22522d14a17,ai-d46e4b8dae91,ai-e3c1f6650544,ai-e879c6fc35d4,ai-f18c0fa24109,ai-f574bb1b184a,market-2026-11-10-1,market-2026-11-10-2,market-2026-11-10-3,market-2026-11-10-4,market-2026-11-10-5,science-03ca1f273645,science-1c7173c61705,science-1d24de69dbb6,science-47691686072f,science-7288076ed044,science-906ad43a07f7,science-f25da697c27d",
- "updated": "2026-11-11T20:16:52+00:00"
+ "newsKey": "ai-645f1651bd53,ai-adb66fa1efb1,ai-cce714811b51,market-2026-11-11-1,market-2026-11-11-2,market-2026-11-11-3,market-2026-11-11-4,market-2026-11-11-5,science-0b64196756ba,science-0c26b050aa14,science-1c7173c61705,science-1d24de69dbb6,science-47691686072f,science-7288076ed044,science-906ad43a07f7,science-f25da697c27d",
+ "updated": "2026-11-12T08:35:58+00:00"
 }
