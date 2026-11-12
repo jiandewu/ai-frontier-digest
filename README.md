@@ -1,10 +1,6 @@
 # AI Frontier Digest
 
-AI 前沿的中文科普导读：每天从研究者博客、实验室新闻、Hacker News 和 Hugging Face 热门论文中精选最值得一读的 10 条以内，每条附通俗的中文标题、摘要、类别和重要度（★1–5）。
-
-网页版：<https://jiande.is-a.si/ai-frontier-digest/>，订阅：[RSS](https://jiande.is-a.si/ai-frontier-digest/feed.xml)。
-
-姊妹版：[科学前沿导读](science/index.md)，每天精选 8 条以内的科学新发现；[每日长文](longread/index.md)，每天一篇值得读原文的英文长文，附中文导读；[播客导读](podcast/index.md)，英文播客的中文导读。
+人工智能领域的模型发布、前沿研究、工程实践与行业动态。
 
 ## 最新精选
 
