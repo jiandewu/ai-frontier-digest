@@ -10,14 +10,14 @@
 
 | 重要度 | 标题 | 摘要 | 来源 |
 |---|---|---|---|
+| ★★★★ | [罕见恒星系统每8分钟发射一次无线电脉冲](https://phys.org/news/2026-11-rare-star-emits-radio-minutes.html) | 科学家发现一个由死恒星和类太阳恒星组成的罕见系统，死恒星每8分钟旋转一次并产生神秘的脉冲信号。 | Phys.org |
+| ★★★★ | [Fermi数据揭示伽马射线能谱空白区](https://phys.org/news/2026-11-view-gamma-ray-gap-years.html) | 基于14年的Fermi空间望远镜数据，科学家在未充分探索的高能区发现了约450个伽马射线源，有助于理解黑洞和超新星等极端环境。 | Phys.org |
+| ★★★★ | [大脑恐惧中心兼职记忆存储](https://www.sciencenews.org/article/brain-amygdala-neuron-saves-memories) | 通常负责处理恐惧和攻击性的杏仁核（amygdala）被发现还在记忆存储中发挥关键作用，解释了为何某些时刻更易被记住。 | Science News |
 | ★★★★ | [地球早期大气或可自产水源](https://www.sciencedaily.com/releases/2026/11/261110042549.htm) | 研究发现地球形成之初的高温大气中，岩石与氢气的反应能产生大量水，这挑战了地球水主要源自彗星或小行星撞击的传统假说。 | ScienceDaily |
-| ★★★★ | [冬季海冰减少与夏季极端干旱的关联](https://phys.org/news/2026-11-romania-kazakhstan-summer-droughts-linked.html) | 模拟研究发现，全球变暖导致冬季海冰覆盖减少，是引发欧洲夏季极端干旱频发的重要诱因之一。 | Phys.org |
 | ★★★★ | [超算模拟还原宇宙从黑暗向星光演化的过程](https://www.sciencedaily.com/releases/2026/11/261110042534.htm) | 通过名为Lumina的超级计算机模拟，科学家重现了宇宙诞生20亿年后的关键演化期，揭示了第一批恒星与星系如何点亮早期宇宙。 | ScienceDaily |
-| ★★★★ | [偏远地区野生动物体内检出微塑料](https://phys.org/news/2026-11-microplastics-wild-mammals-blood-miles.html) | 最新研究在远离人类基础设施40英里外的野生哺乳动物血液中发现了微塑料（microplastics），提示这种污染物已广泛渗入自然环境并进入野生生物体内。 | Phys.org |
 | ★★★★ | [3D蛋白模型揭示大麦种子休眠机制](https://arstechnica.com/science/2026/11/ibm-to-offer-access-to-a-dual-processor-quantum-system-in-2027/) | 研究人员通过构建3D蛋白复合物模型，阐明了调控大麦从休眠到萌发转换的分子机制，有望为改良作物育种提供指导。 | Ars Technica |
-| ★★★ | [苏格兰流地（Flow Country）的碳封存作用](https://science.nasa.gov/earth/earth-observatory/scotlands-flow-country/) | 苏格兰高地的毯状泥炭沼泽是重要的陆地碳汇，能够储存大量碳，对缓解全球气候变化具有重要生态价值。 | NASA |
-| ★★★ | [“好奇号”在火星发现圆盘状晶体岩石](https://science.nasa.gov/blog/curiosity-blog-sols-5063-5069-rocks-and-chips/) | 火星车“好奇号”（Curiosity）在执行钻探任务时，发现了形状独特的圆盘状晶体岩石，有助于进一步研究火星表面的地质形成历史。 | NASA |
-| ★★★ | [新型卫星具备轨道“夜视”能力](https://arstechnica.com/space/2026/11/anduril-demos-night-vision-sensor-for-tracking-satellites-in-darkness/) | Anduril 公司推出的一款卫星拥有极高的动态范围，使其即便在完全黑暗的轨道环境中也能捕捉到对手卫星的机动行为。 | Ars Technica |
+| ★★★ | [一颗神秘消失的系外行星](https://arstechnica.com/science/2026/11/the-amazing-disappearing-exoplanet/) | 天文学家观察到一颗系外行星在经过恒星前方时停止了凌日现象，这一反常现象引发了对行星轨道或观测误差的讨论。 | Ars Technica |
+| ★★★ | [哈勃望远镜为后续空间观测绘制地图](https://science.nasa.gov/missions/hubble/nasas-hubble-offers-cosmic-sampler-of-targets-for-roman/) | 哈勃空间望远镜拍摄了一系列引力透镜（gravitational lenses）图像，为Nancy Grace Roman空间望远镜的后续观测提供了重要样本。 | NASA |
 
 <!-- latest:end -->
 
@@ -25,7 +25,7 @@
 
 <!-- archive:start -->
 
-- [2026-11-12](digest/2026/2026-11-12.md)：6 条精选
+- [2026-11-12](digest/2026/2026-11-12.md)：8 条精选
 - [2026-11-11](digest/2026/2026-11-11.md)：8 条精选
 - [2026-11-10](digest/2026/2026-11-10.md)：8 条精选
 - [2026-11-09](digest/2026/2026-11-09.md)：8 条精选
