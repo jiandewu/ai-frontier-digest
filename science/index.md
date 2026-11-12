@@ -10,14 +10,14 @@
 
 | 重要度 | 标题 | 摘要 | 来源 |
 |---|---|---|---|
-| ★★★★★ | [引力波探测器有望发现系外行星](https://science.nasa.gov/missions/lisa/gravitational-waves-can-reveal-new-worlds/) | NASA科学家指出，正在研发的LISA引力波探测器不仅能观测时空波动，还有望协助人类识别银河系内独特的系外行星群体。 | NASA |
-| ★★★★★ | [NASA 模拟火星任务成员结束封闭测试](https://www.sciencedaily.com/releases/2026/11/261109205406.htm) | 四名志愿者完成了为期一年的模拟火星生存任务，其在封闭环境下进行的资源管理与实验数据将为人类未来的深空探测提供重要参考。 | ScienceDaily |
-| ★★★★★ | [2026年全球化石燃料排放量下降并非全因绿色能源](https://www.sciencenews.org/article/fossil-fuel-emissions-down-2026-gas) | 尽管全球碳排放量小幅下降，但分析指出这更多是受伊朗战争引发的气体价格波动影响，而非能源转型的直接结果。 | Science News |
-| ★★★★★ | [CERN观测到百亿分之一概率的粒子衰变](https://www.sciencedaily.com/releases/2026/11/261108233047.htm) | 欧洲核子研究中心（CERN）经过40年研究，终于证实了一种极罕见的粒子衰变现象，这对探索超越现有物理标准模型的新粒子与新作用力具有重要意义。 | ScienceDaily |
+| ★★★★ | [地球早期大气或可自产水源](https://www.sciencedaily.com/releases/2026/11/261110042549.htm) | 研究发现地球形成之初的高温大气中，岩石与氢气的反应能产生大量水，这挑战了地球水主要源自彗星或小行星撞击的传统假说。 | ScienceDaily |
+| ★★★★ | [冬季海冰减少与夏季极端干旱的关联](https://phys.org/news/2026-11-romania-kazakhstan-summer-droughts-linked.html) | 模拟研究发现，全球变暖导致冬季海冰覆盖减少，是引发欧洲夏季极端干旱频发的重要诱因之一。 | Phys.org |
+| ★★★★ | [超算模拟还原宇宙从黑暗向星光演化的过程](https://www.sciencedaily.com/releases/2026/11/261110042534.htm) | 通过名为Lumina的超级计算机模拟，科学家重现了宇宙诞生20亿年后的关键演化期，揭示了第一批恒星与星系如何点亮早期宇宙。 | ScienceDaily |
 | ★★★★ | [偏远地区野生动物体内检出微塑料](https://phys.org/news/2026-11-microplastics-wild-mammals-blood-miles.html) | 最新研究在远离人类基础设施40英里外的野生哺乳动物血液中发现了微塑料（microplastics），提示这种污染物已广泛渗入自然环境并进入野生生物体内。 | Phys.org |
-| ★★★★ | [新型成像技术验证M87*黑洞图像](https://phys.org/news/2026-11-independent-technique-validates-landmark-m87.html) | 澳大利亚科研团队开发出一种强有力的新成像技术，成功独立验证了2019年拍摄到的首张M87星系黑洞阴影照片的准确性。 | Phys.org |
 | ★★★★ | [3D蛋白模型揭示大麦种子休眠机制](https://arstechnica.com/science/2026/11/ibm-to-offer-access-to-a-dual-processor-quantum-system-in-2027/) | 研究人员通过构建3D蛋白复合物模型，阐明了调控大麦从休眠到萌发转换的分子机制，有望为改良作物育种提供指导。 | Ars Technica |
-| ★★★★ | [脑机接口助力失语者发声](https://www.sciencenews.org/article/talk-less-lose-voice-deep-end-podcast) | 神经科技正致力于恢复语言障碍者的自然发声能力，这项快速发展的技术有望改变患者的生活。 | Science News |
+| ★★★ | [苏格兰流地（Flow Country）的碳封存作用](https://science.nasa.gov/earth/earth-observatory/scotlands-flow-country/) | 苏格兰高地的毯状泥炭沼泽是重要的陆地碳汇，能够储存大量碳，对缓解全球气候变化具有重要生态价值。 | NASA |
+| ★★★ | [“好奇号”在火星发现圆盘状晶体岩石](https://science.nasa.gov/blog/curiosity-blog-sols-5063-5069-rocks-and-chips/) | 火星车“好奇号”（Curiosity）在执行钻探任务时，发现了形状独特的圆盘状晶体岩石，有助于进一步研究火星表面的地质形成历史。 | NASA |
+| ★★★ | [新型卫星具备轨道“夜视”能力](https://arstechnica.com/space/2026/11/anduril-demos-night-vision-sensor-for-tracking-satellites-in-darkness/) | Anduril 公司推出的一款卫星拥有极高的动态范围，使其即便在完全黑暗的轨道环境中也能捕捉到对手卫星的机动行为。 | Ars Technica |
 
 <!-- latest:end -->
 
@@ -25,13 +25,14 @@
 
 <!-- archive:start -->
 
+- [2026-11-12](digest/2026/2026-11-12.md)：6 条精选
 - [2026-11-11](digest/2026/2026-11-11.md)：8 条精选
 - [2026-11-10](digest/2026/2026-11-10.md)：8 条精选
 - [2026-11-09](digest/2026/2026-11-09.md)：8 条精选
 - [2026-11-08](digest/2026/2026-11-08.md)：6 条精选
 - [2026-11-07](digest/2026/2026-11-07.md)：6 条精选
 - [2026-11-06](digest/2026/2026-11-06.md)：8 条精选
-- [2026-11-05](digest/2026/2026-11-05.md)：8 条精选
+- [2026-W45（11-02 至 11-08）](digest/2026/2026-W45.md)：8 条精选
 
 <!-- archive:end -->
 
