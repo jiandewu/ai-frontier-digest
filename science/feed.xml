@@ -5,20 +5,20 @@
 <link>https://jiande.is-a.si/ai-frontier-digest/science/</link>
 <description>每天精选 8 条以内最值得一读的科学新发现，附中文科普解释。</description>
 <language>zh-CN</language>
-<lastBuildDate>Thu, 12 Nov 2026 13:37:00 -0500</lastBuildDate>
+<lastBuildDate>Thu, 12 Nov 2026 18:54:00 -0500</lastBuildDate>
+<item>
+<title>片上激光冷却技术有望突破量子计算瓶颈</title>
+<link>https://phys.org/news/2026-11-chip-based-laser-cooling-ease.html</link>
+<guid isPermaLink="false">7fc388f69b1e</guid>
+<pubDate>Thu, 12 Nov 2026 17:40:00 -0500</pubDate>
+<description>&lt;p&gt;康奈尔大学研发出一项芯片级激光冷却技术，有望解决当前量子计算机制造中面临的规模化和速度瓶颈问题。&lt;/p&gt;&lt;p&gt;★★★★ · Phys.org · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/science/digest/2026/2026-11-12.html"&gt;2026-11-12 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
 <item>
 <title>罕见恒星系统每8分钟发射一次无线电脉冲</title>
 <link>https://phys.org/news/2026-11-rare-star-emits-radio-minutes.html</link>
 <guid isPermaLink="false">cdf20097dd4e</guid>
 <pubDate>Thu, 12 Nov 2026 13:20:00 -0500</pubDate>
 <description>&lt;p&gt;科学家发现一个由死恒星和类太阳恒星组成的罕见系统，死恒星每8分钟旋转一次并产生神秘的脉冲信号。&lt;/p&gt;&lt;p&gt;★★★★ · Phys.org · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/science/digest/2026/2026-11-12.html"&gt;2026-11-12 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>Fermi数据揭示伽马射线能谱空白区</title>
-<link>https://phys.org/news/2026-11-view-gamma-ray-gap-years.html</link>
-<guid isPermaLink="false">6157bd2c8ae0</guid>
-<pubDate>Thu, 12 Nov 2026 12:40:00 -0500</pubDate>
-<description>&lt;p&gt;基于14年的Fermi空间望远镜数据，科学家在未充分探索的高能区发现了约450个伽马射线源，有助于理解黑洞和超新星等极端环境。&lt;/p&gt;&lt;p&gt;★★★★ · Phys.org · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/science/digest/2026/2026-11-12.html"&gt;2026-11-12 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>大脑恐惧中心兼职记忆存储</title>
@@ -42,6 +42,13 @@
 <description>&lt;p&gt;一项名为Lumina的超级计算机模拟研究，重现了早期宇宙从黑暗时代演化至充满恒星与星系的过程。研究团队利用Frontier超级计算机，在1.6亿光年宽的尺度上追踪了半万亿个粒子在20亿年间的演化，首次同时模拟了氢再电离（re-ionization）和氦再电离过程。该模拟揭示了早期恒星与星系主要驱动了氢再电离，而超大质量黑洞则提供了氦再电离所需的高能辐射，为理解早期宇宙结构演化提供了重要参考。&lt;/p&gt;&lt;p&gt;★★★★ · ScienceDaily · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/science/digest/2026/2026-11-12.html"&gt;2026-11-12 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
+<title>网络科学如何重塑健康与营养学？</title>
+<link>https://www.quantamagazine.org/can-network-science-transform-health-and-nutrition-20261112/</link>
+<guid isPermaLink="false">42557112aa07</guid>
+<pubDate>Thu, 12 Nov 2026 14:40:00 -0500</pubDate>
+<description>&lt;p&gt;网络科学专家 Albert-László Barabási 提出，利用分析互联网等复杂系统的通用原理来解析人体内部网络，可能为疾病治疗和饮食营养研究带来变革。&lt;/p&gt;&lt;p&gt;★★★ · Quanta Magazine · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/science/digest/2026/2026-11-12.html"&gt;2026-11-12 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
 <title>一颗神秘消失的系外行星</title>
 <link>https://arstechnica.com/science/2026/11/the-amazing-disappearing-exoplanet/</link>
 <guid isPermaLink="false">9ec53114f601</guid>
@@ -54,13 +61,6 @@
 <guid isPermaLink="false">fe42213f6dd9</guid>
 <pubDate>Thu, 12 Nov 2026 10:45:00 -0500</pubDate>
 <description>&lt;p&gt;科学家正在重新思考生命定义的边界，探讨从化学分子向生物系统演化的过程，改变了过去关于“哪种分子先出现”的争论。&lt;/p&gt;&lt;p&gt;★★★ · Quanta Magazine · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/science/digest/2026/2026-11-12.html"&gt;2026-11-12 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>哈勃望远镜为后续空间观测绘制地图</title>
-<link>https://science.nasa.gov/missions/hubble/nasas-hubble-offers-cosmic-sampler-of-targets-for-roman/</link>
-<guid isPermaLink="false">dbcb0d7f9ec6</guid>
-<pubDate>Thu, 12 Nov 2026 08:18:00 -0500</pubDate>
-<description>&lt;p&gt;哈勃空间望远镜拍摄了一系列引力透镜（gravitational lenses）图像，为Nancy Grace Roman空间望远镜的后续观测提供了重要样本。&lt;/p&gt;&lt;p&gt;★★★ · NASA · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/science/digest/2026/2026-11-12.html"&gt;2026-11-12 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>偏远地区野生动物体内检出微塑料</title>
