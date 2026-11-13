@@ -5,7 +5,42 @@
 <link>https://jiande.is-a.si/ai-frontier-digest/</link>
 <description>每天精选 10 条以内最值得一读的 AI 前沿进展，附中文科普解释。</description>
 <language>zh-CN</language>
-<lastBuildDate>Thu, 12 Nov 2026 20:27:00 -0500</lastBuildDate>
+<lastBuildDate>Fri, 13 Nov 2026 07:36:00 -0500</lastBuildDate>
+<item>
+<title>NVIDIA 掌门人黄仁勋离任，Colette Kress 担任临时 CEO</title>
+<link>https://latent.space/p/ainews-jensen-huang-resigns-after-33-years-leading-nvidia/</link>
+<guid isPermaLink="false">12f357dd3921</guid>
+<pubDate>Fri, 13 Nov 2026 04:04:00 -0500</pubDate>
+<description>&lt;p&gt;领导 NVIDIA 长达 33 年的 Jensen Huang 宣布卸任，由 Colette Kress 接手。这一重大人事变动引发了关于 AI 领导力及开源生态未来的担忧。&lt;/p&gt;&lt;p&gt;★★★★★ · Latent Space · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-13.html"&gt;2026-11-13 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>Edge0-145B 模型：在个人电脑上实现前沿 AI 能力</title>
+<link>https://edge0.ai/blog/introducing-edge0-145b-frontier-ai-capabilities-on-your-own-computer</link>
+<guid isPermaLink="false">f980cc1f1e21</guid>
+<pubDate>Thu, 12 Nov 2026 18:06:00 -0500</pubDate>
+<description>&lt;p&gt;Edge0-145B 模型发布，允许用户在本地计算机运行高性能 AI，极大提升了个人设备对复杂任务的处理能力。&lt;/p&gt;&lt;p&gt;★★★★ · Hacker News · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-13.html"&gt;2026-11-13 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>Claude 全平台出现大规模服务异常</title>
+<link>https://status.claude.com/incidents/nn11wk485zfn</link>
+<guid isPermaLink="false">44da454e7900</guid>
+<pubDate>Fri, 13 Nov 2026 05:18:00 -0500</pubDate>
+<description>&lt;p&gt;Claude.ai 网站、Claude Code 及 API 平台近期遭遇大规模报错，影响了相关开发者及用户的正常使用。&lt;/p&gt;&lt;p&gt;★★★ · Hacker News · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-13.html"&gt;2026-11-13 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>ArtCraft 通过 AI 复刻 Photoshop 并意图重构互联网</title>
+<link>https://latent.space/p/artcraft/</link>
+<guid isPermaLink="false">0f77776f7c50</guid>
+<pubDate>Thu, 12 Nov 2026 23:17:00 -0500</pubDate>
+<description>&lt;p&gt;ArtCraft 利用 AI 技术开源重写了 Photoshop，其愿景不仅限于软件工具，还试图通过 AI 重新构建互联网架构。&lt;/p&gt;&lt;p&gt;★★★ · Latent Space · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-13.html"&gt;2026-11-13 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>Google DeepMind 发布 Gemini 4 Hydrogen</title>
+<link>https://deepmind.google/blog/introducing-gemini-4-hydrogen/</link>
+<guid isPermaLink="false">a8d5fa7d24b3</guid>
+<pubDate>Thu, 12 Nov 2026 13:00:00 -0500</pubDate>
+<description>&lt;p&gt;Gemini 4 Hydrogen 是谷歌最新推出的一款强调执行效率的 AI 模型，专为编码和代理（Agent）工作流优化。它通过四个可调节的“思考等级”来平衡模型质量、处理速度与计算成本，并能与更强大的 Carbon 或 Argon 模型协作以实现更高效的多模型任务处理。该模型在处理常规开发和知识性任务时表现出高响应速度，但在面对极复杂的长程推理时，通常需要与更强大的型号配合使用。&lt;/p&gt;&lt;p&gt;★★★★★ · Google DeepMind · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-12.html"&gt;2026-11-12 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
 <item>
 <title>Anthropic启动IPO路演</title>
 <link>https://www.qbitai.com/2026/11/509381.html</link>
@@ -19,13 +54,6 @@
 <guid isPermaLink="false">cce714811b51</guid>
 <pubDate>Wed, 11 Nov 2026 13:32:00 -0500</pubDate>
 <description>&lt;p&gt;Gemini Decisions API 是 Google 新推出的一款专用于快速、批量进行逻辑判断的接口，由专门的 Gemini Decision 1 模型驱动。它通过模型一次性直接输出各类概率评分（而非逐个生成文本），处理速度极快且成本较低，适用于自动决策、意图分类或合规检查。其局限在于它是专门设计的闭环系统，主要解决特定的分类或评分需求，而非通用的文本生成任务。&lt;/p&gt;&lt;p&gt;★★★★★ · Hacker News · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-12.html"&gt;2026-11-12 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>Google DeepMind 发布 Gemini 4 Hydrogen</title>
-<link>https://deepmind.google/blog/introducing-gemini-4-hydrogen/</link>
-<guid isPermaLink="false">a8d5fa7d24b3</guid>
-<pubDate>Thu, 12 Nov 2026 13:00:00 -0500</pubDate>
-<description>&lt;p&gt;这是 Google DeepMind 推出的一款新型模型，相关技术细节引起了行业广泛关注。&lt;/p&gt;&lt;p&gt;★★★★ · Google DeepMind · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-12.html"&gt;2026-11-12 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>MiniMax开源高性能生图模型</title>
@@ -46,14 +74,14 @@
 <link>https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite</link>
 <guid isPermaLink="false">a88bddb17214</guid>
 <pubDate>Thu, 12 Nov 2026 14:07:00 -0500</pubDate>
-<description>&lt;p&gt;Hugging Face 在其 Granite 4.1 系列模型中支持了 LLMON，这是一种专门为大语言模型交互设计的标记语言，旨在优化指令理解与输出效率。&lt;/p&gt;&lt;p&gt;★★★ · Hugging Face · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-12.html"&gt;2026-11-12 精选&lt;/a&gt;&lt;/p&gt;</description>
+<description>&lt;p&gt;LLMON 是一种专为大语言模型设计的标记语言，旨在通过 XML 风格的特殊标签明确区分指令、数据和约束条件。它通过这种显式的结构化通信方式，解决了传统 JSON 格式在处理嵌套深度或指令注入防护上的局限性，特别是在防御间接提示词注入攻击方面效果显著。该技术目前已应用于 Granite 4.1 模型预览版，提供了一种在代码层面更严谨地控制模型行为的方法。&lt;/p&gt;&lt;p&gt;★★★ · Hugging Face · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-12.html"&gt;2026-11-12 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>大模型轻量化：让 AI 在老旧设备上运行</title>
 <link>https://github.com/hyperionaidev/smolmaxxing/</link>
 <guid isPermaLink="false">0667a519c650</guid>
 <pubDate>Thu, 12 Nov 2026 10:23:00 -0500</pubDate>
-<description>&lt;p&gt;该讨论聚焦于通过模型压缩等优化手段，使大语言模型能够部署在计算资源受限的老旧硬件上，是推动 AI 普惠化的重要探索。&lt;/p&gt;&lt;p&gt;★★★ · Hacker News · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-12.html"&gt;2026-11-12 精选&lt;/a&gt;&lt;/p&gt;</description>
+<description>&lt;p&gt;smolmaxxing 是一个通过优化 llama.cpp 在计算资源受限的老旧设备（如旧平板、电视盒）上运行大型语言模型的项目。它通过定制低位宽计算内核、精简词表以节省内存，以及从存储器动态流式传输专家模型权重等技术，实现了在极小 RAM 空间内运行大规模模型。该项目的主要局限在于依赖针对特定硬件优化的补丁，且在极低硬件配置下推理速度有限。&lt;/p&gt;&lt;p&gt;★★★ · Hacker News · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-12.html"&gt;2026-11-12 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>Holiday Extras利用Codex提升业务效率</title>
@@ -98,11 +126,11 @@
 <description>&lt;p&gt;这是一则利用 AI 代理分析 NASA 激光雷达（Lidar）数据并在墨西哥重新发现玛雅遗址的实验记录。作者通过让多个 AI Agent 在无人监管的情况下通过图像特征识别遗迹，展示了 AI 在加速科学探索中的潜力。虽然该遗址先前已被专业考古学家发现，但此过程证明了非专业人士借助 AI 工具也能进行高效的地表探索。&lt;/p&gt;&lt;p&gt;★★★★ · Hacker News · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-11.html"&gt;2026-11-11 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
-<title>跟踪 Anthropic 披露的 AI 安全漏洞</title>
-<link>https://www.vulncheck.com/blog/anthropic-glasswing-november-update</link>
-<guid isPermaLink="false">ae3c6c28ceab</guid>
-<pubDate>Tue, 10 Nov 2026 17:17:00 -0500</pubDate>
-<description>&lt;p&gt;Project Glasswing 是 Anthropic 推出的漏洞挖掘项目，旨在利用 AI 寻找开源软件中的安全缺陷。调查显示，尽管 Anthropic 宣称其报告具有很高的准确率，但实际审计发现其发现的大量报告重复度极高且修复率低下，许多报告被开源维护者拒绝或标记为非漏洞。这说明 AI 在大规模自动化挖掘漏洞时，往往会将繁重的验证和分类工作转嫁给开源社区，其宣称的“高危”漏洞准确性存疑。&lt;/p&gt;&lt;p&gt;★★★★ · Hacker News · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-11.html"&gt;2026-11-11 精选&lt;/a&gt;&lt;/p&gt;</description>
+<title>苹果计划发布本地AI模型运行工具</title>
+<link>https://9to5mac.com/2026/11/10/apple-has-new-mac-app-coming-to-make-running-local-ai-models-easy/</link>
+<guid isPermaLink="false">77d255b4e9ac</guid>
+<pubDate>Tue, 10 Nov 2026 16:25:00 -0500</pubDate>
+<description>&lt;p&gt;Harbor 是苹果正在开发的 Mac 应用，旨在简化本地 AI 模型部署，将 Mac 转化为私有的 AI 推理服务器。该应用支持通过 Thunderbolt 5 接口将多台 Mac 的统一内存整合，从而实现单机无法承载的大型模型运行。其核心优势在于无需复杂的命令行操作即可实现高性能的本地 AI 处理，并确保数据隐私。&lt;/p&gt;&lt;p&gt;★★★★ · Hacker News · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-11.html"&gt;2026-11-11 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>利用可穿戴设备进行个性化心肾代谢风险评估</title>
@@ -810,34 +838,6 @@
 <guid isPermaLink="false">7ae8eb20550e</guid>
 <pubDate>Wed, 28 Oct 2026 10:58:00 -0400</pubDate>
 <description>&lt;p&gt;Nemotron 3.5 Transcribe 是 NVIDIA 开源的语音多任务大模型，支持多语种转录、说话人识别、翻译和语音问答等功能。它通过语音编码器结合 Mamba 与 Transformer 混合专家架构，在生成文本时能直接同步区分说话人，以较少的激活参数在多项语音识别和声学分割榜单中夺冠。配合同时发布的 Granary v2 数据流程与微调方案，企业能低门槛定制专有词汇与输出格式，但部分语言和语音问答任务在语种覆盖上仍有所限制。&lt;/p&gt;&lt;p&gt;★★★ · Hugging Face · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-10-28.html"&gt;2026-10-28 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>OpenAI携手学界探索基础科学：公布多项数学与物理难题的模型研究结果</title>
-<link>https://openai.com/index/building-scientific-understanding-with-academic-communities</link>
-<guid isPermaLink="false">f16aefe89a6e</guid>
-<pubDate>Mon, 26 Oct 2026 10:30:00 -0400</pubDate>
-<description>&lt;p&gt;OpenAI公开了模型在挂谷猜想、指数时间假设及量子色动力学等前沿科学课题上的推理成果，并探讨科研人员如何验证及在此基础上进一步探索，体现了AI辅助重大科学发现的潜力。&lt;/p&gt;&lt;p&gt;★★★★ · OpenAI · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-10-27.html"&gt;2026-10-27 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>InteractiveWorld：用于评估多模态助手交互能力的仿真环境</title>
-<link>https://huggingface.co/papers/2610.33966</link>
-<guid isPermaLink="false">7f4d292535fa</guid>
-<pubDate>Mon, 26 Oct 2026 20:00:00 -0400</pubDate>
-<description>&lt;p&gt;InteractiveWorld 是首个用于评估多模态大模型在物理世界中协助人类能力的闭环仿真验证环境。与传统机器人模拟器不同，它模拟 AI 助手通过第一人称视角指导具备独立行动与理解力的人类智能体，并基于动态环境变化与状态奖励进行多轮评测。该基准直观暴露出当前顶级多模态模型在现实生活协助中的不足，在长流程的实时指导与规划任务中，即使最强的模型也仅取得了 20% 至 25% 的成功率。&lt;/p&gt;&lt;p&gt;★★★ · HF Daily Papers · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-10-27.html"&gt;2026-10-27 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>Greptile借助GPT-6 Astra将代码找错扩展至业务流程测试</title>
-<link>https://openai.com/index/greptile-code-review-codex-astra</link>
-<guid isPermaLink="false">250e5d8f3024</guid>
-<pubDate>Mon, 26 Oct 2026 18:00:00 -0400</pubDate>
-<description>&lt;p&gt;Greptile分享了如何利用GPT-6 Astra测试端到端用户流程、结合Daybreak增强安全性，展示了前沿大模型在超越传统代码审查、降低返工成本上的工程落地实践。&lt;/p&gt;&lt;p&gt;★★★ · OpenAI · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-10-27.html"&gt;2026-10-27 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>基于函数空间时间自蒸馏的策略优化方法</title>
-<link>https://huggingface.co/papers/2610.19687</link>
-<guid isPermaLink="false">cf925251b33e</guid>
-<pubDate>Sun, 25 Oct 2026 20:00:00 -0400</pubDate>
-<description>&lt;p&gt;FSPO 是一种面向大语言模型策略优化的函数空间时序自蒸馏框架，旨在提高推理与工具调用训练的监督精度与稳定性。它无需维护额外的常驻教师模型，而是通过存储稀疏的历史输出分布作为固定的时序优化目标，并引入分歧修正与自适应参考监督来惩罚错误行为。该方法在推理基准上显著提升了学习效果，在相同训练预算下超越强基线约 4 个百分点，同时降低了约 20% 的训练峰值显存。&lt;/p&gt;&lt;p&gt;★★★ · HF Daily Papers · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-10-27.html"&gt;2026-10-27 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>
