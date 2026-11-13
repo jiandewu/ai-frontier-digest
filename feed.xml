@@ -5,13 +5,34 @@
 <link>https://jiande.is-a.si/ai-frontier-digest/</link>
 <description>每天精选 10 条以内最值得一读的 AI 前沿进展，附中文科普解释。</description>
 <language>zh-CN</language>
-<lastBuildDate>Fri, 13 Nov 2026 07:36:00 -0500</lastBuildDate>
+<lastBuildDate>Fri, 13 Nov 2026 15:00:00 -0500</lastBuildDate>
 <item>
-<title>NVIDIA 掌门人黄仁勋离任，Colette Kress 担任临时 CEO</title>
-<link>https://latent.space/p/ainews-jensen-huang-resigns-after-33-years-leading-nvidia/</link>
-<guid isPermaLink="false">12f357dd3921</guid>
-<pubDate>Fri, 13 Nov 2026 04:04:00 -0500</pubDate>
-<description>&lt;p&gt;领导 NVIDIA 长达 33 年的 Jensen Huang 宣布卸任，由 Colette Kress 接手。这一重大人事变动引发了关于 AI 领导力及开源生态未来的担忧。&lt;/p&gt;&lt;p&gt;★★★★★ · Latent Space · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-13.html"&gt;2026-11-13 精选&lt;/a&gt;&lt;/p&gt;</description>
+<title>黄仁勋卸任英伟达CEO</title>
+<link>https://www.qbitai.com/2026/11/509995.html</link>
+<guid isPermaLink="false">ac6b5041cf84</guid>
+<pubDate>Fri, 13 Nov 2026 04:02:00 -0500</pubDate>
+<description>&lt;p&gt;英伟达经历33年后首次更换掌门人，引发市场剧烈震荡，标志着一段AI计算时代的结束。&lt;/p&gt;&lt;p&gt;★★★★★ · 量子位 · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-13.html"&gt;2026-11-13 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>数学领域的突破将加速AI发展</title>
+<link>https://www.dwarkesh.com/p/rsi</link>
+<guid isPermaLink="false">80a7173f8db2</guid>
+<pubDate>Fri, 13 Nov 2026 13:37:00 -0500</pubDate>
+<description>&lt;p&gt;探讨了数学领域的快速进展如何反哺AI研究，作者据此推测通用人工智能（Superintelligence）可能在2030年实现。&lt;/p&gt;&lt;p&gt;★★★★ · Dwarkesh Podcast · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-13.html"&gt;2026-11-13 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>OpenAI推出ChatGPT Wallet</title>
+<link>https://openai.com/index/introducing-chatgpt-wallet</link>
+<guid isPermaLink="false">5bf4951adbe9</guid>
+<pubDate>Fri, 13 Nov 2026 10:00:00 -0500</pubDate>
+<description>&lt;p&gt;为智能体（Agent）引入钱包功能，支持在获得用户批准的情况下完成自动化购买任务。&lt;/p&gt;&lt;p&gt;★★★★ · OpenAI · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-13.html"&gt;2026-11-13 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>中国AI在复杂肺癌诊疗中取得突破</title>
+<link>https://www.qbitai.com/2026/11/509796.html</link>
+<guid isPermaLink="false">87c11ac884eb</guid>
+<pubDate>Fri, 13 Nov 2026 02:43:00 -0500</pubDate>
+<description>&lt;p&gt;由多位三甲医院医生评测，验证了AI在复杂医疗场景下的辅助诊断能力，展示了AI在医疗领域的落地价值。&lt;/p&gt;&lt;p&gt;★★★★ · 量子位 · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-13.html"&gt;2026-11-13 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>Edge0-145B 模型：在个人电脑上实现前沿 AI 能力</title>
@@ -21,11 +42,18 @@
 <description>&lt;p&gt;Edge0-145B 模型发布，允许用户在本地计算机运行高性能 AI，极大提升了个人设备对复杂任务的处理能力。&lt;/p&gt;&lt;p&gt;★★★★ · Hacker News · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-13.html"&gt;2026-11-13 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
-<title>Claude 全平台出现大规模服务异常</title>
-<link>https://status.claude.com/incidents/nn11wk485zfn</link>
-<guid isPermaLink="false">44da454e7900</guid>
-<pubDate>Fri, 13 Nov 2026 05:18:00 -0500</pubDate>
-<description>&lt;p&gt;Claude.ai 网站、Claude Code 及 API 平台近期遭遇大规模报错，影响了相关开发者及用户的正常使用。&lt;/p&gt;&lt;p&gt;★★★ · Hacker News · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-13.html"&gt;2026-11-13 精选&lt;/a&gt;&lt;/p&gt;</description>
+<title>llama.cpp v1.0.0发布</title>
+<link>https://huggingface.co/blog/ggml-org/llama-cpp-v1</link>
+<guid isPermaLink="false">40e78db6601d</guid>
+<pubDate>Fri, 13 Nov 2026 09:05:00 -0500</pubDate>
+<description>&lt;p&gt;这一版本为本地AI生态系统提供了更稳固的底层支持，优化了在本地设备上运行大模型的能力。&lt;/p&gt;&lt;p&gt;★★★ · Hugging Face · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-13.html"&gt;2026-11-13 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>AI对读者与作者信任关系的冲击</title>
+<link>https://www.theatlantic.com/books/2026/11/ai-literary-scams-amazon/689391/</link>
+<guid isPermaLink="false">7ac7b8ca9e1e</guid>
+<pubDate>Fri, 13 Nov 2026 06:13:00 -0500</pubDate>
+<description>&lt;p&gt;讨论了AI内容生成如何改变文字创作领域，并引发了关于内容可信度的深度担忧。&lt;/p&gt;&lt;p&gt;★★★ · Hacker News · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-13.html"&gt;2026-11-13 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>ArtCraft 通过 AI 复刻 Photoshop 并意图重构互联网</title>
@@ -33,6 +61,13 @@
 <guid isPermaLink="false">0f77776f7c50</guid>
 <pubDate>Thu, 12 Nov 2026 23:17:00 -0500</pubDate>
 <description>&lt;p&gt;ArtCraft 利用 AI 技术开源重写了 Photoshop，其愿景不仅限于软件工具，还试图通过 AI 重新构建互联网架构。&lt;/p&gt;&lt;p&gt;★★★ · Latent Space · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-13.html"&gt;2026-11-13 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>Anthropic发布安全评估指南</title>
+<link>https://www.anthropic.com/research/building-strong-safety-evaluations</link>
+<guid isPermaLink="false">26498fde0610</guid>
+<pubDate>Thu, 12 Nov 2026 19:00:00 -0500</pubDate>
+<description>&lt;p&gt;分享了关于设计、执行和报告AI安全评估的专业建议，旨在推动行业建立更严谨的安全标准。&lt;/p&gt;&lt;p&gt;★★★ · Anthropic · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-13.html"&gt;2026-11-13 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>Google DeepMind 发布 Gemini 4 Hydrogen</title>
