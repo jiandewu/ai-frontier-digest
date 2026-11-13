@@ -17,9 +17,9 @@
    "unit": "",
    "decimals": 0,
    "change": "pct",
-   "date": "2026-11-11",
-   "value": 25466.19,
-   "previous": 25065.87,
+   "date": "2026-11-12",
+   "value": 25366.09,
+   "previous": 25466.19,
    "source": "https://fred.stlouisfed.org/series/NASDAQCOM"
   },
   {
@@ -28,9 +28,9 @@
    "unit": "$",
    "decimals": 0,
    "change": "pct",
-   "date": "2026-11-11",
-   "value": 73777.1,
-   "previous": 73302.84,
+   "date": "2026-11-12",
+   "value": 70822.24,
+   "previous": 73777.1,
    "source": "https://fred.stlouisfed.org/series/CBBTCUSD"
   },
   {
@@ -61,9 +61,9 @@
    "unit": "$",
    "decimals": 0,
    "change": "pct",
-   "date": "2026-11-12",
-   "value": 3883.7,
-   "previous": 4000.5,
+   "date": "2026-11-13",
+   "value": 3899.3,
+   "previous": 3885.3,
    "detail": "COMEX 黄金期货（GC=F），美元/盎司",
    "source": "https://finance.yahoo.com/quote/GC=F/"
   },
@@ -73,9 +73,9 @@
    "unit": "",
    "decimals": 0,
    "change": "pct",
-   "date": "2026-11-11",
-   "value": 3680.64,
-   "previous": 3663.72,
+   "date": "2026-11-13",
+   "value": 3634.35,
+   "previous": 3655.83,
    "detail": "上证综合指数（000001.SS）",
    "source": "https://finance.yahoo.com/quote/000001.SS/"
   },
@@ -85,36 +85,36 @@
    "unit": "",
    "decimals": 0,
    "change": "abs",
-   "date": "2026-11-11",
-   "value": 419,
-   "previous": 838,
-   "detail": "cs.AI 105 · cs.CL 63 · cs.CV 117 · cs.LG 134",
+   "date": "2026-11-13",
+   "value": 555,
+   "previous": 419,
+   "detail": "cs.AI 113 · cs.CL 86 · cs.CV 170 · cs.LG 186",
    "source": "https://arxiv.org/list/cs.AI/new"
   }
  ],
  "news": [
   {
    "section": "AI",
-   "number": "200万美元",
-   "label": "OpenAI资助AI与儿童安全研究的金额",
-   "title": "OpenAI资助AI与儿童安全研究",
-   "link": "https://openai.com/index/children-first-declaration"
+   "number": "4K",
+   "label": "MiniMax生图模型原生支持的分辨率",
+   "title": "MiniMax开源高性能生图模型",
+   "link": "https://www.qbitai.com/2026/11/509440.html"
   },
   {
    "section": "科学",
-   "number": "450个",
-   "label": "科学家发现的新伽马射线源数量",
-   "title": "Fermi数据揭示伽马射线能谱空白区",
-   "link": "https://phys.org/news/2026-11-view-gamma-ray-gap-years.html"
+   "number": "1.6亿光年",
+   "label": "超算模拟研究的宇宙空间尺度",
+   "title": "超算模拟还原宇宙从黑暗向星光演化的过程",
+   "link": "https://www.sciencedaily.com/releases/2026/11/261110042534.htm"
   },
   {
    "section": "美股",
-   "number": "0.4%",
-   "label": "10月份美国消费者价格指数的涨幅",
-   "title": "Consumer prices rose 0.4% in October, more than expected, complicating Fed's inflation fight",
-   "link": "https://jiande.is-a.si/us-market/news/2026/2026-11-11.html#news-2"
+   "number": "5.9%",
+   "label": "AMD当日股价的涨幅",
+   "title": "Stock Market Today, Nov. 12: AMD Jumps 5.9% on Bank of America Price Target Hike to $700",
+   "link": "https://jiande.is-a.si/us-market/news/2026/2026-11-12.html#news-3"
   }
  ],
- "newsKey": "ai-0990939c7d6e,ai-123cc8899327,ai-645f1651bd53,ai-adb66fa1efb1,ai-b06379671ede,ai-baf44ce1f39f,ai-cce714811b51,ai-e189580829f8,market-2026-11-11-1,market-2026-11-11-2,market-2026-11-11-3,market-2026-11-11-4,market-2026-11-11-5,science-6157bd2c8ae0,science-6786df56423f,science-9ec53114f601,science-a79560825366,science-cdf20097dd4e,science-dbcb0d7f9ec6,science-e208d0b84893,science-fe42213f6dd9",
- "updated": "2026-11-12T20:59:13+00:00"
+ "newsKey": "ai-0667a519c650,ai-0990939c7d6e,ai-123cc8899327,ai-5b0f73df89a6,ai-a88bddb17214,ai-a8d5fa7d24b3,ai-adb66fa1efb1,ai-baf44ce1f39f,ai-cce714811b51,ai-e189580829f8,market-2026-11-12-1,market-2026-11-12-2,market-2026-11-12-3,market-2026-11-12-4,market-2026-11-12-5,science-42557112aa07,science-6786df56423f,science-7fc388f69b1e,science-9ec53114f601,science-a79560825366,science-cdf20097dd4e,science-e208d0b84893,science-fe42213f6dd9",
+ "updated": "2026-11-13T08:22:50+00:00"
 }
