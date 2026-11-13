@@ -5,7 +5,21 @@
 <link>https://jiande.is-a.si/ai-frontier-digest/podcast/</link>
 <description>英文播客的中文导读：嘉宾是谁、聊了什么、值不值得听。</description>
 <language>zh-CN</language>
-<lastBuildDate>Tue, 10 Nov 2026 15:01:00 -0500</lastBuildDate>
+<lastBuildDate>Fri, 13 Nov 2026 15:04:00 -0500</lastBuildDate>
+<item>
+<title>AI 研发的“自动驾驶”：重塑人工智能进化的拐点</title>
+<link>https://jiande.is-a.si/ai-frontier-digest/podcast/2026/2026-11-13-80a7173f.html</link>
+<guid isPermaLink="false">podcast-80a7173f8db2</guid>
+<pubDate>Fri, 13 Nov 2026 15:04:00 -0500</pubDate>
+<description>&lt;p&gt;在这期 Dwarkesh Podcast 中，主播 Dwarkesh Patel 深入探讨了一个激进的观点：人工智能正处于自动化自身研发能力的边缘。嘉宾（主播本人）认为，由于人工智能在数学等可验证领域表现出惊人的解题能力，我们可能在未来一到三年内（即 2027-2028 年左右），就能看到 AI 在研发水平上达到甚至超越顶尖人类专家的水平。他通过分析 Anthropic 和 OpenAI 的实际案例指出，AI 已经在研发任务中展现出倍增的效率。他认为，AI 研发本质上是高度可验证的实验过程，即通过不断的模型训练、反馈与迭代来优化算法。一旦 AI 能够自主执行这些任务，其结合高速、高智能与大规模并行处理的能力，将引发“递归自我改进”（Recursive Self-Improvement, RSI）。主要观点在于，虽然“奇点”是否会瞬间到来仍有争议，但我们可以预期在短时间内经历相当于人类数年累积的进步速度。嘉宾同时承认，即便有“实验算力”瓶颈和“持续学习”难题，但鉴于 AI 模仿人类专家学习经验的极高效率，这种范式转变依然极具可能。&lt;/p&gt;&lt;p&gt;Dwarkesh Podcast · 2026-11-13 · &lt;a href="https://www.dwarkesh.com/p/rsi"&gt;收听原节目&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>通过联邦学习增强代理人工智能</title>
+<link>https://jiande.is-a.si/ai-frontier-digest/podcast/2026/2026-11-13-3c42ca3a.html</link>
+<guid isPermaLink="false">podcast-3c42ca3aa07c</guid>
+<pubDate>Fri, 13 Nov 2026 15:04:00 -0500</pubDate>
+<description>&lt;p&gt;本期节目邀请了来自 Flower Labs 的研究科学家、剑桥大学计算机科学博士生 Lorenzo Sani。嘉宾回顾了从物理学转向人工智能领域的初衷——被该技术处理海量复杂异构数据的复杂性所吸引。主要探讨了联邦学习（Federated Learning）这一隐私保护技术，即在数据源头（如边缘设备）进行模型训练，无需将原始数据集中上传至数据中心，从而满足隐私法规要求。Sani 详细阐述了联邦学习在现代代理人工智能（Agentic AI）中的应用：随着 AI 代理交互轨迹（Trajectories）的复杂化，其中包含大量私人提示词（Prompts）和环境信息，联邦学习提供了一种在保护隐私的前提下利用这些分布式数据来优化 AI 系统的可行路径。嘉宾还分享了在生活中利用开源模型（Open Weights Models）自建代理系统的有趣案例，如通过视觉模型对派对服饰进行评分，并强调了掌握模型训练流程对企业保护知识产权和提升可解释性的重要性。Sani 认为，随着模型变小、部署成本降低，未来个人也能在本地基础设施上运行这些复杂的训练管道，从而解决个性化的痛点需求。&lt;/p&gt;&lt;p&gt;Practical AI · 2026-11-13 · 约 44 分钟 · &lt;a href="https://share.transistor.fm/s/58a69653"&gt;收听原节目&lt;/a&gt;&lt;/p&gt;</description>
+</item>
 <item>
 <title>AI 也能搞“卧底”：用《血染钟楼》测试大模型的社交欺诈与策略推理</title>
 <link>https://jiande.is-a.si/ai-frontier-digest/podcast/2026/2026-11-05-c0c2d1f3.html</link>
