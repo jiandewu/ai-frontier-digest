@@ -6,9 +6,9 @@
    "unit": "",
    "decimals": 0,
    "change": "pct",
-   "date": "2026-11-11",
-   "value": 7619.38,
-   "previous": 7520.93,
+   "date": "2026-11-12",
+   "value": 7592.4,
+   "previous": 7619.38,
    "source": "https://fred.stlouisfed.org/series/SP500"
   },
   {
@@ -62,7 +62,7 @@
    "decimals": 0,
    "change": "pct",
    "date": "2026-11-13",
-   "value": 3899.3,
+   "value": 3879.3,
    "previous": 3885.3,
    "detail": "COMEX 黄金期货（GC=F），美元/盎司",
    "source": "https://finance.yahoo.com/quote/GC=F/"
@@ -73,9 +73,9 @@
    "unit": "",
    "decimals": 0,
    "change": "pct",
-   "date": "2026-11-13",
-   "value": 3634.35,
-   "previous": 3655.83,
+   "date": "2026-11-12",
+   "value": 3655.83,
+   "previous": 3680.64,
    "detail": "上证综合指数（000001.SS）",
    "source": "https://finance.yahoo.com/quote/000001.SS/"
   },
@@ -95,26 +95,26 @@
  "news": [
   {
    "section": "AI",
-   "number": "4K",
-   "label": "MiniMax生图模型原生支持的分辨率",
-   "title": "MiniMax开源高性能生图模型",
-   "link": "https://www.qbitai.com/2026/11/509440.html"
+   "number": "145B",
+   "label": "Edge0模型参数规模",
+   "title": "Edge0-145B 模型：在个人电脑上实现前沿 AI 能力",
+   "link": "https://edge0.ai/blog/introducing-edge0-145b-frontier-ai-capabilities-on-your-own-computer"
   },
   {
    "section": "科学",
-   "number": "1.6亿光年",
-   "label": "超算模拟研究的宇宙空间尺度",
-   "title": "超算模拟还原宇宙从黑暗向星光演化的过程",
-   "link": "https://www.sciencedaily.com/releases/2026/11/261110042534.htm"
+   "number": "2000亿",
+   "label": "气候变化导致的流离失所人数",
+   "title": "气候变化可能导致超过2000亿人流离失所",
+   "link": "https://phys.org/news/2026-11-climate-billion-homes-migration-chief.html"
   },
   {
    "section": "美股",
    "number": "5.9%",
-   "label": "AMD当日股价的涨幅",
+   "label": "AMD股价上涨幅度",
    "title": "Stock Market Today, Nov. 12: AMD Jumps 5.9% on Bank of America Price Target Hike to $700",
    "link": "https://jiande.is-a.si/us-market/news/2026/2026-11-12.html#news-3"
   }
  ],
- "newsKey": "ai-0667a519c650,ai-0990939c7d6e,ai-123cc8899327,ai-5b0f73df89a6,ai-a88bddb17214,ai-a8d5fa7d24b3,ai-adb66fa1efb1,ai-baf44ce1f39f,ai-cce714811b51,ai-e189580829f8,market-2026-11-12-1,market-2026-11-12-2,market-2026-11-12-3,market-2026-11-12-4,market-2026-11-12-5,science-42557112aa07,science-6786df56423f,science-7fc388f69b1e,science-9ec53114f601,science-a79560825366,science-cdf20097dd4e,science-e208d0b84893,science-fe42213f6dd9",
- "updated": "2026-11-13T08:22:50+00:00"
+ "newsKey": "ai-0f77776f7c50,ai-26498fde0610,ai-40e78db6601d,ai-5bf4951adbe9,ai-7ac7b8ca9e1e,ai-80a7173f8db2,ai-87c11ac884eb,ai-ac6b5041cf84,ai-f980cc1f1e21,market-2026-11-12-1,market-2026-11-12-2,market-2026-11-12-3,market-2026-11-12-4,market-2026-11-12-5,science-44731877b676,science-64e8a0d4c530,science-816ca5d938c4,science-8fc9b479e635,science-b1575a02ada5,science-bcd1b15318a8,science-d3f2c1071d47,science-ddbd64fc1889",
+ "updated": "2026-11-13T20:34:55+00:00"
 }
