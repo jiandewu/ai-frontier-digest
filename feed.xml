@@ -5,13 +5,34 @@
 <link>https://jiande.is-a.si/ai-frontier-digest/</link>
 <description>每天精选 10 条以内最值得一读的 AI 前沿进展，附中文科普解释。</description>
 <language>zh-CN</language>
-<lastBuildDate>Sat, 14 Nov 2026 06:44:00 -0500</lastBuildDate>
+<lastBuildDate>Sat, 14 Nov 2026 13:28:00 -0500</lastBuildDate>
+<item>
+<title>开源AI生态的重构</title>
+<link>https://www.interconnects.ai/p/open-source-ai-without-jensen</link>
+<guid isPermaLink="false">8479f47633fa</guid>
+<pubDate>Sat, 14 Nov 2026 07:23:00 -0500</pubDate>
+<description>&lt;p&gt;文章探讨了在缺乏NVIDIA支持的环境下，开源人工智能领域应如何寻求独立发展与重建。&lt;/p&gt;&lt;p&gt;★★★★ · Interconnects · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-14.html"&gt;2026-11-14 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
 <item>
 <title>传Nvidia曾通过资助初创公司购买其GPU来制造稀缺感</title>
 <link>https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus</link>
 <guid isPermaLink="false">c6caa4d4f0b0</guid>
 <pubDate>Fri, 13 Nov 2026 21:52:00 -0500</pubDate>
 <description>&lt;p&gt;有报道称Nvidia涉嫌通过向AI初创公司提供资金来换取对方购买其GPU，以此人为制造市场需求火爆和硬件稀缺的假象，引发了关于商业公平竞争的讨论。&lt;/p&gt;&lt;p&gt;★★★★ · Hacker News · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-14.html"&gt;2026-11-14 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>DeepSeek正式开放全家桶API</title>
+<link>https://www.qbitai.com/2026/11/510003.html</link>
+<guid isPermaLink="false">67049349b50b</guid>
+<pubDate>Fri, 13 Nov 2026 21:39:00 -0500</pubDate>
+<description>&lt;p&gt;DeepSeek宣布向开发者开放全套API接口，支持对其官方应用功能的自由组合与调用，降低了开发门槛。&lt;/p&gt;&lt;p&gt;★★★★ · 量子位 · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-14.html"&gt;2026-11-14 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>生物医药预测领域迎来严苛基准测试</title>
+<link>https://www.qbitai.com/2026/11/510232.html</link>
+<guid isPermaLink="false">c481d3ae1bc1</guid>
+<pubDate>Sat, 14 Nov 2026 04:58:00 -0500</pubDate>
+<description>&lt;p&gt;斯坦福等顶尖团队发布了针对湿实验（生物实验室物理实验）的严苛预测基准，旨在评估AI在复杂生命科学任务中的真实表现。&lt;/p&gt;&lt;p&gt;★★★ · 量子位 · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-14.html"&gt;2026-11-14 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>反“AI垃圾内容”宣言发布</title>
@@ -26,6 +47,13 @@
 <guid isPermaLink="false">4f5b4ce8cb48</guid>
 <pubDate>Fri, 13 Nov 2026 10:08:00 -0500</pubDate>
 <description>&lt;p&gt;知名游戏开发者Jonathan Blow质疑，既然AI编程工具已如此先进，为什么目前的软件质量和生产力没有出现预期的革命性提升，反思了AI辅助开发的实际效能。&lt;/p&gt;&lt;p&gt;★★★ · Hacker News · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-14.html"&gt;2026-11-14 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>系统一模型能力测评平台SO-Arena发布</title>
+<link>https://huggingface.co/papers/2611.15777</link>
+<guid isPermaLink="false">7afe22db314e</guid>
+<pubDate>Thu, 12 Nov 2026 19:00:00 -0500</pubDate>
+<description>&lt;p&gt;SO-Arena基准测试旨在评估AI“系统一”（即反应迅速、直觉式的模型）在跨领域任务中的可靠性，揭示了性能扩展与决策稳定性之间的复杂关系。&lt;/p&gt;&lt;p&gt;★★★ · HF Daily Papers · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-14.html"&gt;2026-11-14 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>黄仁勋卸任英伟达CEO</title>
