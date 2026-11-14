@@ -94,27 +94,13 @@
  ],
  "news": [
   {
-   "section": "AI",
-   "number": "1450 亿",
-   "label": "开源端侧AI模型的参数规模",
-   "title": "Edge0-145B 模型：在个人电脑上实现前沿 AI 能力",
-   "link": "https://edge0.ai/blog/introducing-edge0-145b-frontier-ai-capabilities-on-your-own-computer"
-  },
-  {
-   "section": "科学",
-   "number": "3000万光年",
-   "label": "不稳定恒星与地球的距离",
-   "title": "科学家观测到巨型不稳定恒星的爆发机制",
-   "link": "https://www.nasa.gov/image-article/outbursts-from-a-massive-star/"
-  },
-  {
    "section": "美股",
    "number": "6.5%",
-   "label": "美国10月批发物价同比上涨幅度",
+   "label": "美国10月批发物价同比涨幅",
    "title": "美国10月批发物价同比上涨6.5% 创近四年新高",
    "link": "https://jiande.is-a.si/us-market/news/2026/2026-11-13.html#news-1"
   }
  ],
- "newsKey": "ai-0f77776f7c50,ai-26498fde0610,ai-40e78db6601d,ai-5bf4951adbe9,ai-80a7173f8db2,ai-87c11ac884eb,ai-ac6b5041cf84,ai-d1318183fe17,ai-e940fd987572,ai-f980cc1f1e21,market-2026-11-13-1,market-2026-11-13-2,market-2026-11-13-3,market-2026-11-13-4,market-2026-11-13-5,science-64e8a0d4c530,science-816ca5d938c4,science-8fc9b479e635,science-b49d4913a618,science-bcd1b15318a8,science-c02ab589a904,science-d3f2c1071d47,science-efea16422413",
- "updated": "2026-11-14T07:46:56+00:00"
+ "newsKey": "ai-4f5b4ce8cb48,ai-67049349b50b,ai-7afe22db314e,ai-8479f47633fa,ai-be54405e42bc,ai-c481d3ae1bc1,ai-c6caa4d4f0b0,market-2026-11-13-1,market-2026-11-13-2,market-2026-11-13-3,market-2026-11-13-4,market-2026-11-13-5,science-037e089a5d55,science-6402784acf6b,science-6f1b149b437c,science-7b3fa9f63382,science-df42fd5a2698",
+ "updated": "2026-11-14T18:47:19+00:00"
 }
