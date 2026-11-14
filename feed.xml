@@ -5,7 +5,7 @@
 <link>https://jiande.is-a.si/ai-frontier-digest/</link>
 <description>每天精选 10 条以内最值得一读的 AI 前沿进展，附中文科普解释。</description>
 <language>zh-CN</language>
-<lastBuildDate>Fri, 13 Nov 2026 15:00:00 -0500</lastBuildDate>
+<lastBuildDate>Fri, 13 Nov 2026 20:01:00 -0500</lastBuildDate>
 <item>
 <title>黄仁勋卸任英伟达CEO</title>
 <link>https://www.qbitai.com/2026/11/509995.html</link>
@@ -19,6 +19,13 @@
 <guid isPermaLink="false">80a7173f8db2</guid>
 <pubDate>Fri, 13 Nov 2026 13:37:00 -0500</pubDate>
 <description>&lt;p&gt;探讨了数学领域的快速进展如何反哺AI研究，作者据此推测通用人工智能（Superintelligence）可能在2030年实现。&lt;/p&gt;&lt;p&gt;★★★★ · Dwarkesh Podcast · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-13.html"&gt;2026-11-13 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>AI 助力破解哥德尔手稿中的数百条数学定理</title>
+<link>https://www.theguardian.com/science/2026/nov/13/kurt-godel-notebooks-ai-helps-unlock-hidden-discoveries-man-who-transformed-maths</link>
+<guid isPermaLink="false">e940fd987572</guid>
+<pubDate>Fri, 13 Nov 2026 12:30:00 -0500</pubDate>
+<description>&lt;p&gt;研究人员利用 AI 技术成功解读了数学家哥德尔（Gödel）留下的手稿，从中发现了数百条已证明的定理，展现了 AI 在数学史研究中的潜力。&lt;/p&gt;&lt;p&gt;★★★★ · Hacker News · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-13.html"&gt;2026-11-13 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>OpenAI推出ChatGPT Wallet</title>
@@ -39,7 +46,7 @@
 <link>https://edge0.ai/blog/introducing-edge0-145b-frontier-ai-capabilities-on-your-own-computer</link>
 <guid isPermaLink="false">f980cc1f1e21</guid>
 <pubDate>Thu, 12 Nov 2026 18:06:00 -0500</pubDate>
-<description>&lt;p&gt;Edge0-145B 模型发布，允许用户在本地计算机运行高性能 AI，极大提升了个人设备对复杂任务的处理能力。&lt;/p&gt;&lt;p&gt;★★★★ · Hacker News · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-13.html"&gt;2026-11-13 精选&lt;/a&gt;&lt;/p&gt;</description>
+<description>&lt;p&gt;Edge0-145B 是全球首个参数规模达 1450 亿的开源端侧 AI 模型，旨在个人电脑上运行高性能任务。它是通过共享专家矩阵、训练时适配端侧架构、分层内存加载以及 CPU/GPU 协同调度等技术实现的。该模型值得关注在于它在本地提供了媲美云端前沿模型的编码与推理能力，同时规避了云端调用成本及数据隐私风险，但仍对硬件性能有一定要求。&lt;/p&gt;&lt;p&gt;★★★★ · Hacker News · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-13.html"&gt;2026-11-13 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>llama.cpp v1.0.0发布</title>
@@ -49,18 +56,18 @@
 <description>&lt;p&gt;这一版本为本地AI生态系统提供了更稳固的底层支持，优化了在本地设备上运行大模型的能力。&lt;/p&gt;&lt;p&gt;★★★ · Hugging Face · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-13.html"&gt;2026-11-13 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
-<title>AI对读者与作者信任关系的冲击</title>
-<link>https://www.theatlantic.com/books/2026/11/ai-literary-scams-amazon/689391/</link>
-<guid isPermaLink="false">7ac7b8ca9e1e</guid>
-<pubDate>Fri, 13 Nov 2026 06:13:00 -0500</pubDate>
-<description>&lt;p&gt;讨论了AI内容生成如何改变文字创作领域，并引发了关于内容可信度的深度担忧。&lt;/p&gt;&lt;p&gt;★★★ · Hacker News · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-13.html"&gt;2026-11-13 精选&lt;/a&gt;&lt;/p&gt;</description>
+<title>Shield 利用 AI 自动化处理旧版 IT 系统工作流</title>
+<link>https://openai.com/business/customer-stories/shield</link>
+<guid isPermaLink="false">d1318183fe17</guid>
+<pubDate>Fri, 13 Nov 2026 03:00:00 -0500</pubDate>
+<description>&lt;p&gt;Shield 使用 OpenAI 的大模型技术开发 Forge 智能体，自动处理繁琐的旧版门户网站操作，让 IT 技术人员能腾出精力处理更复杂的决策性事务。&lt;/p&gt;&lt;p&gt;★★★ · OpenAI · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-13.html"&gt;2026-11-13 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>ArtCraft 通过 AI 复刻 Photoshop 并意图重构互联网</title>
 <link>https://latent.space/p/artcraft/</link>
 <guid isPermaLink="false">0f77776f7c50</guid>
 <pubDate>Thu, 12 Nov 2026 23:17:00 -0500</pubDate>
-<description>&lt;p&gt;ArtCraft 利用 AI 技术开源重写了 Photoshop，其愿景不仅限于软件工具，还试图通过 AI 重新构建互联网架构。&lt;/p&gt;&lt;p&gt;★★★ · Latent Space · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-13.html"&gt;2026-11-13 精选&lt;/a&gt;&lt;/p&gt;</description>
+<description>&lt;p&gt;ArtCraft 是一个旨在利用 AI 重构主流软件的开源项目，目前已发布 PhotoCraft 等 17 款克隆工具。该项目通过向 AI 模型输入详细的功能与数据结构提示词，并结合 Rust 语言的高性能优势来构建应用程序。它受到关注是因为其试图打破 Web 2.0 时代大型科技公司对软件生态的垄断，通过 AI 自动化生成代码实现软件的完全开源与自主权。&lt;/p&gt;&lt;p&gt;★★★ · Latent Space · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-13.html"&gt;2026-11-13 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>Anthropic发布安全评估指南</title>
@@ -84,18 +91,25 @@
 <description>&lt;p&gt;Anthropic正式启动IPO路演，虽受全球AI板块回调影响估值较预期缩水，但公司仍展现出强劲的商业化增长态势。通过扩展办公AI及垂直场景应用，并获得多家算力巨头私募注资，公司正试图平衡天价算力支出与收入增长。该事件反映了当前市场对AI模型商业变现能力与投入产出比的严峻审视。&lt;/p&gt;&lt;p&gt;★★★★★ · 量子位 · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-12.html"&gt;2026-11-12 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
-<title>Gemini Decisions API 发布</title>
-<link>https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/</link>
-<guid isPermaLink="false">cce714811b51</guid>
-<pubDate>Wed, 11 Nov 2026 13:32:00 -0500</pubDate>
-<description>&lt;p&gt;Gemini Decisions API 是 Google 新推出的一款专用于快速、批量进行逻辑判断的接口，由专门的 Gemini Decision 1 模型驱动。它通过模型一次性直接输出各类概率评分（而非逐个生成文本），处理速度极快且成本较低，适用于自动决策、意图分类或合规检查。其局限在于它是专门设计的闭环系统，主要解决特定的分类或评分需求，而非通用的文本生成任务。&lt;/p&gt;&lt;p&gt;★★★★★ · Hacker News · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-12.html"&gt;2026-11-12 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
 <title>MiniMax开源高性能生图模型</title>
 <link>https://www.qbitai.com/2026/11/509440.html</link>
 <guid isPermaLink="false">baf44ce1f39f</guid>
 <pubDate>Thu, 12 Nov 2026 06:36:00 -0500</pubDate>
 <description>&lt;p&gt;MiniMax推出了开源生图模型H3-Image，其核心特点是原生支持4K分辨率，并能准确处理CAD图纸等复杂逻辑任务。该模型通过在训练中引入随机性瑕疵来减轻图像的“AI味”，从而提升写实度与审美逻辑。作为一款SOTA级模型，其开源与低成本API调用特性旨在推动多模态技术在工业设计与创意生产中的落地。&lt;/p&gt;&lt;p&gt;★★★★ · 量子位 · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-12.html"&gt;2026-11-12 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>决策模型时代：谷歌入局与行业进展</title>
+<link>https://latent.space/p/ainews-d-day-decision-models-day/</link>
+<guid isPermaLink="false">e10b6b9196df</guid>
+<pubDate>Thu, 12 Nov 2026 00:26:00 -0500</pubDate>
+<description>&lt;p&gt;Gemini Decision 1 是谷歌推出的一款专用于“决策”的多模态模型，能够处理封闭式选择题并直接给出结果。它舍弃了传统生成式模型逐字输出的模式，采用直接评分的架构，从而实现了约 200 毫秒的超低延迟与极高的成本效益。该模型适合处理分类与逻辑判断任务，有助于简化 AI 工作流中的判断环节，但其在复杂文档准确率等指标上仍有提升空间。&lt;/p&gt;&lt;p&gt;★★★★ · Latent Space · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-12.html"&gt;2026-11-12 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>Gemini Decisions API 发布</title>
+<link>https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/</link>
+<guid isPermaLink="false">cce714811b51</guid>
+<pubDate>Wed, 11 Nov 2026 13:32:00 -0500</pubDate>
+<description>&lt;p&gt;Gemini Decisions API 是 Google 新推出的一款专用于快速、批量进行逻辑判断的接口，由专门的 Gemini Decision 1 模型驱动。它通过模型一次性直接输出各类概率评分（而非逐个生成文本），处理速度极快且成本较低，适用于自动决策、意图分类或合规检查。其局限在于它是专门设计的闭环系统，主要解决特定的分类或评分需求，而非通用的文本生成任务。&lt;/p&gt;&lt;p&gt;★★★★ · Hacker News · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-12.html"&gt;2026-11-12 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>Amplitude 利用 OpenAI 智能体实现研发提效</title>
@@ -131,13 +145,6 @@
 <guid isPermaLink="false">adb66fa1efb1</guid>
 <pubDate>Thu, 12 Nov 2026 00:08:00 -0500</pubDate>
 <description>&lt;p&gt;“System One”模型指的是速度快、成本低且能提供结构化分类或评分的非生成式 AI，旨在作为底层模块直接嵌入到软件代码中。这种设计不仅提升了程序的响应速度，还通过更确定的输出解决了大模型作为核心逻辑组件时的不可靠性。目前它正被工程师用于实现更智能的软件自动化，但其局限在于单点能力有限，需配合精巧的策略模式才能处理复杂任务。&lt;/p&gt;&lt;p&gt;★★★ · Latent Space · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-12.html"&gt;2026-11-12 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>触觉基础模型助力机器人灵巧操作</title>
-<link>https://huggingface.co/papers/2611.12806</link>
-<guid isPermaLink="false">123cc8899327</guid>
-<pubDate>Mon, 09 Nov 2026 19:00:00 -0500</pubDate>
-<description>&lt;p&gt;LingBot-Touch是一款触觉基础模型，旨在解决具身智能中不同类型触觉传感器（如压阻式、磁式、视觉触觉式）数据不统一的问题。它通过提取统一的触觉特征表示，使其能够适配扩散策略或视觉-语言-动作（VLA）模型，从而提升机器人在复杂操作任务中的灵活性。该研究展示了跨传感器数据融合对于提升具身智能感知能力的可行性。&lt;/p&gt;&lt;p&gt;★★★ · HF Daily Papers · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-12.html"&gt;2026-11-12 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>AI 时代的职场逻辑转变：从能力本位到关系本位</title>

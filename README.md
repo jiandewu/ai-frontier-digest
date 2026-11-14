@@ -11,13 +11,13 @@
 | ★★★★★ | [黄仁勋卸任英伟达CEO](https://www.qbitai.com/2026/11/509995.html) | 英伟达经历33年后首次更换掌门人，引发市场剧烈震荡，标志着一段AI计算时代的结束。 | 量子位 |
 | ★★★★★ | [Google DeepMind 发布 Gemini 4 Hydrogen](https://deepmind.google/blog/introducing-gemini-4-hydrogen/) | 这是 Google DeepMind 推出的一款新型模型，相关技术细节引起了行业广泛关注。 | Google DeepMind |
 | ★★★★★ | [Anthropic启动IPO路演](https://www.qbitai.com/2026/11/509381.html) | 人工智能独角兽Anthropic正式开启首次公开募股（IPO）路演进程，成为业界关注焦点。 | 量子位 |
-| ★★★★★ | [Gemini Decisions API 发布](https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/) | 谷歌推出 Gemini Decisions API，旨在赋予大模型更强的决策制定能力。这是AI从单纯的“聊天工具”向“决策助理”进化的关键基础设施。 | Hacker News |
 | ★★★★ | [数学领域的突破将加速AI发展](https://www.dwarkesh.com/p/rsi) | 探讨了数学领域的快速进展如何反哺AI研究，作者据此推测通用人工智能（Superintelligence）可能在2030年实现。 | Dwarkesh Podcast |
+| ★★★★ | [AI 助力破解哥德尔手稿中的数百条数学定理](https://www.theguardian.com/science/2026/nov/13/kurt-godel-notebooks-ai-helps-unlock-hidden-discoveries-man-who-transformed-maths) | 研究人员利用 AI 技术成功解读了数学家哥德尔（Gödel）留下的手稿，从中发现了数百条已证明的定理，展现了 AI 在数学史研究中的潜力。 | Hacker News |
 | ★★★★ | [OpenAI推出ChatGPT Wallet](https://openai.com/index/introducing-chatgpt-wallet) | 为智能体（Agent）引入钱包功能，支持在获得用户批准的情况下完成自动化购买任务。 | OpenAI |
 | ★★★★ | [Edge0-145B 模型：在个人电脑上实现前沿 AI 能力](https://edge0.ai/blog/introducing-edge0-145b-frontier-ai-capabilities-on-your-own-computer) | Edge0-145B 模型发布，允许用户在本地计算机运行高性能 AI，极大提升了个人设备对复杂任务的处理能力。 | Hacker News |
+| ★★★★ | [决策模型时代：谷歌入局与行业进展](https://latent.space/p/ainews-d-day-decision-models-day/) | 谷歌正式进军决策模型领域，该类模型旨在让AI直接辅助逻辑判断与执行。这标志着AI应用正从生成内容向自动化业务决策转型，值得关注。 | Latent Space |
 | ★★★ | [llama.cpp v1.0.0发布](https://huggingface.co/blog/ggml-org/llama-cpp-v1) | 这一版本为本地AI生态系统提供了更稳固的底层支持，优化了在本地设备上运行大模型的能力。 | Hugging Face |
-| ★★★ | [ArtCraft 通过 AI 复刻 Photoshop 并意图重构互联网](https://latent.space/p/artcraft/) | ArtCraft 利用 AI 技术开源重写了 Photoshop，其愿景不仅限于软件工具，还试图通过 AI 重新构建互联网架构。 | Latent Space |
-| ★★★ | [Anthropic发布安全评估指南](https://www.anthropic.com/research/building-strong-safety-evaluations) | 分享了关于设计、执行和报告AI安全评估的专业建议，旨在推动行业建立更严谨的安全标准。 | Anthropic |
+| ★★★ | [Shield 利用 AI 自动化处理旧版 IT 系统工作流](https://openai.com/business/customer-stories/shield) | Shield 使用 OpenAI 的大模型技术开发 Forge 智能体，自动处理繁琐的旧版门户网站操作，让 IT 技术人员能腾出精力处理更复杂的决策性事务。 | OpenAI |
 
 <!-- latest:end -->
 
@@ -25,7 +25,7 @@
 
 <!-- archive:start -->
 
-- [2026-11-13](digest/2026/2026-11-13.md)：9 条精选
+- [2026-11-13](digest/2026/2026-11-13.md)：10 条精选
 - [2026-11-12](digest/2026/2026-11-12.md)：10 条精选
 - [2026-11-11](digest/2026/2026-11-11.md)：10 条精选
 - [2026-11-10](digest/2026/2026-11-10.md)：10 条精选
