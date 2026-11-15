@@ -28,9 +28,9 @@
    "unit": "$",
    "decimals": 0,
    "change": "pct",
-   "date": "2026-11-13",
-   "value": 68178.05,
-   "previous": 70822.24,
+   "date": "2026-11-14",
+   "value": 62890.64,
+   "previous": 68178.05,
    "source": "https://fred.stlouisfed.org/series/CBBTCUSD"
   },
   {
@@ -94,13 +94,27 @@
  ],
  "news": [
   {
+   "section": "AI",
+   "number": "200行",
+   "label": "复现DeepSeek V3架构的代码行数",
+   "title": "用约200行Jax代码实现DeepSeek V3模型架构",
+   "link": "https://github.com/Vaibhaav-Tiwari/deepseek-v3-jax"
+  },
+  {
+   "section": "科学",
+   "number": "39.5亿年",
+   "label": "中国北部发现的古老岩石距今年代",
+   "title": "中国北部发现39.5亿年前古老岩石，揭示地球早期历史",
+   "link": "https://phys.org/news/2026-11-oldest-earth-early-history.html"
+  },
+  {
    "section": "美股",
-   "number": "6.5%",
-   "label": "美国10月批发物价同比涨幅",
-   "title": "美国10月批发物价同比上涨6.5% 创近四年新高",
-   "link": "https://jiande.is-a.si/us-market/news/2026/2026-11-13.html#news-1"
+   "number": "1.4万亿美元",
+   "label": "Anthropic寻求上市的最高估值",
+   "title": "Anthropic寻求最高1.4万亿美元估值上市，检验市场对AI信心",
+   "link": "https://jiande.is-a.si/us-market/news/2026/2026-11-14.html#news-3"
   }
  ],
- "newsKey": "ai-4f5b4ce8cb48,ai-67049349b50b,ai-7afe22db314e,ai-8479f47633fa,ai-be54405e42bc,ai-c481d3ae1bc1,ai-c6caa4d4f0b0,market-2026-11-13-1,market-2026-11-13-2,market-2026-11-13-3,market-2026-11-13-4,market-2026-11-13-5,science-037e089a5d55,science-6402784acf6b,science-6f1b149b437c,science-7b3fa9f63382,science-df42fd5a2698",
- "updated": "2026-11-14T18:47:19+00:00"
+ "newsKey": "ai-ad8b3d5bdfd0,market-2026-11-14-1,market-2026-11-14-2,market-2026-11-14-3,market-2026-11-14-4,market-2026-11-14-5,science-037e089a5d55,science-32da69861ad6,science-7b3fa9f63382,science-ba392d6a4357,science-df42fd5a2698",
+ "updated": "2026-11-15T08:04:14+00:00"
 }
