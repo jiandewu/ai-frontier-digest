@@ -5,13 +5,20 @@
 <link>https://jiande.is-a.si/ai-frontier-digest/</link>
 <description>每天精选 10 条以内最值得一读的 AI 前沿进展，附中文科普解释。</description>
 <language>zh-CN</language>
-<lastBuildDate>Sat, 14 Nov 2026 13:28:00 -0500</lastBuildDate>
+<lastBuildDate>Sun, 15 Nov 2026 02:09:00 -0500</lastBuildDate>
+<item>
+<title>用约200行Jax代码实现DeepSeek V3模型架构</title>
+<link>https://github.com/Vaibhaav-Tiwari/deepseek-v3-jax</link>
+<guid isPermaLink="false">ad8b3d5bdfd0</guid>
+<pubDate>Sat, 14 Nov 2026 10:04:00 -0500</pubDate>
+<description>&lt;p&gt;开发者展示了如何使用Jax这一高性能机器学习编程框架，仅用约200行代码复现了DeepSeek V3的核心架构。该项目有助于理解大型语言模型背后的数学逻辑，是深入学习模型底层实现的一次极简练习。&lt;/p&gt;&lt;p&gt;★★★ · Hacker News · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-15.html"&gt;2026-11-15 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
 <item>
 <title>开源AI生态的重构</title>
 <link>https://www.interconnects.ai/p/open-source-ai-without-jensen</link>
 <guid isPermaLink="false">8479f47633fa</guid>
 <pubDate>Sat, 14 Nov 2026 07:23:00 -0500</pubDate>
-<description>&lt;p&gt;文章探讨了在缺乏NVIDIA支持的环境下，开源人工智能领域应如何寻求独立发展与重建。&lt;/p&gt;&lt;p&gt;★★★★ · Interconnects · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-14.html"&gt;2026-11-14 精选&lt;/a&gt;&lt;/p&gt;</description>
+<description>&lt;p&gt;本文讨论了Nvidia CEO Jensen Huang离职后，美国开源AI生态系统面临的动荡与挑战。Jensen曾是开源模型的重要支持者与保护者，他的离开可能导致资金链收紧及行业整合风险，特别是在闭源实验室更具规模效应的背景下。文章强调开源生态仍处于早期阶段，若缺乏像Jensen这样有影响力的领导者支持，开源模型在应对未来潜在的监管压力及维持竞争力方面将面临严峻考验。&lt;/p&gt;&lt;p&gt;★★★★ · Interconnects · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-14.html"&gt;2026-11-14 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>传Nvidia曾通过资助初创公司购买其GPU来制造稀缺感</title>
@@ -25,14 +32,14 @@
 <link>https://www.qbitai.com/2026/11/510003.html</link>
 <guid isPermaLink="false">67049349b50b</guid>
 <pubDate>Fri, 13 Nov 2026 21:39:00 -0500</pubDate>
-<description>&lt;p&gt;DeepSeek宣布向开发者开放全套API接口，支持对其官方应用功能的自由组合与调用，降低了开发门槛。&lt;/p&gt;&lt;p&gt;★★★★ · 量子位 · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-14.html"&gt;2026-11-14 精选&lt;/a&gt;&lt;/p&gt;</description>
+<description>&lt;p&gt;DeepSeek近日宣布全面开放其“全家桶”应用的API，开发者现在可以直接调用联网搜索、深度思考、文件处理以及新增的语音识别与合成等独立功能。这些接口以极具竞争力的低价提供，旨在通过降低技术门槛，让开发者能快速复刻或构建类似DeepSeek App的创新应用。此举标志着DeepSeek将产品重心转向赋能开发者，通过开放底层能力探索AI应用的多元形态。&lt;/p&gt;&lt;p&gt;★★★★ · 量子位 · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-14.html"&gt;2026-11-14 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>生物医药预测领域迎来严苛基准测试</title>
 <link>https://www.qbitai.com/2026/11/510232.html</link>
 <guid isPermaLink="false">c481d3ae1bc1</guid>
 <pubDate>Sat, 14 Nov 2026 04:58:00 -0500</pubDate>
-<description>&lt;p&gt;斯坦福等顶尖团队发布了针对湿实验（生物实验室物理实验）的严苛预测基准，旨在评估AI在复杂生命科学任务中的真实表现。&lt;/p&gt;&lt;p&gt;★★★ · 量子位 · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-14.html"&gt;2026-11-14 精选&lt;/a&gt;&lt;/p&gt;</description>
+<description>&lt;p&gt;Science Prediction Universe (SPU) 是一个针对 AI 科学研究能力的严苛基准测试，要求模型自主执行科研任务并预测湿实验（Wet Lab）结果。通过对比模型在化学、材料及生物医学等领域表现，结果显示即使是前沿模型也难以达到可靠的预测水平，且单纯增加推理强度并不总是能提升准确度。该基准突出了模型在“科研判断”层面的局限，为评估 AI 真实科研执行力提供了量化标准。&lt;/p&gt;&lt;p&gt;★★★ · 量子位 · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-14.html"&gt;2026-11-14 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>反“AI垃圾内容”宣言发布</title>
@@ -53,7 +60,7 @@
 <link>https://huggingface.co/papers/2611.15777</link>
 <guid isPermaLink="false">7afe22db314e</guid>
 <pubDate>Thu, 12 Nov 2026 19:00:00 -0500</pubDate>
-<description>&lt;p&gt;SO-Arena基准测试旨在评估AI“系统一”（即反应迅速、直觉式的模型）在跨领域任务中的可靠性，揭示了性能扩展与决策稳定性之间的复杂关系。&lt;/p&gt;&lt;p&gt;★★★ · HF Daily Papers · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-14.html"&gt;2026-11-14 精选&lt;/a&gt;&lt;/p&gt;</description>
+<description>&lt;p&gt;SO-Arena 是一个专门用于评估“系统一”（System One）类快速决策AI模型的基准测试，涵盖了11个领域及多种能力维度。该基准不仅关注模型性能的准确度，还重点引入了“决策稳定性”和“缺失答案识别”作为衡量可靠性的关键指标。研究表明，模型整体表现出色并不等同于决策可靠，这一发现强调了在衡量AI能力时，必须将决策可靠性作为与能力谱系同等重要的维度。&lt;/p&gt;&lt;p&gt;★★★ · HF Daily Papers · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-14.html"&gt;2026-11-14 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>黄仁勋卸任英伟达CEO</title>
@@ -810,55 +817,6 @@
 <guid isPermaLink="false">f3538b6fb36f</guid>
 <pubDate>Thu, 29 Oct 2026 09:37:00 -0400</pubDate>
 <description>&lt;p&gt;IBM 发布了 Granite Switch 4.1.1 补丁版本，践行像交付普通软件一样模块化升级大语言模型组件的理念。此次更新在不触动和不重新计算底层基座模型的前提下，直接热插拔式地替换了多语言语音识别模型与决策微调适配器（adapter）。这种基于轻量化适配器的迭代方案大幅降低了前沿模型的重训算力消耗与运维门槛，提升了企业端服务的升级效率。&lt;/p&gt;&lt;p&gt;★★★ · Hugging Face · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-10-30.html"&gt;2026-10-30 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>Gemini 4 Carbon 评测表现亮眼，主打抗长时代码修复与防注入</title>
-<link>https://www.qbitai.com/2026/10/506227.html</link>
-<guid isPermaLink="false">2a3824a8bb57</guid>
-<pubDate>Wed, 28 Oct 2026 20:03:00 -0400</pubDate>
-<description>&lt;p&gt;这是报道 Google 推出新旗舰模型 Gemini 4 Carbon 的资讯，强调其在多项关键指标上超越了 Claude Opus 5.5。该模型通过强化长程自主规划和安全对齐训练，不仅能连续多日探索大型代码库修复隐蔽 Bug，还在网络安全各环节创下新高并实现了对提示词注入的全面抵御。它值得关注的是综合智能评分登顶、生成补丁质量大幅提升，以及首发 Token 半价带来的显著使用成本优势；不过目前该模型尚未全面公测，初期仅向特定网络安全人员开放。&lt;/p&gt;&lt;p&gt;★★★★★ · 量子位 · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-10-29.html"&gt;2026-10-29 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>具身智能初创企业获 10 亿美元融资，估值达 200 亿美元</title>
-<link>https://www.qbitai.com/2026/10/506042.html</link>
-<guid isPermaLink="false">f8ba7008ee05</guid>
-<pubDate>Wed, 28 Oct 2026 04:55:00 -0400</pubDate>
-<description>&lt;p&gt;这是关于机器人基础模型初创公司 Physical Intelligence（PI）计划融资至少 10 亿美元、投后估值达约 200 亿美元的行业报道。该公司聚焦纯软件路线，通过研发能够将多模态感知转化为底层控制动作的视觉—语言—动作模型（VLA），打造可直接适配各类第三方硬件的通用机器人“大脑”。这反映出资本市场正争相下注物理世界通用基础模型，其优势在于跨设备、跨任务的组合泛化能力；但局限是物理环境容错率极低且落地成本极高，公司目前尚无商业化营收。&lt;/p&gt;&lt;p&gt;★★★★ · 量子位 · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-10-29.html"&gt;2026-10-29 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>开发者揭秘 Claude Code 后台通信机制：定期同步子 Agent 会话记录</title>
-<link>https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce</link>
-<guid isPermaLink="false">271134257c4a</guid>
-<pubDate>Wed, 28 Oct 2026 23:33:00 -0400</pubDate>
-<description>&lt;p&gt;这是一份针对编程工具 Claude Code 在后台频繁向大模型发送全量记录以更新简短状态行、造成严重 Token 浪费的问题诊断与修复指南。作者通过 Bun 的预加载机制（--preload）拦截特定定时器，在运行时精准屏蔽了生成状态摘要的 API 请求。它展示了如何用极轻量级的脚本阻止约 15%–20% 的无谓 Token 消耗与速率限制挤占；局限在于该方法基于源码特征文本匹配，目前仅在 Linux 经过测试，且一旦官方更新脚本逻辑便可能失效。&lt;/p&gt;&lt;p&gt;★★★ · Hacker News · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-10-29.html"&gt;2026-10-29 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>DTCA：面向扩散语言模型强化学习的去噪 Token 信用分配方法</title>
-<link>https://huggingface.co/papers/2610.35201</link>
-<guid isPermaLink="false">d2493f9c725f</guid>
-<pubDate>Wed, 28 Oct 2026 20:00:00 -0400</pubDate>
-<description>&lt;p&gt;这是针对扩散语言模型（DLM）在强化学习训练中信用分配难题所提出的一种名为 DTCA 的优化框架。该方法通过量化确认某个 Token 后对其余遮盖位置预测置信度的提升幅度，结合词性标注分组，计算出 Token 级别的贡献权重并校准学习信号。它成功解决了传统终局奖励无法向迭代去噪过程中具体 Token 提供精细指导的问题，在数学推理基准测试中显著提升了模型表现。&lt;/p&gt;&lt;p&gt;★★★ · HF Daily Papers · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-10-29.html"&gt;2026-10-29 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>Dayjob 评测基准：在 50 项专业税务任务中考验 AI Agent</title>
-<link>https://surgehq.ai/blog/dayjob-tax</link>
-<guid isPermaLink="false">97373eedda74</guid>
-<pubDate>Wed, 28 Oct 2026 11:46:00 -0400</pubDate>
-<description>&lt;p&gt;这是 Surge AI 推出的专业税务智能体评估基准 DAYJOB: Tax，专门测试 AI 代理在多达 50 个真实专业税务场景中的综合工作能力。测试涵盖个人申报、跨国税务和公司交易等八大领域，要求模型处理含有数百份各类文件的复杂工作区，并主动挖掘未在初始提示中指明的关键问题和冲突事实。该基准凸显了专业场景下全面严谨审视任务的难度，当前顶级模型如 Claude Sonnet 5.5 的通过率也仅有 10.8%，暴露出 AI 在处理开放性、高责任专业任务时的巨大局限。&lt;/p&gt;&lt;p&gt;★★★ · Hacker News · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-10-29.html"&gt;2026-10-29 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>无需调整模型权重：测试期记忆演化助力科学发现</title>
-<link>https://huggingface.co/papers/2610.32046</link>
-<guid isPermaLink="false">8ec671179897</guid>
-<pubDate>Tue, 27 Oct 2026 20:00:00 -0400</pubDate>
-<description>&lt;p&gt;该研究探讨了“测试期记忆演化”技术，通过在推理阶段动态更新外部记忆而不修改模型核心参数，在科学发现任务中展现出比传统测试期训练更高的高效性。&lt;/p&gt;&lt;p&gt;★★★ · HF Daily Papers · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-10-29.html"&gt;2026-10-29 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>Anthropic 拓展 AI for Science 计划，与全球 20 家科研机构合作</title>
-<link>https://www.anthropic.com/news/ai-for-science-expands-foundations-research-institutions</link>
-<guid isPermaLink="false">ad10900db6cd</guid>
-<pubDate>Tue, 27 Oct 2026 20:00:00 -0400</pubDate>
-<description>&lt;p&gt;这是 Anthropic 宣布将其“AI for Science”项目拓展至全球 20 家科研基金会、学术机构和前沿研究项目的举措。该计划通过向从事高影响力科学探索的研究人员直接提供免费的 Claude 算力额度，并联手开发通用标准工具（如让 AI 安全操作实验仪器的 MHS 规范）。此举旨在利用大语言模型辅助科学家进行假设生成、复杂数据分析和实验设计，并促进开源软件及共享科学数据集等公共产品的产出。&lt;/p&gt;&lt;p&gt;★★★ · Anthropic · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-10-29.html"&gt;2026-10-29 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>

@@ -8,16 +8,13 @@
 
 | 重要度 | 标题 | 摘要 | 来源 |
 |---|---|---|---|
-| ★★★★★ | [黄仁勋卸任英伟达CEO](https://www.qbitai.com/2026/11/509995.html) | 英伟达经历33年后首次更换掌门人，引发市场剧烈震荡，标志着一段AI计算时代的结束。 | 量子位 |
 | ★★★★ | [开源AI生态的重构](https://www.interconnects.ai/p/open-source-ai-without-jensen) | 文章探讨了在缺乏NVIDIA支持的环境下，开源人工智能领域应如何寻求独立发展与重建。 | Interconnects |
 | ★★★★ | [传Nvidia曾通过资助初创公司购买其GPU来制造稀缺感](https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus) | 有报道称Nvidia涉嫌通过向AI初创公司提供资金来换取对方购买其GPU，以此人为制造市场需求火爆和硬件稀缺的假象，引发了关于商业公平竞争的讨论。 | Hacker News |
 | ★★★★ | [DeepSeek正式开放全家桶API](https://www.qbitai.com/2026/11/510003.html) | DeepSeek宣布向开发者开放全套API接口，支持对其官方应用功能的自由组合与调用，降低了开发门槛。 | 量子位 |
-| ★★★★ | [数学领域的突破将加速AI发展](https://www.dwarkesh.com/p/rsi) | 探讨了数学领域的快速进展如何反哺AI研究，作者据此推测通用人工智能（Superintelligence）可能在2030年实现。 | Dwarkesh Podcast |
-| ★★★★ | [AI 助力破解哥德尔手稿中的数百条数学定理](https://www.theguardian.com/science/2026/nov/13/kurt-godel-notebooks-ai-helps-unlock-hidden-discoveries-man-who-transformed-maths) | 研究人员利用 AI 技术成功解读了数学家哥德尔（Gödel）留下的手稿，从中发现了数百条已证明的定理，展现了 AI 在数学史研究中的潜力。 | Hacker News |
-| ★★★★ | [OpenAI推出ChatGPT Wallet](https://openai.com/index/introducing-chatgpt-wallet) | 为智能体（Agent）引入钱包功能，支持在获得用户批准的情况下完成自动化购买任务。 | OpenAI |
+| ★★★ | [用约200行Jax代码实现DeepSeek V3模型架构](https://github.com/Vaibhaav-Tiwari/deepseek-v3-jax) | 开发者展示了如何使用Jax这一高性能机器学习编程框架，仅用约200行代码复现了DeepSeek V3的核心架构。该项目有助于理解大型语言模型背后的数学逻辑，是深入学习模型底层实现的一次极简练习。 | Hacker News |
+| ★★★ | [生物医药预测领域迎来严苛基准测试](https://www.qbitai.com/2026/11/510232.html) | 斯坦福等顶尖团队发布了针对湿实验（生物实验室物理实验）的严苛预测基准，旨在评估AI在复杂生命科学任务中的真实表现。 | 量子位 |
 | ★★★ | [反“AI垃圾内容”宣言发布](https://latent.space/p/ainews-the-no-ai-slop-manifesto/) | 针对网络上泛滥的低质量AI生成内容（Slop），业界专家联手发布宣言，探讨如何对抗这种严重污染信息环境的行为，值得关注AI生态的健康发展。 | Latent Space |
-| ★★★ | [llama.cpp v1.0.0发布](https://huggingface.co/blog/ggml-org/llama-cpp-v1) | 这一版本为本地AI生态系统提供了更稳固的底层支持，优化了在本地设备上运行大模型的能力。 | Hugging Face |
-| ★★★ | [Shield 利用 AI 自动化处理旧版 IT 系统工作流](https://openai.com/business/customer-stories/shield) | Shield 使用 OpenAI 的大模型技术开发 Forge 智能体，自动处理繁琐的旧版门户网站操作，让 IT 技术人员能腾出精力处理更复杂的决策性事务。 | OpenAI |
+| ★★★ | [系统一模型能力测评平台SO-Arena发布](https://huggingface.co/papers/2611.15777) | SO-Arena基准测试旨在评估AI“系统一”（即反应迅速、直觉式的模型）在跨领域任务中的可靠性，揭示了性能扩展与决策稳定性之间的复杂关系。 | HF Daily Papers |
 
 <!-- latest:end -->
 
@@ -25,13 +22,13 @@
 
 <!-- archive:start -->
 
+- [2026-11-15](digest/2026/2026-11-15.md)：1 条精选
 - [2026-11-14](digest/2026/2026-11-14.md)：7 条精选
 - [2026-11-13](digest/2026/2026-11-13.md)：10 条精选
 - [2026-11-12](digest/2026/2026-11-12.md)：10 条精选
 - [2026-11-11](digest/2026/2026-11-11.md)：10 条精选
 - [2026-11-10](digest/2026/2026-11-10.md)：10 条精选
 - [2026-11-09](digest/2026/2026-11-09.md)：10 条精选
-- [2026-11-08](digest/2026/2026-11-08.md)：6 条精选
 - [2026-W45（11-02 至 11-08）](digest/2026/2026-W45.md)：10 条精选
 - [2026-W44（10-26 至 11-01）](digest/2026/2026-W44.md)：10 条精选
 - [2026-W43（10-19 至 10-25）](digest/2026/2026-W43.md)：10 条精选
