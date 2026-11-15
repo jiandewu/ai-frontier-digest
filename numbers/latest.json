@@ -96,25 +96,25 @@
   {
    "section": "AI",
    "number": "200行",
-   "label": "复现DeepSeek V3架构的代码行数",
+   "label": "实现DeepSeek V3架构的代码行数",
    "title": "用约200行Jax代码实现DeepSeek V3模型架构",
    "link": "https://github.com/Vaibhaav-Tiwari/deepseek-v3-jax"
   },
   {
    "section": "科学",
-   "number": "39.5亿年",
-   "label": "中国北部发现的古老岩石距今年代",
-   "title": "中国北部发现39.5亿年前古老岩石，揭示地球早期历史",
-   "link": "https://phys.org/news/2026-11-oldest-earth-early-history.html"
+   "number": "12.3%",
+   "label": "新冠疫情封锁期间全球火灾活动的降幅",
+   "title": "新冠疫情期间全球火灾活动下降",
+   "link": "https://arstechnica.com/science/2026/11/how-the-worlds-fires-changed-while-humanity-hit-pause/"
   },
   {
    "section": "美股",
    "number": "1.4万亿美元",
-   "label": "Anthropic寻求上市的最高估值",
+   "label": "Anthropic寻求的IPO最高估值",
    "title": "Anthropic寻求最高1.4万亿美元估值上市，检验市场对AI信心",
    "link": "https://jiande.is-a.si/us-market/news/2026/2026-11-14.html#news-3"
   }
  ],
- "newsKey": "ai-ad8b3d5bdfd0,market-2026-11-14-1,market-2026-11-14-2,market-2026-11-14-3,market-2026-11-14-4,market-2026-11-14-5,science-037e089a5d55,science-32da69861ad6,science-7b3fa9f63382,science-ba392d6a4357,science-df42fd5a2698",
- "updated": "2026-11-15T08:04:14+00:00"
+ "newsKey": "ai-950ac38f23f2,ai-ad8b3d5bdfd0,market-2026-11-14-1,market-2026-11-14-2,market-2026-11-14-3,market-2026-11-14-4,market-2026-11-14-5,science-28ed6c47f840,science-45256f4846ed,science-94839cd568be,science-c483ec2db561,science-cf7772475fef",
+ "updated": "2026-11-15T19:25:53+00:00"
 }
