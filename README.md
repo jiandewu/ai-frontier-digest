@@ -8,13 +8,13 @@
 
 | 重要度 | 标题 | 摘要 | 来源 |
 |---|---|---|---|
-| ★★★★★ | [DeepSeek正式开放全家桶API](https://www.qbitai.com/2026/11/510003.html) | DeepSeek宣布向开发者开放全套API接口，支持对其官方应用功能的自由组合与调用，降低了开发门槛。 | 量子位 |
 | ★★★★ | [解构现代大模型中的位置编码](https://magazine.sebastianraschka.com/p/understanding-positional-embeddings) | 深入浅出地解释了大型语言模型如何利用位置编码（Positional Embeddings）来理解文本中词语的先后顺序。这项技术是现代 Transformer 架构理解上下文逻辑的基础，对理解模型为何能处理长文本至关重要。 | Ahead of AI |
 | ★★★★ | [开源AI生态的重构](https://www.interconnects.ai/p/open-source-ai-without-jensen) | 文章探讨了在缺乏NVIDIA支持的环境下，开源人工智能领域应如何寻求独立发展与重建。 | Interconnects |
 | ★★★★ | [传Nvidia曾通过资助初创公司购买其GPU来制造稀缺感](https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus) | 有报道称Nvidia涉嫌通过向AI初创公司提供资金来换取对方购买其GPU，以此人为制造市场需求火爆和硬件稀缺的假象，引发了关于商业公平竞争的讨论。 | Hacker News |
+| ★★★★ | [DeepSeek正式开放全家桶API](https://www.qbitai.com/2026/11/510003.html) | DeepSeek宣布向开发者开放全套API接口，支持对其官方应用功能的自由组合与调用，降低了开发门槛。 | 量子位 |
+| ★★★ | [AI生成的代码是否应该强制开源？](https://jakub.jankiewicz.org/blog/ai-code-open-source/) | 针对AI编写代码的所有权与开源归属展开的热烈讨论，探讨了技术普及与开发者权益之间的博弈。这一议题触及了AI时代知识产权保护的核心矛盾，对软件工程生态有着深远影响。 | Hacker News |
 | ★★★ | [生物医药预测领域迎来严苛基准测试](https://www.qbitai.com/2026/11/510232.html) | 斯坦福等顶尖团队发布了针对湿实验（生物实验室物理实验）的严苛预测基准，旨在评估AI在复杂生命科学任务中的真实表现。 | 量子位 |
 | ★★★ | [反“AI垃圾内容”宣言发布](https://latent.space/p/ainews-the-no-ai-slop-manifesto/) | 针对网络上泛滥的低质量AI生成内容（Slop），业界专家联手发布宣言，探讨如何对抗这种严重污染信息环境的行为，值得关注AI生态的健康发展。 | Latent Space |
-| ★★★ | [Jonathan Blow谈AI编程：为何现有软件并未发生质变？](https://www.youtube.com/watch?v=IRK8h67ol7Q) | 知名游戏开发者Jonathan Blow质疑，既然AI编程工具已如此先进，为什么目前的软件质量和生产力没有出现预期的革命性提升，反思了AI辅助开发的实际效能。 | Hacker News |
 | ★★★ | [系统一模型能力测评平台SO-Arena发布](https://huggingface.co/papers/2611.15777) | SO-Arena基准测试旨在评估AI“系统一”（即反应迅速、直觉式的模型）在跨领域任务中的可靠性，揭示了性能扩展与决策稳定性之间的复杂关系。 | HF Daily Papers |
 
 <!-- latest:end -->
@@ -23,7 +23,7 @@
 
 <!-- archive:start -->
 
-- [2026-11-15](digest/2026/2026-11-15.md)：2 条精选
+- [2026-11-15](digest/2026/2026-11-15.md)：3 条精选
 - [2026-11-14](digest/2026/2026-11-14.md)：7 条精选
 - [2026-11-13](digest/2026/2026-11-13.md)：10 条精选
 - [2026-11-12](digest/2026/2026-11-12.md)：10 条精选
