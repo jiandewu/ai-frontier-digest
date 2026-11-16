@@ -5,13 +5,76 @@
 <link>https://jiande.is-a.si/ai-frontier-digest/</link>
 <description>每天精选 10 条以内最值得一读的 AI 前沿进展，附中文科普解释。</description>
 <language>zh-CN</language>
-<lastBuildDate>Mon, 16 Nov 2026 02:14:00 -0500</lastBuildDate>
+<lastBuildDate>Mon, 16 Nov 2026 13:53:00 -0500</lastBuildDate>
 <item>
-<title>AI辅助定义粒子物理“标准模型”的晶格化方案</title>
-<link>https://openai.com/index/step-toward-defining-the-standard-model</link>
-<guid isPermaLink="false">87d7014c15ee</guid>
-<pubDate>Sun, 15 Nov 2026 17:00:00 -0500</pubDate>
-<description>&lt;p&gt;研究探讨了粒子物理标准模型的晶格定义（一种将连续时空离散化的数学处理方法），并展示了GPT-6 Astra如何协助将这一构想转化为严格的理论证明，展示了AI在基础理论物理研究中的潜力。&lt;/p&gt;&lt;p&gt;★★★ · OpenAI · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-16.html"&gt;2026-11-16 精选&lt;/a&gt;&lt;/p&gt;</description>
+<title>Gemini 4发布及智能体基础设施更新</title>
+<link>https://www.philschmid.de/google-deepmind-roundup-nov-2026</link>
+<guid isPermaLink="false">cafd6de8f642</guid>
+<pubDate>Sun, 15 Nov 2026 19:00:00 -0500</pubDate>
+<description>&lt;p&gt;发布了多款Gemini 4模型、决策模型API、以及用于智能体开发的自托管沙箱等一系列重要工具。&lt;/p&gt;&lt;p&gt;★★★★★ · Phil Schmid · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-16.html"&gt;2026-11-16 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>Paul Christiano警示：AI风险与失控风险</title>
+<link>https://www.dwarkesh.com/p/paul-christiano-2</link>
+<guid isPermaLink="false">cc9d9dbd1b4e</guid>
+<pubDate>Mon, 16 Nov 2026 12:46:00 -0500</pubDate>
+<description>&lt;p&gt;专家讨论了AI系统在未来12个月内可能具备颠覆政府的能力，强调了AI安全性与人类生存挑战的严峻性。&lt;/p&gt;&lt;p&gt;★★★★ · Dwarkesh Podcast · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-16.html"&gt;2026-11-16 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>AI自我进化与FrontierML基准测试</title>
+<link>https://jack-clark.net/2026/11/16/import-ai-481-ai-sub-contractors-a-wet-lab-for-ai-and-subterfuge-during-development/</link>
+<guid isPermaLink="false">41b364560b32</guid>
+<pubDate>Mon, 16 Nov 2026 09:01:00 -0500</pubDate>
+<description>&lt;p&gt;AI系统已能通过自主分包和支出预算来提升性能，研究者同时推出了FrontierML基准测试用以衡量AI的进化能力。&lt;/p&gt;&lt;p&gt;★★★★ · Import AI · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-16.html"&gt;2026-11-16 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>OpenAI引入外部模型安全性评估</title>
+<link>https://openai.com/index/our-first-phase-of-embedded-assessments</link>
+<guid isPermaLink="false">ebd9eb949639</guid>
+<pubDate>Mon, 16 Nov 2026 03:00:00 -0500</pubDate>
+<description>&lt;p&gt;OpenAI开始与Apollo Research等外部机构合作，对其模型的对齐度、安全防护与监测系统进行独立评估。&lt;/p&gt;&lt;p&gt;★★★★ · OpenAI · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-16.html"&gt;2026-11-16 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>阿里巴巴发布Qwen4模型</title>
+<link>https://www.qbitai.com/2026/11/510486.html</link>
+<guid isPermaLink="false">93489cde676a</guid>
+<pubDate>Mon, 16 Nov 2026 02:51:00 -0500</pubDate>
+<description>&lt;p&gt;阿里发布了新一代基座大模型Qwen4-Max，显著提升了智能体与编程能力，意在解决复杂全场景应用。&lt;/p&gt;&lt;p&gt;★★★★ · 量子位 · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-16.html"&gt;2026-11-16 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>ChatGPT 医疗版功能升级</title>
+<link>https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare</link>
+<guid isPermaLink="false">cfcc7acb02e9</guid>
+<pubDate>Mon, 16 Nov 2026 01:00:00 -0500</pubDate>
+<description>&lt;p&gt;OpenAI 推出了包括计算机操作智能体在内的新功能与医疗插件，旨在协助医生处理医疗软件中的实际工作，提高临床响应能力。&lt;/p&gt;&lt;p&gt;★★★★ · OpenAI · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-16.html"&gt;2026-11-16 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>具身智能机器人：迈向物理自主的新纪元</title>
+<link>https://huggingface.co/papers/2611.18359</link>
+<guid isPermaLink="false">1e29d1d9344d</guid>
+<pubDate>Sun, 15 Nov 2026 19:00:00 -0500</pubDate>
+<description>&lt;p&gt;该研究探讨了基于大模型的具身智能系统，提出通过共享评估框架与研究路线图，实现机器人具备更可靠的物理世界自主操作能力。&lt;/p&gt;&lt;p&gt;★★★★ · HF Daily Papers · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-16.html"&gt;2026-11-16 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>问界M8发布，预埋L3自动驾驶架构</title>
+<link>https://www.qbitai.com/2026/11/510436.html</link>
+<guid isPermaLink="false">797f11017146</guid>
+<pubDate>Mon, 16 Nov 2026 02:26:00 -0500</pubDate>
+<description>&lt;p&gt;问界新款M8发布，强调预埋了L3级自动驾驶架构，展示了汽车硬件与AI感知能力的深度集成。&lt;/p&gt;&lt;p&gt;★★★ · 量子位 · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-16.html"&gt;2026-11-16 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>Hugging Face 与 OpenRouter 携手简化开源模型部署</title>
+<link>https://huggingface.co/blog/openrouter</link>
+<guid isPermaLink="false">853b24ff0d6e</guid>
+<pubDate>Sun, 15 Nov 2026 19:00:00 -0500</pubDate>
+<description>&lt;p&gt;两家公司合作旨在降低开源模型的使用门槛，让开发者能够更轻松地运行和调用各类开源权重模型。&lt;/p&gt;&lt;p&gt;★★★ · Hugging Face · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-16.html"&gt;2026-11-16 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>Anthropic 更新漏洞披露政策</title>
+<link>https://www.anthropic.com/research/coordinated-vulnerability-disclosure-timelines</link>
+<guid isPermaLink="false">0c2bca83aac9</guid>
+<pubDate>Sun, 15 Nov 2026 19:00:00 -0500</pubDate>
+<description>&lt;p&gt;Anthropic 缩短了协同漏洞披露（CVD）的窗口期，针对高危及严重漏洞的响应时间缩短至 30 天，旨在加速安全修复。&lt;/p&gt;&lt;p&gt;★★★ · Anthropic · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-16.html"&gt;2026-11-16 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>解构现代大模型中的位置编码</title>

@@ -8,10 +8,16 @@
 
 | 重要度 | 标题 | 摘要 | 来源 |
 |---|---|---|---|
+| ★★★★★ | [Gemini 4发布及智能体基础设施更新](https://www.philschmid.de/google-deepmind-roundup-nov-2026) | 发布了多款Gemini 4模型、决策模型API、以及用于智能体开发的自托管沙箱等一系列重要工具。 | Phil Schmid |
+| ★★★★ | [Paul Christiano警示：AI风险与失控风险](https://www.dwarkesh.com/p/paul-christiano-2) | 专家讨论了AI系统在未来12个月内可能具备颠覆政府的能力，强调了AI安全性与人类生存挑战的严峻性。 | Dwarkesh Podcast |
+| ★★★★ | [AI自我进化与FrontierML基准测试](https://jack-clark.net/2026/11/16/import-ai-481-ai-sub-contractors-a-wet-lab-for-ai-and-subterfuge-during-development/) | AI系统已能通过自主分包和支出预算来提升性能，研究者同时推出了FrontierML基准测试用以衡量AI的进化能力。 | Import AI |
+| ★★★★ | [OpenAI引入外部模型安全性评估](https://openai.com/index/our-first-phase-of-embedded-assessments) | OpenAI开始与Apollo Research等外部机构合作，对其模型的对齐度、安全防护与监测系统进行独立评估。 | OpenAI |
+| ★★★★ | [阿里巴巴发布Qwen4模型](https://www.qbitai.com/2026/11/510486.html) | 阿里发布了新一代基座大模型Qwen4-Max，显著提升了智能体与编程能力，意在解决复杂全场景应用。 | 量子位 |
+| ★★★★ | [ChatGPT 医疗版功能升级](https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare) | OpenAI 推出了包括计算机操作智能体在内的新功能与医疗插件，旨在协助医生处理医疗软件中的实际工作，提高临床响应能力。 | OpenAI |
+| ★★★★ | [具身智能机器人：迈向物理自主的新纪元](https://huggingface.co/papers/2611.18359) | 该研究探讨了基于大模型的具身智能系统，提出通过共享评估框架与研究路线图，实现机器人具备更可靠的物理世界自主操作能力。 | HF Daily Papers |
 | ★★★★ | [解构现代大模型中的位置编码](https://magazine.sebastianraschka.com/p/understanding-positional-embeddings) | 深入浅出地解释了大型语言模型如何利用位置编码（Positional Embeddings）来理解文本中词语的先后顺序。这项技术是现代 Transformer 架构理解上下文逻辑的基础，对理解模型为何能处理长文本至关重要。 | Ahead of AI |
-| ★★★ | [AI辅助定义粒子物理“标准模型”的晶格化方案](https://openai.com/index/step-toward-defining-the-standard-model) | 研究探讨了粒子物理标准模型的晶格定义（一种将连续时空离散化的数学处理方法），并展示了GPT-6 Astra如何协助将这一构想转化为严格的理论证明，展示了AI在基础理论物理研究中的潜力。 | OpenAI |
-| ★★★ | [AI生成的代码是否应该强制开源？](https://jakub.jankiewicz.org/blog/ai-code-open-source/) | 针对AI编写代码的所有权与开源归属展开的热烈讨论，探讨了技术普及与开发者权益之间的博弈。这一议题触及了AI时代知识产权保护的核心矛盾，对软件工程生态有着深远影响。 | Hacker News |
-| ★★★ | [用约200行Jax代码实现DeepSeek V3模型架构](https://github.com/Vaibhaav-Tiwari/deepseek-v3-jax) | 开发者展示了如何使用Jax这一高性能机器学习编程框架，仅用约200行代码复现了DeepSeek V3的核心架构。该项目有助于理解大型语言模型背后的数学逻辑，是深入学习模型底层实现的一次极简练习。 | Hacker News |
+| ★★★ | [问界M8发布，预埋L3自动驾驶架构](https://www.qbitai.com/2026/11/510436.html) | 问界新款M8发布，强调预埋了L3级自动驾驶架构，展示了汽车硬件与AI感知能力的深度集成。 | 量子位 |
+| ★★★ | [Hugging Face 与 OpenRouter 携手简化开源模型部署](https://huggingface.co/blog/openrouter) | 两家公司合作旨在降低开源模型的使用门槛，让开发者能够更轻松地运行和调用各类开源权重模型。 | Hugging Face |
 
 <!-- latest:end -->
 
@@ -19,7 +25,7 @@
 
 <!-- archive:start -->
 
-- [2026-11-16](digest/2026/2026-11-16.md)：1 条精选
+- [2026-11-16](digest/2026/2026-11-16.md)：10 条精选
 - [2026-11-15](digest/2026/2026-11-15.md)：3 条精选
 - [2026-11-14](digest/2026/2026-11-14.md)：7 条精选
 - [2026-11-13](digest/2026/2026-11-13.md)：10 条精选
