@@ -5,20 +5,27 @@
 <link>https://jiande.is-a.si/ai-frontier-digest/</link>
 <description>每天精选 10 条以内最值得一读的 AI 前沿进展，附中文科普解释。</description>
 <language>zh-CN</language>
-<lastBuildDate>Sun, 15 Nov 2026 16:15:00 -0500</lastBuildDate>
+<lastBuildDate>Mon, 16 Nov 2026 02:14:00 -0500</lastBuildDate>
+<item>
+<title>AI辅助定义粒子物理“标准模型”的晶格化方案</title>
+<link>https://openai.com/index/step-toward-defining-the-standard-model</link>
+<guid isPermaLink="false">87d7014c15ee</guid>
+<pubDate>Sun, 15 Nov 2026 17:00:00 -0500</pubDate>
+<description>&lt;p&gt;研究探讨了粒子物理标准模型的晶格定义（一种将连续时空离散化的数学处理方法），并展示了GPT-6 Astra如何协助将这一构想转化为严格的理论证明，展示了AI在基础理论物理研究中的潜力。&lt;/p&gt;&lt;p&gt;★★★ · OpenAI · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-16.html"&gt;2026-11-16 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
 <item>
 <title>解构现代大模型中的位置编码</title>
 <link>https://magazine.sebastianraschka.com/p/understanding-positional-embeddings</link>
 <guid isPermaLink="false">950ac38f23f2</guid>
 <pubDate>Sun, 15 Nov 2026 07:10:00 -0500</pubDate>
-<description>&lt;p&gt;深入浅出地解释了大型语言模型如何利用位置编码（Positional Embeddings）来理解文本中词语的先后顺序。这项技术是现代 Transformer 架构理解上下文逻辑的基础，对理解模型为何能处理长文本至关重要。&lt;/p&gt;&lt;p&gt;★★★★ · Ahead of AI · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-15.html"&gt;2026-11-15 精选&lt;/a&gt;&lt;/p&gt;</description>
+<description>&lt;p&gt;这是一篇关于大语言模型（LLM）中位置编码机制的深度技术科普。文章解释了模型如何通过将位置向量与词嵌入（Token Embedding）结合，或利用如 RoPE（旋转位置编码）等技术在注意力机制中显式注入位置信息。这种机制对于模型准确理解文本顺序至关重要，弥补了自注意力机制在位置感知上的不足。&lt;/p&gt;&lt;p&gt;★★★★ · Ahead of AI · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-15.html"&gt;2026-11-15 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>AI生成的代码是否应该强制开源？</title>
 <link>https://jakub.jankiewicz.org/blog/ai-code-open-source/</link>
 <guid isPermaLink="false">de1b04aef218</guid>
 <pubDate>Sun, 15 Nov 2026 09:46:00 -0500</pubDate>
-<description>&lt;p&gt;针对AI编写代码的所有权与开源归属展开的热烈讨论，探讨了技术普及与开发者权益之间的博弈。这一议题触及了AI时代知识产权保护的核心矛盾，对软件工程生态有着深远影响。&lt;/p&gt;&lt;p&gt;★★★ · Hacker News · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-15.html"&gt;2026-11-15 精选&lt;/a&gt;&lt;/p&gt;</description>
+<description>&lt;p&gt;这是一篇关于 AI 生成代码是否应开源的观点讨论。作者指出，AI 模型训练主要依赖于开源社区贡献的代码和知识库，因此将 AI 生成的成果封闭为私有产品存在伦理和法律争议。文章强调了非人类生成内容版权保护的局限性，呼吁将 AI 生成代码归于开源或公有领域以回馈生态。&lt;/p&gt;&lt;p&gt;★★★ · Hacker News · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-15.html"&gt;2026-11-15 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>用约200行Jax代码实现DeepSeek V3模型架构</title>
@@ -761,76 +768,6 @@
 <guid isPermaLink="false">02c43a1d4661</guid>
 <pubDate>Wed, 28 Oct 2026 20:00:00 -0400</pubDate>
 <description>&lt;p&gt;OmniShowcase 是一项旨在从多张参考视角图像生成主体一致的全向环绕视频的新研究。它构建了一个包含 360 度轨迹的自动化合成训练流水线，并引入由参考视角重构出的表面法线图（surface-normal maps）转盘进行显式几何条件引导。该方法解决了以往视频模型在视角大幅转动时内部 3D 几何结构不一致、容易发生形变的问题。&lt;/p&gt;&lt;p&gt;★★★ · HF Daily Papers · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-10-31.html"&gt;2026-10-31 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>解读 421 页招股书：Anthropic 财务表现出人意料地强劲</title>
-<link>https://www.understandingai.org/p/anthropics-financials-are-surprisingly</link>
-<guid isPermaLink="false">f7d0f7defa94</guid>
-<pubDate>Thu, 29 Oct 2026 15:10:00 -0400</pubDate>
-<description>&lt;p&gt;该分析解读了 Anthropic 公开提交的 S-1 招股说明书，揭示了其出人意料的强劲现金储备及在 2026 年第二季度实现的首次运营盈利。然而，招股书同时显示公司已与亚马逊、谷歌等算力供应商签订了数百亿美元的长期算力承诺，且第三季度营收环比增速出现了一定程度的放缓。这表明 Anthropic 未来的盈利健康极度依赖于业务规模的持续指数级扩张，否则巨额算力沉没成本将带来财务压力。&lt;/p&gt;&lt;p&gt;★★★★★ · Understanding AI · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-10-30.html"&gt;2026-10-30 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>Mistral Large 4 上线 Hugging Face，代号“Le Chonk”</title>
-<link>https://huggingface.co/blog/mistral-large4</link>
-<guid isPermaLink="false">a1765f446c5b</guid>
-<pubDate>Wed, 28 Oct 2026 20:00:00 -0400</pubDate>
-<description>&lt;p&gt;Mistral Large 4（又名 Le Chonk）是 Mistral 推出的多模态、混合专家（MoE）开源模型，总参数量达 1T，激活参数为 49B，支持 1M 上下文。该架构结合了 Multi-head Latent Attention (MLA) 和稀疏注意力索引器，并集成 1.6B 的 Pixtral 视觉编码器，在安全漏洞复现与修补测试中取得了 82% 的高分。其以开放权重形式发布，为企业在受控环境下进行代码修复与安全防御部署提供了强有力的底座。&lt;/p&gt;&lt;p&gt;★★★★★ · Hugging Face · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-10-30.html"&gt;2026-10-30 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>OpenAI 更新模型行为准则：树立五大核心价值观引导高能力 AI</title>
-<link>https://openai.com/index/updated-model-spec</link>
-<guid isPermaLink="false">7bf0065ceb16</guid>
-<pubDate>Thu, 29 Oct 2026 13:00:00 -0400</pubDate>
-<description>&lt;p&gt;OpenAI 发布更新版 Model Spec（模型行为规范），明确了指引模型合理判断、尊重人类自主权及忠于人类意图的五项核心价值观。&lt;/p&gt;&lt;p&gt;★★★★ · OpenAI · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-10-30.html"&gt;2026-10-30 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>“硅基样本”的前沿探索：用 AI 模拟人类群体的得与失</title>
-<link>https://www.argmin.net/p/frontiers-in-making-up-people</link>
-<guid isPermaLink="false">cef0e37d47c0</guid>
-<pubDate>Thu, 29 Oct 2026 10:41:00 -0400</pubDate>
-<description>&lt;p&gt;文章探讨了计算社会科学中日益流行的“硅基抽样”（Silicon Sampling）现象，即使用大语言模型充当“数字替身”来替代真人进行民意调查与社会学实验。作者对这一趋势提出质疑，指出虽然 LLM 擅长基于训练模式预测宏观结果，但缺乏群体内部的多样性，容易将特定人口标签简化为同质化输出。这引发了学界对 LLM 模拟研究究竟是在测量真实人类心智，还是仅反映模型统计幻觉的深刻反思。&lt;/p&gt;&lt;p&gt;★★★★ · arg min · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-10-30.html"&gt;2026-10-30 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>OpenAI 揭秘前沿模型“对齐失效”检测与干预机制</title>
-<link>https://openai.com/index/how-we-detect-frontier-model-misalignment</link>
-<guid isPermaLink="false">d28967fce9c6</guid>
-<pubDate>Thu, 29 Oct 2026 05:00:00 -0400</pubDate>
-<description>&lt;p&gt;介绍 OpenAI 如何通过多层级监控机制，提前检测前沿模型在价值观对齐上的偏差以及未授权的智能体行为，确保在风险扩大前及时响应。&lt;/p&gt;&lt;p&gt;★★★★ · OpenAI · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-10-30.html"&gt;2026-10-30 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>基于 Qwen3-TTS 打造定制化游戏旁白声音</title>
-<link>https://lucumr.pocoo.org/2026/10/29/qwen3-custom-voices/</link>
-<guid isPermaLink="false">6264c8b4e376</guid>
-<pubDate>Wed, 28 Oct 2026 20:00:00 -0400</pubDate>
-<description>&lt;p&gt;这是一篇关于利用开源模型 Qwen3-TTS 定制非通用 AI 配音的实践指南。作者利用提取自极短语音的 2048 维扬声器向量（embedding），实现了两个不同声音特征在数学层面的加权混合，并将该向量注入到支持指令的 CustomVoice 模型中以实现语气调节。这种轻量级的向量算术与模型组合技巧，使得开发者无需重新微调整个模型即可低成本定制具有特定表现力的个性化声音。&lt;/p&gt;&lt;p&gt;★★★★ · Armin Ronacher · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-10-30.html"&gt;2026-10-30 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>在《我的世界》与 Mindustry 中实测 AI 多智能体群体协同</title>
-<link>https://labs.ycombinator.com/projects/games/index.html</link>
-<guid isPermaLink="false">d8eb5a4b641e</guid>
-<pubDate>Thu, 29 Oct 2026 17:40:00 -0400</pubDate>
-<description>&lt;p&gt;该项目在开放沙盒游戏《我的世界》中部署了由 50 个大模型智能体组成的集群，以观察其在生存压力下的自主协作机制。智能体们在无预设剧本的情况下自发建立了物资配给账本、书面规则与分工层级，但在首夜遭遇怪物导致大规模死亡后，群体策略迅速退化为极度规避风险的保守蜷缩状态。这项实证研究为多智能体系统的突现行为、社会结构形成以及面对生存危机时的对齐稳定性提供了直观参考。&lt;/p&gt;&lt;p&gt;★★★ · Hacker News · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-10-30.html"&gt;2026-10-30 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>前沿模型能否识破视觉干扰？Elorian 提出视觉推理新基准</title>
-<link>https://latent.space/p/elorian/</link>
-<guid isPermaLink="false">2df0e95472f6</guid>
-<pubDate>Thu, 29 Oct 2026 12:00:00 -0400</pubDate>
-<description>&lt;p&gt;初创公司 Elorian 推出了视觉推理模型 Glimpse 及评测基准 DecoyCount，旨在测试模型在受到视觉干扰或反光诱导时能否准确进行物体计数。该模型将图像生成与修改直接作为思考链（reasoning trace）的一部分，在测试中以 50.48% 的准确率超过了仅靠通用推理而缺乏深层视觉归因的前沿模型。这一方案强调视觉思考是通用人工智能的核心支柱，有助于解决仓储识别和规范核查等实际任务中的虚假视觉捷径问题。&lt;/p&gt;&lt;p&gt;★★★ · Latent Space · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-10-30.html"&gt;2026-10-30 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>LLM Voice 项目在 Hacker News 引发热议</title>
-<link>https://martinfowler.com/bliki/LLM-Voice.html</link>
-<guid isPermaLink="false">739e0b5535e3</guid>
-<pubDate>Thu, 29 Oct 2026 10:57:00 -0400</pubDate>
-<description>&lt;p&gt;知名软件思想家 Martin Fowler 撰文探讨了“LLM 语气”（LLM Voice）现象，形容其为一种引发读者本能排斥的文风“恐怖谷”。他警告作者不要直接依赖大语言模型生成初稿或润色文句，因为这不仅难以消除空洞的句式特征，更会剥夺写作者在字斟句酌中梳理思维的核心训练。尽管他承认 LLM 在疾病辅助或多语言翻译中有其特殊价值，但强调真实表达仍需保留人类独特的思考温度。&lt;/p&gt;&lt;p&gt;★★★ · Hacker News · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-10-30.html"&gt;2026-10-30 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>Granite Switch 4.1.1 发布：像更新软件一样更新模型</title>
-<link>https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1</link>
-<guid isPermaLink="false">f3538b6fb36f</guid>
-<pubDate>Thu, 29 Oct 2026 09:37:00 -0400</pubDate>
-<description>&lt;p&gt;IBM 发布了 Granite Switch 4.1.1 补丁版本，践行像交付普通软件一样模块化升级大语言模型组件的理念。此次更新在不触动和不重新计算底层基座模型的前提下，直接热插拔式地替换了多语言语音识别模型与决策微调适配器（adapter）。这种基于轻量化适配器的迭代方案大幅降低了前沿模型的重训算力消耗与运维门槛，提升了企业端服务的升级效率。&lt;/p&gt;&lt;p&gt;★★★ · Hugging Face · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-10-30.html"&gt;2026-10-30 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>
