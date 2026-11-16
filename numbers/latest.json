@@ -28,9 +28,9 @@
    "unit": "$",
    "decimals": 0,
    "change": "pct",
-   "date": "2026-11-14",
-   "value": 62890.64,
-   "previous": 68178.05,
+   "date": "2026-11-15",
+   "value": 64787.64,
+   "previous": 62890.64,
    "source": "https://fred.stlouisfed.org/series/CBBTCUSD"
   },
   {
@@ -61,9 +61,9 @@
    "unit": "$",
    "decimals": 0,
    "change": "pct",
-   "date": "2026-11-13",
-   "value": 3886.3,
-   "previous": 3885.3,
+   "date": "2026-11-16",
+   "value": 3857.8,
+   "previous": 3886.3,
    "detail": "COMEX 黄金期货（GC=F），美元/盎司",
    "source": "https://finance.yahoo.com/quote/GC=F/"
   },
@@ -73,9 +73,9 @@
    "unit": "",
    "decimals": 0,
    "change": "pct",
-   "date": "2026-11-13",
-   "value": 3634.35,
-   "previous": 3655.83,
+   "date": "2026-11-16",
+   "value": 3602.57,
+   "previous": 3634.35,
    "detail": "上证综合指数（000001.SS）",
    "source": "https://finance.yahoo.com/quote/000001.SS/"
   },
@@ -85,36 +85,29 @@
    "unit": "",
    "decimals": 0,
    "change": "abs",
-   "date": "2026-11-13",
-   "value": 555,
-   "previous": 419,
-   "detail": "cs.AI 113 · cs.CL 86 · cs.CV 170 · cs.LG 186",
+   "date": "2026-11-16",
+   "value": 269,
+   "previous": 555,
+   "detail": "cs.AI 82 · cs.CL 37 · cs.CV 72 · cs.LG 78",
    "source": "https://arxiv.org/list/cs.AI/new"
   }
  ],
  "news": [
   {
-   "section": "AI",
-   "number": "200行",
-   "label": "实现DeepSeek V3架构的代码行数",
-   "title": "用约200行Jax代码实现DeepSeek V3模型架构",
-   "link": "https://github.com/Vaibhaav-Tiwari/deepseek-v3-jax"
-  },
-  {
    "section": "科学",
-   "number": "12.3%",
-   "label": "新冠疫情封锁期间全球火灾活动的降幅",
-   "title": "新冠疫情期间全球火灾活动下降",
-   "link": "https://arstechnica.com/science/2026/11/how-the-worlds-fires-changed-while-humanity-hit-pause/"
+   "number": "1.5万个",
+   "label": "欧几里得望远镜发现的强引力透镜数量",
+   "title": "Euclid卫星发现海量宇宙“放大镜”，助力暗物质研究",
+   "link": "https://phys.org/news/2026-11-dark-matterhunting-satellite-euclid-reveals.html"
   },
   {
    "section": "美股",
-   "number": "1.4万亿美元",
-   "label": "Anthropic寻求的IPO最高估值",
-   "title": "Anthropic寻求最高1.4万亿美元估值上市，检验市场对AI信心",
-   "link": "https://jiande.is-a.si/us-market/news/2026/2026-11-14.html#news-3"
+   "number": "7倍",
+   "label": "Anthropic IPO获超额认购倍数",
+   "title": "Anthropic 首次公开募股即将来袭，承载 AI 交易复苏希望",
+   "link": "https://jiande.is-a.si/us-market/news/2026/2026-11-15.html#news-3"
   }
  ],
- "newsKey": "ai-950ac38f23f2,ai-ad8b3d5bdfd0,market-2026-11-14-1,market-2026-11-14-2,market-2026-11-14-3,market-2026-11-14-4,market-2026-11-14-5,science-28ed6c47f840,science-45256f4846ed,science-94839cd568be,science-c483ec2db561,science-cf7772475fef",
- "updated": "2026-11-15T19:25:53+00:00"
+ "newsKey": "ai-87d7014c15ee,market-2026-11-15-1,market-2026-11-15-2,market-2026-11-15-3,market-2026-11-15-4,market-2026-11-15-5,science-45256f4846ed,science-94839cd568be,science-c483ec2db561,science-cf7772475fef,science-f1dceb064fe5",
+ "updated": "2026-11-16T08:13:10+00:00"
 }
