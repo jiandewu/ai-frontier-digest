@@ -39,9 +39,9 @@
    "unit": "",
    "decimals": 4,
    "change": "abs",
-   "date": "2026-11-06",
-   "value": 6.676,
-   "previous": 6.668,
+   "date": "2026-11-13",
+   "value": 6.671,
+   "previous": 6.6704,
    "source": "https://fred.stlouisfed.org/series/DEXCHUS"
   },
   {
@@ -62,7 +62,7 @@
    "decimals": 0,
    "change": "pct",
    "date": "2026-11-16",
-   "value": 3857.8,
+   "value": 3859.0,
    "previous": 3886.3,
    "detail": "COMEX 黄金期货（GC=F），美元/盎司",
    "source": "https://finance.yahoo.com/quote/GC=F/"
@@ -73,9 +73,9 @@
    "unit": "",
    "decimals": 0,
    "change": "pct",
-   "date": "2026-11-16",
-   "value": 3602.57,
-   "previous": 3634.35,
+   "date": "2026-11-13",
+   "value": 3634.35,
+   "previous": 3655.83,
    "detail": "上证综合指数（000001.SS）",
    "source": "https://finance.yahoo.com/quote/000001.SS/"
   },
@@ -94,20 +94,27 @@
  ],
  "news": [
   {
+   "section": "AI",
+   "number": "30 天",
+   "label": "高危及严重漏洞的响应时间",
+   "title": "Anthropic 更新漏洞披露政策",
+   "link": "https://www.anthropic.com/research/coordinated-vulnerability-disclosure-timelines"
+  },
+  {
    "section": "科学",
-   "number": "1.5万个",
-   "label": "欧几里得望远镜发现的强引力透镜数量",
-   "title": "Euclid卫星发现海量宇宙“放大镜”，助力暗物质研究",
-   "link": "https://phys.org/news/2026-11-dark-matterhunting-satellite-euclid-reveals.html"
+   "number": "97%",
+   "label": "认为激素治疗是正确决定的参与者比例",
+   "title": "大规模研究显示多数跨性别青少年对激素治疗满意",
+   "link": "https://www.sciencenews.org/article/hormone-therapy-transgender-youth"
   },
   {
    "section": "美股",
-   "number": "7倍",
-   "label": "Anthropic IPO获超额认购倍数",
-   "title": "Anthropic 首次公开募股即将来袭，承载 AI 交易复苏希望",
-   "link": "https://jiande.is-a.si/us-market/news/2026/2026-11-15.html#news-3"
+   "number": "34 亿美元",
+   "label": "强生公司收购眼科药物开发商的最高价格",
+   "title": "强生公司拟以最高 34 亿美元收购眼科药物开发商 Ollin Biosciences",
+   "link": "https://jiande.is-a.si/us-market/news/2026/2026-11-15.html#news-4"
   }
  ],
- "newsKey": "ai-87d7014c15ee,market-2026-11-15-1,market-2026-11-15-2,market-2026-11-15-3,market-2026-11-15-4,market-2026-11-15-5,science-45256f4846ed,science-94839cd568be,science-c483ec2db561,science-cf7772475fef,science-f1dceb064fe5",
- "updated": "2026-11-16T08:13:10+00:00"
+ "newsKey": "ai-0c2bca83aac9,ai-1e29d1d9344d,ai-41b364560b32,ai-797f11017146,ai-853b24ff0d6e,ai-93489cde676a,ai-cafd6de8f642,ai-cc9d9dbd1b4e,ai-cfcc7acb02e9,ai-ebd9eb949639,market-2026-11-15-1,market-2026-11-15-2,market-2026-11-15-3,market-2026-11-15-4,market-2026-11-15-5,science-019575aece95,science-0666fbebdcbe,science-0baf2c27ca6a,science-4d070b71e5ce,science-69cec50353a0,science-c121029c2f78,science-dca169dba5fb,science-e7ca43a2112c",
+ "updated": "2026-11-16T22:57:44+00:00"
 }
