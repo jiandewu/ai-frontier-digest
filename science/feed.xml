@@ -5,27 +5,48 @@
 <link>https://jiande.is-a.si/ai-frontier-digest/science/</link>
 <description>每天精选 8 条以内最值得一读的科学新发现，附中文科普解释。</description>
 <language>zh-CN</language>
-<lastBuildDate>Sun, 15 Nov 2026 18:13:00 -0500</lastBuildDate>
+<lastBuildDate>Mon, 16 Nov 2026 05:12:00 -0500</lastBuildDate>
+<item>
+<title>CRISPR基因编辑脱靶效应监测新工具</title>
+<link>https://phys.org/news/2026-11-tool-tracks-unintended-crispr-effects.html</link>
+<guid isPermaLink="false">c121029c2f78</guid>
+<pubDate>Mon, 16 Nov 2026 05:00:00 -0500</pubDate>
+<description>&lt;p&gt;科研人员开发了一种新工具，可用于追踪CRISPR基因编辑过程中产生的意外脱靶（off-target）突变及其在单细胞中的影响，有助于提升基因疗法的安全性。&lt;/p&gt;&lt;p&gt;★★★★ · Phys.org · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/science/digest/2026/2026-11-16.html"&gt;2026-11-16 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>查亚峰（Puncak Jaya）上的最后冰川正在消融</title>
+<link>https://science.nasa.gov/earth/earth-observatory/the-last-ice-on-puncak-jaya/</link>
+<guid isPermaLink="false">dca169dba5fb</guid>
+<pubDate>Mon, 16 Nov 2026 00:00:00 -0500</pubDate>
+<description>&lt;p&gt;印度尼西亚查亚峰顶部的冰层已缩减为零散斑块，由于面积过小已无法像冰川那样流动，显示出气候变化的严重影响。&lt;/p&gt;&lt;p&gt;★★★★ · NASA · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/science/digest/2026/2026-11-16.html"&gt;2026-11-16 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>健康问题是英国青年失业与辍学主因</title>
+<link>https://phys.org/news/2026-11-young-people-largely-driven-ill.html</link>
+<guid isPermaLink="false">f9d286bf82c2</guid>
+<pubDate>Mon, 16 Nov 2026 05:02:00 -0500</pubDate>
+<description>&lt;p&gt;伦敦大学学院（UCL）的研究发现，英国未就业、未受教育或未接受培训的青年（NEETs）群体人数激增，主要由心理和生理健康状况恶化导致。&lt;/p&gt;&lt;p&gt;★★★ · Phys.org · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/science/digest/2026/2026-11-16.html"&gt;2026-11-16 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>Vulcan火箭发射任务遭遇失败</title>
+<link>https://arstechnica.com/space/2026/11/vulcan-rocket-fails-during-launch-dealing-major-blow-to-spacex-competitors/</link>
+<guid isPermaLink="false">172c020a5d34</guid>
+<pubDate>Sun, 15 Nov 2026 18:11:00 -0500</pubDate>
+<description>&lt;p&gt;联合发射联盟（United Launch Alliance）在拥有20年历史以来首次遭遇任务完全失败，这对SpaceX的竞争对手而言是一次重大挫折。&lt;/p&gt;&lt;p&gt;★★★ · Ars Technica · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/science/digest/2026/2026-11-16.html"&gt;2026-11-16 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
 <item>
 <title>SpaceX星舰实现发射塔空中捕获回收</title>
 <link>https://phys.org/news/2026-11-spacex-starship-orbit-captured-pad.html</link>
 <guid isPermaLink="false">cf7772475fef</guid>
 <pubDate>Sun, 15 Nov 2026 08:06:00 -0500</pubDate>
-<description>&lt;p&gt;SpaceX的星舰（Starship）在轨道测试后成功返回，并被发射塔的机械臂在空中精准捕获，这是航天史上的一项重要技术突破。&lt;/p&gt;&lt;p&gt;★★★★★ · Phys.org · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/science/digest/2026/2026-11-15.html"&gt;2026-11-15 精选&lt;/a&gt;&lt;/p&gt;</description>
+<description>&lt;p&gt;SpaceX的Starship飞船在完成环绕地球轨道测试后，被发射塔的机械臂在半空中成功捕获，这是该技术首次实现。研究者通过对比往期飞行数据与本次测试，验证了Starship火箭及其助推器的完全可重复使用性。尽管本次助推器回收失败，但此次飞船捕获的成功对于实现低成本的航天运输以及支持未来NASA的Artemis月球探测任务具有重要意义。&lt;/p&gt;&lt;p&gt;★★★★★ · Phys.org · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/science/digest/2026/2026-11-15.html"&gt;2026-11-15 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>Euclid卫星发现海量宇宙“放大镜”，助力暗物质研究</title>
 <link>https://phys.org/news/2026-11-dark-matterhunting-satellite-euclid-reveals.html</link>
 <guid isPermaLink="false">f1dceb064fe5</guid>
 <pubDate>Sun, 15 Nov 2026 15:00:00 -0500</pubDate>
-<description>&lt;p&gt;欧几里得（Euclid）太空望远镜最新识别出1.5万个潜在的强引力透镜（strong gravitational lenses），这些能放大远处星光的“宇宙放大镜”将为探测不可见的暗物质提供关键观测数据。&lt;/p&gt;&lt;p&gt;★★★★ · Phys.org · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/science/digest/2026/2026-11-15.html"&gt;2026-11-15 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>天文学家发现每8分钟自转一次的死星</title>
-<link>https://www.sciencedaily.com/releases/2026/11/261114202136.htm</link>
-<guid isPermaLink="false">45256f4846ed</guid>
-<pubDate>Sun, 15 Nov 2026 08:04:00 -0500</pubDate>
-<description>&lt;p&gt;天文学家发现了一颗距离地球5000光年远的死星（中子星），它每8分钟完成一次自转并释放无线电脉冲，其伴星表现出剧烈的磁暴活动。&lt;/p&gt;&lt;p&gt;★★★★ · ScienceDaily · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/science/digest/2026/2026-11-15.html"&gt;2026-11-15 精选&lt;/a&gt;&lt;/p&gt;</description>
+<description>&lt;p&gt;欧空局的Euclid太空望远镜在首批观测数据中发现了15000个新的强引力透镜（strong gravitational lenses）候选体，这是目前已知最大的此类天体集合。研究团队通过机器学习初步筛选，并结合全球数千名公民科学家的参与及专家复核完成了这项发现。这一成果有助于科学家深入探测暗物质（dark matter）的分布，并为解析暗能量（dark energy）对宇宙结构的影响提供重要数据。&lt;/p&gt;&lt;p&gt;★★★★ · Phys.org · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/science/digest/2026/2026-11-15.html"&gt;2026-11-15 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>阿尔茨海默病预警：记忆丧失前十年脑部即现萎缩</title>
@@ -35,18 +56,18 @@
 <description>&lt;p&gt;研究人员发现，内嗅皮层（entorhinal cortex）和杏仁核（amygdala）在阿尔茨海默病症状出现前十年左右就会发生萎缩，这比传统监测点海马体（hippocampus）的变化更早。该研究分析了来自两个独立项目的数百份核磁共振（MRI）和正电子发射断层扫描（PET）数据，发现上述区域的组织丢失与Tau蛋白的异常积聚密切相关。这一发现有望作为一种新的早期生物标志物，通过更早的风险识别，为患者争取到在神经退行性病变发生前进行早期干预的时间窗口。&lt;/p&gt;&lt;p&gt;★★★★ · ScienceDaily · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/science/digest/2026/2026-11-15.html"&gt;2026-11-15 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
+<title>Euclid空间望远镜发现宇宙黎明时期的类星体</title>
+<link>https://www.sciencedaily.com/releases/2026/11/261112230504.htm</link>
+<guid isPermaLink="false">b53dbb591be4</guid>
+<pubDate>Sat, 14 Nov 2026 20:52:00 -0500</pubDate>
+<description>&lt;p&gt;Euclid太空望远镜在宇宙早期发现了31个古老的类星体（quasars），其中包括两颗打破记录、在宇宙诞生仅6.7亿年时就已发光的遥远天体。研究人员通过分析大面积的红外巡天数据，确认了这些由超大质量黑洞驱动的发光核心。这项发现不仅使已知的高红移类星体数量翻倍，还为研究早期星系形成以及宇宙再电离（epoch of reionization）时期的环境提供了关键窗口。&lt;/p&gt;&lt;p&gt;★★★★ · ScienceDaily · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/science/digest/2026/2026-11-15.html"&gt;2026-11-15 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
 <title>新冠疫情期间全球火灾活动下降</title>
 <link>https://arstechnica.com/science/2026/11/how-the-worlds-fires-changed-while-humanity-hit-pause/</link>
 <guid isPermaLink="false">94839cd568be</guid>
 <pubDate>Sun, 15 Nov 2026 07:07:00 -0500</pubDate>
-<description>&lt;p&gt;研究发现，受新冠疫情封锁影响，全球火灾活动减少了12.3%。这一现象展示了人类活动变化对环境燃烧事件的直接影响。&lt;/p&gt;&lt;p&gt;★★★ · Ars Technica · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/science/digest/2026/2026-11-15.html"&gt;2026-11-15 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>天文学家发现一种每8分钟闪烁一次无线电波的特殊天体</title>
-<link>https://phys.org/news/2026-11-dead-star-radio-minutes-partner.html</link>
-<guid isPermaLink="false">b1c2971434a1</guid>
-<pubDate>Sat, 14 Nov 2026 16:00:00 -0500</pubDate>
-<description>&lt;p&gt;天文学家发现了一个每8分钟发出一次无线电脉冲的特殊天体，其伴星竟然是一颗与太阳极其相似的G型恒星（G-type star）。研究者利用Murchison Widefield Array望远镜探测到周期性信号，并通过MeerKAT望远镜定位及Keck望远镜的光谱分析，结合轨道计时法测算出该脉冲源质量约为太阳的三分之二，排除了中子星的可能性，认为其是一颗白矮星脉冲星（white dwarf pulsar）。该发现不仅揭示了此类双星系统的罕见演化路径，还证明了无线电巡天在寻找被明亮恒星掩盖的天体方面具有独特优势，有助于深入理解Ia型超新星的起源。&lt;/p&gt;&lt;p&gt;★★★★ · Phys.org · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/science/digest/2026/2026-11-14.html"&gt;2026-11-14 精选&lt;/a&gt;&lt;/p&gt;</description>
+<description>&lt;p&gt;研究者通过分析COVID-19封锁期间人类活动受限对全球火灾频率的影响，发现扣除天气因素后，全球森林和草原的火灾检测量平均下降了约12.3%。研究利用Suomi NPP卫星的VIIRS传感器记录热点，通过对比2020年上半年与此前年份的移动数据，揭示了人类活动是导致火灾的重要原因。该研究也指出在部分地区火灾增加，这可能归因于封锁导致人类灭火能力或预防性火灾管理活动的减弱。&lt;/p&gt;&lt;p&gt;★★★ · Ars Technica · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/science/digest/2026/2026-11-15.html"&gt;2026-11-15 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>NASA“旅行者1号”深空探测器距离地球达到一光天</title>
@@ -54,6 +75,13 @@
 <guid isPermaLink="false">ba392d6a4357</guid>
 <pubDate>Sat, 14 Nov 2026 13:37:00 -0500</pubDate>
 <description>&lt;p&gt;NASA的旅行者1号（Voyager 1）探测器即将成为首个距离地球达到1光日的人造物体，这标志着它在星际空间中持续航行49年后的一项里程碑。该航天器通过定期发送关于磁场、压力和宇宙射线等星际环境的数据，继续为人类提供宝贵的科学见解。尽管旅行者1号已步入“高龄”并伴随间歇性通信挑战，但它展现了极强的韧性，持续拓展着人类探索的边界。&lt;/p&gt;&lt;p&gt;★★★★ · Phys.org · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/science/digest/2026/2026-11-14.html"&gt;2026-11-14 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>中国北部发现39.5亿年前古老岩石，揭示地球早期历史</title>
+<link>https://phys.org/news/2026-11-oldest-earth-early-history.html</link>
+<guid isPermaLink="false">32da69861ad6</guid>
+<pubDate>Sat, 14 Nov 2026 12:00:00 -0500</pubDate>
+<description>&lt;p&gt;研究人员在中国河北省石门杂岩中发现了约39.5亿年前的岩石，这是地球上已知的最古老岩石之一。该团队通过分析岩石中锆石（zircon）晶体的铀-铅定年法确定了其年龄，并结合同位素分析和计算机模拟推断，这些岩石形成于早期的俯冲（subduction）作用过程。该发现支持了地球地壳在约40亿年前就已经开始演化并存在板块构造活动的假设。&lt;/p&gt;&lt;p&gt;★★★★ · Phys.org · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/science/digest/2026/2026-11-14.html"&gt;2026-11-14 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>规律的作息有助于减轻疼痛与缓解抑郁</title>
