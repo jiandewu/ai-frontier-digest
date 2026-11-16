@@ -8,13 +8,14 @@
 
 | 重要度 | 标题 | 摘要 | 来源 |
 |---|---|---|---|
+| ★★★★★ | [20年星系巡天数据暗示现有宇宙学理论存在缺失](https://www.quantamagazine.org/what-makes-up-the-cosmos-a-20-year-survey-hints-that-something-is-missing-20261116/) | 一项耗时20年的大型星系巡天项目发布最终结果，数据显示其观测特征与当前主流宇宙学模型存在偏差，提示我们对宇宙构成的认知可能并不完整。 | Quanta Magazine |
 | ★★★★★ | [SpaceX星舰实现发射塔空中捕获回收](https://phys.org/news/2026-11-spacex-starship-orbit-captured-pad.html) | SpaceX的星舰（Starship）在轨道测试后成功返回，并被发射塔的机械臂在空中精准捕获，这是航天史上的一项重要技术突破。 | Phys.org |
+| ★★★★ | [大规模研究显示多数跨性别青少年对激素治疗满意](https://www.sciencenews.org/article/hormone-therapy-transgender-youth) | 一项针对跨性别及性别多元化青少年的大规模研究发现，97%的参与者认为接受激素治疗（hormone therapy）是正确的决定。 | Science News |
+| ★★★★ | [Hera探测器揭示被撞击小行星Didymos的新细节](https://www.sciencedaily.com/releases/2026/11/261116023351.htm) | 欧洲航天局的Hera探测器在NASA撞击任务后近距离观察了Didymos小行星，旨在研究撞击后果并完善行星防御机制。 | ScienceDaily |
+| ★★★★ | [生物学性别差异与阿尔茨海默病及慢性疼痛的关联](https://www.sciencedaily.com/releases/2026/11/261115085535.htm) | 研究发现生物学性别、基因和更年期会影响阿尔茨海默病（Alzheimer's disease）的风险与疗效。这种差异还涉及免疫系统和肠脑轴（gut-brain axis，即肠道与大脑间的生化信号联系），有望为神经系统疾病提供个性化治疗方案。 | ScienceDaily |
 | ★★★★ | [CRISPR基因编辑脱靶效应监测新工具](https://phys.org/news/2026-11-tool-tracks-unintended-crispr-effects.html) | 科研人员开发了一种新工具，可用于追踪CRISPR基因编辑过程中产生的意外脱靶（off-target）突变及其在单细胞中的影响，有助于提升基因疗法的安全性。 | Phys.org |
 | ★★★★ | [查亚峰（Puncak Jaya）上的最后冰川正在消融](https://science.nasa.gov/earth/earth-observatory/the-last-ice-on-puncak-jaya/) | 印度尼西亚查亚峰顶部的冰层已缩减为零散斑块，由于面积过小已无法像冰川那样流动，显示出气候变化的严重影响。 | NASA |
-| ★★★★ | [阿尔茨海默病预警：记忆丧失前十年脑部即现萎缩](https://www.sciencedaily.com/releases/2026/11/261114202130.htm) | 研究发现，在阿尔茨海默病（Alzheimer’s disease）引发典型记忆丧失的十年前，大脑中两个与情绪和记忆相关的区域已开始萎缩，这可能成为早期筛查的关键生物标志物。 | ScienceDaily |
-| ★★★★ | [Euclid空间望远镜发现宇宙黎明时期的类星体](https://www.sciencedaily.com/releases/2026/11/261112230504.htm) | 欧空局（ESA）的Euclid望远镜发现了31个古老的类星体（quasars），这些由超大质量黑洞驱动的强光源，揭示了宇宙诞生后仅6.7亿年时第一批星系的演化细节。 | ScienceDaily |
-| ★★★ | [Vulcan火箭发射任务遭遇失败](https://arstechnica.com/space/2026/11/vulcan-rocket-fails-during-launch-dealing-major-blow-to-spacex-competitors/) | 联合发射联盟（United Launch Alliance）在拥有20年历史以来首次遭遇任务完全失败，这对SpaceX的竞争对手而言是一次重大挫折。 | Ars Technica |
-| ★★★ | [新冠疫情期间全球火灾活动下降](https://arstechnica.com/science/2026/11/how-the-worlds-fires-changed-while-humanity-hit-pause/) | 研究发现，受新冠疫情封锁影响，全球火灾活动减少了12.3%。这一现象展示了人类活动变化对环境燃烧事件的直接影响。 | Ars Technica |
+| ★★★ | [Sentinel-6B卫星进入地球轨道](https://science.nasa.gov/photojournal/sentinel-6b-in-orbit-around-earth/) | NASA的Sentinel-6B卫星已成功入轨，未来将作为测量海平面高度的关键参考卫星，用于监测气候变化。 | NASA |
 
 <!-- latest:end -->
 
@@ -22,7 +23,7 @@
 
 <!-- archive:start -->
 
-- [2026-11-16](digest/2026/2026-11-16.md)：4 条精选
+- [2026-11-16](digest/2026/2026-11-16.md)：8 条精选
 - [2026-11-15](digest/2026/2026-11-15.md)：5 条精选
 - [2026-11-14](digest/2026/2026-11-14.md)：5 条精选
 - [2026-11-13](digest/2026/2026-11-13.md)：8 条精选
