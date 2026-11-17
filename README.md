@@ -16,8 +16,8 @@
 | ★★★★ | [ChatGPT 医疗版功能升级](https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare) | OpenAI 推出了包括计算机操作智能体在内的新功能与医疗插件，旨在协助医生处理医疗软件中的实际工作，提高临床响应能力。 | OpenAI |
 | ★★★★ | [具身智能机器人：迈向物理自主的新纪元](https://huggingface.co/papers/2611.18359) | 该研究探讨了基于大模型的具身智能系统，提出通过共享评估框架与研究路线图，实现机器人具备更可靠的物理世界自主操作能力。 | HF Daily Papers |
 | ★★★★ | [解构现代大模型中的位置编码](https://magazine.sebastianraschka.com/p/understanding-positional-embeddings) | 深入浅出地解释了大型语言模型如何利用位置编码（Positional Embeddings）来理解文本中词语的先后顺序。这项技术是现代 Transformer 架构理解上下文逻辑的基础，对理解模型为何能处理长文本至关重要。 | Ahead of AI |
+| ★★★ | [Black Forest Labs：探索从多模态数据通往通用人工智能的路径](https://latent.space/p/bfl/) | Black Forest Labs 的研究者探讨了如何通过处理像素、动态视频和音频等视觉与感知数据，构建通用人工智能（AGI，即具备跨领域通用能力的 AI）。这一路径强调了多模态学习对实现机器智能化至关重要的意义。 | Latent Space |
 | ★★★ | [问界M8发布，预埋L3自动驾驶架构](https://www.qbitai.com/2026/11/510436.html) | 问界新款M8发布，强调预埋了L3级自动驾驶架构，展示了汽车硬件与AI感知能力的深度集成。 | 量子位 |
-| ★★★ | [Hugging Face 与 OpenRouter 携手简化开源模型部署](https://huggingface.co/blog/openrouter) | 两家公司合作旨在降低开源模型的使用门槛，让开发者能够更轻松地运行和调用各类开源权重模型。 | Hugging Face |
 
 <!-- latest:end -->
 
