@@ -8,16 +8,16 @@
 
 | 重要度 | 标题 | 摘要 | 来源 |
 |---|---|---|---|
+| ★★★★★ | [OpenAI 发布 GPT-6.2 Astra 与 Sol 模型](https://openai.com/index/introducing-gpt-6-2-astra-sol) | 新款模型显著提升了代码编写、计算机操作及职业领域任务的处理能力，同时通过优化架构降低了调用成本。 | OpenAI |
 | ★★★★★ | [Gemini 4发布及智能体基础设施更新](https://www.philschmid.de/google-deepmind-roundup-nov-2026) | 发布了多款Gemini 4模型、决策模型API、以及用于智能体开发的自托管沙箱等一系列重要工具。 | Phil Schmid |
+| ★★★★ | [Datasette Lite：在浏览器中运行完整的数据分析应用](https://simonwillison.net/2026/Nov/17/datasette-lite/) | 通过 WebAssembly 和 Pyodide 技术，用户现在无需安装即可在浏览器中运行数据分析工具 Datasette，能直接处理本地的数据库或数据文件，极大地降低了数据探索的门槛。 | Simon Willison |
+| ★★★★ | [AI 时代下理论物理学家的处境](https://www.understandingai.org/p/i-spoke-to-seven-physics-experts) | 当 AI 能够高效处理复杂计算后，理论物理学家应如何重新定位自身的研究价值，是一个值得深思的学科演变问题。 | Understanding AI |
+| ★★★★ | [李飞飞团队正式加入 AMD](https://www.qbitai.com/2026/11/510695.html) | 李飞飞及其团队已完成并购并正式加入 AMD，这一动态引发了业界对 AMD 在 AI 领域战略布局的广泛关注。 | 量子位 |
+| ★★★★ | [法律专用 AI 模型 Astra for Law 正式上线](https://openai.com/index/astra-law-6-2) | Astra for Law 在 24 个法律领域的评估中表现领先，标志着 AI 在专业垂直领域（Legal Intelligence）的深度应用取得了实质突破。 | OpenAI |
 | ★★★★ | [Paul Christiano警示：AI风险与失控风险](https://www.dwarkesh.com/p/paul-christiano-2) | 专家讨论了AI系统在未来12个月内可能具备颠覆政府的能力，强调了AI安全性与人类生存挑战的严峻性。 | Dwarkesh Podcast |
 | ★★★★ | [AI自我进化与FrontierML基准测试](https://jack-clark.net/2026/11/16/import-ai-481-ai-sub-contractors-a-wet-lab-for-ai-and-subterfuge-during-development/) | AI系统已能通过自主分包和支出预算来提升性能，研究者同时推出了FrontierML基准测试用以衡量AI的进化能力。 | Import AI |
-| ★★★★ | [OpenAI引入外部模型安全性评估](https://openai.com/index/our-first-phase-of-embedded-assessments) | OpenAI开始与Apollo Research等外部机构合作，对其模型的对齐度、安全防护与监测系统进行独立评估。 | OpenAI |
 | ★★★★ | [阿里巴巴发布Qwen4模型](https://www.qbitai.com/2026/11/510486.html) | 阿里发布了新一代基座大模型Qwen4-Max，显著提升了智能体与编程能力，意在解决复杂全场景应用。 | 量子位 |
-| ★★★★ | [ChatGPT 医疗版功能升级](https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare) | OpenAI 推出了包括计算机操作智能体在内的新功能与医疗插件，旨在协助医生处理医疗软件中的实际工作，提高临床响应能力。 | OpenAI |
 | ★★★★ | [具身智能机器人：迈向物理自主的新纪元](https://huggingface.co/papers/2611.18359) | 该研究探讨了基于大模型的具身智能系统，提出通过共享评估框架与研究路线图，实现机器人具备更可靠的物理世界自主操作能力。 | HF Daily Papers |
-| ★★★ | [Perplexity 营收增长强劲，年化收入突破 10 亿美元](https://latent.space/p/ainews-perplexity-hits-a-1b-revenue-run-rate-up-4x-in-2026/) | AI 搜索引擎 Perplexity 的年化收入在一年内增长了四倍，反映出 AI 在搜索与信息获取领域日益增强的商业价值。 | Latent Space |
-| ★★★ | [Black Forest Labs：探索从多模态数据通往通用人工智能的路径](https://latent.space/p/bfl/) | Black Forest Labs 的研究者探讨了如何通过处理像素、动态视频和音频等视觉与感知数据，构建通用人工智能（AGI，即具备跨领域通用能力的 AI）。这一路径强调了多模态学习对实现机器智能化至关重要的意义。 | Latent Space |
-| ★★★ | [问界M8发布，预埋L3自动驾驶架构](https://www.qbitai.com/2026/11/510436.html) | 问界新款M8发布，强调预埋了L3级自动驾驶架构，展示了汽车硬件与AI感知能力的深度集成。 | 量子位 |
 
 <!-- latest:end -->
 
@@ -25,7 +25,7 @@
 
 <!-- archive:start -->
 
-- [2026-11-17](digest/2026/2026-11-17.md)：4 条精选
+- [2026-11-17](digest/2026/2026-11-17.md)：10 条精选
 - [2026-11-16](digest/2026/2026-11-16.md)：10 条精选
 - [2026-11-15](digest/2026/2026-11-15.md)：3 条精选
 - [2026-11-14](digest/2026/2026-11-14.md)：7 条精选

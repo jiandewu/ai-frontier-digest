@@ -5,34 +5,76 @@
 <link>https://jiande.is-a.si/ai-frontier-digest/</link>
 <description>每天精选 10 条以内最值得一读的 AI 前沿进展，附中文科普解释。</description>
 <language>zh-CN</language>
-<lastBuildDate>Tue, 17 Nov 2026 08:49:00 -0500</lastBuildDate>
+<lastBuildDate>Tue, 17 Nov 2026 18:38:00 -0500</lastBuildDate>
+<item>
+<title>OpenAI 发布 GPT-6.2 Astra 与 Sol 模型</title>
+<link>https://openai.com/index/introducing-gpt-6-2-astra-sol</link>
+<guid isPermaLink="false">549a77347d5e</guid>
+<pubDate>Tue, 17 Nov 2026 12:45:00 -0500</pubDate>
+<description>&lt;p&gt;新款模型显著提升了代码编写、计算机操作及职业领域任务的处理能力，同时通过优化架构降低了调用成本。&lt;/p&gt;&lt;p&gt;★★★★★ · OpenAI · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-17.html"&gt;2026-11-17 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>Datasette Lite：在浏览器中运行完整的数据分析应用</title>
+<link>https://simonwillison.net/2026/Nov/17/datasette-lite/</link>
+<guid isPermaLink="false">5b158888670a</guid>
+<pubDate>Tue, 17 Nov 2026 11:48:00 -0500</pubDate>
+<description>&lt;p&gt;通过 WebAssembly 和 Pyodide 技术，用户现在无需安装即可在浏览器中运行数据分析工具 Datasette，能直接处理本地的数据库或数据文件，极大地降低了数据探索的门槛。&lt;/p&gt;&lt;p&gt;★★★★ · Simon Willison · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-17.html"&gt;2026-11-17 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>AI 时代下理论物理学家的处境</title>
+<link>https://www.understandingai.org/p/i-spoke-to-seven-physics-experts</link>
+<guid isPermaLink="false">73ac28f302b9</guid>
+<pubDate>Tue, 17 Nov 2026 09:51:00 -0500</pubDate>
+<description>&lt;p&gt;当 AI 能够高效处理复杂计算后，理论物理学家应如何重新定位自身的研究价值，是一个值得深思的学科演变问题。&lt;/p&gt;&lt;p&gt;★★★★ · Understanding AI · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-17.html"&gt;2026-11-17 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>李飞飞团队正式加入 AMD</title>
+<link>https://www.qbitai.com/2026/11/510695.html</link>
+<guid isPermaLink="false">83b8de21dbff</guid>
+<pubDate>Tue, 17 Nov 2026 09:15:00 -0500</pubDate>
+<description>&lt;p&gt;李飞飞及其团队已完成并购并正式加入 AMD，这一动态引发了业界对 AMD 在 AI 领域战略布局的广泛关注。&lt;/p&gt;&lt;p&gt;★★★★ · 量子位 · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-17.html"&gt;2026-11-17 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>法律专用 AI 模型 Astra for Law 正式上线</title>
+<link>https://openai.com/index/astra-law-6-2</link>
+<guid isPermaLink="false">0604bc2b50fc</guid>
+<pubDate>Mon, 16 Nov 2026 19:00:00 -0500</pubDate>
+<description>&lt;p&gt;Astra for Law 在 24 个法律领域的评估中表现领先，标志着 AI 在专业垂直领域（Legal Intelligence）的深度应用取得了实质突破。&lt;/p&gt;&lt;p&gt;★★★★ · OpenAI · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-17.html"&gt;2026-11-17 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>Cloudflare 转型布局 System One 模型</title>
+<link>https://latent.space/p/cloudflare/</link>
+<guid isPermaLink="false">af19957a97c2</guid>
+<pubDate>Tue, 17 Nov 2026 10:00:00 -0500</pubDate>
+<description>&lt;p&gt;Cloudflare 正在构建能够进行毫秒级实时决策和数据调用的 System One 模型，旨在进一步提升网络自动化决策能力。&lt;/p&gt;&lt;p&gt;★★★ · Latent Space · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-17.html"&gt;2026-11-17 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>李沐领衔的 Aimotion：致力于产业级世界模型</title>
+<link>https://www.qbitai.com/2026/11/510688.html</link>
+<guid isPermaLink="false">2991c89a7760</guid>
+<pubDate>Tue, 17 Nov 2026 06:40:00 -0500</pubDate>
+<description>&lt;p&gt;分析了李沐加盟的 AI 初创公司 Aimotion，该公司专注于开发适用于复杂产业环境的“世界模型”，即能理解并模拟物理世界运作规律的 AI 系统。&lt;/p&gt;&lt;p&gt;★★★ · 量子位 · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-17.html"&gt;2026-11-17 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>Claude Code 团队谈 AI 代码验证机制</title>
+<link>https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification/</link>
+<guid isPermaLink="false">069078b2b4e3</guid>
+<pubDate>Tue, 17 Nov 2026 05:20:00 -0500</pubDate>
+<description>&lt;p&gt;深入探讨了在 AI 自动写代码过程中，如何构建一套可靠的验证逻辑，以确保代码质量和系统稳定性。&lt;/p&gt;&lt;p&gt;★★★ · Hacker News · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-17.html"&gt;2026-11-17 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
 <item>
 <title>Perplexity 营收增长强劲，年化收入突破 10 亿美元</title>
 <link>https://latent.space/p/ainews-perplexity-hits-a-1b-revenue-run-rate-up-4x-in-2026/</link>
 <guid isPermaLink="false">a909c419b8fa</guid>
 <pubDate>Tue, 17 Nov 2026 04:24:00 -0500</pubDate>
-<description>&lt;p&gt;AI 搜索引擎 Perplexity 的年化收入在一年内增长了四倍，反映出 AI 在搜索与信息获取领域日益增强的商业价值。&lt;/p&gt;&lt;p&gt;★★★ · Latent Space · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-17.html"&gt;2026-11-17 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>OpenAI 携手北约共同提升网络防御能力</title>
-<link>https://openai.com/index/strengthening-nato-allied-cyber-defences-ai</link>
-<guid isPermaLink="false">590cb0b9c5dd</guid>
-<pubDate>Mon, 16 Nov 2026 19:00:00 -0500</pubDate>
-<description>&lt;p&gt;OpenAI 与北约及相关机构合作，利用 AI 技术帮助防御者识别安全漏洞并测试系统修复方案，保障关键基础设施安全。&lt;/p&gt;&lt;p&gt;★★★ · OpenAI · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-17.html"&gt;2026-11-17 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>金融巨头 Revolut 如何通过 AI 大幅提升开发效率</title>
-<link>https://openai.com/business/customer-stories/revolut</link>
-<guid isPermaLink="false">f054a54f8228</guid>
-<pubDate>Mon, 16 Nov 2026 04:30:00 -0500</pubDate>
-<description>&lt;p&gt;金融科技公司 Revolut 利用 OpenAI 模型和代码辅助工具将编程时间缩短了 30% 至 60%，并将其应用于金融犯罪调查等高难度场景。&lt;/p&gt;&lt;p&gt;★★★ · OpenAI · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-17.html"&gt;2026-11-17 精选&lt;/a&gt;&lt;/p&gt;</description>
+<description>&lt;p&gt;Perplexity 是一家提供 AI 搜索和 Agent 服务的平台，近期其年度营收运行率突破 10 亿美元。它通过不断推出如 Computer（自动化助手）和 Frontier Research（研究实验室）等功能扩展业务，并利用 agent 驱动的优化技术提升计算效率。尽管其市场估值随收入增长显著提升，但该领域仍面临关于单位经济效益和推理成本的挑战。&lt;/p&gt;&lt;p&gt;★★★ · Latent Space · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-17.html"&gt;2026-11-17 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>Gamer：通用的视觉-语言-动作游戏智能体模型</title>
 <link>https://huggingface.co/papers/2611.18397</link>
 <guid isPermaLink="false">1711dfbcefcd</guid>
 <pubDate>Sun, 15 Nov 2026 19:00:00 -0500</pubDate>
-<description>&lt;p&gt;Gamer 框架通过集成感知、记忆和推理能力，使 AI 智能体能够在复杂的 2D 和 3D 游戏环境中高效执行长期任务。&lt;/p&gt;&lt;p&gt;★★★ · HF Daily Papers · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-17.html"&gt;2026-11-17 精选&lt;/a&gt;&lt;/p&gt;</description>
+<description>&lt;p&gt;Gamer 是一个专为长周期复杂任务设计的通用视觉-语言-动作基础模型，适用于 2D 界面和 3D 游戏环境。它通过在大规模键盘和鼠标交互数据上进行预训练，并结合“稀疏思考”指令微调来降低冗余计算，从而实现高效的实时推理。该模型旨在通过统一的架构处理数字和物理世界的交互，验证了通过大规模人类操作轨迹学习复杂技能的可行性。&lt;/p&gt;&lt;p&gt;★★★ · HF Daily Papers · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-17.html"&gt;2026-11-17 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>Gemini 4发布及智能体基础设施更新</title>
