@@ -50,9 +50,9 @@
    "unit": "$",
    "decimals": 2,
    "change": "abs",
-   "date": "2026-11-09",
-   "value": 3.995,
-   "previous": 4.153,
+   "date": "2026-11-16",
+   "value": 3.805,
+   "previous": 3.995,
    "source": "https://fred.stlouisfed.org/series/GASREGW"
   },
   {
@@ -62,7 +62,7 @@
    "decimals": 0,
    "change": "pct",
    "date": "2026-11-17",
-   "value": 3863.2,
+   "value": 3853.1,
    "previous": 3853.0,
    "detail": "COMEX 黄金期货（GC=F），美元/盎司",
    "source": "https://finance.yahoo.com/quote/GC=F/"
@@ -73,9 +73,9 @@
    "unit": "",
    "decimals": 0,
    "change": "pct",
-   "date": "2026-11-17",
-   "value": 3584.58,
-   "previous": 3602.57,
+   "date": "2026-11-16",
+   "value": 3602.57,
+   "previous": 3634.35,
    "detail": "上证综合指数（000001.SS）",
    "source": "https://finance.yahoo.com/quote/000001.SS/"
   },
@@ -95,19 +95,19 @@
  "news": [
   {
    "section": "AI",
-   "number": "15 亿元",
-   "label": "问界M8新款车型的改款投入资金",
-   "title": "问界M8发布，预埋L3自动驾驶架构",
-   "link": "https://www.qbitai.com/2026/11/510436.html"
+   "number": "10 亿美元",
+   "label": "Perplexity 达到的年化收入规模",
+   "title": "Perplexity 营收增长强劲，年化收入突破 10 亿美元",
+   "link": "https://latent.space/p/ainews-perplexity-hits-a-1b-revenue-run-rate-up-4x-in-2026/"
   },
   {
    "section": "科学",
-   "number": "97%",
-   "label": "认为接受激素治疗是正确决定的青少年比例",
-   "title": "大规模研究显示多数跨性别青少年对激素治疗满意",
-   "link": "https://www.sciencenews.org/article/hormone-therapy-transgender-youth"
+   "number": "2%",
+   "label": "超大规模数据中心占美国总用电量比例",
+   "title": "美国超大规模数据中心耗电量调查",
+   "link": "https://arstechnica.com/science/2026/11/hyperscale-data-centers-use-2-of-us-electricity/"
   }
  ],
- "newsKey": "ai-1e29d1d9344d,ai-41b364560b32,ai-735df09c2ed1,ai-797f11017146,ai-853b24ff0d6e,ai-93489cde676a,ai-cafd6de8f642,ai-cc9d9dbd1b4e,ai-cfcc7acb02e9,ai-ebd9eb949639,market-2026-11-16-1,market-2026-11-16-2,market-2026-11-16-3,market-2026-11-16-4,market-2026-11-16-5,science-019575aece95,science-0666fbebdcbe,science-0baf2c27ca6a,science-4d070b71e5ce,science-69cec50353a0,science-c121029c2f78,science-dca169dba5fb,science-e7ca43a2112c",
- "updated": "2026-11-17T09:28:31+00:00"
+ "newsKey": "ai-1711dfbcefcd,ai-590cb0b9c5dd,ai-a909c419b8fa,ai-f054a54f8228,market-2026-11-16-1,market-2026-11-16-2,market-2026-11-16-3,market-2026-11-16-4,market-2026-11-16-5,science-56af9a58adb6,science-9e4bd4ad26aa,science-c746a62a7004,science-fe02a0de9bb4",
+ "updated": "2026-11-17T21:51:22+00:00"
 }
