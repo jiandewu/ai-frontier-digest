@@ -17,9 +17,9 @@
    "unit": "",
    "decimals": 0,
    "change": "pct",
-   "date": "2026-11-16",
-   "value": 24509.76,
-   "previous": 25136.27,
+   "date": "2026-11-17",
+   "value": 24328.38,
+   "previous": 24509.76,
    "source": "https://fred.stlouisfed.org/series/NASDAQCOM"
   },
   {
@@ -28,9 +28,9 @@
    "unit": "$",
    "decimals": 0,
    "change": "pct",
-   "date": "2026-11-16",
-   "value": 64537.93,
-   "previous": 64787.64,
+   "date": "2026-11-17",
+   "value": 64604.63,
+   "previous": 64537.93,
    "source": "https://fred.stlouisfed.org/series/CBBTCUSD"
   },
   {
@@ -61,9 +61,9 @@
    "unit": "$",
    "decimals": 0,
    "change": "pct",
-   "date": "2026-11-17",
-   "value": 3853.1,
-   "previous": 3853.0,
+   "date": "2026-11-18",
+   "value": 3770.1,
+   "previous": 3864.2,
    "detail": "COMEX 黄金期货（GC=F），美元/盎司",
    "source": "https://finance.yahoo.com/quote/GC=F/"
   },
@@ -73,9 +73,9 @@
    "unit": "",
    "decimals": 0,
    "change": "pct",
-   "date": "2026-11-16",
-   "value": 3602.57,
-   "previous": 3634.35,
+   "date": "2026-11-18",
+   "value": 3587.83,
+   "previous": 3584.58,
    "detail": "上证综合指数（000001.SS）",
    "source": "https://finance.yahoo.com/quote/000001.SS/"
   },
@@ -85,29 +85,36 @@
    "unit": "",
    "decimals": 0,
    "change": "abs",
-   "date": "2026-11-17",
-   "value": 832,
-   "previous": 269,
-   "detail": "cs.AI 135 · cs.CL 160 · cs.CV 285 · cs.LG 252",
+   "date": "2026-11-18",
+   "value": 451,
+   "previous": 832,
+   "detail": "cs.AI 109 · cs.CL 60 · cs.CV 175 · cs.LG 107",
    "source": "https://arxiv.org/list/cs.AI/new"
   }
  ],
  "news": [
   {
    "section": "AI",
-   "number": "10 亿美元",
-   "label": "Perplexity 达到的年化收入规模",
-   "title": "Perplexity 营收增长强劲，年化收入突破 10 亿美元",
-   "link": "https://latent.space/p/ainews-perplexity-hits-a-1b-revenue-run-rate-up-4x-in-2026/"
+   "number": "230 亿美元",
+   "label": "Genesis 估值",
+   "title": "具身智能初创公司 Genesis 获英伟达与 AMD 联手押注",
+   "link": "https://www.qbitai.com/2026/11/510821.html"
   },
   {
    "section": "科学",
-   "number": "2%",
-   "label": "超大规模数据中心占美国总用电量比例",
-   "title": "美国超大规模数据中心耗电量调查",
-   "link": "https://arstechnica.com/science/2026/11/hyperscale-data-centers-use-2-of-us-electricity/"
+   "number": "22.5小时",
+   "label": "星舰轨道任务时长",
+   "title": "SpaceX首次成功回收星舰推进器",
+   "link": "https://phys.org/news/2026-11-baby-spacex-starship-orbit.html"
+  },
+  {
+   "section": "美股",
+   "number": "9.45%",
+   "label": "Salesforce 单日跌幅",
+   "title": "Salesforce大跌逾9%，新一轮裁员消息引发增长动能担忧",
+   "link": "https://jiande.is-a.si/us-market/news/2026/2026-11-17.html#news-4"
   }
  ],
- "newsKey": "ai-1711dfbcefcd,ai-590cb0b9c5dd,ai-a909c419b8fa,ai-f054a54f8228,market-2026-11-16-1,market-2026-11-16-2,market-2026-11-16-3,market-2026-11-16-4,market-2026-11-16-5,science-56af9a58adb6,science-9e4bd4ad26aa,science-c746a62a7004,science-fe02a0de9bb4",
- "updated": "2026-11-17T21:51:22+00:00"
+ "newsKey": "ai-695d1f9a1cf6,ai-b5c8370aae01,ai-eaeeeaef9f22,ai-fc6e4b817a04,market-2026-11-17-1,market-2026-11-17-2,market-2026-11-17-3,market-2026-11-17-4,market-2026-11-17-5,science-08cf72b4624a,science-200e11e79525,science-6d5c06b1e0d8,science-9e4bd4ad26aa,science-a972877cce60,science-ae6a51543db6,science-f0e57acacc8e,science-f23b070fa6c8",
+ "updated": "2026-11-18T08:46:37+00:00"
 }
