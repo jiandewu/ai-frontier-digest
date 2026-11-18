@@ -5,20 +5,27 @@
 <link>https://jiande.is-a.si/ai-frontier-digest/</link>
 <description>每天精选 10 条以内最值得一读的 AI 前沿进展，附中文科普解释。</description>
 <language>zh-CN</language>
-<lastBuildDate>Wed, 18 Nov 2026 02:55:00 -0500</lastBuildDate>
+<lastBuildDate>Wed, 18 Nov 2026 12:31:00 -0500</lastBuildDate>
 <item>
 <title>GPT-6.2 Astra 与 Sol 发布：性能大幅跃升</title>
 <link>https://www.qbitai.com/2026/11/510707.html</link>
 <guid isPermaLink="false">fc6e4b817a04</guid>
 <pubDate>Tue, 17 Nov 2026 19:49:00 -0500</pubDate>
-<description>&lt;p&gt;OpenAI 推出的 GPT-6.2 Astra 与 Sol 模型在性能上实现突破，特别是 Sol 展示了旗舰级的生成与处理能力，引发对 3D 内容创作与应用范式的探讨。&lt;/p&gt;&lt;p&gt;★★★★★ · 量子位 · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-18.html"&gt;2026-11-18 精选&lt;/a&gt;&lt;/p&gt;</description>
+<description>&lt;p&gt;GPT-6.2 Astra和Sol是OpenAI发布的新一代旗舰与高性能模型，分别针对复杂专业任务和高频日常应用优化。它们通过模型架构升级和高效训练，显著提升了在科研、编程、3D建模及网络安全等领域的任务表现，并大幅降低了计算成本。这标志着模型在实际工程应用中的性价比与专业化程度进一步提高，直接影响着从网页设计到复杂机械建模的工作流程。&lt;/p&gt;&lt;p&gt;★★★★★ · 量子位 · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-18.html"&gt;2026-11-18 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>基于能量的推理模型：显著提升计算效率</title>
+<link>https://energy-based-reasoners.github.io/</link>
+<guid isPermaLink="false">6fc8c039af46</guid>
+<pubDate>Wed, 18 Nov 2026 04:29:00 -0500</pubDate>
+<description>&lt;p&gt;研究人员提出一种基于能量的推理方法，据称可将推理计算的效率提升385倍，极具研究价值。&lt;/p&gt;&lt;p&gt;★★★★ · Hacker News · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-18.html"&gt;2026-11-18 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>具身智能初创公司 Genesis 获英伟达与 AMD 联手押注</title>
 <link>https://www.qbitai.com/2026/11/510821.html</link>
 <guid isPermaLink="false">eaeeeaef9f22</guid>
 <pubDate>Tue, 17 Nov 2026 23:28:00 -0500</pubDate>
-<description>&lt;p&gt;具身智能（Embodied AI，即赋予 AI 物理实体以感知和交互能力）全栈厂商 Genesis 完成新一轮融资，估值突破 230 亿美元，标志着巨头在机器人领域的角逐加剧。&lt;/p&gt;&lt;p&gt;★★★★ · 量子位 · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-18.html"&gt;2026-11-18 精选&lt;/a&gt;&lt;/p&gt;</description>
+<description>&lt;p&gt;Genesis AI是一家主打「具身全栈」路线的机器人公司，通过自研高保真数据采集系统、仿真引擎Genesis World及硬件终端Eno，实现了从数据到落地的闭环开发。其核心逻辑是将物理交互视为计算问题而非单纯硬件问题，并利用统一模型处理多种机器人操作任务。该公司的成功融资反映了行业对全栈式机器人研发范式的认可，即通过掌握核心软硬件细节以提升落地可靠性。&lt;/p&gt;&lt;p&gt;★★★★ · 量子位 · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-18.html"&gt;2026-11-18 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>谷歌 AI 搜索答案导致网站流量大幅下降</title>
@@ -28,11 +35,32 @@
 <description>&lt;p&gt;数据显示谷歌搜索集成的 AI 生成答案功能导致外部网站流量下降了 40%，引发了关于 AI 对内容生态和搜索模式影响的讨论。&lt;/p&gt;&lt;p&gt;★★★★ · Hacker News · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-18.html"&gt;2026-11-18 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
+<title>GPT-6 Astra在芯片架构设计中展现潜力</title>
+<link>https://openai.com/index/advancing-chip-design-with-our-models</link>
+<guid isPermaLink="false">c7d3ecb00643</guid>
+<pubDate>Tue, 17 Nov 2026 19:00:00 -0500</pubDate>
+<description>&lt;p&gt;研究表明GPT-6 Astra模型能够优化电路设计并改进RISC-V内核，展示了AI在半导体工程领域的应用前景。&lt;/p&gt;&lt;p&gt;★★★★ · OpenAI · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-18.html"&gt;2026-11-18 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>MoE模型推理优化：在受限硬件上运行超大参数模型</title>
+<link>https://huggingface.co/blog/moe-expert-streaming</link>
+<guid isPermaLink="false">af1852b4c46d</guid>
+<pubDate>Tue, 17 Nov 2026 19:00:00 -0500</pubDate>
+<description>&lt;p&gt;介绍了如何通过技术手段在仅32GB内存的设备上实现180B参数的MoE（混合专家模型）高效推理。&lt;/p&gt;&lt;p&gt;★★★ · Hugging Face · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-18.html"&gt;2026-11-18 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>开源语音模型Rumble-2-Flash发布</title>
+<link>https://huggingface.co/blog/rumble-2-flash</link>
+<guid isPermaLink="false">679cee5ea146</guid>
+<pubDate>Tue, 17 Nov 2026 19:00:00 -0500</pubDate>
+<description>&lt;p&gt;一款轻量级的0.5B参数语音识别模型，支持超过40种语言，旨在降低端侧语音处理门槛。&lt;/p&gt;&lt;p&gt;★★★ · Hugging Face · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-18.html"&gt;2026-11-18 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
 <title>Xing 4 模型发布：国产算力架构下的代理模型新突破</title>
 <link>https://huggingface.co/papers/2611.22115</link>
 <guid isPermaLink="false">b5c8370aae01</guid>
 <pubDate>Tue, 17 Nov 2026 19:00:00 -0500</pubDate>
-<description>&lt;p&gt;Xing 4 系列大语言模型展示了在国产昇腾（Ascend）硬件和框架上进行的架构与训练优化，探索了稀疏激活与推测解码在代理智能（Agentic Models）任务中的应用。&lt;/p&gt;&lt;p&gt;★★★ · HF Daily Papers · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-18.html"&gt;2026-11-18 精选&lt;/a&gt;&lt;/p&gt;</description>
+<description>&lt;p&gt;Xing 4是基于TeleChat架构演进的系列大语言模型，专门针对昇腾（Ascend）芯片与MindSpore框架进行了系统性优化。团队通过采用稀疏激活、拓扑感知混合分片及TeleGym代理执行平台等技术，实现了大规模参数模型的预训练与代理任务的策略优化。该研究展示了在国产算力基础设施上高效训练超大规模模型及复杂Agent的可行性与工程路径。&lt;/p&gt;&lt;p&gt;★★★ · HF Daily Papers · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-18.html"&gt;2026-11-18 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>OpenAI 发布 GPT-6.2 Astra 与 Sol 模型</title>
