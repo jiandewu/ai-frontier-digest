@@ -6,9 +6,9 @@
    "unit": "",
    "decimals": 0,
    "change": "pct",
-   "date": "2026-11-16",
-   "value": 7416.59,
-   "previous": 7561.67,
+   "date": "2026-11-17",
+   "value": 7340.53,
+   "previous": 7416.59,
    "source": "https://fred.stlouisfed.org/series/SP500"
   },
   {
@@ -62,7 +62,7 @@
    "decimals": 0,
    "change": "pct",
    "date": "2026-11-18",
-   "value": 3770.1,
+   "value": 3729.4,
    "previous": 3864.2,
    "detail": "COMEX 黄金期货（GC=F），美元/盎司",
    "source": "https://finance.yahoo.com/quote/GC=F/"
@@ -73,9 +73,9 @@
    "unit": "",
    "decimals": 0,
    "change": "pct",
-   "date": "2026-11-18",
-   "value": 3587.83,
-   "previous": 3584.58,
+   "date": "2026-11-17",
+   "value": 3584.58,
+   "previous": 3602.57,
    "detail": "上证综合指数（000001.SS）",
    "source": "https://finance.yahoo.com/quote/000001.SS/"
   },
@@ -95,26 +95,26 @@
  "news": [
   {
    "section": "AI",
-   "number": "230 亿美元",
-   "label": "Genesis 估值",
-   "title": "具身智能初创公司 Genesis 获英伟达与 AMD 联手押注",
-   "link": "https://www.qbitai.com/2026/11/510821.html"
+   "number": "40%",
+   "label": "AI生成答案导致的外部网站流量降幅",
+   "title": "谷歌 AI 搜索答案导致网站流量大幅下降",
+   "link": "https://revscope.co/blog/search-seo-geo-2026/"
   },
   {
    "section": "科学",
-   "number": "22.5小时",
-   "label": "星舰轨道任务时长",
-   "title": "SpaceX首次成功回收星舰推进器",
-   "link": "https://phys.org/news/2026-11-baby-spacex-starship-orbit.html"
+   "number": "1万亿美元",
+   "label": "全球化学品污染每年造成的经济损失",
+   "title": "全球化学品污染对健康构成长期威胁",
+   "link": "https://phys.org/news/2026-11-scientists-health-threats-chemicals.html"
   },
   {
    "section": "美股",
    "number": "9.45%",
-   "label": "Salesforce 单日跌幅",
+   "label": "Salesforce单日股价跌幅",
    "title": "Salesforce大跌逾9%，新一轮裁员消息引发增长动能担忧",
    "link": "https://jiande.is-a.si/us-market/news/2026/2026-11-17.html#news-4"
   }
  ],
- "newsKey": "ai-695d1f9a1cf6,ai-b5c8370aae01,ai-eaeeeaef9f22,ai-fc6e4b817a04,market-2026-11-17-1,market-2026-11-17-2,market-2026-11-17-3,market-2026-11-17-4,market-2026-11-17-5,science-08cf72b4624a,science-200e11e79525,science-6d5c06b1e0d8,science-9e4bd4ad26aa,science-a972877cce60,science-ae6a51543db6,science-f0e57acacc8e,science-f23b070fa6c8",
- "updated": "2026-11-18T08:46:37+00:00"
+ "newsKey": "ai-679cee5ea146,ai-695d1f9a1cf6,ai-6fc8c039af46,ai-af1852b4c46d,ai-b5c8370aae01,ai-c7d3ecb00643,ai-eaeeeaef9f22,ai-fc6e4b817a04,market-2026-11-17-1,market-2026-11-17-2,market-2026-11-17-3,market-2026-11-17-4,market-2026-11-17-5,science-18583ecc3f71,science-3b512e5d8837,science-a3cfb6b9b0e6,science-ab8f9a40ce1d,science-d6d7c9810020,science-e4b9dab08990,science-e7b1fb348415,science-f9401287c2ce",
+ "updated": "2026-11-18T21:29:51+00:00"
 }
