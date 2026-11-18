@@ -5,7 +5,35 @@
 <link>https://jiande.is-a.si/ai-frontier-digest/</link>
 <description>每天精选 10 条以内最值得一读的 AI 前沿进展，附中文科普解释。</description>
 <language>zh-CN</language>
-<lastBuildDate>Tue, 17 Nov 2026 18:38:00 -0500</lastBuildDate>
+<lastBuildDate>Wed, 18 Nov 2026 02:55:00 -0500</lastBuildDate>
+<item>
+<title>GPT-6.2 Astra 与 Sol 发布：性能大幅跃升</title>
+<link>https://www.qbitai.com/2026/11/510707.html</link>
+<guid isPermaLink="false">fc6e4b817a04</guid>
+<pubDate>Tue, 17 Nov 2026 19:49:00 -0500</pubDate>
+<description>&lt;p&gt;OpenAI 推出的 GPT-6.2 Astra 与 Sol 模型在性能上实现突破，特别是 Sol 展示了旗舰级的生成与处理能力，引发对 3D 内容创作与应用范式的探讨。&lt;/p&gt;&lt;p&gt;★★★★★ · 量子位 · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-18.html"&gt;2026-11-18 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>具身智能初创公司 Genesis 获英伟达与 AMD 联手押注</title>
+<link>https://www.qbitai.com/2026/11/510821.html</link>
+<guid isPermaLink="false">eaeeeaef9f22</guid>
+<pubDate>Tue, 17 Nov 2026 23:28:00 -0500</pubDate>
+<description>&lt;p&gt;具身智能（Embodied AI，即赋予 AI 物理实体以感知和交互能力）全栈厂商 Genesis 完成新一轮融资，估值突破 230 亿美元，标志着巨头在机器人领域的角逐加剧。&lt;/p&gt;&lt;p&gt;★★★★ · 量子位 · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-18.html"&gt;2026-11-18 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>谷歌 AI 搜索答案导致网站流量大幅下降</title>
+<link>https://revscope.co/blog/search-seo-geo-2026/</link>
+<guid isPermaLink="false">695d1f9a1cf6</guid>
+<pubDate>Tue, 17 Nov 2026 19:17:00 -0500</pubDate>
+<description>&lt;p&gt;数据显示谷歌搜索集成的 AI 生成答案功能导致外部网站流量下降了 40%，引发了关于 AI 对内容生态和搜索模式影响的讨论。&lt;/p&gt;&lt;p&gt;★★★★ · Hacker News · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-18.html"&gt;2026-11-18 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>Xing 4 模型发布：国产算力架构下的代理模型新突破</title>
+<link>https://huggingface.co/papers/2611.22115</link>
+<guid isPermaLink="false">b5c8370aae01</guid>
+<pubDate>Tue, 17 Nov 2026 19:00:00 -0500</pubDate>
+<description>&lt;p&gt;Xing 4 系列大语言模型展示了在国产昇腾（Ascend）硬件和框架上进行的架构与训练优化，探索了稀疏激活与推测解码在代理智能（Agentic Models）任务中的应用。&lt;/p&gt;&lt;p&gt;★★★ · HF Daily Papers · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-18.html"&gt;2026-11-18 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
 <item>
 <title>OpenAI 发布 GPT-6.2 Astra 与 Sol 模型</title>
 <link>https://openai.com/index/introducing-gpt-6-2-astra-sol</link>
@@ -18,21 +46,21 @@
 <link>https://simonwillison.net/2026/Nov/17/datasette-lite/</link>
 <guid isPermaLink="false">5b158888670a</guid>
 <pubDate>Tue, 17 Nov 2026 11:48:00 -0500</pubDate>
-<description>&lt;p&gt;通过 WebAssembly 和 Pyodide 技术，用户现在无需安装即可在浏览器中运行数据分析工具 Datasette，能直接处理本地的数据库或数据文件，极大地降低了数据探索的门槛。&lt;/p&gt;&lt;p&gt;★★★★ · Simon Willison · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-17.html"&gt;2026-11-17 精选&lt;/a&gt;&lt;/p&gt;</description>
+<description>&lt;p&gt;Datasette Lite 是一个可以在浏览器中直接运行 Python 应用 Datasette 的工具，它利用 WebAssembly 和 Pyodide 在客户端执行代码。新版本通过引入 Service Workers 拦截网页请求，使得在浏览器内模拟服务器行为成为可能，解决了此前因无法处理 JS 和 CSS 资源导致的局限。这一技术的进步让开发者无需架设真实服务器，即可快速演示功能或复现 Bug。&lt;/p&gt;&lt;p&gt;★★★★ · Simon Willison · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-17.html"&gt;2026-11-17 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>AI 时代下理论物理学家的处境</title>
 <link>https://www.understandingai.org/p/i-spoke-to-seven-physics-experts</link>
 <guid isPermaLink="false">73ac28f302b9</guid>
 <pubDate>Tue, 17 Nov 2026 09:51:00 -0500</pubDate>
-<description>&lt;p&gt;当 AI 能够高效处理复杂计算后，理论物理学家应如何重新定位自身的研究价值，是一个值得深思的学科演变问题。&lt;/p&gt;&lt;p&gt;★★★★ · Understanding AI · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-17.html"&gt;2026-11-17 精选&lt;/a&gt;&lt;/p&gt;</description>
+<description>&lt;p&gt;物理学家 Suvrat Raju 等人通过 TheoPhysEval 基准测试发现，前沿 AI 模型（如 GPT-6 Astra）已能解决绝大多数理论物理计算问题。AI 在此领域的应用极大地加速了公式推导和文献检索，甚至能识别出人类专家解题时的细微逻辑错误。然而，物理学研究中定义问题往往比计算本身更难，且科学发现仍依赖于实验验证，AI 目前更多是在辅助计算而非取代理论思考。&lt;/p&gt;&lt;p&gt;★★★★ · Understanding AI · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-17.html"&gt;2026-11-17 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>李飞飞团队正式加入 AMD</title>
 <link>https://www.qbitai.com/2026/11/510695.html</link>
 <guid isPermaLink="false">83b8de21dbff</guid>
 <pubDate>Tue, 17 Nov 2026 09:15:00 -0500</pubDate>
-<description>&lt;p&gt;李飞飞及其团队已完成并购并正式加入 AMD，这一动态引发了业界对 AMD 在 AI 领域战略布局的广泛关注。&lt;/p&gt;&lt;p&gt;★★★★ · 量子位 · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-17.html"&gt;2026-11-17 精选&lt;/a&gt;&lt;/p&gt;</description>
+<description>&lt;p&gt;AMD 以 82 亿美元全股票交易正式收购了李飞飞联合创办的空间智能公司 World Labs。此举旨在将 World Labs 的 Atlas 世界模型技术与 AMD 的高性能计算硬件深度融合，通过软硬一体化加速物理 AI 及机器人的落地。对于 AMD 而言，这不仅是布局未来数万亿美元的物理 AI 市场，也是在算力生态层面构建对抗英伟达的重要筹码。&lt;/p&gt;&lt;p&gt;★★★★ · 量子位 · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-17.html"&gt;2026-11-17 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>法律专用 AI 模型 Astra for Law 正式上线</title>
@@ -46,21 +74,21 @@
 <link>https://latent.space/p/cloudflare/</link>
 <guid isPermaLink="false">af19957a97c2</guid>
 <pubDate>Tue, 17 Nov 2026 10:00:00 -0500</pubDate>
-<description>&lt;p&gt;Cloudflare 正在构建能够进行毫秒级实时决策和数据调用的 System One 模型，旨在进一步提升网络自动化决策能力。&lt;/p&gt;&lt;p&gt;★★★ · Latent Space · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-17.html"&gt;2026-11-17 精选&lt;/a&gt;&lt;/p&gt;</description>
+<description>&lt;p&gt;Cloudflare 宣布进军 AI 模型领域并自称“Neolab”，通过构建名为 System One 的高效模型（如 Clef 和 Clairic）来处理特定任务。这些模型受 TypeSafe AI 的 Jev 启发，旨在以极低延迟处理结构化提取等任务，从而减少对大型语言模型（LLM）的过度依赖。该举措不仅降低了 AI 操作风险，也为 Cloudflare 提供了更具成本效益的边缘 AI 计算方案。&lt;/p&gt;&lt;p&gt;★★★ · Latent Space · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-17.html"&gt;2026-11-17 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>李沐领衔的 Aimotion：致力于产业级世界模型</title>
 <link>https://www.qbitai.com/2026/11/510688.html</link>
 <guid isPermaLink="false">2991c89a7760</guid>
 <pubDate>Tue, 17 Nov 2026 06:40:00 -0500</pubDate>
-<description>&lt;p&gt;分析了李沐加盟的 AI 初创公司 Aimotion，该公司专注于开发适用于复杂产业环境的“世界模型”，即能理解并模拟物理世界运作规律的 AI 系统。&lt;/p&gt;&lt;p&gt;★★★ · 量子位 · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-17.html"&gt;2026-11-17 精选&lt;/a&gt;&lt;/p&gt;</description>
+<description>&lt;p&gt;李沐以联合创始人兼 CTO 身份加盟 Aimotion，并计划与他创立的另一家公司 Boson AI 合作开发“产业级世界模型”。该技术旨在对企业的商业规则和决策逻辑建模，实现复杂场景的推演与规划，从而让智能体（Agent）能从被动问答转向自主执行销售业务。其核心目标是将 AI 从营销辅助工具转化为能直接创造收益的智能商业系统。&lt;/p&gt;&lt;p&gt;★★★ · 量子位 · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-17.html"&gt;2026-11-17 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>Claude Code 团队谈 AI 代码验证机制</title>
 <link>https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification/</link>
 <guid isPermaLink="false">069078b2b4e3</guid>
 <pubDate>Tue, 17 Nov 2026 05:20:00 -0500</pubDate>
-<description>&lt;p&gt;深入探讨了在 AI 自动写代码过程中，如何构建一套可靠的验证逻辑，以确保代码质量和系统稳定性。&lt;/p&gt;&lt;p&gt;★★★ · Hacker News · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-17.html"&gt;2026-11-17 精选&lt;/a&gt;&lt;/p&gt;</description>
+<description>&lt;p&gt;Claude Code 团队通过端到端（E2E）、属性测试和差异测试构建自动验证机制，确保 AI 编写的代码质量。这种验证循环赋予了 AI 独立测试和自我修正的能力，大幅提升了并行开发效率。由于 AI 能够快速生成和运行这些测试代码，开发团队可以更频繁地进行烟雾测试，从而将人类审核的重点转移到更复杂的问题上。&lt;/p&gt;&lt;p&gt;★★★ · Hacker News · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-17.html"&gt;2026-11-17 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>Perplexity 营收增长强劲，年化收入突破 10 亿美元</title>
@@ -803,34 +831,6 @@
 <guid isPermaLink="false">68c44263a0af</guid>
 <pubDate>Wed, 04 Nov 2026 06:52:00 -0500</pubDate>
 <description>&lt;p&gt;PHP2Shell漏洞揭示了AI时代下，人类过去40年积累的技术债务正加速被AI发掘。研究显示，利用AI工具能够高效识别并利用原本被视为“不严重”的程序崩溃类Bug，从而将其转化为严重的安全漏洞。这强调了防御方亟需提升预算、采用形式化验证工具（Formal Verification）来应对日益频繁的自动化攻击威胁。&lt;/p&gt;&lt;p&gt;★★★★ · Hacker News · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-05.html"&gt;2026-11-05 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>清华姚期智团队提出代数世界模型，探索物理符号化推理</title>
-<link>https://www.qbitai.com/2026/11/507031.html</link>
-<guid isPermaLink="false">96603222f1ad</guid>
-<pubDate>Sun, 01 Nov 2026 03:02:00 -0500</pubDate>
-<description>&lt;p&gt;代数世界模型（AWM）是清华大学姚期智、袁洋团队提出的一种让 AI 智能体通过数学抽象来理解环境规律的框架。它先将探索中的现象写成 Python 代码作为初步假设，借鉴范畴论中的投射极限与归纳极限来凝练结构，最后将其转化为 Lean 4 形式化语言并完成严密的机器定理证明。该方法在 ARC-AGI-3 测试中实现 99.9% 关卡通关且大幅减少操作步数，甚至能严谨证明任务为何无解；但其局限在于证明受限于观测范围，若探索不全则可能仅得出局部结论。&lt;/p&gt;&lt;p&gt;★★★★ · 量子位 · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-01.html"&gt;2026-11-01 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>DeepSeek开源全新智能体底座，AI已能自修Bug提PR</title>
-<link>https://www.qbitai.com/2026/10/506904.html</link>
-<guid isPermaLink="false">246d4261b40f</guid>
-<pubDate>Sat, 31 Oct 2026 09:49:00 -0400</pubDate>
-<description>&lt;p&gt;Super-agent 是 DeepSeek 开源的自主智能体系统底座架构，旨在摆脱人类必须逐项派发指令的单会话交互限制。它采用上层 Router（总调度员）与下层 Worker（执行单元）的双层架构，结合投机执行机制在后台主动复现问题，并通过两级事件过滤与 Watchdog（看门狗）实现 24 小时在线监测与异常自愈。在模拟多任务协作测试中，该系统显著缩短了任务完成时间；但频繁的主动分析与路由决策也会带来额外的 Token 开销。&lt;/p&gt;&lt;p&gt;★★★★ · 量子位 · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-01.html"&gt;2026-11-01 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>JavaScript框架的“AI隐形成本”：为何复杂框架让大模型更费劲</title>
-<link>https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks/</link>
-<guid isPermaLink="false">761e5e0baaa4</guid>
-<pubDate>Sun, 01 Nov 2026 01:06:00 -0400</pubDate>
-<description>&lt;p&gt;该项目是一项评估 AI 智能体在不同 JavaScript 前端框架下开发成本与产出质量的基准测试，旨在用数据替代社区仅凭直觉（vibes）的评价。作者通过让运行在 Claude Code 上的 Opus 5.5 多次使用各框架及其工具（如 MCP）构建同一个宝可梦 Web 应用，并依据 API Token 花费、代码行数及 Lighthouse 性能指标展开对比。测试揭示出 SvelteKit 与 Angular 等框架在 AI 生成时的成本显著偏高；不过测试用例局限于内容型网页，且大模型的随机性也会导致工具调用与测量结果存在波动。&lt;/p&gt;&lt;p&gt;★★★ · Hacker News · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-01.html"&gt;2026-11-01 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>LOWN架构：按需看图，大幅加速扩散多模态模型</title>
-<link>https://huggingface.co/papers/2610.36671</link>
-<guid isPermaLink="false">46ae515986bc</guid>
-<pubDate>Thu, 29 Oct 2026 20:00:00 -0400</pubDate>
-<description>&lt;p&gt;LOWN 是针对扩散视觉语言模型（Diffusion VLMs）提出的自适应解码加速方法，核心思想是仅在必要时才处理图像。它先在不输入图像的情况下预测被遮盖的 token，若该结果与上一轮带图像的预测一致，便作为凭证直接复用，唯有在预测出现分歧时才真正投入算力处理图像。该方法无需额外训练或调参，在十个基准测试中仅消耗 LLaDA-V 原有 35.3% 的解码 FLOPs（浮点运算量）就保留了 99.6% 的性能表现，并可与视觉 token 剪枝及 KV 缓存结合使用。&lt;/p&gt;&lt;p&gt;★★★ · HF Daily Papers · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-01.html"&gt;2026-11-01 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>
