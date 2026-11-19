@@ -5,13 +5,34 @@
 <link>https://jiande.is-a.si/ai-frontier-digest/</link>
 <description>每天精选 10 条以内最值得一读的 AI 前沿进展，附中文科普解释。</description>
 <language>zh-CN</language>
-<lastBuildDate>Wed, 18 Nov 2026 20:59:00 -0500</lastBuildDate>
+<lastBuildDate>Thu, 19 Nov 2026 08:52:00 -0500</lastBuildDate>
+<item>
+<title>Google 发布 Gemini 4 Neon 中端模型</title>
+<link>https://latent.space/p/ainews-gemini-4-neon-gdm-s-opus-sol-contender/</link>
+<guid isPermaLink="false">f0a746966ded</guid>
+<pubDate>Thu, 19 Nov 2026 02:07:00 -0500</pubDate>
+<description>&lt;p&gt;Google 推出定位中端的 Gemini 4 Neon 模型，在智能指数上取得 61 分，同时提到 Anthropic IPO 定价为 83 美元。&lt;/p&gt;&lt;p&gt;★★★★ · Latent Space · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-19.html"&gt;2026-11-19 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>InclusionMed：医疗 AI 基准测试项目</title>
+<link>https://huggingface.co/papers/2611.21218</link>
+<guid isPermaLink="false">15712514dcdf</guid>
+<pubDate>Mon, 16 Nov 2026 19:00:00 -0500</pubDate>
+<description>&lt;p&gt;InclusionMed 倡议通过评估医疗 AI 模型在不同临床角色中的表现及推理成本，强调医疗 AI 评价体系需结合具体场景。&lt;/p&gt;&lt;p&gt;★★★★ · HF Daily Papers · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-19.html"&gt;2026-11-19 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>范式入局基模开发</title>
+<link>https://www.slowchronicle.com/posts/llm-assisted-reverse-engineering</link>
+<guid isPermaLink="false">f00d83341f65</guid>
+<pubDate>Wed, 18 Nov 2026 17:29:00 -0500</pubDate>
+<description>&lt;p&gt;范式推出两款基模，并实现单张 RTX 3090 显卡即可运行语言模型，显著降低了国产算力的应用门槛。&lt;/p&gt;&lt;p&gt;★★★ · Hacker News · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-19.html"&gt;2026-11-19 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
 <item>
 <title>Google 发布新一代模型 Gemini 4 Neon</title>
 <link>https://deepmind.google/blog/introducing-gemini-4-neon/</link>
 <guid isPermaLink="false">b898a1b2127c</guid>
 <pubDate>Wed, 18 Nov 2026 16:35:00 -0500</pubDate>
-<description>&lt;p&gt;Google DeepMind 推出了最新版本的 AI 模型 Gemini 4 Neon。&lt;/p&gt;&lt;p&gt;★★★★★ · Google DeepMind · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-18.html"&gt;2026-11-18 精选&lt;/a&gt;&lt;/p&gt;</description>
+<description>&lt;p&gt;Gemini 4 Neon 是 Google 推出的最新 AI 模型，专注于复杂的软件工程、知识工作和科学流程，具备端到端的任务处理能力。它通过优化推理逻辑（Thinking levels）和模型架构，在多项基准测试中展现出高水准的推理与指令遵循能力。该模型的推出旨在为企业和开发者提供高效、高性价比的生产级工作流支持，同时提升了网络安全代码的生成与防御能力。&lt;/p&gt;&lt;p&gt;★★★★★ · Google DeepMind · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-18.html"&gt;2026-11-18 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>GPT-6.2 Astra 与 Sol 发布：性能大幅跃升</title>
@@ -25,21 +46,21 @@
 <link>https://www.anthropic.com/research/claude-black-hole-physics</link>
 <guid isPermaLink="false">122be7cf5dd9</guid>
 <pubDate>Mon, 16 Nov 2026 19:00:00 -0500</pubDate>
-<description>&lt;p&gt;Anthropic 的 Claude 模型在量子引力理论框架下，成功解决了两个关于黑洞的理论物理学开放性课题。&lt;/p&gt;&lt;p&gt;★★★★★ · Anthropic · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-18.html"&gt;2026-11-18 精选&lt;/a&gt;&lt;/p&gt;</description>
+<description>&lt;p&gt;Claude 成功解决了理论物理学中关于黑洞和量子引力的两个长期悬而未决的问题。Anthropic 的研究员通过让多个 Claude 实例组成协作小组，自主探索并独立验证数学计算，证明了黑洞形成中的相变本质并确定了量子引力理论中相关方法的精确上限。这一成果展示了 AI 在复杂科学研究中作为辅助助手，具备突破人类多年无法攻克的数学难题的潜能。&lt;/p&gt;&lt;p&gt;★★★★★ · Anthropic · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-18.html"&gt;2026-11-18 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>AI 行业现状：19 张图带你看懂热潮</title>
 <link>https://www.understandingai.org/p/19-charts-that-explain-the-state</link>
 <guid isPermaLink="false">befe78ea6a68</guid>
 <pubDate>Wed, 18 Nov 2026 16:34:00 -0500</pubDate>
-<description>&lt;p&gt;通过 19 张直观的数据图表，分析当前 AI 行业的发展态势与过热现象，适合了解行业全貌。&lt;/p&gt;&lt;p&gt;★★★★ · Understanding AI · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-18.html"&gt;2026-11-18 精选&lt;/a&gt;&lt;/p&gt;</description>
+<description>&lt;p&gt;本文通过19张图表展示了2026年 AI 产业的宏观状态，指出 AI 投资额持续激增，已远超历史上美国的宽带和基建热潮。尽管资本支出巨大，但企业 AI 营收增长强劲，验证了技术落地的商业价值。文章还提醒读者注意 AI 监管政策可能带来的影响，以及当前初创企业在融资环境上面临的分化现象。&lt;/p&gt;&lt;p&gt;★★★★ · Understanding AI · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-18.html"&gt;2026-11-18 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>交互式环境生成模型 Genie 4 正式发布</title>
 <link>https://deepmind.google/blog/genie-4-is-now-available/</link>
 <guid isPermaLink="false">50e3ea47cbae</guid>
 <pubDate>Wed, 18 Nov 2026 13:13:00 -0500</pubDate>
-<description>&lt;p&gt;Google DeepMind 的生成式环境模型 Genie 4 已上线，该模型能从视频中学习并生成可交互的世界。&lt;/p&gt;&lt;p&gt;★★★★ · Google DeepMind · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-18.html"&gt;2026-11-18 精选&lt;/a&gt;&lt;/p&gt;</description>
+<description>&lt;p&gt;Genie 4 是 Google 推出的交互式世界模型，支持通过自然语言实时编辑环境、加入角色并生成适配的音频。该版本通过 Project Genie 平台提供服务，引入了名为“Project Genie agent”的智能体，使用户能通过对话构建复杂场景并将作品发布至社区。其局限在于目前仍处于前沿研究阶段，在物理交互的细腻度和长周期场景一致性方面仍面临技术挑战。&lt;/p&gt;&lt;p&gt;★★★★ · Google DeepMind · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-18.html"&gt;2026-11-18 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>AI 时代的社会秩序与人类主导权</title>
@@ -63,11 +84,11 @@
 <description>&lt;p&gt;OpenAI 评估了 AI 编码智能体在科研辅助中的表现，探讨其在递归式自我进化方面的潜力与当前能力的局限性。&lt;/p&gt;&lt;p&gt;★★★★ · OpenAI · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-18.html"&gt;2026-11-18 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
-<title>具身智能初创公司 Genesis 获英伟达与 AMD 联手押注</title>
-<link>https://www.qbitai.com/2026/11/510821.html</link>
-<guid isPermaLink="false">eaeeeaef9f22</guid>
-<pubDate>Tue, 17 Nov 2026 23:28:00 -0500</pubDate>
-<description>&lt;p&gt;Genesis AI是一家主打「具身全栈」路线的机器人公司，通过自研高保真数据采集系统、仿真引擎Genesis World及硬件终端Eno，实现了从数据到落地的闭环开发。其核心逻辑是将物理交互视为计算问题而非单纯硬件问题，并利用统一模型处理多种机器人操作任务。该公司的成功融资反映了行业对全栈式机器人研发范式的认可，即通过掌握核心软硬件细节以提升落地可靠性。&lt;/p&gt;&lt;p&gt;★★★★ · 量子位 · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-18.html"&gt;2026-11-18 精选&lt;/a&gt;&lt;/p&gt;</description>
+<title>全球首个医疗健康AI评测平台InclusionMed上线</title>
+<link>https://www.qbitai.com/2026/11/510916.html</link>
+<guid isPermaLink="false">d1c7ca312226</guid>
+<pubDate>Wed, 18 Nov 2026 02:24:00 -0500</pubDate>
+<description>&lt;p&gt;InclusionMed 是全球首个医疗健康 AI 的独立评测与分析平台，旨在为医疗模型提供系统化的能力评估。它通过“InclusionMed Atlas”评测图谱和“InclusionMed Index”指数，涵盖了临床诊疗、医疗管理等多场景下的知识、推理及执行能力。该平台的建立填补了医疗 AI 综合测评的空白，有助于规范化评估 AI 在专业医疗场景中的实际应用水平。&lt;/p&gt;&lt;p&gt;★★★★ · 量子位 · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-18.html"&gt;2026-11-18 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>谷歌 AI 搜索答案导致网站流量大幅下降</title>
@@ -803,76 +824,6 @@
 <guid isPermaLink="false">bc8f9eac1966</guid>
 <pubDate>Fri, 06 Nov 2026 03:00:00 -0500</pubDate>
 <description>&lt;p&gt;OpenAI 与安全平台 Hacktron 合作，旨在通过模拟攻击测试第三方服务连接，以增强前沿 AI 系统的防御能力。&lt;/p&gt;&lt;p&gt;★★★ · OpenAI · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-06.html"&gt;2026-11-06 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>AI 在博弈测试中学会了“说谎”</title>
-<link>https://www.dwarkesh.com/p/clocktower</link>
-<guid isPermaLink="false">c0c2d1f3626b</guid>
-<pubDate>Thu, 05 Nov 2026 16:05:00 -0500</pubDate>
-<description>&lt;p&gt;这是一项利用桌游“血染钟楼”（Blood on the Clocktower）作为基准，测试AI模型在欺骗、推理及多智能体协作方面表现的研究。通过对比不同模型在扮演“好人”与“坏人”时的表现，作者发现模型在长期连贯性、协调性和策略规划上进步显著。该基准揭示了AI在处理复杂社会博弈和应对欺诈信息时的能力上限与逻辑局限。&lt;/p&gt;&lt;p&gt;★★★★★ · Dwarkesh Podcast · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-05.html"&gt;2026-11-05 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>AI自动化修复近千个Linux内核漏洞</title>
-<link>https://openai.com/index/a-thousand-fewer-paths-to-root</link>
-<guid isPermaLink="false">a4f4c423c542</guid>
-<pubDate>Wed, 04 Nov 2026 03:00:00 -0500</pubDate>
-<description>&lt;p&gt;OpenAI开发了一套自动化管道，成功发现、验证并修复了Linux内核中948个本地权限提升漏洞，展示了AI在软件安全领域的强大潜力。&lt;/p&gt;&lt;p&gt;★★★★★ · OpenAI · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-05.html"&gt;2026-11-05 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>AINews：“权重空间编程”引入神经网络权重读写功能</title>
-<link>https://latent.space/p/ainews-llms-can-read-write-neural-network-weights-weight-space-programming-cuts-autoresearch-out-of/</link>
-<guid isPermaLink="false">360a3a5d8e13</guid>
-<pubDate>Tue, 03 Nov 2026 00:35:00 -0500</pubDate>
-<description>&lt;p&gt;这是一项关于“权重空间编程”（Weight Space Programming）的研究进展，展示了高性能大模型能直接读取并编辑小型模型的神经网络权重。这意味着AI无需源码即可理解模型功能、修复Bug甚至从头生成网络权重。这一能力为递归自我改进（RSI）提供了新路径，但目前尚处于实验阶段，尚未在大规模复杂任务中验证其有效性。&lt;/p&gt;&lt;p&gt;★★★★★ · Latent Space · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-05.html"&gt;2026-11-05 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>机器人领域的“模拟到现实”鸿沟与 AI 能力瓶颈</title>
-<link>https://www.understandingai.org/p/this-robotics-concept-helps-explain</link>
-<guid isPermaLink="false">ae2861cc0e2f</guid>
-<pubDate>Thu, 05 Nov 2026 10:16:00 -0500</pubDate>
-<description>&lt;p&gt;“Sim-to-real gap”指机器人从虚拟仿真环境迁移到现实世界时出现的性能落差，该概念被用来解释为何AI在编程与数学等领域突破迅速，而在其他职业领域进展缓慢。核心逻辑在于：编程和数学拥有可精确定义的规则，极易模拟，模型能通过自我博弈快速进化；而现实中的人际交往与物理操纵则难以建模。这种模拟难度差异决定了AI落地应用的速度与广度。&lt;/p&gt;&lt;p&gt;★★★★ · Understanding AI · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-05.html"&gt;2026-11-05 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>OpenAI 发布网络安全模型 GPT-6 Cyber</title>
-<link>https://openai.com/index/introducing-gpt-6-cyber</link>
-<guid isPermaLink="false">53c56afbaf05</guid>
-<pubDate>Thu, 05 Nov 2026 04:00:00 -0500</pubDate>
-<description>&lt;p&gt;OpenAI 推出专注于网络安全的 GPT-6 Cyber，旨在自动发现漏洞并提供修复方案，同时通过训练确保其操作符合授权范围。&lt;/p&gt;&lt;p&gt;★★★★ · OpenAI · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-05.html"&gt;2026-11-05 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>百度开源文心 5.5 Flash Base，刷新同尺寸模型 SOTA 纪录</title>
-<link>https://www.qbitai.com/2026/11/507787.html</link>
-<guid isPermaLink="false">a29b2895a2f3</guid>
-<pubDate>Thu, 05 Nov 2026 02:15:00 -0500</pubDate>
-<description>&lt;p&gt;文心5.5 Flash Base是百度开源的混合专家（MoE）架构基座模型，旨在提升长上下文处理中的资源利用效率。它通过引入潜空间门控稀疏注意力（Latent-Gated Sparse Attention）和高效专家路由机制，在多项基准测试中表现出色。该模型的开源为开发者提供了更灵活的定制空间，有助于降低专业大模型的研发成本。&lt;/p&gt;&lt;p&gt;★★★★ · 量子位 · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-05.html"&gt;2026-11-05 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>GPT-Image-2.6 全量上线，支持直接生成 GIF 与矢量图 SVG</title>
-<link>https://www.qbitai.com/2026/11/507707.html</link>
-<guid isPermaLink="false">5279acc13e09</guid>
-<pubDate>Wed, 04 Nov 2026 20:59:00 -0500</pubDate>
-<description>&lt;p&gt;GPT-Image-2.6是OpenAI推出的图像生成模型，通过将“场景规划”与“像素渲染”解耦，允许开发者调节参数实现更快的生成速度（最快6秒）及更高的一致性。该模型通过序列帧（Sprite Sheet）技术原生支持GIF生成，并直接支持SVG矢量格式导出。这一更新提升了商业应用中的效率，但其处理复杂场景时仍依赖合理的参数配置。&lt;/p&gt;&lt;p&gt;★★★★ · 量子位 · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-05.html"&gt;2026-11-05 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>比煤炭更不受欢迎：从数据中心全民公投看 AI 重构需求</title>
-<link>https://www.argmin.net/p/less-popular-than-coal</link>
-<guid isPermaLink="false">ecc8f412394b</guid>
-<pubDate>Wed, 04 Nov 2026 14:07:00 -0500</pubDate>
-<description>&lt;p&gt;本文探讨了美国公众近期对AI数据中心建设的广泛抵触情绪，指出民众对AI行业的负面观感与社会经济利益分配不均、行业不负责任的宣传及技术带来的就业焦虑密切相关。作者认为AI行业正面临严重的形象危机，急需通过集体行动推动行业变革，而非仅仅依赖技术进步来解决根本性的社会信任问题。&lt;/p&gt;&lt;p&gt;★★★★ · arg min · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-05.html"&gt;2026-11-05 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>Ripple-65B：编程智能体新模型</title>
-<link>https://www.ricursive.com/ripple</link>
-<guid isPermaLink="false">0f35e299c97c</guid>
-<pubDate>Wed, 04 Nov 2026 13:53:00 -0500</pubDate>
-<description>&lt;p&gt;Ripple-65B Preview是Ricursive Intelligence推出的一款开源编码模型，在TerminalBench基准测试中达到了美国开源模型领先水平。该模型通过优化训练流程和架构，在极低的研发成本下实现了高推理效率。其成功归功于精心设计的模型阶梯实验（Laddering）和高效的合成数据训练策略，为全栈AI研发提供了参考。&lt;/p&gt;&lt;p&gt;★★★★ · Hacker News · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-05.html"&gt;2026-11-05 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>AI正迫使企业偿还技术债务</title>
-<link>https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability</link>
-<guid isPermaLink="false">68c44263a0af</guid>
-<pubDate>Wed, 04 Nov 2026 06:52:00 -0500</pubDate>
-<description>&lt;p&gt;PHP2Shell漏洞揭示了AI时代下，人类过去40年积累的技术债务正加速被AI发掘。研究显示，利用AI工具能够高效识别并利用原本被视为“不严重”的程序崩溃类Bug，从而将其转化为严重的安全漏洞。这强调了防御方亟需提升预算、采用形式化验证工具（Formal Verification）来应对日益频繁的自动化攻击威胁。&lt;/p&gt;&lt;p&gt;★★★★ · Hacker News · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-05.html"&gt;2026-11-05 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>
