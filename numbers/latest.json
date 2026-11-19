@@ -62,7 +62,7 @@
    "decimals": 0,
    "change": "pct",
    "date": "2026-11-19",
-   "value": 3733.8,
+   "value": 3637.0,
    "previous": 3741.9,
    "detail": "COMEX 黄金期货（GC=F），美元/盎司",
    "source": "https://finance.yahoo.com/quote/GC=F/"
@@ -73,9 +73,9 @@
    "unit": "",
    "decimals": 0,
    "change": "pct",
-   "date": "2026-11-19",
-   "value": 3577.62,
-   "previous": 3587.83,
+   "date": "2026-11-18",
+   "value": 3587.83,
+   "previous": 3584.58,
    "detail": "上证综合指数（000001.SS）",
    "source": "https://finance.yahoo.com/quote/000001.SS/"
   },
@@ -95,26 +95,19 @@
  "news": [
   {
    "section": "AI",
-   "number": "40%",
-   "label": "用户点击外部网站的比例下降幅度",
-   "title": "谷歌 AI 搜索答案导致网站流量大幅下降",
-   "link": "https://revscope.co/blog/search-seo-geo-2026/"
-  },
-  {
-   "section": "科学",
-   "number": "1万亿美元",
-   "label": "全球化学品污染每年造成的经济损失",
-   "title": "全球化学品污染对健康构成长期威胁",
-   "link": "https://phys.org/news/2026-11-scientists-health-threats-chemicals.html"
+   "number": "61 分",
+   "label": "Gemini 4 Neon 模型的智能指数得分",
+   "title": "Google 发布 Gemini 4 Neon 中端模型",
+   "link": "https://latent.space/p/ainews-gemini-4-neon-gdm-s-opus-sol-contender/"
   },
   {
    "section": "美股",
-   "number": "45亿美元",
-   "label": "Palo Alto收购AI初创公司的金额",
+   "number": "7%",
+   "label": "Palo Alto财报发布后的股价涨幅",
    "title": "Palo Alto斥资45亿美元收购AI初创公司 业绩超预期股价盘后大涨7%",
    "link": "https://jiande.is-a.si/us-market/news/2026/2026-11-18.html#news-4"
   }
  ],
- "newsKey": "ai-122be7cf5dd9,ai-50e3ea47cbae,ai-695d1f9a1cf6,ai-6fc8c039af46,ai-9fa731b0ef6c,ai-b898a1b2127c,ai-befe78ea6a68,ai-e683d40fba10,ai-eaeeeaef9f22,ai-fc6e4b817a04,market-2026-11-18-1,market-2026-11-18-2,market-2026-11-18-3,market-2026-11-18-4,market-2026-11-18-5,science-18583ecc3f71,science-3b512e5d8837,science-a3cfb6b9b0e6,science-ab8f9a40ce1d,science-d6d7c9810020,science-e4b9dab08990,science-e7b1fb348415,science-f9401287c2ce",
- "updated": "2026-11-19T09:00:43+00:00"
+ "newsKey": "ai-15712514dcdf,ai-f00d83341f65,ai-f0a746966ded,market-2026-11-18-1,market-2026-11-18-2,market-2026-11-18-3,market-2026-11-18-4,market-2026-11-18-5,science-313ed2109cc5,science-7389df7e2409,science-b6a1f1274969,science-b7e52b65eb9b,science-c2974be76578,science-cca88ebc880e,science-cced664dad6e,science-eaf85014b6d3",
+ "updated": "2026-11-19T21:42:19+00:00"
 }
