@@ -6,9 +6,9 @@
    "unit": "",
    "decimals": 0,
    "change": "pct",
-   "date": "2026-11-17",
-   "value": 7340.53,
-   "previous": 7416.59,
+   "date": "2026-11-18",
+   "value": 7323.63,
+   "previous": 7340.53,
    "source": "https://fred.stlouisfed.org/series/SP500"
   },
   {
@@ -17,9 +17,9 @@
    "unit": "",
    "decimals": 0,
    "change": "pct",
-   "date": "2026-11-17",
-   "value": 24328.38,
-   "previous": 24509.76,
+   "date": "2026-11-18",
+   "value": 24429.88,
+   "previous": 24328.38,
    "source": "https://fred.stlouisfed.org/series/NASDAQCOM"
   },
   {
@@ -28,9 +28,9 @@
    "unit": "$",
    "decimals": 0,
    "change": "pct",
-   "date": "2026-11-17",
-   "value": 64604.63,
-   "previous": 64537.93,
+   "date": "2026-11-18",
+   "value": 63171.19,
+   "previous": 64604.63,
    "source": "https://fred.stlouisfed.org/series/CBBTCUSD"
   },
   {
@@ -61,9 +61,9 @@
    "unit": "$",
    "decimals": 0,
    "change": "pct",
-   "date": "2026-11-18",
-   "value": 3729.4,
-   "previous": 3864.2,
+   "date": "2026-11-19",
+   "value": 3733.8,
+   "previous": 3741.9,
    "detail": "COMEX 黄金期货（GC=F），美元/盎司",
    "source": "https://finance.yahoo.com/quote/GC=F/"
   },
@@ -73,9 +73,9 @@
    "unit": "",
    "decimals": 0,
    "change": "pct",
-   "date": "2026-11-17",
-   "value": 3584.58,
-   "previous": 3602.57,
+   "date": "2026-11-19",
+   "value": 3577.62,
+   "previous": 3587.83,
    "detail": "上证综合指数（000001.SS）",
    "source": "https://finance.yahoo.com/quote/000001.SS/"
   },
@@ -85,10 +85,10 @@
    "unit": "",
    "decimals": 0,
    "change": "abs",
-   "date": "2026-11-18",
-   "value": 451,
-   "previous": 832,
-   "detail": "cs.AI 109 · cs.CL 60 · cs.CV 175 · cs.LG 107",
+   "date": "2026-11-19",
+   "value": 427,
+   "previous": 451,
+   "detail": "cs.AI 82 · cs.CL 42 · cs.CV 185 · cs.LG 118",
    "source": "https://arxiv.org/list/cs.AI/new"
   }
  ],
@@ -96,7 +96,7 @@
   {
    "section": "AI",
    "number": "40%",
-   "label": "AI生成答案导致的外部网站流量降幅",
+   "label": "用户点击外部网站的比例下降幅度",
    "title": "谷歌 AI 搜索答案导致网站流量大幅下降",
    "link": "https://revscope.co/blog/search-seo-geo-2026/"
   },
@@ -109,12 +109,12 @@
   },
   {
    "section": "美股",
-   "number": "9.45%",
-   "label": "Salesforce单日股价跌幅",
-   "title": "Salesforce大跌逾9%，新一轮裁员消息引发增长动能担忧",
-   "link": "https://jiande.is-a.si/us-market/news/2026/2026-11-17.html#news-4"
+   "number": "45亿美元",
+   "label": "Palo Alto收购AI初创公司的金额",
+   "title": "Palo Alto斥资45亿美元收购AI初创公司 业绩超预期股价盘后大涨7%",
+   "link": "https://jiande.is-a.si/us-market/news/2026/2026-11-18.html#news-4"
   }
  ],
- "newsKey": "ai-679cee5ea146,ai-695d1f9a1cf6,ai-6fc8c039af46,ai-af1852b4c46d,ai-b5c8370aae01,ai-c7d3ecb00643,ai-eaeeeaef9f22,ai-fc6e4b817a04,market-2026-11-17-1,market-2026-11-17-2,market-2026-11-17-3,market-2026-11-17-4,market-2026-11-17-5,science-18583ecc3f71,science-3b512e5d8837,science-a3cfb6b9b0e6,science-ab8f9a40ce1d,science-d6d7c9810020,science-e4b9dab08990,science-e7b1fb348415,science-f9401287c2ce",
- "updated": "2026-11-18T21:29:51+00:00"
+ "newsKey": "ai-122be7cf5dd9,ai-50e3ea47cbae,ai-695d1f9a1cf6,ai-6fc8c039af46,ai-9fa731b0ef6c,ai-b898a1b2127c,ai-befe78ea6a68,ai-e683d40fba10,ai-eaeeeaef9f22,ai-fc6e4b817a04,market-2026-11-18-1,market-2026-11-18-2,market-2026-11-18-3,market-2026-11-18-4,market-2026-11-18-5,science-18583ecc3f71,science-3b512e5d8837,science-a3cfb6b9b0e6,science-ab8f9a40ce1d,science-d6d7c9810020,science-e4b9dab08990,science-e7b1fb348415,science-f9401287c2ce",
+ "updated": "2026-11-19T09:00:43+00:00"
 }
