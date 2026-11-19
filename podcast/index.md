@@ -6,6 +6,12 @@
 
 <!-- latest:start -->
 
+### [构建以人为本的AI：银行场景下的实践与思考](2026/2026-11-19-103349f9.md)
+
+Practical AI · 2026-11-19 · 约 45 分钟 · Building Human-Centered AI
+
+本期节目邀请了Scotiabank AI与创新业务负责人Gautham Pallapa博士，分享在严谨的银行业如何将生成式AI（Generative AI）和智能体（Agentic AI）融入企业架构。Pallapa博士拥有深厚的学术背景及云计算开发经验，他强调银行业虽风险厌恶，但通过实验和快速原型开发，可以有效利用AI减少业务摩擦。作为《Invaluable》的作者，他提出了一套以价值为导向的转型框架。他核心观点是：技术本身不创造价值，人才是真正的价值创造者。AI应当作为一种“赋能者”，将人类从编写代码、撰写文档等重复性劳动中解放出来，从而转向更高价值的创造性工作。他生动地解释了如何通过模拟人类协作模式（如Swarm，智能体集群）来提升开发生产力，同时强调在金融领域必须保留“人在回路”（Human-in-the-loop）的监控机制，以确保AI应用的可信度与合规性。
+
 ### [AI 可能会在一年内推翻政府吗？——与 Paul Christiano 对谈](2026/2026-11-16-cc9d9dbd.md)
 
 Dwarkesh Podcast · 2026-11-16 · Paul Christiano – We could be 12 months away from AIs that can overthrow the government
@@ -32,18 +38,13 @@ Dwarkesh Podcast · 2026-11-05 · The benchmark where AIs have to lie to win
 
 节目展示了 AI 的显著进步：相比早期模型，GPT-6 Astra 等前沿模型在策略一致性和多智能体协调上表现出跨越式提升。主持人详细剖析了几个精彩案例，例如 AI 如何通过自我牺牲来博取信任，或是如何通过反逻辑拆解对方的“真相”。主持人发现，OpenAI 的模型在扮演好人时表现更优，它们不再盲目接受证据，而是能更全面地审视信息，识别出对方的干扰。此外，节目还分享了一个有趣的发现：大模型不仅能玩游戏，甚至能通过自我迭代，利用自身能力优化游戏的程序逻辑环境。主持人的结论是，这种涉及欺诈和复杂协作的基准测试，能比标准测试更清晰地捕捉到模型在深度战略推理上的真实水准。
 
-### [中西部AI峰会：大组织的AI落地与信任边界](2026/2026-11-05-ed7bed4a.md)
-
-Practical AI · 2026-11-05 · 约 48 分钟 · Abundant Intelligence at the Midwest AI Summit Part 2
-
-本期节目是“中西部AI峰会”（Midwest AI Summit）系列的第二部分，邀请了来自三个不同领域的实践者，深入探讨了在企业中应用AI的务实策略。Don Barger（International Mission Board创新与AI总监）分享了其组织如何通过制定明确的“AI宪章”，预先划定AI的适用边界——如明确拒绝将AI用于心理辅导或替代人类进行精神关怀（Soul Care），即使在技术上可行，也要坚持以人为本。Mark Lay（Noblis CIO）则从首席信息官的视角，提出了管理AI的四个核心决策维度，包括任务委派的风险平衡、不可转让的责任归属、数据所有权，以及对技术债的审慎评估。Darren Taillie（AeroCore Technologies数据分析经理）则分享了具体的落地案例，展示了如何通过视觉模型（Vision Model）校验飞机发动机清洗作业的工单，以及利用Agent（智能体）连接数据库，彻底打破了传统アナログ（模拟）工业与数字化决策之间的壁垒。嘉宾们强调，AI落地的关键不在于盲目追求技术前沿，而在于建立信任机制，确保AI能够真正赋能业务，而非替代人的核心价值。
-
 <!-- latest:end -->
 
 ## 往期
 
 <!-- archive:start -->
 
+- 2026-11-05：[中西部AI峰会：大组织的AI落地与信任边界](2026/2026-11-05-ed7bed4a.md)（Practical AI）
 - 2026-10-30：[罗伯特·卡罗谈权力与塑造时代的意志：50年传记写作的复盘](2026/2026-10-30-69cf72c5.md)（Dwarkesh Podcast）
 - 2026-10-29：[中西部人工智能峰会上的实用智能：工作流、蓝领采用与软件开发模式](2026/2026-10-29-0a7d4dd6.md)（Practical AI）
 - 2026-10-29：[从Robert Moses到Lyndon Johnson：透视政治权力的运作逻辑](2026/2026-10-29-ad9d884c.md)（Dwarkesh Podcast）

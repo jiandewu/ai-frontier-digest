@@ -5,7 +5,14 @@
 <link>https://jiande.is-a.si/ai-frontier-digest/podcast/</link>
 <description>英文播客的中文导读：嘉宾是谁、聊了什么、值不值得听。</description>
 <language>zh-CN</language>
-<lastBuildDate>Mon, 16 Nov 2026 17:32:00 -0500</lastBuildDate>
+<lastBuildDate>Thu, 19 Nov 2026 15:59:00 -0500</lastBuildDate>
+<item>
+<title>构建以人为本的AI：银行场景下的实践与思考</title>
+<link>https://jiande.is-a.si/ai-frontier-digest/podcast/2026/2026-11-19-103349f9.html</link>
+<guid isPermaLink="false">podcast-103349f98498</guid>
+<pubDate>Thu, 19 Nov 2026 15:59:00 -0500</pubDate>
+<description>&lt;p&gt;本期节目邀请了Scotiabank AI与创新业务负责人Gautham Pallapa博士，分享在严谨的银行业如何将生成式AI（Generative AI）和智能体（Agentic AI）融入企业架构。Pallapa博士拥有深厚的学术背景及云计算开发经验，他强调银行业虽风险厌恶，但通过实验和快速原型开发，可以有效利用AI减少业务摩擦。作为《Invaluable》的作者，他提出了一套以价值为导向的转型框架。他核心观点是：技术本身不创造价值，人才是真正的价值创造者。AI应当作为一种“赋能者”，将人类从编写代码、撰写文档等重复性劳动中解放出来，从而转向更高价值的创造性工作。他生动地解释了如何通过模拟人类协作模式（如Swarm，智能体集群）来提升开发生产力，同时强调在金融领域必须保留“人在回路”（Human-in-the-loop）的监控机制，以确保AI应用的可信度与合规性。&lt;/p&gt;&lt;p&gt;Practical AI · 2026-11-19 · 约 45 分钟 · &lt;a href="https://share.transistor.fm/s/bb4dad17"&gt;收听原节目&lt;/a&gt;&lt;/p&gt;</description>
+</item>
 <item>
 <title>AI 可能会在一年内推翻政府吗？——与 Paul Christiano 对谈</title>
 <link>https://jiande.is-a.si/ai-frontier-digest/podcast/2026/2026-11-16-cc9d9dbd.html</link>
