@@ -5,7 +5,42 @@
 <link>https://jiande.is-a.si/ai-frontier-digest/</link>
 <description>每天精选 10 条以内最值得一读的 AI 前沿进展，附中文科普解释。</description>
 <language>zh-CN</language>
-<lastBuildDate>Thu, 19 Nov 2026 18:13:00 -0500</lastBuildDate>
+<lastBuildDate>Fri, 20 Nov 2026 02:43:00 -0500</lastBuildDate>
+<item>
+<title>Anthropic 完成史上最大规模 IPO 并发布 Genie 4</title>
+<link>https://latent.space/p/ainews-anthropic-successfully-completes-largest-ipo-in-history-valued-at-1-5t/</link>
+<guid isPermaLink="false">1177dfbd92c1</guid>
+<pubDate>Fri, 20 Nov 2026 02:12:00 -0500</pubDate>
+<description>&lt;p&gt;Anthropic 以 1.5 万亿美元估值完成史上最大规模 IPO，同时 Google 向开发者开放了新一代模型 Genie 4。&lt;/p&gt;&lt;p&gt;★★★★★ · Latent Space · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-20.html"&gt;2026-11-20 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>Agnes 开源框架：Agent 效率提升 14 倍，成本大幅下降</title>
+<link>https://www.qbitai.com/2026/11/511582.html</link>
+<guid isPermaLink="false">3e97e19d49f6</guid>
+<pubDate>Fri, 20 Nov 2026 00:24:00 -0500</pubDate>
+<description>&lt;p&gt;通过双系统决策和双层自进化机制，开源项目 Agnes 显著优化了 AI 智能体（Agent）的运行效率与成本。&lt;/p&gt;&lt;p&gt;★★★★ · 量子位 · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-20.html"&gt;2026-11-20 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>华为云 CloudRobo 推动具身智能机器人迈向商用</title>
+<link>https://www.qbitai.com/2026/11/511426.html</link>
+<guid isPermaLink="false">77bcf4d6e254</guid>
+<pubDate>Thu, 19 Nov 2026 20:07:00 -0500</pubDate>
+<description>&lt;p&gt;华为云通过 CloudRobo 平台提供云端算力和适配能力，旨在解决具身智能（将 AI 赋予实体机器人的技术）开发过程中的算力和工程难题。&lt;/p&gt;&lt;p&gt;★★★★ · 量子位 · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-20.html"&gt;2026-11-20 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>AI 如何驱动 Linear 快速实现超亿元营收增长</title>
+<link>https://latent.space/p/linear-scaling/</link>
+<guid isPermaLink="false">222a3317cded</guid>
+<pubDate>Thu, 19 Nov 2026 18:58:00 -0500</pubDate>
+<description>&lt;p&gt;Linear 的首席运营官分享了公司如何通过 AI 代理处理过半工单，并在不依赖传统销售团队的情况下实现高速营收增长。&lt;/p&gt;&lt;p&gt;★★★ · Latent Space · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-20.html"&gt;2026-11-20 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>Daybreak Red：监督式安全调查参考架构</title>
+<link>https://openai.com/business/learn/deploying-daybreak-red</link>
+<guid isPermaLink="false">4b08ec50268e</guid>
+<pubDate>Wed, 18 Nov 2026 19:00:00 -0500</pubDate>
+<description>&lt;p&gt;介绍了一套用于监督式安全调查的参考架构，包含完整的安全控制、设置指南与监控方案。&lt;/p&gt;&lt;p&gt;★★★ · OpenAI · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-20.html"&gt;2026-11-20 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
 <item>
 <title>Anthropic的纳斯达克上市关注</title>
 <link>https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/</link>
@@ -28,18 +63,11 @@
 <description>&lt;p&gt;这是一篇关于利用大语言模型辅助逆向工程的实践心得，作者通过结合Ghidra等反编译工具与特定代理技能，大幅提升了分析二进制文件及编写补丁的效率。其核心流程包括指令AI记录文档、分析代码结构，并通过假设驱动的调试方法解决难点，利用Python和Rust实现自动化探测。这种方法有效解决了传统逆向过程冗长繁琐的局限，但在复杂场景下仍需人工进行有效引导。&lt;/p&gt;&lt;p&gt;★★★★ · Hacker News · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-19.html"&gt;2026-11-19 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
-<title>InclusionMed：医疗 AI 基准测试项目</title>
-<link>https://huggingface.co/papers/2611.21218</link>
-<guid isPermaLink="false">15712514dcdf</guid>
-<pubDate>Mon, 16 Nov 2026 19:00:00 -0500</pubDate>
-<description>&lt;p&gt;InclusionMed是一个旨在评估医疗AI包容性的开源基准测试计划，通过构建包含不同医疗角色和AI能力的评估矩阵来度量模型表现。该项目通过结构化审计筛选出的多个基准测试，揭示了当前顶尖大模型在患者沟通与临床决策能力上的差异及成本不均衡问题。它强调了多元化医疗需求对定义AI进步的重要性，提示开发者在选择模型时需考虑特定应用环境。&lt;/p&gt;&lt;p&gt;★★★★ · HF Daily Papers · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-19.html"&gt;2026-11-19 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
 <title>必须使用量子计算机才能取胜的游戏</title>
 <link>https://research.google/blog/a-game-you-cannot-win-unless-you-have-a-quantum-computer/</link>
 <guid isPermaLink="false">44d231d9ee48</guid>
 <pubDate>Thu, 19 Nov 2026 15:03:00 -0500</pubDate>
-<description>&lt;p&gt;Google Research探讨了一类只有具备量子计算能力才能求解的游戏问题，展示了量子计算在处理特定逻辑任务时的独特优势。&lt;/p&gt;&lt;p&gt;★★★ · Google Research · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-19.html"&gt;2026-11-19 精选&lt;/a&gt;&lt;/p&gt;</description>
+<description>&lt;p&gt;这是一项关于量子力学核心特性“量子上下文关联性”（Quantum contextuality）的实验研究，验证了其在多量子位系统中的存在与效用。研究人员利用Google的超导量子处理器进行“魔术方块游戏”等测试，证明量子系统的测量结果并不预先存在，而是根据测量环境实时产生，从而超越了经典物理的逻辑限制。该研究不仅证实了这种深层的量子资源在高达105个量子位的系统中依然有效，还为量子硬件提供了一种比随机电路更灵敏的纠错基准。&lt;/p&gt;&lt;p&gt;★★★ · Google Research · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-19.html"&gt;2026-11-19 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>Google 发布 Gemini 4 Neon 中端模型</title>
@@ -53,7 +81,14 @@
 <link>https://huggingface.co/papers/2611.24738</link>
 <guid isPermaLink="false">eba1ef6c1e98</guid>
 <pubDate>Wed, 18 Nov 2026 19:00:00 -0500</pubDate>
-<description>&lt;p&gt;Jeveration提出了一种新方法，利用固定的视觉-语言模型通过一次前向计算实现图像生成、编辑及密集预测任务，显著提升了推理效率。&lt;/p&gt;&lt;p&gt;★★★ · HF Daily Papers · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-19.html"&gt;2026-11-19 精选&lt;/a&gt;&lt;/p&gt;</description>
+<description>&lt;p&gt;Jeveration 是一种实现高效图像生成的 AI 模型架构，将此前用于快速决策的“系统一”（System One）模式引入到图像生成领域。它通过单一前向传播过程并行预测图像各部分，并利用共享的随机状态来确保生成内容在全局上的连贯性，从而在不依赖迭代采样的情况下大幅提升生成速度。该模型不仅能进行文生图，还统一支持图生图和密集预测任务，在保持高质量的同时实现了极短的单次推理延迟。&lt;/p&gt;&lt;p&gt;★★★ · HF Daily Papers · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-19.html"&gt;2026-11-19 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>InclusionMed：医疗 AI 基准测试项目</title>
+<link>https://huggingface.co/papers/2611.21218</link>
+<guid isPermaLink="false">15712514dcdf</guid>
+<pubDate>Mon, 16 Nov 2026 19:00:00 -0500</pubDate>
+<description>&lt;p&gt;InclusionMed是一个旨在评估医疗AI包容性的开源基准测试计划，通过构建包含不同医疗角色和AI能力的评估矩阵来度量模型表现。该项目通过结构化审计筛选出的多个基准测试，揭示了当前顶尖大模型在患者沟通与临床决策能力上的差异及成本不均衡问题。它强调了多元化医疗需求对定义AI进步的重要性，提示开发者在选择模型时需考虑特定应用环境。&lt;/p&gt;&lt;p&gt;★★★ · HF Daily Papers · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-19.html"&gt;2026-11-19 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>Google 发布新一代模型 Gemini 4 Neon</title>
@@ -68,13 +103,6 @@
 <guid isPermaLink="false">fc6e4b817a04</guid>
 <pubDate>Tue, 17 Nov 2026 19:49:00 -0500</pubDate>
 <description>&lt;p&gt;GPT-6.2 Astra和Sol是OpenAI发布的新一代旗舰与高性能模型，分别针对复杂专业任务和高频日常应用优化。它们通过模型架构升级和高效训练，显著提升了在科研、编程、3D建模及网络安全等领域的任务表现，并大幅降低了计算成本。这标志着模型在实际工程应用中的性价比与专业化程度进一步提高，直接影响着从网页设计到复杂机械建模的工作流程。&lt;/p&gt;&lt;p&gt;★★★★★ · 量子位 · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-18.html"&gt;2026-11-18 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>Anthropic 完成首次公开募股定价</title>
-<link>https://www.anthropic.com/news/anthropic-prices-initial-public-offering</link>
-<guid isPermaLink="false">909b75797cd1</guid>
-<pubDate>Tue, 17 Nov 2026 19:00:00 -0500</pubDate>
-<description>&lt;p&gt;该条目公告了人工智能公司Anthropic将其首次公开募股（IPO）的A类普通股定价为每股83.00美元，计划于2026年11月19日在纳斯达克交易。此次发行共计9.8亿股，并包含承销商的超额配售选择权。作为AI领域的重要事件，此次IPO标志着Anthropic在资本市场的正式亮相，投资者应通过正式招股说明书获取详细财务信息。&lt;/p&gt;&lt;p&gt;★★★★★ · Anthropic · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-18.html"&gt;2026-11-18 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>Claude 破解黑洞物理学难题</title>
@@ -119,11 +147,18 @@
 <description>&lt;p&gt;OpenAI 评估了 AI 编码智能体在科研辅助中的表现，探讨其在递归式自我进化方面的潜力与当前能力的局限性。&lt;/p&gt;&lt;p&gt;★★★★ · OpenAI · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-18.html"&gt;2026-11-18 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
-<title>全球首个医疗健康AI评测平台InclusionMed上线</title>
-<link>https://www.qbitai.com/2026/11/510916.html</link>
-<guid isPermaLink="false">d1c7ca312226</guid>
-<pubDate>Wed, 18 Nov 2026 02:24:00 -0500</pubDate>
-<description>&lt;p&gt;InclusionMed 是全球首个医疗健康 AI 的独立评测与分析平台，旨在为医疗模型提供系统化的能力评估。它通过“InclusionMed Atlas”评测图谱和“InclusionMed Index”指数，涵盖了临床诊疗、医疗管理等多场景下的知识、推理及执行能力。该平台的建立填补了医疗 AI 综合测评的空白，有助于规范化评估 AI 在专业医疗场景中的实际应用水平。&lt;/p&gt;&lt;p&gt;★★★★ · 量子位 · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-18.html"&gt;2026-11-18 精选&lt;/a&gt;&lt;/p&gt;</description>
+<title>具身智能初创公司 Genesis 获英伟达与 AMD 联手押注</title>
+<link>https://www.qbitai.com/2026/11/510821.html</link>
+<guid isPermaLink="false">eaeeeaef9f22</guid>
+<pubDate>Tue, 17 Nov 2026 23:28:00 -0500</pubDate>
+<description>&lt;p&gt;Genesis AI是一家主打「具身全栈」路线的机器人公司，通过自研高保真数据采集系统、仿真引擎Genesis World及硬件终端Eno，实现了从数据到落地的闭环开发。其核心逻辑是将物理交互视为计算问题而非单纯硬件问题，并利用统一模型处理多种机器人操作任务。该公司的成功融资反映了行业对全栈式机器人研发范式的认可，即通过掌握核心软硬件细节以提升落地可靠性。&lt;/p&gt;&lt;p&gt;★★★★ · 量子位 · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-18.html"&gt;2026-11-18 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>谷歌 AI 搜索答案导致网站流量大幅下降</title>
+<link>https://revscope.co/blog/search-seo-geo-2026/</link>
+<guid isPermaLink="false">695d1f9a1cf6</guid>
+<pubDate>Tue, 17 Nov 2026 19:17:00 -0500</pubDate>
+<description>&lt;p&gt;AI Overviews 是 Google 在搜索结果页顶部呈现的 AI 生成式摘要，旨在直接回答用户查询。研究显示，该功能会导致用户点击外部网站的比例下降约 40%，因为用户更倾向于在搜索结果页内直接获取答案。尽管出现了针对 AI 的优化策略 GEO，但目前尚无法完全弥补流量流失的现象。&lt;/p&gt;&lt;p&gt;★★★★ · Hacker News · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-18.html"&gt;2026-11-18 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>OpenAI 发布 GPT-6.2 Astra 与 Sol 模型</title>
@@ -782,76 +817,6 @@
 <guid isPermaLink="false">0f35f4c9f4ac</guid>
 <pubDate>Thu, 05 Nov 2026 19:00:00 -0500</pubDate>
 <description>&lt;p&gt;该项目研究了Claude模型在MMORPG游戏环境中执行复杂任务的能力，如进行金融市场交易或团队协作。实验发现，较新的模型能通过自我编写代码和策略优化，在模拟市场中实现盈利，体现了AI在多步骤、长期规划任务上的潜力。该研究旨在探索AI在真实商业环境中的应用上限及潜在风险。&lt;/p&gt;&lt;p&gt;★★★ · Anthropic · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-07.html"&gt;2026-11-07 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>预测的玄学：防御性预测及其局限</title>
-<link>https://www.argmin.net/p/the-unholy-methods-of-soothsayers</link>
-<guid isPermaLink="false">6de2145da625</guid>
-<pubDate>Fri, 06 Nov 2026 10:15:00 -0500</pubDate>
-<description>&lt;p&gt;Defensive Forecasting 是一种通过算法生成预测的方法，旨在使其预测结果在数学上与实际观测结果不可区分。它通过匹配预测与结果之间的统计矩（moment-matching）来实现，无需深入了解系统背后的物理机制。这种方法揭示了预测可以仅仅是对评估规则的“游戏”，提醒人们警惕那种看似精准但并无真实理解的机械化预测。&lt;/p&gt;&lt;p&gt;★★★★ · arg min · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-06.html"&gt;2026-11-06 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>Google Gemini Omni 1.2 Flash 模型发布</title>
-<link>https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/</link>
-<guid isPermaLink="false">d7e9e3e89ee7</guid>
-<pubDate>Fri, 06 Nov 2026 08:35:00 -0500</pubDate>
-<description>&lt;p&gt;Gemini Omni 1.2 Flash 是谷歌推出的一款更高效的视频生成模型，支持长达 15 秒的视频创作并大幅降低了成本。它通过引入多轮对话编辑功能和增强的参考一致性，使角色、物体和场景在视频中保持高度连贯。该模型目前已全面上线，适用于需要快速、高质量生成视频内容的商业和开发场景。&lt;/p&gt;&lt;p&gt;★★★★ · Hacker News · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-06.html"&gt;2026-11-06 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>Inkling 2 Small 模型发布：高效训练的新尝试</title>
-<link>https://latent.space/p/ainews-inkling-2-small-17a-594b-trained-in-68-hours-on-12t-tokens-beating-muse-spark/</link>
-<guid isPermaLink="false">47595e2862bb</guid>
-<pubDate>Fri, 06 Nov 2026 05:35:00 -0500</pubDate>
-<description>&lt;p&gt;Inkling 2 Small 是 Thinking Machines 公司推出的一款 594B 总参数的多模态 MoE 模型，在极短训练时间内实现了强大的性能。它采用 NVFP4 精度技术，在代码与逻辑推理基准测试中展现出与顶级模型竞争的潜力。该模型特别强调“可定制性”，旨在为开发者提供高效且灵活的推理能力。&lt;/p&gt;&lt;p&gt;★★★★ · Latent Space · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-06.html"&gt;2026-11-06 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>中国 AI 团队刷新 CyberGym 安全世界纪录</title>
-<link>https://www.qbitai.com/2026/11/508107.html</link>
-<guid isPermaLink="false">9916aee4f641</guid>
-<pubDate>Fri, 06 Nov 2026 00:01:00 -0500</pubDate>
-<description>&lt;p&gt;“图龙锋”是 360 自研的 AI 安全攻防系统，在 CyberGym 榜单中以 99.4% 的漏洞复现成功率刷新世界纪录。它通过结合安全领域的专业大模型与智能体集群，模拟顶级安全专家的判断路径来自动化挖掘漏洞。该系统不仅能完成复杂任务，还具备从错误中自我进化的能力，将专家的经验规模化为可复现的技术流程。&lt;/p&gt;&lt;p&gt;★★★★ · 量子位 · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-06.html"&gt;2026-11-06 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>腾讯 Hy4 扩容，WorkBuddy 领跑开源智能体模型</title>
-<link>https://www.qbitai.com/2026/11/507967.html</link>
-<guid isPermaLink="false">275687e80fc7</guid>
-<pubDate>Thu, 05 Nov 2026 21:00:00 -0500</pubDate>
-<description>&lt;p&gt;腾讯发布的混元 Hy4 大模型因其卓越的 Agent（智能体）能力受到国际高度关注，目前已成为开源模型在相关评测中的佼佼者。该模型在提升长程规划、工具调用和多模态理解的同时，显著优化了成本效益。由于调用需求激增，腾讯已对推理集群进行了十倍扩容，以满足开发者和用户的需求。&lt;/p&gt;&lt;p&gt;★★★★ · 量子位 · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-06.html"&gt;2026-11-06 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>Facebook 被指控明知平台存在 AI 深度伪造诈骗广告</title>
-<link>https://finance.yahoo.com/technology/ai/articles/mark-cuban-says-facebook-knowingly-213000020.html</link>
-<guid isPermaLink="false">6f78e24cdb5b</guid>
-<pubDate>Thu, 05 Nov 2026 18:09:00 -0500</pubDate>
-<description>&lt;p&gt;这是一起关于Meta平台投放AI深度伪造（deepfake）诈骗广告的争议。据报道，Meta通过其自动化系统筛选广告，若账户被判定为诈骗的概率低于95%，便会允许其投放，这部分广告被指带来了巨大收入。此现象引发了对平台合规性及老年群体安全保护的广泛担忧。&lt;/p&gt;&lt;p&gt;★★★★ · Hacker News · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-06.html"&gt;2026-11-06 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>前沿视觉语言模型在机器人具身智能中的实证研究</title>
-<link>https://huggingface.co/papers/2610.00854</link>
-<guid isPermaLink="false">4dcce518c56d</guid>
-<pubDate>Tue, 03 Nov 2026 19:00:00 -0500</pubDate>
-<description>&lt;p&gt;这是一项评估视觉语言模型（VLM）作为通用机器人代理能力的实验研究。研究团队构建了包含1000个案例的竞技场，从空间推理、任务规划到物体操作等维度测试了模型表现。结果显示，闭源模型在综合任务中表现更优，而目前的通用代理仍面临物体控制丢失或动作执行错误等挑战。&lt;/p&gt;&lt;p&gt;★★★★ · HF Daily Papers · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-06.html"&gt;2026-11-06 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>Fabian Theis：从绘制图谱到操控生物学</title>
-<link>https://latent.space/p/controlling-biology-fabian-theis-helmholtz-munich/</link>
-<guid isPermaLink="false">b18e8924e9aa</guid>
-<pubDate>Fri, 06 Nov 2026 10:10:00 -0500</pubDate>
-<description>&lt;p&gt;Fabian Theis 教授的研究专注于利用算法理解多尺度、多模态的生物数据，致力于通过建立“虚拟细胞”（Virtual Cell）来模拟生命过程。针对现有大模型在 perturbation prediction（扰动预测）任务上表现不佳的局限，他提倡转向更大规模、更高精度的多尺度数据建模。这些工作对于推动生物科学的自动化实验和精准医疗具有重要意义。&lt;/p&gt;&lt;p&gt;★★★ · Latent Space · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-06.html"&gt;2026-11-06 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>ToyBlocks：机器人学习的受控模拟环境</title>
-<link>https://huggingface.co/blog/allenai/toyblocks</link>
-<guid isPermaLink="false">be1ba71e55b7</guid>
-<pubDate>Fri, 06 Nov 2026 09:00:00 -0500</pubDate>
-<description>&lt;p&gt;ToyBlocks 是一个为机器人学习设计的 FoundationWorld 框架，通过在简单且可控的模拟环境中进行实验，帮助研究人员深入研究机器人推理与操作。它能够自动生成训练数据和评估任务，并支持通过对比不同实验参数来分析机器人模型的失败原因。这种方法旨在为机器人学提供类似生物学实验的受控环境，以探究模型如何随着数据增长而提升性能。&lt;/p&gt;&lt;p&gt;★★★ · Hugging Face · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-06.html"&gt;2026-11-06 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>OpenAI 携手 Hacktron 启动 AI 安全漏洞挖掘计划</title>
-<link>https://openai.com/index/partnering-with-hacktron</link>
-<guid isPermaLink="false">bc8f9eac1966</guid>
-<pubDate>Fri, 06 Nov 2026 03:00:00 -0500</pubDate>
-<description>&lt;p&gt;OpenAI 与安全平台 Hacktron 合作，旨在通过模拟攻击测试第三方服务连接，以增强前沿 AI 系统的防御能力。&lt;/p&gt;&lt;p&gt;★★★ · OpenAI · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-06.html"&gt;2026-11-06 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>

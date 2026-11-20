@@ -8,16 +8,16 @@
 
 | 重要度 | 标题 | 摘要 | 来源 |
 |---|---|---|---|
-| ★★★★★ | [Google 发布新一代模型 Gemini 4 Neon](https://deepmind.google/blog/introducing-gemini-4-neon/) | Google DeepMind 推出了最新版本的 AI 模型 Gemini 4 Neon。 | Google DeepMind |
-| ★★★★★ | [GPT-6.2 Astra 与 Sol 发布：性能大幅跃升](https://www.qbitai.com/2026/11/510707.html) | OpenAI 推出的 GPT-6.2 Astra 与 Sol 模型在性能上实现突破，特别是 Sol 展示了旗舰级的生成与处理能力，引发对 3D 内容创作与应用范式的探讨。 | 量子位 |
-| ★★★★★ | [Anthropic 完成首次公开募股定价](https://www.anthropic.com/news/anthropic-prices-initial-public-offering) | AI 初创公司 Anthropic 正式公布了其 IPO（首次公开募股）的股票发行价格。 | Anthropic |
-| ★★★★★ | [Claude 破解黑洞物理学难题](https://www.anthropic.com/research/claude-black-hole-physics) | Anthropic 的 Claude 模型在量子引力理论框架下，成功解决了两个关于黑洞的理论物理学开放性课题。 | Anthropic |
+| ★★★★★ | [Anthropic 完成史上最大规模 IPO 并发布 Genie 4](https://latent.space/p/ainews-anthropic-successfully-completes-largest-ipo-in-history-valued-at-1-5t/) | Anthropic 以 1.5 万亿美元估值完成史上最大规模 IPO，同时 Google 向开发者开放了新一代模型 Genie 4。 | Latent Space |
+| ★★★★ | [Agnes 开源框架：Agent 效率提升 14 倍，成本大幅下降](https://www.qbitai.com/2026/11/511582.html) | 通过双系统决策和双层自进化机制，开源项目 Agnes 显著优化了 AI 智能体（Agent）的运行效率与成本。 | 量子位 |
+| ★★★★ | [华为云 CloudRobo 推动具身智能机器人迈向商用](https://www.qbitai.com/2026/11/511426.html) | 华为云通过 CloudRobo 平台提供云端算力和适配能力，旨在解决具身智能（将 AI 赋予实体机器人的技术）开发过程中的算力和工程难题。 | 量子位 |
 | ★★★★ | [OpenAI如何打造ChatGPT性能工厂](https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast) | OpenAI分享了其如何通过Codex驱动的自动化工作流，实时监测并修复性能瓶颈，以确保ChatGPT能够高效稳定地服务用户。 | OpenAI |
 | ★★★★ | [范式入局基模开发](https://www.slowchronicle.com/posts/llm-assisted-reverse-engineering) | 范式推出两款基模，并实现单张 RTX 3090 显卡即可运行语言模型，显著降低了国产算力的应用门槛。 | Hacker News |
-| ★★★★ | [AI 行业现状：19 张图带你看懂热潮](https://www.understandingai.org/p/19-charts-that-explain-the-state) | 通过 19 张直观的数据图表，分析当前 AI 行业的发展态势与过热现象，适合了解行业全貌。 | Understanding AI |
-| ★★★★ | [交互式环境生成模型 Genie 4 正式发布](https://deepmind.google/blog/genie-4-is-now-available/) | Google DeepMind 的生成式环境模型 Genie 4 已上线，该模型能从视频中学习并生成可交互的世界。 | Google DeepMind |
-| ★★★★ | [AI 时代的社会秩序与人类主导权](https://openai.com/index/the-silent-consensus) | OpenAI 战略未来负责人探讨随着 AI 能力不断增强，人类社会结构将如何重塑以及如何保持对机构的控制力。 | OpenAI |
-| ★★★★ | [基于能量的推理模型：显著提升计算效率](https://energy-based-reasoners.github.io/) | 研究人员提出一种基于能量的推理方法，据称可将推理计算的效率提升385倍，极具研究价值。 | Hacker News |
+| ★★★ | [AI 如何驱动 Linear 快速实现超亿元营收增长](https://latent.space/p/linear-scaling/) | Linear 的首席运营官分享了公司如何通过 AI 代理处理过半工单，并在不依赖传统销售团队的情况下实现高速营收增长。 | Latent Space |
+| ★★★ | [必须使用量子计算机才能取胜的游戏](https://research.google/blog/a-game-you-cannot-win-unless-you-have-a-quantum-computer/) | Google Research探讨了一类只有具备量子计算能力才能求解的游戏问题，展示了量子计算在处理特定逻辑任务时的独特优势。 | Google Research |
+| ★★★ | [关于AI安全防护机制的争议](https://ounapuu.ee/posts/2026/11/19/unsafeguards/) | 该议题引发了社区对AI安全护栏（Safeguards）有效性与限制性的激烈讨论，折射出开发者与大众在AI使用伦理与自由度上的博弈。 | Hacker News |
+| ★★★ | [Daybreak Red：监督式安全调查参考架构](https://openai.com/business/learn/deploying-daybreak-red) | 介绍了一套用于监督式安全调查的参考架构，包含完整的安全控制、设置指南与监控方案。 | OpenAI |
+| ★★★ | [Jeveration模型：通过单一前向传播生成图像](https://huggingface.co/papers/2611.24738) | Jeveration提出了一种新方法，利用固定的视觉-语言模型通过一次前向计算实现图像生成、编辑及密集预测任务，显著提升了推理效率。 | HF Daily Papers |
 
 <!-- latest:end -->
 
@@ -25,13 +25,13 @@
 
 <!-- archive:start -->
 
+- [2026-11-20](digest/2026/2026-11-20.md)：5 条精选
 - [2026-11-19](digest/2026/2026-11-19.md)：7 条精选
 - [2026-11-18](digest/2026/2026-11-18.md)：10 条精选
 - [2026-11-17](digest/2026/2026-11-17.md)：10 条精选
 - [2026-11-16](digest/2026/2026-11-16.md)：10 条精选
 - [2026-11-15](digest/2026/2026-11-15.md)：3 条精选
 - [2026-11-14](digest/2026/2026-11-14.md)：7 条精选
-- [2026-11-13](digest/2026/2026-11-13.md)：10 条精选
 - [2026-W46（11-09 至 11-15）](digest/2026/2026-W46.md)：10 条精选
 - [2026-W45（11-02 至 11-08）](digest/2026/2026-W45.md)：10 条精选
 - [2026-W44（10-26 至 11-01）](digest/2026/2026-W44.md)：10 条精选
