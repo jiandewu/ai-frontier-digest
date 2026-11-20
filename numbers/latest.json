@@ -17,9 +17,9 @@
    "unit": "",
    "decimals": 0,
    "change": "pct",
-   "date": "2026-11-18",
-   "value": 24429.88,
-   "previous": 24328.38,
+   "date": "2026-11-19",
+   "value": 23879.2,
+   "previous": 24429.88,
    "source": "https://fred.stlouisfed.org/series/NASDAQCOM"
   },
   {
@@ -28,9 +28,9 @@
    "unit": "$",
    "decimals": 0,
    "change": "pct",
-   "date": "2026-11-18",
-   "value": 63171.19,
-   "previous": 64604.63,
+   "date": "2026-11-19",
+   "value": 62017.68,
+   "previous": 63171.19,
    "source": "https://fred.stlouisfed.org/series/CBBTCUSD"
   },
   {
@@ -61,9 +61,9 @@
    "unit": "$",
    "decimals": 0,
    "change": "pct",
-   "date": "2026-11-19",
-   "value": 3637.0,
-   "previous": 3741.9,
+   "date": "2026-11-20",
+   "value": 3588.1,
+   "previous": 3685.5,
    "detail": "COMEX 黄金期货（GC=F），美元/盎司",
    "source": "https://finance.yahoo.com/quote/GC=F/"
   },
@@ -73,9 +73,9 @@
    "unit": "",
    "decimals": 0,
    "change": "pct",
-   "date": "2026-11-18",
-   "value": 3587.83,
-   "previous": 3584.58,
+   "date": "2026-11-20",
+   "value": 3533.79,
+   "previous": 3577.62,
    "detail": "上证综合指数（000001.SS）",
    "source": "https://finance.yahoo.com/quote/000001.SS/"
   },
@@ -85,29 +85,29 @@
    "unit": "",
    "decimals": 0,
    "change": "abs",
-   "date": "2026-11-19",
-   "value": 427,
-   "previous": 451,
-   "detail": "cs.AI 82 · cs.CL 42 · cs.CV 185 · cs.LG 118",
+   "date": "2026-11-20",
+   "value": 468,
+   "previous": 427,
+   "detail": "cs.AI 109 · cs.CL 64 · cs.CV 176 · cs.LG 119",
    "source": "https://arxiv.org/list/cs.AI/new"
   }
  ],
  "news": [
   {
    "section": "AI",
-   "number": "61 分",
-   "label": "Gemini 4 Neon 模型的智能指数得分",
-   "title": "Google 发布 Gemini 4 Neon 中端模型",
-   "link": "https://latent.space/p/ainews-gemini-4-neon-gdm-s-opus-sol-contender/"
+   "number": "14 倍",
+   "label": "AI智能体运行效率的提升幅度",
+   "title": "Agnes 开源框架：Agent 效率提升 14 倍，成本大幅下降",
+   "link": "https://www.qbitai.com/2026/11/511582.html"
   },
   {
    "section": "美股",
    "number": "7%",
-   "label": "Palo Alto财报发布后的股价涨幅",
-   "title": "Palo Alto斥资45亿美元收购AI初创公司 业绩超预期股价盘后大涨7%",
-   "link": "https://jiande.is-a.si/us-market/news/2026/2026-11-18.html#news-4"
+   "label": "AMD股价的当日跌幅",
+   "title": "AMD 因做空机构指控涉华违规大跌 超 7%",
+   "link": "https://jiande.is-a.si/us-market/news/2026/2026-11-19.html#news-4"
   }
  ],
- "newsKey": "ai-15712514dcdf,ai-f00d83341f65,ai-f0a746966ded,market-2026-11-18-1,market-2026-11-18-2,market-2026-11-18-3,market-2026-11-18-4,market-2026-11-18-5,science-313ed2109cc5,science-7389df7e2409,science-b6a1f1274969,science-b7e52b65eb9b,science-c2974be76578,science-cca88ebc880e,science-cced664dad6e,science-eaf85014b6d3",
- "updated": "2026-11-19T21:42:19+00:00"
+ "newsKey": "ai-1177dfbd92c1,ai-222a3317cded,ai-3e97e19d49f6,ai-4b08ec50268e,ai-77bcf4d6e254,market-2026-11-19-1,market-2026-11-19-2,market-2026-11-19-3,market-2026-11-19-4,market-2026-11-19-5,science-313ed2109cc5,science-7389df7e2409,science-b6a1f1274969,science-b7e52b65eb9b,science-c2974be76578,science-cca88ebc880e,science-cced664dad6e,science-eaf85014b6d3",
+ "updated": "2026-11-20T08:48:41+00:00"
 }
