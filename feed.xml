@@ -5,20 +5,48 @@
 <link>https://jiande.is-a.si/ai-frontier-digest/</link>
 <description>每天精选 10 条以内最值得一读的 AI 前沿进展，附中文科普解释。</description>
 <language>zh-CN</language>
-<lastBuildDate>Fri, 20 Nov 2026 20:43:00 -0500</lastBuildDate>
+<lastBuildDate>Sat, 21 Nov 2026 07:59:00 -0500</lastBuildDate>
 <item>
-<title>Anthropic 完成 IPO；Google 向开发者开放 Genie 4</title>
-<link>https://latent.space/p/ainews-anthropic-successfully-completes-largest-ipo-in-history-valued-at-1-5t/</link>
-<guid isPermaLink="false">1177dfbd92c1</guid>
-<pubDate>Fri, 20 Nov 2026 02:12:00 -0500</pubDate>
-<description>&lt;p&gt;Anthropic 完成了历史上规模最大的 IPO，估值达到 1.5 万亿美元，显示出市场对其 AI 技术的巨大投入。该公司强调将通过安全保障措施和可解释性技术（类似于“X光”检查模型内部）来把控系统安全性。尽管公司资本雄厚且产品评价极高，但仍面临如何在高额算力开支下实现盈利以及应对严格的安全监管挑战。&lt;/p&gt;&lt;p&gt;★★★★★ · Latent Space · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-20.html"&gt;2026-11-20 精选&lt;/a&gt;&lt;/p&gt;</description>
+<title>数学家借助Claude完成黎曼猜想Lean形式化证明</title>
+<link>https://www.qbitai.com/2026/11/511727.html</link>
+<guid isPermaLink="false">287eabec793d</guid>
+<pubDate>Fri, 20 Nov 2026 11:07:00 -0500</pubDate>
+<description>&lt;p&gt;一位数学家利用Claude协助，发布了基于Lean（一种交互式定理证明器）的黎曼猜想证明，引发数学与计算机科学界热议。&lt;/p&gt;&lt;p&gt;★★★★★ · 量子位 · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-21.html"&gt;2026-11-21 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>纳斯达克抹去2026年涨幅，AI板块抛售潮显现</title>
+<link>https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off</link>
+<guid isPermaLink="false">fd2811614640</guid>
+<pubDate>Fri, 20 Nov 2026 08:29:00 -0500</pubDate>
+<description>&lt;p&gt;受Anthropic公司上市后表现不佳影响，市场出现AI相关板块大规模抛售，导致纳斯达克指数回吐年内涨幅。&lt;/p&gt;&lt;p&gt;★★★★★ · Hacker News · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-21.html"&gt;2026-11-21 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>GPT-6.2 Astra大幅提升具身智能表现</title>
+<link>https://www.qbitai.com/2026/11/511779.html</link>
+<guid isPermaLink="false">12eb3c771bfe</guid>
+<pubDate>Sat, 21 Nov 2026 01:35:00 -0500</pubDate>
+<description>&lt;p&gt;GPT-6.2 Astra在机器人具身控制任务上成功率翻倍，并首次实现了对可变形物体的精准操控。&lt;/p&gt;&lt;p&gt;★★★★ · 量子位 · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-21.html"&gt;2026-11-21 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>大模型评测的真相：如何看懂排行榜与潜在漏洞</title>
+<link>https://eugeneyan.com/writing/public-evals</link>
+<guid isPermaLink="false">a4ea85254a88</guid>
+<pubDate>Wed, 18 Nov 2026 19:00:00 -0500</pubDate>
+<description>&lt;p&gt;本文通过拆解12项主流基准测试，分析了AI模型评测指标的局限性，帮助开发者更科学地审视模型跑分。&lt;/p&gt;&lt;p&gt;★★★★ · Eugene Yan · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-21.html"&gt;2026-11-21 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>Anthropic员工声称证明了黎曼猜想</title>
 <link>https://alpo.ge/remark.pdf</link>
 <guid isPermaLink="false">bbe099f2944c</guid>
 <pubDate>Fri, 20 Nov 2026 09:16:00 -0500</pubDate>
-<description>&lt;p&gt;这是一份由 Anthropic 员工发布的文档，声称提供了黎曼猜想（Riemann Hypothesis）的通用证明。该内容以 PDF 格式呈现，通过复杂的算法代码块记录了相关的论证过程。由于黎曼猜想是数学界著名的未解难题，这份声称的证明是否正确及其逻辑严密性，有待专业数学界的进一步同行评审与验证。&lt;/p&gt;&lt;p&gt;★★★★ · Hacker News · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-20.html"&gt;2026-11-20 精选&lt;/a&gt;&lt;/p&gt;</description>
+<description>&lt;p&gt;这是一份由 Anthropic 员工发布的文档，声称提供了黎曼猜想（Riemann Hypothesis）的通用证明。该内容以 PDF 格式呈现，通过复杂的算法代码块记录了相关的论证过程。由于黎曼猜想是数学界著名的未解难题，这份声称的证明是否正确及其逻辑严密性，有待专业数学界的进一步同行评审与验证。&lt;/p&gt;&lt;p&gt;★★★★★ · Hacker News · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-20.html"&gt;2026-11-20 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>Anthropic 完成 IPO；Google 向开发者开放 Genie 4</title>
+<link>https://latent.space/p/ainews-anthropic-successfully-completes-largest-ipo-in-history-valued-at-1-5t/</link>
+<guid isPermaLink="false">1177dfbd92c1</guid>
+<pubDate>Fri, 20 Nov 2026 02:12:00 -0500</pubDate>
+<description>&lt;p&gt;Anthropic 完成了历史上规模最大的 IPO，估值达到 1.5 万亿美元，显示出市场对其 AI 技术的巨大投入。该公司强调将通过安全保障措施和可解释性技术（类似于“X光”检查模型内部）来把控系统安全性。尽管公司资本雄厚且产品评价极高，但仍面临如何在高额算力开支下实现盈利以及应对严格的安全监管挑战。&lt;/p&gt;&lt;p&gt;★★★★★ · Latent Space · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-20.html"&gt;2026-11-20 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>AI驱动的新型CPU架构Frostbite</title>
@@ -32,7 +60,7 @@
 <link>https://openai.com/index/combatting-adversarial-distillation</link>
 <guid isPermaLink="false">3ea993db7e3c</guid>
 <pubDate>Fri, 20 Nov 2026 05:00:00 -0500</pubDate>
-<description>&lt;p&gt;OpenAI 提出了一套多层防御体系，通过模型训练、安全防护和检测机制，防止恶意攻击者通过蒸馏技术“复制”模型核心能力。&lt;/p&gt;&lt;p&gt;★★★★ · OpenAI · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-20.html"&gt;2026-11-20 精选&lt;/a&gt;&lt;/p&gt;</description>
+<description>&lt;p&gt;这是 OpenAI 针对“对抗性蒸馏”采取的安全防范措施。通过使用对抗性训练、输入输出分类器以及 API 级别的保护，限制恶意用户提取模型内部的思维链（Chain-of-thought）等核心推理数据。保护推理轨迹能有效防止攻击者通过模仿 frontier 模型，训练出缺乏同等安全保障的有害模型。&lt;/p&gt;&lt;p&gt;★★★★ · OpenAI · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-20.html"&gt;2026-11-20 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>Agnes 开源框架：Agent 效率提升 14 倍，成本大幅下降</title>
@@ -53,28 +81,28 @@
 <link>https://research.google/blog/how-google-duplex-evolved-to-also-call-businesses-for-you-in-gemini/</link>
 <guid isPermaLink="false">565159543ba4</guid>
 <pubDate>Fri, 20 Nov 2026 18:30:00 -0500</pubDate>
-<description>&lt;p&gt;回顾了生成式 AI 技术如何助力 Google Duplex 从简单的自动化工具演进为在 Gemini 中主动为用户拨打商务电话的智能代理。&lt;/p&gt;&lt;p&gt;★★★ · Google Research · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-20.html"&gt;2026-11-20 精选&lt;/a&gt;&lt;/p&gt;</description>
+<description>&lt;p&gt;这是 Google 将其 Duplex 通话技术整合进 Gemini 应用的演进说明。该技术通过 Gemini 的多模态能力与底层逻辑，实现了能够自主完成电话预约、咨询等任务的智能代理。其挑战在于需在 noisy 环境下实现毫秒级延迟，并在确保对商业机构清晰披露身份的前提下处理真实对话。&lt;/p&gt;&lt;p&gt;★★★ · Google Research · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-20.html"&gt;2026-11-20 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>利用形式化验证对抗 AI 垃圾内容</title>
 <link>https://latent.space/p/formal-verification/</link>
 <guid isPermaLink="false">c989db0d32fd</guid>
 <pubDate>Fri, 20 Nov 2026 16:18:00 -0500</pubDate>
-<description>&lt;p&gt;借助 Lean 等工具和 AI 自动化，通过数学手段证明软件代码的正确性，从而减少 AI 生成的低质量无效内容（Slop）。&lt;/p&gt;&lt;p&gt;★★★ · Latent Space · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-20.html"&gt;2026-11-20 精选&lt;/a&gt;&lt;/p&gt;</description>
+<description>&lt;p&gt;这是一篇关于利用形式化验证（Formal Verification）对抗 AI 生成低质量代码（Slop）的综述。形式化验证通过数学证明和逻辑推理，确保软件满足既定的规范，从而规避传统测试无法覆盖的漏洞。Lean 是一种常用的辅助证明语言，目前正被多家 AI 公司用于构建能够自动检查模型输出正确性的验证引擎。&lt;/p&gt;&lt;p&gt;★★★ · Latent Space · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-20.html"&gt;2026-11-20 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>MedChemBench：AI 药物研发的新标尺</title>
 <link>https://openai.com/index/introducing-medchembench</link>
 <guid isPermaLink="false">f4784c304003</guid>
 <pubDate>Thu, 19 Nov 2026 19:00:00 -0500</pubDate>
-<description>&lt;p&gt;MedChemBench 旨在评估 AI 模型解析分子结构、进行科学推理及筛选候选药物的能力，加速早期药物研发进程。&lt;/p&gt;&lt;p&gt;★★★ · OpenAI · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-20.html"&gt;2026-11-20 精选&lt;/a&gt;&lt;/p&gt;</description>
+<description>&lt;p&gt;这是 OpenAI 发布的 MedChemBench 评测基准，用于衡量 AI 在药物化学领域的专业推理能力。它通过 99 个研究问题，测试模型解读分子结构、解释实验数据及预测化合物特性的水平。该 benchmark 旨在帮助科研人员评估模型在药物研发决策中的辅助潜力，但也强调目前模型在处理复杂属性权衡时仍有局限。&lt;/p&gt;&lt;p&gt;★★★ · OpenAI · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-20.html"&gt;2026-11-20 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>Inkling 2 Mini：本地部署的高性能模型发布</title>
 <link>https://huggingface.co/blog/inkling2mini</link>
 <guid isPermaLink="false">80d31a6dee29</guid>
 <pubDate>Thu, 19 Nov 2026 19:00:00 -0500</pubDate>
-<description>&lt;p&gt;Hugging Face 推出了 Inkling 2 Mini 模型，旨在为用户提供在本地设备上运行的高性能 AI 体验。&lt;/p&gt;&lt;p&gt;★★★ · Hugging Face · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-20.html"&gt;2026-11-20 精选&lt;/a&gt;&lt;/p&gt;</description>
+<description>&lt;p&gt;这是 Thinking Machines Lab 推出的 Inkling 2 Mini 模型，一款专为本地设备优化的多模态 Mixture-of-Experts 模型。该模型通过特殊的“循环层”设计，以较少的物理参数实现了类似更大规模模型的性能，支持 1M token 上下文并能处理图像输入。这种架构上的创新使其在本地端能高效运行，成为处理知识工作和编程任务的轻量化选择。&lt;/p&gt;&lt;p&gt;★★★ · Hugging Face · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-20.html"&gt;2026-11-20 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>OpenAI如何打造ChatGPT性能工厂</title>
@@ -803,62 +831,6 @@
 <guid isPermaLink="false">608e1d97ab46</guid>
 <pubDate>Thu, 05 Nov 2026 19:00:00 -0500</pubDate>
 <description>&lt;p&gt;VFlash 是一种用于机器人和自动驾驶等物理 AI 任务的视觉规划方法，能快速生成点、边界框和轨迹等空间目标。它利用轻量级 drafter（起草器）通过单次前向传播共同预测整个图元（primitive）的坐标，并直接接受结构有效的预测结果。它在减少预测误差的同时，将 3D 点运动预测的生成速度提升了约 25 倍，且在多个任务套件中提高了平均成功率。&lt;/p&gt;&lt;p&gt;★★★ · HF Daily Papers · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-08.html"&gt;2026-11-08 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>Jeff Dean与李飞飞关于AI发展的深度对谈</title>
-<link>https://www.qbitai.com/2026/11/508196.html</link>
-<guid isPermaLink="false">9a05312ed9a5</guid>
-<pubDate>Fri, 06 Nov 2026 22:23:00 -0500</pubDate>
-<description>&lt;p&gt;这是谷歌前高管Jeff Dean创办的AI公司Discovery Loop，旨在通过自动化实验循环提升研发效率。该系统通过AI智能体自动提出、实施并评估科学与工程实验，让少数专家能引导大量Agent协同工作。这一方案重点解决如何缩短迭代周期以实现生产力飞跃，但Jeff Dean也指出，物理计算和数据分析存在客观的时间开销，AI研发无法实现无限加速。&lt;/p&gt;&lt;p&gt;★★★★ · 量子位 · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-07.html"&gt;2026-11-07 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>AI正显著加速AI自身的研究进展</title>
-<link>https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai</link>
-<guid isPermaLink="false">5072f0d6af00</guid>
-<pubDate>Fri, 06 Nov 2026 15:27:00 -0500</pubDate>
-<description>&lt;p&gt;该报告指出Anthropic的AI研发进展速度已显著提升，达到“剧烈加速”的阈值。这是通过AI自动化辅助AI研发来实现的，使得研究人员在处理算法和架构创新时效率倍增。该现象值得关注，因为如果AI能力的提升伴随着研究效率的指数级复合增长，可能会导致超人工智能的出现时间比预期更短。&lt;/p&gt;&lt;p&gt;★★★★ · Hacker News · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-07.html"&gt;2026-11-07 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>Anthropic三大内部模型曝光，科研效率大幅提升</title>
-<link>https://www.qbitai.com/2026/11/508184.html</link>
-<guid isPermaLink="false">91ea69619084</guid>
-<pubDate>Fri, 06 Nov 2026 10:21:00 -0500</pubDate>
-<description>&lt;p&gt;这是Anthropic公司通过内部模型（Model 4）展现出的研发加速成果，其综合能力已超越已公开的Opus 5.5。这主要得益于AI作为研究助手，将实验准备时间缩短了80%，使研究人员能同时测试更多方案。虽然这种技术进步显著提升了研发速度，但也引发了关于模型能力演进失控及安全性边界的讨论。&lt;/p&gt;&lt;p&gt;★★★★ · 量子位 · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-07.html"&gt;2026-11-07 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>揭秘AI代理的记忆构建：通过“做梦”优化学习</title>
-<link>https://www.anthropic.com/research/components-of-agent-memory</link>
-<guid isPermaLink="false">594105e3c519</guid>
-<pubDate>Thu, 05 Nov 2026 19:00:00 -0500</pubDate>
-<description>&lt;p&gt;本文探讨了如何为AI智能体设计记忆系统，使其能从经验中学习并在不同任务中保留知识。通过模仿生物大脑的“睡眠”机制，智能体可以在闲暇时间进行“做梦”——即反思操作日志、修正错误并提取关键规则。这种记忆构建方法提升了模型处理长期复杂任务的能力，不仅能存储信息，还能学会判断哪些信息值得保存。&lt;/p&gt;&lt;p&gt;★★★★ · Anthropic · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-07.html"&gt;2026-11-07 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>Microsoft Research 关闭 AI Frontiers 部门</title>
-<link>https://hunch.net/?p=13764006</link>
-<guid isPermaLink="false">1eeaf5457cb1</guid>
-<pubDate>Sat, 07 Nov 2026 13:02:00 -0500</pubDate>
-<description>&lt;p&gt;本文讲述了微软研究院（MSR）AI Frontiers（AIF）子组织的成立、运作及其最终解散的经过。AIF 曾专注于构建智能体、开源框架及探索递归等前沿研究，但随后被重组并入更倾向于“纯规模扩张”的 Microsoft AI。作者指出，新领导层完全聚焦于规模而非研究的理念与 AIF 不相容，最终导致核心团队成员集体离职。该事件凸显了工业界在追求大模型规模化与持续基础研究投入之间的张力与冲突。&lt;/p&gt;&lt;p&gt;★★★ · Hacker News · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-07.html"&gt;2026-11-07 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>Anthropic IPO与AI模型安全性简讯</title>
-<link>https://latent.space/p/ainews-anthropic-ipo-whither-now/</link>
-<guid isPermaLink="false">d62fbfe2fc04</guid>
-<pubDate>Fri, 06 Nov 2026 22:04:00 -0500</pubDate>
-<description>&lt;p&gt;本文简要总结了Thinking Machines推出的Inkling 2 Small模型及其他AI行业动态。该模型采用了多模态混合专家架构（MoE），在多个基准测试中表现出色，且具备高效的训练表现。此类发布反映了开源领域在架构创新和模型对齐方面的最新进展。&lt;/p&gt;&lt;p&gt;★★★ · Latent Space · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-07.html"&gt;2026-11-07 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>SLA：通过持续预训练增强机器人空间感知能力</title>
-<link>https://huggingface.co/papers/2611.08373</link>
-<guid isPermaLink="false">e7b124c3848d</guid>
-<pubDate>Thu, 05 Nov 2026 19:00:00 -0500</pubDate>
-<description>&lt;p&gt;SLA是一种通过持续预训练来提升空间-语言-动作（VLA）模型能力的框架。它通过将视觉嵌入与3D感知模型的空间表示对齐，使机器人能更好地理解三维空间并执行精确控制。该方法的优势在于利用了多源异构机器人数据，同时在推理阶段能够复用预训练权重，降低了特定任务的适配难度。&lt;/p&gt;&lt;p&gt;★★★ · HF Daily Papers · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-07.html"&gt;2026-11-07 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>Project EVE：Claude在大型多人在线游戏中的表现</title>
-<link>https://www.anthropic.com/research/project-eve-claude-plays-mmorpgs</link>
-<guid isPermaLink="false">0f35f4c9f4ac</guid>
-<pubDate>Thu, 05 Nov 2026 19:00:00 -0500</pubDate>
-<description>&lt;p&gt;该项目研究了Claude模型在MMORPG游戏环境中执行复杂任务的能力，如进行金融市场交易或团队协作。实验发现，较新的模型能通过自我编写代码和策略优化，在模拟市场中实现盈利，体现了AI在多步骤、长期规划任务上的潜力。该研究旨在探索AI在真实商业环境中的应用上限及潜在风险。&lt;/p&gt;&lt;p&gt;★★★ · Anthropic · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-07.html"&gt;2026-11-07 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>
