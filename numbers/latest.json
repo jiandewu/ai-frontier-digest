@@ -95,26 +95,26 @@
  "news": [
   {
    "section": "AI",
-   "number": "14 倍",
-   "label": "Agnes 框架提升的 Agent 执行效率",
-   "title": "Agnes 开源框架：Agent 效率提升 14 倍，成本大幅下降",
-   "link": "https://www.qbitai.com/2026/11/511582.html"
+   "number": "12项",
+   "label": "分析的AI模型基准测试数量",
+   "title": "大模型评测的真相：如何看懂排行榜与潜在漏洞",
+   "link": "https://eugeneyan.com/writing/public-evals"
   },
   {
    "section": "科学",
-   "number": "130岁",
-   "label": "蒙大拿州蓝吸口鱼的最长寿命",
-   "title": "长寿鱼类研究：蓝吸口鱼寿命超130岁",
-   "link": "https://phys.org/news/2026-11-fish-montana-blue-sucker-years.html"
+   "number": "450个",
+   "label": "识别出的伽马射线源数量",
+   "title": "费米卫星全天图填补“兆电子伏特”能隙",
+   "link": "https://phys.org/news/2026-11-fermi-year-sky-bridges-astronomy.html"
   },
   {
    "section": "美股",
    "number": "2.3万亿美元",
-   "label": "芯片板块一周内蒸发的市值规模",
+   "label": "芯片板块一周内蒸发的市值",
    "title": "芯片板块遭遇2.3万亿美元市值蒸发 创25年来最惨单周表现",
    "link": "https://jiande.is-a.si/us-market/news/2026/2026-11-20.html#news-2"
   }
  ],
- "newsKey": "ai-000028228240,ai-1177dfbd92c1,ai-3e97e19d49f6,ai-3ea993db7e3c,ai-565159543ba4,ai-77bcf4d6e254,ai-80d31a6dee29,ai-bbe099f2944c,ai-c989db0d32fd,ai-f4784c304003,market-2026-11-20-1,market-2026-11-20-2,market-2026-11-20-3,market-2026-11-20-4,market-2026-11-20-5,science-1f7371d321a7,science-40a1e09e928f,science-6b4cce5b4dd0,science-9a45945e8fea,science-a71b60cf74f5,science-b9c4b08fe391,science-d098fa9800a7,science-d2b20e50c298",
- "updated": "2026-11-21T08:29:52+00:00"
+ "newsKey": "ai-12eb3c771bfe,ai-287eabec793d,ai-a4ea85254a88,ai-fd2811614640,market-2026-11-20-1,market-2026-11-20-2,market-2026-11-20-3,market-2026-11-20-4,market-2026-11-20-5,science-047676c1416d,science-16e3316175eb,science-353986995381,science-5c0487ac07a1,science-88875db0d172",
+ "updated": "2026-11-21T20:11:54+00:00"
 }
