@@ -5,69 +5,90 @@
 <link>https://jiande.is-a.si/ai-frontier-digest/science/</link>
 <description>每天精选 8 条以内最值得一读的科学新发现，附中文科普解释。</description>
 <language>zh-CN</language>
-<lastBuildDate>Fri, 20 Nov 2026 19:30:00 -0500</lastBuildDate>
+<lastBuildDate>Sat, 21 Nov 2026 05:17:00 -0500</lastBuildDate>
 <item>
-<title>利用月壤3D打印建筑构件</title>
-<link>https://www.sciencedaily.com/releases/2026/11/261119194525.htm</link>
-<guid isPermaLink="false">1f7371d321a7</guid>
-<pubDate>Fri, 20 Nov 2026 07:34:00 -0500</pubDate>
-<description>&lt;p&gt;科学家研发出一种将月球尘埃转化为类似LEGO积木的技术，未来有望利用原位资源在月球建设永久居住基地。&lt;/p&gt;&lt;p&gt;★★★★★ · ScienceDaily · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/science/digest/2026/2026-11-20.html"&gt;2026-11-20 精选&lt;/a&gt;&lt;/p&gt;</description>
+<title>旅行者1号信号往返耗时达24小时</title>
+<link>https://www.sciencedaily.com/releases/2026/11/261120075554.htm</link>
+<guid isPermaLink="false">a6f299bb7eb0</guid>
+<pubDate>Fri, 20 Nov 2026 21:24:00 -0500</pubDate>
+<description>&lt;p&gt;发射近50年的旅行者1号（Voyager 1）已进入星际空间，距离地球超160亿英里，其无线电信号往返需耗时整整一天。&lt;/p&gt;&lt;p&gt;★★★★ · ScienceDaily · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/science/digest/2026/2026-11-21.html"&gt;2026-11-21 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>大陆地壳下方的“地壳滴落”现象</title>
+<link>https://phys.org/news/2026-11-deep-beneath-continents.html</link>
+<guid isPermaLink="false">3edbe78f667e</guid>
+<pubDate>Fri, 20 Nov 2026 23:20:00 -0500</pubDate>
+<description>&lt;p&gt;研究发现，地壳底部的致密岩石会发生“地壳滴落”（lithospheric dripping），即不稳定岩石破碎并下沉至地幔，这种机制揭示了高山与火山形成的深层地质奥秘。&lt;/p&gt;&lt;p&gt;★★★ · Phys.org · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/science/digest/2026/2026-11-21.html"&gt;2026-11-21 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>量子计算在分子相互作用模拟中取得进展</title>
+<link>https://phys.org/news/2026-11-quantum-software-classical-benchmark-molecular.html</link>
+<guid isPermaLink="false">27d8a5d56f18</guid>
+<pubDate>Fri, 20 Nov 2026 22:00:00 -0500</pubDate>
+<description>&lt;p&gt;量子软件在分子相互作用预测上达到了传统计算机的基准水平，这一成果有望未来通过计算模拟加速药物研发过程。&lt;/p&gt;&lt;p&gt;★★★ · Phys.org · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/science/digest/2026/2026-11-21.html"&gt;2026-11-21 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>探测水星的X射线望远镜正式投入观测</title>
+<link>https://www.sciencedaily.com/releases/2026/11/261120075547.htm</link>
+<guid isPermaLink="false">4c9896fc58b7</guid>
+<pubDate>Fri, 20 Nov 2026 21:11:00 -0500</pubDate>
+<description>&lt;p&gt;经过八年太空飞行，一台新型X射线望远镜开始对水星进行观测，其数据有望揭示这颗太阳系最小行星的化学成分及形成历史。&lt;/p&gt;&lt;p&gt;★★★ · ScienceDaily · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/science/digest/2026/2026-11-21.html"&gt;2026-11-21 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>CERN观测到极为罕见的粒子衰变</title>
 <link>https://www.sciencedaily.com/releases/2026/11/261119194530.htm</link>
 <guid isPermaLink="false">b9c4b08fe391</guid>
 <pubDate>Fri, 20 Nov 2026 07:23:00 -0500</pubDate>
-<description>&lt;p&gt;CERN的科研团队在经过40年的观测后，首次捕捉到一种极其罕见的粒子衰变过程，这有助于探索超越标准模型的新物理学。&lt;/p&gt;&lt;p&gt;★★★★★ · ScienceDaily · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/science/digest/2026/2026-11-20.html"&gt;2026-11-20 精选&lt;/a&gt;&lt;/p&gt;</description>
+<description>&lt;p&gt;CERN的科研人员在大型强子对撞机（LHC）的升级版LHCb实验中，首次探测到了极其罕见的“Bd到mu mu”粒子衰变。这种衰变预计每100亿个“美容夸克”（beauty quark）中才会发生一次，研究人员通过升级后的硅像素探测器等高精度仪器观测到了这一过程。该发现虽然目前统计学显著性为3.2 sigma，尚未达到5 sigma的正式发现标准，但它为探索标准模型（Standard Model）之外的未知物理领域提供了重要线索。&lt;/p&gt;&lt;p&gt;★★★★★ · ScienceDaily · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/science/digest/2026/2026-11-20.html"&gt;2026-11-20 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>长寿鱼类研究：蓝吸口鱼寿命超130岁</title>
 <link>https://phys.org/news/2026-11-fish-montana-blue-sucker-years.html</link>
 <guid isPermaLink="false">d098fa9800a7</guid>
 <pubDate>Fri, 20 Nov 2026 17:20:00 -0500</pubDate>
-<description>&lt;p&gt;研究利用耳石（otoliths）放射性碳定年法发现，蒙大拿州的蓝吸口鱼寿命可达130岁，远超此前预期的40岁。&lt;/p&gt;&lt;p&gt;★★★★ · Phys.org · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/science/digest/2026/2026-11-20.html"&gt;2026-11-20 精选&lt;/a&gt;&lt;/p&gt;</description>
+<description>&lt;p&gt;研究人员通过对蓝吸口鱼（blue sucker）耳石（otoliths）的碳14测年法（bomb radiocarbon dating）分析，发现该物种寿命可达130年，远超此前预估的40年。科研团队通过显微切片计数耳石生长层，并利用20世纪中期核弹试验造成的放射性碳沉降作为时间标记进行校准。这一发现证实了该鱼类是北美最长寿的脊椎动物之一，同时也揭示了因大坝导致栖息地破碎化而造成的种群补充失败问题。&lt;/p&gt;&lt;p&gt;★★★★ · Phys.org · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/science/digest/2026/2026-11-20.html"&gt;2026-11-20 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>X射线激光器刷新原子级分辨率纪录</title>
 <link>https://phys.org/news/2026-11-ray-laser-reliably-generates-wavelengths.html</link>
 <guid isPermaLink="false">d2b20e50c298</guid>
 <pubDate>Fri, 20 Nov 2026 16:00:00 -0500</pubDate>
-<description>&lt;p&gt;研究人员利用欧洲XFEL装置产生了波长小于原子间距的X射线激光脉冲，为研究物质微观结构提供了更高精度工具。&lt;/p&gt;&lt;p&gt;★★★★ · Phys.org · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/science/digest/2026/2026-11-20.html"&gt;2026-11-20 精选&lt;/a&gt;&lt;/p&gt;</description>
+<description>&lt;p&gt;DESY和European XFEL的科研团队成功制造并传输了波长约为0.04纳米的X射线激光闪光，刷新了该领域的世界纪录。研究人员通过精细的电子束动力学模拟和加速器优化，确保了在1公里长的光束线上仍能保持约60%的高强度，使其波长短于原子间距。这一突破使科学家能够以更高的空间分辨率观测极端压力下的材料，对功能材料和量子材料的研究具有重要意义。&lt;/p&gt;&lt;p&gt;★★★★ · Phys.org · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/science/digest/2026/2026-11-20.html"&gt;2026-11-20 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>气候变化加剧超强厄尔尼诺现象</title>
 <link>https://www.sciencenews.org/article/el-nino-climate-change-california</link>
 <guid isPermaLink="false">a71b60cf74f5</guid>
 <pubDate>Fri, 20 Nov 2026 12:47:00 -0500</pubDate>
-<description>&lt;p&gt;受气候变化影响，全球正在面临一次超强厄尔尼诺（El Niño）事件，可能给加利福尼亚及全球带来严重的极端天气挑战。&lt;/p&gt;&lt;p&gt;★★★★ · Science News · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/science/digest/2026/2026-11-20.html"&gt;2026-11-20 精选&lt;/a&gt;&lt;/p&gt;</description>
+<description>&lt;p&gt;受气候变化影响，一场被预测为史上最强的“超级厄尔尼诺”（Super El Niño）正给加利福尼亚州带来严峻的防灾挑战。该现象通过削弱太平洋信风，使热带东太平洋水温升高，进而改变喷流（jet stream）路径，引发极端降雨和洪水。相比1997-1998年的厄尔尼诺，由于全球变暖导致的空气湿度增加，当前气候条件下的水资源管理和防灾难度大幅上升。&lt;/p&gt;&lt;p&gt;★★★★ · Science News · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/science/digest/2026/2026-11-20.html"&gt;2026-11-20 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>利用月壤3D打印建筑构件</title>
+<link>https://www.sciencedaily.com/releases/2026/11/261119194525.htm</link>
+<guid isPermaLink="false">1f7371d321a7</guid>
+<pubDate>Fri, 20 Nov 2026 07:34:00 -0500</pubDate>
+<description>&lt;p&gt;阿肯色大学的研究人员开发出一种将月球土壤模拟物（lunar regolith simulant）进行3D打印，制作成乐高式互锁砖块的方法。他们利用激光粉末床熔融（laser powder bed fusion）技术，通过低功率光源将土壤颗粒直接烧结（sintering）在一起，无需添加外源粘合剂。虽然目前的砖块强度尚不足以支撑重型结构，但该技术展示了未来利用月球原地资源（in-situ resources）构建永久性月球基地的潜力。&lt;/p&gt;&lt;p&gt;★★★★ · ScienceDaily · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/science/digest/2026/2026-11-20.html"&gt;2026-11-20 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>恒星吞噬邻居引发的爆发观测</title>
 <link>https://arstechnica.com/science/2026/11/astronomers-watched-a-star-spiral-to-its-death-inside-a-giant-companion/</link>
 <guid isPermaLink="false">9a45945e8fea</guid>
 <pubDate>Fri, 20 Nov 2026 15:41:00 -0500</pubDate>
-<description>&lt;p&gt;天文学家观测到一颗恒星在吞噬其伴星的过程中发生了亮度激增，揭示了双星系统演化的剧烈过程。&lt;/p&gt;&lt;p&gt;★★★ · Ars Technica · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/science/digest/2026/2026-11-20.html"&gt;2026-11-20 精选&lt;/a&gt;&lt;/p&gt;</description>
+<description>&lt;p&gt;天文学家在仙女座星系中观测到了一颗巨星吞噬其伴星的全过程，这是人类首次目睹该过程从演化初期到最终爆发。研究团队利用多台望远镜的多年历史数据，发现该过程符合“共有包层演化”（common envelope evolution）理论，伴星在进入巨星外壳后摩擦生热导致轨道收缩，最终坠入核心引发剧烈爆发。这一发现不仅揭示了沙漏状星云的形成机制，还挑战了关于恒星合并能量转化效率的现有模型。&lt;/p&gt;&lt;p&gt;★★★ · Ars Technica · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/science/digest/2026/2026-11-20.html"&gt;2026-11-20 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>NASA重返月球计划的进展与挑战</title>
 <link>https://arstechnica.com/space/2026/11/nasas-new-moon-plan-is-taking-shape-but-some-big-questions-remain/</link>
 <guid isPermaLink="false">40a1e09e928f</guid>
 <pubDate>Fri, 20 Nov 2026 15:26:00 -0500</pubDate>
-<description>&lt;p&gt;NASA正在推进其月球探索计划，但仍面临诸多未决的技术讨论与争议。&lt;/p&gt;&lt;p&gt;★★★ · Ars Technica · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/science/digest/2026/2026-11-20.html"&gt;2026-11-20 精选&lt;/a&gt;&lt;/p&gt;</description>
+<description>&lt;p&gt;NASA已重新调整了“阿耳忒弥斯”（Artemis）登月计划的架构，将首次载人登月任务延期至Artemis IV。通过SpaceX的星舰（Starship）在低地球轨道进行对接测试，以及蓝色起源（Blue Origin）蓝色月球（Blue Moon）着陆器的分步验证，NASA试图降低任务复杂性。此次调整核心在于取消了绕月轨道长时间停留的要求，并要求供应商在任务关键技术如轨道加油和舱室生命支持系统上进行更严格的验证。&lt;/p&gt;&lt;p&gt;★★★ · Ars Technica · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/science/digest/2026/2026-11-20.html"&gt;2026-11-20 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>女性性欲减退的药物治疗争议：睾酮的应用</title>
 <link>https://www.sciencenews.org/article/libido-drug-women-want-is-testosterone</link>
 <guid isPermaLink="false">6b4cce5b4dd0</guid>
 <pubDate>Fri, 20 Nov 2026 14:00:00 -0500</pubDate>
-<description>&lt;p&gt;尽管目前女性超说明书使用睾酮（testosterone）来提升性欲的比例有所上升，但相关临床研究仍滞后于临床实践。&lt;/p&gt;&lt;p&gt;★★★ · Science News · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/science/digest/2026/2026-11-20.html"&gt;2026-11-20 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>模拟月球土壤成功培育出食用土豆</title>
-<link>https://phys.org/news/2026-11-potatoes-grown-simulated-lunar-soil.html</link>
-<guid isPermaLink="false">c2974be76578</guid>
-<pubDate>Thu, 19 Nov 2026 05:00:00 -0500</pubDate>
-<description>&lt;p&gt;研究发现，向模拟月球土壤（月壤）中添加有机质（如蚯蚓粪肥）后，土豆可以实现与地球土壤相当的生长和产量。研究人员通过对比实验，测试了不同比例有机质对五种模拟月壤的影响，并分析了土豆的营养质量与安全性。该结果为未来月球基地的食物自给提供了重要依据，有助于减少昂贵的物资补给。&lt;/p&gt;&lt;p&gt;★★★★★ · Phys.org · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/science/digest/2026/2026-11-19.html"&gt;2026-11-19 精选&lt;/a&gt;&lt;/p&gt;</description>
+<description>&lt;p&gt;关于女性性欲低下（female libido）的治疗，临床研究显示睾酮（testosterone）疗法展现出潜力，但在美国尚未获得FDA批准。尽管目前有Addyi等非激素类药物获批，但专家指出睾酮能增强大脑对性刺激的接收能力及局部血液循环。由于过去临床试验曾面临安慰剂效应过强及长期安全性数据不足的问题，目前医生多通过“超说明书用药”（off-label）方式进行治疗，未来仍需更多严谨的研究来支持其审批。&lt;/p&gt;&lt;p&gt;★★★ · Science News · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/science/digest/2026/2026-11-20.html"&gt;2026-11-20 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>旅行者1号探测器里程碑：距离地球已达一光日</title>
@@ -89,6 +110,13 @@
 <guid isPermaLink="false">cced664dad6e</guid>
 <pubDate>Thu, 19 Nov 2026 06:13:00 -0500</pubDate>
 <description>&lt;p&gt;研究人员检测了英国市场上212种植物基食品和饮品，发现所有产品中均含有至少一种真菌毒素（mycotoxins）。该研究通过对肉类替代品、燕麦奶等常见素食产品进行化验，指出虽然目前这些产品的毒素浓度均低于欧盟建议限值，但长期且频繁摄入多种此类食品可能带来累积暴露风险。这项研究强调了对日益增长的植物基产品市场进行持续安全监测的必要性，并呼吁进一步评估其对人群的长期健康影响。&lt;/p&gt;&lt;p&gt;★★★★ · ScienceDaily · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/science/digest/2026/2026-11-19.html"&gt;2026-11-19 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>模拟月球土壤成功培育出食用土豆</title>
+<link>https://phys.org/news/2026-11-potatoes-grown-simulated-lunar-soil.html</link>
+<guid isPermaLink="false">c2974be76578</guid>
+<pubDate>Thu, 19 Nov 2026 05:00:00 -0500</pubDate>
+<description>&lt;p&gt;研究发现，向模拟月球土壤（月壤）中添加有机质（如蚯蚓粪肥）后，土豆可以实现与地球土壤相当的生长和产量。研究人员通过对比实验，测试了不同比例有机质对五种模拟月壤的影响，并分析了土豆的营养质量与安全性。该结果为未来月球基地的食物自给提供了重要依据，有助于减少昂贵的物资补给。&lt;/p&gt;&lt;p&gt;★★★★ · Phys.org · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/science/digest/2026/2026-11-19.html"&gt;2026-11-19 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>气候变化与栖息地丧失或增加蝙蝠携带病毒传播风险</title>
@@ -677,48 +705,6 @@
 <guid isPermaLink="false">414b97ddee29</guid>
 <pubDate>Sun, 08 Nov 2026 07:15:00 -0500</pubDate>
 <description>&lt;p&gt;物理学家通过扫描隧道显微镜（scanning tunneling microscope）测量铜氧化物超导体（cuprates）中的电噪声（shot noise），揭示了其“赝能隙”（pseudogap）状态下的电子配对行为。实验观测发现，该材料在超导温度以上即已存在成对电子（Cooper pairs），其配对能量与赝能隙密切相关，这表明超导性的瓶颈在于如何让预先形成的电子对实现相位一致性（phase coherence）并同步运动。该研究有力反驳了赝能隙仅由电荷密度波等结构冻结导致的假设，为探索更高温度的超导体提供了新思路。&lt;/p&gt;&lt;p&gt;★★★ · Ars Technica · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/science/digest/2026/2026-11-08.html"&gt;2026-11-08 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>地球引力或曾维持早期月球的火山活动</title>
-<link>https://phys.org/news/2026-11-earth-gravity-early-moon-volcanic.html</link>
-<guid isPermaLink="false">eaa70898e7c2</guid>
-<pubDate>Sat, 07 Nov 2026 12:30:00 -0500</pubDate>
-<description>&lt;p&gt;研究发现，约20亿年前月球表面仍存在火山活动，这可能是当时地月距离较近时，地球引力产生的潮汐加热（tidal heating）所致。研究团队通过计算机模拟，结合更真实的月幔（mantle）3D结构发现，月球核幔边界的特定区域能吸收巨大能量并维持高温。这一机制不仅解释了为何早期月球能产生玄武岩，还可能维持了月球早期的磁场，为理解月球地质演化提供了新视角。&lt;/p&gt;&lt;p&gt;★★★★ · Phys.org · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/science/digest/2026/2026-11-07.html"&gt;2026-11-07 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>宇宙学新理论挑战暗物质与暗能量存在</title>
-<link>https://phys.org/news/2026-11-theory-older-universe-dark-energy.html</link>
-<guid isPermaLink="false">e23cb596fd16</guid>
-<pubDate>Sat, 07 Nov 2026 09:00:00 -0500</pubDate>
-<description>&lt;p&gt;研究人员提出了一个名为“协变耦合常数加疲劳光”（CCC+TL）的宇宙学模型，该模型认为宇宙年龄约为267亿年，且无需暗物质或暗能量即可解释观测现象。通过对宇宙微波背景、轻元素丰度及星系旋转曲线等多个关键测试，该模型表现出与现有观测的高度一致性。该研究的局限在于其颠覆了标准宇宙学模型，仍需更多数据（如詹姆斯·韦布空间望远镜的进一步观测）来验证其在解释早期超大质量星系方面的预测。&lt;/p&gt;&lt;p&gt;★★★★ · Phys.org · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/science/digest/2026/2026-11-07.html"&gt;2026-11-07 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>欧洲远古生态环境重构挑战现有植树策略</title>
-<link>https://www.sciencedaily.com/releases/2026/11/261104012333.htm</link>
-<guid isPermaLink="false">186947cb61d4</guid>
-<pubDate>Sat, 07 Nov 2026 04:44:00 -0500</pubDate>
-<description>&lt;p&gt;研究通过对过去2300万年的古生态记录（包括化石花粉、沉积物DNA及食草动物牙齿化学特征）进行综合分析，发现欧洲历史上长期维持着由疏林、草地和湿地组成的半开放景观，而非此前认为的森林覆盖。该发现指出，大型食草动物的放牧活动是维持这种多样性生境的关键。这挑战了现代“密林造林”的生态保护策略，提示单一植树可能反而损害生物多样性。&lt;/p&gt;&lt;p&gt;★★★★ · ScienceDaily · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/science/digest/2026/2026-11-07.html"&gt;2026-11-07 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>死星周围的双环结构预示太阳系未来</title>
-<link>https://www.sciencedaily.com/releases/2026/11/261104012250.htm</link>
-<guid isPermaLink="false">467bfcc0f8ca</guid>
-<pubDate>Fri, 06 Nov 2026 17:12:00 -0500</pubDate>
-<description>&lt;p&gt;天文学家利用甚大望远镜（VLT）发现了一颗白矮星（white dwarf）周围存在独特的双环碎片盘，环间空隙可能由幸存的行星体维持。该碎片盘富含钙、镁、氧、铁等元素，且内外环成分不同，暗示它们可能源自不同被毁行星的残骸。这一发现不仅展示了恒星演化末期的极端环境，也为未来太阳系在太阳死亡后的可能命运提供了观测参照。&lt;/p&gt;&lt;p&gt;★★★★ · ScienceDaily · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/science/digest/2026/2026-11-07.html"&gt;2026-11-07 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>班图人扩张对非洲历史的深远影响</title>
-<link>https://arstechnica.com/science/2026/11/the-migration-that-transformed-africas-languages-genes-and-cultures/</link>
-<guid isPermaLink="false">f6a76a717d92</guid>
-<pubDate>Sat, 07 Nov 2026 07:15:00 -0500</pubDate>
-<description>&lt;p&gt;科学家通过跨学科合作，结合语言学比较、考古遗存分析及遗传学全基因组研究，勾勒出“班图人迁徙”（Bantu expansion）的复杂历史轨迹。研究确认班图人群体起源于西非，在数千年前向南及向东扩散过程中，将农耕、冶金和陶瓷技术带到了撒哈拉以南非洲。这一迁徙不仅改变了非洲的族群分布与基因结构，也促成了现代非洲大规模语言群体的形成，是人类历史上重要的一次人口迁徙事件。&lt;/p&gt;&lt;p&gt;★★★ · Ars Technica · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/science/digest/2026/2026-11-07.html"&gt;2026-11-07 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>月球南极的地貌特征：De Gerlache-Kocher山块</title>
-<link>https://science.nasa.gov/image-article/apod-2026-november-7-de-gerlache-kocher-massif/</link>
-<guid isPermaLink="false">03feb9b7e494</guid>
-<pubDate>Sat, 07 Nov 2026 00:05:00 -0500</pubDate>
-<description>&lt;p&gt;天文学家通过望远镜捕捉到了月球南极附近De Gerlache-Kocher地块（Massif）的高清图像，该山脉高度约4公里。由于其山顶可获得几乎持续的太阳能，且阴影区可能蕴含水冰，该区域被视为月球首个载人定居点及Artemis计划潜在的着陆点。此次成像利用了月球的天平动（libration，即月球在轨道上的摆动效应），从而获得了这一独特的南极斜视视角。&lt;/p&gt;&lt;p&gt;★★★ · NASA · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/science/digest/2026/2026-11-07.html"&gt;2026-11-07 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>
