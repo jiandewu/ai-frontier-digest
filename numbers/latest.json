@@ -28,9 +28,9 @@
    "unit": "$",
    "decimals": 0,
    "change": "pct",
-   "date": "2026-11-19",
-   "value": 62017.68,
-   "previous": 63171.19,
+   "date": "2026-11-20",
+   "value": 58830.52,
+   "previous": 62017.68,
    "source": "https://fred.stlouisfed.org/series/CBBTCUSD"
   },
   {
@@ -62,7 +62,7 @@
    "decimals": 0,
    "change": "pct",
    "date": "2026-11-20",
-   "value": 3521.8,
+   "value": 3515.4,
    "previous": 3685.5,
    "detail": "COMEX 黄金期货（GC=F），美元/盎司",
    "source": "https://finance.yahoo.com/quote/GC=F/"
@@ -73,9 +73,9 @@
    "unit": "",
    "decimals": 0,
    "change": "pct",
-   "date": "2026-11-19",
-   "value": 3577.62,
-   "previous": 3587.83,
+   "date": "2026-11-20",
+   "value": 3533.79,
+   "previous": 3577.62,
    "detail": "上证综合指数（000001.SS）",
    "source": "https://finance.yahoo.com/quote/000001.SS/"
   },
@@ -102,19 +102,19 @@
   },
   {
    "section": "科学",
-   "number": "18%",
-   "label": "新型化合物提升的能量消耗比例",
-   "title": "新型实验性化合物可在保肌的同时高效燃脂",
-   "link": "https://www.sciencedaily.com/releases/2026/11/261118073918.htm"
+   "number": "130岁",
+   "label": "蒙大拿州蓝吸口鱼的最长寿命",
+   "title": "长寿鱼类研究：蓝吸口鱼寿命超130岁",
+   "link": "https://phys.org/news/2026-11-fish-montana-blue-sucker-years.html"
   },
   {
    "section": "美股",
-   "number": "36.8 亿美元",
-   "label": "Intuit 出售 Mailchimp 的交易金额",
-   "title": "Intuit 下调全年营收指引 并折价出售 Mailchimp",
-   "link": "https://jiande.is-a.si/us-market/news/2026/2026-11-19.html#news-5"
+   "number": "2.3万亿美元",
+   "label": "芯片板块一周内蒸发的市值规模",
+   "title": "芯片板块遭遇2.3万亿美元市值蒸发 创25年来最惨单周表现",
+   "link": "https://jiande.is-a.si/us-market/news/2026/2026-11-20.html#news-2"
   }
  ],
- "newsKey": "ai-000028228240,ai-1177dfbd92c1,ai-211fbe8009a4,ai-222a3317cded,ai-3e97e19d49f6,ai-4b08ec50268e,ai-77bcf4d6e254,ai-bbe099f2944c,market-2026-11-19-1,market-2026-11-19-2,market-2026-11-19-3,market-2026-11-19-4,market-2026-11-19-5,science-47da8a8df212,science-6805ecb4b46a,science-b22232fa4393,science-bf367e0ac21f,science-e5b2cae7fb88",
- "updated": "2026-11-20T21:23:47+00:00"
+ "newsKey": "ai-000028228240,ai-1177dfbd92c1,ai-3e97e19d49f6,ai-3ea993db7e3c,ai-565159543ba4,ai-77bcf4d6e254,ai-80d31a6dee29,ai-bbe099f2944c,ai-c989db0d32fd,ai-f4784c304003,market-2026-11-20-1,market-2026-11-20-2,market-2026-11-20-3,market-2026-11-20-4,market-2026-11-20-5,science-1f7371d321a7,science-40a1e09e928f,science-6b4cce5b4dd0,science-9a45945e8fea,science-a71b60cf74f5,science-b9c4b08fe391,science-d098fa9800a7,science-d2b20e50c298",
+ "updated": "2026-11-21T08:29:52+00:00"
 }
