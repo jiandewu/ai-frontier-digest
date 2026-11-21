@@ -5,7 +5,7 @@
 <link>https://jiande.is-a.si/ai-frontier-digest/</link>
 <description>每天精选 10 条以内最值得一读的 AI 前沿进展，附中文科普解释。</description>
 <language>zh-CN</language>
-<lastBuildDate>Fri, 20 Nov 2026 12:14:00 -0500</lastBuildDate>
+<lastBuildDate>Fri, 20 Nov 2026 20:43:00 -0500</lastBuildDate>
 <item>
 <title>Anthropic 完成 IPO；Google 向开发者开放 Genie 4</title>
 <link>https://latent.space/p/ainews-anthropic-successfully-completes-largest-ipo-in-history-valued-at-1-5t/</link>
@@ -18,14 +18,21 @@
 <link>https://alpo.ge/remark.pdf</link>
 <guid isPermaLink="false">bbe099f2944c</guid>
 <pubDate>Fri, 20 Nov 2026 09:16:00 -0500</pubDate>
-<description>&lt;p&gt;一位Anthropic员工发布了一份声称证明了数学界顶级难题“黎曼猜想”的文档，引发了学术界和科技社区的广泛讨论与验证。&lt;/p&gt;&lt;p&gt;★★★★ · Hacker News · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-20.html"&gt;2026-11-20 精选&lt;/a&gt;&lt;/p&gt;</description>
+<description>&lt;p&gt;这是一份由 Anthropic 员工发布的文档，声称提供了黎曼猜想（Riemann Hypothesis）的通用证明。该内容以 PDF 格式呈现，通过复杂的算法代码块记录了相关的论证过程。由于黎曼猜想是数学界著名的未解难题，这份声称的证明是否正确及其逻辑严密性，有待专业数学界的进一步同行评审与验证。&lt;/p&gt;&lt;p&gt;★★★★ · Hacker News · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-20.html"&gt;2026-11-20 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>AI驱动的新型CPU架构Frostbite</title>
 <link>https://architectlabs.com/blog/frostbite</link>
 <guid isPermaLink="false">000028228240</guid>
 <pubDate>Fri, 20 Nov 2026 05:01:00 -0500</pubDate>
-<description>&lt;p&gt;Frostbite是一个由人工智能辅助发现、设计并完成验证的全新中央处理器（CPU）架构，展示了AI在半导体硬件设计领域的潜力。&lt;/p&gt;&lt;p&gt;★★★★ · Hacker News · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-20.html"&gt;2026-11-20 精选&lt;/a&gt;&lt;/p&gt;</description>
+<description>&lt;p&gt;Frostbite 是一款由 AI 辅助设计与验证的通用 CPU 架构，旨在突破传统处理器性能提升停滞的瓶颈。该系统通过引入“交互网”（interaction nets）计算模型，实现了任务的高度并行化与局部化，从而在功耗和性能上大幅超越现代同类 CPU。其局限在于这一由 AI 全流程参与设计的芯片，仍需在更多复杂生产场景中验证其通用性和可靠性。&lt;/p&gt;&lt;p&gt;★★★★ · Hacker News · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-20.html"&gt;2026-11-20 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>防御对抗性蒸馏：保护 AI 模型能力不被窃取</title>
+<link>https://openai.com/index/combatting-adversarial-distillation</link>
+<guid isPermaLink="false">3ea993db7e3c</guid>
+<pubDate>Fri, 20 Nov 2026 05:00:00 -0500</pubDate>
+<description>&lt;p&gt;OpenAI 提出了一套多层防御体系，通过模型训练、安全防护和检测机制，防止恶意攻击者通过蒸馏技术“复制”模型核心能力。&lt;/p&gt;&lt;p&gt;★★★★ · OpenAI · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-20.html"&gt;2026-11-20 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>Agnes 开源框架：Agent 效率提升 14 倍，成本大幅下降</title>
@@ -42,32 +49,39 @@
 <description>&lt;p&gt;华为云发布的 CloudRobo 是一套针对具身智能（机器人与物理世界交互）的开发平台，旨在解决机器人从实验室走向工厂场景时面临的算力调度、仿真训练和真机适配难题。它通过昇腾算力底座和统一的机器人接入协议，支持开发者在云端完成模型训练和仿真验证，减少了重复开发工作。目前该方案主要依托产业伙伴合作落地，面临不同工业环境差异带来的定制化挑战。&lt;/p&gt;&lt;p&gt;★★★★ · 量子位 · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-20.html"&gt;2026-11-20 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
-<title>Hugging Face推出模型适配器（Harness Adapters）</title>
-<link>https://huggingface.co/blog/harness-adapters-at-scale</link>
-<guid isPermaLink="false">211fbe8009a4</guid>
+<title>Google Duplex 的演进：Gemini 如何接管电话任务</title>
+<link>https://research.google/blog/how-google-duplex-evolved-to-also-call-businesses-for-you-in-gemini/</link>
+<guid isPermaLink="false">565159543ba4</guid>
+<pubDate>Fri, 20 Nov 2026 18:30:00 -0500</pubDate>
+<description>&lt;p&gt;回顾了生成式 AI 技术如何助力 Google Duplex 从简单的自动化工具演进为在 Gemini 中主动为用户拨打商务电话的智能代理。&lt;/p&gt;&lt;p&gt;★★★ · Google Research · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-20.html"&gt;2026-11-20 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>利用形式化验证对抗 AI 垃圾内容</title>
+<link>https://latent.space/p/formal-verification/</link>
+<guid isPermaLink="false">c989db0d32fd</guid>
+<pubDate>Fri, 20 Nov 2026 16:18:00 -0500</pubDate>
+<description>&lt;p&gt;借助 Lean 等工具和 AI 自动化，通过数学手段证明软件代码的正确性，从而减少 AI 生成的低质量无效内容（Slop）。&lt;/p&gt;&lt;p&gt;★★★ · Latent Space · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-20.html"&gt;2026-11-20 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>MedChemBench：AI 药物研发的新标尺</title>
+<link>https://openai.com/index/introducing-medchembench</link>
+<guid isPermaLink="false">f4784c304003</guid>
 <pubDate>Thu, 19 Nov 2026 19:00:00 -0500</pubDate>
-<description>&lt;p&gt;Hugging Face引入了一种新型适配器，旨在通过优化模型与训练套件的对接，降低模型训练和推理的成本，提高整体运行效率。&lt;/p&gt;&lt;p&gt;★★★ · Hugging Face · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-20.html"&gt;2026-11-20 精选&lt;/a&gt;&lt;/p&gt;</description>
+<description>&lt;p&gt;MedChemBench 旨在评估 AI 模型解析分子结构、进行科学推理及筛选候选药物的能力，加速早期药物研发进程。&lt;/p&gt;&lt;p&gt;★★★ · OpenAI · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-20.html"&gt;2026-11-20 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
-<title>AI 如何驱动 Linear 快速实现超亿元营收增长</title>
-<link>https://latent.space/p/linear-scaling/</link>
-<guid isPermaLink="false">222a3317cded</guid>
-<pubDate>Thu, 19 Nov 2026 18:58:00 -0500</pubDate>
-<description>&lt;p&gt;Linear 是一家以产品开发系统为核心的 SaaS 公司，通过引入 Agent 自动编排技术（由 MCP 服务支持），实现了 issue 追踪系统的进化，目前其平台上一半以上的工作由 AI 完成。该公司坚持不依赖大规模销售团队（SDR）的增长模式，并根据实际成本和用户价值而非单纯坐席数进行定价。其核心在于通过产品差异化避免 AI 功能沦为大模型的附庸，但这种模式在大型企业级客户的扩张上仍需探索。&lt;/p&gt;&lt;p&gt;★★★ · Latent Space · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-20.html"&gt;2026-11-20 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>Daybreak Red：监督式安全调查参考架构</title>
-<link>https://openai.com/business/learn/deploying-daybreak-red</link>
-<guid isPermaLink="false">4b08ec50268e</guid>
-<pubDate>Wed, 18 Nov 2026 19:00:00 -0500</pubDate>
-<description>&lt;p&gt;介绍了一套用于监督式安全调查的参考架构，包含完整的安全控制、设置指南与监控方案。&lt;/p&gt;&lt;p&gt;★★★ · OpenAI · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-20.html"&gt;2026-11-20 精选&lt;/a&gt;&lt;/p&gt;</description>
+<title>Inkling 2 Mini：本地部署的高性能模型发布</title>
+<link>https://huggingface.co/blog/inkling2mini</link>
+<guid isPermaLink="false">80d31a6dee29</guid>
+<pubDate>Thu, 19 Nov 2026 19:00:00 -0500</pubDate>
+<description>&lt;p&gt;Hugging Face 推出了 Inkling 2 Mini 模型，旨在为用户提供在本地设备上运行的高性能 AI 体验。&lt;/p&gt;&lt;p&gt;★★★ · Hugging Face · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-20.html"&gt;2026-11-20 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>OpenAI如何打造ChatGPT性能工厂</title>
 <link>https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast</link>
 <guid isPermaLink="false">6687f7be62c3</guid>
 <pubDate>Thu, 19 Nov 2026 03:00:00 -0500</pubDate>
-<description>&lt;p&gt;OpenAI分享了其如何通过Codex驱动的自动化工作流，实时监测并修复性能瓶颈，以确保ChatGPT能够高效稳定地服务用户。&lt;/p&gt;&lt;p&gt;★★★★ · OpenAI · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-19.html"&gt;2026-11-19 精选&lt;/a&gt;&lt;/p&gt;</description>
+<description>&lt;p&gt;Performance Factory 是 OpenAI 构建的一套自动化系统，利用 Codex 模型来自动发现并修复 ChatGPT 的性能回归问题。它通过定义标准化的工作流，让 AI 代理自动调查性能告警、诊断原因并提出代码修复方案，从而减少工程师的手动排查工作。该系统的核心优势在于通过云端自动化实现了性能工程的规模化，但其效果高度依赖于预设工作流的质量与 AI 对复杂系统问题的处理能力。&lt;/p&gt;&lt;p&gt;★★★★ · OpenAI · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-19.html"&gt;2026-11-19 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>Google 发布 Gemini 4 Neon 中端模型</title>
