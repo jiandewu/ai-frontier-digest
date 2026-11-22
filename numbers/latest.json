@@ -95,12 +95,12 @@
  "news": [
   {
    "section": "美股",
-   "number": "440亿美元",
-   "label": "支持基础设施建设的GPU融资交易规模",
-   "title": "高盛联合阿波罗安排440亿美元GPU融资方案 刷新行业纪录",
-   "link": "https://jiande.is-a.si/us-market/news/2026/2026-11-21.html#news-5"
+   "number": "48%",
+   "label": "英伟达股价自历史高点的跌幅",
+   "title": "英伟达从高点暴跌48% 估值跌至15倍市盈率创十年新低",
+   "link": "https://jiande.is-a.si/us-market/news/2026/2026-11-21.html#news-1"
   }
  ],
- "newsKey": "ai-12eb3c771bfe,ai-287eabec793d,ai-a4ea85254a88,ai-fd2811614640,market-2026-11-21-1,market-2026-11-21-2,market-2026-11-21-3,market-2026-11-21-4,market-2026-11-21-5,science-047676c1416d,science-4201c8dce54a,science-50f5c64c910b,science-5c0487ac07a1,science-88875db0d172,science-de05828c7469,science-e569459c8753",
- "updated": "2026-11-22T08:24:15+00:00"
+ "newsKey": "ai-381628060ea9,ai-38c61351fe0d,ai-5a5efc229d82,ai-d1f67c5edc50,market-2026-11-21-1,market-2026-11-21-2,market-2026-11-21-3,market-2026-11-21-4,market-2026-11-21-5,science-5d743c202a88,science-7af22af94225,science-b46b957c5901",
+ "updated": "2026-11-22T20:25:30+00:00"
 }
