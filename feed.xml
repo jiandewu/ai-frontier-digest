@@ -5,7 +5,35 @@
 <link>https://jiande.is-a.si/ai-frontier-digest/</link>
 <description>每天精选 10 条以内最值得一读的 AI 前沿进展，附中文科普解释。</description>
 <language>zh-CN</language>
-<lastBuildDate>Sat, 21 Nov 2026 07:59:00 -0500</lastBuildDate>
+<lastBuildDate>Sun, 22 Nov 2026 11:37:00 -0500</lastBuildDate>
+<item>
+<title>Anthropic数据中心能源结构引发争议</title>
+<link>https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power/</link>
+<guid isPermaLink="false">38c61351fe0d</guid>
+<pubDate>Sun, 22 Nov 2026 03:57:00 -0500</pubDate>
+<description>&lt;p&gt;相关调查指出，Anthropic在2028年的电力来源将高度依赖化石燃料（如天然气与煤炭），引发了行业对AI算力碳足迹的关注。&lt;/p&gt;&lt;p&gt;★★★★ · Hacker News · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-22.html"&gt;2026-11-22 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>数学家借助Claude推进千禧年难题证明</title>
+<link>https://www.qbitai.com/2026/11/511870.html</link>
+<guid isPermaLink="false">d1f67c5edc50</guid>
+<pubDate>Sun, 22 Nov 2026 01:03:00 -0500</pubDate>
+<description>&lt;p&gt;AI辅助数学证明成为新趋势，数学家利用Claude协助挑战千禧年大奖难题，引发了对AI在科研领域作用的讨论。&lt;/p&gt;&lt;p&gt;★★★★ · 量子位 · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-22.html"&gt;2026-11-22 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>AI推理服务中的数据隐私风险分析</title>
+<link>https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/</link>
+<guid isPermaLink="false">381628060ea9</guid>
+<pubDate>Sat, 21 Nov 2026 21:14:00 -0500</pubDate>
+<description>&lt;p&gt;本文探讨了AI推理平台在处理数据时可能存在的隐私泄漏与安全事故，强调了在调用第三方AI服务时的数据保护问题。&lt;/p&gt;&lt;p&gt;★★★★ · Hacker News · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-22.html"&gt;2026-11-22 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>利用葡萄糖发电刺激迷走神经，糖尿病大鼠实现血糖调控</title>
+<link>https://www.qbitai.com/2026/11/511904.html</link>
+<guid isPermaLink="false">5a5efc229d82</guid>
+<pubDate>Sun, 22 Nov 2026 01:21:00 -0500</pubDate>
+<description>&lt;p&gt;研究者通过生物燃料电池将血液中的葡萄糖转化为电能，进而刺激迷走神经控制血糖，为糖尿病治疗提供了新思路。&lt;/p&gt;&lt;p&gt;★★★ · 量子位 · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-22.html"&gt;2026-11-22 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
 <item>
 <title>数学家借助Claude完成黎曼猜想Lean形式化证明</title>
 <link>https://www.qbitai.com/2026/11/511727.html</link>
@@ -14,18 +42,18 @@
 <description>&lt;p&gt;这是一份由数学家 Levent Alpöge 发布的关于解决“黎曼猜想”的 Lean 形式化证明代码。该证明借鉴了函数域中的 Stepanov 方法，并利用 Claude 提出了 Theta 提升链等关键思路来突破数论难题。虽然目前仅发布了大量 Lean 代码而非传统论文，但该方法有望改写数学史，其正确性仍需依赖数学界对形式化代码的深入检验。&lt;/p&gt;&lt;p&gt;★★★★★ · 量子位 · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-21.html"&gt;2026-11-21 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
-<title>纳斯达克抹去2026年涨幅，AI板块抛售潮显现</title>
-<link>https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off</link>
-<guid isPermaLink="false">fd2811614640</guid>
-<pubDate>Fri, 20 Nov 2026 08:29:00 -0500</pubDate>
-<description>&lt;p&gt;这是一篇关于 Anthropic 上市后股价波动及市场对 AI 行业投资信心产生动摇的财经报道。报道指出，随着投资者对高昂的 AI 基础设施投入能否带来相应回报产生质疑，以纳斯达克为代表的科技股出现普遍下跌。这反映出市场情绪正从盲目追捧 AI 转为对企业盈利能力和可持续性的审慎评估。&lt;/p&gt;&lt;p&gt;★★★★★ · Hacker News · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-21.html"&gt;2026-11-21 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
 <title>GPT-6.2 Astra大幅提升具身智能表现</title>
 <link>https://www.qbitai.com/2026/11/511779.html</link>
 <guid isPermaLink="false">12eb3c771bfe</guid>
 <pubDate>Sat, 21 Nov 2026 01:35:00 -0500</pubDate>
 <description>&lt;p&gt;这是关于 OpenAI 的 GPT-6.2 Astra 模型在具身智能领域取得显著进展的测试报告。通过在 Ember-0 基准上的实测，该模型在打结、展开 T 恤等复杂柔性物体操作任务上的成功率大幅提升，展现出更强的空间推理与精细操作能力。尽管进步显著，但该模型在推理速度和实时响应方面相较于传统机器人策略仍存在一定挑战。&lt;/p&gt;&lt;p&gt;★★★★ · 量子位 · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-21.html"&gt;2026-11-21 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>纳斯达克抹去2026年涨幅，AI板块抛售潮显现</title>
+<link>https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off</link>
+<guid isPermaLink="false">fd2811614640</guid>
+<pubDate>Fri, 20 Nov 2026 08:29:00 -0500</pubDate>
+<description>&lt;p&gt;这是一篇关于 Anthropic 上市后股价波动及市场对 AI 行业投资信心产生动摇的财经报道。报道指出，随着投资者对高昂的 AI 基础设施投入能否带来相应回报产生质疑，以纳斯达克为代表的科技股出现普遍下跌。这反映出市场情绪正从盲目追捧 AI 转为对企业盈利能力和可持续性的审慎评估。&lt;/p&gt;&lt;p&gt;★★★★ · Hacker News · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-21.html"&gt;2026-11-21 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>大模型评测的真相：如何看懂排行榜与潜在漏洞</title>
@@ -789,48 +817,6 @@
 <guid isPermaLink="false">ed83e268f6e8</guid>
 <pubDate>Mon, 09 Nov 2026 03:57:00 -0500</pubDate>
 <description>&lt;p&gt;这篇报道探讨了AI工具全面融入高校教学后，计算机专业教育面临的质量与伦理困境。通过AI生成大纲和自动化批改作业，学校在降低运营成本的同时，也导致了学生学习体验的碎片化和知识深度缺失。尽管行业老兵认为AI是强大的学习辅助，但这一现象反映了技术异化对传统教育目标及学生原生探索欲的冲击。&lt;/p&gt;&lt;p&gt;★★★ · 量子位 · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-09.html"&gt;2026-11-09 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>无需 GPU，在 64GB 内存上运行超大模型</title>
-<link>https://github.com/synchopate/llama-modchip</link>
-<guid isPermaLink="false">5e9d3fd0e59c</guid>
-<pubDate>Sun, 08 Nov 2026 05:22:00 -0500</pubDate>
-<description>&lt;p&gt;这是一个用于在普通电脑 CPU 和内存上高效运行超大规模 MoE（混合专家模型）的工具集。它通过特殊的量化技术和针对 CPU 缓存优化的计算内核，成功将百亿至千亿参数模型（如 DeepSeek-V4）压缩并加载至有限的系统内存中运行。此方案的局限在于对特定硬件指令集有要求，且在超大模型上的推理速度受限于内存带宽。&lt;/p&gt;&lt;p&gt;★★★★ · Hacker News · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-08.html"&gt;2026-11-08 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>Claude Code 的“不再询问”功能导致千余 GitHub 公开代码库泄露密码</title>
-<link>https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again</link>
-<guid isPermaLink="false">5186d80b7eef</guid>
-<pubDate>Sat, 07 Nov 2026 15:45:00 -0500</pubDate>
-<description>&lt;p&gt;Anthropic 推出的编程辅助工具 Claude Code 在默认设置下，会将含有敏感信息的本地文件上传至 GitHub，造成了大规模的凭据泄露风险。&lt;/p&gt;&lt;p&gt;★★★★ · Hacker News · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-08.html"&gt;2026-11-08 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>OpenAI新一轮110亿美元融资到账，规模不及原计划一半</title>
-<link>https://www.qbitai.com/2026/11/508344.html</link>
-<guid isPermaLink="false">8d9ec9ed0332</guid>
-<pubDate>Sat, 07 Nov 2026 03:11:00 -0500</pubDate>
-<description>&lt;p&gt;OpenAI 完成了新一轮 110 亿美元融资，估值达到 1.25 万亿美元，并发布了用于网络安全漏洞研究的 GPT-6 Cyber 和生物实验分析基准 BioBasicsBench。虽然这些动作展示了其在科研和安全领域的进展，但备受期待的 GPT-6.2 Astra 仍未发布。此次融资规模不及预期，反映出投资人对于 AI 公司高昂基础设施投入及盈利前景的谨慎考量。&lt;/p&gt;&lt;p&gt;★★★★ · 量子位 · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-08.html"&gt;2026-11-08 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>资本正在撤离“世界模型”</title>
-<link>https://www.qbitai.com/2026/11/508466.html</link>
-<guid isPermaLink="false">e4a9449a7dd7</guid>
-<pubDate>Sat, 07 Nov 2026 23:09:00 -0500</pubDate>
-<description>&lt;p&gt;随着市场热情降温，资本对“世界模型”赛道的投资门槛大幅提高，不再盲目为概念买单。目前投资机构倾向于选择拥有顶尖学术背景、成型技术积累或资源优势的少数核心团队，其他缺乏实际落地证明的初创公司融资愈发困难。这一现象标志着该领域从早期的概念炒作转向注重技术落地验证的理性整合期。&lt;/p&gt;&lt;p&gt;★★★ · 量子位 · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-08.html"&gt;2026-11-08 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>从自主智能体迈向认知共生体：增强人类智能的新方向</title>
-<link>https://huggingface.co/papers/2611.05376</link>
-<guid isPermaLink="false">874635804694</guid>
-<pubDate>Thu, 05 Nov 2026 19:00:00 -0500</pubDate>
-<description>&lt;p&gt;该文章提出从追求独立的“人工智能”转向发展“AI 增强人类智能（AHI）”，即创建一种能够长期陪伴、实时感知并深度辅助人类思考的“认知共生体”。这种系统通过弥合人类工作记忆的局限性，在信任和隐私的框架内与人协同工作。其潜在挑战在于一旦大规模普及，可能会带来社会公平性、考试作弊及被迫使用等新型伦理风险。&lt;/p&gt;&lt;p&gt;★★★ · HF Daily Papers · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-08.html"&gt;2026-11-08 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>VFlash：利用闪电原语解码实现快速精准的视觉规划</title>
-<link>https://huggingface.co/papers/2611.08449</link>
-<guid isPermaLink="false">608e1d97ab46</guid>
-<pubDate>Thu, 05 Nov 2026 19:00:00 -0500</pubDate>
-<description>&lt;p&gt;VFlash 是一种用于机器人和自动驾驶等物理 AI 任务的视觉规划方法，能快速生成点、边界框和轨迹等空间目标。它利用轻量级 drafter（起草器）通过单次前向传播共同预测整个图元（primitive）的坐标，并直接接受结构有效的预测结果。它在减少预测误差的同时，将 3D 点运动预测的生成速度提升了约 25 倍，且在多个任务套件中提高了平均成功率。&lt;/p&gt;&lt;p&gt;★★★ · HF Daily Papers · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-08.html"&gt;2026-11-08 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>
