@@ -13,6 +13,7 @@
 | ★★★★ | [AI推理服务中的数据隐私风险分析](https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/) | 本文探讨了AI推理平台在处理数据时可能存在的隐私泄漏与安全事故，强调了在调用第三方AI服务时的数据保护问题。 | Hacker News |
 | ★★★★ | [GPT-6.2 Astra大幅提升具身智能表现](https://www.qbitai.com/2026/11/511779.html) | GPT-6.2 Astra在机器人具身控制任务上成功率翻倍，并首次实现了对可变形物体的精准操控。 | 量子位 |
 | ★★★★ | [大模型评测的真相：如何看懂排行榜与潜在漏洞](https://eugeneyan.com/writing/public-evals) | 本文通过拆解12项主流基准测试，分析了AI模型评测指标的局限性，帮助开发者更科学地审视模型跑分。 | Eugene Yan |
+| ★★★ | [困惑度与人工智能智能水平](https://openai.com/index/perplexity-and-intelligence) | 文章探讨了如何利用困惑度（Perplexity，一种衡量模型预测准确性的指标）来评估AI模型的进步，并提出这有助于开发者建立评估新兴AI能力的通用标准。 | OpenAI |
 
 <!-- latest:end -->
 
@@ -20,7 +21,7 @@
 
 <!-- archive:start -->
 
-- [2026-11-22](digest/2026/2026-11-22.md)：4 条精选
+- [2026-11-22](digest/2026/2026-11-22.md)：5 条精选
 - [2026-11-21](digest/2026/2026-11-21.md)：4 条精选
 - [2026-11-20](digest/2026/2026-11-20.md)：10 条精选
 - [2026-11-19](digest/2026/2026-11-19.md)：8 条精选

@@ -5,7 +5,7 @@
 <link>https://jiande.is-a.si/ai-frontier-digest/</link>
 <description>每天精选 10 条以内最值得一读的 AI 前沿进展，附中文科普解释。</description>
 <language>zh-CN</language>
-<lastBuildDate>Sun, 22 Nov 2026 11:37:00 -0500</lastBuildDate>
+<lastBuildDate>Sun, 22 Nov 2026 17:00:00 -0500</lastBuildDate>
 <item>
 <title>Anthropic数据中心能源结构引发争议</title>
 <link>https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power/</link>
@@ -33,6 +33,13 @@
 <guid isPermaLink="false">5a5efc229d82</guid>
 <pubDate>Sun, 22 Nov 2026 01:21:00 -0500</pubDate>
 <description>&lt;p&gt;研究者通过生物燃料电池将血液中的葡萄糖转化为电能，进而刺激迷走神经控制血糖，为糖尿病治疗提供了新思路。&lt;/p&gt;&lt;p&gt;★★★ · 量子位 · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-22.html"&gt;2026-11-22 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>困惑度与人工智能智能水平</title>
+<link>https://openai.com/index/perplexity-and-intelligence</link>
+<guid isPermaLink="false">de5cd1a6d51d</guid>
+<pubDate>Sat, 21 Nov 2026 19:00:00 -0500</pubDate>
+<description>&lt;p&gt;文章探讨了如何利用困惑度（Perplexity，一种衡量模型预测准确性的指标）来评估AI模型的进步，并提出这有助于开发者建立评估新兴AI能力的通用标准。&lt;/p&gt;&lt;p&gt;★★★ · OpenAI · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-22.html"&gt;2026-11-22 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>数学家借助Claude完成黎曼猜想Lean形式化证明</title>
