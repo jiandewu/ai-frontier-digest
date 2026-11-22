@@ -8,14 +8,14 @@
 
 | 重要度 | 标题 | 摘要 | 来源 |
 |---|---|---|---|
-| ★★★★★ | [詹姆斯·韦布空间望远镜捕捉到恒星吞噬过程](https://www.sciencedaily.com/releases/2026/11/261120075556.htm) | 詹姆斯·韦布空间望远镜（JWST）在仙女座星系观测到一颗小恒星坠入巨星后触发的剧烈喷发，揭示了恒星合并过程的细节。 | ScienceDaily |
-| ★★★★★ | [CERN观测到极为罕见的粒子衰变](https://www.sciencedaily.com/releases/2026/11/261119194530.htm) | CERN的科研团队在经过40年的观测后，首次捕捉到一种极其罕见的粒子衰变过程，这有助于探索超越标准模型的新物理学。 | ScienceDaily |
 | ★★★★ | [一种越弯越硬的“反常”糖基水凝胶](https://phys.org/news/2026-11-sugar-based-hydrogel.html) | Washington University in St. Louis的团队开发出一种基于糖的聚合物（polymer）水凝胶，它在反复弯曲的物理压力下不仅不会磨损，反而会变得更加坚韧。 | Phys.org |
-| ★★★★ | [长寿鱼类研究：蓝吸口鱼寿命超130岁](https://phys.org/news/2026-11-fish-montana-blue-sucker-years.html) | 研究利用耳石（otoliths）放射性碳定年法发现，蒙大拿州的蓝吸口鱼寿命可达130岁，远超此前预期的40岁。 | Phys.org |
-| ★★★★ | [气候变化加剧超强厄尔尼诺现象](https://www.sciencenews.org/article/el-nino-climate-change-california) | 受气候变化影响，全球正在面临一次超强厄尔尼诺（El Niño）事件，可能给加利福尼亚及全球带来严重的极端天气挑战。 | Science News |
+| ★★★★ | [科学家提出探测时间叠加流动的实验方案](https://www.sciencedaily.com/releases/2026/11/261120075558.htm) | 研究人员提出利用超高灵敏度的原子钟（atomic clock）来检测时间是否能同时表现出多种流动状态，这一量子效应可能革新对时间和引力的理解。 | ScienceDaily |
+| ★★★★ | [詹姆斯·韦布空间望远镜捕捉到恒星吞噬过程](https://www.sciencedaily.com/releases/2026/11/261120075556.htm) | 詹姆斯·韦布空间望远镜（JWST）在仙女座星系观测到一颗小恒星坠入巨星后触发的剧烈喷发，揭示了恒星合并过程的细节。 | ScienceDaily |
+| ★★★ | [朱诺号探测器捕捉到的木星云层奇景](https://science.nasa.gov/image-article/apod-2026-november-22-swirls-and-colors-on-jupiter-from-juno/) | NASA的朱诺号（Juno）探测器传回了木星大气中绚丽的漩涡与色彩影像，为科学家研究这颗气态巨行星复杂的大气动力学提供了珍贵观测数据。 | NASA |
+| ★★★ | [鸟类长距离迁徙的进化奥秘](https://phys.org/news/2026-11-avian-champions-distance-migration-scientists.html) | 研究人员通过对物种演化史的溯源，揭示了鸟类在长距离迁徙过程中的生物学适应性，挑战了以往对鸟类迁徙能力的认知。 | Phys.org |
 | ★★★ | [种族现实主义并非科学事实](https://arstechnica.com/science/2026/11/race-realism-isnt-realistic-and-it-isnt-good-science/) | 现代遗传学研究表明，所谓种族在智力上存在先天差异的观点缺乏科学依据。 | Ars Technica |
 | ★★★ | [计算机算力的边界：哪些难题无法快速求解？](https://www.sciencenews.org/article/game-computer-sn-10-dor-minzer-problem) | 数学家Dor Minzer致力于研究计算机在处理复杂规则集时的计算复杂性，探索哪些逻辑问题是计算机难以在短时间内得出结果的。 | Science News |
-| ★★★ | [NASA重返月球计划的进展与挑战](https://arstechnica.com/space/2026/11/nasas-new-moon-plan-is-taking-shape-but-some-big-questions-remain/) | NASA正在推进其月球探索计划，但仍面临诸多未决的技术讨论与争议。 | Ars Technica |
+| ★★★ | [肿瘤与神经的“对话”机制](https://www.sciencenews.org/article/tumors-talk-nerve-sn-10-sebnem-ece-eksi) | 科学家Sebnem Ece Eksi在某些前列腺癌细胞中发现了与记忆相关的蛋白质，正尝试通过绘制肿瘤内的神经纤维图谱，揭示癌症与神经系统间的关联。 | Science News |
 
 <!-- latest:end -->
 
@@ -23,13 +23,13 @@
 
 <!-- archive:start -->
 
+- [2026-11-22](digest/2026/2026-11-22.md)：1 条精选
 - [2026-11-21](digest/2026/2026-11-21.md)：7 条精选
 - [2026-11-20](digest/2026/2026-11-20.md)：8 条精选
 - [2026-11-19](digest/2026/2026-11-19.md)：8 条精选
 - [2026-11-18](digest/2026/2026-11-18.md)：8 条精选
 - [2026-11-17](digest/2026/2026-11-17.md)：8 条精选
 - [2026-11-16](digest/2026/2026-11-16.md)：8 条精选
-- [2026-11-15](digest/2026/2026-11-15.md)：5 条精选
 - [2026-W46（11-09 至 11-15）](digest/2026/2026-W46.md)：8 条精选
 - [2026-W45（11-02 至 11-08）](digest/2026/2026-W45.md)：8 条精选
 
