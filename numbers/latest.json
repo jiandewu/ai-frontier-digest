@@ -28,9 +28,9 @@
    "unit": "$",
    "decimals": 0,
    "change": "pct",
-   "date": "2026-11-20",
-   "value": 58830.52,
-   "previous": 62017.68,
+   "date": "2026-11-21",
+   "value": 60071.14,
+   "previous": 58830.52,
    "source": "https://fred.stlouisfed.org/series/CBBTCUSD"
   },
   {
@@ -94,27 +94,13 @@
  ],
  "news": [
   {
-   "section": "AI",
-   "number": "12项",
-   "label": "分析的AI模型基准测试数量",
-   "title": "大模型评测的真相：如何看懂排行榜与潜在漏洞",
-   "link": "https://eugeneyan.com/writing/public-evals"
-  },
-  {
-   "section": "科学",
-   "number": "450个",
-   "label": "识别出的伽马射线源数量",
-   "title": "费米卫星全天图填补“兆电子伏特”能隙",
-   "link": "https://phys.org/news/2026-11-fermi-year-sky-bridges-astronomy.html"
-  },
-  {
    "section": "美股",
-   "number": "2.3万亿美元",
-   "label": "芯片板块一周内蒸发的市值",
-   "title": "芯片板块遭遇2.3万亿美元市值蒸发 创25年来最惨单周表现",
-   "link": "https://jiande.is-a.si/us-market/news/2026/2026-11-20.html#news-2"
+   "number": "440亿美元",
+   "label": "支持基础设施建设的GPU融资交易规模",
+   "title": "高盛联合阿波罗安排440亿美元GPU融资方案 刷新行业纪录",
+   "link": "https://jiande.is-a.si/us-market/news/2026/2026-11-21.html#news-5"
   }
  ],
- "newsKey": "ai-12eb3c771bfe,ai-287eabec793d,ai-a4ea85254a88,ai-fd2811614640,market-2026-11-20-1,market-2026-11-20-2,market-2026-11-20-3,market-2026-11-20-4,market-2026-11-20-5,science-047676c1416d,science-16e3316175eb,science-353986995381,science-5c0487ac07a1,science-88875db0d172",
- "updated": "2026-11-21T20:11:54+00:00"
+ "newsKey": "ai-12eb3c771bfe,ai-287eabec793d,ai-a4ea85254a88,ai-fd2811614640,market-2026-11-21-1,market-2026-11-21-2,market-2026-11-21-3,market-2026-11-21-4,market-2026-11-21-5,science-047676c1416d,science-4201c8dce54a,science-50f5c64c910b,science-5c0487ac07a1,science-88875db0d172,science-de05828c7469,science-e569459c8753",
+ "updated": "2026-11-22T08:24:15+00:00"
 }
