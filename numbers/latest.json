@@ -28,9 +28,9 @@
    "unit": "$",
    "decimals": 0,
    "change": "pct",
-   "date": "2026-11-21",
-   "value": 60071.14,
-   "previous": 58830.52,
+   "date": "2026-11-22",
+   "value": 60991.86,
+   "previous": 60071.14,
    "source": "https://fred.stlouisfed.org/series/CBBTCUSD"
   },
   {
@@ -61,9 +61,9 @@
    "unit": "$",
    "decimals": 0,
    "change": "pct",
-   "date": "2026-11-20",
-   "value": 3515.4,
-   "previous": 3685.5,
+   "date": "2026-11-23",
+   "value": 3616.2,
+   "previous": 3515.4,
    "detail": "COMEX 黄金期货（GC=F），美元/盎司",
    "source": "https://finance.yahoo.com/quote/GC=F/"
   },
@@ -73,9 +73,9 @@
    "unit": "",
    "decimals": 0,
    "change": "pct",
-   "date": "2026-11-20",
-   "value": 3533.79,
-   "previous": 3577.62,
+   "date": "2026-11-23",
+   "value": 3538.95,
+   "previous": 3533.79,
    "detail": "上证综合指数（000001.SS）",
    "source": "https://finance.yahoo.com/quote/000001.SS/"
   },
@@ -85,22 +85,29 @@
    "unit": "",
    "decimals": 0,
    "change": "abs",
-   "date": "2026-11-20",
-   "value": 468,
-   "previous": 427,
-   "detail": "cs.AI 109 · cs.CL 64 · cs.CV 176 · cs.LG 119",
+   "date": "2026-11-23",
+   "value": 373,
+   "previous": 468,
+   "detail": "cs.AI 87 · cs.CL 58 · cs.CV 132 · cs.LG 96",
    "source": "https://arxiv.org/list/cs.AI/new"
   }
  ],
  "news": [
   {
+   "section": "科学",
+   "number": "2500人",
+   "label": "研究涉及的参与者人数",
+   "title": "常用药物可能长期重塑肠道菌群",
+   "link": "https://www.sciencedaily.com/releases/2026/11/261120071501.htm"
+  },
+  {
    "section": "美股",
-   "number": "48%",
-   "label": "英伟达股价自历史高点的跌幅",
-   "title": "英伟达从高点暴跌48% 估值跌至15倍市盈率创十年新低",
-   "link": "https://jiande.is-a.si/us-market/news/2026/2026-11-21.html#news-1"
+   "number": "440亿美元",
+   "label": "SpaceX创纪录的融资总额",
+   "title": "高盛联合阿波罗完成针对SpaceX的440亿美元GPU融资安排",
+   "link": "https://jiande.is-a.si/us-market/news/2026/2026-11-22.html#news-4"
   }
  ],
- "newsKey": "ai-381628060ea9,ai-38c61351fe0d,ai-5a5efc229d82,ai-d1f67c5edc50,market-2026-11-21-1,market-2026-11-21-2,market-2026-11-21-3,market-2026-11-21-4,market-2026-11-21-5,science-5d743c202a88,science-7af22af94225,science-b46b957c5901",
- "updated": "2026-11-22T20:25:30+00:00"
+ "newsKey": "ai-4f0ed76760ef,market-2026-11-22-1,market-2026-11-22-2,market-2026-11-22-3,market-2026-11-22-4,market-2026-11-22-5,science-5d743c202a88,science-6bfc22039f06,science-7af22af94225,science-b46b957c5901,science-d1e96f4988a8",
+ "updated": "2026-11-23T09:23:08+00:00"
 }
