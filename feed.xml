@@ -5,41 +5,48 @@
 <link>https://jiande.is-a.si/ai-frontier-digest/</link>
 <description>每天精选 10 条以内最值得一读的 AI 前沿进展，附中文科普解释。</description>
 <language>zh-CN</language>
-<lastBuildDate>Sun, 22 Nov 2026 17:00:00 -0500</lastBuildDate>
+<lastBuildDate>Mon, 23 Nov 2026 03:11:00 -0500</lastBuildDate>
+<item>
+<title>本地部署 AI 入门指南：Inkling、Qwen 与 Unsloth 实战</title>
+<link>https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth</link>
+<guid isPermaLink="false">4f0ed76760ef</guid>
+<pubDate>Sun, 22 Nov 2026 16:01:00 -0500</pubDate>
+<description>&lt;p&gt;本文介绍了如何利用 Inkling、Qwen（通义千问模型）以及 Unsloth（用于高效微调模型的工具）在个人电脑上运行和微调 AI，适合想在本地部署模型以保护隐私或定制功能的开发者。&lt;/p&gt;&lt;p&gt;★★★ · Hacker News · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-23.html"&gt;2026-11-23 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
 <item>
 <title>Anthropic数据中心能源结构引发争议</title>
 <link>https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power/</link>
 <guid isPermaLink="false">38c61351fe0d</guid>
 <pubDate>Sun, 22 Nov 2026 03:57:00 -0500</pubDate>
-<description>&lt;p&gt;相关调查指出，Anthropic在2028年的电力来源将高度依赖化石燃料（如天然气与煤炭），引发了行业对AI算力碳足迹的关注。&lt;/p&gt;&lt;p&gt;★★★★ · Hacker News · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-22.html"&gt;2026-11-22 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>数学家借助Claude推进千禧年难题证明</title>
-<link>https://www.qbitai.com/2026/11/511870.html</link>
-<guid isPermaLink="false">d1f67c5edc50</guid>
-<pubDate>Sun, 22 Nov 2026 01:03:00 -0500</pubDate>
-<description>&lt;p&gt;AI辅助数学证明成为新趋势，数学家利用Claude协助挑战千禧年大奖难题，引发了对AI在科研领域作用的讨论。&lt;/p&gt;&lt;p&gt;★★★★ · 量子位 · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-22.html"&gt;2026-11-22 精选&lt;/a&gt;&lt;/p&gt;</description>
+<description>&lt;p&gt;该文章讨论了人工智能数据中心建设对化石能源的巨大需求，尤其关注Anthropic公司。Anthropic通过“自带能源”（BYOP）策略，主要依赖煤炭和天然气发电来满足其算力需求，且缺乏直接使用可再生能源的实质性承诺。这种能源获取方式不仅增加了温室气体排放，还通过低效的发电设备对周围环境造成了显著的污染与健康影响。&lt;/p&gt;&lt;p&gt;★★★★ · Hacker News · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-22.html"&gt;2026-11-22 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>AI推理服务中的数据隐私风险分析</title>
 <link>https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/</link>
 <guid isPermaLink="false">381628060ea9</guid>
 <pubDate>Sat, 21 Nov 2026 21:14:00 -0500</pubDate>
-<description>&lt;p&gt;本文探讨了AI推理平台在处理数据时可能存在的隐私泄漏与安全事故，强调了在调用第三方AI服务时的数据保护问题。&lt;/p&gt;&lt;p&gt;★★★★ · Hacker News · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-22.html"&gt;2026-11-22 精选&lt;/a&gt;&lt;/p&gt;</description>
+<description>&lt;p&gt;OpenRouter平台报告了其部分推理服务商未能严格遵守数据保护政策的安全事件，对此OpenRouter采取了下架违规服务商和限制数据存储资格等应对措施。这些发现促使平台加强了技术校验与持续性安全审计。此举旨在维护人工智能生态链条中的数据安全，确保提供商能够达到更高的安全标准。&lt;/p&gt;&lt;p&gt;★★★★ · Hacker News · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-22.html"&gt;2026-11-22 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>利用葡萄糖发电刺激迷走神经，糖尿病大鼠实现血糖调控</title>
 <link>https://www.qbitai.com/2026/11/511904.html</link>
 <guid isPermaLink="false">5a5efc229d82</guid>
 <pubDate>Sun, 22 Nov 2026 01:21:00 -0500</pubDate>
-<description>&lt;p&gt;研究者通过生物燃料电池将血液中的葡萄糖转化为电能，进而刺激迷走神经控制血糖，为糖尿病治疗提供了新思路。&lt;/p&gt;&lt;p&gt;★★★ · 量子位 · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-22.html"&gt;2026-11-22 精选&lt;/a&gt;&lt;/p&gt;</description>
+<description>&lt;p&gt;该研究开发了一种名为NeuroAxis的植入式装置，它利用体内的葡萄糖发电，自动监测血糖并电刺激迷走神经来调节代谢。这一闭环系统能在糖尿病大鼠体内成功恢复正常血糖水平，甚至观察到胰岛β细胞的增殖。尽管该技术在实现自主控糖方面展现出潜力，但由于动物实验与人类生理的差异及装置的长期稳定性问题，其临床应用尚需深入研究。&lt;/p&gt;&lt;p&gt;★★★ · 量子位 · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-22.html"&gt;2026-11-22 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>数学家借助Claude推进千禧年难题证明</title>
+<link>https://www.qbitai.com/2026/11/511870.html</link>
+<guid isPermaLink="false">d1f67c5edc50</guid>
+<pubDate>Sun, 22 Nov 2026 01:03:00 -0500</pubDate>
+<description>&lt;p&gt;Anthropic的数学家利用Claude模型辅助证明了千禧难题Navier–Stokes方程的爆破问题，并在同日公开了相关论文与形式化验证代码。这标志着AI正在深入参与数学证明的生成与整理，引起了学界的广泛讨论。与此同时，也有人类数学家通过长期的独立研究，提交了不依赖AI的黎曼猜想证明草稿，展现了传统研究方式的坚守。&lt;/p&gt;&lt;p&gt;★★★ · 量子位 · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-22.html"&gt;2026-11-22 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>困惑度与人工智能智能水平</title>
 <link>https://openai.com/index/perplexity-and-intelligence</link>
 <guid isPermaLink="false">de5cd1a6d51d</guid>
 <pubDate>Sat, 21 Nov 2026 19:00:00 -0500</pubDate>
-<description>&lt;p&gt;文章探讨了如何利用困惑度（Perplexity，一种衡量模型预测准确性的指标）来评估AI模型的进步，并提出这有助于开发者建立评估新兴AI能力的通用标准。&lt;/p&gt;&lt;p&gt;★★★ · OpenAI · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-22.html"&gt;2026-11-22 精选&lt;/a&gt;&lt;/p&gt;</description>
+<description>&lt;p&gt;OpenAI首席科学家Jakub Pachocki提出，困惑度（Perplexity）是衡量AI模型预训练进展及预测其“涌现”能力的核心指标。他认为随着模型在这一指标上不断提升，AI已展现出数学研究等领域的变革性能力，并呼吁行业开发者共享这一透明度指标以建立共同的安全标准。该文旨在建立一个科学的基础，以便在AI能力快速演进时，能通过共同的指标设置研发界限与监控机制。&lt;/p&gt;&lt;p&gt;★★★ · OpenAI · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-22.html"&gt;2026-11-22 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>数学家借助Claude完成黎曼猜想Lean形式化证明</title>
@@ -754,76 +761,6 @@
 <guid isPermaLink="false">5ca4dc7b6d88</guid>
 <pubDate>Tue, 10 Nov 2026 05:00:00 -0500</pubDate>
 <description>&lt;p&gt;企业现在可以直接在 ChatGPT 中管理业务信息、获取流量洞察，并将用户关注转化为实际业务行动。&lt;/p&gt;&lt;p&gt;★★★ · OpenAI · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-10.html"&gt;2026-11-10 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>Anthropic 发布 Claude Fable 5.2 与 Claude Mythos 5.2</title>
-<link>https://www.anthropic.com/news/claude-fable-and-mythos-5-2</link>
-<guid isPermaLink="false">61fb41a2c00b</guid>
-<pubDate>Sun, 08 Nov 2026 19:00:00 -0500</pubDate>
-<description>&lt;p&gt;这是Anthropic推出的Claude Fable 5.2和Mythos 5.2模型，专门针对复杂技术任务进行优化。通过改进模型架构并增强计算效率，它们在编程、科研与工程设计等领域表现卓越。该系列不仅提升了处理速度并降低了成本，还引入了更先进的安全防护机制，适用于对自动化与推理能力有极高要求的专业场景。&lt;/p&gt;&lt;p&gt;★★★★★ · Anthropic · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-09.html"&gt;2026-11-09 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>关于 Fable 5.2 与“锯齿状”通用人工智能的探讨</title>
-<link>https://www.oneusefulthing.org/p/fable-52-and-jagged-agi</link>
-<guid isPermaLink="false">98d5b7ce1047</guid>
-<pubDate>Mon, 09 Nov 2026 14:04:00 -0500</pubDate>
-<description>&lt;p&gt;该文章讨论了 Claude Fable 5.2 模型在复杂任务表现中呈现的“锯齿状 AGI”（Jagged AGI）特性，即模型在特定领域表现出媲美人类专家的智能，但在审美、判断力和自我纠错等主观维度上仍存在短板。通过测试证明，该模型能高效完成从硬件黑客攻击到学术研究等高难度工作，但目前尚不足以完全脱离人类指导独立运行商业实体。这表明 AI 在通用任务处理上已取得巨大飞跃，但在复杂系统的长期规划与价值判断上仍有局限。&lt;/p&gt;&lt;p&gt;★★★★ · One Useful Thing · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-09.html"&gt;2026-11-09 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>Import AI简报：科学发现与智能体肢体进展</title>
-<link>https://jack-clark.net/2026/11/09/import-ai-480-self-sustaining-space-economies-ai-for-science-progress-and-meta-builds-perfect-hands-for-a-superintelligence/</link>
-<guid isPermaLink="false">08f9983ae92b</guid>
-<pubDate>Mon, 09 Nov 2026 08:31:00 -0500</pubDate>
-<description>&lt;p&gt;该内容汇总了AI驱动科研突破、Meta的可穿戴传感手套Tactus，以及月球资源利用的未来展望。通过自动化推理系统证明量子猜想、利用精细化传感器采集肢体交互数据，以及规划地外工业生态，展示了AI在加速科学边界拓展和物理交互层面的潜力。这类研究强调了技术进步如何让原本仅存在于科幻中的场景逐步成为现实。&lt;/p&gt;&lt;p&gt;★★★★ · Import AI · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-09.html"&gt;2026-11-09 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>汽车行业L3自动驾驶热潮退却</title>
-<link>https://www.qbitai.com/2026/11/508629.html</link>
-<guid isPermaLink="false">c03a28271fc2</guid>
-<pubDate>Mon, 09 Nov 2026 02:02:00 -0500</pubDate>
-<description>&lt;p&gt;奔驰和宝马近期宣布缩减L3级自动驾驶的研发投入，转而专注于提升L2级辅助驾驶的场景覆盖度。这种战略调整源于L3技术在复杂的运行约束和高昂成本下，无法为消费者带来足够的日常使用价值，且人类接管机制存在安全隐患。这表明豪华车企正从盲目追求高阶自动驾驶分级，转向更务实的市场需求导向。&lt;/p&gt;&lt;p&gt;★★★★ · 量子位 · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-09.html"&gt;2026-11-09 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>AI 自动生成的 PR 说明文档可能过于详尽</title>
-<link>https://simonwillison.net/2026/Nov/9/details-summary/</link>
-<guid isPermaLink="false">6ee1dee33e4b</guid>
-<pubDate>Sun, 08 Nov 2026 23:25:00 -0500</pubDate>
-<description>&lt;p&gt;这是针对AI生成过长代码拉取请求（PR）描述的格式处理建议。通过在GitHub Markdown中使用HTML的&amp;lt;details&amp;gt;&amp;lt;summary&amp;gt;标签，将AI自动生成的冗长解释折叠，仅保留人工撰写的关键摘要，从而提升代码审查的可读性。这有助于在保持AI输出完整性的前提下，降低人工审核时的认知负担。&lt;/p&gt;&lt;p&gt;★★★★ · Simon Willison · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-09.html"&gt;2026-11-09 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>当 AI 代写作业成为常态：斯坦福的教学改革</title>
-<link>https://latent.space/p/one_million_ai_engineer_special_how_stanford_teaches_ai-native_engineering_mihail_eric_monaco/</link>
-<guid isPermaLink="false">6b30b3347296</guid>
-<pubDate>Sun, 08 Nov 2026 16:23:00 -0500</pubDate>
-<description>&lt;p&gt;这是斯坦福大学CS146S课程关于“AI原生工程”教学模式的探讨。该课程让学生在真实代码库中与开源维护者互动，通过实操理解AI coding agents（编程智能体）在软件开发生命周期中的作用和局限。这反映了软件工程教育正从传统的代码编写向模型协作与工作流管理转型。&lt;/p&gt;&lt;p&gt;★★★★ · Latent Space · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-09.html"&gt;2026-11-09 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>关于 Google Gemini 处理私人数据流程的讨论</title>
-<link>https://github.com/thisisme6598/gemini_files/</link>
-<guid isPermaLink="false">1b18e8c9acf7</guid>
-<pubDate>Mon, 09 Nov 2026 13:24:00 -0500</pubDate>
-<description>&lt;p&gt;Google Gemini已更新其隐私政策，明确个人用户的Drive文件和邮件内容可能被路由至人工审核流程。通过模型工具调用机制，AI在处理查询时可能会自动提取用户隐私数据并将其纳入上下文，甚至在背景对话中触发数据抓取。用户若连接了工作空间扩展，应注意其个人敏感信息存在被人类审核员查看的风险。&lt;/p&gt;&lt;p&gt;★★★ · Hacker News · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-09.html"&gt;2026-11-09 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>Handshake AI：前沿实验室如何获取高质量数据</title>
-<link>https://latent.space/p/handshake/</link>
-<guid isPermaLink="false">8433ae49482a</guid>
-<pubDate>Mon, 09 Nov 2026 12:15:00 -0500</pubDate>
-<description>&lt;p&gt;Handshake AI是一家提供专业训练数据集的公司，专注于为前沿AI实验室提供财务、生物与工程领域的复杂评估环境。通过模拟真实的银行内部文件处理、蛋白质图像判读及代码执行任务，这些数据帮助模型在人类难以衡量的专业领域实现对齐与增强。该业务模式体现了高质量、专家级的人工标注数据对提升前沿模型能力的重要性。&lt;/p&gt;&lt;p&gt;★★★ · Latent Space · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-09.html"&gt;2026-11-09 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>OpenAI 推出 Control Room 安全监测系统</title>
-<link>https://openai.com/index/control-room</link>
-<guid isPermaLink="false">f37b680abcf7</guid>
-<pubDate>Mon, 09 Nov 2026 08:00:00 -0500</pubDate>
-<description>&lt;p&gt;OpenAI 开发了一套核心系统用于监控大规模研发基础设施中的模型运行情况，并在识别到安全风险时能快速终止相关任务。&lt;/p&gt;&lt;p&gt;★★★ · OpenAI · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-09.html"&gt;2026-11-09 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>AI对高等教育的冲击与挑战</title>
-<link>https://www.qbitai.com/2026/11/508706.html</link>
-<guid isPermaLink="false">ed83e268f6e8</guid>
-<pubDate>Mon, 09 Nov 2026 03:57:00 -0500</pubDate>
-<description>&lt;p&gt;这篇报道探讨了AI工具全面融入高校教学后，计算机专业教育面临的质量与伦理困境。通过AI生成大纲和自动化批改作业，学校在降低运营成本的同时，也导致了学生学习体验的碎片化和知识深度缺失。尽管行业老兵认为AI是强大的学习辅助，但这一现象反映了技术异化对传统教育目标及学生原生探索欲的冲击。&lt;/p&gt;&lt;p&gt;★★★ · 量子位 · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-09.html"&gt;2026-11-09 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>
