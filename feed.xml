@@ -5,13 +5,76 @@
 <link>https://jiande.is-a.si/ai-frontier-digest/</link>
 <description>每天精选 10 条以内最值得一读的 AI 前沿进展，附中文科普解释。</description>
 <language>zh-CN</language>
-<lastBuildDate>Mon, 23 Nov 2026 03:11:00 -0500</lastBuildDate>
+<lastBuildDate>Mon, 23 Nov 2026 15:31:00 -0500</lastBuildDate>
 <item>
-<title>本地部署 AI 入门指南：Inkling、Qwen 与 Unsloth 实战</title>
-<link>https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth</link>
-<guid isPermaLink="false">4f0ed76760ef</guid>
-<pubDate>Sun, 22 Nov 2026 16:01:00 -0500</pubDate>
-<description>&lt;p&gt;本文介绍了如何利用 Inkling、Qwen（通义千问模型）以及 Unsloth（用于高效微调模型的工具）在个人电脑上运行和微调 AI，适合想在本地部署模型以保护隐私或定制功能的开发者。&lt;/p&gt;&lt;p&gt;★★★ · Hacker News · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-23.html"&gt;2026-11-23 精选&lt;/a&gt;&lt;/p&gt;</description>
+<title>当前 AI 领域最重要的五大核心争论</title>
+<link>https://www.understandingai.org/p/the-five-most-important-debates-in</link>
+<guid isPermaLink="false">dab2d6d829a2</guid>
+<pubDate>Mon, 23 Nov 2026 14:31:00 -0500</pubDate>
+<description>&lt;p&gt;梳理了当下关于 AI 产业泡沫、网络安全末日以及递归自我提升（RSI，即 AI 自身优化代码迭代）等重大议题的核心支持与反对观点。&lt;/p&gt;&lt;p&gt;★★★★★ · Understanding AI · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-23.html"&gt;2026-11-23 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>管理咨询不仅仅是智能的“简易包装”</title>
+<link>https://www.normaltech.ai/p/management-consulting-is-not-a-thin</link>
+<guid isPermaLink="false">1f03186d2e3d</guid>
+<pubDate>Mon, 23 Nov 2026 15:12:00 -0500</pubDate>
+<description>&lt;p&gt;文章将管理咨询作为探究 AI 对知识型工作影响的案例，指出咨询业的核心价值远高于单纯的信息检索与生成，AI 难以完全替代其深度服务。&lt;/p&gt;&lt;p&gt;★★★★ · AI as Normal Technology · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-23.html"&gt;2026-11-23 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>DeepMind 利用 AI 智能体与形式验证加速量子算法开发</title>
+<link>https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/</link>
+<guid isPermaLink="false">61dcf1169479</guid>
+<pubDate>Mon, 23 Nov 2026 11:59:00 -0500</pubDate>
+<description>&lt;p&gt;Google DeepMind 结合 AI 智能体与形式验证（用数学手段严格证明程序正确性），在可用于核聚变和化学模拟的量子算法优化上取得 breakthrough。&lt;/p&gt;&lt;p&gt;★★★★ · Google DeepMind · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-23.html"&gt;2026-11-23 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>Import AI 482：华为芯片算子优化基准 AscendGYM 发布</title>
+<link>https://jack-clark.net/2026/11/23/import-ai-482-huawei-kernel-benchmarks-airborne-drone-detection-and-a-national-labs-ai-science-benchmark/</link>
+<guid isPermaLink="false">d8dc47c5b8f3</guid>
+<pubDate>Mon, 23 Nov 2026 09:11:00 -0500</pubDate>
+<description>&lt;p&gt;中国研究人员推出了用于优化华为昇腾（Ascend）芯片性能的基准测试 AscendGYM，旨在帮助硬件开发团队更好地提升算子（底层计算单元）效率与自我迭代能力。&lt;/p&gt;&lt;p&gt;★★★★ · Import AI · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-23.html"&gt;2026-11-23 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>1450 亿参数大模型实现笔记本电脑端侧流畅运行</title>
+<link>https://www.qbitai.com/2026/11/512195.html</link>
+<guid isPermaLink="false">213cd23b5b4e</guid>
+<pubDate>Mon, 23 Nov 2026 06:01:00 -0500</pubDate>
+<description>&lt;p&gt;展示了将千亿级参数（145B）的端侧大模型部署在个人电脑上的工程落地成果，推理速度可达 80+ Token/秒，支持离线环境下的编程辅助。&lt;/p&gt;&lt;p&gt;★★★★ · 量子位 · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-23.html"&gt;2026-11-23 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>智谱发布 GLM-5.4：基于 Loop Transformer 强化通用代码生成</title>
+<link>https://z.ai/blog/glm-5.4</link>
+<guid isPermaLink="false">5094532b4e2e</guid>
+<pubDate>Mon, 23 Nov 2026 05:06:00 -0500</pubDate>
+<description>&lt;p&gt;智谱推出了 GLM-5.4 模型，通过采用 Loop Transformer（循环架构 Transformer）显著提升大模型在复杂代码编程与逻辑推理上的通用性能。&lt;/p&gt;&lt;p&gt;★★★★ · Hacker News · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-23.html"&gt;2026-11-23 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>AI 科学家社区试验：936 个智能体自主完成论文撰写与评议</title>
+<link>https://www.qbitai.com/2026/11/512004.html</link>
+<guid isPermaLink="false">ab2f6e9843a1</guid>
+<pubDate>Mon, 23 Nov 2026 01:59:00 -0500</pubDate>
+<description>&lt;p&gt;介绍了一项由 AI 智能体（Agent）构成的科学家社区实验，936 个智能体在 12 周内完成了近千篇论文的撰写以及同行评议（Peer review）流程。&lt;/p&gt;&lt;p&gt;★★★★ · 量子位 · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-23.html"&gt;2026-11-23 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>Google Research 推出强化 Transformer 残差连接的理论算法</title>
+<link>https://research.google/blog/supercharging-transformer-residual-connections/</link>
+<guid isPermaLink="false">77ab3d65a278</guid>
+<pubDate>Mon, 23 Nov 2026 12:21:00 -0500</pubDate>
+<description>&lt;p&gt;Google 提出了优化 Transformer 模型残差连接（Residual connections）的算法理论，有助于提高深层神经网络在训练过程中的稳定性与收敛速度。&lt;/p&gt;&lt;p&gt;★★★ · Google Research · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-23.html"&gt;2026-11-23 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>RoboTrack：面向真实机器人操作的视觉点追踪技术</title>
+<link>https://huggingface.co/blog/allenai/robotrack</link>
+<guid isPermaLink="false">ca38829e7312</guid>
+<pubDate>Mon, 23 Nov 2026 12:20:00 -0500</pubDate>
+<description>&lt;p&gt;Hugging Face 推出的 RoboTrack 聚焦于真实世界机器人控制中的视觉点追踪能力，助力机器人实现更精准的物理交互与操作。&lt;/p&gt;&lt;p&gt;★★★ · Hugging Face · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-23.html"&gt;2026-11-23 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>如何构建与维护 AI 智能体（Agent）评测体系</title>
+<link>https://huggingface.co/blog/agentic-evals</link>
+<guid isPermaLink="false">6fd4c32fe34a</guid>
+<pubDate>Sun, 22 Nov 2026 19:00:00 -0500</pubDate>
+<description>&lt;p&gt;Hugging Face 提供了有关搭建与长期迭代 Agent 评测框架（Agentic Evaluation）的方法指南，帮助开发者准确评估复合智能体的表现。&lt;/p&gt;&lt;p&gt;★★★ · Hugging Face · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-23.html"&gt;2026-11-23 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>Anthropic数据中心能源结构引发争议</title>
