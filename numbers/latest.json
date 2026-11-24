@@ -28,9 +28,9 @@
    "unit": "$",
    "decimals": 0,
    "change": "pct",
-   "date": "2026-11-22",
-   "value": 60991.86,
-   "previous": 60071.14,
+   "date": "2026-11-23",
+   "value": 61299.74,
+   "previous": 60991.86,
    "source": "https://fred.stlouisfed.org/series/CBBTCUSD"
   },
   {
@@ -61,9 +61,9 @@
    "unit": "$",
    "decimals": 0,
    "change": "pct",
-   "date": "2026-11-23",
-   "value": 3663.7,
-   "previous": 3515.4,
+   "date": "2026-11-24",
+   "value": 3624.4,
+   "previous": 3651.4,
    "detail": "COMEX 黄金期货（GC=F），美元/盎司",
    "source": "https://finance.yahoo.com/quote/GC=F/"
   },
@@ -73,9 +73,9 @@
    "unit": "",
    "decimals": 0,
    "change": "pct",
-   "date": "2026-11-20",
-   "value": 3533.79,
-   "previous": 3577.62,
+   "date": "2026-11-24",
+   "value": 3548.37,
+   "previous": 3538.95,
    "detail": "上证综合指数（000001.SS）",
    "source": "https://finance.yahoo.com/quote/000001.SS/"
   },
@@ -85,36 +85,29 @@
    "unit": "",
    "decimals": 0,
    "change": "abs",
-   "date": "2026-11-23",
-   "value": 373,
-   "previous": 468,
-   "detail": "cs.AI 87 · cs.CL 58 · cs.CV 132 · cs.LG 96",
+   "date": "2026-11-24",
+   "value": 930,
+   "previous": 373,
+   "detail": "cs.AI 172 · cs.CL 131 · cs.CV 407 · cs.LG 220",
    "source": "https://arxiv.org/list/cs.AI/new"
   }
  ],
  "news": [
   {
    "section": "AI",
-   "number": "936个",
-   "label": "自主完成论文撰写与评议的智能体数量",
-   "title": "AI 科学家社区试验：936 个智能体自主完成论文撰写与评议",
-   "link": "https://www.qbitai.com/2026/11/512004.html"
-  },
-  {
-   "section": "科学",
-   "number": "1亿年",
-   "label": "白垩纪化石的距今年份",
-   "title": "X射线技术揭秘亿年前的恐龙时代花朵化石",
-   "link": "https://phys.org/news/2026-11-hidden-million-years-rays-reveal.html"
+   "number": "1450亿参数",
+   "label": "端侧大模型参数量",
+   "title": "1450 亿参数大模型实现笔记本电脑端侧流畅运行",
+   "link": "https://www.qbitai.com/2026/11/512195.html"
   },
   {
    "section": "美股",
-   "number": "440亿美元",
-   "label": "SpaceX创纪录的GPU及设备融资方案",
-   "title": "高盛联合阿波罗完成针对SpaceX的440亿美元GPU融资安排",
-   "link": "https://jiande.is-a.si/us-market/news/2026/2026-11-22.html#news-4"
+   "number": "31%",
+   "label": "英伟达股价单日暴涨幅度",
+   "title": "黄仁勋重返英伟达CEO岗位 股价开创性暴涨31%",
+   "link": "https://jiande.is-a.si/us-market/news/2026/2026-11-23.html#news-2"
   }
  ],
- "newsKey": "ai-1f03186d2e3d,ai-213cd23b5b4e,ai-5094532b4e2e,ai-61dcf1169479,ai-6fd4c32fe34a,ai-77ab3d65a278,ai-ab2f6e9843a1,ai-ca38829e7312,ai-d8dc47c5b8f3,ai-dab2d6d829a2,market-2026-11-22-1,market-2026-11-22-2,market-2026-11-22-3,market-2026-11-22-4,market-2026-11-22-5,science-0df183c7a96c,science-2d4c97de74e0,science-dda2946f5b2e,science-f64182916e48",
- "updated": "2026-11-24T01:06:27+00:00"
+ "newsKey": "ai-07b4e95a0768,ai-1f03186d2e3d,ai-213cd23b5b4e,ai-5094532b4e2e,ai-61dcf1169479,ai-a43a2373bab7,ai-b7fc35d5ccf0,ai-bfcbbc5c4484,ai-d8dc47c5b8f3,ai-dab2d6d829a2,market-2026-11-23-1,market-2026-11-23-2,market-2026-11-23-3,market-2026-11-23-4,market-2026-11-23-5,science-2d4c97de74e0,science-478879921c05,science-53b146847af8,science-646ccdb8bd5c,science-66a3d8485fd6,science-a4c6019c7a4d,science-d41873ee6e5d,science-ff14b88ddb01",
+ "updated": "2026-11-24T11:18:20+00:00"
 }
