@@ -6,9 +6,9 @@
    "unit": "",
    "decimals": 0,
    "change": "pct",
-   "date": "2026-11-20",
-   "value": 6910.39,
-   "previous": 7175.83,
+   "date": "2026-11-23",
+   "value": 7237.17,
+   "previous": 6910.39,
    "source": "https://fred.stlouisfed.org/series/SP500"
   },
   {
@@ -50,9 +50,9 @@
    "unit": "$",
    "decimals": 2,
    "change": "abs",
-   "date": "2026-11-16",
-   "value": 3.805,
-   "previous": 3.995,
+   "date": "2026-11-23",
+   "value": 3.642,
+   "previous": 3.805,
    "source": "https://fred.stlouisfed.org/series/GASREGW"
   },
   {
@@ -62,7 +62,7 @@
    "decimals": 0,
    "change": "pct",
    "date": "2026-11-24",
-   "value": 3624.4,
+   "value": 3557.3,
    "previous": 3651.4,
    "detail": "COMEX 黄金期货（GC=F），美元/盎司",
    "source": "https://finance.yahoo.com/quote/GC=F/"
@@ -73,9 +73,9 @@
    "unit": "",
    "decimals": 0,
    "change": "pct",
-   "date": "2026-11-24",
-   "value": 3548.37,
-   "previous": 3538.95,
+   "date": "2026-11-23",
+   "value": 3538.95,
+   "previous": 3533.79,
    "detail": "上证综合指数（000001.SS）",
    "source": "https://finance.yahoo.com/quote/000001.SS/"
   },
@@ -95,19 +95,19 @@
  "news": [
   {
    "section": "AI",
-   "number": "1450亿参数",
-   "label": "端侧大模型参数量",
-   "title": "1450 亿参数大模型实现笔记本电脑端侧流畅运行",
-   "link": "https://www.qbitai.com/2026/11/512195.html"
+   "number": "270%",
+   "label": "端侧AI的效率提升幅度",
+   "title": "“端侧超节点”技术：无需换芯让端侧 AI 效率提升 270%",
+   "link": "https://www.qbitai.com/2026/11/512362.html"
   },
   {
    "section": "美股",
    "number": "31%",
-   "label": "英伟达股价单日暴涨幅度",
+   "label": "黄仁勋回归后英伟达股价涨幅",
    "title": "黄仁勋重返英伟达CEO岗位 股价开创性暴涨31%",
    "link": "https://jiande.is-a.si/us-market/news/2026/2026-11-23.html#news-2"
   }
  ],
- "newsKey": "ai-07b4e95a0768,ai-1f03186d2e3d,ai-213cd23b5b4e,ai-5094532b4e2e,ai-61dcf1169479,ai-a43a2373bab7,ai-b7fc35d5ccf0,ai-bfcbbc5c4484,ai-d8dc47c5b8f3,ai-dab2d6d829a2,market-2026-11-23-1,market-2026-11-23-2,market-2026-11-23-3,market-2026-11-23-4,market-2026-11-23-5,science-2d4c97de74e0,science-478879921c05,science-53b146847af8,science-646ccdb8bd5c,science-66a3d8485fd6,science-a4c6019c7a4d,science-d41873ee6e5d,science-ff14b88ddb01",
- "updated": "2026-11-24T11:18:20+00:00"
+ "newsKey": "ai-16565a3f5dc0,ai-a90a868b5e0f,ai-b02e5d7aa184,ai-e5443a251948,ai-ec442b764e04,ai-ef8096d74f5d,ai-f3aa9260f109,market-2026-11-23-1,market-2026-11-23-2,market-2026-11-23-3,market-2026-11-23-4,market-2026-11-23-5,science-36deffe348af,science-4b28e346ca15,science-5a93512c176d,science-9add114a88a6,science-c871e71d7349,science-d874d9de2606,science-d9e86a5d1c27,science-f10fb9241afd",
+ "updated": "2026-11-24T23:10:19+00:00"
 }
