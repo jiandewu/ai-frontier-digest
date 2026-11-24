@@ -5,20 +5,41 @@
 <link>https://jiande.is-a.si/ai-frontier-digest/</link>
 <description>每天精选 10 条以内最值得一读的 AI 前沿进展，附中文科普解释。</description>
 <language>zh-CN</language>
-<lastBuildDate>Mon, 23 Nov 2026 15:31:00 -0500</lastBuildDate>
+<lastBuildDate>Mon, 23 Nov 2026 23:57:00 -0500</lastBuildDate>
+<item>
+<title>Nvidia 创始人重掌大权，OpenAI 公开模型预训练曲线</title>
+<link>https://latent.space/p/ainews-jensen-is-back-and-openai-shows-its-pretraining-curve-joined-by-microsoft/</link>
+<guid isPermaLink="false">a43a2373bab7</guid>
+<pubDate>Mon, 23 Nov 2026 23:14:00 -0500</pubDate>
+<description>&lt;p&gt;Nvidia 创始人回归引领战略变动，同时 OpenAI 首次公布内部模型训练损失（Loss）曲线并提出行业共享的训练限制标准，对AI行业发展具有重要参考意义。&lt;/p&gt;&lt;p&gt;★★★★★ · Latent Space · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-23.html"&gt;2026-11-23 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
 <item>
 <title>当前 AI 领域最重要的五大核心争论</title>
 <link>https://www.understandingai.org/p/the-five-most-important-debates-in</link>
 <guid isPermaLink="false">dab2d6d829a2</guid>
 <pubDate>Mon, 23 Nov 2026 14:31:00 -0500</pubDate>
-<description>&lt;p&gt;梳理了当下关于 AI 产业泡沫、网络安全末日以及递归自我提升（RSI，即 AI 自身优化代码迭代）等重大议题的核心支持与反对观点。&lt;/p&gt;&lt;p&gt;★★★★★ · Understanding AI · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-23.html"&gt;2026-11-23 精选&lt;/a&gt;&lt;/p&gt;</description>
+<description>&lt;p&gt;这是一篇分析当前AI领域核心争议的综述文章，探讨了芯片出口管制、递归自我改进（Recursive Self-improvement）、泡沫破裂、网络安全风险以及就业影响等五个关键议题。文章采用了正反对比的论述框架，梳理了支持与反对双方的逻辑，旨在帮助读者更全面地理解当前的AI技术博弈。文章指出了递归自我改进作为AI能力分水岭的潜在重要性，同时也揭示了这些技术可能引发的安全与战略风险。&lt;/p&gt;&lt;p&gt;★★★★★ · Understanding AI · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-23.html"&gt;2026-11-23 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>具身智能领域迎来通用预训练大模型时刻</title>
+<link>https://www.qbitai.com/2026/11/512264.html</link>
+<guid isPermaLink="false">bfcbbc5c4484</guid>
+<pubDate>Mon, 23 Nov 2026 20:51:00 -0500</pubDate>
+<description>&lt;p&gt;机器人领域终于迎来了类似于大语言模型的“预训练通用智能”，为实现通用机器人迈出了关键一步。&lt;/p&gt;&lt;p&gt;★★★★ · 量子位 · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-23.html"&gt;2026-11-23 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>Ladybird 浏览器首个 Alpha 版本发布</title>
+<link>https://simonwillison.net/2026/Nov/23/ladybird/</link>
+<guid isPermaLink="false">b7fc35d5ccf0</guid>
+<pubDate>Mon, 23 Nov 2026 16:46:00 -0500</pubDate>
+<description>&lt;p&gt;这是一个从零构建的野心之作，Ladybird 实现了从 HTML 解析到 JavaScript 引擎等几乎所有核心组件，展示了开发全新浏览器引擎的可能性。&lt;/p&gt;&lt;p&gt;★★★★ · Simon Willison · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-23.html"&gt;2026-11-23 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>管理咨询不仅仅是智能的“简易包装”</title>
 <link>https://www.normaltech.ai/p/management-consulting-is-not-a-thin</link>
 <guid isPermaLink="false">1f03186d2e3d</guid>
 <pubDate>Mon, 23 Nov 2026 15:12:00 -0500</pubDate>
-<description>&lt;p&gt;文章将管理咨询作为探究 AI 对知识型工作影响的案例，指出咨询业的核心价值远高于单纯的信息检索与生成，AI 难以完全替代其深度服务。&lt;/p&gt;&lt;p&gt;★★★★ · AI as Normal Technology · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-23.html"&gt;2026-11-23 精选&lt;/a&gt;&lt;/p&gt;</description>
+<description>&lt;p&gt;这是一篇探讨AI如何影响管理咨询行业的深度评论，挑战了“知识工作仅仅是信息处理”这一流行看法。作者提出，管理咨询的核心价值不仅在于分析，更在于提供判断（Judgment）、协调（Coordination）、可信度（Credibility）和问责（Accountability），而这些很难完全由AI替代。文章认为，AI实际上创造了新的咨询需求，如企业AI战略转型，咨询公司应当通过深耕行业经验和保持跨模型中立来适应这一变革。&lt;/p&gt;&lt;p&gt;★★★★ · AI as Normal Technology · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-23.html"&gt;2026-11-23 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>DeepMind 利用 AI 智能体与形式验证加速量子算法开发</title>
@@ -32,14 +53,14 @@
 <link>https://jack-clark.net/2026/11/23/import-ai-482-huawei-kernel-benchmarks-airborne-drone-detection-and-a-national-labs-ai-science-benchmark/</link>
 <guid isPermaLink="false">d8dc47c5b8f3</guid>
 <pubDate>Mon, 23 Nov 2026 09:11:00 -0500</pubDate>
-<description>&lt;p&gt;中国研究人员推出了用于优化华为昇腾（Ascend）芯片性能的基准测试 AscendGYM，旨在帮助硬件开发团队更好地提升算子（底层计算单元）效率与自我迭代能力。&lt;/p&gt;&lt;p&gt;★★★★ · Import AI · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-23.html"&gt;2026-11-23 精选&lt;/a&gt;&lt;/p&gt;</description>
+<description>&lt;p&gt;本文介绍了三项AI研究进展，包括中国研究机构开发的用于优化华为芯片性能的AscendGYM基准测试、劳伦斯利弗莫尔国家实验室测试AI科学模型处理不确定性的能力（SciResearch-Eval），以及由斯坦福教授发起的旨在推广分布式智能的新型实验室Noeri。这些成果显示了AI正在从通用能力向芯片底层硬件优化和科学研究等专业领域渗透。尽管最前沿的模型展现了处理复杂科学问题的潜力，但也暴露出AI在面对突发异常时仍需具备更强的鲁棒性。&lt;/p&gt;&lt;p&gt;★★★★ · Import AI · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-23.html"&gt;2026-11-23 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>1450 亿参数大模型实现笔记本电脑端侧流畅运行</title>
 <link>https://www.qbitai.com/2026/11/512195.html</link>
 <guid isPermaLink="false">213cd23b5b4e</guid>
 <pubDate>Mon, 23 Nov 2026 06:01:00 -0500</pubDate>
-<description>&lt;p&gt;展示了将千亿级参数（145B）的端侧大模型部署在个人电脑上的工程落地成果，推理速度可达 80+ Token/秒，支持离线环境下的编程辅助。&lt;/p&gt;&lt;p&gt;★★★★ · 量子位 · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-23.html"&gt;2026-11-23 精选&lt;/a&gt;&lt;/p&gt;</description>
+<description>&lt;p&gt;无界方舟（AutoArk）发布了Edge0-145B，这是全球首个在消费级笔记本电脑上本地流畅运行的1450亿参数端侧大模型。它通过采用“潜空间稀疏MoE架构”（Latent MoE）和深度定制的推理引擎，实现了在不依赖云端的情况下处理复杂的三维建模与代码生成任务。该进展为追求数据安全、降低昂贵Token计算成本以及在断网环境下进行高质量AI创作提供了一个可行的技术路径。&lt;/p&gt;&lt;p&gt;★★★★ · 量子位 · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-23.html"&gt;2026-11-23 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>智谱发布 GLM-5.4：基于 Loop Transformer 强化通用代码生成</title>
@@ -49,32 +70,11 @@
 <description>&lt;p&gt;智谱推出了 GLM-5.4 模型，通过采用 Loop Transformer（循环架构 Transformer）显著提升大模型在复杂代码编程与逻辑推理上的通用性能。&lt;/p&gt;&lt;p&gt;★★★★ · Hacker News · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-23.html"&gt;2026-11-23 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
-<title>AI 科学家社区试验：936 个智能体自主完成论文撰写与评议</title>
-<link>https://www.qbitai.com/2026/11/512004.html</link>
-<guid isPermaLink="false">ab2f6e9843a1</guid>
-<pubDate>Mon, 23 Nov 2026 01:59:00 -0500</pubDate>
-<description>&lt;p&gt;介绍了一项由 AI 智能体（Agent）构成的科学家社区实验，936 个智能体在 12 周内完成了近千篇论文的撰写以及同行评议（Peer review）流程。&lt;/p&gt;&lt;p&gt;★★★★ · 量子位 · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-23.html"&gt;2026-11-23 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>Google Research 推出强化 Transformer 残差连接的理论算法</title>
-<link>https://research.google/blog/supercharging-transformer-residual-connections/</link>
-<guid isPermaLink="false">77ab3d65a278</guid>
-<pubDate>Mon, 23 Nov 2026 12:21:00 -0500</pubDate>
-<description>&lt;p&gt;Google 提出了优化 Transformer 模型残差连接（Residual connections）的算法理论，有助于提高深层神经网络在训练过程中的稳定性与收敛速度。&lt;/p&gt;&lt;p&gt;★★★ · Google Research · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-23.html"&gt;2026-11-23 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>RoboTrack：面向真实机器人操作的视觉点追踪技术</title>
-<link>https://huggingface.co/blog/allenai/robotrack</link>
-<guid isPermaLink="false">ca38829e7312</guid>
-<pubDate>Mon, 23 Nov 2026 12:20:00 -0500</pubDate>
-<description>&lt;p&gt;Hugging Face 推出的 RoboTrack 聚焦于真实世界机器人控制中的视觉点追踪能力，助力机器人实现更精准的物理交互与操作。&lt;/p&gt;&lt;p&gt;★★★ · Hugging Face · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-23.html"&gt;2026-11-23 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>如何构建与维护 AI 智能体（Agent）评测体系</title>
-<link>https://huggingface.co/blog/agentic-evals</link>
-<guid isPermaLink="false">6fd4c32fe34a</guid>
+<title>Anthropic 调查：AI 如何改变职场结构</title>
+<link>https://www.anthropic.com/research/working-with-ai</link>
+<guid isPermaLink="false">07b4e95a0768</guid>
 <pubDate>Sun, 22 Nov 2026 19:00:00 -0500</pubDate>
-<description>&lt;p&gt;Hugging Face 提供了有关搭建与长期迭代 Agent 评测框架（Agentic Evaluation）的方法指南，帮助开发者准确评估复合智能体的表现。&lt;/p&gt;&lt;p&gt;★★★ · Hugging Face · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-23.html"&gt;2026-11-23 精选&lt;/a&gt;&lt;/p&gt;</description>
+<description>&lt;p&gt;对 58 家企业的深度调研显示，AI 虽未导致大规模裁员，但促使企业通过重组岗位与职能来优化效率。&lt;/p&gt;&lt;p&gt;★★★★ · Anthropic · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-23.html"&gt;2026-11-23 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>Anthropic数据中心能源结构引发争议</title>
