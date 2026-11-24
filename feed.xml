@@ -5,13 +5,62 @@
 <link>https://jiande.is-a.si/ai-frontier-digest/</link>
 <description>每天精选 10 条以内最值得一读的 AI 前沿进展，附中文科普解释。</description>
 <language>zh-CN</language>
-<lastBuildDate>Mon, 23 Nov 2026 23:57:00 -0500</lastBuildDate>
+<lastBuildDate>Tue, 24 Nov 2026 14:41:00 -0500</lastBuildDate>
+<item>
+<title>“端侧超节点”技术：无需换芯让端侧 AI 效率提升 270%</title>
+<link>https://www.qbitai.com/2026/11/512362.html</link>
+<guid isPermaLink="false">b02e5d7aa184</guid>
+<pubDate>Tue, 24 Nov 2026 01:35:00 -0500</pubDate>
+<description>&lt;p&gt;该技术通过让多台终端设备协同计算，突破了单机算力瓶颈，为物理世界的 AI 规模化部署提供了新思路。&lt;/p&gt;&lt;p&gt;★★★★ · 量子位 · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-24.html"&gt;2026-11-24 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>Motion Mamba 2.0：人形机器人长程运动生成架构</title>
+<link>https://huggingface.co/papers/2611.29897</link>
+<guid isPermaLink="false">a90a868b5e0f</guid>
+<pubDate>Mon, 23 Nov 2026 19:00:00 -0500</pubDate>
+<description>&lt;p&gt;提出一种基于 Mamba 架构的扩散模型，优化了人形机器人在面对复杂动态目标时的实时运动控制能力。&lt;/p&gt;&lt;p&gt;★★★★ · HF Daily Papers · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-24.html"&gt;2026-11-24 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>Microduck 机器人避障仿真工作流</title>
+<link>https://huggingface.co/blog/nvidia/microduck-obstacle-avoidance</link>
+<guid isPermaLink="false">16565a3f5dc0</guid>
+<pubDate>Tue, 24 Nov 2026 11:34:00 -0500</pubDate>
+<description>&lt;p&gt;结合 Isaac Lab 物理仿真环境与 Newton 算法，展示了机器人从虚拟仿真（Sim）到现实世界（Real）部署的避障流程。&lt;/p&gt;&lt;p&gt;★★★ · Hugging Face · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-24.html"&gt;2026-11-24 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>探讨 LLM 智能代理的商业利益归属问题</title>
+<link>https://michaelharley.net/posts/2026/11/01/llm-agents-work-for-their-parent-companies-not-for-you/</link>
+<guid isPermaLink="false">ef8096d74f5d</guid>
+<pubDate>Tue, 24 Nov 2026 07:40:00 -0500</pubDate>
+<description>&lt;p&gt;引发社区热议的话题，指出当前大模型智能代理在设计上可能更多服务于母公司商业利益，而非用户个人利益。&lt;/p&gt;&lt;p&gt;★★★ · Hacker News · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-24.html"&gt;2026-11-24 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>利用 Astra 和 Codex 辅助寻找系外行星</title>
+<link>https://openai.com/index/searching-for-distant-planets-with-astra</link>
+<guid isPermaLink="false">f3aa9260f109</guid>
+<pubDate>Tue, 24 Nov 2026 06:00:00 -0500</pubDate>
+<description>&lt;p&gt;天文爱好者通过 OpenAI 的辅助工具分析 NASA 公开的天文观测数据，成功提升了发现系外行星的效率。&lt;/p&gt;&lt;p&gt;★★★ · OpenAI · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-24.html"&gt;2026-11-24 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>文心 5.5 Flash Preview 版本正式开源</title>
+<link>https://www.qbitai.com/2026/11/512354.html</link>
+<guid isPermaLink="false">e5443a251948</guid>
+<pubDate>Tue, 24 Nov 2026 01:22:00 -0500</pubDate>
+<description>&lt;p&gt;百度文心系列模型发布轻量级版本 Flash Preview，并采用宽松的 Apache 2.0 开源协议，方便开发者自由使用与修改。&lt;/p&gt;&lt;p&gt;★★★ · 量子位 · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-24.html"&gt;2026-11-24 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>利用 AI Agent 实现办公自动化增长</title>
+<link>https://openai.com/business/customer-stories/intentful-dots</link>
+<guid isPermaLink="false">ec442b764e04</guid>
+<pubDate>Mon, 23 Nov 2026 19:00:00 -0500</pubDate>
+<description>&lt;p&gt;企业通过应用 AI 智能代理辅助研究网站、起草提案并自动处理异常消息，有效释放了人力资源。&lt;/p&gt;&lt;p&gt;★★★ · OpenAI · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-24.html"&gt;2026-11-24 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
 <item>
 <title>Nvidia 创始人重掌大权，OpenAI 公开模型预训练曲线</title>
 <link>https://latent.space/p/ainews-jensen-is-back-and-openai-shows-its-pretraining-curve-joined-by-microsoft/</link>
 <guid isPermaLink="false">a43a2373bab7</guid>
 <pubDate>Mon, 23 Nov 2026 23:14:00 -0500</pubDate>
-<description>&lt;p&gt;Nvidia 创始人回归引领战略变动，同时 OpenAI 首次公布内部模型训练损失（Loss）曲线并提出行业共享的训练限制标准，对AI行业发展具有重要参考意义。&lt;/p&gt;&lt;p&gt;★★★★★ · Latent Space · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-23.html"&gt;2026-11-23 精选&lt;/a&gt;&lt;/p&gt;</description>
+<description>&lt;p&gt;这是一份关于人工智能行业前沿动态的综述，重点介绍了 OpenAI 公布的预训练模型困惑度（Perplexity）曲线及其倡导的开发限额标准。通过跟踪模型在特定数据集上对下一个标记（token）的预测能力，这些指标被用于量化AI的智能水平与能力跃迁。该研究旨在推动行业建立自我监管的边界，以应对模型能力激增带来的潜在风险与安全挑战。&lt;/p&gt;&lt;p&gt;★★★★★ · Latent Space · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-23.html"&gt;2026-11-23 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>当前 AI 领域最重要的五大核心争论</title>
@@ -25,14 +74,14 @@
 <link>https://www.qbitai.com/2026/11/512264.html</link>
 <guid isPermaLink="false">bfcbbc5c4484</guid>
 <pubDate>Mon, 23 Nov 2026 20:51:00 -0500</pubDate>
-<description>&lt;p&gt;机器人领域终于迎来了类似于大语言模型的“预训练通用智能”，为实现通用机器人迈出了关键一步。&lt;/p&gt;&lt;p&gt;★★★★ · 量子位 · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-23.html"&gt;2026-11-23 精选&lt;/a&gt;&lt;/p&gt;</description>
+<description>&lt;p&gt;这是自变量机器人发布的新一代具身基础模型 WALL-OSS-1.0，标志着具身智能领域在预训练通用能力上的重要突破。它通过将视觉、语言和动作数据联合进行预训练，并结合大规模无本体（non-embodied）数据训练，实现了机器人无需任务微调即可在陌生环境中执行复杂任务。该技术的局限在于尽管展示了优异的泛化性能，但仍需在真实复杂场景中通过大量实践持续验证其可靠性。&lt;/p&gt;&lt;p&gt;★★★★ · 量子位 · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-23.html"&gt;2026-11-23 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>Ladybird 浏览器首个 Alpha 版本发布</title>
 <link>https://simonwillison.net/2026/Nov/23/ladybird/</link>
 <guid isPermaLink="false">b7fc35d5ccf0</guid>
 <pubDate>Mon, 23 Nov 2026 16:46:00 -0500</pubDate>
-<description>&lt;p&gt;这是一个从零构建的野心之作，Ladybird 实现了从 HTML 解析到 JavaScript 引擎等几乎所有核心组件，展示了开发全新浏览器引擎的可能性。&lt;/p&gt;&lt;p&gt;★★★★ · Simon Willison · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-23.html"&gt;2026-11-23 精选&lt;/a&gt;&lt;/p&gt;</description>
+<description>&lt;p&gt;Ladybird 是一款由 SerenityOS 项目演变而来的全新开源浏览器，近日发布了首个 Alpha 版本。该项目通过使用 AI 编码助手辅助代码迁移与功能补全，在短时间内实现了关键性能的显著提升，甚至在部分测试集表现上超越了 Safari。作为一个完全独立实现的浏览器引擎，其目标在于挑战当前浏览器市场的格局，但目前尚处于开发初期，在稳定性和安全性上仍面临巨大挑战。&lt;/p&gt;&lt;p&gt;★★★★ · Simon Willison · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-23.html"&gt;2026-11-23 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>管理咨询不仅仅是智能的“简易包装”</title>
@@ -74,7 +123,7 @@
 <link>https://www.anthropic.com/research/working-with-ai</link>
 <guid isPermaLink="false">07b4e95a0768</guid>
 <pubDate>Sun, 22 Nov 2026 19:00:00 -0500</pubDate>
-<description>&lt;p&gt;对 58 家企业的深度调研显示，AI 虽未导致大规模裁员，但促使企业通过重组岗位与职能来优化效率。&lt;/p&gt;&lt;p&gt;★★★★ · Anthropic · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-23.html"&gt;2026-11-23 精选&lt;/a&gt;&lt;/p&gt;</description>
+<description>&lt;p&gt;这份研究报告基于对 58 家 Anthropic 企业客户的深入采访，探讨了 AI 在知识型工作中的实际应用现状与组织变革挑战。调查发现，企业多通过引入 AI 编码助手来提升员工产出，而非单纯依赖裁员节流，且成功的企业倾向于通过工作流重组将员工重新部署至 AI 难以胜任的高价值岗位。该研究强调了单纯的自上而下或自下而上的部署方式皆存在局限，深度整合需要以人为中心的组织适配。&lt;/p&gt;&lt;p&gt;★★★★ · Anthropic · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-23.html"&gt;2026-11-23 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>Anthropic数据中心能源结构引发争议</title>
@@ -754,76 +803,6 @@
 <guid isPermaLink="false">d46e4b8dae91</guid>
 <pubDate>Tue, 10 Nov 2026 23:49:00 -0500</pubDate>
 <description>&lt;p&gt;Codex 是 OpenAI 提供的云端软件工程代理，旨在协助开发者实现代码编写及任务管理。该系统近期更新了云环境架构，支持在隔离实例中并行运行多任务，并通过语音指令作为控制接口，让开发者能更灵活地跨设备协同工作。尽管目前云端切换流程仍存在上手门槛，但其正在整合的个人代理功能为自动化编程提供了新的工作模式。&lt;/p&gt;&lt;p&gt;★★★ · Latent Space · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-11.html"&gt;2026-11-11 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>Anthropic发布Claude Fable 5.2，重夺大模型榜首</title>
-<link>https://latent.space/p/ainews-fable-5-2-retakes-world-1-llm-spot-as-ant-ipo-roadshow-begins/</link>
-<guid isPermaLink="false">62d6b023e1f9</guid>
-<pubDate>Tue, 10 Nov 2026 01:34:00 -0500</pubDate>
-<description>&lt;p&gt;Claude Fable 5.2 是 Anthropic 最新发布的大型语言模型，它通过引入大量子智能体（subagents）协作进行独立验证来提升任务完成质量。虽然该模型在编程、逻辑推理和视觉任务上表现出顶尖水平，但由于其复杂的任务执行逻辑，其 API 调用成本较前代产品更高，且 Anthropic 对其订阅权限和数据保留策略进行了限制。&lt;/p&gt;&lt;p&gt;★★★★★ · Latent Space · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-10.html"&gt;2026-11-10 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>Anthropic 启动 IPO 路演</title>
-<link>https://www.anthropic.com/news/roadshow-launch</link>
-<guid isPermaLink="false">85a32fe1244f</guid>
-<pubDate>Mon, 09 Nov 2026 19:00:00 -0500</pubDate>
-<description>&lt;p&gt;Anthropic 正计划通过首次公开募股（IPO）将其 A 类普通股在纳斯达克上市，股票代码拟定为“ANT”。公司预计发行 8.25 亿股，价格区间在每股 70 至 78 美元之间。此次募资旨在推进其 AI 业务，但该注册声明目前尚未生效，处于合规审核阶段。&lt;/p&gt;&lt;p&gt;★★★★★ · Anthropic · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-10.html"&gt;2026-11-10 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>STABL 实验室成立：关注 AI 的社会转型与瓶颈</title>
-<link>https://www.normaltech.ai/p/the-missing-quadrant-in-responses</link>
-<guid isPermaLink="false">72a4eecaea05</guid>
-<pubDate>Tue, 10 Nov 2026 13:37:00 -0500</pubDate>
-<description>&lt;p&gt;STABL 是一个新成立的非营利研究机构，旨在通过填补 AI 前沿能力与社会落地实践之间的空白，研究 AI 技术如何实现社会变革。他们认为，社会转型不仅取决于 AI 本身，还严重受限于既有组织架构和制度的阻碍，即所谓的“瓶颈”（Bottlenecks）。通过对递归自我改进（RSI）等课题进行实证研究，他们希望能引导社会在利用 AI 潜力与应对制度性挑战之间取得平衡。&lt;/p&gt;&lt;p&gt;★★★★ · AI as Normal Technology · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-10.html"&gt;2026-11-10 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>Gemini 4 Carbon 版本发布</title>
-<link>https://deepmind.google/blog/gemini-4-carbon-is-now-available/</link>
-<guid isPermaLink="false">fc6b6a56df7b</guid>
-<pubDate>Tue, 10 Nov 2026 11:03:00 -0500</pubDate>
-<description>&lt;p&gt;Google DeepMind 推出了最新前沿模型 Gemini 4 Carbon，专为处理复杂的代码调试、多步智能体工作流及科学探索而设计。该模型通过更深层次的推理与更长的验证循环，在保持成本效率的同时，实现了更强的多模态处理能力。用户现可通过 Google AI Studio 或相关企业平台访问，并配合新增的 /swarm 功能实现多智能体协作。&lt;/p&gt;&lt;p&gt;★★★★ · Google DeepMind · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-10.html"&gt;2026-11-10 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>Google DeepMind发布AlphaProof Code，助力软件形式化验证</title>
-<link>https://deepmind.google/blog/introducing-alphaproof-code/</link>
-<guid isPermaLink="false">f8c1a7370c13</guid>
-<pubDate>Tue, 10 Nov 2026 07:02:00 -0500</pubDate>
-<description>&lt;p&gt;AlphaProof Code利用AI智能体成功自动验证了Signal加密协议，展示了AI在复杂代码安全验证领域的巨大潜力。&lt;/p&gt;&lt;p&gt;★★★★ · Google DeepMind · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-10.html"&gt;2026-11-10 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>蚂蚁灵波开源LingBot-Touch：触觉基础模型推动机器人交互</title>
-<link>https://www.qbitai.com/2026/11/508996.html</link>
-<guid isPermaLink="false">3872694bbd4e</guid>
-<pubDate>Tue, 10 Nov 2026 02:57:00 -0500</pubDate>
-<description>&lt;p&gt;LingBot-Touch 是蚂蚁灵波开源的触觉基础模型，旨在为机器人提供统一的触觉感知能力，从而补齐机器人在精细物理操作中视觉感知的不足。它通过将磁触觉、视触觉等不同传感器信号转化为统一的“触觉 Token”，实现了触觉经验跨硬件、跨任务的复用。该模型在多种灵巧手测试中显著提高了任务成功率，且模型参数量轻量，便于集成到各类机器人控制系统中。&lt;/p&gt;&lt;p&gt;★★★★ · 量子位 · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-10.html"&gt;2026-11-10 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>防范AI被“投毒”，大学生项目展示反向攻击技术</title>
-<link>https://www.qbitai.com/2026/11/508787.html</link>
-<guid isPermaLink="false">518485f63290</guid>
-<pubDate>Mon, 09 Nov 2026 17:11:00 -0500</pubDate>
-<description>&lt;p&gt;BLA 是一个旨在对抗 AI 逆向工程（REA）的开源项目，它通过向目标文件注入“毒饵”数据和消耗分析器资源，使自动化分析工具产生大量无效 Token 消耗甚至报错。该工具通过伪造虚假调用链路和增加分析负担，能使攻击者的 Token 账单成本大幅上涨，以此增加逆向工程的难度与经济成本。该项目目前已在 GitHub 上获得广泛关注，为软件加固提供了一种对抗大模型分析的新思路。&lt;/p&gt;&lt;p&gt;★★★★ · 量子位 · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-10.html"&gt;2026-11-10 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>Agent 时代的交互设计：从 AEO 到智能体体验</title>
-<link>https://latent.space/p/resend/</link>
-<guid isPermaLink="false">2ec4f6ad3a8d</guid>
-<pubDate>Tue, 10 Nov 2026 15:05:00 -0500</pubDate>
-<description>&lt;p&gt;本期节目探讨了“AI 体验优化”（AEO）的概念，即如何让 AI 智能体在开发辅助过程中更倾向于选择特定的工具或服务。Resend 首席执行官 Zeno Rocha 分享了他们如何通过构建便于智能体读取的文档、工具及模型上下文接口（MCP），使 AI 在代码实现时更容易推荐其平台。这反映了在 AI 驱动开发的时代，开发者工具的设计逻辑正从“面向人类”转向“同时面向机器”。&lt;/p&gt;&lt;p&gt;★★★ · Latent Space · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-10.html"&gt;2026-11-10 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>警惕 AI 生成代码带来的脆弱性</title>
-<link>https://evanxmerz.com/post/ai-usage-generates-a-fragile-codebase/</link>
-<guid isPermaLink="false">534e23320d33</guid>
-<pubDate>Tue, 10 Nov 2026 05:25:00 -0500</pubDate>
-<description>&lt;p&gt;作者指出，过度依赖 AI 生成代码会导致软件项目出现技术债堆积、测试覆盖不足及逻辑复杂化等“代码库脆弱”问题。由于 AI 难以理解长期的维护需求和复杂的系统架构，且人类开发者逐渐丧失对代码库的深入掌控，这往往导致线上故障频发且修复难度增加。文章强调，高质量的 SaaS 产品仍需保持“人机协作”的比例，以确保代码的可维护性与用户体验。&lt;/p&gt;&lt;p&gt;★★★ · Hacker News · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-10.html"&gt;2026-11-10 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>ChatGPT 推出企业管理功能</title>
-<link>https://openai.com/index/introducing-businesses-chatgpt</link>
-<guid isPermaLink="false">5ca4dc7b6d88</guid>
-<pubDate>Tue, 10 Nov 2026 05:00:00 -0500</pubDate>
-<description>&lt;p&gt;企业现在可以直接在 ChatGPT 中管理业务信息、获取流量洞察，并将用户关注转化为实际业务行动。&lt;/p&gt;&lt;p&gt;★★★ · OpenAI · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-10.html"&gt;2026-11-10 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>
