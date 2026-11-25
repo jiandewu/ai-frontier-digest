@@ -17,9 +17,9 @@
    "unit": "",
    "decimals": 0,
    "change": "pct",
-   "date": "2026-11-19",
-   "value": 23879.2,
-   "previous": 24429.88,
+   "date": "2026-11-24",
+   "value": 23733.54,
+   "previous": 24089.56,
    "source": "https://fred.stlouisfed.org/series/NASDAQCOM"
   },
   {
@@ -28,9 +28,9 @@
    "unit": "$",
    "decimals": 0,
    "change": "pct",
-   "date": "2026-11-23",
-   "value": 61299.74,
-   "previous": 60991.86,
+   "date": "2026-11-24",
+   "value": 59515.19,
+   "previous": 61299.74,
    "source": "https://fred.stlouisfed.org/series/CBBTCUSD"
   },
   {
@@ -61,9 +61,9 @@
    "unit": "$",
    "decimals": 0,
    "change": "pct",
-   "date": "2026-11-24",
-   "value": 3557.3,
-   "previous": 3651.4,
+   "date": "2026-11-25",
+   "value": 3552.5,
+   "previous": 3561.9,
    "detail": "COMEX 黄金期货（GC=F），美元/盎司",
    "source": "https://finance.yahoo.com/quote/GC=F/"
   },
@@ -73,9 +73,9 @@
    "unit": "",
    "decimals": 0,
    "change": "pct",
-   "date": "2026-11-23",
-   "value": 3538.95,
-   "previous": 3533.79,
+   "date": "2026-11-25",
+   "value": 3476.47,
+   "previous": 3548.37,
    "detail": "上证综合指数（000001.SS）",
    "source": "https://finance.yahoo.com/quote/000001.SS/"
   },
@@ -85,10 +85,10 @@
    "unit": "",
    "decimals": 0,
    "change": "abs",
-   "date": "2026-11-24",
-   "value": 930,
-   "previous": 373,
-   "detail": "cs.AI 172 · cs.CL 131 · cs.CV 407 · cs.LG 220",
+   "date": "2026-11-25",
+   "value": 584,
+   "previous": 930,
+   "detail": "cs.AI 102 · cs.CL 74 · cs.CV 264 · cs.LG 144",
    "source": "https://arxiv.org/list/cs.AI/new"
   }
  ],
@@ -96,18 +96,18 @@
   {
    "section": "AI",
    "number": "270%",
-   "label": "端侧AI的效率提升幅度",
+   "label": "端侧AI效率提升幅度",
    "title": "“端侧超节点”技术：无需换芯让端侧 AI 效率提升 270%",
    "link": "https://www.qbitai.com/2026/11/512362.html"
   },
   {
    "section": "美股",
-   "number": "31%",
-   "label": "黄仁勋回归后英伟达股价涨幅",
-   "title": "黄仁勋重返英伟达CEO岗位 股价开创性暴涨31%",
-   "link": "https://jiande.is-a.si/us-market/news/2026/2026-11-23.html#news-2"
+   "number": "2400亿美元",
+   "label": "英伟达一日回吐的市值规模",
+   "title": "英伟达尽显剧烈波动，回吐2400亿美元市值",
+   "link": "https://jiande.is-a.si/us-market/news/2026/2026-11-24.html#news-4"
   }
  ],
- "newsKey": "ai-16565a3f5dc0,ai-a90a868b5e0f,ai-b02e5d7aa184,ai-e5443a251948,ai-ec442b764e04,ai-ef8096d74f5d,ai-f3aa9260f109,market-2026-11-23-1,market-2026-11-23-2,market-2026-11-23-3,market-2026-11-23-4,market-2026-11-23-5,science-36deffe348af,science-4b28e346ca15,science-5a93512c176d,science-9add114a88a6,science-c871e71d7349,science-d874d9de2606,science-d9e86a5d1c27,science-f10fb9241afd",
- "updated": "2026-11-24T23:10:19+00:00"
+ "newsKey": "ai-16565a3f5dc0,ai-1d571cac2e57,ai-3c6728c1bfd1,ai-6ff348e652c9,ai-943d9ed1df75,ai-a90a868b5e0f,ai-b02e5d7aa184,ai-e5443a251948,ai-ef8096d74f5d,ai-f3aa9260f109,market-2026-11-24-1,market-2026-11-24-2,market-2026-11-24-3,market-2026-11-24-4,market-2026-11-24-5,science-36deffe348af,science-4b28e346ca15,science-5a93512c176d,science-9add114a88a6,science-c871e71d7349,science-d874d9de2606,science-d9e86a5d1c27,science-f10fb9241afd",
+ "updated": "2026-11-25T10:03:46+00:00"
 }
