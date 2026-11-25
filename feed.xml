@@ -5,55 +5,76 @@
 <link>https://jiande.is-a.si/ai-frontier-digest/</link>
 <description>每天精选 10 条以内最值得一读的 AI 前沿进展，附中文科普解释。</description>
 <language>zh-CN</language>
-<lastBuildDate>Tue, 24 Nov 2026 14:41:00 -0500</lastBuildDate>
+<lastBuildDate>Tue, 24 Nov 2026 22:43:00 -0500</lastBuildDate>
+<item>
+<title>Anthropic 的数学家解决了著名的数学难题</title>
+<link>https://www.understandingai.org/p/an-anthropic-mathematician-just-solved</link>
+<guid isPermaLink="false">1d571cac2e57</guid>
+<pubDate>Tue, 24 Nov 2026 16:43:00 -0500</pubDate>
+<description>&lt;p&gt;讨论了 AI 解决黎曼猜想等数学难题的可能性，并反思这类进展是否暗示 AI 已达到危险的高级智能水平。&lt;/p&gt;&lt;p&gt;★★★★★ · Understanding AI · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-24.html"&gt;2026-11-24 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>GPT-6 模型展现出内在的蛋白质设计能力</title>
+<link>https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities</link>
+<guid isPermaLink="false">3c6728c1bfd1</guid>
+<pubDate>Tue, 24 Nov 2026 08:00:00 -0500</pubDate>
+<description>&lt;p&gt;OpenAI 的 GPT-6 模型展示了通过逻辑推理和代码编写进行蛋白质结构和序列设计的能力，且已在实验室测试中验证了其结合性能。&lt;/p&gt;&lt;p&gt;★★★★★ · OpenAI · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-24.html"&gt;2026-11-24 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>过去一年大语言模型能力的三个转折点</title>
+<link>https://simonwillison.net/2026/Nov/24/llm-inflection-points/</link>
+<guid isPermaLink="false">6ff348e652c9</guid>
+<pubDate>Tue, 24 Nov 2026 18:02:00 -0500</pubDate>
+<description>&lt;p&gt;回顾并分析了过去十二个月中大语言模型（LLM）与代码智能体（Coding Agents）能力演进中的三个关键转折点，探讨技术发展的阶段性规律。&lt;/p&gt;&lt;p&gt;★★★★ · Simon Willison · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-24.html"&gt;2026-11-24 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>回应关于递归自我改进的质疑</title>
+<link>https://www.dwarkesh.com/p/rsiobjections</link>
+<guid isPermaLink="false">943d9ed1df75</guid>
+<pubDate>Tue, 24 Nov 2026 16:45:00 -0500</pubDate>
+<description>&lt;p&gt;探讨了关于递归自我改进（AI自我迭代升级）的争议，分析了怀疑论者在看待超级智能时哪些观点是合理的。&lt;/p&gt;&lt;p&gt;★★★★ · Dwarkesh Podcast · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-24.html"&gt;2026-11-24 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
 <item>
 <title>“端侧超节点”技术：无需换芯让端侧 AI 效率提升 270%</title>
 <link>https://www.qbitai.com/2026/11/512362.html</link>
 <guid isPermaLink="false">b02e5d7aa184</guid>
 <pubDate>Tue, 24 Nov 2026 01:35:00 -0500</pubDate>
-<description>&lt;p&gt;该技术通过让多台终端设备协同计算，突破了单机算力瓶颈，为物理世界的 AI 规模化部署提供了新思路。&lt;/p&gt;&lt;p&gt;★★★★ · 量子位 · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-24.html"&gt;2026-11-24 精选&lt;/a&gt;&lt;/p&gt;</description>
+<description>&lt;p&gt;“端侧超节点”是一种将物理场景中分散的智能设备（如摄像头、机器人）组织成协同计算整体的系统方案。通过跨设备感知融合、任务弹性调度及异构通信机制，让不同架构的芯片和模型能分工协作，而无需更换硬件。这种方法通过优化计算任务组织方式，提升了端侧AI的有效吞吐量，有助于解决设备孤岛化带来的算力利用不足问题。&lt;/p&gt;&lt;p&gt;★★★★ · 量子位 · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-24.html"&gt;2026-11-24 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>Motion Mamba 2.0：人形机器人长程运动生成架构</title>
 <link>https://huggingface.co/papers/2611.29897</link>
 <guid isPermaLink="false">a90a868b5e0f</guid>
 <pubDate>Mon, 23 Nov 2026 19:00:00 -0500</pubDate>
-<description>&lt;p&gt;提出一种基于 Mamba 架构的扩散模型，优化了人形机器人在面对复杂动态目标时的实时运动控制能力。&lt;/p&gt;&lt;p&gt;★★★★ · HF Daily Papers · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-24.html"&gt;2026-11-24 精选&lt;/a&gt;&lt;/p&gt;</description>
+<description>&lt;p&gt;Motion Mamba 2.0 是一种基于 Mamba 架构的生成式模型，专为长序列人形机器人运动控制设计。它结合了局部注意力机制、可恢复递归状态及持续内容记忆，能高效处理复杂的长时序动作生成任务，并显著降低了推理延迟。该方案在满足复杂空间与交互控制需求的同时，极大地提升了人形机器人实时响应的计算效率。&lt;/p&gt;&lt;p&gt;★★★★ · HF Daily Papers · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-24.html"&gt;2026-11-24 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>Microduck 机器人避障仿真工作流</title>
 <link>https://huggingface.co/blog/nvidia/microduck-obstacle-avoidance</link>
 <guid isPermaLink="false">16565a3f5dc0</guid>
 <pubDate>Tue, 24 Nov 2026 11:34:00 -0500</pubDate>
-<description>&lt;p&gt;结合 Isaac Lab 物理仿真环境与 Newton 算法，展示了机器人从虚拟仿真（Sim）到现实世界（Real）部署的避障流程。&lt;/p&gt;&lt;p&gt;★★★ · Hugging Face · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-24.html"&gt;2026-11-24 精选&lt;/a&gt;&lt;/p&gt;</description>
+<description>&lt;p&gt;这是一套针对 Microduck 机器人的 Sim2Real（仿真到现实）避障训练工作流，利用 NVIDIA Isaac Lab 和 Newton 物理引擎实现。它通过预训练避障控制器来调整已固化的步行策略，并结合模拟的 ToF 传感器数据进行大规模并行强化学习。该流程展示了如何利用仿真资产构建复杂环境，从而让机器人学会在固定行走逻辑外实现更安全的实时避障。&lt;/p&gt;&lt;p&gt;★★★ · Hugging Face · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-24.html"&gt;2026-11-24 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>探讨 LLM 智能代理的商业利益归属问题</title>
 <link>https://michaelharley.net/posts/2026/11/01/llm-agents-work-for-their-parent-companies-not-for-you/</link>
 <guid isPermaLink="false">ef8096d74f5d</guid>
 <pubDate>Tue, 24 Nov 2026 07:40:00 -0500</pubDate>
-<description>&lt;p&gt;引发社区热议的话题，指出当前大模型智能代理在设计上可能更多服务于母公司商业利益，而非用户个人利益。&lt;/p&gt;&lt;p&gt;★★★ · Hacker News · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-24.html"&gt;2026-11-24 精选&lt;/a&gt;&lt;/p&gt;</description>
+<description>&lt;p&gt;本文讨论了商业化 AI Agent 存在的局限性，即模型往往受到开发公司（如 Anthropic 或 OpenAI）预设的价值观和商业利益限制。作者指出，AI Agent 可能优先执行符合厂商利益的策略而非用户的需求，并以此引发对 AI 工具中立性及隐私控制的担忧。作者主张探索开源或本地运行的模型，以确保 AI 工具真正服务于使用者个人的意图。&lt;/p&gt;&lt;p&gt;★★★ · Hacker News · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-24.html"&gt;2026-11-24 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>利用 Astra 和 Codex 辅助寻找系外行星</title>
 <link>https://openai.com/index/searching-for-distant-planets-with-astra</link>
 <guid isPermaLink="false">f3aa9260f109</guid>
 <pubDate>Tue, 24 Nov 2026 06:00:00 -0500</pubDate>
-<description>&lt;p&gt;天文爱好者通过 OpenAI 的辅助工具分析 NASA 公开的天文观测数据，成功提升了发现系外行星的效率。&lt;/p&gt;&lt;p&gt;★★★ · OpenAI · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-24.html"&gt;2026-11-24 精选&lt;/a&gt;&lt;/p&gt;</description>
+<description>&lt;p&gt;这是关于天文爱好者利用 AI 模型（如 Codex 和 Astra）分析公共望远镜数据以寻找系外行星的科普报道。通过 AI 模型自动扫描恒星亮度随时间变化的“光变曲线”，用户可以识别出疑似行星过境产生的周期性亮度下降信号。该方法有效降低了分析海量天文数据的门槛，让公众能参与到专业的科学发现中。&lt;/p&gt;&lt;p&gt;★★★ · OpenAI · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-24.html"&gt;2026-11-24 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>文心 5.5 Flash Preview 版本正式开源</title>
 <link>https://www.qbitai.com/2026/11/512354.html</link>
 <guid isPermaLink="false">e5443a251948</guid>
 <pubDate>Tue, 24 Nov 2026 01:22:00 -0500</pubDate>
-<description>&lt;p&gt;百度文心系列模型发布轻量级版本 Flash Preview，并采用宽松的 Apache 2.0 开源协议，方便开发者自由使用与修改。&lt;/p&gt;&lt;p&gt;★★★ · 量子位 · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-24.html"&gt;2026-11-24 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>利用 AI Agent 实现办公自动化增长</title>
-<link>https://openai.com/business/customer-stories/intentful-dots</link>
-<guid isPermaLink="false">ec442b764e04</guid>
-<pubDate>Mon, 23 Nov 2026 19:00:00 -0500</pubDate>
-<description>&lt;p&gt;企业通过应用 AI 智能代理辅助研究网站、起草提案并自动处理异常消息，有效释放了人力资源。&lt;/p&gt;&lt;p&gt;★★★ · OpenAI · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-24.html"&gt;2026-11-24 精选&lt;/a&gt;&lt;/p&gt;</description>
+<description>&lt;p&gt;百度正式开源了参数量达 2800 亿的文心 5.5 Flash Preview 模型，并采用 Apache 2.0 许可协议。该模型支持 100 万 Token 上下文，在编程、逻辑及内容创作等领域表现出色，且适配主流 vLLM 等推理框架。此举降低了全球开发者本地部署和二次开发国产大模型的门槛，支持针对特定业务场景进行微调。&lt;/p&gt;&lt;p&gt;★★★ · 量子位 · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-24.html"&gt;2026-11-24 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>Nvidia 创始人重掌大权，OpenAI 公开模型预训练曲线</title>
