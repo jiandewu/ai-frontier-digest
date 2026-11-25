@@ -6,9 +6,9 @@
    "unit": "",
    "decimals": 0,
    "change": "pct",
-   "date": "2026-11-23",
-   "value": 7237.17,
-   "previous": 6910.39,
+   "date": "2026-11-24",
+   "value": 7201.09,
+   "previous": 7237.17,
    "source": "https://fred.stlouisfed.org/series/SP500"
   },
   {
@@ -62,7 +62,7 @@
    "decimals": 0,
    "change": "pct",
    "date": "2026-11-25",
-   "value": 3552.5,
+   "value": 3617.8,
    "previous": 3561.9,
    "detail": "COMEX 黄金期货（GC=F），美元/盎司",
    "source": "https://finance.yahoo.com/quote/GC=F/"
@@ -73,9 +73,9 @@
    "unit": "",
    "decimals": 0,
    "change": "pct",
-   "date": "2026-11-25",
-   "value": 3476.47,
-   "previous": 3548.37,
+   "date": "2026-11-24",
+   "value": 3548.37,
+   "previous": 3538.95,
    "detail": "上证综合指数（000001.SS）",
    "source": "https://finance.yahoo.com/quote/000001.SS/"
   },
@@ -94,20 +94,20 @@
  ],
  "news": [
   {
-   "section": "AI",
-   "number": "270%",
-   "label": "端侧AI效率提升幅度",
-   "title": "“端侧超节点”技术：无需换芯让端侧 AI 效率提升 270%",
-   "link": "https://www.qbitai.com/2026/11/512362.html"
+   "section": "科学",
+   "number": "9900万年",
+   "label": "科学家发现长腿蚱蜢的琥珀年代",
+   "title": "琥珀中的远古水上漫步者",
+   "link": "https://www.sciencenews.org/article/extinct-grasshoppers-walked-on-water"
   },
   {
    "section": "美股",
-   "number": "2400亿美元",
-   "label": "英伟达一日回吐的市值规模",
-   "title": "英伟达尽显剧烈波动，回吐2400亿美元市值",
-   "link": "https://jiande.is-a.si/us-market/news/2026/2026-11-24.html#news-4"
+   "number": "3.37亿股",
+   "label": "AMD面临的转售申请股份数",
+   "title": "AMD大跌9%：3.37亿股转售申请叠加AI板块卖压",
+   "link": "https://jiande.is-a.si/us-market/news/2026/2026-11-24.html#news-3"
   }
  ],
- "newsKey": "ai-16565a3f5dc0,ai-1d571cac2e57,ai-3c6728c1bfd1,ai-6ff348e652c9,ai-943d9ed1df75,ai-a90a868b5e0f,ai-b02e5d7aa184,ai-e5443a251948,ai-ef8096d74f5d,ai-f3aa9260f109,market-2026-11-24-1,market-2026-11-24-2,market-2026-11-24-3,market-2026-11-24-4,market-2026-11-24-5,science-36deffe348af,science-4b28e346ca15,science-5a93512c176d,science-9add114a88a6,science-c871e71d7349,science-d874d9de2606,science-d9e86a5d1c27,science-f10fb9241afd",
- "updated": "2026-11-25T10:03:46+00:00"
+ "newsKey": "market-2026-11-24-1,market-2026-11-24-2,market-2026-11-24-3,market-2026-11-24-4,market-2026-11-24-5,science-16dfb72df17e,science-3e5ec6b61d21,science-48e6eb0f71e2,science-5e41773f7c06,science-9e9c5df09ec2,science-b879995cf1e2,science-e26889b0ba74",
+ "updated": "2026-11-25T22:38:49+00:00"
 }
