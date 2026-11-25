@@ -5,34 +5,34 @@
 <link>https://jiande.is-a.si/ai-frontier-digest/</link>
 <description>每天精选 10 条以内最值得一读的 AI 前沿进展，附中文科普解释。</description>
 <language>zh-CN</language>
-<lastBuildDate>Tue, 24 Nov 2026 22:43:00 -0500</lastBuildDate>
+<lastBuildDate>Wed, 25 Nov 2026 09:54:00 -0500</lastBuildDate>
 <item>
 <title>Anthropic 的数学家解决了著名的数学难题</title>
 <link>https://www.understandingai.org/p/an-anthropic-mathematician-just-solved</link>
 <guid isPermaLink="false">1d571cac2e57</guid>
 <pubDate>Tue, 24 Nov 2026 16:43:00 -0500</pubDate>
-<description>&lt;p&gt;讨论了 AI 解决黎曼猜想等数学难题的可能性，并反思这类进展是否暗示 AI 已达到危险的高级智能水平。&lt;/p&gt;&lt;p&gt;★★★★★ · Understanding AI · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-24.html"&gt;2026-11-24 精选&lt;/a&gt;&lt;/p&gt;</description>
+<description>&lt;p&gt;Anthropic 的数学家 Levent Alpöge 与 Claude 合作，利用 Lean 编程语言写出了包含 1700 万行代码的 Riemann Hypothesis 证明，并经独立数学家验证。该证明展示了 AI 处理极高难度数学问题的潜力，但也引发了关于其通用性以及递归自我改进安全性的讨论。不过，由于其篇幅极长且处于初级状态，其深远影响尚待数学界全面评估。&lt;/p&gt;&lt;p&gt;★★★★★ · Understanding AI · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-24.html"&gt;2026-11-24 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>GPT-6 模型展现出内在的蛋白质设计能力</title>
 <link>https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities</link>
 <guid isPermaLink="false">3c6728c1bfd1</guid>
 <pubDate>Tue, 24 Nov 2026 08:00:00 -0500</pubDate>
-<description>&lt;p&gt;OpenAI 的 GPT-6 模型展示了通过逻辑推理和代码编写进行蛋白质结构和序列设计的能力，且已在实验室测试中验证了其结合性能。&lt;/p&gt;&lt;p&gt;★★★★★ · OpenAI · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-24.html"&gt;2026-11-24 精选&lt;/a&gt;&lt;/p&gt;</description>
+<description>&lt;p&gt;GPT-6 系列模型展现出无需依赖专门生物学模型、仅通过推理和通用代码就能设计全新蛋白质形状及氨基酸序列的内置能力。在与合作夥伴 Onava 的实验室测试中，由 GPT-6.2 设计的小型蛋白质在针对多个靶点的测试中表现出了结合活性。这表明通用大语言模型未来有望通过自然语言交互直接跨领域解决复杂的生物分子设计任务。&lt;/p&gt;&lt;p&gt;★★★★★ · OpenAI · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-24.html"&gt;2026-11-24 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>过去一年大语言模型能力的三个转折点</title>
 <link>https://simonwillison.net/2026/Nov/24/llm-inflection-points/</link>
 <guid isPermaLink="false">6ff348e652c9</guid>
 <pubDate>Tue, 24 Nov 2026 18:02:00 -0500</pubDate>
-<description>&lt;p&gt;回顾并分析了过去十二个月中大语言模型（LLM）与代码智能体（Coding Agents）能力演进中的三个关键转折点，探讨技术发展的阶段性规律。&lt;/p&gt;&lt;p&gt;★★★★ · Simon Willison · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-24.html"&gt;2026-11-24 精选&lt;/a&gt;&lt;/p&gt;</description>
+<description>&lt;p&gt;在过去十二年中，大语言模型和编码智能体经历了三次重大能力跃升节点，从处理歧义、主动性极强的 Fable 级别模型，演进到具备出色的 3D 建模和游戏逻辑平衡能力。这些进展彻底改变了软件开发和独立游戏制作的方式。作者指出，AI 展现出的空间感知和“趣味理解力”极大地加速了复杂项目的落地。&lt;/p&gt;&lt;p&gt;★★★★ · Simon Willison · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-24.html"&gt;2026-11-24 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>回应关于递归自我改进的质疑</title>
 <link>https://www.dwarkesh.com/p/rsiobjections</link>
 <guid isPermaLink="false">943d9ed1df75</guid>
 <pubDate>Tue, 24 Nov 2026 16:45:00 -0500</pubDate>
-<description>&lt;p&gt;探讨了关于递归自我改进（AI自我迭代升级）的争议，分析了怀疑论者在看待超级智能时哪些观点是合理的。&lt;/p&gt;&lt;p&gt;★★★★ · Dwarkesh Podcast · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-24.html"&gt;2026-11-24 精选&lt;/a&gt;&lt;/p&gt;</description>
+<description>&lt;p&gt;文章探讨了围绕递归自我改进与超级智能预测的种种异议，重点回应了 AI 研究是否具备可验证指标及数据生成瓶颈等问题。作者指出，数学和 AI 研究等领域存在可验证的代理指标（verifiable proxies），随着 AI 在这些狭窄但核心的领域取得突破，其通用能力也将加速压缩并实现整体跃升。同时，研究表明数据质量的提升很大程度上依赖于筛选和合成方法的改进。&lt;/p&gt;&lt;p&gt;★★★★ · Dwarkesh Podcast · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-24.html"&gt;2026-11-24 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>“端侧超节点”技术：无需换芯让端侧 AI 效率提升 270%</title>
@@ -754,76 +754,6 @@
 <guid isPermaLink="false">adb66fa1efb1</guid>
 <pubDate>Thu, 12 Nov 2026 00:08:00 -0500</pubDate>
 <description>&lt;p&gt;“System One”模型指的是速度快、成本低且能提供结构化分类或评分的非生成式 AI，旨在作为底层模块直接嵌入到软件代码中。这种设计不仅提升了程序的响应速度，还通过更确定的输出解决了大模型作为核心逻辑组件时的不可靠性。目前它正被工程师用于实现更智能的软件自动化，但其局限在于单点能力有限，需配合精巧的策略模式才能处理复杂任务。&lt;/p&gt;&lt;p&gt;★★★ · Latent Space · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-12.html"&gt;2026-11-12 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>AI 时代的职场逻辑转变：从能力本位到关系本位</title>
-<link>https://www.jasonwei.net/blog/the-fall-of-what-you-can-do-and-the-rise-of-who-you-know</link>
-<guid isPermaLink="false">8a21ccdab039</guid>
-<pubDate>Wed, 11 Nov 2026 16:35:00 -0500</pubDate>
-<description>&lt;p&gt;这是一篇关于AI行业成功要素转移的观察文章，指出技术能力的重要性正被社交资本（Who you know）超越。作者认为随着AI研究的规模化、算力门槛提升及模型闭源化，个人仅靠技术实力难以脱颖而出。该趋势虽带来了一定的社交红利，但也削弱了技术贡献的客观可验证性。&lt;/p&gt;&lt;p&gt;★★★★ · Jason Wei · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-11.html"&gt;2026-11-11 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>Google DeepMind发布AlphaGenome 2</title>
-<link>https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/</link>
-<guid isPermaLink="false">e879c6fc35d4</guid>
-<pubDate>Wed, 11 Nov 2026 10:00:00 -0500</pubDate>
-<description>&lt;p&gt;AlphaGenome 2 是一款用于预测 DNA 序列变异如何影响特定细胞类型功能的 AI 模型。它采用“条件模型”架构，能够根据不同细胞状态（如健康或患病）进行针对性预测，而无需重新训练。该工具能帮助科学家识别那些在以往宽泛组织模型中被忽略的致病基因变异。&lt;/p&gt;&lt;p&gt;★★★★ · Google DeepMind · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-11.html"&gt;2026-11-11 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>AI 代理助力考古：成功发现未记载的玛雅遗址</title>
-<link>https://pietromiotti.com/latest/maya-site</link>
-<guid isPermaLink="false">8d8bc38f54a7</guid>
-<pubDate>Wed, 11 Nov 2026 07:05:00 -0500</pubDate>
-<description>&lt;p&gt;这是一则利用 AI 代理分析 NASA 激光雷达（Lidar）数据并在墨西哥重新发现玛雅遗址的实验记录。作者通过让多个 AI Agent 在无人监管的情况下通过图像特征识别遗迹，展示了 AI 在加速科学探索中的潜力。虽然该遗址先前已被专业考古学家发现，但此过程证明了非专业人士借助 AI 工具也能进行高效的地表探索。&lt;/p&gt;&lt;p&gt;★★★★ · Hacker News · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-11.html"&gt;2026-11-11 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>苹果计划发布本地AI模型运行工具</title>
-<link>https://9to5mac.com/2026/11/10/apple-has-new-mac-app-coming-to-make-running-local-ai-models-easy/</link>
-<guid isPermaLink="false">77d255b4e9ac</guid>
-<pubDate>Tue, 10 Nov 2026 16:25:00 -0500</pubDate>
-<description>&lt;p&gt;Harbor 是苹果正在开发的 Mac 应用，旨在简化本地 AI 模型部署，将 Mac 转化为私有的 AI 推理服务器。该应用支持通过 Thunderbolt 5 接口将多台 Mac 的统一内存整合，从而实现单机无法承载的大型模型运行。其核心优势在于无需复杂的命令行操作即可实现高性能的本地 AI 处理，并确保数据隐私。&lt;/p&gt;&lt;p&gt;★★★★ · Hacker News · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-11.html"&gt;2026-11-11 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>利用可穿戴设备进行个性化心肾代谢风险评估</title>
-<link>https://research.google/blog/using-wearables-to-enable-cardiovascular-kidney-metabolic-ckm-risk-profiling-for-personalized-coaching/</link>
-<guid isPermaLink="false">40b346949510</guid>
-<pubDate>Wed, 11 Nov 2026 14:54:00 -0500</pubDate>
-<description>&lt;p&gt;Google 研究人员开发了一套结合可穿戴设备数据与机器学习模型的健康评估系统。通过“可教练健康年龄”（CHA）指标，系统能根据日常生理信号模拟用户未来 12 周的健康轨迹，并生成个性化生活干预建议。该框架旨在将被动的数据追踪转化为主动的慢病风险预防工具。&lt;/p&gt;&lt;p&gt;★★★ · Google Research · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-11.html"&gt;2026-11-11 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>Mercor完成7.5亿美元D轮融资，估值达200亿美元</title>
-<link>https://latent.space/p/ainews-mercor-750m-series-d-at-20b-valuation-3b-run-rate/</link>
-<guid isPermaLink="false">f18c0fa24109</guid>
-<pubDate>Wed, 11 Nov 2026 04:34:00 -0500</pubDate>
-<description>&lt;p&gt;这是一份包含 AI 行业前沿新闻的汇总，重点介绍了 Google 发布的多模态模型 Gemini 4 Carbon 以及 Anthropic 的 Fable 5.2 模型。内容涵盖了模型性能评测、AI 代理在研究与安全领域的应用，以及行业关于大模型安全治理的讨论。报告揭示了 AI 模型在长周期任务与专业领域研发中不断提升的能力及相关竞争态势。&lt;/p&gt;&lt;p&gt;★★★ · Latent Space · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-11.html"&gt;2026-11-11 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>行业探讨：AI商业模式从卖Token转向卖结果</title>
-<link>https://www.qbitai.com/2026/11/509088.html</link>
-<guid isPermaLink="false">3b853809595d</guid>
-<pubDate>Wed, 11 Nov 2026 01:27:00 -0500</pubDate>
-<description>&lt;p&gt;该沙龙讨论了在 AI 时代 Token 经济的演进逻辑，认为行业需从单纯的“卖 Token”转向以用户结果为导向的商业交付模式。专家们指出，随着算力成本下降，AI 的核心价值在于封装为智能体（Agent）解决复杂的实际业务问题，而非简单的用量消耗。当前的挑战在于明确 AI 产出的价值标准，并建立可量化的投资回报（ROI）体系。&lt;/p&gt;&lt;p&gt;★★★ · 量子位 · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-11.html"&gt;2026-11-11 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>多家主流大模型厂商开启双十一促销</title>
-<link>https://www.qbitai.com/2026/11/509085.html</link>
-<guid isPermaLink="false">bc334f28ad5c</guid>
-<pubDate>Wed, 11 Nov 2026 01:18:00 -0500</pubDate>
-<description>&lt;p&gt;今年双 11 期间，天猫首次将大模型服务（Token 充值）作为独立品类上架并进行大幅折扣促销。这一现象标志着大模型商业化正从 API 开发者市场向大众消费端普及。通过降低获取门槛，用户能更低成本地使用国产 AI 厂商的智能服务。&lt;/p&gt;&lt;p&gt;★★★ · 量子位 · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-11.html"&gt;2026-11-11 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>端侧轻量级智能代理 BotPsy</title>
-<link>https://huggingface.co/blog/qvac/botpsy</link>
-<guid isPermaLink="false">b22522d14a17</guid>
-<pubDate>Wed, 11 Nov 2026 00:01:00 -0500</pubDate>
-<description>&lt;p&gt;BotPsy 是一款基于 Qwen3.5 构建的 0.8B 参数轻量级代理模型，专门针对设备端部署设计，用于处理各类自动化任务。它通过在指令遵循和工具调用方面的针对性优化，在极小参数下实现了超越更大模型的表现，并能显著降低推理延迟。这款模型在隐私保护和本地化执行方面优势明显，但由于模型规模限制，不适用于高风险场景。&lt;/p&gt;&lt;p&gt;★★★ · Hugging Face · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-11.html"&gt;2026-11-11 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>OpenAI 演示 AI 代码辅助新范式</title>
-<link>https://latent.space/p/codex-work/</link>
-<guid isPermaLink="false">d46e4b8dae91</guid>
-<pubDate>Tue, 10 Nov 2026 23:49:00 -0500</pubDate>
-<description>&lt;p&gt;Codex 是 OpenAI 提供的云端软件工程代理，旨在协助开发者实现代码编写及任务管理。该系统近期更新了云环境架构，支持在隔离实例中并行运行多任务，并通过语音指令作为控制接口，让开发者能更灵活地跨设备协同工作。尽管目前云端切换流程仍存在上手门槛，但其正在整合的个人代理功能为自动化编程提供了新的工作模式。&lt;/p&gt;&lt;p&gt;★★★ · Latent Space · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-11.html"&gt;2026-11-11 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>
