@@ -10,12 +10,12 @@
 |---|---|---|---|
 | ★★★★★ | [捕获反物质：挑战标准模型的新实验](https://www.sciencedaily.com/releases/2026/11/261124055849.htm) | 物理学家成功将正电子（电子的反物质）冷却至近绝对零度并实现捕获。通过精确对比物质与反物质，科学家试图寻找现有物理学“标准模型”（Standard Model）的局限。 | ScienceDaily |
 | ★★★★★ | [引力通信：穿透实体障碍的新方法](https://www.sciencedaily.com/releases/2026/11/261123005343.htm) | 研究人员通过精确测量移动重物产生的引力变化，成功穿透砖墙发送了信息。与无线电波不同，引力信号无法被阻挡，为未来通信技术提供了全新思路。 | ScienceDaily |
-| ★★★★ | [日本研制月球水资源探测车原型](https://phys.org/news/2026-11-japan-unveils-rover-prototype-moon.html) | 日本宇航局发布了一款月球探测车原型机，其任务是前往月球南极寻找水冰，这些水资源未来有望用于制备火箭燃料。 | Phys.org |
-| ★★★★ | [神舟24号载人飞船发射成功](https://phys.org/news/2026-11-china-shenzhou-spacecraft-chinese-pakistani.html) | 中国发射了神舟24号载人飞船，乘组中包含一名巴基斯坦宇航员，这是该空间站迎来首位外籍成员。 | Phys.org |
+| ★★★★★ | [韦伯望远镜揭示仙后座A超新星遗迹细节](https://www.nasa.gov/image-article/webb-reveals-new-details-in-supernova-remnant/) | 詹姆斯·韦伯空间望远镜（JWST）拍摄的高分辨率中红外图像，详细展示了超新星（supernova）爆发后留下的炽热尘埃云。 | NASA |
+| ★★★★ | [数学界应对人工智能带来的冲击](https://phys.org/news/2026-11-digesting-mathematicians-ai-brought-field.html) | 有数学家声称利用AI模型解决了数学界著名的广义黎曼猜想（generalized Riemann hypothesis），引发了数学领域对研究范式改变的思考。 | Phys.org |
+| ★★★★ | [人工光合作用利用废弃二氧化碳培育食用真菌](https://phys.org/news/2026-11-artificial-photosynthesis-protein-rich-edible.html) | 科学家开发出一种利用废弃二氧化碳通过人工光合作用培育高蛋白食用真菌的方法，旨在解决全球日益增长的蛋白质供应和环境负担问题。 | Phys.org |
+| ★★★★ | [人工智能或将改变理论物理学研究模式](https://arstechnica.com/ai/2026/11/ai-can-do-the-calculations-physicists-are-figuring-out-what-comes-next/) | 前沿人工智能（frontier AI）展现出惊人能力，能够迅速解决以往需要顶级物理学家耗时一整天才能处理的任务。 | Ars Technica |
 | ★★★★ | [核动力太空探测器SR-1 Freedom方案确定](https://www.nasa.gov/general/nasa-locks-in-sr1-freedom-mission-architecture/) | NASA完成了“自由号空间反应堆”（SR-1 Freedom）的设计方案审核，计划于2028年发射，旨在验证深空核能电推进技术。 | NASA |
-| ★★★★ | [寻找中子星碰撞产生的千新星](https://science.nasa.gov/get-involved/citizen-science/amateur-astronomer-be-a-kilonova-catcher/) | 中子星（neutron stars）碰撞产生的千新星（kilonova）是宇宙中金、铂等重元素的产地，因其转瞬即逝，需要全球天文台协同捕捉。 | NASA |
-| ★★★ | [琥珀中的远古水上漫步者](https://www.sciencenews.org/article/extinct-grasshoppers-walked-on-water) | 科学家在9900万年前的琥珀中发现了长腿蚱蜢，揭示了它们如何适应在水面上行走和划行。这一发现展示了远古昆虫与恐龙共存时的生存策略。 | Science News |
-| ★★★ | [NASA火星探测任务受阻](https://arstechnica.com/space/2026/11/half-of-nasas-aging-mars-fleet-knocked-offline-by-technical-issues/) | NASA多项老化的火星探测任务出现技术故障，包括“毅力号”（Perseverance）通信困难及“奥德赛号”（Odyssey）燃料告急，引发对深空探测持续性的担忧。 | Ars Technica |
+| ★★★ | [欧洲航天器揭示小行星撞击后的混乱现场](https://arstechnica.com/space/2026/11/europes-hera-mission-returns-to-the-chaotic-scene-of-a-cosmic-smashup/) | 欧洲航天器观测显示，NASA的DART任务在撞击小行星后造成了比预期更为混乱和严重的物质喷射。 | Ars Technica |
 
 <!-- latest:end -->
 
@@ -23,7 +23,7 @@
 
 <!-- archive:start -->
 
-- [2026-11-25](digest/2026/2026-11-25.md)：7 条精选
+- [2026-11-25](digest/2026/2026-11-25.md)：8 条精选
 - [2026-11-24](digest/2026/2026-11-24.md)：8 条精选
 - [2026-11-23](digest/2026/2026-11-23.md)：8 条精选
 - [2026-11-22](digest/2026/2026-11-22.md)：5 条精选
