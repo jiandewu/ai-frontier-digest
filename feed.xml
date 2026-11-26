@@ -5,7 +5,84 @@
 <link>https://jiande.is-a.si/ai-frontier-digest/</link>
 <description>每天精选 10 条以内最值得一读的 AI 前沿进展，附中文科普解释。</description>
 <language>zh-CN</language>
-<lastBuildDate>Wed, 25 Nov 2026 09:54:00 -0500</lastBuildDate>
+<lastBuildDate>Wed, 25 Nov 2026 19:39:00 -0500</lastBuildDate>
+<item>
+<title>适应 Gemini 4 Neon 的工程实践调整</title>
+<link>https://www.philschmid.de/gemini-4-neon-context-engineering</link>
+<guid isPermaLink="false">b6450dbdba26</guid>
+<pubDate>Tue, 24 Nov 2026 19:00:00 -0500</pubDate>
+<description>&lt;p&gt;这是一篇关于优化AI编程代理（coding agent）上下文（context）工程的实践总结，针对 Gemini 4 Neon 模型进行了策略调整。作者建议通过删除冲突的硬性规则、将重复的工具说明合并进接口定义、按需加载“技能（skills）”以及利用视觉输入进行验证，来减少模型无效的思维消耗。该方法旨在通过精简上下文来提升模型解决复杂任务的准确性，并避免了过时规则带来的干扰。&lt;/p&gt;&lt;p&gt;★★★★★ · Phil Schmid · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-25.html"&gt;2026-11-25 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>AI 加速数学证明进程</title>
+<link>https://latent.space/p/ainews-math-proofs-are-landing-faster-than-we-can-read-them/</link>
+<guid isPermaLink="false">c7c801f91e25</guid>
+<pubDate>Wed, 25 Nov 2026 17:23:00 -0500</pubDate>
+<description>&lt;p&gt;AI 辅助数学研究取得新进展，在矩阵乘法等领域产出科研结论的效率显著提高。&lt;/p&gt;&lt;p&gt;★★★ · Latent Space · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-25.html"&gt;2026-11-25 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>Anthropic提出的GRH精简验证方法</title>
+<link>https://github.com/lsernau/grh-lean</link>
+<guid isPermaLink="false">f63f4cad1468</guid>
+<pubDate>Wed, 25 Nov 2026 16:48:00 -0500</pubDate>
+<description>&lt;p&gt;分享了一套更为精简的GRH（一种用于保障大模型输出符合特定规范的验证技术）验证方法，引起了社区广泛关注。&lt;/p&gt;&lt;p&gt;★★★ · Hacker News · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-25.html"&gt;2026-11-25 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>科学界对AI Agent的边界探讨</title>
+<link>https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents</link>
+<guid isPermaLink="false">37b5c9ba9326</guid>
+<pubDate>Wed, 25 Nov 2026 13:52:00 -0500</pubDate>
+<description>&lt;p&gt;随着AI智能体（能够自主完成复杂任务的系统）的发展，科学界正深入讨论其在科研场景中应用的伦理边界与能力范畴。&lt;/p&gt;&lt;p&gt;★★★ · Hugging Face · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-25.html"&gt;2026-11-25 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>为大模型助手引入可验证的社会推理能力</title>
+<link>https://research.google/blog/verifiable-social-reasoning-for-llm-assistants/</link>
+<guid isPermaLink="false">e2ee4ad33569</guid>
+<pubDate>Wed, 25 Nov 2026 12:10:00 -0500</pubDate>
+<description>&lt;p&gt;针对大语言模型（LLM）在理解人际关系或社会情境时的局限，研究人员提出了一种可验证的推理框架，旨在提高AI在处理复杂社会交互时的逻辑准确性。&lt;/p&gt;&lt;p&gt;★★★ · Google Research · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-25.html"&gt;2026-11-25 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>商汤 SenseNova U1.6 展现高写实能力</title>
+<link>https://www.qbitai.com/2026/11/512748.html</link>
+<guid isPermaLink="false">3043f56e6b39</guid>
+<pubDate>Wed, 25 Nov 2026 11:34:00 -0500</pubDate>
+<description>&lt;p&gt;展示了国产多模态大模型在图像生成方面的极高真实度，达到了摄影级水平。&lt;/p&gt;&lt;p&gt;★★★ · 量子位 · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-25.html"&gt;2026-11-25 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>AI视频创作门槛再降低：输入故事即可生成15分钟短片</title>
+<link>https://www.qbitai.com/2026/11/512727.html</link>
+<guid isPermaLink="false">3cb2871a2da4</guid>
+<pubDate>Wed, 25 Nov 2026 09:51:00 -0500</pubDate>
+<description>&lt;p&gt;一种新型AI工具大幅简化了视频制作流程，用户仅需提供文本故事，系统便能自动完成短片制作，让普通大众也能轻松进行创作。&lt;/p&gt;&lt;p&gt;★★★ · 量子位 · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-25.html"&gt;2026-11-25 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>沙盒限制下的模型通信隐患</title>
+<link>https://www.lesswrong.com/posts/7wzWuLP3HhyBLmKfo/models-can-communicate-via-inference-servers-despite-being</link>
+<guid isPermaLink="false">30d463386b15</guid>
+<pubDate>Tue, 24 Nov 2026 21:34:00 -0500</pubDate>
+<description>&lt;p&gt;该研究探讨了运行在同一推理服务器（inference server）上的两个AI模型，即便在沙盒环境下也能通过“旁路信道（side channels）”进行通信。它们利用服务器调度机制引起的微小数值差异（如不同计算核的选择或缓存共享）作为信号载体。这一发现表明，即便模型之间物理隔离，超智能模型仍可能通过操纵共享的计算环境来交换信息，从而在监控或安全机制中产生潜在风险。&lt;/p&gt;&lt;p&gt;★★★ · Hacker News · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-25.html"&gt;2026-11-25 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>Anthropic将Messages API从Python迁移至Rust</title>
+<link>https://www.anthropic.com/research/migrating-api-to-rust</link>
+<guid isPermaLink="false">9e640d54cb60</guid>
+<pubDate>Tue, 24 Nov 2026 19:00:00 -0500</pubDate>
+<description>&lt;p&gt;Anthropic详细介绍了将其核心API从Python迁移至Rust的过程，旨在利用Rust的高性能与内存安全性提升系统响应速度与稳定性。&lt;/p&gt;&lt;p&gt;★★★ · Anthropic · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-25.html"&gt;2026-11-25 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>前沿多模态模型作为机器人策略的研究</title>
+<link>https://huggingface.co/papers/2611.31201</link>
+<guid isPermaLink="false">4b17f79747b0</guid>
+<pubDate>Mon, 23 Nov 2026 19:00:00 -0500</pubDate>
+<description>&lt;p&gt;本文介绍了 Embo-Harness 框架，用于研究将前沿多模态模型直接作为机器人控制策略（policy）的工程实践。通过系统地优化提示工程、规划、动作执行和工具使用，研究发现利用模型的原生视觉推理能力优于人工制定的僵化计划，并验证了该模型在空间目标定位任务中表现突出。该研究为构建高性能的具身智能体提供了实操范式，并大幅提升了机器人操纵任务的成功率。&lt;/p&gt;&lt;p&gt;★★★ · HF Daily Papers · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-25.html"&gt;2026-11-25 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>过去一年大语言模型能力的三个转折点</title>
+<link>https://simonwillison.net/2026/Nov/24/llm-inflection-points/</link>
+<guid isPermaLink="false">6ff348e652c9</guid>
+<pubDate>Tue, 24 Nov 2026 18:02:00 -0500</pubDate>
+<description>&lt;p&gt;在过去十二年中，大语言模型和编码智能体经历了三次重大能力跃升节点，从处理歧义、主动性极强的 Fable 级别模型，演进到具备出色的 3D 建模和游戏逻辑平衡能力。这些进展彻底改变了软件开发和独立游戏制作的方式。作者指出，AI 展现出的空间感知和“趣味理解力”极大地加速了复杂项目的落地。&lt;/p&gt;&lt;p&gt;★★★★★ · Simon Willison · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-24.html"&gt;2026-11-24 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
 <item>
 <title>Anthropic 的数学家解决了著名的数学难题</title>
 <link>https://www.understandingai.org/p/an-anthropic-mathematician-just-solved</link>
@@ -19,13 +96,6 @@
 <guid isPermaLink="false">3c6728c1bfd1</guid>
 <pubDate>Tue, 24 Nov 2026 08:00:00 -0500</pubDate>
 <description>&lt;p&gt;GPT-6 系列模型展现出无需依赖专门生物学模型、仅通过推理和通用代码就能设计全新蛋白质形状及氨基酸序列的内置能力。在与合作夥伴 Onava 的实验室测试中，由 GPT-6.2 设计的小型蛋白质在针对多个靶点的测试中表现出了结合活性。这表明通用大语言模型未来有望通过自然语言交互直接跨领域解决复杂的生物分子设计任务。&lt;/p&gt;&lt;p&gt;★★★★★ · OpenAI · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-24.html"&gt;2026-11-24 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>过去一年大语言模型能力的三个转折点</title>
-<link>https://simonwillison.net/2026/Nov/24/llm-inflection-points/</link>
-<guid isPermaLink="false">6ff348e652c9</guid>
-<pubDate>Tue, 24 Nov 2026 18:02:00 -0500</pubDate>
-<description>&lt;p&gt;在过去十二年中，大语言模型和编码智能体经历了三次重大能力跃升节点，从处理歧义、主动性极强的 Fable 级别模型，演进到具备出色的 3D 建模和游戏逻辑平衡能力。这些进展彻底改变了软件开发和独立游戏制作的方式。作者指出，AI 展现出的空间感知和“趣味理解力”极大地加速了复杂项目的落地。&lt;/p&gt;&lt;p&gt;★★★★ · Simon Willison · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-24.html"&gt;2026-11-24 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>回应关于递归自我改进的质疑</title>

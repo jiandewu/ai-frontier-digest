@@ -8,16 +8,16 @@
 
 | 重要度 | 标题 | 摘要 | 来源 |
 |---|---|---|---|
+| ★★★★★ | [适应 Gemini 4 Neon 的工程实践调整](https://www.philschmid.de/gemini-4-neon-context-engineering) | 开发者分享在使用新模型时，针对旧模型设计的复杂约束条件反而成为限制，建议调整工程提示词策略。 | Phil Schmid |
+| ★★★★★ | [过去一年大语言模型能力的三个转折点](https://simonwillison.net/2026/Nov/24/llm-inflection-points/) | 回顾并分析了过去十二个月中大语言模型（LLM）与代码智能体（Coding Agents）能力演进中的三个关键转折点，探讨技术发展的阶段性规律。 | Simon Willison |
 | ★★★★★ | [Anthropic 的数学家解决了著名的数学难题](https://www.understandingai.org/p/an-anthropic-mathematician-just-solved) | 讨论了 AI 解决黎曼猜想等数学难题的可能性，并反思这类进展是否暗示 AI 已达到危险的高级智能水平。 | Understanding AI |
 | ★★★★★ | [GPT-6 模型展现出内在的蛋白质设计能力](https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities) | OpenAI 的 GPT-6 模型展示了通过逻辑推理和代码编写进行蛋白质结构和序列设计的能力，且已在实验室测试中验证了其结合性能。 | OpenAI |
-| ★★★★ | [过去一年大语言模型能力的三个转折点](https://simonwillison.net/2026/Nov/24/llm-inflection-points/) | 回顾并分析了过去十二个月中大语言模型（LLM）与代码智能体（Coding Agents）能力演进中的三个关键转折点，探讨技术发展的阶段性规律。 | Simon Willison |
 | ★★★★ | [回应关于递归自我改进的质疑](https://www.dwarkesh.com/p/rsiobjections) | 探讨了关于递归自我改进（AI自我迭代升级）的争议，分析了怀疑论者在看待超级智能时哪些观点是合理的。 | Dwarkesh Podcast |
 | ★★★★ | [“端侧超节点”技术：无需换芯让端侧 AI 效率提升 270%](https://www.qbitai.com/2026/11/512362.html) | 该技术通过让多台终端设备协同计算，突破了单机算力瓶颈，为物理世界的 AI 规模化部署提供了新思路。 | 量子位 |
 | ★★★★ | [Motion Mamba 2.0：人形机器人长程运动生成架构](https://huggingface.co/papers/2611.29897) | 提出一种基于 Mamba 架构的扩散模型，优化了人形机器人在面对复杂动态目标时的实时运动控制能力。 | HF Daily Papers |
-| ★★★ | [Microduck 机器人避障仿真工作流](https://huggingface.co/blog/nvidia/microduck-obstacle-avoidance) | 结合 Isaac Lab 物理仿真环境与 Newton 算法，展示了机器人从虚拟仿真（Sim）到现实世界（Real）部署的避障流程。 | Hugging Face |
-| ★★★ | [探讨 LLM 智能代理的商业利益归属问题](https://michaelharley.net/posts/2026/11/01/llm-agents-work-for-their-parent-companies-not-for-you/) | 引发社区热议的话题，指出当前大模型智能代理在设计上可能更多服务于母公司商业利益，而非用户个人利益。 | Hacker News |
-| ★★★ | [利用 Astra 和 Codex 辅助寻找系外行星](https://openai.com/index/searching-for-distant-planets-with-astra) | 天文爱好者通过 OpenAI 的辅助工具分析 NASA 公开的天文观测数据，成功提升了发现系外行星的效率。 | OpenAI |
-| ★★★ | [文心 5.5 Flash Preview 版本正式开源](https://www.qbitai.com/2026/11/512354.html) | 百度文心系列模型发布轻量级版本 Flash Preview，并采用宽松的 Apache 2.0 开源协议，方便开发者自由使用与修改。 | 量子位 |
+| ★★★ | [AI 加速数学证明进程](https://latent.space/p/ainews-math-proofs-are-landing-faster-than-we-can-read-them/) | AI 辅助数学研究取得新进展，在矩阵乘法等领域产出科研结论的效率显著提高。 | Latent Space |
+| ★★★ | [Anthropic提出的GRH精简验证方法](https://github.com/lsernau/grh-lean) | 分享了一套更为精简的GRH（一种用于保障大模型输出符合特定规范的验证技术）验证方法，引起了社区广泛关注。 | Hacker News |
+| ★★★ | [科学界对AI Agent的边界探讨](https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents) | 随着AI智能体（能够自主完成复杂任务的系统）的发展，科学界正深入讨论其在科研场景中应用的伦理边界与能力范畴。 | Hugging Face |
 
 <!-- latest:end -->
 
@@ -25,7 +25,7 @@
 
 <!-- archive:start -->
 
-- [2026-11-25](digest/2026/2026-11-25.md)：0 条精选
+- [2026-11-25](digest/2026/2026-11-25.md)：10 条精选
 - [2026-11-24](digest/2026/2026-11-24.md)：10 条精选
 - [2026-11-23](digest/2026/2026-11-23.md)：10 条精选
 - [2026-11-22](digest/2026/2026-11-22.md)：5 条精选
