@@ -5,27 +5,34 @@
 <link>https://jiande.is-a.si/ai-frontier-digest/</link>
 <description>每天精选 10 条以内最值得一读的 AI 前沿进展，附中文科普解释。</description>
 <language>zh-CN</language>
-<lastBuildDate>Thu, 26 Nov 2026 03:54:00 -0500</lastBuildDate>
+<lastBuildDate>Thu, 26 Nov 2026 16:54:00 -0500</lastBuildDate>
 <item>
 <title>国产开源视频生成模型取得显著突破</title>
 <link>https://www.qbitai.com/2026/11/512916.html</link>
 <guid isPermaLink="false">e55362f3820b</guid>
 <pubDate>Thu, 26 Nov 2026 01:41:00 -0500</pubDate>
-<description>&lt;p&gt;中国研发的开源视频模型展现了极高的性价比，支持30秒长视频及自动化镜头编排，处于全球领先水平。&lt;/p&gt;&lt;p&gt;★★★★ · 量子位 · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-26.html"&gt;2026-11-26 精选&lt;/a&gt;&lt;/p&gt;</description>
+<description>&lt;p&gt;MAGI-2是一款由Sand.ai开发的商用级AI视频生成模型，其核心架构采用了多头潜空间混合专家模型（Multi-Head Latent MoE），有效提升了大参数规模下的训练效率与生成质量。它通过单流Transformer架构实现了音画精准同步，并支持通过长文本脚本和多模态素材进行精准控制。该模型值得关注在于其极高的性价比及自主规划能力，但目前在极速动作连贯性上仍有提升空间。&lt;/p&gt;&lt;p&gt;★★★★ · 量子位 · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-26.html"&gt;2026-11-26 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>蔚来引入世界模型3.0提升智驾效率</title>
 <link>https://www.qbitai.com/2026/11/512897.html</link>
 <guid isPermaLink="false">097626610623</guid>
 <pubDate>Wed, 25 Nov 2026 22:23:00 -0500</pubDate>
-<description>&lt;p&gt;蔚来通过引入世界模型（一种能理解和预测现实物理规律的AI架构）与强化学习，显著提升了智驾训练速度与座舱交互智能化。&lt;/p&gt;&lt;p&gt;★★★★ · 量子位 · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-26.html"&gt;2026-11-26 精选&lt;/a&gt;&lt;/p&gt;</description>
+<description>&lt;p&gt;蔚来发布的NOMI Intelligence 4.0和世界模型NWM 3.0，旨在通过将大模型与强化学习技术深度整合，实现车辆感知、决策与执行的全链路智能化。NWM 3.0引入了隐式世界模型，在特征空间直接预测环境变化，从而大幅提升了智驾训练效率。这一创新不仅展示了AI在汽车物理空间中的应用深度，也反映了蔚来尝试构建AI原生经营体系以提升研发与运营效率的战略转型。&lt;/p&gt;&lt;p&gt;★★★★ · 量子位 · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-26.html"&gt;2026-11-26 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>MCP 技术前景展望</title>
+<link>https://www.philschmid.de/mcp-2027</link>
+<guid isPermaLink="false">23b0b1b9d327</guid>
+<pubDate>Wed, 25 Nov 2026 19:00:00 -0500</pubDate>
+<description>&lt;p&gt;分析了模型上下文协议（MCP）如何通过多模态支持和智能体能力集成，演进为 2027 年 AI 智能体生态的核心集成层。&lt;/p&gt;&lt;p&gt;★★★★ · Phil Schmid · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-26.html"&gt;2026-11-26 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>Nemotron 3.5模型发布与优化指南</title>
 <link>https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin</link>
 <guid isPermaLink="false">d3aa48daa62d</guid>
 <pubDate>Thu, 26 Nov 2026 00:05:00 -0500</pubDate>
-<description>&lt;p&gt;介绍了Nemotron 3.5系列的开源数据、微调技巧及推理加速方案，旨在降低高性能模型的使用门槛。&lt;/p&gt;&lt;p&gt;★★★ · Hugging Face · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-26.html"&gt;2026-11-26 精选&lt;/a&gt;&lt;/p&gt;</description>
+<description>&lt;p&gt;NVIDIA推出的Nemotron 3.5 Parse是一款专注于文档理解的模型，能够将图像格式的文档转化为结构化数据，适用于RAG及代理任务。该模型通过监督微调（SFT）建立基础能力，并利用带有可验证奖励的强化学习（RLVR）提升准确性，配合DFlash2推断加速技术显著提升了吞吐量。其亮点在于对复杂图表与表格的精准解析，且官方公开了相关数据集与微调方案以供开发者定制使用。&lt;/p&gt;&lt;p&gt;★★★ · Hugging Face · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-26.html"&gt;2026-11-26 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>OpenAI调整GPT-6.2模型使用额度</title>
@@ -35,25 +42,32 @@
 <description>&lt;p&gt;OpenAI针对旗下模型Astra和Sol的调用频率与负载能力进行了调整，用户在处理任务时可能面临更高的资源限制。&lt;/p&gt;&lt;p&gt;★★★ · Hacker News · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-26.html"&gt;2026-11-26 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
+<title>Real2SimLab：统一的从现实到模拟转换平台</title>
+<link>https://huggingface.co/papers/2611.34849</link>
+<guid isPermaLink="false">de55fe526105</guid>
+<pubDate>Wed, 25 Nov 2026 19:00:00 -0500</pubDate>
+<description>&lt;p&gt;针对“实转仿”（Real-to-Sim）领域基准不统一的问题，提出了统一的评估平台，以标准化 AI 对物理世界的建模能力。&lt;/p&gt;&lt;p&gt;★★★ · HF Daily Papers · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-26.html"&gt;2026-11-26 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>多智能体系统构建与评估指南</title>
+<link>https://huggingface.co/blog/training-swarms</link>
+<guid isPermaLink="false">c01600d41603</guid>
+<pubDate>Wed, 25 Nov 2026 19:00:00 -0500</pubDate>
+<description>&lt;p&gt;深入探讨了如何设计、训练和评估多智能体协作系统（Swarms），是 AI 智能体开发领域的实操性教程。&lt;/p&gt;&lt;p&gt;★★★ · Hugging Face · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-26.html"&gt;2026-11-26 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
 <title>纽约时报建议摄影师禁用Photoshop的AI功能</title>
 <link>https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features</link>
 <guid isPermaLink="false">dc69597abec1</guid>
 <pubDate>Wed, 25 Nov 2026 16:18:00 -0500</pubDate>
-<description>&lt;p&gt;因版权或工作流合规性考量，纽约时报提醒摄影师谨慎使用Photoshop中的AI自动编辑功能。&lt;/p&gt;&lt;p&gt;★★★ · Hacker News · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-26.html"&gt;2026-11-26 精选&lt;/a&gt;&lt;/p&gt;</description>
+<description>&lt;p&gt;《纽约时报》要求自由摄影师避免使用Photoshop 2027版本，因为其中新增的AI功能可能导致图片元数据被标记为“AI生成”。该政策旨在维护新闻报道的真实性与读者的信任，因为Adobe的C2PA元数据标签会自动识别并记录AI辅助编辑行为。此事件反映了媒体行业在应对AI工具广泛应用时，对于内容来源与事实核查标准日益严苛的审慎态度。&lt;/p&gt;&lt;p&gt;★★★ · Hacker News · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-26.html"&gt;2026-11-26 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>NightWatch：提升AI代理感知能力</title>
 <link>https://huggingface.co/papers/2611.28947</link>
 <guid isPermaLink="false">ccb9331ad406</guid>
 <pubDate>Tue, 24 Nov 2026 19:00:00 -0500</pubDate>
-<description>&lt;p&gt;针对电脑操作类智能体（Computer-Use Agents），NightWatch通过轻量级实时监测模块解决了界面变动导致的延迟与感知偏差问题。&lt;/p&gt;&lt;p&gt;★★★ · HF Daily Papers · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-26.html"&gt;2026-11-26 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>金融支付领域的大模型Antom 3-in-1</title>
-<link>https://huggingface.co/papers/2611.25403</link>
-<guid isPermaLink="false">a9deb156f023</guid>
-<pubDate>Tue, 24 Nov 2026 19:00:00 -0500</pubDate>
-<description>&lt;p&gt;蚂蚁国际开发了一种专用于支付风险检测的基座模型，它整合了序列、表格和图数据，在反欺诈等任务中表现出极强的泛化能力。&lt;/p&gt;&lt;p&gt;★★★ · HF Daily Papers · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-26.html"&gt;2026-11-26 精选&lt;/a&gt;&lt;/p&gt;</description>
+<description>&lt;p&gt;NightWatch是一个专为计算机操作智能体（CUA）设计的框架，旨在解决智能体因视觉语言模型推理延迟而导致的决策滞后问题。它通过搭载一个0.8B参数的轻量级监控模型，实现对屏幕动态界面的实时感知，确保智能体的动作始终基于最新环境状态。该方案不仅显著提升了任务成功率，还通过降低空转时间显著提升了操作效率，为实现连续、实时的环境感知提供了新思路。&lt;/p&gt;&lt;p&gt;★★★ · HF Daily Papers · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-26.html"&gt;2026-11-26 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>适应 Gemini 4 Neon 的工程实践调整</title>
@@ -67,7 +81,7 @@
 <link>https://latent.space/p/ainews-math-proofs-are-landing-faster-than-we-can-read-them/</link>
 <guid isPermaLink="false">c7c801f91e25</guid>
 <pubDate>Wed, 25 Nov 2026 17:23:00 -0500</pubDate>
-<description>&lt;p&gt;这是一篇关于近期AI在数学证明领域突飞猛进的综述，特别是关于矩阵乘法复杂度常数ω=9/4的研究。这些成果主要依靠AI辅助生成复杂证明逻辑，并由Lean等工具进行严格验证。其核心意义在于AI突破了人类科学家的直觉边界，但也因验证海量论文的真实性和潜在的伪影而面临挑战。&lt;/p&gt;&lt;p&gt;★★★ · Latent Space · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-25.html"&gt;2026-11-25 精选&lt;/a&gt;&lt;/p&gt;</description>
+<description>&lt;p&gt;这是一篇关于近期AI在数学证明领域突飞猛进的综述，特别是关于矩阵乘法复杂度常数ω=9/4的研究。这些成果主要依靠AI辅助生成复杂证明逻辑，并由Lean等工具进行严格验证。其核心意义在于AI突破了人类科学家的直觉边界，但也因验证海量论文的真实性和潜在的伪影而面临挑战。&lt;/p&gt;&lt;p&gt;★★★★ · Latent Space · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-25.html"&gt;2026-11-25 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>Anthropic提出的GRH精简验证方法</title>
