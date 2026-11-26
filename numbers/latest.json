@@ -62,7 +62,7 @@
    "decimals": 0,
    "change": "pct",
    "date": "2026-11-26",
-   "value": 3603.4,
+   "value": 3593.4,
    "previous": 3535.8,
    "detail": "COMEX 黄金期货（GC=F），美元/盎司",
    "source": "https://finance.yahoo.com/quote/GC=F/"
@@ -73,9 +73,9 @@
    "unit": "",
    "decimals": 0,
    "change": "pct",
-   "date": "2026-11-26",
-   "value": 3476.88,
-   "previous": 3476.47,
+   "date": "2026-11-25",
+   "value": 3476.47,
+   "previous": 3548.37,
    "detail": "上证综合指数（000001.SS）",
    "source": "https://finance.yahoo.com/quote/000001.SS/"
   },
@@ -95,26 +95,26 @@
  "news": [
   {
    "section": "AI",
-   "number": "30秒",
-   "label": "开源视频模型支持的视频时长",
-   "title": "国产开源视频生成模型取得显著突破",
-   "link": "https://www.qbitai.com/2026/11/512916.html"
+   "number": "0.8B",
+   "label": "监控模型参数规模",
+   "title": "NightWatch：提升AI代理感知能力",
+   "link": "https://huggingface.co/papers/2611.28947"
   },
   {
    "section": "科学",
-   "number": "1",
-   "label": "首个深空裂变动力航天器",
-   "title": "核动力太空探测器SR-1 Freedom方案确定",
-   "link": "https://www.nasa.gov/general/nasa-locks-in-sr1-freedom-mission-architecture/"
+   "number": "100万颗",
+   "label": "SpaceX获准部署的卫星数量",
+   "title": "SpaceX获准部署百万卫星数据中心引发争议",
+   "link": "https://phys.org/news/2026-11-fcc-spacex-deploy-million-satellites.html"
   },
   {
    "section": "美股",
    "number": "3.8%",
-   "label": "十月份加速的通胀指标",
+   "label": "十月份加速的通胀指标数据",
    "title": "Fed’s preferred inflation gauge accelerated to 3.8% in October, raising the 2027 stakes for the central bank",
    "link": "https://jiande.is-a.si/us-market/news/2026/2026-11-25.html#news-1"
   }
  ],
- "newsKey": "ai-097626610623,ai-244a3e8cb4f1,ai-a9deb156f023,ai-ccb9331ad406,ai-d3aa48daa62d,ai-dc69597abec1,ai-e55362f3820b,market-2026-11-25-1,market-2026-11-25-2,market-2026-11-25-3,market-2026-11-25-4,market-2026-11-25-5,science-15c504010e8d,science-16dfb72df17e,science-24df4753c4d9,science-48e6eb0f71e2,science-8d2b6f887c4c,science-e26889b0ba74,science-f5bb5e8a9ad3,science-fd249d673f59",
- "updated": "2026-11-26T09:46:46+00:00"
+ "newsKey": "ai-097626610623,ai-23b0b1b9d327,ai-244a3e8cb4f1,ai-c01600d41603,ai-ccb9331ad406,ai-d3aa48daa62d,ai-dc69597abec1,ai-de55fe526105,ai-e55362f3820b,market-2026-11-25-1,market-2026-11-25-2,market-2026-11-25-3,market-2026-11-25-4,market-2026-11-25-5,science-5cb019b65aea,science-91374f1def80,science-c1fbed2b988e,science-dc6fbeafb878",
+ "updated": "2026-11-26T22:29:11+00:00"
 }
