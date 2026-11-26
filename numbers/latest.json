@@ -17,9 +17,9 @@
    "unit": "",
    "decimals": 0,
    "change": "pct",
-   "date": "2026-11-24",
-   "value": 23733.54,
-   "previous": 24089.56,
+   "date": "2026-11-25",
+   "value": 23585.8,
+   "previous": 23733.54,
    "source": "https://fred.stlouisfed.org/series/NASDAQCOM"
   },
   {
@@ -28,9 +28,9 @@
    "unit": "$",
    "decimals": 0,
    "change": "pct",
-   "date": "2026-11-24",
-   "value": 59515.19,
-   "previous": 61299.74,
+   "date": "2026-11-25",
+   "value": 60643.93,
+   "previous": 59515.19,
    "source": "https://fred.stlouisfed.org/series/CBBTCUSD"
   },
   {
@@ -61,9 +61,9 @@
    "unit": "$",
    "decimals": 0,
    "change": "pct",
-   "date": "2026-11-25",
-   "value": 3617.8,
-   "previous": 3561.9,
+   "date": "2026-11-26",
+   "value": 3603.4,
+   "previous": 3535.8,
    "detail": "COMEX 黄金期货（GC=F），美元/盎司",
    "source": "https://finance.yahoo.com/quote/GC=F/"
   },
@@ -73,9 +73,9 @@
    "unit": "",
    "decimals": 0,
    "change": "pct",
-   "date": "2026-11-24",
-   "value": 3548.37,
-   "previous": 3538.95,
+   "date": "2026-11-26",
+   "value": 3476.88,
+   "previous": 3476.47,
    "detail": "上证综合指数（000001.SS）",
    "source": "https://finance.yahoo.com/quote/000001.SS/"
   },
@@ -85,29 +85,36 @@
    "unit": "",
    "decimals": 0,
    "change": "abs",
-   "date": "2026-11-25",
-   "value": 584,
-   "previous": 930,
-   "detail": "cs.AI 102 · cs.CL 74 · cs.CV 264 · cs.LG 144",
+   "date": "2026-11-26",
+   "value": 536,
+   "previous": 584,
+   "detail": "cs.AI 77 · cs.CL 74 · cs.CV 242 · cs.LG 143",
    "source": "https://arxiv.org/list/cs.AI/new"
   }
  ],
  "news": [
   {
+   "section": "AI",
+   "number": "30秒",
+   "label": "开源视频模型支持的视频时长",
+   "title": "国产开源视频生成模型取得显著突破",
+   "link": "https://www.qbitai.com/2026/11/512916.html"
+  },
+  {
    "section": "科学",
-   "number": "9900万年",
-   "label": "科学家发现长腿蚱蜢的琥珀年代",
-   "title": "琥珀中的远古水上漫步者",
-   "link": "https://www.sciencenews.org/article/extinct-grasshoppers-walked-on-water"
+   "number": "1",
+   "label": "首个深空裂变动力航天器",
+   "title": "核动力太空探测器SR-1 Freedom方案确定",
+   "link": "https://www.nasa.gov/general/nasa-locks-in-sr1-freedom-mission-architecture/"
   },
   {
    "section": "美股",
-   "number": "3.37亿股",
-   "label": "AMD面临的转售申请股份数",
-   "title": "AMD大跌9%：3.37亿股转售申请叠加AI板块卖压",
-   "link": "https://jiande.is-a.si/us-market/news/2026/2026-11-24.html#news-3"
+   "number": "3.8%",
+   "label": "十月份加速的通胀指标",
+   "title": "Fed’s preferred inflation gauge accelerated to 3.8% in October, raising the 2027 stakes for the central bank",
+   "link": "https://jiande.is-a.si/us-market/news/2026/2026-11-25.html#news-1"
   }
  ],
- "newsKey": "market-2026-11-24-1,market-2026-11-24-2,market-2026-11-24-3,market-2026-11-24-4,market-2026-11-24-5,science-16dfb72df17e,science-3e5ec6b61d21,science-48e6eb0f71e2,science-5e41773f7c06,science-9e9c5df09ec2,science-b879995cf1e2,science-e26889b0ba74",
- "updated": "2026-11-25T22:38:49+00:00"
+ "newsKey": "ai-097626610623,ai-244a3e8cb4f1,ai-a9deb156f023,ai-ccb9331ad406,ai-d3aa48daa62d,ai-dc69597abec1,ai-e55362f3820b,market-2026-11-25-1,market-2026-11-25-2,market-2026-11-25-3,market-2026-11-25-4,market-2026-11-25-5,science-15c504010e8d,science-16dfb72df17e,science-24df4753c4d9,science-48e6eb0f71e2,science-8d2b6f887c4c,science-e26889b0ba74,science-f5bb5e8a9ad3,science-fd249d673f59",
+ "updated": "2026-11-26T09:46:46+00:00"
 }
