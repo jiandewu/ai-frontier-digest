@@ -6,9 +6,9 @@
    "unit": "",
    "decimals": 0,
    "change": "pct",
-   "date": "2026-11-24",
-   "value": 7201.09,
-   "previous": 7237.17,
+   "date": "2026-11-25",
+   "value": 7182.78,
+   "previous": 7201.09,
    "source": "https://fred.stlouisfed.org/series/SP500"
   },
   {
@@ -62,7 +62,7 @@
    "decimals": 0,
    "change": "pct",
    "date": "2026-11-27",
-   "value": 3707.7,
+   "value": 3668.5,
    "previous": 3535.8,
    "detail": "COMEX 黄金期货（GC=F），美元/盎司",
    "source": "https://finance.yahoo.com/quote/GC=F/"
@@ -73,9 +73,9 @@
    "unit": "",
    "decimals": 0,
    "change": "pct",
-   "date": "2026-11-27",
-   "value": 3606.49,
-   "previous": 3476.88,
+   "date": "2026-11-26",
+   "value": 3476.88,
+   "previous": 3476.47,
    "detail": "上证综合指数（000001.SS）",
    "source": "https://finance.yahoo.com/quote/000001.SS/"
   },
@@ -95,19 +95,19 @@
  "news": [
   {
    "section": "科学",
-   "number": "1770米",
-   "label": "科研团队勘探深海卤水池的海底深度",
-   "title": "红海深处发现神秘盐水池",
-   "link": "https://www.sciencedaily.com/releases/2026/11/261125045259.htm"
+   "number": "56个",
+   "label": "全球冠层地图集覆盖的国家数量",
+   "title": "全球森林三维测绘地图集发布",
+   "link": "https://phys.org/news/2026-11-atlas-laser-surveys-forests-countries.html"
   },
   {
    "section": "美股",
    "number": "4.3%",
-   "label": "美国第三季度GDP增速修正后的数值",
+   "label": "美国第三季度GDP增速上修后的数据",
    "title": "美国第三季度GDP增速大幅上修至4.3%",
    "link": "https://jiande.is-a.si/us-market/news/2026/2026-11-26.html#news-1"
   }
  ],
- "newsKey": "ai-00bb51c293be,ai-44a871db658d,ai-4d9d55e7b393,ai-6f6a6b07f17a,ai-f717d7d51a9f,market-2026-11-26-1,market-2026-11-26-2,market-2026-11-26-3,market-2026-11-26-4,market-2026-11-26-5,science-34e52cea82e0,science-91374f1def80,science-be352f5a2ff3,science-c9d929f7e8b1,science-f340aa54b5dd",
- "updated": "2026-11-27T09:52:45+00:00"
+ "newsKey": "ai-00bb51c293be,ai-2d7f8b4f8454,ai-44a871db658d,ai-6aa339a9d536,ai-6f6a6b07f17a,ai-74835a583675,ai-ea247b47b521,ai-ee98a806290f,ai-f717d7d51a9f,market-2026-11-26-1,market-2026-11-26-2,market-2026-11-26-3,market-2026-11-26-4,market-2026-11-26-5,science-34c18d401d4b,science-dcbee2fc29c2,science-ea8acbe657f6,science-eafa907aad15",
+ "updated": "2026-11-27T22:12:07+00:00"
 }
