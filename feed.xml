@@ -5,7 +5,49 @@
 <link>https://jiande.is-a.si/ai-frontier-digest/</link>
 <description>每天精选 10 条以内最值得一读的 AI 前沿进展，附中文科普解释。</description>
 <language>zh-CN</language>
-<lastBuildDate>Thu, 26 Nov 2026 16:54:00 -0500</lastBuildDate>
+<lastBuildDate>Fri, 27 Nov 2026 04:03:00 -0500</lastBuildDate>
+<item>
+<title>首个支持跨任务空间记忆的机器人基模开源</title>
+<link>https://www.qbitai.com/2026/11/513227.html</link>
+<guid isPermaLink="false">44a871db658d</guid>
+<pubDate>Fri, 27 Nov 2026 02:01:00 -0500</pubDate>
+<description>&lt;p&gt;一款能在机器人端侧运行的基模（基础模型），创新性地支持跨任务的空间记忆共享，使机器人能持续优化地图。&lt;/p&gt;&lt;p&gt;★★★★ · 量子位 · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-27.html"&gt;2026-11-27 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>Google 强制 AI Agent 使用 MCP 协议</title>
+<link>https://techstackups.com/articles/google-workspace-ai-agents-mcp/</link>
+<guid isPermaLink="false">6f6a6b07f17a</guid>
+<pubDate>Thu, 26 Nov 2026 04:44:00 -0500</pubDate>
+<description>&lt;p&gt;Google 宣布其 AI Agent 将采用 MCP（模型上下文协议），但目前其 Gmail 插件尚不支持发送邮件等复杂交互。&lt;/p&gt;&lt;p&gt;★★★★ · Hacker News · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-27.html"&gt;2026-11-27 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>研究人员提出让 Agent 延迟决策以提升准确性</title>
+<link>https://huggingface.co/papers/2611.32884</link>
+<guid isPermaLink="false">f717d7d51a9f</guid>
+<pubDate>Tue, 24 Nov 2026 19:00:00 -0500</pubDate>
+<description>&lt;p&gt;研究提出一种强化学习方法，通过激励 Agent 在信息确认前延迟作答，显著提升了视觉与语言模型的证据推理能力。&lt;/p&gt;&lt;p&gt;★★★★ · HF Daily Papers · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-27.html"&gt;2026-11-27 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>DeepSeek App 新增聊天账单显示</title>
+<link>https://www.qbitai.com/2026/11/513305.html</link>
+<guid isPermaLink="false">4d9d55e7b393</guid>
+<pubDate>Fri, 27 Nov 2026 02:29:00 -0500</pubDate>
+<description>&lt;p&gt;DeepSeek 应用开始展示聊天消耗的资源详情，引发了用户对未来潜在收费模式的猜测与讨论。&lt;/p&gt;&lt;p&gt;★★★ · 量子位 · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-27.html"&gt;2026-11-27 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>Clay 如何构建面向市场的 AI Agent</title>
+<link>https://latent.space/p/how-clay-builds-gtm-agents-jeff-barg-head-of-ai/</link>
+<guid isPermaLink="false">00bb51c293be</guid>
+<pubDate>Thu, 26 Nov 2026 18:02:00 -0500</pubDate>
+<description>&lt;p&gt;Clay 的 AI 主管分享了如何利用 AI 实现企业客户精准筛选与营销自动化，构建了一套高效的上市（GTM）基础设施。&lt;/p&gt;&lt;p&gt;★★★ · Latent Space · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-27.html"&gt;2026-11-27 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>MCP 技术前景展望</title>
+<link>https://www.philschmid.de/mcp-2027</link>
+<guid isPermaLink="false">23b0b1b9d327</guid>
+<pubDate>Wed, 25 Nov 2026 19:00:00 -0500</pubDate>
+<description>&lt;p&gt;MCP (Model Context Protocol) 是一种旨在标准化 AI 模型与外部数据或工具交互方式的协议。它通过引入“Code Mode”等机制，允许模型在沙盒中执行脚本链式调用工具，并支持事件驱动的异步任务处理。该协议不仅优化了上下文管理，还增强了代理在多用户场景下的协作能力，是当前 AI 代理生态系统中的重要基础设施。&lt;/p&gt;&lt;p&gt;★★★★★ · Phil Schmid · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-26.html"&gt;2026-11-26 精选&lt;/a&gt;&lt;/p&gt;</description>
+</item>
 <item>
 <title>国产开源视频生成模型取得显著突破</title>
 <link>https://www.qbitai.com/2026/11/512916.html</link>
@@ -19,13 +61,6 @@
 <guid isPermaLink="false">097626610623</guid>
 <pubDate>Wed, 25 Nov 2026 22:23:00 -0500</pubDate>
 <description>&lt;p&gt;蔚来发布的NOMI Intelligence 4.0和世界模型NWM 3.0，旨在通过将大模型与强化学习技术深度整合，实现车辆感知、决策与执行的全链路智能化。NWM 3.0引入了隐式世界模型，在特征空间直接预测环境变化，从而大幅提升了智驾训练效率。这一创新不仅展示了AI在汽车物理空间中的应用深度，也反映了蔚来尝试构建AI原生经营体系以提升研发与运营效率的战略转型。&lt;/p&gt;&lt;p&gt;★★★★ · 量子位 · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-26.html"&gt;2026-11-26 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>MCP 技术前景展望</title>
-<link>https://www.philschmid.de/mcp-2027</link>
-<guid isPermaLink="false">23b0b1b9d327</guid>
-<pubDate>Wed, 25 Nov 2026 19:00:00 -0500</pubDate>
-<description>&lt;p&gt;分析了模型上下文协议（MCP）如何通过多模态支持和智能体能力集成，演进为 2027 年 AI 智能体生态的核心集成层。&lt;/p&gt;&lt;p&gt;★★★★ · Phil Schmid · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-26.html"&gt;2026-11-26 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>Nemotron 3.5模型发布与优化指南</title>
@@ -46,14 +81,14 @@
 <link>https://huggingface.co/papers/2611.34849</link>
 <guid isPermaLink="false">de55fe526105</guid>
 <pubDate>Wed, 25 Nov 2026 19:00:00 -0500</pubDate>
-<description>&lt;p&gt;针对“实转仿”（Real-to-Sim）领域基准不统一的问题，提出了统一的评估平台，以标准化 AI 对物理世界的建模能力。&lt;/p&gt;&lt;p&gt;★★★ · HF Daily Papers · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-26.html"&gt;2026-11-26 精选&lt;/a&gt;&lt;/p&gt;</description>
+<description>&lt;p&gt;Real2SimLab 是一个专门用于评估“真实到模拟”（Real-to-Simulation）转换能力的统一平台。它通过标准化代码生成代理的输入、执行流程及评分管道，解决了以往基准测试碎片化导致集成困难的问题。该项目支持多种编码代理，并提供数据生成和奖励注释流水线，旨在促进真实场景向仿真环境的转化研究。&lt;/p&gt;&lt;p&gt;★★★ · HF Daily Papers · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-26.html"&gt;2026-11-26 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>多智能体系统构建与评估指南</title>
 <link>https://huggingface.co/blog/training-swarms</link>
 <guid isPermaLink="false">c01600d41603</guid>
 <pubDate>Wed, 25 Nov 2026 19:00:00 -0500</pubDate>
-<description>&lt;p&gt;深入探讨了如何设计、训练和评估多智能体协作系统（Swarms），是 AI 智能体开发领域的实操性教程。&lt;/p&gt;&lt;p&gt;★★★ · Hugging Face · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-26.html"&gt;2026-11-26 精选&lt;/a&gt;&lt;/p&gt;</description>
+<description>&lt;p&gt;这是一篇关于构建和评估多智能体协作系统（Swarms）的指南。文章探讨了在多代理环境中，如何通过强化学习让模型学习通信协作，而非简单地增加算力消耗。它强调了在控制总预算的前提下，评估协作通信是否真正带来性能增益的重要性，并提供了小规模实验方案供开发者实践。&lt;/p&gt;&lt;p&gt;★★★ · Hugging Face · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-26.html"&gt;2026-11-26 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>纽约时报建议摄影师禁用Photoshop的AI功能</title>
@@ -747,76 +782,6 @@
 <guid isPermaLink="false">7afe22db314e</guid>
 <pubDate>Thu, 12 Nov 2026 19:00:00 -0500</pubDate>
 <description>&lt;p&gt;SO-Arena 是一个专门用于评估“系统一”（System One）类快速决策AI模型的基准测试，涵盖了11个领域及多种能力维度。该基准不仅关注模型性能的准确度，还重点引入了“决策稳定性”和“缺失答案识别”作为衡量可靠性的关键指标。研究表明，模型整体表现出色并不等同于决策可靠，这一发现强调了在衡量AI能力时，必须将决策可靠性作为与能力谱系同等重要的维度。&lt;/p&gt;&lt;p&gt;★★★ · HF Daily Papers · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-14.html"&gt;2026-11-14 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>黄仁勋卸任英伟达CEO</title>
-<link>https://www.qbitai.com/2026/11/509995.html</link>
-<guid isPermaLink="false">ac6b5041cf84</guid>
-<pubDate>Fri, 13 Nov 2026 04:02:00 -0500</pubDate>
-<description>&lt;p&gt;英伟达CEO黄仁勋已正式辞去总裁、CEO及董事职务，由现任CFO Colette Kress暂时接任。这一重大人事变动导致英伟达股价在消息公布后出现波动，目前董事会已启动接任者遴选流程。此举标志着这家由黄仁勋掌舵33年的AI算力巨头进入了权力过渡期，后续经营稳定性备受市场关注。&lt;/p&gt;&lt;p&gt;★★★★★ · 量子位 · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-13.html"&gt;2026-11-13 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>数学领域的突破将加速AI发展</title>
-<link>https://www.dwarkesh.com/p/rsi</link>
-<guid isPermaLink="false">80a7173f8db2</guid>
-<pubDate>Fri, 13 Nov 2026 13:37:00 -0500</pubDate>
-<description>&lt;p&gt;作者认为AI在数学等可验证领域表现出的惊人进化速度，预示着AI将快速实现对AI研发本身的自动化。通过大量小规模实验和智能化的思路整合，AI已具备加速自身技术迭代的能力，甚至有望在2030年前达到全面超越人类专家的水平。这一趋势说明AI研究正在从理论探索转向以工程验证为主的范式，极大地压缩了技术进步的时间周期。&lt;/p&gt;&lt;p&gt;★★★★ · Dwarkesh Podcast · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-13.html"&gt;2026-11-13 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>AI 助力破解哥德尔手稿中的数百条数学定理</title>
-<link>https://www.theguardian.com/science/2026/nov/13/kurt-godel-notebooks-ai-helps-unlock-hidden-discoveries-man-who-transformed-maths</link>
-<guid isPermaLink="false">e940fd987572</guid>
-<pubDate>Fri, 13 Nov 2026 12:30:00 -0500</pubDate>
-<description>&lt;p&gt;研究人员利用AI大模型Claude成功解读了逻辑学家哥德尔（Kurt Gödel）留下的千页手稿，这些手稿主要使用晦涩的速记法书写。AI不仅协助梳理了哥德尔的逻辑推导，还帮助验证了其数百项定理，甚至重建了其未发表的证明路径。这一突破展示了AI在处理跨学科历史文献、辅助科学发现及验证复杂理论证明方面的巨大潜力。&lt;/p&gt;&lt;p&gt;★★★★ · Hacker News · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-13.html"&gt;2026-11-13 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>OpenAI推出ChatGPT Wallet</title>
-<link>https://openai.com/index/introducing-chatgpt-wallet</link>
-<guid isPermaLink="false">5bf4951adbe9</guid>
-<pubDate>Fri, 13 Nov 2026 10:00:00 -0500</pubDate>
-<description>&lt;p&gt;为智能体（Agent）引入钱包功能，支持在获得用户批准的情况下完成自动化购买任务。&lt;/p&gt;&lt;p&gt;★★★★ · OpenAI · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-13.html"&gt;2026-11-13 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>中国AI在复杂肺癌诊疗中取得突破</title>
-<link>https://www.qbitai.com/2026/11/509796.html</link>
-<guid isPermaLink="false">87c11ac884eb</guid>
-<pubDate>Fri, 13 Nov 2026 02:43:00 -0500</pubDate>
-<description>&lt;p&gt;医疗大模型MedGPT在肺癌复杂病例的诊疗实验中，以88:12的胜率击败了250名三甲医院专家医生，并在AI辅助下显著提升了医生的整体决策水平。通过整合海量临床证据并利用多路径策略推演，AI能够提供比单一指南更全面、更个性化的治疗方案建议。该研究标志着医疗AI正在从简单的问答式辅助，迈向参与复杂临床决策的实质性应用阶段。&lt;/p&gt;&lt;p&gt;★★★★ · 量子位 · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-13.html"&gt;2026-11-13 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>Edge0-145B 模型：在个人电脑上实现前沿 AI 能力</title>
-<link>https://edge0.ai/blog/introducing-edge0-145b-frontier-ai-capabilities-on-your-own-computer</link>
-<guid isPermaLink="false">f980cc1f1e21</guid>
-<pubDate>Thu, 12 Nov 2026 18:06:00 -0500</pubDate>
-<description>&lt;p&gt;Edge0-145B 是全球首个参数规模达 1450 亿的开源端侧 AI 模型，旨在个人电脑上运行高性能任务。它是通过共享专家矩阵、训练时适配端侧架构、分层内存加载以及 CPU/GPU 协同调度等技术实现的。该模型值得关注在于它在本地提供了媲美云端前沿模型的编码与推理能力，同时规避了云端调用成本及数据隐私风险，但仍对硬件性能有一定要求。&lt;/p&gt;&lt;p&gt;★★★★ · Hacker News · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-13.html"&gt;2026-11-13 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>llama.cpp v1.0.0发布</title>
-<link>https://huggingface.co/blog/ggml-org/llama-cpp-v1</link>
-<guid isPermaLink="false">40e78db6601d</guid>
-<pubDate>Fri, 13 Nov 2026 09:05:00 -0500</pubDate>
-<description>&lt;p&gt;llama.cpp正式发布v1.0.0版本，确立了其作为本地化AI运行生态基础平台的地位。它通过量化技术和高效的C/C++实现，使多模态大模型能够在各种计算设备上流畅运行。此举不仅为开发者提供了更稳定、跨平台的API接口，也体现了开源社区在推动大模型本地部署和隐私保护方面的技术沉淀。&lt;/p&gt;&lt;p&gt;★★★ · Hugging Face · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-13.html"&gt;2026-11-13 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>Shield 利用 AI 自动化处理旧版 IT 系统工作流</title>
-<link>https://openai.com/business/customer-stories/shield</link>
-<guid isPermaLink="false">d1318183fe17</guid>
-<pubDate>Fri, 13 Nov 2026 03:00:00 -0500</pubDate>
-<description>&lt;p&gt;Shield 使用 OpenAI 的大模型技术开发 Forge 智能体，自动处理繁琐的旧版门户网站操作，让 IT 技术人员能腾出精力处理更复杂的决策性事务。&lt;/p&gt;&lt;p&gt;★★★ · OpenAI · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-13.html"&gt;2026-11-13 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>ArtCraft 通过 AI 复刻 Photoshop 并意图重构互联网</title>
-<link>https://latent.space/p/artcraft/</link>
-<guid isPermaLink="false">0f77776f7c50</guid>
-<pubDate>Thu, 12 Nov 2026 23:17:00 -0500</pubDate>
-<description>&lt;p&gt;ArtCraft 是一个旨在利用 AI 重构主流软件的开源项目，目前已发布 PhotoCraft 等 17 款克隆工具。该项目通过向 AI 模型输入详细的功能与数据结构提示词，并结合 Rust 语言的高性能优势来构建应用程序。它受到关注是因为其试图打破 Web 2.0 时代大型科技公司对软件生态的垄断，通过 AI 自动化生成代码实现软件的完全开源与自主权。&lt;/p&gt;&lt;p&gt;★★★ · Latent Space · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-13.html"&gt;2026-11-13 精选&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>Anthropic发布安全评估指南</title>
-<link>https://www.anthropic.com/research/building-strong-safety-evaluations</link>
-<guid isPermaLink="false">26498fde0610</guid>
-<pubDate>Thu, 12 Nov 2026 19:00:00 -0500</pubDate>
-<description>&lt;p&gt;文章探讨了构建高质量AI安全评估体系的方法，强调评估不仅要测量模型是否“拒绝”有害请求，更需通过跨学科专家参与和模拟真实情境来验证其行为的妥善性。通过引入类似于科学实验的严谨设计，评估工作旨在确保模型在安全与有用性之间取得平衡，避免简单的防御过度。这对于评估大模型在如网络安全、医疗等高风险领域的实际部署能力至关重要。&lt;/p&gt;&lt;p&gt;★★★ · Anthropic · &lt;a href="https://jiande.is-a.si/ai-frontier-digest/digest/2026/2026-11-13.html"&gt;2026-11-13 精选&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>
