@@ -6,6 +6,12 @@
 
 <!-- latest:start -->
 
+### [AI 崛起的前夜：研究者如何看待超级智能的临界点](2026/2026-11-27-ee98a806.md)
+
+Dwarkesh Podcast · 2026-11-27 · AI researchers debate what we should do next – Daniel Kokotajlo and Ege Erdil
+
+本期节目由播客主 Dwarkesh Patel 主持，邀请了 Google DeepMind 的研究员 Ege Erdil 和 AI Futures Project 的作者 Daniel Kokotajlo，共同探讨人工智能的发展现状与未来风险。两人虽对人工智能持谨慎态度，但就“智能大爆发（Intelligence Explosion）”发生的时间节点及紧迫性存在分歧。Daniel 认为 2027 年左右可能实现 AI 研发过程的完全自动化，导致超级智能出现，风险极高；Ege 则认为这种可能性的概率相对较低，且倾向于将 AI 视为一种像人类后代般的演进，而非必然的入侵者。嘉宾们深入讨论了“软件生成的奇点（Software-only Singularity）”、当前 AI 模型的对齐（Alignment）挑战、研发过程中的透明度与安全性，以及为什么目前全球对这项技术的潜在社会冲击缺乏理性的公共讨论。此外，节目还涉及了 AI 在经济领域的实际能力与局限、对中国在 AI 竞赛中角色的看法，以及对未来几年 AI 进展的预测。
+
 ### [后人类时代的生存：当人工智能重塑文明](2026/2026-11-26-7adef1ab.md)
 
 Practical AI · 2026-11-26 · 约 56 分钟 · Humans in a Post-Human World
@@ -30,18 +36,13 @@ Dwarkesh Podcast · 2026-11-16 · Paul Christiano – We could be 12 months away
 
 在本期节目中，Dwarkesh Patel 采访了 Alignment Research Center 的负责人、OpenAI 董事会成员 Paul Christiano。作为 AI 对齐（alignment）领域的领军人物，Christiano 指出我们正处于一个极其危险的轨道上：在不采取干预措施的情况下，未来 12 个月内出现足以推翻政府、人类难以控制的超级智能（superintelligence）的概率约为 1/3。他强调，当前 AI 实验室在算法创新上的“竞赛”加剧了风险，尤其是当这些实验室安全防护不足时，敏感的权重和研究机密极易被竞争对手（如中国）窃取，导致即便实验室想因安全原因暂停开发也难以实现。节目讨论了 AI 发展的自动化进程，即“智能爆炸”，这使得原本预计数年的技术进步可能在短期内被压缩。对于如何应对，Christiano 认为当前的 AI 实验室应在提升安全架构和对齐评估能力之前，暂停进一步的算法研究。他坦言，目前并没有一种单一的对齐方法拥有超过 50% 的胜算，希望在于随着智能的发展，AI 系统自身能协助人类找到解决对齐难题的方案。这一讨论揭示了前沿 AI 实验室内部对于生存风险的高度担忧与面临外部竞争压力时的复杂博弈。
 
-### [AI 研发的“自动驾驶”：重塑人工智能进化的拐点](2026/2026-11-13-80a7173f.md)
-
-Dwarkesh Podcast · 2026-11-13 · The avalanche that hit math is coming for AI development
-
-在这期 Dwarkesh Podcast 中，主播 Dwarkesh Patel 深入探讨了一个激进的观点：人工智能正处于自动化自身研发能力的边缘。嘉宾（主播本人）认为，由于人工智能在数学等可验证领域表现出惊人的解题能力，我们可能在未来一到三年内（即 2027-2028 年左右），就能看到 AI 在研发水平上达到甚至超越顶尖人类专家的水平。他通过分析 Anthropic 和 OpenAI 的实际案例指出，AI 已经在研发任务中展现出倍增的效率。他认为，AI 研发本质上是高度可验证的实验过程，即通过不断的模型训练、反馈与迭代来优化算法。一旦 AI 能够自主执行这些任务，其结合高速、高智能与大规模并行处理的能力，将引发“递归自我改进”（Recursive Self-Improvement, RSI）。主要观点在于，虽然“奇点”是否会瞬间到来仍有争议，但我们可以预期在短时间内经历相当于人类数年累积的进步速度。嘉宾同时承认，即便有“实验算力”瓶颈和“持续学习”难题，但鉴于 AI 模仿人类专家学习经验的极高效率，这种范式转变依然极具可能。
-
 <!-- latest:end -->
 
 ## 往期
 
 <!-- archive:start -->
 
+- 2026-11-13：[AI 研发的“自动驾驶”：重塑人工智能进化的拐点](2026/2026-11-13-80a7173f.md)（Dwarkesh Podcast）
 - 2026-11-13：[通过联邦学习增强代理人工智能](2026/2026-11-13-3c42ca3a.md)（Practical AI）
 - 2026-11-05：[AI 也能搞“卧底”：用《血染钟楼》测试大模型的社交欺诈与策略推理](2026/2026-11-05-c0c2d1f3.md)（Dwarkesh Podcast）
 - 2026-11-05：[中西部AI峰会：大组织的AI落地与信任边界](2026/2026-11-05-ed7bed4a.md)（Practical AI）
