@@ -28,9 +28,9 @@
    "unit": "$",
    "decimals": 0,
    "change": "pct",
-   "date": "2026-11-25",
-   "value": 60643.93,
-   "previous": 59515.19,
+   "date": "2026-11-26",
+   "value": 60665.63,
+   "previous": 60643.93,
    "source": "https://fred.stlouisfed.org/series/CBBTCUSD"
   },
   {
@@ -61,8 +61,8 @@
    "unit": "$",
    "decimals": 0,
    "change": "pct",
-   "date": "2026-11-26",
-   "value": 3593.4,
+   "date": "2026-11-27",
+   "value": 3707.7,
    "previous": 3535.8,
    "detail": "COMEX 黄金期货（GC=F），美元/盎司",
    "source": "https://finance.yahoo.com/quote/GC=F/"
@@ -73,9 +73,9 @@
    "unit": "",
    "decimals": 0,
    "change": "pct",
-   "date": "2026-11-25",
-   "value": 3476.47,
-   "previous": 3548.37,
+   "date": "2026-11-27",
+   "value": 3606.49,
+   "previous": 3476.88,
    "detail": "上证综合指数（000001.SS）",
    "source": "https://finance.yahoo.com/quote/000001.SS/"
   },
@@ -94,27 +94,20 @@
  ],
  "news": [
   {
-   "section": "AI",
-   "number": "0.8B",
-   "label": "监控模型参数规模",
-   "title": "NightWatch：提升AI代理感知能力",
-   "link": "https://huggingface.co/papers/2611.28947"
-  },
-  {
    "section": "科学",
-   "number": "100万颗",
-   "label": "SpaceX获准部署的卫星数量",
-   "title": "SpaceX获准部署百万卫星数据中心引发争议",
-   "link": "https://phys.org/news/2026-11-fcc-spacex-deploy-million-satellites.html"
+   "number": "1770米",
+   "label": "科研团队勘探深海卤水池的海底深度",
+   "title": "红海深处发现神秘盐水池",
+   "link": "https://www.sciencedaily.com/releases/2026/11/261125045259.htm"
   },
   {
    "section": "美股",
-   "number": "3.8%",
-   "label": "十月份加速的通胀指标数据",
-   "title": "Fed’s preferred inflation gauge accelerated to 3.8% in October, raising the 2027 stakes for the central bank",
-   "link": "https://jiande.is-a.si/us-market/news/2026/2026-11-25.html#news-1"
+   "number": "4.3%",
+   "label": "美国第三季度GDP增速修正后的数值",
+   "title": "美国第三季度GDP增速大幅上修至4.3%",
+   "link": "https://jiande.is-a.si/us-market/news/2026/2026-11-26.html#news-1"
   }
  ],
- "newsKey": "ai-097626610623,ai-23b0b1b9d327,ai-244a3e8cb4f1,ai-c01600d41603,ai-ccb9331ad406,ai-d3aa48daa62d,ai-dc69597abec1,ai-de55fe526105,ai-e55362f3820b,market-2026-11-25-1,market-2026-11-25-2,market-2026-11-25-3,market-2026-11-25-4,market-2026-11-25-5,science-5cb019b65aea,science-91374f1def80,science-c1fbed2b988e,science-dc6fbeafb878",
- "updated": "2026-11-26T22:29:11+00:00"
+ "newsKey": "ai-00bb51c293be,ai-44a871db658d,ai-4d9d55e7b393,ai-6f6a6b07f17a,ai-f717d7d51a9f,market-2026-11-26-1,market-2026-11-26-2,market-2026-11-26-3,market-2026-11-26-4,market-2026-11-26-5,science-34e52cea82e0,science-91374f1def80,science-be352f5a2ff3,science-c9d929f7e8b1,science-f340aa54b5dd",
+ "updated": "2026-11-27T09:52:45+00:00"
 }
