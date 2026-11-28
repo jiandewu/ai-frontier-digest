@@ -13,6 +13,7 @@
 | ★★★★ | [儿童受屏幕时间影响的两个关键敏感期](https://www.sciencedaily.com/releases/2026/11/261126033220.htm) | 研究指出，婴儿期和正式入学初期是儿童受屏幕时间负面影响的两个关键期，过多的屏幕接触可能与较弱的记忆力和较低的学业表现相关。 | ScienceDaily |
 | ★★★★ | [詹姆斯·韦布空间望远镜观测到极度贫金属的遥远星系](https://phys.org/news/2026-11-jwst-tiny-metal-poor-galaxy.html) | 利用James Webb Space Telescope观测到的星系LAP2，其氧含量仅为太阳的一小部分，为了解122亿年前早期宇宙的星系演化提供了观测依据。 | Phys.org |
 | ★★★★ | [泥炭地排水是全球变暖的重要推手](https://arstechnica.com/science/2026/11/draining-peatlands-is-responsible-for-a-few-percent-of-our-global-warming/) | 一项回溯至1800年的详细估算显示，人类对泥炭地（peatlands）的开发与排水释放了大量碳，这导致了全球变暖中不可忽视的百分比份额。 | Ars Technica |
+| ★★★ | [NASA将在空间站开展太空农作物种植实验](https://science.nasa.gov/science-research/biological-physical-sciences/nasas-ng-25-mission-to-launch-pioneering-space-crops-research/) | NASA计划通过第25次商业补给任务，将一套开创性的太空农作物生产系统送往国际空间站（International Space Station），旨在探索空间环境下的农业技术，为长期太空生存提供科学依据。 | NASA |
 
 <!-- latest:end -->
 
@@ -20,7 +21,7 @@
 
 <!-- archive:start -->
 
-- [2026-11-27](digest/2026/2026-11-27.md)：4 条精选
+- [2026-11-27](digest/2026/2026-11-27.md)：5 条精选
 - [2026-11-26](digest/2026/2026-11-26.md)：5 条精选
 - [2026-11-25](digest/2026/2026-11-25.md)：8 条精选
 - [2026-11-24](digest/2026/2026-11-24.md)：8 条精选
