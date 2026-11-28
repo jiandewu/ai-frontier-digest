@@ -17,9 +17,9 @@
    "unit": "",
    "decimals": 0,
    "change": "pct",
-   "date": "2026-11-25",
-   "value": 23585.8,
-   "previous": 23733.54,
+   "date": "2026-11-27",
+   "value": 24129.5,
+   "previous": 23585.8,
    "source": "https://fred.stlouisfed.org/series/NASDAQCOM"
   },
   {
@@ -28,9 +28,9 @@
    "unit": "$",
    "decimals": 0,
    "change": "pct",
-   "date": "2026-11-26",
-   "value": 60665.63,
-   "previous": 60643.93,
+   "date": "2026-11-27",
+   "value": 59935.67,
+   "previous": 60665.63,
    "source": "https://fred.stlouisfed.org/series/CBBTCUSD"
   },
   {
@@ -62,7 +62,7 @@
    "decimals": 0,
    "change": "pct",
    "date": "2026-11-27",
-   "value": 3668.5,
+   "value": 3639.6,
    "previous": 3535.8,
    "detail": "COMEX 黄金期货（GC=F），美元/盎司",
    "source": "https://finance.yahoo.com/quote/GC=F/"
@@ -73,9 +73,9 @@
    "unit": "",
    "decimals": 0,
    "change": "pct",
-   "date": "2026-11-26",
-   "value": 3476.88,
-   "previous": 3476.47,
+   "date": "2026-11-27",
+   "value": 3606.49,
+   "previous": 3476.88,
    "detail": "上证综合指数（000001.SS）",
    "source": "https://finance.yahoo.com/quote/000001.SS/"
   },
@@ -95,19 +95,19 @@
  "news": [
   {
    "section": "科学",
-   "number": "56个",
-   "label": "全球冠层地图集覆盖的国家数量",
+   "number": "3500份",
+   "label": "全球森林三维测绘整合的机载激光雷达调查数据",
    "title": "全球森林三维测绘地图集发布",
    "link": "https://phys.org/news/2026-11-atlas-laser-surveys-forests-countries.html"
   },
   {
    "section": "美股",
-   "number": "4.3%",
-   "label": "美国第三季度GDP增速上修后的数据",
-   "title": "美国第三季度GDP增速大幅上修至4.3%",
-   "link": "https://jiande.is-a.si/us-market/news/2026/2026-11-26.html#news-1"
+   "number": "15%",
+   "label": "美国拟对部分进口产品加征的最高关税税率",
+   "title": "美拟议关税清单豁免芯片与服务器，台积电等半导体股走高",
+   "link": "https://jiande.is-a.si/us-market/news/2026/2026-11-27.html#news-2"
   }
  ],
- "newsKey": "ai-00bb51c293be,ai-2d7f8b4f8454,ai-44a871db658d,ai-6aa339a9d536,ai-6f6a6b07f17a,ai-74835a583675,ai-ea247b47b521,ai-ee98a806290f,ai-f717d7d51a9f,market-2026-11-26-1,market-2026-11-26-2,market-2026-11-26-3,market-2026-11-26-4,market-2026-11-26-5,science-34c18d401d4b,science-dcbee2fc29c2,science-ea8acbe657f6,science-eafa907aad15",
- "updated": "2026-11-27T22:12:07+00:00"
+ "newsKey": "ai-01cdd83d3c55,ai-1d17e03a65e6,ai-42f8ff418476,ai-fec1e6352011,market-2026-11-27-1,market-2026-11-27-2,market-2026-11-27-3,market-2026-11-27-4,market-2026-11-27-5,science-4124dd240ef0,science-ae380aea10c8,science-dcbee2fc29c2,science-ea8acbe657f6,science-eafa907aad15",
+ "updated": "2026-11-28T09:05:32+00:00"
 }
